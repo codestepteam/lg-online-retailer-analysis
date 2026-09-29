@@ -1,0 +1,584 @@
+{"offset": "0x56000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x56038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x56060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x56090", "text": "strings are too large to concat"}
+{"offset": "0x560b0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x560d8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x56100", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x561b0", "text": " while calling a Python object"}
+{"offset": "0x561d0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x56200", "text": "function's dictionary may not be deleted"}
+{"offset": "0x56230", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x56260", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x562c0", "text": "invalid input, expected coroutine"}
+{"offset": "0x562e8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x56318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x56348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x56378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x563e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x56410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x56470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x564a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x564c8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x564f8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x56640", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x56678", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x566b0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x566d8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x56708", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x56740", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x56778", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x567a0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x567d0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x56810", "text": "join() result is too long for a Python string"}
+{"offset": "0x56840", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x56868", "text": "/tmp/clinic_build_y1xih54e/cbuild/discover_targets.c"}
+{"offset": "0x568a0", "text": "generator raised StopIteration"}
+{"offset": "0x568c0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x568e0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x56900", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x56928", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x56968", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x569b0", "text": "discover_targets._me_pl_cat_url.build"}
+{"offset": "0x569d8", "text": "discover_targets._datart_cat_url.build"}
+{"offset": "0x56a00", "text": "discover_targets._euro_cat_url.build"}
+{"offset": "0x56a28", "text": "discover_targets._alza_cat_url.build"}
+{"offset": "0x56a50", "text": "discover_targets._me_pl_cat_url"}
+{"offset": "0x56a70", "text": "discover_targets._datart_cat_url"}
+{"offset": "0x56a98", "text": "discover_targets._euro_cat_url"}
+{"offset": "0x56ab8", "text": "discover_targets._mm_brand_dw_url"}
+{"offset": "0x56ae0", "text": "discover_targets._eci_brand_dw_url"}
+{"offset": "0x56b08", "text": "discover_targets._alza_cat_url"}
+{"offset": "0x56b28", "text": "discover_targets._mm_brand_dw_url.lambda1"}
+{"offset": "0x56b58", "text": "discover_targets._eci_brand_dw_url.lambda"}
+{"offset": "0x56b88", "text": "discover_targets._mm_pl_dr_keep"}
+{"offset": "0x56ba8", "text": "discover_targets._euro_search_url"}
+{"offset": "0x56bd0", "text": "discover_targets.clean_pdp_url"}
+{"offset": "0x56bf0", "text": "coroutine is being awaited already"}
+{"offset": "0x56c18", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x56c50", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x56c90", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x56cc8", "text": "__await__() returned a coroutine"}
+{"offset": "0x56cf0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x56d20", "text": "instance exception may not have a separate value"}
+{"offset": "0x56d58", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x56da0", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x56de0", "text": "Module 'discover_targets' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x56e40", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x56e90", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x56ed0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x56ef8", "text": "discover_targets._euro_pl_page1_guard"}
+{"offset": "0x56f20", "text": "discover_targets._mm_pl_page1_guard"}
+{"offset": "0x56f48", "text": "discover_targets._extract_products"}
+{"offset": "0x56f70", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x56fa8", "text": "qualified name of the coroutine"}
+{"offset": "0x56fc8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x57028", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x57098", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x570d0", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x570f8", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x57130", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x57190", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x57200", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x57230", "text": "discover_targets.__pyx_scope_struct_7__run"}
+{"offset": "0x57260", "text": "discover_targets.__pyx_scope_struct_6_discover_one"}
+{"offset": "0x57298", "text": "discover_targets.__pyx_scope_struct_5__alza_cat_url"}
+{"offset": "0x572d0", "text": "discover_targets.__pyx_scope_struct_4__datart_cat_url"}
+{"offset": "0x57308", "text": "discover_targets.__pyx_scope_struct_3__me_pl_cat_url"}
+{"offset": "0x57340", "text": "discover_targets.__pyx_scope_struct_2__mm_brand_dw_url"}
+{"offset": "0x57378", "text": "discover_targets.__pyx_scope_struct_1__eci_brand_dw_url"}
+{"offset": "0x573b0", "text": "discover_targets.__pyx_scope_struct___euro_cat_url"}
+{"offset": "0x573e3", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x57401", "text": "%.200s() needs an argument"}
+{"offset": "0x5741c", "text": "Bad call flags for CyFunction"}
+{"offset": "0x5743a", "text": "<cyfunction %U at %p>"}
+{"offset": "0x57450", "text": "cannot import name %S"}
+{"offset": "0x57466", "text": "__loader__"}
+{"offset": "0x57471", "text": "loader"}
+{"offset": "0x57478", "text": "__file__"}
+{"offset": "0x57481", "text": "origin"}
+{"offset": "0x57488", "text": "__package__"}
+{"offset": "0x57494", "text": "parent"}
+{"offset": "0x5749b", "text": "__path__"}
+{"offset": "0x574a4", "text": "submodule_search_locations"}
+{"offset": "0x574bf", "text": "keywords must be strings"}
+{"offset": "0x574d8", "text": "_cython_coroutine_type"}
+{"offset": "0x574ef", "text": "_cython_generator_type"}
+{"offset": "0x57506", "text": "_module"}
+{"offset": "0x5750e", "text": "__builtins__"}
+{"offset": "0x5751b", "text": "_cython_3_0_12"}
+{"offset": "0x5752a", "text": "%s (%s:%d)"}
+{"offset": "0x57535", "text": "coroutine already executing"}
+{"offset": "0x57551", "text": "generator already executing"}
+{"offset": "0x5756d", "text": "exactly"}
+{"offset": "0x57575", "text": "build"}
+{"offset": "0x5757b", "text": "path"}
+{"offset": "0x57580", "text": "discover_targets.py"}
+{"offset": "0x57594", "text": "slug"}
+{"offset": "0x57599", "text": "cat_id"}
+{"offset": "0x575a0", "text": "discover_targets._run"}
+{"offset": "0x575b6", "text": "discover_targets._run.lambda2"}
+{"offset": "0x575d4", "text": "_me_pl_cat_url"}
+{"offset": "0x575e3", "text": "_datart_cat_url"}
+{"offset": "0x575f3", "text": "_euro_cat_url"}
+{"offset": "0x57601", "text": "_mm_brand_dw_url"}
+{"offset": "0x57612", "text": "_eci_brand_dw_url"}
+{"offset": "0x57624", "text": "_alza_cat_url"}
+{"offset": "0x57632", "text": "lambda1"}
+{"offset": "0x5763a", "text": "base"}
+{"offset": "0x5763f", "text": "lambda"}
+{"offset": "0x57646", "text": "name '%U' is not defined"}
+{"offset": "0x5765f", "text": "_mm_pl_dr_keep"}
+{"offset": "0x5766e", "text": "discover_targets._eci_url"}
+{"offset": "0x57688", "text": "_euro_search_url"}
+{"offset": "0x57699", "text": "discover_targets._mm_url"}
+{"offset": "0x576b2", "text": "discover_targets._match"}
+{"offset": "0x576ca", "text": "clean_pdp_url"}
+{"offset": "0x576d8", "text": "at least"}
+{"offset": "0x576e1", "text": "at most"}
+{"offset": "0x576e9", "text": "discover_targets.discover_one"}
+{"offset": "0x57707", "text": "throw"}
+{"offset": "0x5770d", "text": "discover_targets._me_pl_cfg"}
+{"offset": "0x57729", "text": "discover_targets._euro_pl_cfg"}
+{"offset": "0x57747", "text": "discover_targets._alza_cfg"}
+{"offset": "0x57762", "text": "builtins"}
+{"offset": "0x5776b", "text": "cython_runtime"}
+{"offset": "0x5777a", "text": "does not match"}
+{"offset": "0x57789", "text": "collections.abc"}
+{"offset": "0x57799", "text": "backports_abc"}
+{"offset": "0x577a7", "text": "init discover_targets"}
+{"offset": "0x577bd", "text": "discover_targets._datart_cfg"}
+{"offset": "0x577da", "text": "_euro_pl_page1_guard"}
+{"offset": "0x577ef", "text": "discover_targets.main"}
+{"offset": "0x57805", "text": "_mm_pl_page1_guard"}
+{"offset": "0x57818", "text": "_extract_products"}
+{"offset": "0x5782a", "text": "discover_targets._mm_pl_cfg"}
+{"offset": "0x57846", "text": "discover_targets._mm_pl_url"}
+{"offset": "0x57862", "text": "credits"}
+{"offset": "0x5786a", "text": "CythonUnboundCMethod"}
+{"offset": "0x5787f", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x57898", "text": "__name__"}
+{"offset": "0x578a1", "text": "name of the coroutine"}
+{"offset": "0x578b7", "text": "__qualname__"}
+{"offset": "0x578c4", "text": "cr_frame"}
+{"offset": "0x578cd", "text": "Frame of the coroutine"}
+{"offset": "0x578e4", "text": "cr_running"}
+{"offset": "0x578ef", "text": "cr_await"}
+{"offset": "0x578f8", "text": "object being awaited, or None"}
+{"offset": "0x57916", "text": "cr_code"}
+{"offset": "0x5791e", "text": "__module__"}
+{"offset": "0x57929", "text": "send"}
+{"offset": "0x5792e", "text": "close"}
+{"offset": "0x57934", "text": "__reduce_ex__"}
+{"offset": "0x57942", "text": "__reduce__"}
+{"offset": "0x5794d", "text": "func_doc"}
+{"offset": "0x57956", "text": "__doc__"}
+{"offset": "0x5795e", "text": "func_name"}
+{"offset": "0x57968", "text": "func_dict"}
+{"offset": "0x57972", "text": "__dict__"}
+{"offset": "0x5797b", "text": "func_globals"}
+{"offset": "0x57988", "text": "__globals__"}
+{"offset": "0x57994", "text": "func_closure"}
+{"offset": "0x579a1", "text": "__closure__"}
+{"offset": "0x579ad", "text": "func_code"}
+{"offset": "0x579b7", "text": "__code__"}
+{"offset": "0x579c0", "text": "func_defaults"}
+{"offset": "0x579ce", "text": "__defaults__"}
+{"offset": "0x579db", "text": "__kwdefaults__"}
+{"offset": "0x579ea", "text": "__annotations__"}
+{"offset": "0x579fa", "text": "_is_coroutine"}
+{"offset": "0x57aa0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x57b80", "text": "mediaexpert\\.pl/agd/pralki-i-suszarki/suszarki/"}
+{"offset": "0x57bc0", "text": "mediaexpert\\.pl/agd/pralki-i-suszarki/pralko-suszarki/"}
+{"offset": "0x57c00", "text": "datart\\.cz/[a-z0-9-]*(?:pracka-se-susickou|pracko-susicka)-"}
+{"offset": "0x57c40", "text": "agd/lodowki-i-zamrazarki/lodowki-side-by-side"}
+{"offset": "0x57c80", "text": "/pl/product/_pralka-(?:z|i)-suszarka-"}
+{"offset": "0x57cc0", "text": "parse_retailers.home.elcorteingles"}
+{"offset": "0x57d00", "text": "mediaexpert\\.pl/agd/pralki-i-suszarki/pralki/"}
+{"offset": "0x57d40", "text": "mediaexpert\\.pl/agd/lodowki-i-zamrazarki/lodowki[a-z-]*/"}
+{"offset": "0x57d80", "text": "https://www.mediamarkt.pl/pl/search.html?query="}
+{"offset": "0x57dc0", "text": "https://www.mediamarkt.es/es/search.html?query="}
+{"offset": "0x57e00", "text": "https://www.mediamarkt.es/es/brand/"}
+{"offset": "0x57e40", "text": "https://www.euro.com.pl/search,strona-"}
+{"offset": "0x57e80", "text": "https://www.euro.com.pl/search.bhtml?keyword="}
+{"offset": "0x57ec0", "text": "https://www.elcorteingles.es/search-nwx/"}
+{"offset": "0x57f00", "text": "euro\\.com\\.pl/zestawy-pralka-i-suszarka/"}
+{"offset": "0x57f40", "text": "datart\\.cz/[a-z0-9-]*pracka-(?!se-susickou)"}
+{"offset": "0x57f80", "text": "datart\\.cz/[a-z0-9-]*(?:chladnicka|lednice)-"}
+{"offset": "0x57fc0", "text": "agd/pralki-i-suszarki/pralko-suszarki"}
+{"offset": "0x58000", "text": "agd/lodowki-i-zamrazarki/lodowki"}
+{"offset": "0x58040", "text": "_suszarka-(?:do-(?:wlosow|wosw|rak|zywnosci|grzybow|butow|butelek)|spozywcza|dla-|hotelowa)"}
+{"offset": "0x580a0", "text": "\"searchParamsStr\":\"[^\"]{0,160}?\",\"totalProducts\":(\\d+)"}
+{"offset": "0x580e0", "text": "/pl/product/_pralka-(?!(?:z|i)-suszarka-)"}
+{"offset": "0x58120", "text": "/pl/product/_(?:pralko-suszarka|pralka-(?:z|i)-suszarka)-"}
+{"offset": "0x58160", "text": "/pl/product/_(?:lodowka|chlodziarko-zamrazarka)-"}
+{"offset": "0x581a0", "text": "parse_retailers.home.mediamarkt"}
+{"offset": "0x581c0", "text": "(?i)pomp[ąa]\\s+ciepła|kondensacyjn|bębnow|\\b\\d+(?:[.,]\\d+)?\\s*kg\\b"}
+{"offset": "0x58220", "text": "(?i)do\\s+włos|do\\s+rąk|spożywcz|do\\s+żywności|dla\\s+zwierz|do\\s+grzyb|do\\s+butów|do\\s+butelek|hotelow|travel"}
+{"offset": "0x582a0", "text": "요청 batch_id 에 독립 적재 (base 미합류 — 운영 배치를 건드리면 안 되는 샘플 검증용. 예: --batch-id 20260709_dwtest --limit 3)"}
+{"offset": "0x58340", "text": "%(asctime)s %(levelname)s %(message)s"}
+{"offset": "0x58380", "text": "/electrodomesticos/lavavajillas/"}
+{"offset": "0x583c0", "text": "_eci_brand_dw_url.<locals>.<lambda>"}
+{"offset": "0x583f0", "text": "agd/pralki-i-suszarki/suszarki"}
+{"offset": "0x58420", "text": "susicka-(?:na-)?(?:ovoce|potravin|hub)"}
+{"offset": "0x58460", "text": "_mm_brand_dw_url.<locals>.<lambda>"}
+{"offset": "0x58490", "text": "americke-lednice-side-by-side"}
+{"offset": "0x584c0", "text": "Lodówki z dolnym zamrażalnikiem"}
+{"offset": "0x58500", "text": "tuple[list[dict], int, str | None]"}
+{"offset": "0x58530", "text": "agd/pralki-i-suszarki/pralki"}
+{"offset": "0x58550", "text": "euro\\.com\\.pl/pralko-suszarki/"}
+{"offset": "0x58570", "text": "_datart_cat_url.<locals>.build"}
+{"offset": "0x58590", "text": "_me_pl_cat_url.<locals>.build"}
+{"offset": "0x585b0", "text": "https://www.elcorteingles.es/"}
+{"offset": "0x585d0", "text": "[data-test=\"mms-product-card\"]"}
+{"offset": "0x585f0", "text": "_euro_cat_url.<locals>.build"}
+{"offset": "0x58610", "text": "_alza_cat_url.<locals>.build"}
+{"offset": "0x58630", "text": "Elcorteingles_electronica"}
+{"offset": "0x58650", "text": "https://www.mediaexpert.pl/"}
+{"offset": "0x58670", "text": "datart\\.cz/[a-z0-9-]*susicka-"}
+{"offset": "0x58690", "text": "parse_retailers.common"}
+{"offset": "0x586b0", "text": "alza\\.cz/[a-z0-9-]+-d\\d+\\.htm$"}
+{"offset": "0x586d0", "text": "_MM_PL_APPLIANCE_BRANDS"}
+{"offset": "0x586f0", "text": "/product/_lavavajillas-"}
+{"offset": "0x58710", "text": "mm_brand_from_name_pl"}
+{"offset": "0x58730", "text": "https://www.euro.com.pl/"}
+{"offset": "0x58750", "text": "/pl/product/_suszarka-"}
+{"offset": "0x58770", "text": "parse_retailers.home."}
+{"offset": "0x58790", "text": "kombinovane-lednicky"}
+{"offset": "0x587b0", "text": "euro\\.com\\.pl/suszarki/"}
+{"offset": "0x587e0", "text": "discover: ES DW 스킵 후 남은 설정 없음 — no-op 종료"}
+{"offset": "0x58830", "text": "\"productsCount\"\\s*:\\s*(\\d+)"}
+{"offset": "0x58850", "text": "kombinovane-lednice"}
+{"offset": "0x58870", "text": "https://www.datart.cz/"}
+{"offset": "0x58890", "text": "_euro_pl_page1_guard"}
+{"offset": "0x588b0", "text": "euro\\.com\\.pl/lodowki/"}
+{"offset": "0x588d0", "text": "eci_brand_from_name"}
+{"offset": "0x588f0", "text": "discover_targets.py"}
+{"offset": "0x58910", "text": "americke-chladnicky"}
+{"offset": "0x58930", "text": "Lodówki side-by-side"}
+{"offset": "0x58950", "text": "DISCOVER_CONFIG_ALL"}
+{"offset": "0x58970", "text": "pracky-se-susickou"}
+{"offset": "0x58990", "text": "kombinovaná lednice"}
+{"offset": "0x589b0", "text": "_extract_products"}
+{"offset": "0x589d0", "text": "euro\\.com\\.pl/pralki/"}
+{"offset": "0x589f0", "text": "cline_in_traceback"}
+{"offset": "0x58a10", "text": "brand_from_name_pl"}
+{"offset": "0x58a30", "text": "asyncio.coroutines"}
+{"offset": "0x58a50", "text": "append_pdp_targets"}
+{"offset": "0x58a70", "text": "_EXCLUDED_RETAILERS"}
+{"offset": "0x58a90", "text": "_EURO_PL_REF_FILTER"}
+{"offset": "0x58ab0", "text": "_run.<locals>.<lambda>"}
+{"offset": "0x58ad0", "text": "_mm_pl_page1_guard"}
+{"offset": "0x58af0", "text": "https://www.alza.cz/"}
+{"offset": "0x58b10", "text": "count_pdp_targets"}
+{"offset": "0x58b40", "text": "적재할 batch_id (예: 20260709)"}
+{"offset": "0x58b70", "text": "_EURO_PL_WT_FILTER"}
+{"offset": "0x58b90", "text": "_EURO_PL_WM_FILTER"}
+{"offset": "0x58bb0", "text": "_EURO_PL_WD_FILTER"}
+{"offset": "0x58bd0", "text": "_EURO_PL_DR_FILTER"}
+{"offset": "0x58bf0", "text": "_DATART_REF_FILTER"}
+{"offset": "0x58c10", "text": "_DATART_DR_EXCLUDE"}
+{"offset": "0x58c40", "text": "검색 0건 (productsCount:0) — 적재 대상 없음"}
+{"offset": "0x58c80", "text": "og:url\"\\s+content=\"([^\"]+)\""}
+{"offset": "0x58ca0", "text": "model_from_title"}
+{"offset": "0x58cc0", "text": "extract_products"}
+{"offset": "0x58ce0", "text": "_eci_brand_dw_url"}
+{"offset": "0x58d00", "text": "discover_targets"}
+{"offset": "0x58d20", "text": "_MM_PL_REF_FILTER"}
+{"offset": "0x58d40", "text": "_MM_PL_DR_EXCLUDE"}
+{"offset": "0x58d60", "text": "_ME_PL_REF_FILTER"}
+{"offset": "0x58d80", "text": "Lodówki multidoor"}
+{"offset": "0x58da0", "text": "_EURO_PL_TOTAL_RE"}
+{"offset": "0x58dc0", "text": "_DATART_WM_FILTER"}
+{"offset": "0x58de0", "text": "_DATART_WD_FILTER"}
+{"offset": "0x58e00", "text": "_DATART_DR_FILTER"}
+{"offset": "0x58e20", "text": "pralko-suszarki"}
+{"offset": "0x58e30", "text": "pračka se sušičkou"}
+{"offset": "0x58e50", "text": "-pr-lavavajillas-"}
+{"offset": "0x58e70", "text": "model_from_slug"}
+{"offset": "0x58e80", "text": "_mm_brand_dw_url"}
+{"offset": "0x58ea0", "text": "_euro_search_url"}
+{"offset": "0x58ec0", "text": "brand_from_name"}
+{"offset": "0x58ed0", "text": "americká lednice"}
+{"offset": "0x58ef0", "text": "Pralko-suszarki"}
+{"offset": "0x58f00", "text": "MediaMarkt_ES"}
+{"offset": "0x58f10", "text": "_MM_PL_WT_FILTER"}
+{"offset": "0x58f30", "text": "_MM_PL_WM_FILTER"}
+{"offset": "0x58f50", "text": "_MM_PL_WD_FILTER"}
+{"offset": "0x58f70", "text": "_MM_PL_DR_FILTER"}
+{"offset": "0x58f90", "text": "_ME_PL_WM_FILTER"}
+{"offset": "0x58fb0", "text": "_ME_PL_WD_FILTER"}
+{"offset": "0x58fd0", "text": "_ME_PL_DR_FILTER"}
+{"offset": "0x58ff0", "text": "DISCOVER_CONFIG"}
+{"offset": "0x59000", "text": "_ALZA_PDP_FILTER"}
+{"offset": "0x59018", "text": "lg-electronics"}
+{"offset": "0x59028", "text": "lavavajillas@"}
+{"offset": "0x59040", "text": " / isolated batch="}
+{"offset": "0x59060", "text": "discover: 필터에 맞는 발견 설정 없음 — no-op 종료"}
+{"offset": "0x590b0", "text": "_datart_cat_url"}
+{"offset": "0x590c0", "text": "_PER_PAGE_LIMIT"}
+{"offset": "0x590d0", "text": "MediaExpert_PL"}
+{"offset": "0x590e0", "text": "_MM_PL_TOTAL_RE"}
+{"offset": "0x590f0", "text": "Lodówki Fit & Max"}
+{"offset": "0x59108", "text": "EXCLUDE_BRANDS"}
+{"offset": "0x59118", "text": "ArgumentParser"}
+{"offset": "0x59128", "text": "total_credits"}
+{"offset": "0x59138", "text": "susicky-38648"}
+{"offset": "0x59148", "text": "_mm_pl_dr_keep"}
+{"offset": "0x59158", "text": "_me_pl_cat_url"}
+{"offset": "0x59168", "text": "import_module"}
+{"offset": "0x59178", "text": "elcorteingles"}
+{"offset": "0x59188", "text": "credits_total"}
+{"offset": "0x59198", "text": "clean_pdp_url"}
+{"offset": "0x591a8", "text": "canon_brand"}
+{"offset": "0x591c0", "text": ".bhtml?keyword="}
+{"offset": "0x591d0", "text": "asyncio.tasks"}
+{"offset": "0x591e0", "text": "RtvEuroAgd_PL"}
+{"offset": "0x591f0", "text": "MediaMarkt_PL"}
+{"offset": "0x59200", "text": "특정 리테일러만 (예: MediaMarkt_ES)"}
+{"offset": "0x59230", "text": "FETCH_RETRIES"}
+{"offset": "0x59240", "text": "_EXCLUDED_CATS"}
+{"offset": "0x59250", "text": "_DW_BRANDS_ECI"}
+{"offset": "0x59260", "text": "urllib.parse"}
+{"offset": "0x59270", "text": "/lavavajillas"}
+{"offset": "0x59280", "text": "_is_coroutine"}
+{"offset": "0x59290", "text": "_initializing"}
+{"offset": "0x592a0", "text": "_euro_cat_url"}
+{"offset": "0x592b0", "text": "discover_one"}
+{"offset": "0x592c0", "text": "brand_filter"}
+{"offset": "0x592d0", "text": "_alza_cat_url"}
+{"offset": "0x592e0", "text": "add_argument"}
+{"offset": "0x59300", "text": "Phase 0 — 검색 SERP 타깃 발견"}
+{"offset": "0x59328", "text": "_MM_PL_DR_POS"}
+{"offset": "0x59338", "text": "_MM_PL_DR_NEG"}
+{"offset": "0x59348", "text": "LG WashTower"}
+{"offset": "0x59358", "text": "_DW_BRANDS_MM"}
+{"offset": "0x59368", "text": "CLINIC_ENTRY"}
+{"offset": "0x59378", "text": "url_exclude"}
+{"offset": "0x59388", "text": "scrapingbee"}
+{"offset": "0x59398", "text": "page1_guard"}
+{"offset": "0x593a8", "text": "ok_statuses"}
+{"offset": "0x593b8", "text": "name_filter"}
+{"offset": "0x593c8", "text": "mediaexpert"}
+{"offset": "0x593d8", "text": "_euro_pl_cfg"}
+{"offset": "0x593e8", "text": "description"}
+{"offset": "0x593f8", "text": "core.brands"}
+{"offset": "0x59408", "text": "_canon_brand"}
+{"offset": "0x59418", "text": "basicConfig"}
+{"offset": "0x59428", "text": "STALL_PAGES"}
+{"offset": "0x59438", "text": "_MM_PL_OG_RE"}
+{"offset": "0x59448", "text": "] MAX_PAGES("}
+{"offset": "0x59460", "text": "건) — ES DW 발견 스킵, PL/CZ 만 진행"}
+{"offset": "0x594a0", "text": "ES DW 배치 미존재 — ES DW 포함해 발견"}
+{"offset": "0x594d8", "text": "BRAND_CANON"}
+{"offset": "0x594f0", "text": ", wait_for 폴백"}
+{"offset": "0x59508", "text": "urlunsplit"}
+{"offset": "0x59518", "text": "url_filter"}
+{"offset": "0x59528", "text": "store_true"}
+{"offset": "0x59538", "text": "rtveuroadd"}
+{"offset": "0x59548", "text": "--retailer"}
+{"offset": "0x59558", "text": "quote_plus"}
+{"offset": "0x59568", "text": "parse_args"}
+{"offset": "0x59578", "text": "mediamarkt"}
+{"offset": "0x59588", "text": "--isolated"}
+{"offset": "0x59598", "text": "--instance"}
+{"offset": "0x595a8", "text": "discover"}
+{"offset": "0x595b8", "text": "_datart_cfg"}
+{"offset": "0x595c8", "text": "brand_slug"}
+{"offset": "0x595d8", "text": "brand_from"}
+{"offset": "0x595e8", "text": "--batch-id"}
+{"offset": "0x595f8", "text": "FAIL_PAGES"}
+{"offset": "0x59608", "text": "ELECTROLUX"}
+{"offset": "0x59618", "text": "split_key"}
+{"offset": "0x59628", "text": "render_js"}
+{"offset": "0x59638", "text": "model_mpc"}
+{"offset": "0x59648", "text": "_mm_pl_url"}
+{"offset": "0x59658", "text": "_mm_pl_cfg"}
+{"offset": "0x59668", "text": "_me_pl_cfg"}
+{"offset": "0x59678", "text": "list[dict]"}
+{"offset": "0x59688", "text": "isenabled"}
+{"offset": "0x59698", "text": "importlib"}
+{"offset": "0x596a8", "text": "getLogger"}
+{"offset": "0x596b8", "text": "--dry-run"}
+{"offset": "0x596c8", "text": "[dry-run] 총 "}
+{"offset": "0x596d8", "text": "credits"}
+{"offset": "0x596e0", "text": " / credits "}
+{"offset": "0x596f0", "text": "core.repo"}
+{"offset": "0x59700", "text": "category1"}
+{"offset": "0x59710", "text": "WHIRLPOOL"}
+{"offset": "0x59720", "text": "TypeError"}
+{"offset": "0x59730", "text": "MAX_PAGES"}
+{"offset": "0x59740", "text": "wait_for"}
+{"offset": "0x59750", "text": "urlsplit"}
+{"offset": "0x59760", "text": "suszarki"}
+{"offset": "0x59770", "text": "str | None"}
+{"offset": "0x5977b", "text": "status"}
+{"offset": "0x59788", "text": "retailer"}
+{"offset": "0x59798", "text": "required"}
+{"offset": "0x597a8", "text": "products"}
+{"offset": "0x597b8", "text": "page_url"}
+{"offset": "0x597c8", "text": "lednicky"}
+{"offset": "0x597d8", "text": "kept_out"}
+{"offset": "0x597e8", "text": "isolated"}
+{"offset": "0x597f8", "text": "int | None"}
+{"offset": "0x59808", "text": "instance"}
+{"offset": "0x59818", "text": "inserted"}
+{"offset": "0x59828", "text": "existing"}
+{"offset": "0x59840", "text": "discover 완료: 발견 "}
+{"offset": "0x59860", "text": "category"}
+{"offset": "0x59870", "text": "/campaign/"}
+{"offset": "0x59880", "text": "batch_id"}
+{"offset": "0x59890", "text": "argparse"}
+{"offset": "0x598a0", "text": "_alza_cfg"}
+{"offset": "0x598b0", "text": "all_rows"}
+{"offset": "0x598c0", "text": "Suszarki"}
+{"offset": "0x598d0", "text": "warning"}
+{"offset": "0x598d8", "text": "susicky"}
+{"offset": "0x598e0", "text": "stealth"}
+{"offset": "0x598e8", "text": "logging"}
+{"offset": "0x598f0", "text": "lodowki"}
+{"offset": "0x598f8", "text": "--limit"}
+{"offset": "0x59900", "text": "lednice"}
+{"offset": "0x59908", "text": "keyword"}
+{"offset": "0x59910", "text": "isolate"}
+{"offset": "0x59918", "text": "inspect"}
+{"offset": "0x59920", "text": "hisense"}
+{"offset": "0x59940", "text": "회 fetch 실패 → 중단 (누적 "}
+{"offset": "0x59968", "text": " fetch 예외("}
+{"offset": "0x59978", "text": "exclude"}
+{"offset": "0x59980", "text": "environ"}
+{"offset": "0x59988", "text": "_eci_url"}
+{"offset": "0x59998", "text": "dry_run"}
+{"offset": "0x599a0", "text": "disable"}
+{"offset": "0x599a8", "text": "건 (credits "}
+{"offset": "0x599b8", "text": "country"}
+{"offset": "0x599c0", "text": "configs"}
+{"offset": "0x599c8", "text": "compile"}
+{"offset": "0x599d0", "text": "attempt"}
+{"offset": "0x599d8", "text": "asyncio"}
+{"offset": "0x599e0", "text": "SIEMENS"}
+{"offset": "0x599e8", "text": "SAMSUNG"}
+{"offset": "0x599f0", "text": "INDESIT"}
+{"offset": "0x599f8", "text": "HISENSE"}
+{"offset": "0x59a00", "text": "GORENJE"}
+{"offset": "0x59a08", "text": "values"}
+{"offset": "0x59a10", "text": ",strona-"}
+{"offset": "0x59a20", "text": " status="}
+{"offset": "0x59a29", "text": "sorted"}
+{"offset": "0x59a30", "text": "skip"}
+{"offset": "0x59a35", "text": "search"}
+{"offset": "0x59a3c", "text": "scheme"}
+{"offset": "0x59a43", "text": "return"}
+{"offset": "0x59a4a", "text": "reason"}
+{"offset": "0x59a51", "text": "pralki"}
+{"offset": "0x59a58", "text": "pracky"}
+{"offset": "0x59a5f", "text": "parser"}
+{"offset": "0x59a68", "text": "] page "}
+{"offset": "0x59a70", "text": "?page="}
+{"offset": "0x59a77", "text": "&page="}
+{"offset": "0x59a7e", "text": "netloc"}
+{"offset": "0x59a88", "text": "__name__"}
+{"offset": "0x59a98", "text": "_mm_url"}
+{"offset": "0x59aa0", "text": "main"}
+{"offset": "0x59aa8", "text": "__import__"}
+{"offset": "0x59ab3", "text": ".html"}
+{"offset": "0x59ab9", "text": "format"}
+{"offset": "0x59ac0", "text": "failed"}
+{"offset": "0x59ac7", "text": "enable"}
+{"offset": "0x59ace", "text": "datart"}
+{"offset": "0x59ad5", "text": "cat_id"}
+{"offset": "0x59adc", "text": "brands"}
+{"offset": "0x59ae3", "text": "action"}
+{"offset": "0x59aea", "text": "Pralki"}
+{"offset": "0x59af8", "text": "Lodówki"}
+{"offset": "0x59b10", "text": " / 신규 INSERT "}
+{"offset": "0x59b22", "text": "HOOVER"}
+{"offset": "0x59b29", "text": "Datart"}
+{"offset": "0x59b30", "text": "upper"}
+{"offset": "0x59b36", "text": "throw"}
+{"offset": "0x59b40", "text": "sušička"}
+{"offset": "0x59b4a", "text": "strip"}
+{"offset": "0x59b50", "text": "stall"}
+{"offset": "0x59b56", "text": "sleep"}
+{"offset": "0x59b60", "text": "range"}
+{"offset": "0x59b66", "text": "print"}
+{"offset": "0x59b70", "text": "pračka"}
+{"offset": "0x59b80", "text": "] page1 가드 — "}
+{"offset": "0x59b94", "text": "_match"}
+{"offset": "0x59b9b", "text": "lower"}
+{"offset": "0x59ba1", "text": "limit"}
+{"offset": "0x59ba7", "text": "level"}
+{"offset": "0x59bad", "text": "items"}
+{"offset": "0x59bb3", "text": "group"}
+{"offset": "0x59bb9", "text": "found"}
+{"offset": "0x59bbf", "text": "fetch"}
+{"offset": "0x59bc5", "text": "fails"}
+{"offset": "0x59bcb", "text": "es_dw"}
+{"offset": "0x59bd1", "text": "error"}
+{"offset": "0x59bd7", "text": "close"}
+{"offset": "0x59bdd", "text": "build"}
+{"offset": "0x59be3", "text": "brand"}
+{"offset": "0x59be9", "text": "bosch"}
+{"offset": "0x59bef", "text": ".bhtml"}
+{"offset": "0x59bf6", "text": "balay"}
+{"offset": "0x59c00", "text": "__await__"}
+{"offset": "0x59c0a", "text": "SHARP"}
+{"offset": "0x59c10", "text": "MIELE"}
+{"offset": "0x59c16", "text": "HAIER"}
+{"offset": "0x59c20", "text": "ES DW 이미 배치 존재 ("}
+{"offset": "0x59c3d", "text": "CANDY"}
+{"offset": "0x59c43", "text": "BOSCH"}
+{"offset": "0x59c49", "text": "BALAY"}
+{"offset": "0x59c4f", "text": "AMICA"}
+{"offset": "0x59c55", "text": "want"}
+{"offset": "0x59c5a", "text": "wait"}
+{"offset": "0x59c5f", "text": "type"}
+{"offset": "0x59c68", "text": "__test__"}
+{"offset": "0x59c78", "text": "__spec__"}
+{"offset": "0x59c81", "text": "slug"}
+{"offset": "0x59c90", "text": " → 키워드 skip"}
+{"offset": "0x59ca4", "text": "send"}
+{"offset": "0x59ca9", "text": "rows"}
+{"offset": "0x59cae", "text": "purl"}
+{"offset": "0x59cb3", "text": "path"}
+{"offset": "0x59cb8", "text": "page"}
+{"offset": "0x59cbd", "text": "name"}
+{"offset": "0x59cc8", "text": "__main__"}
+{"offset": "0x59cd1", "text": "info"}
+{"offset": "0x59cd6", "text": "html"}
+{"offset": "0x59cdb", "text": "help"}
+{"offset": "0x59ce0", "text": "exit"}
+{"offset": "0x59ce5", "text": "dict"}
+{"offset": "0x59cea", "text": "core"}
+{"offset": "0x59cef", "text": "bool"}
+{"offset": "0x59cf4", "text": "beko"}
+{"offset": "0x59cf9", "text": "base"}
+{"offset": "0x59cfe", "text": "args"}
+{"offset": "0x59d03", "text": "alza"}
+{"offset": "0x59d08", "text": "None"}
+{"offset": "0x59d0d", "text": "INFO"}
+{"offset": "0x59d20", "text": "특정 국가만 (예: ES)"}
+{"offset": "0x59d40", "text": "DB 적재 없이 발견 목록만 출력"}
+{"offset": "0x59d69", "text": "BEKO"}
+{"offset": "0x59d6e", "text": "Alza"}
+{"offset": "0x59d89", "text": "_run"}
+{"offset": "0x59da4", "text": ".htm"}
+{"offset": "0x59dc0", "text": "건 — 브랜드 분포: "}
+{"offset": "0x59de0", "text": "] 발견 "}
+{"offset": "0x59df0", "text": "건). 상한 재검토 필요."}
+{"offset": "0x59e20", "text": ") 도달 — 미수집 잔여 가능성 (누적 "}
+{"offset": "0x59e58", "text": " / 누적 "}
+{"offset": "0x59e68", "text": " / 신규 "}
+{"offset": "0x59e80", "text": " / 필터제외 "}
+{"offset": "0x59e98", "text": ": 타일 "}
+{"offset": "0x59eb0", "text": " → 페이지네이션 종료"}
+{"offset": "0x59ed0", "text": "건은 유지)"}
+{"offset": "0x59ee0", "text": " 연속 "}
+{"offset": "0x59f00", "text": "차) — 일시 오류, 재시도"}
+{"offset": "0x59f40", "text": "] 발견 0건 — 차단/마크업 변경 의심"}
+{"offset": "0x59fa4", "text": " (cr "}
+{"offset": "0x59fb0", "text": ") — 검색 리스팅 아님"}
+{"offset": "0x59ff0", "text": ") — DB 미적재"}
+{"offset": "0x5a020", "text": "리테일러별 최대 N개 (스모크용)"}
+{"offset": "0x5a060", "text": "검색 0건 — 페이지 타일은 추천 폴백"}
+{"offset": "0x5a0a0", "text": "캠페인 랜딩("}

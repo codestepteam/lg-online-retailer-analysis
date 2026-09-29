@@ -1,0 +1,271 @@
+{"offset": "0x30000", "text": "%.200s() needs an argument"}
+{"offset": "0x3001b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x30039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x3004f", "text": "__loader__"}
+{"offset": "0x3005a", "text": "loader"}
+{"offset": "0x30061", "text": "__file__"}
+{"offset": "0x3006a", "text": "origin"}
+{"offset": "0x30071", "text": "__package__"}
+{"offset": "0x3007d", "text": "parent"}
+{"offset": "0x30084", "text": "__path__"}
+{"offset": "0x3008d", "text": "submodule_search_locations"}
+{"offset": "0x300a8", "text": "keywords must be strings"}
+{"offset": "0x300c1", "text": "_cython_coroutine_type"}
+{"offset": "0x300d8", "text": "_cython_generator_type"}
+{"offset": "0x300ef", "text": "_module"}
+{"offset": "0x300f7", "text": "__builtins__"}
+{"offset": "0x30104", "text": "_cython_3_0_12"}
+{"offset": "0x30113", "text": "cannot import name %S"}
+{"offset": "0x30129", "text": "%s (%s:%d)"}
+{"offset": "0x30134", "text": "core/image_match.py"}
+{"offset": "0x30148", "text": "lambda"}
+{"offset": "0x3014f", "text": "exactly"}
+{"offset": "0x30157", "text": "hamming_distance"}
+{"offset": "0x30168", "text": "generator already executing"}
+{"offset": "0x30184", "text": "name '%U' is not defined"}
+{"offset": "0x3019d", "text": "at least"}
+{"offset": "0x301a6", "text": "at most"}
+{"offset": "0x301ae", "text": "compare_asset_sets"}
+{"offset": "0x301c4", "text": "genexpr"}
+{"offset": "0x301cc", "text": "results"}
+{"offset": "0x301d4", "text": "backfill_official_hashes"}
+{"offset": "0x301ed", "text": "builtins"}
+{"offset": "0x301f6", "text": "cython_runtime"}
+{"offset": "0x30205", "text": "does not match"}
+{"offset": "0x30214", "text": "collections.abc"}
+{"offset": "0x30224", "text": "backports_abc"}
+{"offset": "0x30232", "text": "init core.image_match"}
+{"offset": "0x30248", "text": "_fetch_hash_bytes"}
+{"offset": "0x3025a", "text": "calc_dhash_trim"}
+{"offset": "0x3026a", "text": "core.image_match.calc_dhash"}
+{"offset": "0x30286", "text": "throw"}
+{"offset": "0x3028c", "text": "_existing_hashed_urls"}
+{"offset": "0x302a2", "text": "_cython_3_0_12.generator"}
+{"offset": "0x302bb", "text": "__name__"}
+{"offset": "0x302c4", "text": "name of the generator"}
+{"offset": "0x302da", "text": "__qualname__"}
+{"offset": "0x302e7", "text": "gi_frame"}
+{"offset": "0x302f0", "text": "Frame of the generator"}
+{"offset": "0x30307", "text": "gi_running"}
+{"offset": "0x30312", "text": "gi_yieldfrom"}
+{"offset": "0x3031f", "text": "gi_code"}
+{"offset": "0x30327", "text": "__module__"}
+{"offset": "0x30332", "text": "send"}
+{"offset": "0x30337", "text": "close"}
+{"offset": "0x3033d", "text": "__reduce__"}
+{"offset": "0x30348", "text": "func_doc"}
+{"offset": "0x30351", "text": "__doc__"}
+{"offset": "0x30359", "text": "func_name"}
+{"offset": "0x30363", "text": "func_dict"}
+{"offset": "0x3036d", "text": "__dict__"}
+{"offset": "0x30376", "text": "func_globals"}
+{"offset": "0x30383", "text": "__globals__"}
+{"offset": "0x3038f", "text": "func_closure"}
+{"offset": "0x3039c", "text": "__closure__"}
+{"offset": "0x303a8", "text": "func_code"}
+{"offset": "0x303b2", "text": "__code__"}
+{"offset": "0x303bb", "text": "func_defaults"}
+{"offset": "0x303c9", "text": "__defaults__"}
+{"offset": "0x303d6", "text": "__kwdefaults__"}
+{"offset": "0x303e5", "text": "__annotations__"}
+{"offset": "0x303f5", "text": "_is_coroutine"}
+{"offset": "0x30408", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x30430", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x30460", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x30488", "text": " while calling a Python object"}
+{"offset": "0x304a8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x304d8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x30508", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x30538", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x30598", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x305c8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x305f8", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x30628", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x30690", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x306c0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x30720", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x30750", "text": "__name__ must be set to a string object"}
+{"offset": "0x30778", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x307a8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x308f0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x30928", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x30960", "text": "%.200s() keywords must be strings"}
+{"offset": "0x30988", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x309b8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x309f0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x30a20", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x30a60", "text": "join() result is too long for a Python string"}
+{"offset": "0x30a90", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x30ac0", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/image_match.c"}
+{"offset": "0x30af8", "text": "core.image_match.backfill_official_hashes.genexpr"}
+{"offset": "0x30b30", "text": "core.image_match.calc_dhash_trim.lambda"}
+{"offset": "0x30b58", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x30b98", "text": "core.image_match.hamming_distance"}
+{"offset": "0x30bc0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x30be8", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x30c10", "text": "core.image_match.compare_asset_sets"}
+{"offset": "0x30c38", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x30c70", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x30c98", "text": "generator raised StopIteration"}
+{"offset": "0x30cb8", "text": "core.image_match.backfill_official_hashes"}
+{"offset": "0x30ce8", "text": "Module 'image_match' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x30d40", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x30d90", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x30db8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x30e68", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x30ea8", "text": "core.image_match._fetch_hash_bytes"}
+{"offset": "0x30ed0", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x30ef0", "text": "core.image_match.calc_dhash_trim"}
+{"offset": "0x30f18", "text": "generator ignored GeneratorExit"}
+{"offset": "0x30f38", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x30f68", "text": "instance exception may not have a separate value"}
+{"offset": "0x30fa0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x30fe8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x31028", "text": "core.image_match._existing_hashed_urls"}
+{"offset": "0x31050", "text": "qualified name of the generator"}
+{"offset": "0x31070", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x310a0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x31100", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x31170", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x311a8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x311d8", "text": "core.image_match.__pyx_scope_struct__genexpr"}
+{"offset": "0x31240", "text": "tuple[int | None, int | None, int | None]"}
+{"offset": "0x31280", "text": "SELECT url FROM pdp_asset_hash WHERE url IN ("}
+{"offset": "0x312c0", "text": "INSERT INTO pdp_asset_hash (url, dhash, dhash_trim, bytes) VALUES (%s, %s, %s, %s) ON DUPLICATE KEY UPDATE dhash=VALUES(dhash), dhash_trim=VALUES(dhash_trim), bytes=VALUES(bytes), fetched_at=CURRENT_TIMESTAMP"}
+{"offset": "0x313a0", "text": "backfill_official_hashes.<locals>.genexpr"}
+{"offset": "0x313e0", "text": "calc_dhash_trim.<locals>.<lambda>"}
+{"offset": "0x31410", "text": "backfill_official_hashes"}
+{"offset": "0x31430", "text": "backfill_official_hashes: "}
+{"offset": "0x31450", "text": ") AND dhash_trim IS NOT NULL"}
+{"offset": "0x31480", "text": "backfill_official_hashes: 대상 "}
+{"offset": "0x314b0", "text": "matched_retailer_urls"}
+{"offset": "0x314d0", "text": "size_ratio_threshold"}
+{"offset": "0x314f0", "text": "_existing_hashed_urls"}
+{"offset": "0x31510", "text": "retailer_only_count"}
+{"offset": "0x31530", "text": "core/image_match.py"}
+{"offset": "0x31550", "text": "size_flagged_count"}
+{"offset": "0x31570", "text": "concurrent.futures"}
+{"offset": "0x31590", "text": "compare_asset_sets"}
+{"offset": "0x315b0", "text": "cline_in_traceback"}
+{"offset": "0x315d0", "text": "asyncio.coroutines"}
+{"offset": "0x315f0", "text": "ThreadPoolExecutor"}
+{"offset": "0x31610", "text": "calc_dhash_trim"}
+{"offset": "0x31620", "text": "hamming_distance"}
+{"offset": "0x31640", "text": "follow_redirects"}
+{"offset": "0x31660", "text": "_fetch_hash_bytes"}
+{"offset": "0x31680", "text": "core.image_match"}
+{"offset": "0x316a0", "text": "IMG_HASH_WORKERS"}
+{"offset": "0x316c0", "text": "calc_dhash_trim 실패: "}
+{"offset": "0x316e0", "text": "retailer_count"}
+{"offset": "0x316f0", "text": "retailer_bytes"}
+{"offset": "0x31700", "text": "official_count"}
+{"offset": "0x31710", "text": "official_bytes"}
+{"offset": "0x31720", "text": "get_connection"}
+{"offset": "0x31730", "text": "backfill fetch 실패 ("}
+{"offset": "0x31750", "text": "_BACKFILL_CHUNK"}
+{"offset": "0x31760", "text": "missing_count"}
+{"offset": "0x31770", "text": "matched_count"}
+{"offset": "0x31780", "text": "__class_getitem__"}
+{"offset": "0x31798", "text": "size_flagged"}
+{"offset": "0x317a8", "text": "retailer_url"}
+{"offset": "0x317b8", "text": "placeholders"}
+{"offset": "0x317c8", "text": "official_url"}
+{"offset": "0x317d8", "text": "_is_coroutine"}
+{"offset": "0x317e8", "text": "_initializing"}
+{"offset": "0x317f8", "text": "calc_dhash"}
+{"offset": "0x31808", "text": "status_code"}
+{"offset": "0x31818", "text": "executemany"}
+{"offset": "0x31828", "text": "startswith"}
+{"offset": "0x31838", "text": "match_rate"}
+{"offset": "0x31848", "text": "image_data"}
+{"offset": "0x31858", "text": "difference"}
+{"offset": "0x31870", "text": "calc_dhash 실패: "}
+{"offset": "0x31888", "text": "Resampling"}
+{"offset": "0x31898", "text": "ImageChops"}
+{"offset": "0x318a8", "text": "threshold"}
+{"offset": "0x318b8", "text": "monotonic"}
+{"offset": "0x318c8", "text": "list[dict]"}
+{"offset": "0x318d8", "text": "isenabled"}
+{"offset": "0x318e8", "text": "getLogger"}
+{"offset": "0x318f8", "text": "total_ok"}
+{"offset": "0x31908", "text": "setLevel"}
+{"offset": "0x31918", "text": "retailer"}
+{"offset": "0x31928", "text": "official"}
+{"offset": "0x31938", "text": "list[str]"}
+{"offset": "0x31948", "text": "int | None"}
+{"offset": "0x31958", "text": "hash_val"}
+{"offset": "0x31968", "text": "fetchall"}
+{"offset": "0x31978", "text": "existing"}
+{"offset": "0x31988", "text": "timeout"}
+{"offset": "0x31990", "text": "started"}
+{"offset": "0x31998", "text": "set[str]"}
+{"offset": "0x319a8", "text": "results"}
+{"offset": "0x319b0", "text": "r_match"}
+{"offset": "0x319b8", "text": "missing"}
+{"offset": "0x319c0", "text": "logging"}
+{"offset": "0x319c8", "text": "getdata"}
+{"offset": "0x319d0", "text": "getbbox"}
+{"offset": "0x319d8", "text": "genexpr"}
+{"offset": "0x319e0", "text": "execute"}
+{"offset": "0x319e8", "text": "environ"}
+{"offset": "0x319f0", "text": "disable"}
+{"offset": "0x319f8", "text": "core.db"}
+{"offset": "0x31a00", "text": "convert"}
+{"offset": "0x31a08", "text": "content"}
+{"offset": "0x31a10", "text": "_WORKERS"}
+{"offset": "0x31a20", "text": "WARNING"}
+{"offset": "0x31a28", "text": "_TIMEOUT"}
+{"offset": "0x31a38", "text": "LANCZOS"}
+{"offset": "0x31a40", "text": "BytesIO"}
+{"offset": "0x31a48", "text": "return"}
+{"offset": "0x31a4f", "text": "resize"}
+{"offset": "0x31a56", "text": "pixels"}
+{"offset": "0x31a60", "text": "__import__"}
+{"offset": "0x31a6b", "text": "enable"}
+{"offset": "0x31a72", "text": "cursor"}
+{"offset": "0x31a79", "text": "commit"}
+{"offset": "0x31a80", "text": "throw"}
+{"offset": "0x31a86", "text": "strip"}
+{"offset": "0x31a8c", "text": "round"}
+{"offset": "0x31a92", "text": "ratio"}
+{"offset": "0x31a98", "text": "range"}
+{"offset": "0x31a9e", "text": "point"}
+{"offset": "0x31aa4", "text": "httpx"}
+{"offset": "0x31aaa", "text": "float"}
+{"offset": "0x31ab0", "text": "__enter__"}
+{"offset": "0x31aba", "text": "dhash"}
+{"offset": "0x31ac0", "text": "debug"}
+{"offset": "0x31ad0", "text": "  dHash 백필 "}
+{"offset": "0x31ae0", "text": "count"}
+{"offset": "0x31ae6", "text": "close"}
+{"offset": "0x31aec", "text": "chunk"}
+{"offset": "0x31af2", "text": "bytes"}
+{"offset": "0x31af8", "text": "Image"}
+{"offset": "0x31afe", "text": "urls"}
+{"offset": "0x31b03", "text": "time"}
+{"offset": "0x31b08", "text": "__test__"}
+{"offset": "0x31b18", "text": "__spec__"}
+{"offset": "0x31b21", "text": "size"}
+{"offset": "0x31b26", "text": "send"}
+{"offset": "0x31b2b", "text": "rate"}
+{"offset": "0x31b30", "text": "pool"}
+{"offset": "0x31b39", "text": "open"}
+{"offset": "0x31b40", "text": "__name__"}
+{"offset": "0x31b50", "text": "__main__"}
+{"offset": "0x31b59", "text": "info"}
+{"offset": "0x31b5e", "text": "http"}
+{"offset": "0x31b68", "text": "__exit__"}
+{"offset": "0x31b71", "text": "done"}
+{"offset": "0x31b76", "text": "diff"}
+{"offset": "0x31b7b", "text": "dict"}
+{"offset": "0x31b80", "text": "crop"}
+{"offset": "0x31b85", "text": "conn"}
+{"offset": "0x31b8a", "text": "best"}
+{"offset": "0x31b8f", "text": "args"}
+{"offset": "0x31b94", "text": "None"}
+{"offset": "0x31bf0", "text": "건 조회 (해시 성공 "}
+{"offset": "0x31c10", "text": " | 잔여예상 "}
+{"offset": "0x31c28", "text": "%) | 성공 "}
+{"offset": "0x31c40", "text": "건 단위 커밋"}
+{"offset": "0x31c58", "text": ") — 워커 "}
+{"offset": "0x31c90", "text": "건 (캐시 보유 "}

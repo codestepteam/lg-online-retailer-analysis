@@ -1,0 +1,214 @@
+{"offset": "0x1c000", "text": "%.200s() needs an argument"}
+{"offset": "0x1c01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1c039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1c04f", "text": "cannot import name %S"}
+{"offset": "0x1c065", "text": "__loader__"}
+{"offset": "0x1c070", "text": "loader"}
+{"offset": "0x1c077", "text": "__file__"}
+{"offset": "0x1c080", "text": "origin"}
+{"offset": "0x1c087", "text": "__package__"}
+{"offset": "0x1c093", "text": "parent"}
+{"offset": "0x1c09a", "text": "__path__"}
+{"offset": "0x1c0a3", "text": "submodule_search_locations"}
+{"offset": "0x1c0be", "text": "keywords must be strings"}
+{"offset": "0x1c0d7", "text": "%s (%s:%d)"}
+{"offset": "0x1c0e2", "text": "exactly"}
+{"offset": "0x1c0ea", "text": "scripts/split_report.py"}
+{"offset": "0x1c102", "text": "scripts.split_report._latest"}
+{"offset": "0x1c121", "text": "No module named '%U'"}
+{"offset": "0x1c136", "text": "name '%U' is not defined"}
+{"offset": "0x1c14f", "text": "builtins"}
+{"offset": "0x1c158", "text": "cython_runtime"}
+{"offset": "0x1c167", "text": "__builtins__"}
+{"offset": "0x1c174", "text": "does not match"}
+{"offset": "0x1c183", "text": "_cython_3_0_12"}
+{"offset": "0x1c192", "text": "init scripts.split_report"}
+{"offset": "0x1c1b0", "text": "out_dir"}
+{"offset": "0x1c1b8", "text": "stem"}
+{"offset": "0x1c1bd", "text": "sheets"}
+{"offset": "0x1c1c4", "text": "items"}
+{"offset": "0x1c1ca", "text": "written"}
+{"offset": "0x1c1d2", "text": "append"}
+{"offset": "0x1c1d9", "text": "_emit"}
+{"offset": "0x1c1df", "text": "split_file"}
+{"offset": "0x1c1ea", "text": "values"}
+{"offset": "0x1c1f1", "text": "scripts.split_report.main"}
+{"offset": "0x1c20b", "text": "__reduce__"}
+{"offset": "0x1c216", "text": "__module__"}
+{"offset": "0x1c221", "text": "func_doc"}
+{"offset": "0x1c22a", "text": "__doc__"}
+{"offset": "0x1c232", "text": "func_name"}
+{"offset": "0x1c23c", "text": "__name__"}
+{"offset": "0x1c245", "text": "__qualname__"}
+{"offset": "0x1c252", "text": "func_dict"}
+{"offset": "0x1c25c", "text": "__dict__"}
+{"offset": "0x1c265", "text": "func_globals"}
+{"offset": "0x1c272", "text": "__globals__"}
+{"offset": "0x1c27e", "text": "func_closure"}
+{"offset": "0x1c28b", "text": "__closure__"}
+{"offset": "0x1c297", "text": "func_code"}
+{"offset": "0x1c2a1", "text": "__code__"}
+{"offset": "0x1c2aa", "text": "func_defaults"}
+{"offset": "0x1c2b8", "text": "__defaults__"}
+{"offset": "0x1c2c5", "text": "__kwdefaults__"}
+{"offset": "0x1c2d4", "text": "__annotations__"}
+{"offset": "0x1c2e4", "text": "_is_coroutine"}
+{"offset": "0x1c2f8", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1c320", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1c350", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1c378", "text": " while calling a Python object"}
+{"offset": "0x1c398", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1c3c8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1c3f8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1c428", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1c488", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1c4b8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1c4e8", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1c518", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1c580", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1c5b0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1c610", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1c640", "text": "__name__ must be set to a string object"}
+{"offset": "0x1c668", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1c6a0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1c6c8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1c6f8", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/split_report.c"}
+{"offset": "0x1c738", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1c778", "text": "Module 'split_report' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1c7d0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1c820", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1c850", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1c890", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1c8b8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1c968", "text": "scripts.split_report._latest.ver"}
+{"offset": "0x1c990", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x1c9c0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x1c9e8", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x1ca18", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x1ca40", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x1ca88", "text": "join() result is too long for a Python string"}
+{"offset": "0x1cab8", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x1cae8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1cb10", "text": "dictionary changed size during iteration"}
+{"offset": "0x1cb40", "text": "'NoneType' object is not iterable"}
+{"offset": "0x1cb68", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x1cb88", "text": "scripts.split_report.split_file._emit"}
+{"offset": "0x1cbb0", "text": "scripts.split_report.split_file"}
+{"offset": "0x1cbd0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1cc00", "text": "scripts.split_report.__pyx_scope_struct__split_file"}
+{"offset": "0x1cc40", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x1cd10", "text": "split_file.<locals>._emit"}
+{"offset": "0x1cd30", "text": "scripts/split_report.py"}
+{"offset": "0x1cd50", "text": "LGE-CLINIC-REPORT-*.xlsx"}
+{"offset": "0x1cd70", "text": "scripts.split_report"}
+{"offset": "0x1cd90", "text": "cline_in_traceback"}
+{"offset": "0x1cdb0", "text": "asyncio.coroutines"}
+{"offset": "0x1cde0", "text": "분할할 파일명(report/ 기준 상대). 생략 시 최신 wide+TRACK"}
+{"offset": "0x1ce30", "text": "_latest.<locals>.ver"}
+{"offset": "0x1ce48", "text": "ArgumentParser"}
+{"offset": "0x1ce60", "text": "__class_getitem__"}
+{"offset": "0x1ce78", "text": "_is_coroutine"}
+{"offset": "0x1ce88", "text": "_initializing"}
+{"offset": "0x1ce98", "text": "add_argument"}
+{"offset": "0x1cea8", "text": "COUNTRY_NAME"}
+{"offset": "0x1ceb8", "text": "CLINIC_ENTRY"}
+{"offset": "0x1cec8", "text": "core.naming"}
+{"offset": "0x1ced8", "text": "core.config"}
+{"offset": "0x1cee8", "text": "basicConfig"}
+{"offset": "0x1cef8", "text": "ExcelWriter"}
+{"offset": "0x1cf08", "text": "split_file"}
+{"offset": "0x1cf18", "text": "sheet_name"}
+{"offset": "0x1cf28", "text": "report_dir"}
+{"offset": "0x1cf38", "text": "read_excel"}
+{"offset": "0x1cf48", "text": "parse_args"}
+{"offset": "0x1cf58", "text": "name_to_cc"}
+{"offset": "0x1cf68", "text": "batch_id"}
+{"offset": "0x1cf78", "text": "retailers"}
+{"offset": "0x1cf88", "text": "%(message)s"}
+{"offset": "0x1cf98", "text": "list[Path]"}
+{"offset": "0x1cfa8", "text": "isenabled"}
+{"offset": "0x1cfb8", "text": "getLogger"}
+{"offset": "0x1cfc8", "text": "countries"}
+{"offset": "0x1cfd8", "text": "batch_dir"}
+{"offset": "0x1cfe8", "text": "Path | None"}
+{"offset": "0x1cff8", "text": "to_excel"}
+{"offset": "0x1d008", "text": "required"}
+{"offset": "0x1d018", "text": "openpyxl"}
+{"offset": "0x1d028", "text": "exist_ok"}
+{"offset": "0x1d038", "text": "--batch-id"}
+{"offset": "0x1d048", "text": "argparse"}
+{"offset": "0x1d058", "text": "Retailer"}
+{"offset": "0x1d068", "text": "written"}
+{"offset": "0x1d070", "text": "resolve"}
+{"offset": "0x1d078", "text": "pathlib"}
+{"offset": "0x1d080", "text": "parents"}
+{"offset": "0x1d088", "text": "out_dir"}
+{"offset": "0x1d090", "text": "logging"}
+{"offset": "0x1d098", "text": "files"}
+{"offset": "0x1d0a0", "text": "environ"}
+{"offset": "0x1d0a8", "text": "disable"}
+{"offset": "0x1d0b0", "text": "default"}
+{"offset": "0x1d0b8", "text": "compile"}
+{"offset": "0x1d0c0", "text": "columns"}
+{"offset": "0x1d0c8", "text": "Country"}
+{"offset": "0x1d0d0", "text": "values"}
+{"offset": "0x1d0d7", "text": "suffix"}
+{"offset": "0x1d0de", "text": "sheets"}
+{"offset": "0x1d0e5", "text": "search"}
+{"offset": "0x1d0ec", "text": "return"}
+{"offset": "0x1d0f3", "text": "report"}
+{"offset": "0x1d0fa", "text": "parent"}
+{"offset": "0x1d101", "text": "pandas"}
+{"offset": "0x1d108", "text": "__name__"}
+{"offset": "0x1d111", "text": "main"}
+{"offset": "0x1d118", "text": "_latest"}
+{"offset": "0x1d120", "text": "insert"}
+{"offset": "0x1d128", "text": "__import__"}
+{"offset": "0x1d133", "text": "format"}
+{"offset": "0x1d13a", "text": "exit"}
+{"offset": "0x1d13f", "text": "exists"}
+{"offset": "0x1d146", "text": "engine"}
+{"offset": "0x1d14d", "text": "enable"}
+{"offset": "0x1d154", "text": "dropna"}
+{"offset": "0x1d160", "text": "-(\\d+)\\.xlsx$"}
+{"offset": "0x1d16e", "text": "config"}
+{"offset": "0x1d175", "text": "astype"}
+{"offset": "0x1d180", "text": "_VER_RE"}
+{"offset": "0x1d188", "text": "value"}
+{"offset": "0x1d18e", "text": "track"}
+{"offset": "0x1d194", "text": "strip"}
+{"offset": "0x1d19a", "text": "split"}
+{"offset": "0x1d1a0", "text": "sname"}
+{"offset": "0x1d1a6", "text": "nargs"}
+{"offset": "0x1d1ac", "text": "mkdir"}
+{"offset": "0x1d1b2", "text": "level"}
+{"offset": "0x1d1b8", "text": "items"}
+{"offset": "0x1d1be", "text": "index"}
+{"offset": "0x1d1c4", "text": "group"}
+{"offset": "0x1d1d0", "text": "--files"}
+{"offset": "0x1d1d8", "text": "__enter__"}
+{"offset": "0x1d1e2", "text": "-TRACK"}
+{"offset": "0x1d1e9", "text": ".xlsx"}
+{"offset": "0x1d1f0", "text": "__test__"}
+{"offset": "0x1d1f9", "text": "stem"}
+{"offset": "0x1d1fe", "text": "srcs"}
+{"offset": "0x1d208", "text": "__spec__"}
+{"offset": "0x1d211", "text": "rdir"}
+{"offset": "0x1d216", "text": "path"}
+{"offset": "0x1d21b", "text": "name"}
+{"offset": "0x1d220", "text": "__main__"}
+{"offset": "0x1d229", "text": "info"}
+{"offset": "0x1d22e", "text": "help"}
+{"offset": "0x1d233", "text": "glob"}
+{"offset": "0x1d238", "text": "full"}
+{"offset": "0x1d240", "text": "__file__"}
+{"offset": "0x1d250", "text": "__exit__"}
+{"offset": "0x1d259", "text": "_emit"}
+{"offset": "0x1d25f", "text": "core"}
+{"offset": "0x1d264", "text": "bool"}
+{"offset": "0x1d269", "text": "args"}
+{"offset": "0x1d26e", "text": "Path"}
+{"offset": "0x1d273", "text": "INFO"}
+{"offset": "0x1d2b0", "text": "개 분할 완료"}
+{"offset": "0x1d2d0", "text": "파일 없음: "}
+{"offset": "0x1d2e0", "text": "리포트 파일 없음: "}

@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "retailer": "alza",
+  "page_type": "brand-category",
+  "requested_url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+  "entry_url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+  "final_url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+  "status_code": 200,
+  "captured_at": "2026-09-26T02:57:21.934482+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.003,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.499,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 4.566,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.009,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.032,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "dc432b8438b0c290f20e1cbbae60b152c799a2e70043a819c75f826a3c3ae7c9",
+  "bytes": {
+    "raw_html": 940676,
+    "screenshot": 1340881
+  }
+}

@@ -1,0 +1,1598 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0010-alza",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.alza.cz/pracky/gorenje/18852774-v2156.htm",
+    "finalUrl": "https://www.alza.cz/pracky/gorenje/18852774-v2156.htm",
+    "capturedAt": "2026-09-28T07:56:51.329364+09:00",
+    "collectionOk": true,
+    "title": "Automatické pračky GORENJE | Alza.cz"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0010-alza/brand-category/raw.html",
+      "sha256": "718858df14e62b4934c04a85ff30c3db31eda02a003447423f9bbc87adc36ae7"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0010-alza/brand-category/capture-state.json",
+      "sha256": "82e46feca292e7c463162a1700e77b5a8b2e6430f92429d4e856b8914ca72879"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0010-alza/brand-category/response.json",
+      "sha256": "37102e8e9c4986c4a67ac005ab499c83c1f55c2104ef9068cd022c0c66593bac"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "div#categoryAnotationBlock > div#categoryUpperDescription > div > div#brandpage > section.brandpage-intro > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Gorenje: snadné, chytré a šetrné praní vašeho prádla",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Gorenje s předním plněním jsou oblíbenou klasikou",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Úzké pračky Gorenje se hodí i do malých prostor",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Chytré pračky Gorenje ohromí svými funkcemi",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračka Gorenje s technologií páry je řešením nejen pro alergiky",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky se sušičkou Gorenje zajistí komplexní péči o prádlo",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč právě pračka Gorenje?",
+        "attributes": {}
+      },
+      {
+        "tag": "h1",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div#categoryAnotationBlock > div#h1cc > div#h1c > h1",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Automatické pračky GORENJE",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div.category-tiles.bottom > div.category-archive-tiles > h2.category-archive-tiles__title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Již neprodáváme",
+        "attributes": {
+          "class": "category-archive-tiles__title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 161,
+        "top10ByRenderedArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-automaticke-pracky-hlavni-banner.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 1084,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393119.375,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-predni-plneni.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-uzke-pracky.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-chytre-pracky.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-technologie-pary.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-pracky-se-susickou.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-proc-vybrat.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 166,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-automaticke-pracky-hlavni-banner.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 1084,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393119.375,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-predni-plneni.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-uzke-pracky.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-chytre-pracky.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-technologie-pary.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-pracky-se-susickou.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-proc-vybrat.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 166,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Automatické pračky GORENJE | Alza.cz"
+        ],
+        "metaDescription": [
+          "Automatické pračky GORENJE přehledně na jednom místě. ✅ Široká nabídka. ✅ Produkty skladem. ✅ Doručíme do 24 hodin. ✅ Pravidelné akce a slevy na Automatické ..."
+        ],
+        "h1": [
+          "Automatické pračky GORENJE"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.alza.cz/pracky/gorenje/18852774-v2156.htm"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-automaticke-pracky-hlavni-banner.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 1084,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393119.375,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-predni-plneni.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-uzke-pracky.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-chytre-pracky.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-technologie-pary.jpg",
+            "alt": "gorenje pračka",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-pracky-se-susickou.jpg",
+            "alt": "pračka gorenje",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Gorenje-proc-vybrat.jpg",
+            "alt": "gorenje pracka waveactive",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 166,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#content0 > div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div#blockFilterNoEmpty > div.component.alzaPlusPromoForApplications",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "component alzaPlusPromoForApplications",
+              "data-testid": "component-alzaPlusPromoForApplications"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#footerc > div.component.footer > div.MuiScopedCssBaseline-root.footer-1ym4w4j > div > footer.footer-alz-8reqr6-1 > div.footer-alz-l8x0jw-16.footer-alz-q5z8sn-2",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Nejspolehlivější internetový obchod v ČR Zboží doručíme již v den objednání Nonstop dostupná zákaznická podpora Doručení zdarma na cokoliv s AlzaPlus+ Prodejny a odběrná místa po celé ČR",
+            "attributes": {
+              "class": "footer-alz-l8x0jw-16 footer-alz-q5z8sn-2",
+              "data-testid": "footerUspList"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#leftParametrizationContainer > div.component.categoryNavigation > div.MuiScopedCssBaseline-root.category-navigation-1ym4w4j > div.MuiBox-root.category-navigation-1cytd0c > button > div.MuiBox-root.category-navigation-1easgqs",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Zobrazit katalog",
+            "attributes": {
+              "class": "MuiBox-root category-navigation-1easgqs"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemAvatar-root.category-navigation-1plwxek",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiListItemAvatar-root category-navigation-1plwxek"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > span.MuiTouchRipple-root.category-navigation-w0pj6f",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiTouchRipple-root category-navigation-w0pj6f"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          }
+        ],
+        "linkCandidates": [
+          {
+            "text": "GORENJE",
+            "href": "https://www.alza.cz/gorenje/v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Pračky",
+            "href": "https://www.alza.cz/pracky/gorenje/18852774-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Pračky s předním plněním",
+            "href": "https://www.alza.cz/pracky-s-prednim-plnenim/gorenje/18852776-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Úzké pračky",
+            "href": "https://www.alza.cz/uzke-pracky-slim/gorenje/18862004-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Chytré pračky",
+            "href": "https://www.alza.cz/chytre-pracky/gorenje/18862885-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Parní pračky",
+            "href": "https://www.alza.cz/parni-pracky/gorenje/18863014-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Pračky se sušičkou",
+            "href": "https://www.alza.cz/pracky-se-susickou/gorenje/18852778-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Automatické pračky",
+            "href": "https://www.alza.cz/pracky/gorenje/18852774-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: automaticke, pracky"
+            ]
+          },
+          {
+            "text": "Vše od GORENJE",
+            "href": "https://www.alza.cz/gorenje/v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Příslušenství pro pračky",
+            "href": "https://www.alza.cz/prislusenstvi-k-prackam/gorenje/18853308-v2156.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "GORENJE WG486A21 Ultra Clean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg486a21-ultra-clean-d13289888.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE W3NGPI61SAS +15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-w3ngpi61sas-d13258779.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG414A41 UltraClean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg414a41-d13289883.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE W2NS84SA/BCZ + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-w2ns84sa-bcz-d12769019.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WDSI96A + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wdsi96a-d7747092.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG484A31B Ultra Clean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg484a31b-d13289890.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WNHPI84AS/A + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wnhpi84as-a-d12771994.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WNHEI74SAS SteamTech + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wnhei74sas-steamtech-d7230988.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE W1G484A3 Ultra Clean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-w1g484a3-ultra-clean-d13289892.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG894A25 TotalFresh + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg894a25-totalfresh-d13386953.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE W3NGPI74A3S + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-w3ngpi74a3s-d13289881.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG2PS72A12 + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg2ps72a12-d13425742.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG4S74A21 Ultra Clean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg4s74a21-d13289891.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG684A31 Fast Wash Pro + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg684a31-fast-wash-pro-d13289884.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG614A4P1 Fast Wash Pro + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg614a4p1-d13289882.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WPNEI94A1SWIFI + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wpnei94a1swifi-d12464591.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG494A11 UltraClean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg494a11-d13289887.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WNHPI84AS + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wnhpi84as-d12769020.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG484A31 Ultra Clean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg484a31-d13289889.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG474A21 UltraClean + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg474a21-d13289885.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WG2P84A32G + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wg2p84a32g-d13451959.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WDG2P1174A2D2 + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wdg2p1174a2d2-d13502379.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE W1G2P84A32 + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-w1g2p84a32-d13451961.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "GORENJE WD1G2P854A3D2 + 15 let záruka na invertorový motor po registraci",
+            "href": "https://www.alza.cz/gorenje-wd1g2p854a3d2-d13502378.htm",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{"offset": "0x11000", "text": "%.200s() needs an argument"}
+{"offset": "0x1101b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x11039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1104f", "text": "__loader__"}
+{"offset": "0x1105a", "text": "loader"}
+{"offset": "0x11061", "text": "__file__"}
+{"offset": "0x1106a", "text": "origin"}
+{"offset": "0x11071", "text": "__package__"}
+{"offset": "0x1107d", "text": "parent"}
+{"offset": "0x11084", "text": "__path__"}
+{"offset": "0x1108d", "text": "submodule_search_locations"}
+{"offset": "0x110a8", "text": "keywords must be strings"}
+{"offset": "0x110c1", "text": "_cython_coroutine_type"}
+{"offset": "0x110d8", "text": "_cython_generator_type"}
+{"offset": "0x110ef", "text": "_module"}
+{"offset": "0x110f7", "text": "__builtins__"}
+{"offset": "0x11104", "text": "_cython_3_0_12"}
+{"offset": "0x11113", "text": "%s (%s:%d)"}
+{"offset": "0x1111e", "text": "core/jsonl.py"}
+{"offset": "0x1112c", "text": "core.jsonl.iter_records"}
+{"offset": "0x11144", "text": "exactly"}
+{"offset": "0x1114c", "text": "generator already executing"}
+{"offset": "0x11168", "text": "name '%U' is not defined"}
+{"offset": "0x11181", "text": "builtins"}
+{"offset": "0x1118a", "text": "cython_runtime"}
+{"offset": "0x11199", "text": "does not match"}
+{"offset": "0x111a8", "text": "collections.abc"}
+{"offset": "0x111b8", "text": "backports_abc"}
+{"offset": "0x111c6", "text": "init core.jsonl"}
+{"offset": "0x111d6", "text": "core.jsonl.dump_line"}
+{"offset": "0x111eb", "text": "throw"}
+{"offset": "0x111f1", "text": "core.jsonl.load_records"}
+{"offset": "0x11209", "text": "_cython_3_0_12.generator"}
+{"offset": "0x11222", "text": "__name__"}
+{"offset": "0x1122b", "text": "name of the generator"}
+{"offset": "0x11241", "text": "__qualname__"}
+{"offset": "0x1124e", "text": "gi_frame"}
+{"offset": "0x11257", "text": "Frame of the generator"}
+{"offset": "0x1126e", "text": "gi_running"}
+{"offset": "0x11279", "text": "gi_yieldfrom"}
+{"offset": "0x11286", "text": "gi_code"}
+{"offset": "0x1128e", "text": "__module__"}
+{"offset": "0x11299", "text": "send"}
+{"offset": "0x1129e", "text": "close"}
+{"offset": "0x112a4", "text": "__reduce__"}
+{"offset": "0x112af", "text": "func_doc"}
+{"offset": "0x112b8", "text": "__doc__"}
+{"offset": "0x112c0", "text": "func_name"}
+{"offset": "0x112ca", "text": "func_dict"}
+{"offset": "0x112d4", "text": "__dict__"}
+{"offset": "0x112dd", "text": "func_globals"}
+{"offset": "0x112ea", "text": "__globals__"}
+{"offset": "0x112f6", "text": "func_closure"}
+{"offset": "0x11303", "text": "__closure__"}
+{"offset": "0x1130f", "text": "func_code"}
+{"offset": "0x11319", "text": "__code__"}
+{"offset": "0x11322", "text": "func_defaults"}
+{"offset": "0x11330", "text": "__defaults__"}
+{"offset": "0x1133d", "text": "__kwdefaults__"}
+{"offset": "0x1134c", "text": "__annotations__"}
+{"offset": "0x1135c", "text": "_is_coroutine"}
+{"offset": "0x11370", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x11398", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x113c8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x113f0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x11420", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x11450", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x114b0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x114e0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x11510", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x11540", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x115a8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x115d8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x11638", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x11668", "text": "__name__ must be set to a string object"}
+{"offset": "0x11690", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x117d8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x11810", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x11848", "text": "%.200s() keywords must be strings"}
+{"offset": "0x11870", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x118a0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x118d8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x11908", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x11948", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/jsonl.c"}
+{"offset": "0x11978", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x119b8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x119e0", "text": " while calling a Python object"}
+{"offset": "0x11a00", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x11a30", "text": "Module 'jsonl' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x11a80", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x11ad0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x11af8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x11ba8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x11be8", "text": "generator ignored GeneratorExit"}
+{"offset": "0x11c08", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x11c38", "text": "instance exception may not have a separate value"}
+{"offset": "0x11c70", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x11cb8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x11cf8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x11d28", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x11d50", "text": "generator raised StopIteration"}
+{"offset": "0x11d70", "text": "qualified name of the generator"}
+{"offset": "0x11d90", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x11dc0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11e20", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11e90", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x11ec8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x11ef8", "text": "core.jsonl.__pyx_scope_struct__iter_records"}
+{"offset": "0x11f30", "text": "cline_in_traceback"}
+{"offset": "0x11f50", "text": "asyncio.coroutines"}
+{"offset": "0x11f68", "text": "core/jsonl.py"}
+{"offset": "0x11f78", "text": "load_records"}
+{"offset": "0x11f88", "text": "iter_records"}
+{"offset": "0x11f98", "text": "_is_coroutine"}
+{"offset": "0x11fa8", "text": "_initializing"}
+{"offset": "0x11fb8", "text": "ensure_ascii"}
+{"offset": "0x11fc8", "text": "core.jsonl"}
+{"offset": "0x11fd8", "text": "isenabled"}
+{"offset": "0x11fe8", "text": "dump_line"}
+{"offset": "0x11ff8", "text": "encoding"}
+{"offset": "0x12008", "text": "replace"}
+{"offset": "0x12010", "text": "disable"}
+{"offset": "0x12018", "text": "default"}
+{"offset": "0x12020", "text": "strict"}
+{"offset": "0x12027", "text": "rstrip"}
+{"offset": "0x1202e", "text": "return"}
+{"offset": "0x12035", "text": "_line"}
+{"offset": "0x12040", "text": "__import__"}
+{"offset": "0x1204b", "text": "enable"}
+{"offset": "0x12052", "text": "utf-8"}
+{"offset": "0x12058", "text": "\\u2029"}
+{"offset": "0x1205f", "text": "\\u2028"}
+{"offset": "0x12066", "text": "throw"}
+{"offset": "0x1206c", "text": "strip"}
+{"offset": "0x12072", "text": "loads"}
+{"offset": "0x12078", "text": "__enter__"}
+{"offset": "0x12082", "text": "dumps"}
+{"offset": "0x12088", "text": "close"}
+{"offset": "0x12090", "text": "__test__"}
+{"offset": "0x120a0", "text": "__spec__"}
+{"offset": "0x120a9", "text": "send"}
+{"offset": "0x120ae", "text": "path"}
+{"offset": "0x120b3", "text": "open"}
+{"offset": "0x120b8", "text": "__name__"}
+{"offset": "0x120c8", "text": "__main__"}
+{"offset": "0x120d1", "text": "line"}
+{"offset": "0x120d6", "text": "json"}
+{"offset": "0x120e0", "text": "__exit__"}
+{"offset": "0x120e9", "text": "args"}

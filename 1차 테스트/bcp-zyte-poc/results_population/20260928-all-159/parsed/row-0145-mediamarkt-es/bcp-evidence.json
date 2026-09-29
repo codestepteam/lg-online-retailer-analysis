@@ -1,0 +1,2994 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0145-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/samsung/lavadoras",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+    "capturedAt": "2026-09-28T08:10:02.378170+09:00",
+    "collectionOk": true,
+    "title": "Ofertas en Lavadoras Samsung al mejor precio | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0145-mediamarkt-es/brand-category/raw.html",
+      "sha256": "148b91732b29b34736931c41558a5675868daeb41d21985f5d04acb336ef032a"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0145-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "dbb5dca9f7b97ce1e1ac12c38231a981c44558f45f47d19a500fbe07ac4a0659"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0145-mediamarkt-es/brand-category/response.json",
+      "sha256": "ba6e509ba683d0c95381ff914b940c3292c7f7265d32a95af1cc4d92219f8204"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "SAMSUNG Lavadoras en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90CGC04DAEEC, 9 kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD90HG6U94BEU3, 9 kg de lavado, 6 kg de secado, 25 programas, Autodosificación, Wifi, Blanca",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW11DB8B95GHU3, 11 kg, 1400 rpm, Autodosificación, QuickDrive™, AI EcoBubble™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD90HG5U34BEEC, 9 kg de lavado, 6 kg de secado, 16 programas, Clase A, Wifi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Clase A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW11DB7B94GEU3, 11 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD90HG5U34BXEC, 9 kg de lavado, 6 kg de secado, 16 programas, Función WiFi con SmartThings™, Gris",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD11DB7B85GWU3, 11 kg, 6kg, 1400 rpm, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11 kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW10FG5U34AEEC, 10 kg, 1400 rpm, 16 programas, AI EcoBubble™ Clase A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW12T504DTW/S3, 12 kg, 1400 rpm, EcoBubble™, Inteligencia Artificial, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD90DG6B85BEU3, 9 kg, 6 kg, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung Bespoke AI WF90F09C4SU3, 9 kg, 1400 rpm, 24 programas, Autodosificación, Clase A, Control por voz, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD11DG5B15BBEC, 11kg, 6kg, 1400 rpm, Air Wash, WiFi, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90DB7U94GBU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Clase A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD80HG4U04BEEC, 8 kg+6 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Wifi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD18DB8995BZT2, 18 kg + 11 kg, 1000 rpm, 22 programas, AI Laundry Combo™, Clase A, Antracita",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Samsung WD90DG5G34BEEC, 9kg/5kg 1400 rpm, 13 programas, AI Ecobubble™ Clase E/A-10%, fondo reducido, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Samsung WD90HG6U94BEU3, 9 kg de lavado, 6 kg de secado, 25 programas, Autodosificación, Wifi",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW70FG3M05TWEC, 7 kg, 12 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW11DB7B94GBU3, 11 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WF20DG8650BWU3, 20 kg, 1100rpm, 20 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD90DG5G34BEEC, 9kg/5kg 1400 rpm, 13 programas, AI Ecobubble™ Clase E/A-10%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90DB8U95GHU3, 9 kg, 1400 rpm, AI QuickDrive™, Clasificación Energética A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD18DB8995BZT2, 18 kg + 11 kg, 1000 rpm, 22 programas, AI Laundry Combo™, Clase A",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90DB7U94GBU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90DB8U95GHU3, 9 kg, 1400 rpm, AI QuickDrive™, Clasificación Energética A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW10FG5U34AEEC, 10 kg, 1400 rpm, 16 programas, AI EcoBubble™ Clase A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8kg, 1400rpm, 12 progr, Motor Digital Inverter, Clase A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora secadora - Samsung WD90DG6G94BKU3, Capacidad de lavado 9 Kg, Capacidad de secado 5 kg, AI Control",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90DG6U85LEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, AI Wash, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90DG6U85LEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, AI Wash, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD11DB7B85GWU3, 11 kg, 6kg, 1400 rpm, Autodosificador, AI Wash, AI EcoBubble™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD90DG6B85BEU3, 9 kg, 6 kg, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90DB7U94GEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Clasificación Energética A, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW90CGC04DAEEP, 9 kg, White",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW11DB7B34GWU3, 11 kg, 1400 rpm, 24 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW90CGC04DTEEC, 9 kg, 14 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW11DG6B85LK, 11,00 kg, 1400 rpm, 26 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW11DG5B25TE, 11 kg, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG Series 10 WF20DG8650BVU1, 20 kg, 18 programas, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - SAMSUNG WW90T534DAWCS3, 9 kg, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div.mms-ui-dMMuNs.mms-ui-xNKOC.mms-ui-xNKZo > div.mms-ui-cYdhWw.mms-ui-iCUXHr.mms-ui-cYzOJj > div.mms-ui-cYdhWw.mms-ui-lmUwit.mms-ui-jZhmni > h2.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gGmMvB",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Conoce los beneficios de las Lavadoras Samsung",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM mms-ui-gsjAMe"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es una lavadora Samsung Addwash™?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es una Lavasecadora Ecobubble™ Samsung?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué ofrecen las lavadoras Samsung de oferta en MediaMarkt?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cuántos años de garantía tiene una lavadora Samsung?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 129,
+        "top10ByRenderedArea": [
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580693?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_174914423?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054250?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005985?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580698?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183109710?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054255?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177005910?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183109684?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580701?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 112,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 113,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 99,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580693?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_174914423?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054250?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005985?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580698?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183109710?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054255?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Ofertas en Lavadoras Samsung al mejor precio | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Encuentra las mejores ofertas en Lavadoras Samsung con tecnología Ecobubble™. ¡Disponible ahora!"
+        ],
+        "h1": [
+          "SAMSUNG Lavadoras en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580693?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_174914423?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054250?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005985?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580698?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183109710?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176054255?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177005910?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183109684?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180580701?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "364,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "475,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "594,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "534,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "424,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "347,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "551,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "466,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1274,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "336,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "431,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2549,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "422,45€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "358,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "934,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "630,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "764,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2969,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "674,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "626,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "477,63€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "381,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "521,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "629,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "521,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "458,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "642,60€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "564,63€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "608,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "500,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "455,96€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "663,86€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "420,94€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "515,71€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "483,72€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1018,22€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "485,47€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Top ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.mediamarkt.es/es/brand/samsung",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Lavadoras Secadoras",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras/lavadora-secadora-samsung",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Lavadoras 11kg",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras/lavadoras-samsung-11kg",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Lavadoras 9 Kg",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras/lavadora-samsung-9kg",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - Samsung WD11DG5B15BBEC, 11kg, 6kg, 1400 rpm, Air Wash, WiFi, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW70FG3M05TWEC, 7 kg, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - Samsung WF20DG8650BWU3, 20 kg, 1100rpm, 20 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW90CGC04DAEEP, 9 kg, White",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW11DB7B34GWU3, 11 kg, 1400 rpm, 24 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW90CGC04DTEEC, 9 kg, 14 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW11DG6B85LK, 11,00 kg, 1400 rpm, 26 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW11DG5B25TE, 11 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG Series 10 WF20DG8650BVU1, 20 kg, 18 programas, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - SAMSUNG WW90T534DAWCS3, 9 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Qué es una lavadora Samsung Addwash™?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Qué es una Lavasecadora Ecobubble™ Samsung?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Qué ofrecen las lavadoras Samsung de oferta en MediaMarkt?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras, samsung"
+            ]
+          },
+          {
+            "text": "¿Cuántos años de garantía tiene una lavadora Samsung?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          },
+          {
+            "text": "Ofertas y campañas",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/lavadoras?page=4",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas Flash",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas del día",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Top venta Ficha técnica Lavadora carga frontal - Samsung WW90CGC04DAEEC, 9 kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Blanco 425 Basado en 425 valoraciones Nivel de ruido del centrifugado 72 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí -26% 499,– € 499,00€ 364,65 € 364,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Samsung days Vuelta al cole Ficha técnica Lavadora secadora - Samsung WD90HG6U94BEU3, 9 kg de lavado, 6 kg de secado, 25 programas, Autodosificación, Wifi, Blanca 18 Basado en 18 valoraciones Tipo Independiente Capacidad secado 6 kg Capacidad de carga 9 kg Opciones centrifugado 1400 RPM -31% 689,– € 689,00€ 475,15 € 475,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavadora carga frontal - Samsung WW11DB8B95GHU3, 11 kg, 1400 rpm, Autodosificación, QuickDrive™, AI EcoBubble™, Blanco 415 Basado en 415 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática Sí Función Vapor Sí Compatible con la aplicación Sí -15% 699,– € 699,00€ 594,15 € 594,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavadora secadora - Samsung WD90HG5U34BEEC, 9 kg de lavado, 6 kg de secado, 16 programas, Clase A, Wifi, Blanco 28 Basado en 28 valoraciones Tipo Independiente Capacidad secado 6 kg Capacidad de carga 9 kg Opciones centrifugado 1400 rpm -15% 629,– € 629,00€ 534,65 € 534,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro 391 Basado en 391 valoraciones Nivel de ruido del centrifugado 72 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí -15% 499,– € 499,00€ 424,15 € 424,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Clase A, Blanco 144 Basado en 144 valoraciones Nivel de ruido del centrifugado 76 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -15% 409,– € 409,00€ 347,65 € 347,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavadora carga frontal - Samsung WW11DB7B94GEU3, 11 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Blanco 209 Basado en 209 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática Sí Función Vapor Sí Compatible con la aplicación Sí -15% 649,– € 649,00€ 551,65 € 551,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavadora secadora - Samsung WD90HG5U34BXEC, 9 kg de lavado, 6 kg de secado, 16 programas, Función WiFi con SmartThings™, Gris 4 Basado en 4 valoraciones Tipo Independiente Capacidad secado 6 kg Capacidad de carga 9 kg Opciones centrifugado 1400 rpm -15% 649,– € 649,00€ 551,",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Lavadora Samsung blanca con puerta y panel de control negros. Sticker de 10 años de garantía abajo a la izquierda.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90cgc04daeec-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1561845.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW90CGC04DAEEC, 9 kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90cgc04daeec-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1561845.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra. Pegatina de 10 años de garantía al frente.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg6u94beu3-9-kg-de-lavado-6-kg-de-secado-25-programas-autodosificacion-wifi-blanca-1624674.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD90HG6U94BEU3, 9 kg de lavado, 6 kg de secado, 25 programas, Autodosificación, Wifi, Blanca",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg6u94beu3-9-kg-de-lavado-6-kg-de-secado-25-programas-autodosificacion-wifi-blanca-1624674.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta y panel de control negros.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db8b95ghu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1572600.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW11DB8B95GHU3, 11 kg, 1400 rpm, Autodosificación, QuickDrive™, AI EcoBubble™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db8b95ghu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1572600.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el motor",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg5u34beec-9-kg-de-lavado-6-kg-de-secado-16-programas-clase-a-wifi-blanco-1627792.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD90HG5U34BEEC, 9 kg de lavado, 6 kg de secado, 16 programas, Clase A, Wifi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg5u34beec-9-kg-de-lavado-6-kg-de-secado-16-programas-clase-a-wifi-blanco-1627792.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con panel de control y pegatina de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1561846.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1561846.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Samsung con puerta negra, pantalla digital y etiqueta de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww80fg3m05awec-8-kg-1400-rpm-12-programas-motor-digital-inverter-clase-a-blanco-1598412.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Clase A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww80fg3m05awec-8-kg-1400-rpm-12-programas-motor-digital-inverter-clase-a-blanco-1598412.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta y panel negro. 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b94geu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-blanco-1572602.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW11DB7B94GEU3, 11 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b94geu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-blanco-1572602.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung oscura con panel de control y puerta. 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg5u34bxec-9-kg-de-lavado-6-kg-de-secado-16-programas-funcion-wifi-con-smartthingstm-gris-1628200.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD90HG5U34BXEC, 9 kg de lavado, 6 kg de secado, 16 programas, Función WiFi con SmartThings™, Gris",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90hg5u34bxec-9-kg-de-lavado-6-kg-de-secado-16-programas-funcion-wifi-con-smartthingstm-gris-1628200.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca Samsung con puerta negra y una pegatina de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd11db7b85gwu3-11-kg-6kg-1400-rpm-ai-wash-ai-ecobubbletm-blanco-1579436.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD11DB7B85GWU3, 11 kg, 6kg, 1400 rpm, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd11db7b85gwu3-11-kg-6kg-1400-rpm-ai-wash-ai-ecobubbletm-blanco-1579436.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra y panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg5b25aeec-11-kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1572605.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11 kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg5b25aeec-11-kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1572605.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta y pantalla digital negra.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww10fg5u34aeec-10-kg-1400-rpm-16-programas-ai-ecobubbletm-clase-a-blanco-1605663.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW10FG5U34AEEC, 10 kg, 1400 rpm, 16 programas, AI EcoBubble™ Clase A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww10fg5u34aeec-10-kg-1400-rpm-16-programas-ai-ecobubbletm-clase-a-blanco-1605663.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca de carga frontal con pantalla digital. 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww12t504dtws3-12-kg-1400-rpm-ecobubbletm-inteligencia-artificial-wifi-blanco-1561851.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW12T504DTW/S3, 12 kg, 1400 rpm, EcoBubble™, Inteligencia Artificial, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww12t504dtws3-12-kg-1400-rpm-ecobubbletm-inteligencia-artificial-wifi-blanco-1561851.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra y pantalla digital. 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90dg6b85beu3-9-kg-6-kg-ai-wash-ai-ecobubbletm-blanco-1579443.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD90DG6B85BEU3, 9 kg, 6 kg, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd90dg6b85beu3-9-kg-6-kg-ai-wash-ai-ecobubbletm-blanco-1579443.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Moderna lavadora plateada con puerta de ojo de buey negra y pantalla táctil digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-wf90f09c4su3-9-kg-1400-rpm-24-programas-autodosificacion-ai-ecobubbletm-ai-wash-control-por-voz-grafito-1596928.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung Bespoke AI WF90F09C4SU3, 9 kg, 1400 rpm, 24 programas, Autodosificación, Clase A, Control por voz, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-wf90f09c4su3-9-kg-1400-rpm-24-programas-autodosificacion-ai-ecobubbletm-ai-wash-control-por-voz-grafito-1596928.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con pantalla digital y puerta redonda.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd11dg5b15bbec-11kg-6kg-1400-rpm-air-wash-wifi-negro-1579438.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD11DG5B15BBEC, 11kg, 6kg, 1400 rpm, Air Wash, WiFi, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd11dg5b15bbec-11kg-6kg-1400-rpm-air-wash-wifi-negro-1579438.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Moderna lavadora Samsung negra con pantalla digital y 10 años de garantía en el motor.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db7u94gbu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-negro-1572607.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW90DB7U94GBU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db7u94gbu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-negro-1572607.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra. Tiene un panel de control y una pantalla digital que muestra la hora.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww80fg3m05awec-8-kg-1400-rpm-12-programas-motor-digital-inverter-clase-a-blanco-1608043.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Clase A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww80fg3m05awec-8-kg-1400-rpm-12-programas-motor-digital-inverter-clase-a-blanco-1608043.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung negra con puerta redonda. Tiene un panel de control con botones y una pantalla digital. El fondo es negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1588713.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1588713.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Samsung con puerta de cristal negra y pegatina de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd80hg4u04beec-8-kg6-kg-1400-rpm-12-programas-motor-digital-inverter-wifi-blanco-1670139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD80HG4U04BEEC, 8 kg+6 kg, 1400 rpm, 12 programas, Motor Digital Inverter, Wifi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd80hg4u04beec-8-kg6-kg-1400-rpm-12-programas-motor-digital-inverter-wifi-blanco-1670139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Moderna lavadora gris con escotilla negra, pantalla digital y 10 años de garantía en el motor.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd18db8995bzt2-180-kg-11-kg-antracita-1585875.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD18DB8995BZT2, 18 kg + 11 kg, 1000 rpm, 22 programas, AI Laundry Combo™, Clase A, Antracita",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-samsung-wd18db8995bzt2-180-kg-11-kg-antracita-1585875.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-con-fondo-reducido-samsung-wd90dg5g34beec-9kg5kg-1400-rpm-13-servicios-ai-ecobubbletm-clase-ea-10percent-blanco-1598405.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Samsung WD90DG5G34BEEC, 9kg/5kg 1400 rpm, 13 programas, AI Ecobubble™ Clase E/A-10%, fondo reducido, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-con-fondo-reducido-samsung-wd90dg5g34beec-9kg5kg-1400-rpm-13-servicios-ai-ecobubbletm-clase-ea-10percent-blanco-1598405.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra. Pegatina de 10 años de garantía al frente.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-samsung-wd90hg6u94beu3-9-kg-de-lavado-6-kg-de-secado-25-programas-autodosificacion-wifi-1667598.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Samsung WD90HG6U94BEU3, 9 kg de lavado, 6 kg de secado, 25 programas, Autodosificación, Wifi",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-samsung-wd90hg6u94beu3-9-kg-de-lavado-6-kg-de-secado-25-programas-autodosificacion-wifi-1667598.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca. Tiene una puerta redonda, una pantalla digital y varias opciones de control para los ciclos.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww70fg3m05twec-7-kg-blanco-161178186.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW70FG3M05TWEC, 7 kg, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww70fg3m05twec-7-kg-blanco-161178186.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con pantalla digital y puerta redonda.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b94gbu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-negro-1572601.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW11DB7B94GBU3, 11 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi con SmartThings™, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b94gbu3-11-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-negro-1572601.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra y una etiqueta de garantía en el frente.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-wf20dg8650bwu3-20-kg-1100rpm-20-programas-blanco-1598403.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WF20DG8650BWU3, 20 kg, 1100rpm, 20 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-wf20dg8650bwu3-20-kg-1100rpm-20-programas-blanco-1598403.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra. Tiene un panel de control en la parte superior y una etiqueta de eficiencia energética.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd90dg5g34beec-9kg5kg-1400-rpm-13-programas-ai-ecobubbletm-clase-ea-10percent-blanco-1608625.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD90DG5G34BEEC, 9kg/5kg 1400 rpm, 13 programas, AI Ecobubble™ Clase E/A-10%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd90dg5g34beec-9kg5kg-1400-rpm-13-programas-ai-ecobubbletm-clase-ea-10percent-blanco-1608625.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con escotilla negra y pegatina de garantía sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db8u95ghu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1572606.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW90DB8U95GHU3, 9 kg, 1400 rpm, AI QuickDrive™, Clasificación Energética A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db8u95ghu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-blanco-1572606.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora moderna gris oscuro con pantalla táctil digital y puerta de carga frontal.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd18db8995bzt2-18-kg-11-kg-1000-rpm-22-programas-ai-laundry-combotm-clase-a-1594521.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD18DB8995BZT2, 18 kg + 11 kg, 1000 rpm, 22 programas, AI Laundry Combo™, Clase A",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd18db8995bzt2-18-kg-11-kg-1000-rpm-22-programas-ai-laundry-combotm-clase-a-1594521.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con puerta de cristal y panel de control digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90db7u94gbu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-funcion-wifi-1667738.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90DB7U94GBU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Función WiFi",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90db7u94gbu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-funcion-wifi-1667738.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca. Tiene una puerta negra, un panel de control plateado y una pequeña pantalla.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww90db8u95ghu3-9-kg-1400-rpm-ai-quickdrivetm-clasificacion-energetica-a-blanco-1604306.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90DB8U95GHU3, 9 kg, 1400 rpm, AI QuickDrive™, Clasificación Energética A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww90db8u95ghu3-9-kg-1400-rpm-ai-quickdrivetm-clasificacion-energetica-a-blanco-1604306.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta y panel negros. La pantalla muestra 1:27.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww10fg5u34aeec-10-kg-1400-rpm-16-programas-ai-ecobubbletm-clase-a-blanco-1624957.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW10FG5U34AEEC, 10 kg, 1400 rpm, 16 programas, AI EcoBubble™ Clase A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww10fg5u34aeec-10-kg-1400-rpm-16-programas-ai-ecobubbletm-clase-a-blanco-1624957.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra. Tiene un panel de control y una pantalla digital que muestra la hora.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-carga-frontal-samsung-ww80fg3m05awec-8kg-1400rpm-12-progr-motor-digital-inverter-clase-a-blanco-1606589.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - Samsung WW80FG3M05AWEC, 8kg, 1400rpm, 12 progr, Motor Digital Inverter, Clase A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-carga-frontal-samsung-ww80fg3m05awec-8kg-1400rpm-12-progr-motor-digital-inverter-clase-a-blanco-1606589.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra. Tiene una etiqueta de eficiencia energética y una pegatina de 20 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-secadora-samsung-wd90dg6g94bku3-capacidad-de-lavado-9-kg-capacidad-de-secado-5-kg-ai-control-1667268.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora secadora - Samsung WD90DG6G94BKU3, Capacidad de lavado 9 Kg, Capacidad de secado 5 kg, AI Control",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-secadora-samsung-wd90dg6g94bku3-capacidad-de-lavado-9-kg-capacidad-de-secado-5-kg-ai-control-1667268.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta negra. Tiene un panel de control y una pequeña puerta abajo a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww90dg6u85leu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-ai-wash-blanco-1583247.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90DG6U85LEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, AI Wash, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-samsung-ww90dg6u85leu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-ai-wash-blanco-1583247.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca. Tiene una puerta negra, un panel de control y una pantalla que muestra la hora. La puerta está cerrada.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww11dg5b25aeec-11kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1585065.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww11dg5b25aeec-11kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1585065.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca, vista frontal. Marco de puerta negro, puerta de vidrio redonda. Pantalla digital muestra configuraciones. Perilla y controles plateados.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90dg6u85leu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-ai-wash-blanco-1588519.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - Samsung WW90DG6U85LEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, AI Wash, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-samsung-ww90dg6u85leu3-9-kg-1400-rpm-autodosificacion-ai-ecobubbletm-ai-wash-blanco-1588519.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra y panel de control digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-carga-frontal-samsung-ww11dg5b25aeec-11kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1590901.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - Samsung WW11DG5B25AEEC, 11kg, 1400 rpm, 14 programas, AI EcoBubble™, SmartThings™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-carga-frontal-samsung-ww11dg5b25aeec-11kg-1400-rpm-14-programas-ai-ecobubbletm-smartthingstm-blanco-1590901.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca. Puerta negra, con ventana circular y etiqueta de eficiencia energética verde.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd11db7b85gwu3-11-kg-6kg-1400-rpm-autodosificador-ai-wash-ai-ecobubbletm-blanco-1588700.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD11DB7B85GWU3, 11 kg, 6kg, 1400 rpm, Autodosificador, AI Wash, AI EcoBubble™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd11db7b85gwu3-11-kg-6kg-1400-rpm-autodosificador-ai-wash-ai-ecobubbletm-blanco-1588700.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con pantalla y sello de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1565820.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Samsung WW90CGC04DABEC, 9kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-lavadora-carga-frontal-samsung-ww90cgc04dabec-9kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthings-negro-1565820.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd90dg6b85beu3-9-kg-6-kg-autodosificacion-ai-wash-ai-ecobubbletm-blanco-1600568.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - Samsung WD90DG6B85BEU3, 9 kg, 6 kg, Autodosificación, AI Wash, AI EcoBubble™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-secadora-samsung-wd90dg6b85beu3-9-kg-6-kg-autodosificacion-ai-wash-ai-ecobubbletm-blanco-1600568.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca Samsung con panel de control y puerta negros, y una pegatina de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db7u94geu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-blanco-1572608.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Samsung WW90DB7U94GEU3, 9 kg, 1400 rpm, Autodosificación, AI EcoBubble™, Clasificación Energética A, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90db7u94geu3-9-kg-1400-rpm-ecobubbletm-funcion-wifi-con-smartthingstm-blanco-1572608.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW90CGC04DAEEP, 9 kg, White",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90cgc04daeep-9-kg-blanco-149616199.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con puerta negra y panel de control con pantalla.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b34gwu3-11-kg-24-programas-blanco-138830036.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW11DB7B34GWU3, 11 kg, 1400 rpm, 24 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11db7b34gwu3-11-kg-24-programas-blanco-138830036.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung blanca con panel de control y pantalla digital. Etiqueta de eficiencia energética.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-ww90cgc04dteec-samsung-9-kg-blanco-124178326.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW90CGC04DTEEC, 9 kg, 14 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-ww90cgc04dteec-samsung-9-kg-blanco-124178326.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca moderna con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg6b85lk-11-kg-26-programas-blanco-142630661.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW11DG6B85LK, 11,00 kg, 1400 rpm, 26 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg6b85lk-11-kg-26-programas-blanco-142630661.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Samsung blanca con puerta plateada y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg5b25te-11-kg-negro-149636937.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW11DG5B25TE, 11 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww11dg5b25te-11-kg-negro-149636937.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Samsung negra con puerta de vidrio grande. El panel de control está arriba.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-series-10-wf20dg8650bvu1-20-kg-18-programas-negro-155030874.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG Series 10 WF20DG8650BVU1, 20 kg, 18 programas, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-series-10-wf20dg8650bvu1-20-kg-18-programas-negro-155030874.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca. Tiene una puerta negra y un panel de control en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90t534dawcs3-90-kg-negro-139501886.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - SAMSUNG WW90T534DAWCS3, 9 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-samsung-ww90t534dawcs3-90-kg-negro-139501886.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es una lavadora Samsung Addwash™?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es una Lavasecadora Ecobubble™ Samsung?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué ofrecen las lavadoras Samsung de oferta en MediaMarkt?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuántos años de garantía tiene una lavadora Samsung?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es una lavadora Samsung Addwash™? Una lavadora Addwash™ Samsung te permite pausar el ciclo de lavado para meter cualquier prenda que se haya quedado atrás o añadir detergentes para tu ropa sin mayor problema. Con la tecnología AddWash™ de las lavadoras Samsung es posible interrumpir en cualquier momento del ciclo sin que se vacíe el agua del tambor. No sabías que lo necesitabas hasta ahora. Las lavadoras Samsung AddWash™ pertenecen a una nueva generación de equipos inteligentes que mantienen su función original a los que se le añaden mejoras adicionales que hacen tu vida más fácil. AddWash™ significa “añadir colada” y hace referencia a las lavadoras Samsung con esta increíble funcionalidad. Las lavadoras con carga frontal son las más populares debido a su posibilidad de manejo en cocinas con espacios reducidos, pero a cambio complican el manejo de añadir o sacar la colada durante el ciclo de lavado, ya que es muy fácil que el agua salga sin aviso. De ahí que las Lavadoras Samsung hayan evolucionado para ser más cómodas y manejables. Este tipo de lavadoras cuentan con una compuerta auxiliar que es por donde se mete la ropa dentro del ciclo sin tener que abrir por completo la compuerta principal, solo se tiene que pulsar el botón de pausar en la lavadora Samsung para que en escasos segundos esta se detenga. La puerta auxiliar se desbloqueará y podremos abrirla para añadir lo que necesitemos, luego solo la volvemos a cerrar y pulsamos comenzar. Es recomendable no utilizar este procedimiento cuando se esté trabajando con agua de elevadas temperaturas que superen los 50ºC; tampoco se podrá abrir la puerta si auxiliar si está puesto el seguro para niños. Las lavadoras Samsung QuickDrive™, que reducen el tiempo de lavado hasta en un 50% y el consumo energético hasta en un 20%, manteniendo los mejores resultados de lavados que esperas en el día a día. Su innovador tambor contiene una placa trasera que rota de manera independiente y en sentido contrario al tambor principal. De esta manera, se genera un mayor movimiento dentro del tambor: las prendas no solo suben y bajan como en una lavadora convencional, sino que también se mueven de delante a atrás para conseguir resultados de lavado excelentes hasta en la mitad de tiempo y protegiendo los tejidos. ¿Qué es una Lavasecadora Ecobubble™ Samsung? Las lavasecadoras Samsung Ecobubble™ te permiten disfrutar de lavados más eficientes a baja temperatura, todo gracias a que el detergente se convierte en burbujas que penetran en los tejidos más rápidamente y eliminan con mayor facilidad la suciedad mientras ahorras energía y protegen el color y textura original de tu ropa. Esto, junto con la funcionalidad Super Speed, hacen que lavar y secar tu ropa sea ultrarrápido. ¿Qué sería una lavasecadora Samsung sin el lado de secadora? El programa Super Speed de tan solo 59 minutos, lava y seca absolutamente todo, acelerando también la velocidad del centrifugado para secar la ropa rápidamente. Y cuando termines de lavar y secar podrás limpiar el tambor de la lavasecadora Samsung con el “Lavado de Tambor+” que elimina la suciedad y el 99,9% de las bacterias causantes del mal olor, sin necesidad de detergentes caros. Además, el agua a presión y un centrifugado rápido eliminan la suciedad alrededor de la junta de la puerta. Si eres de los olvidadizos o no estás acostumbrado a utilizar este programa, las nuevas lavasecadoras Samsung te notifican cuándo es necesaria una limpieza. ¿Qué ofrecen las lavadoras Samsung de oferta en MediaMarkt? Las lavadoras de 9kg y 8kg Samsung te ayudan a ahorrar más en cada lavado (lo interrumpas o no), ya que son productos eficientes con el que puedes disminuir el consumo de energía y utilizar solo la que necesitas. Pero esto no lo es todo. ¿Qué pensarías si te dijésemos que ahora tu lavadora también tiene inteligencia artificial? Tranquilo, no dominará tu cocina ni nada por el estilo, pero lo que sí hará es lavar la ropa de manera más fácil y efectiva. La nueva función d",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

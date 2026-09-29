@@ -1,0 +1,837 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0113-coolblue",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.coolblue.nl/was-droogcombinaties/lg",
+    "finalUrl": "https://www.coolblue.nl/was-droogcombinaties/lg",
+    "capturedAt": "2026-09-28T06:46:38.477430+09:00",
+    "collectionOk": true,
+    "title": "LG was-droogcombinatie kopen? | Coolblue - Voor 23.59u, morgen in huis"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0113-coolblue/brand-category/raw.html",
+      "sha256": "e0f61d34625cd17c2f27e6a780b825055d48d0ff27f54ac9537bee89ba8c75fb"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0113-coolblue/brand-category/capture-state.json",
+      "sha256": "ed47c5ace303b6322dbddc8659d6133ab99504ea143a22fd6672d8906a4588da"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0113-coolblue/brand-category/response.json",
+      "sha256": "3f14154da0e98dd3c8519aa18a11a3499b801253c673b48c4c08741ff07739a9"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div.css-1spg3na > div.css-tcx3lv > div.css-19mtnxi > div.css-chrijs > div.css-a7bh8i > h1.css-vwbrr6",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "LG was-droogcombinaties",
+        "attributes": {
+          "class": "css-vwbrr6"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div#main-content > div.css-s1u4uj > div > div.hb-99xk1h > div.hb-f0egaa > h3#advies",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Advies",
+        "attributes": {
+          "id": "advies",
+          "class": "hb-y2am0n"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1u8qly9 > div.css-um1hfr > div.css-18bivaf > div.css-155dxmt > div > h2.css-v8gf6i",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Eerder bekeken door jou",
+        "attributes": {
+          "class": "css-v8gf6i"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "body > div.css-1u8qly9 > div.css-um1hfr > div.css-18bivaf > div.css-9vf5x0 > h3.css-nz9uv6",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jouw producten overal beschikbaar",
+        "attributes": {
+          "class": "css-nz9uv6"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-1cld8ww > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Heb je een vraag?",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-184ivgm > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Meld je aan voor onze nieuwsbrief",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "body > div > footer.css-awgckc > div.css-9z5sqr > section.shop-ratings-d1sr2r > h2#shop-ratings-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Beoordeling door klanten:",
+        "attributes": {
+          "id": "shop-ratings-heading",
+          "class": "shop-ratings-9wn4e9"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 7,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209825",
+            "alt": "LG W4X1095NWB - 9/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1970666",
+            "alt": "LG GD3R509S0 - 9/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2107351258",
+            "alt": "LG HPWD116A - 11/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1812,
+            "naturalArea": 2319360,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209812",
+            "alt": "LG W4X1085NWB - 8/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/589369",
+            "alt": "Onweerstaanbieding",
+            "renderedWidth": 88,
+            "renderedHeight": 36.296875,
+            "renderedArea": 3194.125,
+            "naturalWidth": 126,
+            "naturalHeight": 52,
+            "naturalArea": 6552,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/598496",
+            "alt": "",
+            "renderedWidth": 88,
+            "renderedHeight": 36.078125,
+            "renderedArea": 3174.875,
+            "naturalWidth": 140,
+            "naturalHeight": 57,
+            "naturalArea": 7980,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209825",
+            "alt": "LG W4X1095NWB - 9/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1970666",
+            "alt": "LG GD3R509S0 - 9/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209812",
+            "alt": "LG W4X1085NWB - 8/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2107351258",
+            "alt": "LG HPWD116A - 11/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1812,
+            "naturalArea": 2319360,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/598496",
+            "alt": "",
+            "renderedWidth": 88,
+            "renderedHeight": 36.078125,
+            "renderedArea": 3174.875,
+            "naturalWidth": 140,
+            "naturalHeight": 57,
+            "naturalArea": 7980,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/589369",
+            "alt": "Onweerstaanbieding",
+            "renderedWidth": 88,
+            "renderedHeight": 36.296875,
+            "renderedArea": 3194.125,
+            "naturalWidth": 126,
+            "naturalHeight": 52,
+            "naturalArea": 6552,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "LG was-droogcombinatie kopen? | Coolblue - Voor 23.59u, morgen in huis"
+        ],
+        "metaDescription": [
+          "LG was-droogcombinatie kopen? Bezorging & installatie ook op zondag en in de avond. LG was-droogcombinaties bij Coolblue: gratis bezorging & retour."
+        ],
+        "h1": [
+          "LG was-droogcombinaties"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.coolblue.nl/was-droogcombinaties/lg"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209825",
+            "alt": "LG W4X1095NWB - 9/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1970666",
+            "alt": "LG GD3R509S0 - 9/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2107351258",
+            "alt": "LG HPWD116A - 11/6 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1812,
+            "naturalArea": 2319360,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/2209812",
+            "alt": "LG W4X1085NWB - 8/5 kg",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1816,
+            "naturalArea": 2324480,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/589369",
+            "alt": "Onweerstaanbieding",
+            "renderedWidth": 88,
+            "renderedHeight": 36.296875,
+            "renderedArea": 3194.125,
+            "naturalWidth": 126,
+            "naturalHeight": 52,
+            "naturalArea": 6552,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/178xauto/content/598496",
+            "alt": "",
+            "renderedWidth": 88,
+            "renderedHeight": 36.078125,
+            "renderedArea": 3174.875,
+            "naturalWidth": 140,
+            "naturalHeight": 57,
+            "naturalArea": 7980,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.css-1syxkmp > div.css-s4ar5i > div.css-tcx3lv > div.css-109vin4 > div.usp-line-row.css-tgb3af > div.usp-line.css-1k7qw6s",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen Aangesloten op de gewenste plek voor 25,- Gratis bezorgd wanneer het jou uitkomt",
+            "attributes": {
+              "class": "usp-line css-1k7qw6s"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#main-content > div.css-1syxkmp > div.css-s4ar5i > div.css-tcx3lv > div.css-109vin4 > div.usp-line-row.css-tgb3af",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen Aangesloten op de gewenste plek voor 25,- Gratis bezorgd wanneer het jou uitkomt",
+            "attributes": {
+              "class": "usp-line-row css-tgb3af"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Alle was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "Was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "LG was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/lg",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "8 kilogram was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/8-kg-vulgewicht",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "9 of meer kilogram was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/9-kg-of-meer-vulgewicht",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "Was-droogcombinaties met stoomfunctie",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/met-stoomfunctie",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "Stille was-droogcombinaties",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/stille-was-droogcombinaties",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "Was-droogcombinatie abonnementen",
+            "href": "https://www.coolblue.nl/was-droogcombinaties/abonnementen",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinatie"
+            ]
+          },
+          {
+            "text": "Advies over was-droogcombinaties",
+            "href": "https://www.coolblue.nl/advies/alle-advies-over-was-droogcombinaties.html",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          },
+          {
+            "text": "Wat is het verschil tussen een was-droogcombinatie en een set?",
+            "href": "https://www.coolblue.nl/advies/wasdroogcombinatie-of-losse-apparaten.html",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinatie"
+            ]
+          },
+          {
+            "text": "De meest voorkomende storingen van LG was-droogcombinaties",
+            "href": "https://www.coolblue.nl/advies/de-meest-voorkomende-storingen-van-lg-was-droogcombinaties.html",
+            "signals": [
+              "페이지 주제어와 일치: droogcombinaties"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.css-131nz3o > div.css-19b2fvv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Geen automatische wasmiddeldosering | Vulgewicht 9 kg | Vulgewicht 5 kg",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.product-card-with-border-top.css-131nz3o > div.css-19b2fvv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Geen automatische wasmiddeldosering | Vulgewicht 9 kg | Vulgewicht 6 kg",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.product-card-with-border-top.css-131nz3o > div.css-19b2fvv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Automatische wasmiddeldosering | Vulgewicht 11 kg | Energieklasse A",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.product-card-with-border-top.css-131nz3o > div.css-19b2fvv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Geen automatische wasmiddeldosering | Vulgewicht 8 kg | Vulgewicht 5 kg",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "LG W4X1095NWB - 9/5 kg",
+            "href": "https://www.coolblue.nl/product/968837/lg-w4x1095nwb-9-5-kg.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GD3R509S0 - 9/6 kg",
+            "href": "https://www.coolblue.nl/product/936378/lg-gd3r509s0-9-6-kg.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Nu met korting. LG W4X1095NWB - 9/5 kg van 699 nu voor 579",
+            "href": "https://delivery.coolblue.eu/r?e=eyJ2IjoiMS4xNCIsImF2Ijo2MDgyODY4LCJhdCI6MzAxLCJidCI6MCwiY20iOjY1OTUyMDU5NywiY2giOjY1MzUwLCJjayI6e30sImNyIjo5NDA4NTE0MTcsImRpIjoiMzljMmE0Yjk5Y2I4NDUzZmIwNDQ3OWRjZTgxNDJlN2UiLCJkaiI6MCwiaWkiOiI5NDgyYzI2NTg5MjY0ZWRlOWZlZDVmMjY1YThhMzQ4MyIsImRtIjozLCJmYyI6MTExNzEwMDcwNSwiZmwiOjg2MzkzNjA3OCwiaXAiOiIzNC4yNDIuNjguNzQiLCJudyI6MTE3OTEsInBjIjowLCJvcCI6MCwibXAiOjAsImVjIjowLCJnbSI6MCwiZXAiOm51bGwsInByIjoyNTgzNjksInJ0IjoxLCJycyI6NTAwLCJzYSI6IjgzIiwic2IiOiJpLTA2YjkwOGNiNDYyMWNhOWJiIiwic3AiOjQxNzQzMTQsInN0IjoxMzA0OTIxLCJ1ayI6InVlMS1kMTY5NDY0NDE5ZGY0NzBjOGZmYzkxZTBlZTdjNmYyZSIsInpuIjozMzEwOTQsInRzIjoxNzkwNTQ1NTg3NzIzLCJwbiI6IkNBVEVHT1JZX0xFQURFUkJPQVJEX0ZJTFRFUlBBR0UiLCJnciI6ZmFsc2UsImdjIjpmYWxzZSwiZ0MiOmZhbHNlLCJnaSI6dHJ1ZSwiZ3MiOiJyZXEiLCJkYyI6MSwidHoiOiJFdXJvcGUvQW1zdGVyZGFtIiwidXUiOiIvd2FzLWRyb29nY29tYmluYXRpZXMvbGciLCJ1ciI6Imh0dHBzOi8vd3d3LmNvb2xibHVlLm5sL3Byb2R1Y3QvOTY4ODM3In0&s=qDzNOcYfe1GgEM9hlecyxzQHtrI",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG HPWD116A - 11/6 kg",
+            "href": "https://www.coolblue.nl/product/980981/lg-hpwd116a-11-6-kg.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG W4X1085NWB - 8/5 kg",
+            "href": "https://www.coolblue.nl/product/968836/lg-w4x1085nwb-8-5-kg.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

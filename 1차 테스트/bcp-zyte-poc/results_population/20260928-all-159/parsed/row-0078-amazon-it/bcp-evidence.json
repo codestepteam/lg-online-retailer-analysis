@@ -1,0 +1,1850 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0078-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/5A1DEDEC-EE03-4E68-AB53-B6EA0C7B0B2D",
+    "finalUrl": "https://www.amazon.it/stores/page/5A1DEDEC-EE03-4E68-AB53-B6EA0C7B0B2D",
+    "capturedAt": "2026-09-28T08:03:34.552433+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Samsung: Frigoriferi"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0078-amazon-it/brand-category/raw.html",
+      "sha256": "a08a3895d514f5425cb520d91f7f1d2835fc815b476dc31dbe99c5e472f84222"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0078-amazon-it/brand-category/capture-state.json",
+      "sha256": "0794270d87322bb1b9b18a12674118d0e2c2620d5b9ef56750ec7ae8e39d8420"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0078-amazon-it/brand-category/response.json",
+      "sha256": "d9614f53225d1d4513753b7ad593178569e5e3799b0deeb0ddeec51e0ab8a5d1"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Samsung Frigorifero Side by Side AI RS70F65QET/EF, All-Around Cooling, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 655 L,...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 99,
+        "top10ByRenderedArea": [
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bf8dd2e2-c3c0-4266-95ca-7aed69fac4f1._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings logo with Italian text describing AI Energy optimization for refrigerators to reduce energy consumption based on usage patterns.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/9d164d95de4b9a47556b250e6bc1a75e.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a large refrigerator with a door open",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/ec56ea4ad4ecd56696909d3fbaeb341c.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a black and white text that reads ` ` the space space''",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/8/AmazonStores/APJ6JRA9NG5V4/5630b4d073699015d12d3575de345fcd.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a poster for a product",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/APJ6JRA9NG5V4/430dc957ef963334acc37735beaee390.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Comparison of two lettuce heads after 7 days. Left image shows wilted lettuce labeled 'Frigorifero ventilato'. Right shows fresh lettuce labeled 'Frigorifero Total No Frost'.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7fb4498f-4ee4-4fea-af7a-980e28d3b0b1._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Frigoriferi'. Gray background with black text displaying product category name for refrigerators.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/71KW3rZ9QcL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/61oB4qt-B3L._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/61gLfRJH2bL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61NB1Ydj5cL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bf8dd2e2-c3c0-4266-95ca-7aed69fac4f1._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings logo with Italian text describing AI Energy optimization for refrigerators to reduce energy consumption based on usage patterns.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/9d164d95de4b9a47556b250e6bc1a75e.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a large refrigerator with a door open",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/ec56ea4ad4ecd56696909d3fbaeb341c.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a black and white text that reads ` ` the space space''",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/8/AmazonStores/APJ6JRA9NG5V4/5630b4d073699015d12d3575de345fcd.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a poster for a product",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/APJ6JRA9NG5V4/430dc957ef963334acc37735beaee390.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Comparison of two lettuce heads after 7 days. Left image shows wilted lettuce labeled 'Frigorifero ventilato'. Right shows fresh lettuce labeled 'Frigorifero Total No Frost'.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7fb4498f-4ee4-4fea-af7a-980e28d3b0b1._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Frigoriferi'. Gray background with black text displaying product category name for refrigerators.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/71KW3rZ9QcL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/61oB4qt-B3L._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/61gLfRJH2bL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61NB1Ydj5cL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Samsung: Frigoriferi"
+        ],
+        "metaDescription": [
+          "Samsung Frigoriferi"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Samsung/page/5A1DEDEC-EE03-4E68-AB53-B6EA0C7B0B2D"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bf8dd2e2-c3c0-4266-95ca-7aed69fac4f1._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings logo with Italian text describing AI Energy optimization for refrigerators to reduce energy consumption based on usage patterns.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/9d164d95de4b9a47556b250e6bc1a75e.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a large refrigerator with a door open",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/7/AmazonStores/APJ6JRA9NG5V4/ec56ea4ad4ecd56696909d3fbaeb341c.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a black and white text that reads ` ` the space space''",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/8/AmazonStores/APJ6JRA9NG5V4/5630b4d073699015d12d3575de345fcd.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "a poster for a product",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/APJ6JRA9NG5V4/430dc957ef963334acc37735beaee390.w1500.h1500._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Comparison of two lettuce heads after 7 days. Left image shows wilted lettuce labeled 'Frigorifero ventilato'. Right shows fresh lettuce labeled 'Frigorifero Total No Frost'.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7fb4498f-4ee4-4fea-af7a-980e28d3b0b1._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Frigoriferi'. Gray background with black text displaying product category name for refrigerators.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/71KW3rZ9QcL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/61oB4qt-B3L._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/61gLfRJH2bL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61NB1Ydj5cL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Samsung",
+            "href": "https://www.amazon.it/stores/page/37219BDE-81D7-45BE-8C88-E2143A37718D?ingress=0&visitId=3e7bbd25-661f-46ac-81bb-f50a84477a8c",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Frigoriferi",
+            "href": "https://www.amazon.it/stores/page/5A1DEDEC-EE03-4E68-AB53-B6EA0C7B0B2D#",
+            "signals": [
+              "페이지 주제어와 일치: frigoriferi"
+            ]
+          },
+          {
+            "text": "SAMSUNG HEALTH",
+            "href": "https://www.amazon.it/stores/page/85BF3E57-4174-4206-9EF2-16DD3A6FAEC0?ingress=0&visitId=3e7bbd25-661f-46ac-81bb-f50a84477a8c",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Doppia Porta EcoFlex...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Doppia Porta EcoFlex... 3,0 3,0 su 5 stelle 2 3,0 su 5 stelle. 2 recensioni dei clienti 595 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Doppia Porta EcoFlex... 4,0 4,0 su 5 stelle 7 4,0 su 5 stelle. 7 recensioni dei clienti 532 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Side by Side AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side AI... 4,2 4,2 su 5 stelle 37 4,2 su 5 stelle. 37 recensioni dei clienti 1.047 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung EcoFlex AI RB38C672CSA/EF...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex AI RB38C672CSA/EF... 4,3 4,3 su 5 stelle 172 4,3 su 5 stelle. 172 recensioni dei clienti 699 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Combinato EcoFlex AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex AI... 4,3 4,3 su 5 stelle 164 4,3 su 5 stelle. 164 recensioni dei clienti 649 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Side by Side...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side... 3,8 3,8 su 5 stelle 44 3,8 su 5 stelle. 44 recensioni dei clienti 1.249 , 00 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Side by Side Bespoke...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side Bespoke... 4,5 4,5 su 5 stelle 153 4,5 su 5 stelle. 153 recensioni dei clienti 1.953 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung EcoFlex AI RL38C776ASR/EF...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex AI RL38C776ASR/EF... 4,0 4,0 su 5 stelle 71 4,0 su 5 stelle. 71 recensioni dei clienti 1.341 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung EcoFlex Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex Frigorifero Combinato... 3,4 3,4 su 5 stelle 36 3,4 su 5 stelle. 36 recensioni dei clienti 633 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex Frigorifero Combinato... 3,4 3,4 su 5 stelle 36 3,4 su 5 stelle. 36 recensioni dei clienti 549 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung EcoFlex AI Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex AI Frigorifero Combinato... 3,8 3,8 su 5 stelle 13 3,8 su 5 stelle. 13 recensioni dei clienti 588 , 99 € Ricevilo entro 21 ottobre - 23 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Combinato F1rst 75...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato F1rst 75... 3,7 3,7 su 5 stelle 10 3,7 su 5 stelle. 10 recensioni dei clienti 1.309 , 75 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero 3 Porte AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero 3 Porte AI... 4,2 4,2 su 5 stelle 22 4,2 su 5 stelle. 22 recensioni dei clienti 973 , 46 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero a 4 Porte Family Hub...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero a 4 Porte Family Hub... 4,5 4,5 su 5 stelle 153 4,5 su 5 stelle. 153 recensioni dei clienti 2.757 , 64 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero a 4 Porte Family Hub... 4,5 4,5 su 5 stelle 153 4,5 su 5 stelle. 153 recensioni dei clienti 2.952 , 83 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Combinato EcoFlex...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex... 4,6 4,6 su 5 stelle 17 4,6 su 5 stelle. 17 recensioni dei clienti 849 , 00 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex... 3,8 3,8 su 5 stelle 8 3,8 su 5 stelle. 8 recensioni dei clienti 899 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Side by Side Air Space...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side Air Space... 4,0 4,0 su 5 stelle 5 4,0 su 5 stelle. 5 recensioni dei clienti 999 , 00 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side Air Space... 3,0 3,0 su 5 stelle 2 3,0 su 5 stelle. 2 recensioni dei clienti 960 , 59 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Side by Side AI... 5,0 5,0 su 5 stelle 3 5,0 su 5 stelle. 3 recensioni dei clienti 1.720 , 68 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Doppia Porta...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Doppia Porta... 4,2 4,2 su 5 stelle 25 4,2 su 5 stelle. 25 recensioni dei clienti 592 , 55 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Doppia Porta EcoFlex... 699 , 00 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Combinato Ecoflex...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato Ecoflex... 4,4 4,4 su 5 stelle 4 4,4 su 5 stelle. 4 recensioni dei clienti 628 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung EcoFlex AI F-RL34C75CS93M...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex AI F-RL34C75CS93M... 5,0 5,0 su 5 stelle 2 5,0 su 5 stelle. 2 recensioni dei clienti 689 , 10 € Ricevilo entro 19 ottobre - 16 novembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung EcoFlex AI Frigorifero Combinato... 5,0 5,0 su 5 stelle 3 5,0 su 5 stelle. 3 recensioni dei clienti 698 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex... 3,6 3,6 su 5 stelle 4 3,6 su 5 stelle. 4 recensioni dei clienti 711 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex... 1.153 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato EcoFlex... 944 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato F1rst 75... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 1.038 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato F1rst 75... 960 , 27 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato F1rst 75... 1.176 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Frigorifero Combinato F1rst 75... 1.714 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Frigorifero Side by Side AI Home...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Samsung Frigorifero Side by Side AI RS70F65QET/EF, All-Around Cooling, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 655 L,...",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65QET-All-Around-SpaceMax/dp/B0DWT9CSCG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.2 4,2 su 5 stelle 37",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65QET-All-Around-SpaceMax/dp/B0DWT9CSCG?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65QET-All-Around-SpaceMax/dp/B0DWT9CSCG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta EcoFlex AI F-RD31CG56S93M, AI Energy Mode, Twist Ice Maker, Total No Frost, 3 Mesi Garanzia Extra, 237L + 68L, LxAxP: 60 x 171,5 x 64,7 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-EcoFlex-F-RD31CG56S93M-Garanzia/dp/B0GN2HGDM5?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta EcoFlex AI F-RD31CG56WW3M, AI Energy Mode, Twist Ice Maker, Total No Frost, 3 Mesi Garanzia Extra, 237L + 68L, LxAxP: 60 x 171,5 x 64,7 cm, Bianco",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-EcoFlex-F-RD31CG56WW3M-Garanzia/dp/B0GN2HVWTN?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side AI RS70F65QET/EF, All-Around Cooling, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 655 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65QET-All-Around-SpaceMax/dp/B0DWT9CSCG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI RB38C672CSA/EF Frigorifero Combinato, WiFi, SpaceMax, Total No Frost, All Around Cooling, Motore Digital Inverter Garantito 20 Anni, 390 L, LxAxP: 59,5 x 203 x 65,8 cm, Silver Inox",
+            "href": "https://www.amazon.it/RB38C672CSA-EF-Frigorifero-Combinato-Garantito/dp/B0C66F46WH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex AI RB38C634DSA/EF con Dispenser dell'Acqua, WiFi, SpaceMax, Total No Frost, Motore Digital Inverter Garantito 20 Anni, 386 L, LxAxP: 59,5x203x65,8 cm, Silver Inox",
+            "href": "https://www.amazon.it/Frigorifero-Combinato-RB38C634DSA-EF-Dispenser/dp/B0C66CMJGC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side RS70F65KEF/EF con Dispenser Acqua/Ghiaccio, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 635 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65KEF-Dispenser-Ghiaccio/dp/B0DWT88PBP?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side Bespoke AI RS90F67BET/EF con Dispenser Acqua/Ghiaccio, Wifi con AI Energy Mode, Display Family Hub 21,5”, 614 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS90F67BET-Dispenser-Ghiaccio/dp/B0DWTBZLS4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI RL38C776ASR/EF Frigorifero Combinato, WiFi, SpaceMax, Motore Digital Inverter Garantito 20 Anni, Total No Frost, Twin Cooling Plus, 387 L, LxAxP: 59,5 x 203 x 65,8 cm, Silver",
+            "href": "https://www.amazon.it/Samsung-RL38C776ASR-EF-Frigorifero-Combinato/dp/B0C66CD5WZ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex Frigorifero Combinato RB33B612EBN/EF, Wifi, All-Around Cooling, Space Max, Total No Frost, 344 L, LxAxP: 59,5 x 185,3 x 65,8 cm, New Empire Black",
+            "href": "https://www.amazon.it/SAMSUNG-Frigorifero-congelatore-basso-RB33B612EBN/dp/B0CM8HN9V3?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex Frigorifero Combinato RB33B612EWW/EF, Wifi, All-Around Cooling, Space Max, Total No Frost, 344 L, LxAxP: 59,5 x 185,3 x 65,8 cm, Snow White",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RB33B612EWW-EF-All-Around/dp/B0C4TBQHTL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI Frigorifero Combinato RB38C600CS9/EF, Wifi, All-Around Cooling, Space Max, Total No Frost, 390 L, LxAxP: 59,5 x 203 x 65,8 cm, Silver",
+            "href": "https://www.amazon.it/SAMSUNG-Frigorifero-Combinato-EcoFlex-RB38C600CS9/dp/B0CB4NDHTQ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI RB53DG706BS9/EF, Wifi, Largo 75cm, Twin Cooling Plus, Metal Back, Total No Frost, 538 L, LxAxP: 75,6 x 203 x 71,1 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-RB53DG706BS9-Cooling/dp/B0CWNV295M?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero 3 Porte AI RF50C510ES9/EF, WiFi+AI Energy Mode, Twin Cooling Plus, 496 L, LxAxP: 81,7 x 177,6 x 71,5 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RF50C510ES9-EF-Cooling/dp/B0CH3MXRFB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RF50C510ES9-EF-Cooling/dp/B0CH3MXRFB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero a 4 Porte Family Hub AI RF65DG9H0EB1/EF, Con AI Vision Inside, Wifi+AI Energy Mode, Beverage Center, Metal Back, 636 L, LxAxP: 91,2 x 183 x 72,3 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Family-RF65DG9H0EB1-Beverage/dp/B0D42BTH6Z?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero a 4 Porte Family Hub AI RF65DG9H0ESR/EF, Con AI Vision Inside, Wifi+AI Energy Mode, Beverage Center, Metal Back, 636 L, LxAxP: 91,2 x 183 x 72,3 cm, Inox Spazzolato",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Family-RF65DG9H0ESR-Beverage/dp/B0D2Y58GXC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex RL38T607BB1/EF, Cool Select Plus, Space Max, Total No Frost, 273 + 114 L, LxAxP: 59,5 x 203 x 65,8 cm, Antracite",
+            "href": "https://www.amazon.it/RL38T607BB1-EF-Frigorifero-congelatore-SpaceMax/dp/B0DDCHX8SY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex RL38T607BS9/EF, Space Max, Cool Select Plus, Total No Frost, 273 + 114 L, LxAxP: 59,5 x 203 x 65,8 cm, Metal Inox",
+            "href": "https://www.amazon.it/RL38T607BS9-EF-Frigorifero-congelatore-SpaceMax/dp/B0DDCKXLLS?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side Air Space AI RS57DG410EB4/EF con Dispenser Acqua, Wifi, AI Energy Mode, SpaceMax, All-Around Cooling, 370 + 208 L, LxAxP: 91,2 x 178 x 65,4 cm, Black",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS57DG410EB4-Dispenser-All-Around/dp/B0G7YGXCV9?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side Air Space AI RS70F65QDT/EF, All-Around Cooling, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 654 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS70F65QDT-All-Around-SpaceMax/dp/B0DWTDJFQL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side AI RS80F66KCT/EF con Dispenser Acqua/Ghiaccio, Wifi con AI Energy Mode, Total No Frost, SpaceMax, 634 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS80F66KCT-Dispenser-Ghiaccio/dp/B0DWT77DCC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta BESPOKE AI RT38CB6624C1ES, WiFi, All Around Cooling, Total No Frost, Motore Digital Inverter Garantito 20 Anni, 393 L, LxAxP: 70 x 171,5 x 67,2 cm, Cotta White",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RT38CB6624C1ES-Inverter-Garantito/dp/B0C66F3FWF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta EcoFlex RT42CG6644S9/ES con Cassetto per Ghiaccio, Wifi, AI Energy Mode, Space Max, Total No Frost, 317 + 98 L, LxAxP: 70 x 178,6 x 67,2 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RT42CG6644S9-Cassetto-Ghiaccio/dp/B0FMQCTJCK?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato Ecoflex F-RL33B61ESA3M, Libera installazione, SpaceMax, Total No Frost, Motore Digital Inverter, 3 Mesi Garanzia Extra, 344 L, LXAxP: 59,5 x 185 x 66 cm, Silver Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL33B61ESA3M-installazione/dp/B0GKHF2HTN?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI F-RL34C75CS93M Frigorifero Combinato, WiFi, SpaceMax, Total No Frost, Motore Digital Inverter, 3 Mesi Garanzia Extra, 344 L, LxAxP: 59,5 x 185,3 x 65,8 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-RB34C775CS9-Frigorifero-Combinato-SpaceMax/dp/B0GL2CJZQW?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI Frigorifero Combinato F-RL38C60DSA3M Wifi, All-Around Cooling, Space Max, Total No Frost, 390 L, 3 Mesi Garanzia Extra, LxAxP: 59,5 x 203 x 65,8 cm, Silver Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL38C60DSA3M-All-Around/dp/B0GKH5BR1H?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex F-RL38C63DEL3M, All Around Cooling, SpaceMax, Total No Frost, Compressore Digital Inverter, 276L + 114L, LxAxP: 59,5 x 203 x 65,8 cm, Sabbia",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL38C63DEL3M-Compressore/dp/B0GN1Y2MFY?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex F-RL38C67AS93M, Twin Cooling Plus, SpaceMax, Total No Frost, Compressore Digital Inverter, 273L + 114L, LxAxP: 59,5 x 203 x 65,8 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL38C67AS93M-Compressore/dp/B0GN2FCGSJ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato EcoFlex F-RL38C76CB13M, All Around Cooling, SpaceMax, Total No Frost, Compressore Digital Inverter, 276L + 114L, LxAxP: 59,5 x 203 x 65,8 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL38C76CB13M-Compressore/dp/B0GN21MC3W?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI F-RL50DG6EB13M, Largo 75cm, Wifi, All-Around Cooling, Space Max, Total No Frost, 508 L, 3 Mesi Garanzia Extra, LxAxP: 75,6 x 192 x 71,1 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL50DG6EB13M-All-Around/dp/B0GKHGFDKB?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI F-RL50DG6ES93M, Wifi, Largo 75cm, All Around Cooling, Metal Back, Total No Frost, 508 L, LxAxP: 75,6 x 192 x 71,1 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL50DG6ES93M-Cooling/dp/B0GN2KS483?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI F-RL53DG7DS93M, Wifi, Largo 75cm, All Around Cooling, Metal Back, Total No Frost, 538 L, LxAxP: 75,6 x 203 x 71,1 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL53DG7DS93M-Cooling/dp/B0GN24LY86?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 F-RL53DG7AB13M, Wifi, Largo 75cm, Twin Cooling Plus, Metal Back, Total No Frost, 538 L, 3 Mesi Garanzia Extra, LxAxP: 75,6 x 203 x 71,1 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-F-RL53DG7AB13M-Garanzia/dp/B0GKH85RRC?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side AI Home F-RG90F64EDF3M con Dispenser Acqua/Ghiaccio, Wifi con AI Energy Mode, AI Home Display, SpaceMax, 3 Mesi Garanzia Extra, 614 L, LxAxP: 178x91x72 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-F-RG90F64EDF3M-Dispenser-Ghiaccio/dp/B0GKHGPYQ5?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side AI Home F-RG90F65EDT3M, Dispenser Acqua/Ghiaccio Senza Allaccio, Wifi con AI Energy Mode, SpaceMax, 3 Mesi Garanzia Extra, 614 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-F-RG90F65EDT3M-Dispenser-Ghiaccio/dp/B0GKHDQN3S?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta F-RD53DG7AS93M, Wifi con AI Energy Mode, Smart Cooling, Twin Cooling Plus, 530L, 3 Mesi Garanzia Extra, LxAxP: 79 x 185,5 x 72,5 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-F-RD53DG7AS93M-Cooling-Garanzia/dp/B0GKHH7NJL?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta F-RD53DG7BS93M, Wifi con AI Energy Mode, Dispenser Acqua, Twin Cooling Plus, 3 Mesi Garanzia Extra, 528 L, LxAxP: 79 x 185,5 x 72,5 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-F-RD53DG7BS93M-Dispenser-Garanzia/dp/B0GKH2Y74S?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI RB38C674CSA/EF Frigorifero Combinato, WiFi, SpaceMax, Total No Frost, All Around Cooling, Motore Digital Inverter Garantito 20 Anni, 390 L, LxAxP: 59,5 x 203 x 65,8 cm, Silver Inox",
+            "href": "https://www.amazon.it/RB38C674CSA-EF-Frigorifero-Combinato-Inverter/dp/B0BV39GZDZ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex AI RB34C775CS9/EF Frigorifero Combinato, WiFi, SpaceMax, Total No Frost, All Around Cooling, Motore Digital Inverter Garantito 20 Anni, 344 L, LxAxP: 59,5 x 185,3 x 65,8 cm, Metal Inox",
+            "href": "https://www.amazon.it/RB34C775CS9-EF-Frigorifero-Combinato-Garantito/dp/B0C66F8ZJ4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side AI Home RS90F64EDF/EF con Dispenser Acqua/Ghiaccio, Wifi con AI Energy Mode, AI Home Display, SpaceMax, 614 L, LxAxP: 91,2 x 178,4 x 72,6 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RS90F64EDF-Dispenser-Ghiaccio/dp/B0DWT97F6H?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI RB50DG601EB1/EF, Largo 75cm, Wifi, All-Around Cooling, Space Max, Total No Frost, 508 L, LxAxP: 75,6 x 192 x 71,1 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-RB50DG601EB1-All-Around/dp/B0CWNTQKHN?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato F1rst 75 AI RB53DG706AB1/EF, Wifi, Largo 75cm, Twin Cooling Plus, Metal Back, Total No Frost, 538 L, LxAxP: 75,6 x 203 x 71,1 cm, Antracite",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Combinato-RB53DG706AB1-Cooling/dp/B0CWNW25DJ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Combinato Ecoflex RB33B610ESA/EF, Libera installazione, SpaceMax, Total No Frost, All Around Cooling, Motore Digital Inverter, 344 L, LXAxP: 59,5 x 185 x 66 cm, Silver Inox",
+            "href": "https://www.amazon.it/Frigorifero-Combinato-RB33B610ESA-EF-installazione/dp/B0BF57P8W8?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung EcoFlex RB33B610EWW/EF Frigorifero Combinato, Tecnologia SpaceMax, Total No Frost, All Around Cooling, Motore Digital Inverter Garantito 20 Anni, 344 L, LxAxP: 59,5 x 185,3 x 65,8 cm, Bianco",
+            "href": "https://www.amazon.it/RB33B610EWW-EF-Frigorifero-Combinato-Tecnologia/dp/B0C66CQN48?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side by Side RS64DG53M3B1/EF, Con Wifi+AI Energy Mode, SpaceMax, Smart Cooling, Total No Frost, Motore Digital Inverter, 635L, LxAxP: 91 x 178 x 72 cm, Antracite",
+            "href": "https://www.amazon.it/Frigorifero-RS64DG53M3B1-EF-SpaceMax-Inverter/dp/B0CTCN8LX4?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta Samsung RT53DG7A14S9/EF, Wifi con AI Energy Mode, Smart Cooling, Twin Cooling Plus, 530L, LxAxP: 79 x 185,5 x 72,5 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-Doppia-RT53DG7A14S9-Cooling/dp/B0DJW2H2F4?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Doppia Porta Samsung RT53DG7B14S9/EF, Wifi con AI Energy Mode, Smart Cooling, Dispenser Acqua, Twin Cooling Plus, 528 L, LxAxP: 79 x 185,5 x 72,5 cm, Metal Inox",
+            "href": "https://www.amazon.it/Samsung-Frigorifero-RT53DG7B14S9-Cooling-Dispenser/dp/B0DJW1FSYM?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Frigorifero Side By Side RS66A8101SL/EF, Libera installazione, No Frost, Twin Cooling Plus™, 652L, 91l x 178h X 72p cm",
+            "href": "https://www.amazon.it/Samsung-RS66A8101SL-EF-Frigorifero-Congelatore/dp/B08XNQ4G7M?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

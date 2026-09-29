@@ -1,0 +1,620 @@
+[
+  {
+    "id": "S01",
+    "source": "관련문서/1788408853803_HS 온라인 리테일 클리닉 과제 현황 보고_류주현담당님_v1.6_20260807.pptx",
+    "sha256": "ad555718a64db54335e407e553fbd4b7b882f8db752fd9ec848db60e76599924",
+    "bytes": 18919380,
+    "output": "docs/sources/S01-project-overview.md",
+    "slides": 31
+  },
+  {
+    "id": "S02",
+    "source": "관련문서/1788408869674_EY_LGE_HS_온라인 리테일 클리닉 진단 항목 상세정의서_v1.0_260812.pptx",
+    "sha256": "c151c895dcc38b99bf1826afff6eb949a2afa9b3755b6b15b17531f1d600f2fa",
+    "bytes": 521377,
+    "output": "docs/sources/S02-assessment-definitions.md",
+    "slides": 36
+  },
+  {
+    "id": "S03",
+    "source": "관련문서/[EY] HS_온라인_리테일_클리닉_주간업무_(W37)_20260910(통합본-수정) (1).pptx",
+    "sha256": "c696a54b571eb3cac54be07f9aec0c8897d9ee85e79069df3496aba60c263ff2",
+    "bytes": 15100303,
+    "output": "docs/sources/S03-weekly-report.md",
+    "slides": 23
+  },
+  {
+    "id": "S04",
+    "source": "관련문서/EY_LGE HS 온라인 리테일 클리닉 진단 항목_v1.95_20260915 (1).xlsx",
+    "sha256": "923dfd642834d4804eea44089ff32233c24008ae9d68c487a4380091f384a02f",
+    "bytes": 7423975,
+    "output": "docs/sources/S04-assessment-criteria.md",
+    "sheets": [
+      {
+        "sheet": "Clinic 진단 항목",
+        "state": "visible",
+        "cells": 1475,
+        "formulas": 8,
+        "nonempty_rows": 44,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-01.md"
+      },
+      {
+        "sheet": "(리서치) 모바일, PC 키워드 검색 결과 비교",
+        "state": "hidden",
+        "cells": 88,
+        "formulas": 9,
+        "nonempty_rows": 16,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-02.md"
+      },
+      {
+        "sheet": "History Log",
+        "state": "visible",
+        "cells": 49,
+        "formulas": 0,
+        "nonempty_rows": 13,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-03.md"
+      },
+      {
+        "sheet": "▷참고. Summary",
+        "state": "hidden",
+        "cells": 243,
+        "formulas": 0,
+        "nonempty_rows": 50,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-04.md"
+      },
+      {
+        "sheet": "대상 국가,리테일러",
+        "state": "visible",
+        "cells": 561,
+        "formulas": 11,
+        "nonempty_rows": 40,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-05.md"
+      },
+      {
+        "sheet": "경쟁브랜드",
+        "state": "visible",
+        "cells": 822,
+        "formulas": 0,
+        "nonempty_rows": 207,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-06.md"
+      },
+      {
+        "sheet": "Flixmedia 현황",
+        "state": "visible",
+        "cells": 546,
+        "formulas": 0,
+        "nonempty_rows": 84,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-07.md"
+      },
+      {
+        "sheet": "Search Term",
+        "state": "visible",
+        "cells": 2632,
+        "formulas": 84,
+        "nonempty_rows": 366,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-08.md"
+      },
+      {
+        "sheet": "BCP",
+        "state": "visible",
+        "cells": 385,
+        "formulas": 0,
+        "nonempty_rows": 52,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-09.md"
+      },
+      {
+        "sheet": "Initial Gallery Set",
+        "state": "visible",
+        "cells": 103,
+        "formulas": 0,
+        "nonempty_rows": 36,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-10.md"
+      },
+      {
+        "sheet": "GNB_visibility",
+        "state": "visible",
+        "cells": 597,
+        "formulas": 4,
+        "nonempty_rows": 104,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-11.md"
+      },
+      {
+        "sheet": "Warranty",
+        "state": "visible",
+        "cells": 233,
+        "formulas": 50,
+        "nonempty_rows": 81,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-12.md"
+      },
+      {
+        "sheet": "제외키워드(리리부)",
+        "state": "visible",
+        "cells": 1396,
+        "formulas": 10,
+        "nonempty_rows": 297,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-13.md"
+      },
+      {
+        "sheet": "지역 설정값",
+        "state": "visible",
+        "cells": 85,
+        "formulas": 0,
+        "nonempty_rows": 21,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-14.md"
+      },
+      {
+        "sheet": "rank 수집제한 리스트 (신,구)",
+        "state": "visible",
+        "cells": 163,
+        "formulas": 14,
+        "nonempty_rows": 22,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-15.md"
+      },
+      {
+        "sheet": "(old) 참고 11",
+        "state": "visible",
+        "cells": 21313,
+        "formulas": 0,
+        "nonempty_rows": 1603,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-16.md"
+      },
+      {
+        "sheet": "(old) PIC",
+        "state": "visible",
+        "cells": 62,
+        "formulas": 0,
+        "nonempty_rows": 20,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-17.md"
+      },
+      {
+        "sheet": "참고 9",
+        "state": "visible",
+        "cells": 2,
+        "formulas": 0,
+        "nonempty_rows": 2,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-18.md"
+      },
+      {
+        "sheet": "(old) 참고 10",
+        "state": "visible",
+        "cells": 469,
+        "formulas": 26,
+        "nonempty_rows": 38,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-19.md"
+      },
+      {
+        "sheet": "(old) 참고 4",
+        "state": "visible",
+        "cells": 222,
+        "formulas": 0,
+        "nonempty_rows": 33,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-20.md"
+      },
+      {
+        "sheet": "(old) 참고 7",
+        "state": "visible",
+        "cells": 113,
+        "formulas": 0,
+        "nonempty_rows": 19,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-21.md"
+      },
+      {
+        "sheet": "(old) 참고 13",
+        "state": "visible",
+        "cells": 4104,
+        "formulas": 400,
+        "nonempty_rows": 475,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-22.md"
+      },
+      {
+        "sheet": "Clinic 진단 항목_0624",
+        "state": "hidden",
+        "cells": 498,
+        "formulas": 0,
+        "nonempty_rows": 50,
+        "full": true,
+        "output": "docs/sources/S04-assessment-criteria/sheet-23.md"
+      }
+    ]
+  },
+  {
+    "id": "S05",
+    "source": "관련문서/★EY_LGE_Clinic_Assessment Summary_Improvement Tracker_V0.1_20260911 (1).xlsx",
+    "sha256": "8b9802a8157e2d5acbed428e89f73d6974a746dff46d2890bfde1edeff135485",
+    "bytes": 16814421,
+    "output": "docs/sources/S05-assessment-tracker.md",
+    "sheets": [
+      {
+        "sheet": "톤다운 버전",
+        "state": "hidden",
+        "cells": 140,
+        "formulas": 0,
+        "nonempty_rows": 28,
+        "full": true,
+        "output": "docs/sources/S05-assessment-tracker/sheet-01.md"
+      },
+      {
+        "sheet": "기준_Reference",
+        "state": "hidden",
+        "cells": 300,
+        "formulas": 30,
+        "nonempty_rows": 32,
+        "full": true,
+        "output": "docs/sources/S05-assessment-tracker/sheet-02.md"
+      },
+      {
+        "sheet": "Summary",
+        "state": "visible",
+        "cells": 462,
+        "formulas": 358,
+        "nonempty_rows": 13,
+        "full": true,
+        "output": "docs/sources/S05-assessment-tracker/sheet-03.md"
+      },
+      {
+        "sheet": "Summary Detail",
+        "state": "visible",
+        "cells": 8194,
+        "formulas": 3684,
+        "nonempty_rows": 142,
+        "full": true,
+        "output": "docs/sources/S05-assessment-tracker/sheet-04.md"
+      },
+      {
+        "sheet": "데이터 누락점검",
+        "state": "hidden",
+        "cells": 1198,
+        "formulas": 998,
+        "nonempty_rows": 74,
+        "full": true,
+        "output": "docs/sources/S05-assessment-tracker/sheet-05.md"
+      },
+      {
+        "sheet": "Improvement Task",
+        "state": "visible",
+        "cells": 5652,
+        "formulas": 1,
+        "nonempty_rows": 435,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-06.md"
+      },
+      {
+        "sheet": "Task&Issue_Tracker",
+        "state": "visible",
+        "cells": 63467,
+        "formulas": 241,
+        "nonempty_rows": 7153,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-07.md"
+      },
+      {
+        "sheet": "France PDP",
+        "state": "hidden",
+        "cells": 546,
+        "formulas": 0,
+        "nonempty_rows": 78,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-08.md"
+      },
+      {
+        "sheet": "▶RawData",
+        "state": "visible",
+        "cells": 0,
+        "formulas": 0,
+        "nonempty_rows": 0,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-09.md"
+      },
+      {
+        "sheet": "ID1",
+        "state": "visible",
+        "cells": 58922,
+        "formulas": 0,
+        "nonempty_rows": 5892,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-10.md"
+      },
+      {
+        "sheet": "ID2",
+        "state": "visible",
+        "cells": 16882,
+        "formulas": 0,
+        "nonempty_rows": 1688,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-11.md"
+      },
+      {
+        "sheet": "ID3",
+        "state": "visible",
+        "cells": 13740,
+        "formulas": 0,
+        "nonempty_rows": 1249,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-12.md"
+      },
+      {
+        "sheet": "ID4",
+        "state": "visible",
+        "cells": 12112,
+        "formulas": 0,
+        "nonempty_rows": 1211,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-13.md"
+      },
+      {
+        "sheet": "ID7",
+        "state": "visible",
+        "cells": 3889,
+        "formulas": 72,
+        "nonempty_rows": 377,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-14.md"
+      },
+      {
+        "sheet": "ID8",
+        "state": "visible",
+        "cells": 11583,
+        "formulas": 0,
+        "nonempty_rows": 1172,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-15.md"
+      },
+      {
+        "sheet": "ID9",
+        "state": "visible",
+        "cells": 1729,
+        "formulas": 0,
+        "nonempty_rows": 159,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-16.md"
+      },
+      {
+        "sheet": "ID10",
+        "state": "visible",
+        "cells": 4681,
+        "formulas": 0,
+        "nonempty_rows": 474,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-17.md"
+      },
+      {
+        "sheet": "ID11",
+        "state": "visible",
+        "cells": 13845,
+        "formulas": 0,
+        "nonempty_rows": 1221,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-18.md"
+      },
+      {
+        "sheet": "ID12",
+        "state": "visible",
+        "cells": 796134,
+        "formulas": 53075,
+        "nonempty_rows": 53076,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-19.md"
+      },
+      {
+        "sheet": "ID13",
+        "state": "visible",
+        "cells": 104746,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-20.md"
+      },
+      {
+        "sheet": "ID14",
+        "state": "visible",
+        "cells": 334076,
+        "formulas": 22271,
+        "nonempty_rows": 22272,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-21.md"
+      },
+      {
+        "sheet": "ID15",
+        "state": "visible",
+        "cells": 83855,
+        "formulas": 5595,
+        "nonempty_rows": 5596,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-22.md"
+      },
+      {
+        "sheet": "ID18_19_20_21_22_23",
+        "state": "visible",
+        "cells": 7339,
+        "formulas": 0,
+        "nonempty_rows": 669,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-23.md"
+      },
+      {
+        "sheet": "ID24",
+        "state": "visible",
+        "cells": 17307,
+        "formulas": 1093,
+        "nonempty_rows": 1094,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-24.md"
+      },
+      {
+        "sheet": "ID25",
+        "state": "visible",
+        "cells": 13411,
+        "formulas": 771,
+        "nonempty_rows": 772,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-25.md"
+      },
+      {
+        "sheet": "ID_29",
+        "state": "visible",
+        "cells": 180942,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-26.md"
+      },
+      {
+        "sheet": "ID33",
+        "state": "visible",
+        "cells": 25161,
+        "formulas": 1093,
+        "nonempty_rows": 1094,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-27.md"
+      },
+      {
+        "sheet": "ID34",
+        "state": "visible",
+        "cells": 88315,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-28.md"
+      },
+      {
+        "sheet": "ID40",
+        "state": "visible",
+        "cells": 88205,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-29.md"
+      },
+      {
+        "sheet": "ID35",
+        "state": "visible",
+        "cells": 8668,
+        "formulas": 472,
+        "nonempty_rows": 473,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-30.md"
+      },
+      {
+        "sheet": "ID_42",
+        "state": "visible",
+        "cells": 79396,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-31.md"
+      },
+      {
+        "sheet": "ID_44",
+        "state": "visible",
+        "cells": 196984,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-32.md"
+      },
+      {
+        "sheet": "ID_37_38",
+        "state": "visible",
+        "cells": 187531,
+        "formulas": 11024,
+        "nonempty_rows": 11025,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-33.md"
+      },
+      {
+        "sheet": "ID39",
+        "state": "visible",
+        "cells": 88791,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-34.md"
+      },
+      {
+        "sheet": "ID_43",
+        "state": "visible",
+        "cells": 10393,
+        "formulas": 1763,
+        "nonempty_rows": 1734,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-35.md"
+      },
+      {
+        "sheet": "ID45",
+        "state": "visible",
+        "cells": 8199,
+        "formulas": 415,
+        "nonempty_rows": 416,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-36.md"
+      },
+      {
+        "sheet": "ID46",
+        "state": "visible",
+        "cells": 93718,
+        "formulas": 5512,
+        "nonempty_rows": 5513,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-37.md"
+      },
+      {
+        "sheet": "_URL_Calc",
+        "state": "hidden",
+        "cells": 179655,
+        "formulas": 81,
+        "nonempty_rows": 7199,
+        "full": false,
+        "output": "docs/sources/S05-assessment-tracker/sheet-38.md"
+      }
+    ]
+  },
+  {
+    "id": "S06",
+    "source": "관련문서/인수인계_워크숍_세부주제.docx",
+    "sha256": "29bcb51b473ec1b3b296c7f5f416aa43ec4c733a833e2d9af18e3bdc470be98c",
+    "bytes": 15993,
+    "output": "docs/sources/S06-handover-workshop.md",
+    "paragraphs": 139,
+    "tables": 1
+  },
+  {
+    "id": "S07",
+    "source": "관련문서/인수인계_완료_확인서_HS온라인리테일_v1_1.docx",
+    "sha256": "08077751a3cc9236106232ee2e7b11e2736152cf9c077de0fb28e504c957281c",
+    "bytes": 28383,
+    "output": "docs/sources/S07-handover-checklist.md",
+    "paragraphs": 17,
+    "tables": 5
+  },
+  {
+    "id": "S08",
+    "source": "관련문서/collected-pages (1).csv",
+    "sha256": "9bea6bcf0f5bf28b276382af4bda60f6a4252654a152eed2e05eeccfa7782dd9",
+    "bytes": 9371973,
+    "output": "docs/sources/S08-collected-pages.md",
+    "rows": 7107,
+    "columns": 41
+  }
+]

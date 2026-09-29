@@ -1,0 +1,551 @@
+{"offset": "0x6b000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x6b038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x6b060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x6b090", "text": "strings are too large to concat"}
+{"offset": "0x6b0b0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x6b0d8", "text": " while calling a Python object"}
+{"offset": "0x6b0f8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x6b128", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x6b150", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x6b200", "text": "function's dictionary may not be deleted"}
+{"offset": "0x6b230", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x6b260", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x6b2c0", "text": "invalid input, expected coroutine"}
+{"offset": "0x6b2e8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x6b318", "text": "generator raised StopIteration"}
+{"offset": "0x6b338", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x6b368", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x6b398", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x6b400", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x6b430", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x6b490", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x6b4c0", "text": "__name__ must be set to a string object"}
+{"offset": "0x6b4e8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x6b518", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x6b660", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x6b698", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x6b6d0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x6b6f8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x6b728", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x6b760", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x6b798", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x6b7c0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x6b7f0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x6b830", "text": "join() result is too long for a Python string"}
+{"offset": "0x6b860", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x6b888", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/asset_screenshot.c"}
+{"offset": "0x6b8c8", "text": "scripts.asset_screenshot.__defaults__"}
+{"offset": "0x6b8f0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x6b928", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x6b968", "text": "scripts.asset_screenshot.capture_one"}
+{"offset": "0x6b990", "text": "scripts.asset_screenshot.load_capture_targets"}
+{"offset": "0x6b9c0", "text": "%s() needs keyword-only argument %U"}
+{"offset": "0x6b9e8", "text": "scripts.asset_screenshot.build_capture_meta"}
+{"offset": "0x6ba18", "text": "scripts.asset_screenshot.capture_flix_isolated"}
+{"offset": "0x6ba48", "text": "capture_scroll_stitch_if_needed"}
+{"offset": "0x6ba68", "text": "scripts.asset_screenshot.capture_scroll_stitch_if_needed"}
+{"offset": "0x6baa8", "text": "scripts.asset_screenshot.wait_for_flix_frame_content"}
+{"offset": "0x6bae0", "text": "scripts.asset_screenshot.wait_until_images_settled"}
+{"offset": "0x6bb18", "text": "scripts.asset_screenshot.wait_until_no_broken"}
+{"offset": "0x6bb48", "text": "scripts.asset_screenshot.has_container_content"}
+{"offset": "0x6bb78", "text": "scripts.asset_screenshot.pick_container_selector"}
+{"offset": "0x6bbb0", "text": "scripts.asset_screenshot.swap_videos_to_posters"}
+{"offset": "0x6bbe0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x6bc00", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x6bc20", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x6bc48", "text": "scripts.asset_screenshot.trim_trailing_blank"}
+{"offset": "0x6bc78", "text": "Module 'asset_screenshot' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x6bcd8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x6bd28", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x6bd68", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x6bd90", "text": "scripts.asset_screenshot.delivery_id_candidates"}
+{"offset": "0x6bdc0", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x6bdf8", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x6be38", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x6be70", "text": "__await__() returned a coroutine"}
+{"offset": "0x6be98", "text": "coroutine is being awaited already"}
+{"offset": "0x6bec0", "text": "scripts.asset_screenshot.screenshot_basename"}
+{"offset": "0x6bef0", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x6bf10", "text": "scripts.asset_screenshot._run.genexpr"}
+{"offset": "0x6bf38", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x6bf68", "text": "instance exception may not have a separate value"}
+{"offset": "0x6bfa0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x6bfe8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x6c028", "text": "scripts.asset_screenshot.capture_scroll_stitch_if_needed.genexpr"}
+{"offset": "0x6c070", "text": "argument after ** must be a mapping, not NoneType"}
+{"offset": "0x6c0a8", "text": "qualified name of the generator"}
+{"offset": "0x6c0c8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x6c0f8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x6c158", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x6c1c8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x6c200", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x6c230", "text": "qualified name of the coroutine"}
+{"offset": "0x6c250", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x6c2b0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x6c320", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x6c358", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x6c380", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x6c3b8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x6c418", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x6c488", "text": "scripts.asset_screenshot.__pyx_scope_struct_14_genexpr"}
+{"offset": "0x6c4c0", "text": "scripts.asset_screenshot.__pyx_scope_struct_13_genexpr"}
+{"offset": "0x6c4f8", "text": "scripts.asset_screenshot.__pyx_scope_struct_12_genexpr"}
+{"offset": "0x6c530", "text": "scripts.asset_screenshot.__pyx_scope_struct_11_genexpr"}
+{"offset": "0x6c568", "text": "scripts.asset_screenshot.__pyx_scope_struct_10__run"}
+{"offset": "0x6c5a0", "text": "scripts.asset_screenshot.__pyx_scope_struct_9_capture_one"}
+{"offset": "0x6c5e0", "text": "scripts.asset_screenshot.__pyx_scope_struct_8_capture_flix_isolated"}
+{"offset": "0x6c628", "text": "scripts.asset_screenshot.__pyx_scope_struct_7_genexpr"}
+{"offset": "0x6c660", "text": "scripts.asset_screenshot.__pyx_scope_struct_6_capture_scroll_stitch_if_needed"}
+{"offset": "0x6c6b0", "text": "scripts.asset_screenshot.__pyx_scope_struct_5_wait_for_flix_frame_content"}
+{"offset": "0x6c700", "text": "scripts.asset_screenshot.__pyx_scope_struct_4_wait_until_images_settled"}
+{"offset": "0x6c748", "text": "scripts.asset_screenshot.__pyx_scope_struct_3_wait_until_no_broken"}
+{"offset": "0x6c790", "text": "scripts.asset_screenshot.__pyx_scope_struct_2_has_container_content"}
+{"offset": "0x6c7d8", "text": "scripts.asset_screenshot.__pyx_scope_struct_1_pick_container_selector"}
+{"offset": "0x6c820", "text": "scripts.asset_screenshot.__pyx_scope_struct__swap_videos_to_posters"}
+{"offset": "0x6c864", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x6c882", "text": "%.200s() needs an argument"}
+{"offset": "0x6c89d", "text": "Bad call flags for CyFunction"}
+{"offset": "0x6c8bb", "text": "<cyfunction %U at %p>"}
+{"offset": "0x6c8d1", "text": "__loader__"}
+{"offset": "0x6c8dc", "text": "loader"}
+{"offset": "0x6c8e3", "text": "__file__"}
+{"offset": "0x6c8ec", "text": "origin"}
+{"offset": "0x6c8f3", "text": "__package__"}
+{"offset": "0x6c8ff", "text": "parent"}
+{"offset": "0x6c906", "text": "__path__"}
+{"offset": "0x6c90f", "text": "submodule_search_locations"}
+{"offset": "0x6c92a", "text": "keywords must be strings"}
+{"offset": "0x6c943", "text": "_cython_coroutine_type"}
+{"offset": "0x6c95a", "text": "_cython_generator_type"}
+{"offset": "0x6c971", "text": "_module"}
+{"offset": "0x6c979", "text": "__builtins__"}
+{"offset": "0x6c986", "text": "_cython_3_0_12"}
+{"offset": "0x6c995", "text": "cannot import name %S"}
+{"offset": "0x6c9ab", "text": "name '%U' is not defined"}
+{"offset": "0x6c9c4", "text": "%s (%s:%d)"}
+{"offset": "0x6c9cf", "text": "scripts/asset_screenshot.py"}
+{"offset": "0x6c9ee", "text": "genexpr"}
+{"offset": "0x6c9f6", "text": "exactly"}
+{"offset": "0x6c9fe", "text": "scripts.asset_screenshot._run"}
+{"offset": "0x6ca1c", "text": "capture_one"}
+{"offset": "0x6ca28", "text": "load_capture_targets"}
+{"offset": "0x6ca3d", "text": "build_capture_meta"}
+{"offset": "0x6ca50", "text": "capture_flix_isolated"}
+{"offset": "0x6ca66", "text": "at least"}
+{"offset": "0x6ca6f", "text": "at most"}
+{"offset": "0x6ca77", "text": "wait_for_flix_frame_content"}
+{"offset": "0x6ca93", "text": "wait_until_images_settled"}
+{"offset": "0x6caad", "text": "wait_until_no_broken"}
+{"offset": "0x6cac2", "text": "has_container_content"}
+{"offset": "0x6cad8", "text": "pick_container_selector"}
+{"offset": "0x6caf0", "text": "swap_videos_to_posters"}
+{"offset": "0x6cb07", "text": "coroutine already executing"}
+{"offset": "0x6cb23", "text": "generator already executing"}
+{"offset": "0x6cb3f", "text": "trim_trailing_blank"}
+{"offset": "0x6cb53", "text": "builtins"}
+{"offset": "0x6cb5c", "text": "cython_runtime"}
+{"offset": "0x6cb6b", "text": "does not match"}
+{"offset": "0x6cb7a", "text": "collections.abc"}
+{"offset": "0x6cb8a", "text": "backports_abc"}
+{"offset": "0x6cb98", "text": "init scripts.asset_screenshot"}
+{"offset": "0x6cbb6", "text": "delivery_id_candidates"}
+{"offset": "0x6cbcd", "text": "screenshot_basename"}
+{"offset": "0x6cbe1", "text": "throw"}
+{"offset": "0x6cbe7", "text": "scripts.asset_screenshot.main"}
+{"offset": "0x6cc05", "text": "_cython_3_0_12.generator"}
+{"offset": "0x6cc1e", "text": "__name__"}
+{"offset": "0x6cc27", "text": "name of the generator"}
+{"offset": "0x6cc3d", "text": "__qualname__"}
+{"offset": "0x6cc4a", "text": "gi_frame"}
+{"offset": "0x6cc53", "text": "Frame of the generator"}
+{"offset": "0x6cc6a", "text": "gi_running"}
+{"offset": "0x6cc75", "text": "gi_yieldfrom"}
+{"offset": "0x6cc82", "text": "gi_code"}
+{"offset": "0x6cc8a", "text": "__module__"}
+{"offset": "0x6cc95", "text": "send"}
+{"offset": "0x6cc9a", "text": "close"}
+{"offset": "0x6cca0", "text": "__reduce__"}
+{"offset": "0x6ccab", "text": "func_doc"}
+{"offset": "0x6ccb4", "text": "__doc__"}
+{"offset": "0x6ccbc", "text": "func_name"}
+{"offset": "0x6ccc6", "text": "func_dict"}
+{"offset": "0x6ccd0", "text": "__dict__"}
+{"offset": "0x6ccd9", "text": "func_globals"}
+{"offset": "0x6cce6", "text": "__globals__"}
+{"offset": "0x6ccf2", "text": "func_closure"}
+{"offset": "0x6ccff", "text": "__closure__"}
+{"offset": "0x6cd0b", "text": "func_code"}
+{"offset": "0x6cd15", "text": "__code__"}
+{"offset": "0x6cd1e", "text": "func_defaults"}
+{"offset": "0x6cd2c", "text": "__defaults__"}
+{"offset": "0x6cd39", "text": "__kwdefaults__"}
+{"offset": "0x6cd48", "text": "__annotations__"}
+{"offset": "0x6cd58", "text": "_is_coroutine"}
+{"offset": "0x6cd66", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x6cd7f", "text": "name of the coroutine"}
+{"offset": "0x6cd95", "text": "cr_frame"}
+{"offset": "0x6cd9e", "text": "Frame of the coroutine"}
+{"offset": "0x6cdb5", "text": "cr_running"}
+{"offset": "0x6cdc0", "text": "cr_await"}
+{"offset": "0x6cdc9", "text": "object being awaited, or None"}
+{"offset": "0x6cde7", "text": "cr_code"}
+{"offset": "0x6cdef", "text": "__reduce_ex__"}
+{"offset": "0x6d000", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x6d0e0", "text": "(sel) => {\n            const root = document.querySelector(sel);\n            if (!root) return;\n            for (const el of root.querySelectorAll('*')) {\n                const cs = getComputedStyle(el);\n                if (cs.position === 'sticky' || cs.position === 'fixed')\n                    el.style.setProperty('position', 'static', 'important');\n            }\n        }"}
+{"offset": "0x6d260", "text": "(sel) => {\n        const root = document.querySelector(sel);\n        if (!root) return true;\n        for (const img of root.querySelectorAll('img')) {\n            if (!img.complete) return false;\n        }\n        return true;\n    }"}
+{"offset": "0x6d360", "text": "capture_scroll_stitch_if_needed"}
+{"offset": "0x6d380", "text": "\n            *, *::before, *::after {\n                animation: none !important; transition: none !important; }\n        "}
+{"offset": "0x6d400", "text": "button[class*='accept' i][class*='cookie' i]"}
+{"offset": "0x6d440", "text": "() => {\n        try {\n            for (const a of document.getAnimations({subtree: true})) {\n                try { a.finish(); } catch (e) { try { a.cancel(); } catch (_) {} }\n            }\n        } catch (e) {}\n    }"}
+{"offset": "0x6d520", "text": "() => {\n                    try {\n                        const st = JSON.parse(document.getElementById('ng-state').textContent);\n                        for (const v of Object.values(st)) {\n                            if (v && v.b && v.b.productEan) return String(v.b.productEan);\n                        }\n                    } catch (e) {}\n                    return null;\n                }"}
+{"offset": "0x6d6c0", "text": "(sel) => {\n        const root = document.querySelector(sel);\n        if (!root) return true;\n        const imgs = root.querySelectorAll('img');\n        return Array.from(imgs).every(img => img.complete);\n    }"}
+{"offset": "0x6d7a0", "text": "(sel) => {\n    const r = document.querySelector(sel); if (!r) return false;\n    if (r.querySelectorAll('img').length > 0) return true;\n    if ((r.innerText || '').trim().length > 20) return true;\n    const iframes = Array.from(r.querySelectorAll('iframe'));\n    return iframes.some(f => {\n        const src = f.src || f.getAttribute('src') || '';\n        return /flix/i.test(src);\n    });\n}"}
+{"offset": "0x6d940", "text": "(sel) => {\n    const e = document.querySelector(sel);\n    if (!e) return null;\n    const r = e.getBoundingClientRect();\n    // 가장 가까운 스크롤 조상(ion-content 포함)의 가시 박스 — 앱셸 헤더/검색바는\n    // 이 컨테이너 밖이라, 스트립을 이 박스로 clamp 하면 자연 배제된다.\n    let sc = e.parentElement, ctop = 0, cbottom = window.innerHeight;\n    while (sc) {\n        if (sc.tagName === 'ION-CONTENT' || sc.scrollHeight > sc.clientHeight + 50) {\n            const b = sc.getBoundingClientRect();\n            ctop = b.top; cbottom = b.bottom;\n            break;\n        }\n        sc = sc.parentElement;\n    }\n    return {top: r.top, bottom: r.bottom, left: r.left, right: r.right,\n            ctop: ctop, cbottom: cbottom,\n            docScrollH: document.documentElement.scrollHeight,\n            vh: window.innerHeight, vw: window.innerWidth};\n}"}
+{"offset": "0x6dce0", "text": "\n            #onetrust-consent-sdk, #onetrust-banner-sdk,\n            #CybotCookiebotDialog, .iubenda-cs-container {\n                display: none !important;\n            }\n        "}
+{"offset": "0x6dda0", "text": "() => {\n    let n = 0;\n    for (const v of Array.from(document.querySelectorAll('video[poster]'))) {\n        const poster = v.getAttribute('poster');\n        if (!poster) continue;\n        // 숨김 변형(모바일용 display:none 등)은 치환하면 오히려 보이게 되어 같은\n        // 모듈이 두 번 찍힌다 — 진짜 숨김만 건너뛴다. ⚠️ rect 크기 기준 금지:\n        // 라이브 경로에선 보이는 비디오도 치환 시점엔 소스 미로드로 0×0 이라\n        // (2026-08-05 Unieuro 실측 — rect 필터를 썼더니 비디오가 전부 다시\n        // 누락됐다) computed display/visibility 로만 판정한다.\n        const cs = getComputedStyle(v);\n        if (cs.display === 'none' || cs.visibility === 'hidden') continue;\n        const img = document.createElement('img');\n        img.src = poster.startsWith('//') ? 'https:' + poster : poster;\n        img.className = v.className;\n        img.style.width = '100%';\n        img.style.height = 'auto';\n        img.style.display = 'block';\n        v.replaceWith(img);\n        n++;\n    }\n    return n;\n}"}
+{"offset": "0x6e200", "text": "https://media.flixcar.com/modular/static/inpage/"}
+{"offset": "0x6e240", "text": "() => {\n        for (const img of document.images) {\n            const r = img.getBoundingClientRect();\n            if (r.bottom < 0 || r.top > window.innerHeight) continue;\n            if (!img.complete) return false;\n        }\n        return true;\n    }"}
+{"offset": "0x6e340", "text": "\n    .flix-carousel, .flix-carousel-stage, .flix-stage, .flix-connected {\n        height: auto !important; overflow: visible !important; }\n    .flix-carousel ul, .flix-carousel-stage ul {\n        display: flex !important; flex-wrap: wrap !important;\n        height: auto !important; width: auto !important;\n        align-items: flex-start !important; }\n    .flix-carousel ul li, .flix-carousel-stage ul li {\n        float: none !important; width: 33.33% !important;\n        height: auto !important; }\n"}
+{"offset": "0x6e540", "text": "<!doctype html><html><head><meta charset=\"utf-8\"></head><body style=\"margin:0\"><div id=\"flix-inpage\" class=\"flix-inpage\">"}
+{"offset": "0x6e5c0", "text": "브라우저 로케일/타임존 기준 국가코드(core.config.LOCALE_MAP). 생략 시 타깃마다 RETAILER_CONFIG 에서 개별 도출"}
+{"offset": "0x6e660", "text": "() => {\n            const out = [];\n            for (const img of document.querySelectorAll('#flix-inpage img')) {\n                if (!img.complete) out.push((img.currentSrc || img.src || '').slice(0, 200));\n            }\n            return out;\n        }"}
+{"offset": "0x6e780", "text": "() => { const b = document.body;\n   if (!b) return false;\n   return b.querySelectorAll('img').length > 0\n          || (b.innerText || '').trim().length > 20; }"}
+{"offset": "0x6e820", "text": "capture_scroll_stitch_if_needed.<locals>.genexpr"}
+{"offset": "0x6e860", "text": "\n            *, *::before, *::after {\n                animation: none !important;\n                transition: none !important;\n            }\n        "}
+{"offset": "0x6e900", "text": "%(asctime)s [%(levelname)s] %(message)s"}
+{"offset": "0x6e940", "text": "(sel) => document.querySelector(sel).scrollIntoView({block:'start'})"}
+{"offset": "0x6e9a0", "text": "\n    [class*=\"Desktophide\"] { display: none !important; }\n"}
+{"offset": "0x6e9e0", "text": "button[id*='accept' i][id*='cookie' i]"}
+{"offset": "0x6ea10", "text": "crawl_retailers.asset_capture"}
+{"offset": "0x6ea40", "text": " ✅ delivery-isolated incomplete="}
+{"offset": "0x6ea70", "text": "wait_for_flix_frame_content"}
+{"offset": "0x6ea90", "text": "scripts/asset_screenshot.py"}
+{"offset": "0x6eab0", "text": "#onetrust-accept-btn-handler"}
+{"offset": "0x6ead0", "text": "wait_until_images_settled"}
+{"offset": "0x6eaf0", "text": "elcorteingles_electronica"}
+{"offset": "0x6eb10", "text": "Elcorteingles_electronica"}
+{"offset": "0x6eb30", "text": "scripts.asset_screenshot"}
+{"offset": "0x6eb50", "text": "pick_container_selector"}
+{"offset": "0x6eb70", "text": "capture_flix_isolated 실패: "}
+{"offset": "0x6eb90", "text": "acapture_render_defects"}
+{"offset": "0x6ebb0", "text": "DELIVERY_ONLY_RETAILERS"}
+{"offset": "0x6ebd0", "text": "swap_videos_to_posters"}
+{"offset": "0x6ebf0", "text": "parse_retailers.common"}
+{"offset": "0x6ec10", "text": "delivery_id_candidates"}
+{"offset": "0x6ec30", "text": "asset_screenshot: batch="}
+{"offset": "0x6ec50", "text": "FLIX_DEDUP_VARIANT_CSS"}
+{"offset": "0x6ec70", "text": "has_container_content"}
+{"offset": "0x6ec90", "text": "<flix-iframe-not-ready>"}
+{"offset": "0x6ecb0", "text": "--disable-dev-shm-usage"}
+{"offset": "0x6ecd0", "text": "capture_flix_isolated"}
+{"offset": "0x6ecf0", "text": "wait_until_no_broken"}
+{"offset": "0x6ed10", "text": "playwright.async_api"}
+{"offset": "0x6ed30", "text": "load_capture_targets"}
+{"offset": "0x6ed50", "text": "data-flix-ean=\"(\\d{8,14})\""}
+{"offset": "0x6ed70", "text": "apromote_lazy_images"}
+{"offset": "0x6ed90", "text": "_VIEW_IMGS_SETTLED_JS"}
+{"offset": "0x6edb0", "text": "_VIDEO_POSTER_SWAP_JS"}
+{"offset": "0x6edd0", "text": "RETAILER_FILE_PREFIX"}
+{"offset": "0x6edf0", "text": "_ALL_IMGS_COMPLETE_JS"}
+{"offset": "0x6ee10", "text": "wait_for_load_state"}
+{"offset": "0x6ee30", "text": "trim_trailing_blank"}
+{"offset": "0x6ee50", "text": "static/inpage/(\\d+)/img/"}
+{"offset": "0x6ee70", "text": "screenshot_basename"}
+{"offset": "0x6ee90", "text": "ignore_https_errors"}
+{"offset": "0x6eeb0", "text": "asset_screenshot 완료: ok="}
+{"offset": "0x6eed0", "text": "apply_stealth_async"}
+{"offset": "0x6eef0", "text": "_FLIX_FRAME_READY_JS"}
+{"offset": "0x6ef10", "text": "_run.<locals>.genexpr"}
+{"offset": "0x6ef30", "text": "query_selector_all"}
+{"offset": "0x6ef50", "text": "playwright_stealth"}
+{"offset": "0x6ef70", "text": "list[tuple[str, str]]"}
+{"offset": "0x6ef90", "text": "\"gtin1?3?\"\\s*:\\s*\"(\\d{8,14})\""}
+{"offset": "0x6efb0", "text": "cline_in_traceback"}
+{"offset": "0x6efd0", "text": "build_capture_meta"}
+{"offset": "0x6eff0", "text": " broken_remaining="}
+{"offset": "0x6f010", "text": "await_flix_content"}
+{"offset": "0x6f030", "text": "asyncio.coroutines"}
+{"offset": "0x6f050", "text": "iframe[src*='flix' i]"}
+{"offset": "0x6f070", "text": "fetch_inpage_html"}
+{"offset": "0x6f090", "text": "DEFAULT_RETAILERS"}
+{"offset": "0x6f0b0", "text": "wait_for_timeout"}
+{"offset": "0x6f0d0", "text": "pidGOL([A-Za-z0-9]+)"}
+{"offset": "0x6f0f0", "text": "inject_into_page"}
+{"offset": "0x6f110", "text": "ever_seen_iframe"}
+{"offset": "0x6f130", "text": "domcontentloaded"}
+{"offset": "0x6f150", "text": "broken_remaining"}
+{"offset": "0x6f170", "text": "async_playwright"}
+{"offset": "0x6f190", "text": "SB_GTIN_FALLBACK"}
+{"offset": "0x6f1b0", "text": "BROKEN_TIMEOUT_S"}
+{"offset": "0x6f1d0", "text": " selector_miss="}
+{"offset": "0x6f1e0", "text": "scroll_for_lazy"}
+{"offset": "0x6f1f0", "text": "model_from_slug"}
+{"offset": "0x6f200", "text": " flix delivery 미히트(시도: "}
+{"offset": "0x6f230", "text": "RETAILER_CONFIG"}
+{"offset": "0x6f240", "text": "FLIX_LAYOUT_CSS"}
+{"offset": "0x6f250", "text": "_FINISH_ANIMS_JS"}
+{"offset": "0x6f268", "text": "query_selector"}
+{"offset": "0x6f278", "text": "core.retailers"}
+{"offset": "0x6f290", "text": "_STITCH_RECT_JS"}
+{"offset": "0x6f2a0", "text": "NAV_TIMEOUT_MS"}
+{"offset": "0x6f2b0", "text": "_HAS_CONTENT_JS"}
+{"offset": "0x6f2c0", "text": "ArgumentParser"}
+{"offset": "0x6f2d0", "text": "selectors_for"}
+{"offset": "0x6f2e0", "text": "selector_miss"}
+{"offset": "0x6f2f0", "text": "local_browser"}
+{"offset": "0x6f300", "text": "list[str] | None"}
+{"offset": "0x6f318", "text": "incomplete_js"}
+{"offset": "0x6f328", "text": "flix_delivery"}
+{"offset": "0x6f338", "text": "ean_for_model"}
+{"offset": "0x6f350", "text": "</div></body></html>"}
+{"offset": "0x6f368", "text": "content_frame"}
+{"offset": "0x6f378", "text": "broken_images"}
+{"offset": "0x6f388", "text": "asyncio.tasks"}
+{"offset": "0x6f398", "text": "add_style_tag"}
+{"offset": "0x6f3a8", "text": "MediaMarkt_ES"}
+{"offset": "0x6f3b8", "text": "BROKEN_POLL_S"}
+{"offset": "0x6f3c8", "text": " nav_failed="}
+{"offset": "0x6f3d8", "text": "load_targets"}
+{"offset": "0x6f3e8", "text": "_is_coroutine"}
+{"offset": "0x6f3f8", "text": "_initializing"}
+{"offset": "0x6f408", "text": "ensure_ascii"}
+{"offset": "0x6f418", "text": "/css/main.css"}
+{"offset": "0x6f428", "text": "core.storage"}
+{"offset": "0x6f438", "text": "core.crawler"}
+{"offset": "0x6f448", "text": "\\b88060\\d{8}\\b"}
+{"offset": "0x6f458", "text": "add_argument"}
+{"offset": "0x6f468", "text": "CLINIC_ENTRY"}
+{"offset": "0x6f478", "text": "use_stealth"}
+{"offset": "0x6f488", "text": "timezone_id"}
+{"offset": "0x6f498", "text": "tgt_country"}
+{"offset": "0x6f4a8", "text": "set_content"}
+{"offset": "0x6f4b8", "text": "scrapingbee"}
+{"offset": "0x6f4c8", "text": " retailers="}
+{"offset": "0x6f4d8", "text": "new_context"}
+{"offset": "0x6f4e8", "text": "networkidle"}
+{"offset": "0x6f4f8", "text": "inpage_html"}
+{"offset": "0x6f508", "text": "#flix-inpage"}
+{"offset": "0x6f518", "text": "core.config"}
+{"offset": "0x6f528", "text": "consent_sel"}
+{"offset": "0x6f538", "text": "capture_one"}
+{"offset": "0x6f548", "text": "basicConfig"}
+{"offset": "0x6f558", "text": "write_text"}
+{"offset": "0x6f568", "text": "wait_until"}
+{"offset": "0x6f578", "text": "slug_model"}
+{"offset": "0x6f588", "text": " ✅ selector="}
+{"offset": "0x6f598", "text": "screenshot"}
+{"offset": "0x6f5a8", "text": "--retailer"}
+{"offset": "0x6f5b8", "text": "record_dir"}
+{"offset": "0x6f5c8", "text": "product_id"}
+{"offset": "0x6f5d8", "text": "parse_args"}
+{"offset": "0x6f5e8", "text": "--no-sandbox"}
+{"offset": "0x6f5f8", "text": "nav_failed"}
+{"offset": "0x6f608", "text": "mediaworld"}
+{"offset": "0x6f618", "text": "is_blocked"}
+{"offset": "0x6f628", "text": "incomplete"}
+{"offset": "0x6f638", "text": "flix_ready"}
+{"offset": "0x6f648", "text": "flix_chars"}
+{"offset": "0x6f658", "text": "docScrollH"}
+{"offset": "0x6f668", "text": "difference"}
+{"offset": "0x6f678", "text": "--batch-id"}
+{"offset": "0x6f688", "text": "Mediaworld"}
+{"offset": "0x6f698", "text": "LOCALE_MAP"}
+{"offset": "0x6f6a8", "text": "ImageChops"}
+{"offset": "0x6f6b8", "text": "waited_ms"}
+{"offset": "0x6f6c8", "text": "timeout_s"}
+{"offset": "0x6f6d8", "text": "split_key"}
+{"offset": "0x6f6e8", "text": "selectors"}
+{"offset": "0x6f6f8", "text": "retailers"}
+{"offset": "0x6f708", "text": "page_html"}
+{"offset": "0x6f718", "text": "monotonic"}
+{"offset": "0x6f728", "text": "model_mpc"}
+{"offset": "0x6f738", "text": "_meta.json"}
+{"offset": "0x6f748", "text": "list[dict]"}
+{"offset": "0x6f758", "text": "isenabled"}
+{"offset": "0x6f768", "text": "getLogger"}
+{"offset": "0x6f778", "text": "--country"}
+{"offset": "0x6f788", "text": "container"}
+{"offset": "0x6f798", "text": " blocked="}
+{"offset": "0x6f7a8", "text": "base_name"}
+{"offset": "0x6f7b8", "text": "_LG_EAN_RE"}
+{"offset": "0x6f7c8", "text": "wait_for"}
+{"offset": "0x6f7d8", "text": "viewport"}
+{"offset": "0x6f7e8", "text": "str | None"}
+{"offset": "0x6f7f8", "text": "stitched"}
+{"offset": "0x6f808", "text": "selector"}
+{"offset": "0x6f818", "text": "retailer"}
+{"offset": "0x6f828", "text": "required"}
+{"offset": "0x6f838", "text": "prev_top"}
+{"offset": "0x6f848", "text": "png_path"}
+{"offset": "0x6f858", "text": "new_page"}
+{"offset": "0x6f868", "text": "list[str]"}
+{"offset": "0x6f878", "text": "int | None"}
+{"offset": "0x6f888", "text": "headless"}
+{"offset": "0x6f8a0", "text": " flix CSS 로드 실패: "}
+{"offset": "0x6f8c0", "text": "evaluate"}
+{"offset": "0x6f8d0", "text": "encoding"}
+{"offset": "0x6f8e0", "text": "deadline"}
+{"offset": "0x6f8f0", "text": "chromium"}
+{"offset": "0x6f900", "text": "batch_id"}
+{"offset": "0x6f910", "text": "base_key"}
+{"offset": "0x6f920", "text": "argparse"}
+{"offset": "0x6f930", "text": "warning"}
+{"offset": "0x6f938", "text": "visible"}
+{"offset": "0x6f940", "text": "vis_top"}
+{"offset": "0x6f948", "text": "vis_bot"}
+{"offset": "0x6f950", "text": "unknown"}
+{"offset": "0x6f958", "text": "total_h"}
+{"offset": "0x6f960", "text": "timeout"}
+{"offset": "0x6f968", "text": "targets"}
+{"offset": "0x6f970", "text": "stealth"}
+{"offset": "0x6f978", "text": "skipped"}
+{"offset": "0x6f980", "text": "settled"}
+{"offset": "0x6f988", "text": "results"}
+{"offset": "0x6f990", "text": "resolve"}
+{"offset": "0x6f998", "text": "refdata"}
+{"offset": "0x6f9a0", "text": "premium"}
+{"offset": "0x6f9a8", "text": "pathlib"}
+{"offset": "0x6f9b0", "text": "parents"}
+{"offset": "0x6f9b8", "text": "logging"}
+{"offset": "0x6f9c0", "text": "locator"}
+{"offset": "0x6f9c8", "text": "--limit"}
+{"offset": "0x6f9d0", "text": "inspect"}
+{"offset": "0x6f9d8", "text": "handles"}
+{"offset": "0x6f9e0", "text": "getbbox"}
+{"offset": "0x6f9e8", "text": "genexpr"}
+{"offset": "0x6f9f0", "text": "findall"}
+{"offset": "0x6f9f8", "text": "environ"}
+{"offset": "0x6fa00", "text": "disable"}
+{"offset": "0x6fa08", "text": "default"}
+{"offset": "0x6fa10", "text": "css_url"}
+{"offset": "0x6fa18", "text": "country"}
+{"offset": "0x6fa20", "text": "convert"}
+{"offset": "0x6fa28", "text": "context"}
+{"offset": "0x6fa30", "text": "content"}
+{"offset": "0x6fa38", "text": "compile"}
+{"offset": "0x6fa40", "text": "cbottom"}
+{"offset": "0x6fa48", "text": "blocked"}
+{"offset": "0x6fa50", "text": "asyncio"}
+{"offset": "0x6fa58", "text": "Unieuro"}
+{"offset": "0x6fa60", "text": "Stealth"}
+{"offset": "0x6fa70", "text": " SB gtin 폴백 실패: "}
+{"offset": "0x6fa90", "text": "BytesIO"}
+{"offset": "0x6fa98", "text": "usable"}
+{"offset": "0x6fa9f", "text": "target"}
+{"offset": "0x6faa6", "text": "strips"}
+{"offset": "0x6faad", "text": "status"}
+{"offset": "0x6fab8", "text": "_settle"}
+{"offset": "0x6fac0", "text": "search"}
+{"offset": "0x6fac7", "text": "return"}
+{"offset": "0x6face", "text": "result"}
+{"offset": "0x6fad5", "text": "poll_s"}
+{"offset": "0x6fadc", "text": "page:"}
+{"offset": "0x6fae2", "text": "margin"}
+{"offset": "0x6fae9", "text": "main"}
+{"offset": "0x6faee", "text": "locale"}
+{"offset": "0x6faf5", "text": "launch"}
+{"offset": "0x6fafc", "text": "insert"}
+{"offset": "0x6fb03", "text": "inpage"}
+{"offset": "0x6fb0a", "text": "indent"}
+{"offset": "0x6fb18", "text": "__import__"}
+{"offset": "0x6fb23", "text": "height"}
+{"offset": "0x6fb2a", "text": "handle"}
+{"offset": "0x6fb31", "text": "format"}
+{"offset": "0x6fb38", "text": "folder"}
+{"offset": "0x6fb3f", "text": "failed"}
+{"offset": "0x6fb46", "text": "exists"}
+{"offset": "0x6fb4d", "text": "enable"}
+{"offset": "0x6fb54", "text": "canvas"}
+{"offset": "0x6fb5b", "text": "broken"}
+{"offset": "0x6fb62", "text": "bottom"}
+{"offset": "0x6fb69", "text": "append"}
+{"offset": "0x6fb70", "text": "__aenter__"}
+{"offset": "0x6fb7b", "text": "action"}
+{"offset": "0x6fb82", "text": "Datart"}
+{"offset": "0x6fb89", "text": "width"}
+{"offset": "0x6fb8f", "text": "wheel"}
+{"offset": "0x6fb95", "text": "ver_m"}
+{"offset": "0x6fb9b", "text": "utf-8"}
+{"offset": "0x6fba1", "text": "upper"}
+{"offset": "0x6fba7", "text": "tried"}
+{"offset": "0x6fbad", "text": "title"}
+{"offset": "0x6fbb3", "text": "throw"}
+{"offset": "0x6fbb9", "text": "strip"}
+{"offset": "0x6fbbf", "text": "state"}
+{"offset": "0x6fbc5", "text": "stall"}
+{"offset": "0x6fbcb", "text": "sleep"}
+{"offset": "0x6fbd5", "text": "right"}
+{"offset": "0x6fbdb", "text": "ready"}
+{"offset": "0x6fbe1", "text": "range"}
+{"offset": "0x6fbeb", "text": "paste"}
+{"offset": "0x6fbf1", "text": "mouse"}
+{"offset": "0x6fbf7", "text": "model"}
+{"offset": "0x6fbfd", "text": "lower"}
+{"offset": "0x6fc03", "text": "limit"}
+{"offset": "0x6fc09", "text": "level"}
+{"offset": "0x6fc0f", "text": "gtins"}
+{"offset": "0x6fc15", "text": "group"}
+{"offset": "0x6fc1b", "text": "frame"}
+{"offset": "0x6fc21", "text": "float"}
+{"offset": "0x6fc27", "text": "first"}
+{"offset": "0x6fc2d", "text": "fetch"}
+{"offset": "0x6fc33", "text": "en-US"}
+{"offset": "0x6fc39", "text": "dumps"}
+{"offset": "0x6fc3f", "text": "debug"}
+{"offset": "0x6fc45", "text": "count"}
+{"offset": "0x6fc4b", "text": "close"}
+{"offset": "0x6fc51", "text": "click"}
+{"offset": "0x6fc57", "text": "cands"}
+{"offset": "0x6fc60", "text": "__await__"}
+{"offset": "0x6fc70", "text": "__aexit__"}
+{"offset": "0x6fc7a", "text": "Image"}
+{"offset": "0x6fc80", "text": " 캐러셀 wrap 오버라이드 실패: "}
+{"offset": "0x6fca9", "text": "type"}
+{"offset": "0x6fcae", "text": "time"}
+{"offset": "0x6fcb8", "text": "__test__"}
+{"offset": "0x6fcc1", "text": "step"}
+{"offset": "0x6fcc8", "text": "__spec__"}
+{"offset": "0x6fce0", "text": " skip(기존재)="}
+{"offset": "0x6fcf2", "text": "size"}
+{"offset": "0x6fcf7", "text": "send"}
+{"offset": "0x6fcfc", "text": "seen"}
+{"offset": "0x6fd01", "text": "save"}
+{"offset": "0x6fd06", "text": "_safe"}
+{"offset": "0x6fd0c", "text": "repo"}
+{"offset": "0x6fd11", "text": "_poll"}
+{"offset": "0x6fd17", "text": "path"}
+{"offset": "0x6fd1c", "text": "page"}
+{"offset": "0x6fd21", "text": "open"}
+{"offset": "0x6fd28", "text": "__name__"}
+{"offset": "0x6fd31", "text": "move"}
+{"offset": "0x6fd36", "text": "miss"}
+{"offset": "0x6fd3b", "text": "meta"}
+{"offset": "0x6fd40", "text": "__main__"}
+{"offset": "0x6fd49", "text": "left"}
+{"offset": "0x6fd4e", "text": "json"}
+{"offset": "0x6fd57", "text": "info"}
+{"offset": "0x6fd5c", "text": "html"}
+{"offset": "0x6fd61", "text": "help"}
+{"offset": "0x6fd66", "text": "goto"}
+{"offset": "0x6fd70", "text": "__file__"}
+{"offset": "0x6fd79", "text": "diff"}
+{"offset": "0x6fd7e", "text": "dict"}
+{"offset": "0x6fd83", "text": "ctop"}
+{"offset": "0x6fd88", "text": "crop"}
+{"offset": "0x6fd8d", "text": "core"}
+{"offset": "0x6fd92", "text": "bool"}
+{"offset": "0x6fd97", "text": "bbox"}
+{"offset": "0x6fd9c", "text": "base"}
+{"offset": "0x6fda1", "text": "args"}
+{"offset": "0x6fda6", "text": "Path"}
+{"offset": "0x6fdab", "text": "None"}
+{"offset": "0x6fdb0", "text": "INFO"}
+{"offset": "0x6fdcd", "text": "_run"}
+{"offset": "0x6fdd2", "text": ".png"}
+{"offset": "0x6fe18", "text": " 대상="}
+{"offset": "0x6fe30", "text": " 캡처 실패(예외): "}
+{"offset": "0x6fe50", "text": " 셀렉터 매칭 없음"}
+{"offset": "0x6fe70", "text": " 봇차단 감지"}
+{"offset": "0x6fe90", "text": " 네비게이션 실패: "}
+{"offset": "0x6ff20", "text": "전체 대상 상위 N건만(리테일러 합산 기준)"}
+{"offset": "0x6ff60", "text": "반복 지정 가능. 생략 시 기본 4개사"}

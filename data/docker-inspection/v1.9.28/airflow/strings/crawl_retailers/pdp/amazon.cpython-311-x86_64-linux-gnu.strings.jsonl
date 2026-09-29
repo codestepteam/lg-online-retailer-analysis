@@ -1,0 +1,297 @@
+{"offset": "0x20000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x20038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x20060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x20090", "text": " while calling a Python object"}
+{"offset": "0x200b0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x200e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x20108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x20130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x201e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x20210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x20240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x202a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x202c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x202f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x20328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x20358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x203c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x203f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x20450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x20480", "text": "__name__ must be set to a string object"}
+{"offset": "0x204a8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x205f0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x20628", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x20658", "text": "instance exception may not have a separate value"}
+{"offset": "0x20690", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x206d8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x20718", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x20750", "text": "%.200s() keywords must be strings"}
+{"offset": "0x20778", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x207a8", "text": "generator raised StopIteration"}
+{"offset": "0x207c8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x20800", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x20838", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x20860", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x20890", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x208d0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x208f8", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/pdp/amazon.c"}
+{"offset": "0x20938", "text": "crawl_retailers.pdp.amazon.extract"}
+{"offset": "0x20960", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x209a0", "text": "crawl_retailers.pdp.amazon._assert_not_blocked"}
+{"offset": "0x209d0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x209f0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x20a10", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x20a38", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x20a70", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x20ab0", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x20ae8", "text": "__await__() returned a coroutine"}
+{"offset": "0x20b10", "text": "coroutine is being awaited already"}
+{"offset": "0x20b38", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x20b70", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x20bb8", "text": "crawl_retailers.pdp.amazon.product_model_from_title"}
+{"offset": "0x20bf0", "text": "Module 'amazon' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x20c40", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x20c90", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x20cd0", "text": "init crawl_retailers.pdp.amazon"}
+{"offset": "0x20cf0", "text": "crawl_retailers.pdp.amazon.extra_ocr_image_urls"}
+{"offset": "0x20d20", "text": "join() result is too long for a Python string"}
+{"offset": "0x20d50", "text": "crawl_retailers.pdp.amazon.page_targets"}
+{"offset": "0x20d78", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x20da8", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x20dd0", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x20df0", "text": "crawl_retailers.pdp.amazon._color_images_block"}
+{"offset": "0x20e20", "text": "crawl_retailers.pdp.amazon.gallery_image_urls"}
+{"offset": "0x20e50", "text": "crawl_retailers.pdp.amazon.extract.genexpr"}
+{"offset": "0x20e80", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x20eb0", "text": "dictionary changed size during iteration"}
+{"offset": "0x20ee0", "text": "'NoneType' object is not iterable"}
+{"offset": "0x20f08", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x20f30", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x20f60", "text": "qualified name of the generator"}
+{"offset": "0x20f80", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x20fb0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x21010", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x21080", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x210b8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x210e8", "text": "qualified name of the coroutine"}
+{"offset": "0x21108", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x21168", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x211d8", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x21210", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x21238", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x21270", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x212d0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x21340", "text": "crawl_retailers.pdp.amazon.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x21378", "text": "crawl_retailers.pdp.amazon.__pyx_scope_struct_1_extract"}
+{"offset": "0x213b0", "text": "crawl_retailers.pdp.amazon.__pyx_scope_struct___assert_not_blocked"}
+{"offset": "0x213f3", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x21411", "text": "%.200s() needs an argument"}
+{"offset": "0x2142c", "text": "Bad call flags for CyFunction"}
+{"offset": "0x2144a", "text": "<cyfunction %U at %p>"}
+{"offset": "0x21460", "text": "__loader__"}
+{"offset": "0x2146b", "text": "loader"}
+{"offset": "0x21472", "text": "__file__"}
+{"offset": "0x2147b", "text": "origin"}
+{"offset": "0x21482", "text": "__package__"}
+{"offset": "0x2148e", "text": "parent"}
+{"offset": "0x21495", "text": "__path__"}
+{"offset": "0x2149e", "text": "submodule_search_locations"}
+{"offset": "0x214b9", "text": "keywords must be strings"}
+{"offset": "0x214d2", "text": "_cython_coroutine_type"}
+{"offset": "0x214e9", "text": "_cython_generator_type"}
+{"offset": "0x21500", "text": "_module"}
+{"offset": "0x21508", "text": "__builtins__"}
+{"offset": "0x21515", "text": "_cython_3_0_12"}
+{"offset": "0x21524", "text": "cannot import name %S"}
+{"offset": "0x2153a", "text": "%s (%s:%d)"}
+{"offset": "0x21545", "text": "extract"}
+{"offset": "0x2154d", "text": "crawl_retailers/pdp/amazon.py"}
+{"offset": "0x2156b", "text": "exactly"}
+{"offset": "0x21573", "text": "_assert_not_blocked"}
+{"offset": "0x21587", "text": "coroutine already executing"}
+{"offset": "0x215a3", "text": "generator already executing"}
+{"offset": "0x215bf", "text": "name '%U' is not defined"}
+{"offset": "0x215db", "text": "url_l"}
+{"offset": "0x215e1", "text": "genexpr"}
+{"offset": "0x215e9", "text": "product_model_from_title"}
+{"offset": "0x21602", "text": "builtins"}
+{"offset": "0x2160b", "text": "cython_runtime"}
+{"offset": "0x2161a", "text": "crawl_retailers.pdp.amazon"}
+{"offset": "0x21635", "text": "does not match"}
+{"offset": "0x21644", "text": "collections.abc"}
+{"offset": "0x21654", "text": "backports_abc"}
+{"offset": "0x21662", "text": "extra_ocr_image_urls"}
+{"offset": "0x21677", "text": "page_targets"}
+{"offset": "0x21684", "text": "_color_images_block"}
+{"offset": "0x21698", "text": "throw"}
+{"offset": "0x2169e", "text": "gallery_image_urls"}
+{"offset": "0x216b1", "text": "items"}
+{"offset": "0x216b7", "text": "_cython_3_0_12.generator"}
+{"offset": "0x216d0", "text": "__name__"}
+{"offset": "0x216d9", "text": "name of the generator"}
+{"offset": "0x216ef", "text": "__qualname__"}
+{"offset": "0x216fc", "text": "gi_frame"}
+{"offset": "0x21705", "text": "Frame of the generator"}
+{"offset": "0x2171c", "text": "gi_running"}
+{"offset": "0x21727", "text": "gi_yieldfrom"}
+{"offset": "0x21734", "text": "gi_code"}
+{"offset": "0x2173c", "text": "__module__"}
+{"offset": "0x21747", "text": "send"}
+{"offset": "0x2174c", "text": "close"}
+{"offset": "0x21752", "text": "__reduce__"}
+{"offset": "0x2175d", "text": "func_doc"}
+{"offset": "0x21766", "text": "__doc__"}
+{"offset": "0x2176e", "text": "func_name"}
+{"offset": "0x21778", "text": "func_dict"}
+{"offset": "0x21782", "text": "__dict__"}
+{"offset": "0x2178b", "text": "func_globals"}
+{"offset": "0x21798", "text": "__globals__"}
+{"offset": "0x217a4", "text": "func_closure"}
+{"offset": "0x217b1", "text": "__closure__"}
+{"offset": "0x217bd", "text": "func_code"}
+{"offset": "0x217c7", "text": "__code__"}
+{"offset": "0x217d0", "text": "func_defaults"}
+{"offset": "0x217de", "text": "__defaults__"}
+{"offset": "0x217eb", "text": "__kwdefaults__"}
+{"offset": "0x217fa", "text": "__annotations__"}
+{"offset": "0x2180a", "text": "_is_coroutine"}
+{"offset": "0x21818", "text": "CythonUnboundCMethod"}
+{"offset": "0x2182d", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x21846", "text": "name of the coroutine"}
+{"offset": "0x2185c", "text": "cr_frame"}
+{"offset": "0x21865", "text": "Frame of the coroutine"}
+{"offset": "0x2187c", "text": "cr_running"}
+{"offset": "0x21887", "text": "cr_await"}
+{"offset": "0x21890", "text": "object being awaited, or None"}
+{"offset": "0x218ae", "text": "cr_code"}
+{"offset": "0x218b6", "text": "__reduce_ex__"}
+{"offset": "0x21920", "text": "\"%s\"\\s*:\\s*\"(https:[^\"]*?media-amazon\\.com/images/I/[^\"]+)\""}
+{"offset": "0x21960", "text": "https://m\\.media-amazon\\.com/images/S/aplus-media[^\\\"'\\s\\\\<>]+?\\.(?:jpe?g|png|webp)"}
+{"offset": "0x219c0", "text": "() => {\n        const out = {};\n\n        // ── 숫자 정규화 헬퍼 (IT/ES 로케일: 천단위 '.', 소수 ',') ──────────\n        const txt = (sel, attr) => {\n            const el = document.querySelector(sel);\n            if (!el) return null;\n            const v = attr ? el.getAttribute(attr) : el.textContent;\n            return v ? v.trim() : null;\n        };\n        const parsePrice = (t) => {\n            if (!t) return null;\n            let s = t.replace(/[^0-9.,]/g, '');\n            if (!s) return null;\n            if (s.includes('.') && s.includes(',')) s = s.replace(/\\./g, '').replace(',', '.');\n            else if (s.includes(',')) s = s.replace(',', '.');\n            const f = parseFloat(s);\n            return isNaN(f) ? null : String(f);\n        };\n        const parseRating = (t) => {\n            if (!t) return null;\n            const m = t.replace(',', '.').match(/([0-5](?:\\.\\d+)?)/);\n            return m ? parseFloat(m[1]) : null;\n        };\n        const parseInt10 = (t) => {\n            if (!t) return null;\n            const d = t.replace(/[^0-9]/g, '');\n            return d ? parseInt(d, 10) : null;\n        };\n\n        // ── 1순위: JSON-LD Product (있으면 가장 신뢰도 높음) ────────────────\n        for (const s of document.querySelectorAll('script[type=\"application/ld+json\"]')) {\n            try {\n                const data = JSON.parse(s.innerText);\n                const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);\n                for (const n of nodes) {\n                    if (!n || n['@type'] !== 'Product') continue;\n                    let offers = n.offers || {};\n                    if (Array.isArray(offers)) offers = offers[0] || {};\n                    if (offers.price != null && out.price == null) out.price = String(offers.price);\n                    if (offers.availability && out.inventory == null)\n                        out.inventory = String(offers.availability).split('/').pop();\n                    const agg = n.aggregateRating || {};\n                    if (agg.ratingValue != null && out.rating == null) out.rating = Number(agg.ratingValue);\n                    if ((agg.reviewCount != null || agg.ratingCount != null) && out.review_count == null)\n                        out.review_count = Number(agg.reviewCount || agg.ratingCount);\n                }\n            } catch (e) {}\n        }\n\n        // ── 2순위: Amazon DOM 셀렉터 fallback (JSON-LD 부재 PDP 대응) ───────\n        // ⚠️ 반드시 core 가격 컨테이너로 스코프. 전역 '.a-price .a-offscreen' 은\n        //    액세서리/보증플랜 가격을 잘못 집으므로 금지. (품절이면 가격 null 이 정답)\n        if (out.price == null) {\n            out.price = parsePrice(\n                txt('#corePriceDisplay_desktop_feature_div .a-price .a-offscreen') ||\n                txt('#corePrice_feature_div .a-price .a-offscreen') ||\n                txt('#corePrice_feature_div .a-offscreen') ||\n                txt('#priceblock_ourprice') ||\n                txt('#priceblock_dealprice') ||\n                txt('#sns-base-price .a-offscreen')\n            );\n        }\n        if (out.discount_price == null) {\n            // 정가(취소선)와 현재가가 함께 있으면 취소선이 '원가', 위 price 가 '할인가'.\n            const basis = parsePrice(\n                txt('#corePriceDisplay_desktop_feature_div .basisPrice .a-offscreen') ||\n                txt('#corePriceDisplay_desktop_feature_div span[data-a-strike=\"true\"] .a-offscreen') ||\n                txt('#corePrice_feature_div .basisPrice .a-offscreen')\n            );\n            if (basis != null && out.price != null && basis !== out.price) {\n                out.discount_price = out.price;   // 현재(할인) 가격\n                out.price = basis;                // 원가\n            }\n        }\n        if (out.inventory == null) {\n            // #availability 하위엔 인라인 <script> 가 섞여 있어 span 통째 textContent 는\n            // 스크립트가 새어든다 → 재고 상태 클래스 span 만 정확히 집는다.\n            const av = document.querySelector(\n                '#availability .a-color-success, #availability .a-color-price, ' +\n                '#availability .a-color-state, #availability .a-size-medium'\n            );\n            let s = (av ? av.textContent : (txt('#deliveryBlockMessage') || ''));\n            s = s.replace(/\\s+/g, ' ').trim();\n            out.inventory = s ? s.slice(0, 120) : null;\n        }\n        if (out.rating == null) {\n            out.rating = parseRating(\n                txt('#acrPopover', 'title') ||\n                txt('#averageCustomerReviews .a-icon-alt') ||\n                txt('span[data-hook=\"rating-out-of-text\"]') ||\n                txt('i.a-icon-star .a-icon-alt')\n            );\n        }\n        if (out.review_count == null) {\n            out.review_count = parseInt10(\n                txt('#acrCustomerReviewText') ||\n                txt('[data-hook=\"total-review-count\"]')\n            );\n        }\n        return out;\n    }"}
+{"offset": "0x22e00", "text": "#altImages img, #imageBlock img, #main-image-container img, #landingImage, img[data-old-hires]"}
+{"offset": "0x22e60", "text": "() => {\n        // 로케일 무관 최강 신호: CAPTCHA 검증 폼\n        if (document.querySelector('form[action*=\"validateCaptcha\"]')) return true;\n        const t = (document.title || '').toLowerCase();\n        if (t.includes('robot check') || t.includes('inserisci i caratteri')) return true;\n        const b = (document.body ? document.body.innerText : '').slice(0, 800).toLowerCase();\n        return b.includes('inserisci i caratteri che vedi')\n            || b.includes('non sei un robot')\n            || b.includes('continua con gli acquisti')\n            || b.includes('to discuss automated access');\n    }"}
+{"offset": "0x230e0", "text": "#availability, #outOfStock, #buybox"}
+{"offset": "0x23110", "text": "crawl_retailers/pdp/amazon.py"}
+{"offset": "0x23130", "text": "crawl_retailers.pdp.amazon"}
+{"offset": "0x23150", "text": "media-amazon.com/images/I/"}
+{"offset": "0x23170", "text": "product_model_from_title"}
+{"offset": "0x231a0", "text": "[amazon] GLOW 보정 후 lite 템플릿 — 보정 전 페이지 유지 (재고 UNKNOWN 처리) "}
+{"offset": "0x23220", "text": "\\bLG\\s+([A-Z0-9][A-Z0-9\\-]{4,})\\b"}
+{"offset": "0x23250", "text": "amazon_no_product_title"}
+{"offset": "0x23270", "text": "extract.<locals>.genexpr"}
+{"offset": "0x232a0", "text": "\\b([A-Z]{2,}[0-9][A-Z0-9\\-]{3,})\\b"}
+{"offset": "0x232d0", "text": "extra_ocr_image_urls"}
+{"offset": "0x232f0", "text": "amazon_captcha_block"}
+{"offset": "0x23310", "text": "https://www.amazon.it"}
+{"offset": "0x23330", "text": "gallery_image_urls"}
+{"offset": "0x23350", "text": "ensure_it_delivery"}
+{"offset": "0x23370", "text": "_color_images_block"}
+{"offset": "0x23390", "text": "cline_in_traceback"}
+{"offset": "0x233b0", "text": "asyncio.coroutines"}
+{"offset": "0x233d0", "text": "_assert_not_blocked"}
+{"offset": "0x233f0", "text": "wait_for_selector"}
+{"offset": "0x23410", "text": "LOCAL_RETRY_DELAY"}
+{"offset": "0x23428", "text": "query_selector"}
+{"offset": "0x23438", "text": "data-old-hires"}
+{"offset": "0x23448", "text": "SUCCESS_MARKER"}
+{"offset": "0x23458", "text": "requested_url"}
+{"offset": "0x23468", "text": "core.lg_match"}
+{"offset": "0x23478", "text": "\"colorImages\""}
+{"offset": "0x23490", "text": "__class_getitem__"}
+{"offset": "0x234a8", "text": "SNAPSHOT_ONLY"}
+{"offset": "0x234b8", "text": "REQUEST_DELAY"}
+{"offset": "0x234c8", "text": "LOCAL_RETRIES"}
+{"offset": "0x234d8", "text": "BeautifulSoup"}
+{"offset": "0x234e8", "text": "urllib.parse"}
+{"offset": "0x234f8", "text": "#productTitle"}
+{"offset": "0x23508", "text": "page_targets"}
+{"offset": "0x23518", "text": "_is_coroutine"}
+{"offset": "0x23528", "text": "_initializing"}
+{"offset": "0x23538", "text": "glow_changed"}
+{"offset": "0x23548", "text": "core.crawler"}
+{"offset": "0x23558", "text": "RuntimeError"}
+{"offset": "0x23568", "text": "_APLUS_IMG_RE"}
+{"offset": "0x23578", "text": "html.parser"}
+{"offset": "0x23588", "text": "'colorImages'"}
+{"offset": "0x23598", "text": "_SNAPSHOT_JS"}
+{"offset": "0x235a8", "text": "_PDP_MARKERS"}
+{"offset": "0x235b8", "text": "title_text"}
+{"offset": "0x235c8", "text": "quote_plus"}
+{"offset": "0x235d8", "text": "plp.amazon"}
+{"offset": "0x235e8", "text": "inner_text"}
+{"offset": "0x235f8", "text": "/gp/product/"}
+{"offset": "0x23608", "text": "MODE_LOCAL"}
+{"offset": "0x23618", "text": "page_type"}
+{"offset": "0x23628", "text": "normalize"}
+{"offset": "0x23638", "text": "list[dict]"}
+{"offset": "0x23648", "text": "isenabled"}
+{"offset": "0x23658", "text": "getLogger"}
+{"offset": "0x23668", "text": "amazon.it"}
+{"offset": "0x23678", "text": "str | None"}
+{"offset": "0x23688", "text": "snapshot"}
+{"offset": "0x23698", "text": "_re_aplus"}
+{"offset": "0x236a8", "text": "fromkeys"}
+{"offset": "0x236b8", "text": "finditer"}
+{"offset": "0x236c8", "text": "evaluate"}
+{"offset": "0x236d8", "text": "category"}
+{"offset": "0x236e8", "text": "brand_lg"}
+{"offset": "0x236f8", "text": "warning"}
+{"offset": "0x23700", "text": "timeout"}
+{"offset": "0x23708", "text": "replace"}
+{"offset": "0x23710", "text": "logging"}
+{"offset": "0x23718", "text": "/gp/aw/d/"}
+{"offset": "0x23728", "text": "genexpr"}
+{"offset": "0x23730", "text": "findall"}
+{"offset": "0x23738", "text": "extract"}
+{"offset": "0x23740", "text": "disable"}
+{"offset": "0x23748", "text": "country"}
+{"offset": "0x23750", "text": "content"}
+{"offset": "0x23758", "text": "compile"}
+{"offset": "0x23760", "text": "blocked"}
+{"offset": "0x23768", "text": "update"}
+{"offset": "0x2376f", "text": "select"}
+{"offset": "0x23776", "text": "search"}
+{"offset": "0x2377d", "text": "return"}
+{"offset": "0x23784", "text": "result"}
+{"offset": "0x23790", "text": "__import__"}
+{"offset": "0x2379b", "text": "html"}
+{"offset": "0x237a0", "text": "enable"}
+{"offset": "0x237a7", "text": "url_l"}
+{"offset": "0x237ad", "text": "title"}
+{"offset": "0x237b3", "text": "throw"}
+{"offset": "0x237b9", "text": "strip"}
+{"offset": "0x237bf", "text": "scope"}
+{"offset": "0x237c5", "text": "model"}
+{"offset": "0x237cb", "text": "lower"}
+{"offset": "0x237d1", "text": "large"}
+{"offset": "0x237d7", "text": "items"}
+{"offset": "0x237dd", "text": "hiRes"}
+{"offset": "0x237e3", "text": "group"}
+{"offset": "0x237e9", "text": "depth"}
+{"offset": "0x237ef", "text": "close"}
+{"offset": "0x237f5", "text": "brand"}
+{"offset": "0x237fb", "text": "block"}
+{"offset": "0x23808", "text": "__await__"}
+{"offset": "0x23812", "text": "urls"}
+{"offset": "0x23818", "text": "__test__"}
+{"offset": "0x23828", "text": "__spec__"}
+{"offset": "0x23831", "text": "soup"}
+{"offset": "0x23836", "text": "sess"}
+{"offset": "0x2383b", "text": "send"}
+{"offset": "0x23840", "text": "seen"}
+{"offset": "0x23845", "text": "page"}
+{"offset": "0x23850", "text": "__name__"}
+{"offset": "0x23859", "text": "mode"}
+{"offset": "0x2385e", "text": "meta"}
+{"offset": "0x23868", "text": "__main__"}
+{"offset": "0x23871", "text": "list"}
+{"offset": "0x23876", "text": "isrc"}
+{"offset": "0x2387b", "text": "_html"}
+{"offset": "0x23881", "text": "find"}
+{"offset": "0x23886", "text": "dict"}
+{"offset": "0x2388b", "text": "args"}
+{"offset": "0x23890", "text": "None"}
+{"offset": "0x23895", "text": "_BASE"}
+{"offset": "0x238a7", "text": "/s?k="}
+{"offset": "0x238b1", "text": "_log"}
+{"offset": "0x238e1", "text": "/dp/"}

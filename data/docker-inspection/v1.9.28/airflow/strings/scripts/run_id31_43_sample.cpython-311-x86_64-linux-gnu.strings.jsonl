@@ -1,0 +1,474 @@
+{"offset": "0x50000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x50038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x50060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x50090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x500b8", "text": " while calling a Python object"}
+{"offset": "0x500d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x50108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x50130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x501e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x50210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x50240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x502a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x502c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x502f8", "text": "generator raised StopIteration"}
+{"offset": "0x50318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x50348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x50378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x503e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x50410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x50470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x504a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x504c8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x504f8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x50640", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x50678", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x506b0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x506d8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x50708", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x50740", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x50778", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x507a0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x507d0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x50810", "text": "join() result is too long for a Python string"}
+{"offset": "0x50840", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x50868", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/run_id31_43_sample.c"}
+{"offset": "0x508a8", "text": "scripts.run_id31_43_sample.__defaults__"}
+{"offset": "0x508d0", "text": "Module 'run_id31_43_sample' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x50930", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x50980", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x509c0", "text": "init scripts.run_id31_43_sample"}
+{"offset": "0x509e0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x50a18", "text": "scripts.run_id31_43_sample.main"}
+{"offset": "0x50a38", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x50a78", "text": "scripts.run_id31_43_sample.one"}
+{"offset": "0x50a98", "text": "scripts.run_id31_43_sample.retailer_local"}
+{"offset": "0x50ac8", "text": "scripts.run_id31_43_sample.official_blocks"}
+{"offset": "0x50af8", "text": "scripts.run_id31_43_sample.usable"}
+{"offset": "0x50b20", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x50b50", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x50b78", "text": "generator ignored GeneratorExit"}
+{"offset": "0x50b98", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x50bb8", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x50be0", "text": "scripts.run_id31_43_sample.is_refurb.genexpr"}
+{"offset": "0x50c10", "text": "scripts.run_id31_43_sample.is_refurb"}
+{"offset": "0x50c38", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x50c60", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x50c90", "text": "instance exception may not have a separate value"}
+{"offset": "0x50cc8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x50d10", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x50d50", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x50d98", "text": "coroutine is being awaited already"}
+{"offset": "0x50dc0", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x50df8", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x50e38", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x50e70", "text": "__await__() returned a coroutine"}
+{"offset": "0x50e98", "text": "scripts.run_id31_43_sample.pick_targets"}
+{"offset": "0x50ec0", "text": "scripts.run_id31_43_sample.main.genexpr"}
+{"offset": "0x50ee8", "text": "strings are too large to concat"}
+{"offset": "0x50f08", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x50f28", "text": "qualified name of the generator"}
+{"offset": "0x50f48", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x50f78", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x50fd8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x51048", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x51080", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x510b0", "text": "qualified name of the coroutine"}
+{"offset": "0x510d0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x51130", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x511a0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x511d8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x51200", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x51238", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x51298", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x51308", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_10_genexpr"}
+{"offset": "0x51348", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_9_genexpr"}
+{"offset": "0x51380", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_8_genexpr"}
+{"offset": "0x513b8", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_7_genexpr"}
+{"offset": "0x513f0", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_6_genexpr"}
+{"offset": "0x51428", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_5_main"}
+{"offset": "0x51460", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_4_one"}
+{"offset": "0x51498", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_3_retailer_local"}
+{"offset": "0x514d8", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_2_official_blocks"}
+{"offset": "0x51518", "text": "scripts.run_id31_43_sample.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x51550", "text": "scripts.run_id31_43_sample.__pyx_scope_struct__is_refurb"}
+{"offset": "0x51589", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x515a7", "text": "%.200s() needs an argument"}
+{"offset": "0x515c2", "text": "Bad call flags for CyFunction"}
+{"offset": "0x515e0", "text": "<cyfunction %U at %p>"}
+{"offset": "0x515f6", "text": "__loader__"}
+{"offset": "0x51601", "text": "loader"}
+{"offset": "0x51608", "text": "__file__"}
+{"offset": "0x51611", "text": "origin"}
+{"offset": "0x51618", "text": "__package__"}
+{"offset": "0x51624", "text": "parent"}
+{"offset": "0x5162b", "text": "__path__"}
+{"offset": "0x51634", "text": "submodule_search_locations"}
+{"offset": "0x5164f", "text": "keywords must be strings"}
+{"offset": "0x51668", "text": "_cython_coroutine_type"}
+{"offset": "0x5167f", "text": "_cython_generator_type"}
+{"offset": "0x51696", "text": "_module"}
+{"offset": "0x5169e", "text": "__builtins__"}
+{"offset": "0x516ab", "text": "_cython_3_0_12"}
+{"offset": "0x516ba", "text": "cannot import name %S"}
+{"offset": "0x516d0", "text": "name '%U' is not defined"}
+{"offset": "0x516e9", "text": "%s (%s:%d)"}
+{"offset": "0x516f4", "text": "scripts/run_id31_43_sample.py"}
+{"offset": "0x51712", "text": "builtins"}
+{"offset": "0x5171b", "text": "cython_runtime"}
+{"offset": "0x5172a", "text": "scripts.run_id31_43_sample"}
+{"offset": "0x51745", "text": "does not match"}
+{"offset": "0x51754", "text": "collections.abc"}
+{"offset": "0x51764", "text": "backports_abc"}
+{"offset": "0x51775", "text": "genexpr"}
+{"offset": "0x5177d", "text": "exactly"}
+{"offset": "0x51785", "text": "at least"}
+{"offset": "0x5178e", "text": "at most"}
+{"offset": "0x51796", "text": "retailer_local"}
+{"offset": "0x517a5", "text": "official_blocks"}
+{"offset": "0x517b5", "text": "usable"}
+{"offset": "0x517bc", "text": "coroutine already executing"}
+{"offset": "0x517d8", "text": "generator already executing"}
+{"offset": "0x517f4", "text": "is_refurb"}
+{"offset": "0x517fe", "text": "throw"}
+{"offset": "0x51806", "text": "pick_targets"}
+{"offset": "0x51813", "text": "main"}
+{"offset": "0x51818", "text": "_cython_3_0_12.generator"}
+{"offset": "0x51831", "text": "__name__"}
+{"offset": "0x5183a", "text": "name of the generator"}
+{"offset": "0x51850", "text": "__qualname__"}
+{"offset": "0x5185d", "text": "gi_frame"}
+{"offset": "0x51866", "text": "Frame of the generator"}
+{"offset": "0x5187d", "text": "gi_running"}
+{"offset": "0x51888", "text": "gi_yieldfrom"}
+{"offset": "0x51895", "text": "gi_code"}
+{"offset": "0x5189d", "text": "__module__"}
+{"offset": "0x518a8", "text": "send"}
+{"offset": "0x518ad", "text": "close"}
+{"offset": "0x518b3", "text": "__reduce__"}
+{"offset": "0x518be", "text": "func_doc"}
+{"offset": "0x518c7", "text": "__doc__"}
+{"offset": "0x518cf", "text": "func_name"}
+{"offset": "0x518d9", "text": "func_dict"}
+{"offset": "0x518e3", "text": "__dict__"}
+{"offset": "0x518ec", "text": "func_globals"}
+{"offset": "0x518f9", "text": "__globals__"}
+{"offset": "0x51905", "text": "func_closure"}
+{"offset": "0x51912", "text": "__closure__"}
+{"offset": "0x5191e", "text": "func_code"}
+{"offset": "0x51928", "text": "__code__"}
+{"offset": "0x51931", "text": "func_defaults"}
+{"offset": "0x5193f", "text": "__defaults__"}
+{"offset": "0x5194c", "text": "__kwdefaults__"}
+{"offset": "0x5195b", "text": "__annotations__"}
+{"offset": "0x5196b", "text": "_is_coroutine"}
+{"offset": "0x51979", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x51992", "text": "name of the coroutine"}
+{"offset": "0x519a8", "text": "cr_frame"}
+{"offset": "0x519b1", "text": "Frame of the coroutine"}
+{"offset": "0x519c8", "text": "cr_running"}
+{"offset": "0x519d3", "text": "cr_await"}
+{"offset": "0x519dc", "text": "object being awaited, or None"}
+{"offset": "0x519fa", "text": "cr_code"}
+{"offset": "0x51a02", "text": "__reduce_ex__"}
+{"offset": "0x51b00", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x51be0", "text": "SELECT cntry_cd, rtlr_name, `div` AS cat, mpc, cat_url_addr AS url\n                   FROM pdp_target_list\n                   WHERE UPPER(brand)='LG' AND mpc IS NOT NULL AND mpc NOT IN ('','None')\n                     AND cat_url_addr LIKE 'http%'\n                   ORDER BY target_id DESC"}
+{"offset": "0x51d20", "text": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+{"offset": "0x51da0", "text": "(sels) => sels.reduce((n, s) => n + document.querySelectorAll(s).length, 0)"}
+{"offset": "0x51e00", "text": "(() => ({dom_injected: !!document.querySelector('#flix-inpage,#flix-minisite'), loader: !!document.querySelector('script[src*=flix]')}))()"}
+{"offset": "0x51ea0", "text": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"}
+{"offset": "0x51ee0", "text": "scripts/run_id31_43_sample.py"}
+{"offset": "0x51f00", "text": "crawl_retailers.asset_capture"}
+{"offset": "0x51f20", "text": "fetch_official_blocks_via_sb"}
+{"offset": "0x51f40", "text": "pdp_flixmedia_content_error"}
+{"offset": "0x51f60", "text": "#onetrust-accept-btn-handler"}
+{"offset": "0x51f80", "text": "scripts.run_id31_43_sample"}
+{"offset": "0x51fa0", "text": "captured_contains_delivery"}
+{"offset": "0x51fc0", "text": "official_blocks_cache_put"}
+{"offset": "0x51fe0", "text": "official_blocks_cache_get"}
+{"offset": "0x52000", "text": "button.coi-banner__accept"}
+{"offset": "0x52020", "text": "Elcorteingles_electronica"}
+{"offset": "0x52040", "text": "is_refurb.<locals>.genexpr"}
+{"offset": "0x52060", "text": "button:has-text('Accepter')"}
+{"offset": "0x52080", "text": "lgcom_pdp_url_for_model"}
+{"offset": "0x520a0", "text": "button:has-text('Akkoord')"}
+{"offset": "0x520c0", "text": "button:has-text('Aceptar')"}
+{"offset": "0x520e0", "text": "button:has-text('Accetta')"}
+{"offset": "0x52100", "text": "acapture_render_defects"}
+{"offset": "0x52120", "text": "acapture_from_flix_html"}
+{"offset": "0x52140", "text": "button:has-text('Godkänn')"}
+{"offset": "0x52160", "text": "button:has-text('Accept')"}
+{"offset": "0x52180", "text": "retailer_fetch_status"}
+{"offset": "0x521a0", "text": "acapture_video_status"}
+{"offset": "0x521c0", "text": "acapture_asset_blocks"}
+{"offset": "0x521e0", "text": "playwright.async_api"}
+{"offset": "0x52200", "text": "apromote_lazy_images"}
+{"offset": "0x52220", "text": "main.<locals>.genexpr"}
+{"offset": "0x52240", "text": "acapture_asset_text"}
+{"offset": "0x52260", "text": "PDP_ASSET_SELECTORS"}
+{"offset": "0x52280", "text": "20260714_id31_final"}
+{"offset": "0x522a0", "text": "local_loader_attrs"}
+{"offset": "0x522c0", "text": "heuristic_fallback"}
+{"offset": "0x522e0", "text": "cline_in_traceback"}
+{"offset": "0x52300", "text": "await_flix_content"}
+{"offset": "0x52320", "text": "asyncio.coroutines"}
+{"offset": "0x52340", "text": "asset_capture_mode"}
+{"offset": "0x52360", "text": "fetch_inpage_html"}
+{"offset": "0x52380", "text": "wait_for_timeout"}
+{"offset": "0x523a0", "text": "retailer_blocked"}
+{"offset": "0x523c0", "text": "read_flix_loader"}
+{"offset": "0x523e0", "text": "pdp_asset_source"}
+{"offset": "0x52400", "text": "domcontentloaded"}
+{"offset": "0x52420", "text": "core.report_xlsx"}
+{"offset": "0x52440", "text": "core.ean_extract"}
+{"offset": "0x52460", "text": "checkpoint.jsonl"}
+{"offset": "0x52480", "text": "async_playwright"}
+{"offset": "0x524a0", "text": "already_captured"}
+{"offset": "0x524c0", "text": "write_xlsx_pair"}
+{"offset": "0x524d0", "text": "scroll_for_lazy"}
+{"offset": "0x524e0", "text": "reacondicionado"}
+{"offset": "0x524f0", "text": "official_blocks"}
+{"offset": "0x52500", "text": "retailer_local"}
+{"offset": "0x52510", "text": "report_id31_43_"}
+{"offset": "0x52520", "text": "render_defects"}
+{"offset": "0x52530", "text": "query_selector"}
+{"offset": "0x52540", "text": "official_style"}
+{"offset": "0x52550", "text": "inject_dhashes"}
+{"offset": "0x52560", "text": "get_connection"}
+{"offset": "0x52570", "text": "gallery_images"}
+{"offset": "0x52580", "text": "flixmedia_live"}
+{"offset": "0x52590", "text": "capture_source"}
+{"offset": "0x525a0", "text": "asset_text_len"}
+{"offset": "0x525b0", "text": "selectors_for"}
+{"offset": "0x525c0", "text": "ricondizionat"}
+{"offset": "0x525d0", "text": "flix_delivery"}
+{"offset": "0x525e0", "text": "ean_for_model"}
+{"offset": "0x525f0", "text": "__class_getitem__"}
+{"offset": "0x52608", "text": "asyncio.tasks"}
+{"offset": "0x52618", "text": "video_status"}
+{"offset": "0x52628", "text": "retailer_src"}
+{"offset": "0x52638", "text": "reconditionn"}
+{"offset": "0x52648", "text": "pick_targets"}
+{"offset": "0x52658", "text": "official_url"}
+{"offset": "0x52668", "text": "official_src"}
+{"offset": "0x52678", "text": "loader_attrs"}
+{"offset": "0x52688", "text": "iter_records"}
+{"offset": "0x52698", "text": "_is_coroutine"}
+{"offset": "0x526a8", "text": "_initializing"}
+{"offset": "0x526b8", "text": "fetch_status"}
+{"offset": "0x526c8", "text": "dom_injected"}
+{"offset": "0x526d8", "text": "capture_mode"}
+{"offset": "0x526e8", "text": "capture_meta"}
+{"offset": "0x526f8", "text": "asset_blocks"}
+{"offset": "0x52708", "text": "PDP_TEMPLATE"}
+{"offset": "0x52718", "text": "CLINIC_ENTRY"}
+{"offset": "0x52728", "text": "substituted"}
+{"offset": "0x52738", "text": "return_meta"}
+{"offset": "0x52748", "text": "id43_status"}
+{"offset": "0x52758", "text": "id31_status"}
+{"offset": "0x52768", "text": "http_status"}
+{"offset": "0x52778", "text": "extract_ean"}
+{"offset": "0x52788", "text": "expect_flix"}
+{"offset": "0x52798", "text": "content_len"}
+{"offset": "0x527a8", "text": "collections"}
+{"offset": "0x527b8", "text": "wait_until"}
+{"offset": "0x527c8", "text": "user_agent"}
+{"offset": "0x527d8", "text": "timeout_ms"}
+{"offset": "0x527e8", "text": "startswith"}
+{"offset": "0x527f8", "text": "retailer_n"}
+{"offset": "0x52808", "text": "official_n"}
+{"offset": "0x52818", "text": "local_mode"}
+{"offset": "0x52828", "text": "core.jsonl"}
+{"offset": "0x52838", "text": "asset_text"}
+{"offset": "0x52848", "text": "Mediaworld"}
+{"offset": "0x52858", "text": "MediaMarkt"}
+{"offset": "0x52868", "text": "Elgiganten"}
+{"offset": "0x52878", "text": "traceback"}
+{"offset": "0x52888", "text": "seminuevo"}
+{"offset": "0x52898", "text": "selectors"}
+{"offset": "0x528a8", "text": "rtlr_name"}
+{"offset": "0x528b8", "text": "refurbish"}
+{"offset": "0x528c8", "text": "print_exc"}
+{"offset": "0x528d8", "text": "min_chars"}
+{"offset": "0x528e8", "text": "matchmiss"}
+{"offset": "0x528f8", "text": "local_err"}
+{"offset": "0x52908", "text": "isenabled"}
+{"offset": "0x52918", "text": "is_refurb"}
+{"offset": "0x52928", "text": "flixmedia"}
+{"offset": "0x52938", "text": "final_url"}
+{"offset": "0x52948", "text": "evaluated"}
+{"offset": "0x52958", "text": "enumerate"}
+{"offset": "0x52968", "text": "dump_line"}
+{"offset": "0x52978", "text": "container"}
+{"offset": "0x52988", "text": "Semaphore"}
+{"offset": "0x52998", "text": "Boulanger"}
+{"offset": "0x529a8", "text": "viewport"}
+{"offset": "0x529b8", "text": "retailer"}
+{"offset": "0x529c8", "text": "page_ean"}
+{"offset": "0x529d8", "text": "occasion"}
+{"offset": "0x529e8", "text": "new_page"}
+{"offset": "0x529f8", "text": "mpc_full"}
+{"offset": "0x52a08", "text": "flix_len"}
+{"offset": "0x52a18", "text": "flix_api"}
+{"offset": "0x52a28", "text": "fetchall"}
+{"offset": "0x52a38", "text": "fallback"}
+{"offset": "0x52a48", "text": "exist_ok"}
+{"offset": "0x52a58", "text": "evaluate"}
+{"offset": "0x52a68", "text": "encoding"}
+{"offset": "0x52a78", "text": "dev_path"}
+{"offset": "0x52a88", "text": "delivery"}
+{"offset": "0x52a98", "text": "deepcopy"}
+{"offset": "0x52aa8", "text": "d_blocks"}
+{"offset": "0x52ab8", "text": "cntry_cd"}
+{"offset": "0x52ac8", "text": "chromium"}
+{"offset": "0x52ad8", "text": "cat_pass"}
+{"offset": "0x52ae8", "text": "captions"}
+{"offset": "0x52af8", "text": "begagnad"}
+{"offset": "0x52b08", "text": "SAMPLE_N"}
+{"offset": "0x52b18", "text": "Coolblue"}
+{"offset": "0x52b28", "text": "BATCH_ID"}
+{"offset": "0x52b38", "text": "uzywany"}
+{"offset": "0x52b40", "text": "timeout"}
+{"offset": "0x52b48", "text": "targets"}
+{"offset": "0x52b50", "text": "resolve"}
+{"offset": "0x52b58", "text": "replace"}
+{"offset": "0x52b60", "text": "refdata"}
+{"offset": "0x52b68", "text": "per_cat"}
+{"offset": "0x52b70", "text": "pathlib"}
+{"offset": "0x52b78", "text": "parents"}
+{"offset": "0x52b80", "text": "openbox"}
+{"offset": "0x52b88", "text": "inspect"}
+{"offset": "0x52b90", "text": "grado-c"}
+{"offset": "0x52b98", "text": "genexpr"}
+{"offset": "0x52ba0", "text": "flixDiv"}
+{"offset": "0x52ba8", "text": "execute"}
+{"offset": "0x52bb0", "text": "environ"}
+{"offset": "0x52bb8", "text": "disable"}
+{"offset": "0x52bc0", "text": "country"}
+{"offset": "0x52bc8", "text": "core.db"}
+{"offset": "0x52bd0", "text": "content"}
+{"offset": "0x52bd8", "text": "asyncio"}
+{"offset": "0x52be0", "text": "Unieuro"}
+{"offset": "0x52be8", "text": "건 | MISSING "}
+{"offset": "0x52bf8", "text": "EXCLUDE"}
+{"offset": "0x52c00", "text": "Counter"}
+{"offset": "0x52c08", "text": "CONSENT"}
+{"offset": "0x52c10", "text": "BLOCKED"}
+{"offset": "0x52c20", "text": "제외(리테일 페이지 사망 404/410): "}
+{"offset": "0x52c4d", "text": "videos"}
+{"offset": "0x52c54", "text": "usable"}
+{"offset": "0x52c5b", "text": "update"}
+{"offset": "0x52c68", "text": ") text="}
+{"offset": "0x52c70", "text": "status"}
+{"offset": "0x52c77", "text": "picked"}
+{"offset": "0x52c7e", "text": "parsed"}
+{"offset": "0x52c85", "text": "outlet"}
+{"offset": "0x52c90", "text": "__main__"}
+{"offset": "0x52c99", "text": "loader"}
+{"offset": "0x52ca0", "text": "launch"}
+{"offset": "0x52ca7", "text": "insert"}
+{"offset": "0x52cae", "text": "inpage"}
+{"offset": "0x52cb8", "text": "__import__"}
+{"offset": "0x52cc3", "text": "height"}
+{"offset": "0x52cca", "text": "gather"}
+{"offset": "0x52cd1", "text": "exists"}
+{"offset": "0x52cd8", "text": "enable"}
+{"offset": "0x52cdf", "text": "d_vids"}
+{"offset": "0x52ce6", "text": "d_text"}
+{"offset": "0x52ced", "text": "d_rdef"}
+{"offset": "0x52cf4", "text": "cursor"}
+{"offset": "0x52cfb", "text": "cat_cd"}
+{"offset": "0x52d02", "text": "cached"}
+{"offset": "0x52d09", "text": "blocks"}
+{"offset": "0x52d10", "text": "__aenter__"}
+{"offset": "0x52d20", "text": "ID31 일치율: 채점 "}
+{"offset": "0x52d38", "text": "Amazon"}
+{"offset": "0x52d3f", "text": "write"}
+{"offset": "0x52d45", "text": "width"}
+{"offset": "0x52d4b", "text": "value"}
+{"offset": "0x52d51", "text": "utf-8"}
+{"offset": "0x52d57", "text": "upper"}
+{"offset": "0x52d5d", "text": "title"}
+{"offset": "0x52d63", "text": "throw"}
+{"offset": "0x52d69", "text": "strip"}
+{"offset": "0x52d73", "text": "split"}
+{"offset": "0x52d79", "text": "score"}
+{"offset": "0x52d7f", "text": "roots"}
+{"offset": "0x52d85", "text": "rates"}
+{"offset": "0x52d8b", "text": "range"}
+{"offset": "0x52d91", "text": "print"}
+{"offset": "0x52d97", "text": "model"}
+{"offset": "0x52d9d", "text": "mkdir"}
+{"offset": "0x52da3", "text": "lower"}
+{"offset": "0x52da9", "text": "local"}
+{"offset": "0x52daf", "text": "image"}
+{"offset": "0x52db5", "text": "flush"}
+{"offset": "0x52dbb", "text": "error"}
+{"offset": "0x52dc8", "text": "__enter__"}
+{"offset": "0x52dd2", "text": "close"}
+{"offset": "0x52dd8", "text": "click"}
+{"offset": "0x52dde", "text": "cache"}
+{"offset": "0x52de4", "text": "brand"}
+{"offset": "0x52df0", "text": "__await__"}
+{"offset": "0x52e00", "text": "__aexit__"}
+{"offset": "0x52e0a", "text": "QUOTA"}
+{"offset": "0x52e10", "text": "BATCH"}
+{"offset": "0x52e18", "text": "건.xlsx"}
+{"offset": "0x52e21", "text": "vids"}
+{"offset": "0x52e26", "text": "todo"}
+{"offset": "0x52e2b", "text": "text"}
+{"offset": "0x52e30", "text": "__test__"}
+{"offset": "0x52e40", "text": "__spec__"}
+{"offset": "0x52e49", "text": "send"}
+{"offset": "0x52e4e", "text": "seen"}
+{"offset": "0x52e53", "text": "rows"}
+{"offset": "0x52e58", "text": "resp"}
+{"offset": "0x52e5d", "text": "rdef"}
+{"offset": "0x52e62", "text": "path"}
+{"offset": "0x52e67", "text": "open"}
+{"offset": "0x52e70", "text": "__name__"}
+{"offset": "0x52e79", "text": "miss"}
+{"offset": "0x52e7e", "text": "meta"}
+{"offset": "0x52e83", "text": "main"}
+{"offset": "0x52e88", "text": "lock"}
+{"offset": "0x52e8d", "text": "_line"}
+{"offset": "0x52e93", "text": "json"}
+{"offset": "0x52e98", "text": "id43"}
+{"offset": "0x52e9d", "text": "id31"}
+{"offset": "0x52ea2", "text": "http"}
+{"offset": "0x52ea7", "text": "goto"}
+{"offset": "0x52eac", "text": "flix"}
+{"offset": "0x52eb8", "text": "__file__"}
+{"offset": "0x52ec8", "text": "__exit__"}
+{"offset": "0x52ed1", "text": "eval"}
+{"offset": "0x52ed6", "text": "done"}
+{"offset": "0x52edb", "text": "dead"}
+{"offset": "0x52ee0", "text": "data"}
+{"offset": "0x52ee5", "text": "core"}
+{"offset": "0x52eea", "text": "copy"}
+{"offset": "0x52eef", "text": "args"}
+{"offset": "0x52ef4", "text": "REPO"}
+{"offset": "0x52ef9", "text": "Path"}
+{"offset": "0x52efe", "text": "None"}
+{"offset": "0x52f03", "text": "Lock"}
+{"offset": "0x52f08", "text": " ID43 "}
+{"offset": "0x52f10", "text": " => ID31 "}
+{"offset": "0x52f1a", "text": "CONC"}
+{"offset": "0x52f1f", "text": "CKPT"}
+{"offset": "0x52f30", "text": ") src="}
+{"offset": "0x52f80", "text": "리포트(내부 _dev — 판정 사유·미검증 마커):"}
+{"offset": "0x52fd0", "text": "리포트(고객 전달본):"}
+{"offset": "0x52ff8", "text": "% | 중앙값 "}
+{"offset": "0x53008", "text": "건 | 평균 "}
+{"offset": "0x53018", "text": "건 ==="}
+{"offset": "0x53020", "text": "\n=== 완료 "}
+{"offset": "0x53030", "text": "건 — "}
+{"offset": "0x53040", "text": "리테일러 분포:"}
+{"offset": "0x53055", "text": ") ==="}
+{"offset": "0x53060", "text": " / 진행 "}
+{"offset": "0x53070", "text": "건 (완료 "}
+{"offset": "0x53080", "text": "=== 타깃 "}
+{"offset": "0x53090", "text": " 실패: "}
+{"offset": "0x530a0", "text": ") 리테일"}
+{"offset": "0x53100", "text": "% | 90%+ "}
+{"offset": "0x53110", "text": "건 | 50%미만 "}

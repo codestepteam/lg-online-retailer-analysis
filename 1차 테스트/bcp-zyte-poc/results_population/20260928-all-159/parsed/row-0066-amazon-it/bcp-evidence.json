@@ -1,0 +1,1033 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0066-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/0110EA0D-E325-4EDA-A062-7DC6072F1B72",
+    "finalUrl": "https://www.amazon.it/stores/page/0110EA0D-E325-4EDA-A062-7DC6072F1B72",
+    "capturedAt": "2026-09-28T08:02:09.828163+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Haier: CONGELATORI"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0066-amazon-it/brand-category/raw.html",
+      "sha256": "18019c0ce6063e2cdaf038485c66656cf0e6ebab3bd144041d7ad4c768927342"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0066-amazon-it/brand-category/capture-state.json",
+      "sha256": "728047fc4db73f7cca26184494a643d9e727d918908f5a3be6933a8a4e2dae51"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0066-amazon-it/brand-category/response.json",
+      "sha256": "1d8ea4b6d3beed1ba48c4883d5dd13170f397c1b06858af7ebcf26712744f00e"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 19,
+        "top10ByRenderedArea": [
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2005c9dc-034e-4ecc-8718-a0b217b63502._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads 'S=7' and 'Più spazio per conservare tutto ciò che vuoi'. White tall refrigerator with multiple transparent drawers displayed between two wooden shelving units in a modern kitchen interior.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/72800d50-fb75-4d03-9126-3566f07c46fb._SL5000_CR0%2C0%2C5000%2C2049_SX1500_.jpg",
+            "alt": "Text reads \"CARATTERISTICHE PRINCIPALI\" (Main Features). Four feature panels showing: ice formation dynamics in cooler, 15°C temperature display with shield icon, internal cooler transformation diagram with percentage scale, and server performance capability for larger displays.",
+            "renderedWidth": 1470,
+            "renderedHeight": 602.6875,
+            "renderedArea": 885950.625,
+            "naturalWidth": 1500,
+            "naturalHeight": 615,
+            "naturalArea": 922500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a4ed2aff-3836-4463-a9f2-259714a40270._CR0%2C0%2C3000%2C600_SX1500_.png",
+            "alt": "Text reads \"Haier\". Brand logo displayed alongside image of tall white refrigerator with integrated cabinetry and storage compartments in modern kitchen setting.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/46b90096-6a35-45a7-84b5-9da2eaf85945._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"FRIGORIFERI\" and \"ACQUISTA TUTTI I PRODOTTI\". Four-door stainless steel refrigerator with ice/water dispenser on upper left door, featuring dual compartments and modern design against light background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/884b1d17-8099-4009-bf51-dd4b416f5e9f._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CANTINE\" and \"ACQUISTA TUTTI I PRODOTTI\". Black wine cooler/refrigerator with multiple shelves displaying wine bottles, featuring glass door and illuminated interior storage.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3fea8f2d-00cb-4611-a6f3-23e44e57ea3c._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads 'CONGELATORE A POZZO'. Dark gray chest freezer with open lid displaying white interior and organized frozen food compartments. Front-facing view with control panel on lower right side.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/dc80385c-0f52-4539-9b5c-e2c65b205022._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads \"CONGELATORE VERTICALE\". Tall vertical freezer with light blue frame, open door showing white interior with multiple shelves and storage compartments for frozen food organization.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/51EHuLt8uIL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Haier Congelatore a Pozzetto 196 Litri, Classe D, Bianco | Trattamento Antibatterico, Fast Freeze, Temperatura Regolabile, Illuminazione LED, 91,5x55,5x84,5 cm, HCE200D",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 352,
+            "naturalHeight": 310,
+            "naturalArea": 109120,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/I/61lW+Q5QP0L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Haier Congelatore a Pozzetto 418 Litri, Classe E, Bianco | Low Frost, Fast Freeze, Air Surround, Illuminazione LED, Silenziosa, 39 dB, AxLxP 84.5x132x75 cm, HCE420E",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 352,
+            "naturalHeight": 291,
+            "naturalArea": 102432,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2005c9dc-034e-4ecc-8718-a0b217b63502._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads 'S=7' and 'Più spazio per conservare tutto ciò che vuoi'. White tall refrigerator with multiple transparent drawers displayed between two wooden shelving units in a modern kitchen interior.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/72800d50-fb75-4d03-9126-3566f07c46fb._SL5000_CR0%2C0%2C5000%2C2049_SX1500_.jpg",
+            "alt": "Text reads \"CARATTERISTICHE PRINCIPALI\" (Main Features). Four feature panels showing: ice formation dynamics in cooler, 15°C temperature display with shield icon, internal cooler transformation diagram with percentage scale, and server performance capability for larger displays.",
+            "renderedWidth": 1470,
+            "renderedHeight": 602.6875,
+            "renderedArea": 885950.625,
+            "naturalWidth": 1500,
+            "naturalHeight": 615,
+            "naturalArea": 922500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a4ed2aff-3836-4463-a9f2-259714a40270._CR0%2C0%2C3000%2C600_SX1500_.png",
+            "alt": "Text reads \"Haier\". Brand logo displayed alongside image of tall white refrigerator with integrated cabinetry and storage compartments in modern kitchen setting.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/51WZ+wxoUiL._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 94.90625,
+            "renderedHeight": 266.234375,
+            "renderedArea": 25267.30615234375,
+            "naturalWidth": 375,
+            "naturalHeight": 1052,
+            "naturalArea": 394500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/46b90096-6a35-45a7-84b5-9da2eaf85945._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"FRIGORIFERI\" and \"ACQUISTA TUTTI I PRODOTTI\". Four-door stainless steel refrigerator with ice/water dispenser on upper left door, featuring dual compartments and modern design against light background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/884b1d17-8099-4009-bf51-dd4b416f5e9f._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CANTINE\" and \"ACQUISTA TUTTI I PRODOTTI\". Black wine cooler/refrigerator with multiple shelves displaying wine bottles, featuring glass door and illuminated interior storage.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3fea8f2d-00cb-4611-a6f3-23e44e57ea3c._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads 'CONGELATORE A POZZO'. Dark gray chest freezer with open lid displaying white interior and organized frozen food compartments. Front-facing view with control panel on lower right side.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/dc80385c-0f52-4539-9b5c-e2c65b205022._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads \"CONGELATORE VERTICALE\". Tall vertical freezer with light blue frame, open door showing white interior with multiple shelves and storage compartments for frozen food organization.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/51EHuLt8uIL._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 277.84375,
+            "renderedHeight": 244.5,
+            "renderedArea": 67932.796875,
+            "naturalWidth": 375,
+            "naturalHeight": 330,
+            "naturalArea": 123750,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Haier: CONGELATORI"
+        ],
+        "metaDescription": [
+          "Congelatori verticali e congelatori orizzontali"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Haier/page/0110EA0D-E325-4EDA-A062-7DC6072F1B72"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-hw41oo0gu0 > div > div.Header__header__g41Bi.Header__left__WRNV4.search > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-hw41oo0gu0 > div > div.Header__header__g41Bi.Header__left__WRNV4.search > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2005c9dc-034e-4ecc-8718-a0b217b63502._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads 'S=7' and 'Più spazio per conservare tutto ciò che vuoi'. White tall refrigerator with multiple transparent drawers displayed between two wooden shelving units in a modern kitchen interior.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/72800d50-fb75-4d03-9126-3566f07c46fb._SL5000_CR0%2C0%2C5000%2C2049_SX1500_.jpg",
+            "alt": "Text reads \"CARATTERISTICHE PRINCIPALI\" (Main Features). Four feature panels showing: ice formation dynamics in cooler, 15°C temperature display with shield icon, internal cooler transformation diagram with percentage scale, and server performance capability for larger displays.",
+            "renderedWidth": 1470,
+            "renderedHeight": 602.6875,
+            "renderedArea": 885950.625,
+            "naturalWidth": 1500,
+            "naturalHeight": 615,
+            "naturalArea": 922500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a4ed2aff-3836-4463-a9f2-259714a40270._CR0%2C0%2C3000%2C600_SX1500_.png",
+            "alt": "Text reads \"Haier\". Brand logo displayed alongside image of tall white refrigerator with integrated cabinetry and storage compartments in modern kitchen setting.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/46b90096-6a35-45a7-84b5-9da2eaf85945._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"FRIGORIFERI\" and \"ACQUISTA TUTTI I PRODOTTI\". Four-door stainless steel refrigerator with ice/water dispenser on upper left door, featuring dual compartments and modern design against light background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/884b1d17-8099-4009-bf51-dd4b416f5e9f._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CANTINE\" and \"ACQUISTA TUTTI I PRODOTTI\". Black wine cooler/refrigerator with multiple shelves displaying wine bottles, featuring glass door and illuminated interior storage.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3fea8f2d-00cb-4611-a6f3-23e44e57ea3c._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads 'CONGELATORE A POZZO'. Dark gray chest freezer with open lid displaying white interior and organized frozen food compartments. Front-facing view with control panel on lower right side.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/dc80385c-0f52-4539-9b5c-e2c65b205022._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads \"CONGELATORE VERTICALE\". Tall vertical freezer with light blue frame, open door showing white interior with multiple shelves and storage compartments for frozen food organization.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/51EHuLt8uIL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Haier Congelatore a Pozzetto 196 Litri, Classe D, Bianco | Trattamento Antibatterico, Fast Freeze, Temperatura Regolabile, Illuminazione LED, 91,5x55,5x84,5 cm, HCE200D",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 352,
+            "naturalHeight": 310,
+            "naturalArea": 109120,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/I/61lW+Q5QP0L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Haier Congelatore a Pozzetto 418 Litri, Classe E, Bianco | Low Frost, Fast Freeze, Air Surround, Illuminazione LED, Silenziosa, 39 dB, AxLxP 84.5x132x75 cm, HCE420E",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 352,
+            "naturalHeight": 291,
+            "naturalArea": 102432,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Haier",
+            "href": "https://www.amazon.it/stores/page/F39D0E6B-009F-45A7-BEE7-6E32081F0A67?ingress=0&visitId=72aba044-8b2e-4b37-bad6-ab4d628fc971",
+            "signals": [
+              "페이지 주제어와 일치: haier"
+            ]
+          },
+          {
+            "text": "CONGELATORI",
+            "href": "https://www.amazon.it/stores/page/0110EA0D-E325-4EDA-A062-7DC6072F1B72#",
+            "signals": [
+              "페이지 주제어와 일치: congelatori"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier Instaswitch Congelatore Verticale a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Instaswitch Congelatore Verticale a... 4,8 4,8 su 5 stelle 13 4,8 su 5 stelle. 13 recensioni dei clienti 494 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Instaswitch Congelatore Verticale a... 4,3 4,3 su 5 stelle 18 4,3 su 5 stelle. 18 recensioni dei clienti 1.426 , 70 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier Congelatore a Pozzetto 196 Litri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Congelatore a Pozzetto 196 Litri,... 4,6 4,6 su 5 stelle 837 4,6 su 5 stelle. 837 recensioni dei clienti - 24% 336 , 90 € Prezzo consigliato: Barrato - Prezzo consigliato: 440 , 99 € Ricevilo entro 7 ottobre - 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier Congelatore a Pozzetto 418 Litri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Congelatore a Pozzetto 418 Litri,... 4,2 4,2 su 5 stelle 37 4,2 su 5 stelle. 37 recensioni dei clienti 459 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier HCE301E Congelatore Orizzontale a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier HCE301E Congelatore Orizzontale a... 4,2 4,2 su 5 stelle 26 4,2 su 5 stelle. 26 recensioni dei clienti 425 , 03 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-b2gmt4bavy > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Instaswitch Congelatore Verticale a... 4,8 4,8 su 5 stelle 13 4,8 su 5 stelle. 13 recensioni dei clienti 494 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello Visualizzazione rapida Haier Instaswitch Congelatore Verticale a... 4,3 4,3 su 5 stelle 18 4,3 su 5 stelle. 18 recensioni dei clienti 1.426 , 70 € Vedi le opzioni Visualizzazione rapida Haier Congelatore a Pozzetto 196 Litri,... 4,6 4,6 su 5 stelle 837 4,6 su 5 stelle. 837 recensioni dei clienti - 24% 336 , 90 € Prezzo consigliato: Barrato - Prezzo consigliato: 440 , 99 € Ricevilo entro 7 ottobre - 8 ottobre Aggiungi al carrello Visualizzazione rapida Haier Congelatore a Pozzetto 418 Litri,... 4,2 4,2 su 5 stelle 37 4,2 su 5 stelle. 37 recensioni dei clienti 459 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello Visualizzazione rapida Haier HCE301E Congelatore Orizzontale a... 4,2 4,2 su 5 stelle 26 4,2 su 5 stelle. 26 recensioni dei clienti 425 , 03 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Text reads 'S=7' and 'Più spazio per conservare tutto ciò che vuoi'. White tall refrigerator with multiple transparent drawers displayed between two wooden shelving units in a modern kitchen interior.",
+            "href": "https://www.amazon.it/Haier-Instaswitch-H3F285WEH1-Congelatore-Connesso/dp/B0CCZX4NXM?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Congelatore a Pozzetto 196 Litri, Classe D, Bianco | Trattamento Antibatterico, Fast Freeze, Temperatura Regolabile, Illuminazione LED, 91,5x55,5x84,5 cm, HCE200D",
+            "href": "https://www.amazon.it/Haier-HCE200D-Congelatore-Trattamento-Antibatterico/dp/B0CD151SN2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Instaswitch Congelatore Verticale a Cassetti, 285 Litri, Monoporta, Connessione Wi-Fi e BLE, No Frost, con Luce LED, Classe E, Libera Installazione, 59,5 x 67,5 x 171 cm, Bianco - H3F285WEH1",
+            "href": "https://www.amazon.it/Haier-Instaswitch-H3F285WEH1-Congelatore-Connesso/dp/B0CCZX4NXM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Instaswitch Congelatore Verticale a Cassetti, 330 Litri, Classe D, Monoporta, Connessione Wi-Fi e BLE, No Frost, con Luce LED, Libera Installazione, 59,5 x 67,5 x 191 cm, Bianco - H3F330WDH1",
+            "href": "https://www.amazon.it/Haier-Instaswitch-H3F330WDH1-Congelatore-Connesso/dp/B0CCZYD5GT?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Haier-Instaswitch-H3F330WDH1-Congelatore-Connesso/dp/B0CCZYD5GT?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Congelatore a Pozzetto 418 Litri, Classe E, Bianco | Low Frost, Fast Freeze, Air Surround, Illuminazione LED, Silenziosa, 39 dB, AxLxP 84.5x132x75 cm, HCE420E",
+            "href": "https://www.amazon.it/Haier-HCE420E-Congelatore-Trattamento-Antibatterico/dp/B0CCZNS8D5?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier HCE301E Congelatore Orizzontale a Pozzetto, 300 Litri, Temperatura Regolabile, Funzione Fast Freeze, Silenzioso, Libera Installazione, 111x62x84,5cm, Bianco, Classe E",
+            "href": "https://www.amazon.it/Haier-HCE301E-Congelatore-Orizzontale-Installazione/dp/B0BFBL8YS3?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

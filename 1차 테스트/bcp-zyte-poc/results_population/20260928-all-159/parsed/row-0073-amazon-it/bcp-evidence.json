@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0073-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/46B50E90-E396-4AA2-9656-DF0CF462DC3C",
+    "finalUrl": "https://www.amazon.it/stores/page/46B50E90-E396-4AA2-9656-DF0CF462DC3C",
+    "capturedAt": "2026-09-28T08:03:31.735400+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Hisense 2026: Lavasciuga"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0073-amazon-it/brand-category/raw.html",
+      "sha256": "eff942bd8f804d9e107bd5f9fda3e4e71b8d80ed9968ab53a22778e9c3599719"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0073-amazon-it/brand-category/capture-state.json",
+      "sha256": "f750f7dcc98d01a2e00b1d8b8782dd95319bb5b266cb5d829c8c7c8916cda162"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0073-amazon-it/brand-category/response.json",
+      "sha256": "2dc4123403b3f371bb187fcc8917e48b8d8cedca7036e8acef250a9f8cc18e18"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense WDQE8014EVJM Lavasciuga 8 KG, 1400 RPM, 15 Programmi Automatici, Rapido, Vapore, Motore Inverter, Standard Classe Efficienza...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense WD5I8043BWF Lavasciuga Slim a Carica Frontale 8 kg, Slim, Classe A, 1400 rpm, 15 Programmi, Connectivity, Vapore, Refresh, Display...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense WD5I1245BWRH Nuova Lavasciuga Pompa di Calore 12 + 8 Kg,1400 RPM, 23 Programmi Automatici e Rapidi, iFit, Motore...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 73,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/48152ba4-01c6-4eb0-b30f-5e26b0b4dfe8._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern white washing machine with blue-lit circular door display showing '15' minutes, advertising quick wash cycle feature.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7f9a60ad-995f-4de2-ba71-20db894dbd96._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Steam cleaning illustration with 'Lavaggio a Vapore' text. Blue bubbles containing cartoon eyes float over a misty surface. SGS certification logo visible.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 83,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 91,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 46,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 54,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 85,
+            "src": "https://m.media-amazon.com/images/I/81ny21Q2RiL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 380,
+            "renderedHeight": 360,
+            "renderedArea": 136800,
+            "naturalWidth": 380,
+            "naturalHeight": 360,
+            "naturalArea": 136800,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/48152ba4-01c6-4eb0-b30f-5e26b0b4dfe8._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern white washing machine with blue-lit circular door display showing '15' minutes, advertising quick wash cycle feature.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7f9a60ad-995f-4de2-ba71-20db894dbd96._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Steam cleaning illustration with 'Lavaggio a Vapore' text. Blue bubbles containing cartoon eyes float over a misty surface. SGS certification logo visible.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 83,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 91,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 46,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 54,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 85,
+            "src": "https://m.media-amazon.com/images/I/81ny21Q2RiL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 380,
+            "renderedHeight": 360,
+            "renderedArea": 136800,
+            "naturalWidth": 380,
+            "naturalHeight": 360,
+            "naturalArea": 136800,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Hisense 2026: Lavasciuga"
+        ],
+        "metaDescription": [
+          "Lavasciuga"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Hisense2026/page/46B50E90-E396-4AA2-9656-DF0CF462DC3C"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-M7ctb7p7zf > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-M7ctb7p7zf > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/48152ba4-01c6-4eb0-b30f-5e26b0b4dfe8._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern white washing machine with blue-lit circular door display showing '15' minutes, advertising quick wash cycle feature.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7f9a60ad-995f-4de2-ba71-20db894dbd96._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Steam cleaning illustration with 'Lavaggio a Vapore' text. Blue bubbles containing cartoon eyes float over a misty surface. SGS certification logo visible.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 83,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 91,
+            "src": "https://m.media-amazon.com/images/I/71YP2kTk4eL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 422,
+            "renderedHeight": 360,
+            "renderedArea": 151920,
+            "naturalWidth": 422,
+            "naturalHeight": 360,
+            "naturalArea": 151920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/615e7Dm10BL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 46,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 54,
+            "src": "https://m.media-amazon.com/images/I/71B-LGl+4tL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 408,
+            "renderedHeight": 360,
+            "renderedArea": 146880,
+            "naturalWidth": 408,
+            "naturalHeight": 360,
+            "naturalArea": 146880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 85,
+            "src": "https://m.media-amazon.com/images/I/81ny21Q2RiL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 380,
+            "renderedHeight": 360,
+            "renderedArea": 136800,
+            "naturalWidth": 380,
+            "naturalHeight": 360,
+            "naturalArea": 136800,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Hisense 2026",
+            "href": "https://www.amazon.it/stores/page/F773A328-0850-4C20-9A0A-3D85B51C6927?ingress=0&visitId=2e56a18a-2727-4c09-9e0e-ca9298ae5f93",
+            "signals": [
+              "페이지 주제어와 일치: 2026, hisense"
+            ]
+          },
+          {
+            "text": "Lavasciuga",
+            "href": "https://www.amazon.it/stores/page/46B50E90-E396-4AA2-9656-DF0CF462DC3C#",
+            "signals": [
+              "페이지 주제어와 일치: lavasciuga"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense WD5I8043BWF Lavasciuga Slim a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavasciuga combinate Visualizzazione rapida Hisense WD5I8043BWF Lavasciuga Slim a... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti - 20% 479 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 599 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense WD3S1043BW7 Lavasciuga 10,5 +...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense WD3S1043BW7 Lavasciuga 10,5 +... 4,0 4,0 su 5 stelle 566 4,0 su 5 stelle. 566 recensioni dei clienti 417 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense WD3S9043BW7 Lavasciuga 9 + 6...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense WD3S9043BW7 Lavasciuga 9 + 6... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti 389 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense WDQA9014EVJM Lavasciuga 9 Kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavasciuga combinate Visualizzazione rapida Hisense WDQA9014EVJM Lavasciuga 9 Kg,... 4,0 4,0 su 5 stelle 566 4,0 su 5 stelle. 566 recensioni dei clienti 535 , 18 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense WD1I8042BWP2 Lavasciuga...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense WD1I8042BWP2 Lavasciuga... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti - 7% 419 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 449 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-Sfywy1hkq6 > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavasciuga combinate Visualizzazione rapida Hisense WD5I8043BWF Lavasciuga Slim a... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti - 20% 479 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 599 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Hisense WD3S1043BW7 Lavasciuga 10,5 +... 4,0 4,0 su 5 stelle 566 4,0 su 5 stelle. 566 recensioni dei clienti 417 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Hisense WD3S9043BW7 Lavasciuga 9 + 6... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti 389 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Best seller Lavasciuga combinate Visualizzazione rapida Hisense WDQA9014EVJM Lavasciuga 9 Kg,... 4,0 4,0 su 5 stelle 566 4,0 su 5 stelle. 566 recensioni dei clienti 535 , 18 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Hisense WD1I8042BWP2 Lavasciuga... 4,1 4,1 su 5 stelle 90 4,1 su 5 stelle. 90 recensioni dei clienti - 7% 419 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 449 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Hisense WDQE8014EVJM Lavasciuga 8 KG, 1400 RPM, 15 Programmi Automatici, Rapido, Vapore, Motore Inverter, Standard Classe Efficienza...",
+            "href": "https://www.amazon.it/Hisense-WDQE8014EVJM-Lavasciuga-automatici-Efficienza/dp/B0B97DXJ25?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4 4,0 su 5 stelle 566",
+            "href": "https://www.amazon.it/Hisense-WDQE8014EVJM-Lavasciuga-automatici-Efficienza/dp/B0B97DXJ25?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-WDQE8014EVJM-Lavasciuga-automatici-Efficienza/dp/B0B97DXJ25?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD5I8043BWF Lavasciuga Slim a Carica Frontale 8 kg, Slim, Classe A, 1400 rpm, 15 Programmi, Connectivity, Vapore, Refresh, Display...",
+            "href": "https://www.amazon.it/Hisense-WD5I8043BWF-Lavasciuga-Programmi-Connectivity/dp/B08DMTWZTR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.1 4,1 su 5 stelle 90",
+            "href": "https://www.amazon.it/Hisense-WD5I8043BWF-Lavasciuga-Programmi-Connectivity/dp/B08DMTWZTR?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-WD5I8043BWF-Lavasciuga-Programmi-Connectivity/dp/B08DMTWZTR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD5I1245BWRH Nuova Lavasciuga Pompa di Calore 12 + 8 Kg,1400 RPM, 23 Programmi Automatici e Rapidi, iFit, Motore...",
+            "href": "https://www.amazon.it/Hisense-WD5I1245BWR-asciugatrice-40-connettivit%C3%A0/dp/B0FJ22QGW5?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4 4,0 su 5 stelle 5",
+            "href": "https://www.amazon.it/Hisense-WD5I1245BWR-asciugatrice-40-connettivit%C3%A0/dp/B0FJ22QGW5?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-WD5I1245BWR-asciugatrice-40-connettivit%C3%A0/dp/B0FJ22QGW5?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD5I8043BWF Lavasciuga Slim a Carica Frontale 8 kg, Slim, Classe A, 1400 rpm, 15 Programmi, Connectivity, Vapore, Refresh, Display Touch, Maxi cestello, Programma Rapido",
+            "href": "https://www.amazon.it/Hisense-WD5I8043BWF-Lavasciuga-Programmi-Connectivity/dp/B08DMTWZTR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD3S1043BW7 Lavasciuga 10,5 + 6 KG, 1400 RPM, 19 Programmi Automatici, Vapore, Motore Inverter, Classe Energetica A-20%/D, Display LED, Grigio, WiFi",
+            "href": "https://www.amazon.it/Hisense-WD3S1043BW7-Lavasciuga-Automatici-Energetica/dp/B0FQ657N7X?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD3S9043BW7 Lavasciuga 9 + 6 KG, 1400 RPM, 15 Programmi Automatici, Vapore, Motore Inverter, Classe Energetica A-30%/D, Display LED, Grigio, WiFi",
+            "href": "https://www.amazon.it/Hisense-WD3S9043BW7-Lavasciuga-Automatici-Energetica/dp/B08DMSKNQ5?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WDQA9014EVJM Lavasciuga 9 Kg, 1400 Rpm, 15 Programmi Automatici, Vapore, Motore Inverter, Standard Classe Efficienza Energetica D, Display LED, Programma Rapido",
+            "href": "https://www.amazon.it/Hisense-WDQA9014EVJM-Lavasciuga-automatici-Efficienza/dp/B0B97DRVVC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense WD1I8042BWP2 Lavasciuga 8+5kg, Bianco, 1400 rpm, 15 Programmi automatici, Vapore, Inverter, Auto Dry, Wash&Dry 59', Classe Energetica A-30%, Display LED Touch",
+            "href": "https://www.amazon.it/Hisense-WD1I8042BWP2-Lavasciuga-automatici-Energetica/dp/B0H2MVTVYM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

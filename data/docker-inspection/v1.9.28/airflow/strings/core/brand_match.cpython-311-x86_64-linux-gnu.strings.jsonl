@@ -1,0 +1,318 @@
+{"offset": "0x21000", "text": "%.200s() needs an argument"}
+{"offset": "0x2101b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x21039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2104f", "text": "cannot import name %S"}
+{"offset": "0x21065", "text": "__loader__"}
+{"offset": "0x21070", "text": "loader"}
+{"offset": "0x21077", "text": "__file__"}
+{"offset": "0x21080", "text": "origin"}
+{"offset": "0x21087", "text": "__package__"}
+{"offset": "0x21093", "text": "parent"}
+{"offset": "0x2109a", "text": "__path__"}
+{"offset": "0x210a3", "text": "submodule_search_locations"}
+{"offset": "0x210be", "text": "keywords must be strings"}
+{"offset": "0x210d7", "text": "_cython_coroutine_type"}
+{"offset": "0x210ee", "text": "_cython_generator_type"}
+{"offset": "0x21105", "text": "_module"}
+{"offset": "0x2110d", "text": "__builtins__"}
+{"offset": "0x2111a", "text": "_cython_3_0_12"}
+{"offset": "0x21129", "text": "%s (%s:%d)"}
+{"offset": "0x21137", "text": "core/brand_match.py"}
+{"offset": "0x2114b", "text": "genexpr"}
+{"offset": "0x21157", "text": "name '%U' is not defined"}
+{"offset": "0x21170", "text": "builtins"}
+{"offset": "0x21179", "text": "cython_runtime"}
+{"offset": "0x21188", "text": "does not match"}
+{"offset": "0x21197", "text": "collections.abc"}
+{"offset": "0x211a7", "text": "backports_abc"}
+{"offset": "0x211b5", "text": "init core.brand_match"}
+{"offset": "0x211cb", "text": "core.brand_match.display_name"}
+{"offset": "0x211e9", "text": "exactly"}
+{"offset": "0x211f1", "text": "core.brand_match._known_keys"}
+{"offset": "0x2120e", "text": "detect_display"}
+{"offset": "0x2121d", "text": "generator already executing"}
+{"offset": "0x21239", "text": "core.brand_match._pattern"}
+{"offset": "0x21253", "text": "core.brand_match._name_brand"}
+{"offset": "0x21270", "text": "core.brand_match._url_brand"}
+{"offset": "0x2128c", "text": "_known_pattern"}
+{"offset": "0x2129b", "text": "core.brand_match._is_lg"}
+{"offset": "0x212b3", "text": "_norm_display"}
+{"offset": "0x212c1", "text": "at least"}
+{"offset": "0x212ca", "text": "at most"}
+{"offset": "0x212d2", "text": "core.brand_match.detect"}
+{"offset": "0x212ea", "text": "throw"}
+{"offset": "0x212f0", "text": "_cython_3_0_12.generator"}
+{"offset": "0x21309", "text": "__name__"}
+{"offset": "0x21312", "text": "name of the generator"}
+{"offset": "0x21328", "text": "__qualname__"}
+{"offset": "0x21335", "text": "gi_frame"}
+{"offset": "0x2133e", "text": "Frame of the generator"}
+{"offset": "0x21355", "text": "gi_running"}
+{"offset": "0x21360", "text": "gi_yieldfrom"}
+{"offset": "0x2136d", "text": "gi_code"}
+{"offset": "0x21375", "text": "__module__"}
+{"offset": "0x21380", "text": "send"}
+{"offset": "0x21385", "text": "close"}
+{"offset": "0x2138b", "text": "__reduce__"}
+{"offset": "0x21396", "text": "func_doc"}
+{"offset": "0x2139f", "text": "__doc__"}
+{"offset": "0x213a7", "text": "func_name"}
+{"offset": "0x213b1", "text": "func_dict"}
+{"offset": "0x213bb", "text": "__dict__"}
+{"offset": "0x213c4", "text": "func_globals"}
+{"offset": "0x213d1", "text": "__globals__"}
+{"offset": "0x213dd", "text": "func_closure"}
+{"offset": "0x213ea", "text": "__closure__"}
+{"offset": "0x213f6", "text": "func_code"}
+{"offset": "0x21400", "text": "__code__"}
+{"offset": "0x21409", "text": "func_defaults"}
+{"offset": "0x21417", "text": "__defaults__"}
+{"offset": "0x21424", "text": "__kwdefaults__"}
+{"offset": "0x21433", "text": "__annotations__"}
+{"offset": "0x21443", "text": "_is_coroutine"}
+{"offset": "0x21458", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x21480", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x214b0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x214d8", "text": " while calling a Python object"}
+{"offset": "0x214f8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x21528", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x21550", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x21600", "text": "function's dictionary may not be deleted"}
+{"offset": "0x21630", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x21660", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x216c0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x216f0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x21720", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x21750", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x217b8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x217e8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x21848", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x21878", "text": "__name__ must be set to a string object"}
+{"offset": "0x218a0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x219e8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x21a20", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x21a58", "text": "%.200s() keywords must be strings"}
+{"offset": "0x21a80", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x21ab0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x21ae8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x21b18", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x21b58", "text": "generator raised StopIteration"}
+{"offset": "0x21b78", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/brand_match.c"}
+{"offset": "0x21bb0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x21be8", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x21c30", "text": "Module 'brand_match' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x21c88", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x21cd8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x21d18", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x21d58", "text": "core.brand_match._known_keys.genexpr"}
+{"offset": "0x21d80", "text": "core.brand_match.detect_display"}
+{"offset": "0x21da0", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x21dc0", "text": "core.brand_match._known_pattern"}
+{"offset": "0x21de0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x21e10", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x21e38", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x21e60", "text": "core.brand_match._norm_display"}
+{"offset": "0x21e80", "text": "core.brand_match.detect.genexpr"}
+{"offset": "0x21ea0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x21ec0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x21ef0", "text": "instance exception may not have a separate value"}
+{"offset": "0x21f28", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x21f70", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x21fb0", "text": "qualified name of the generator"}
+{"offset": "0x21fd0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x22000", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x22060", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x220d0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x22108", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x22138", "text": "core.brand_match.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x22168", "text": "core.brand_match.__pyx_scope_struct_1_detect"}
+{"offset": "0x22198", "text": "core.brand_match.__pyx_scope_struct__genexpr"}
+{"offset": "0x221e0", "text": "_known_keys.<locals>.genexpr"}
+{"offset": "0x22200", "text": "detect.<locals>.genexpr"}
+{"offset": "0x22220", "text": "core/brand_match.py"}
+{"offset": "0x22240", "text": "euro\\.com\\.pl/[^/]+/([a-z0-9&']+)-"}
+{"offset": "0x22270", "text": "cline_in_traceback"}
+{"offset": "0x22290", "text": "asyncio.coroutines"}
+{"offset": "0x222b0", "text": "/product/_([a-z0-9&']+)-"}
+{"offset": "0x222d0", "text": "core.brand_match"}
+{"offset": "0x222f0", "text": "pralko-suszarka"}
+{"offset": "0x22300", "text": "_DISPLAY_VARIANT"}
+{"offset": "0x22318", "text": "stohovatelnymi"}
+{"offset": "0x22328", "text": "detect_display"}
+{"offset": "0x22340", "text": "_DISPLAY_REJECT"}
+{"offset": "0x22350", "text": "stohovatelnými"}
+{"offset": "0x22360", "text": "refrigerateur"}
+{"offset": "0x22370", "text": "lavastoviglie"}
+{"offset": "0x22380", "text": "_known_pattern"}
+{"offset": "0x22390", "text": "refrigerator"}
+{"offset": "0x223a0", "text": "rechargeable"}
+{"offset": "0x223b0", "text": "_norm_display"}
+{"offset": "0x223c0", "text": "lavavajillas"}
+{"offset": "0x223d0", "text": "lavasecadora"}
+{"offset": "0x223e0", "text": "_is_coroutine"}
+{"offset": "0x223f0", "text": "installation"}
+{"offset": "0x22400", "text": "_initializing"}
+{"offset": "0x22410", "text": "frigorificos"}
+{"offset": "0x22420", "text": "display_name"}
+{"offset": "0x22430", "text": "asciugatrice"}
+{"offset": "0x22440", "text": "_DISPLAY_STOP"}
+{"offset": "0x22450", "text": "torktumlare"}
+{"offset": "0x22460", "text": "seche-linge"}
+{"offset": "0x22470", "text": "réfrigérateur"}
+{"offset": "0x22480", "text": "is_seedable"}
+{"offset": "0x22490", "text": "integrables"}
+{"offset": "0x224a0", "text": "frigorifico"}
+{"offset": "0x224b0", "text": "frigorifero"}
+{"offset": "0x224c0", "text": "frigoríficos"}
+{"offset": "0x224d0", "text": "dedupe_keys"}
+{"offset": "0x224e0", "text": "contenitori"}
+{"offset": "0x224f0", "text": "congelatore"}
+{"offset": "0x22500", "text": "congelateur"}
+{"offset": "0x22510", "text": "caricamento"}
+{"offset": "0x22520", "text": "canon_brand"}
+{"offset": "0x22530", "text": "zamrazarka"}
+{"offset": "0x22540", "text": "wasmachine"}
+{"offset": "0x22550", "text": "tvättmaskin"}
+{"offset": "0x22560", "text": "startswith"}
+{"offset": "0x22570", "text": "sèche-linge"}
+{"offset": "0x22580", "text": "re.Pattern"}
+{"offset": "0x22590", "text": "_name_brand"}
+{"offset": "0x225a0", "text": "lave-linge"}
+{"offset": "0x225b0", "text": "lavasciuga"}
+{"offset": "0x225c0", "text": "_known_keys"}
+{"offset": "0x225d0", "text": "integrable"}
+{"offset": "0x225e0", "text": "frigorífico"}
+{"offset": "0x225f0", "text": "congélateur"}
+{"offset": "0x22600", "text": "congelador"}
+{"offset": "0x22610", "text": "chladnicka"}
+{"offset": "0x22620", "text": "zamrażarka"}
+{"offset": "0x22630", "text": "vaschetta"}
+{"offset": "0x22640", "text": "_url_brand"}
+{"offset": "0x22650", "text": "servicios"}
+{"offset": "0x22660", "text": "mraznicka"}
+{"offset": "0x22670", "text": "monoporta"}
+{"offset": "0x22680", "text": "match_key"}
+{"offset": "0x22690", "text": "lru_cache"}
+{"offset": "0x226a0", "text": "lavatrice"}
+{"offset": "0x226b0", "text": "isenabled"}
+{"offset": "0x226c0", "text": "generique"}
+{"offset": "0x226d0", "text": "functools"}
+{"offset": "0x226e0", "text": "cosmetici"}
+{"offset": "0x226f0", "text": "combinato"}
+{"offset": "0x22700", "text": "combinado"}
+{"offset": "0x22710", "text": "chladnička"}
+{"offset": "0x22720", "text": "americano"}
+{"offset": "0x22730", "text": "americana"}
+{"offset": "0x22740", "text": "WHIRLPOOL"}
+{"offset": "0x22750", "text": "_URL_BRAND"}
+{"offset": "0x22760", "text": "zmywarka"}
+{"offset": "0x22770", "text": "suszarka"}
+{"offset": "0x22780", "text": "str | None"}
+{"offset": "0x22790", "text": "servicio"}
+{"offset": "0x227a0", "text": "secadora"}
+{"offset": "0x227b0", "text": "potravin"}
+{"offset": "0x227c0", "text": "mraznička"}
+{"offset": "0x227d0", "text": "lg_match"}
+{"offset": "0x227e0", "text": "lavadora"}
+{"offset": "0x227f0", "text": "koelkast"}
+{"offset": "0x22800", "text": "frontale"}
+{"offset": "0x22810", "text": "declared"}
+{"offset": "0x22820", "text": "compatta"}
+{"offset": "0x22830", "text": "cashback"}
+{"offset": "0x22840", "text": "cargador"}
+{"offset": "0x22850", "text": "(?![a-z0-9])"}
+{"offset": "0x22860", "text": "WHIRPOOL"}
+{"offset": "0x22869", "text": "COMFEE"}
+{"offset": "0x22870", "text": "washing"}
+{"offset": "0x22878", "text": "vriezer"}
+{"offset": "0x22880", "text": "vassoio"}
+{"offset": "0x22888", "text": "tractor"}
+{"offset": "0x22890", "text": "tracked"}
+{"offset": "0x22898", "text": "susicka"}
+{"offset": "0x228a0", "text": "soporte"}
+{"offset": "0x228a8", "text": "sechoir"}
+{"offset": "0x228b0", "text": "puertas"}
+{"offset": "0x228b8", "text": "produkt"}
+{"offset": "0x228c0", "text": "product"}
+{"offset": "0x228c8", "text": "_pattern"}
+{"offset": "0x228d8", "text": "neveras"}
+{"offset": "0x228e0", "text": "maxsize"}
+{"offset": "0x228e8", "text": "machine"}
+{"offset": "0x228f0", "text": "lodowka"}
+{"offset": "0x228f8", "text": "lednička"}
+{"offset": "0x22908", "text": "lednice"}
+{"offset": "0x22910", "text": "lampada"}
+{"offset": "0x22918", "text": "isdigit"}
+{"offset": "0x22920", "text": "_is_lg"}
+{"offset": "0x22928", "text": "incasso"}
+{"offset": "0x22930", "text": "genexpr"}
+{"offset": "0x22938", "text": "frontal"}
+{"offset": "0x22940", "text": "freezer"}
+{"offset": "0x22948", "text": "disable"}
+{"offset": "0x22950", "text": "compile"}
+{"offset": "0x22958", "text": "torcia"}
+{"offset": "0x2295f", "text": "search"}
+{"offset": "0x22968", "text": "séchoir"}
+{"offset": "0x22971", "text": "return"}
+{"offset": "0x22978", "text": "puerta"}
+{"offset": "0x2297f", "text": "pralka"}
+{"offset": "0x22986", "text": "pracka"}
+{"offset": "0x2298d", "text": "nevera"}
+{"offset": "0x22998", "text": "__name__"}
+{"offset": "0x229a8", "text": "lodówka"}
+{"offset": "0x229b1", "text": "litros"}
+{"offset": "0x229b8", "text": "libera"}
+{"offset": "0x229c0", "text": "kylskåp"}
+{"offset": "0x229d0", "text": "__import__"}
+{"offset": "0x229db", "text": "fridge"}
+{"offset": "0x229e2", "text": "fields"}
+{"offset": "0x229e9", "text": "escape"}
+{"offset": "0x229f0", "text": "enable"}
+{"offset": "0x229f7", "text": "droger"}
+{"offset": "0x229fe", "text": "doppia"}
+{"offset": "0x22a05", "text": "detect"}
+{"offset": "0x22a0c", "text": "brands"}
+{"offset": "0x22a18", "text": "(?<![a-z0-9])"}
+{"offset": "0x22a26", "text": "OTHERS"}
+{"offset": "0x22a30", "text": "COMFEE'"}
+{"offset": "0x22a38", "text": "upper"}
+{"offset": "0x22a3e", "text": "tuple"}
+{"offset": "0x22a44", "text": "token"}
+{"offset": "0x22a4a", "text": "throw"}
+{"offset": "0x22a50", "text": "sušička"}
+{"offset": "0x22a5a", "text": "strip"}
+{"offset": "0x22a60", "text": "split"}
+{"offset": "0x22a68", "text": "pračka"}
+{"offset": "0x22a70", "text": "porta"}
+{"offset": "0x22a76", "text": "pezzi"}
+{"offset": "0x22a7c", "text": "mycka"}
+{"offset": "0x22a82", "text": "lower"}
+{"offset": "0x22a88", "text": "litri"}
+{"offset": "0x22a8e", "text": "known"}
+{"offset": "0x22a94", "text": "juego"}
+{"offset": "0x22a9a", "text": "is_lg"}
+{"offset": "0x22aa0", "text": "group"}
+{"offset": "0x22aa6", "text": "field"}
+{"offset": "0x22aac", "text": "dryer"}
+{"offset": "0x22ab2", "text": "combi"}
+{"offset": "0x22ab8", "text": "close"}
+{"offset": "0x22abe", "text": "brand"}
+{"offset": "0x22ac4", "text": "bomba"}
+{"offset": "0x22ad0", "text": "__test__"}
+{"offset": "0x22ae0", "text": "__spec__"}
+{"offset": "0x22ae9", "text": "side"}
+{"offset": "0x22aee", "text": "send"}
+{"offset": "0x22af3", "text": "para"}
+{"offset": "0x22af8", "text": "name"}
+{"offset": "0x22afd", "text": "myčka"}
+{"offset": "0x22b04", "text": "mini"}
+{"offset": "0x22b10", "text": "__main__"}
+{"offset": "0x22b1d", "text": "keys"}
+{"offset": "0x22b22", "text": "hits"}
+{"offset": "0x22b27", "text": "frys"}
+{"offset": "0x22b2c", "text": "dict"}
+{"offset": "0x22b31", "text": "core"}
+{"offset": "0x22b36", "text": "bool"}
+{"offset": "0x22b3b", "text": "args"}
+{"offset": "0x22bc8", "text": ",.·|()[]"}
+{"offset": "0x22be0", "text": "[\\s,/]+"}

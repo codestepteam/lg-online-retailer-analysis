@@ -1,0 +1,109 @@
+# RtvEuroAgd_PL robots.txt
+# source: https://www.euro.com.pl/robots.txt (via Bright Data, country=pl)
+# HTTP 200
+#
+# '*'(일반 크롤러) 전면금지: 아니오 (홈/제품 허용)
+# Brightbot 전면금지: 아니오
+======================================================================
+
+Sitemap: https://www.euro.com.pl/sitemap-index.xml
+
+User-agent: *
+Disallow: /banner/
+Disallow: /javascript/
+Disallow: /dwr/
+Disallow: /warranty/
+Disallow: /akcesoria/
+Disallow: /biuletyny/
+Disallow: /newsletter/
+Disallow: /katalog/
+Disallow: /redesign_09/
+Disallow: /upload_module/wysiwyg/
+Disallow: /upload_module/wysiwyg_ole/
+Disallow: /upload_module/events/Regulaminy/
+Disallow: /server-status/
+Disallow: /search/
+Disallow: /search.bhtml
+Disallow: /search.bhtml?*
+Disallow: /search,*
+Disallow: /promowane/
+Disallow: /promowane.bhtml
+Disallow: /promowane.bhtml?*
+Disallow: /promowane,*
+Disallow: /add-to-cart.bhtml
+Disallow: /cart.bhtml
+Disallow: /reklamacje.xml
+Disallow: /customer-order-list.bhtml
+Disallow: /customer-account.bhtml
+Disallow: /account-login.bhtml
+Disallow: /depositories.bhtml
+
+
+User-agent: AdsBot-Google
+Allow: /search/
+Allow: /search.bhtml
+Allow: /search.bhtml?*
+Allow: /search,*
+Allow: /promowane/
+Allow: /promowane.bhtml
+Allow: /promowane.bhtml?*
+Allow: /promowane,*
+Allow: *.ltr*
+
+User-agent: AdsBot-Google-Mobile
+Allow: /search/
+Allow: /search.bhtml
+Allow: /search.bhtml?*
+Allow: /search,*
+Allow: /promowane/
+Allow: /promowane.bhtml
+Allow: /promowane.bhtml?*
+Allow: /promowane,*
+Allow: *.ltr*
+
+User-agent: Mediapartners-Google
+Allow: *.ltr*
+
+User-agent: Googlebot
+Allow: */popular-products.ltr
+Allow: */see-also-carousel.ltr*
+Allow: */product-card-accessory.ltr*
+Allow: */product-card-dynamic-suite.ltr*
+Allow: */selling-section.ltr*
+Allow: */successor-product.ltr*
+Allow: */product-variant/price-difference.ltr*
+Allow: */cms-promotion-block-section.ltr*
+Disallow: *.ltr
+Disallow: /search*
+Disallow: /account-login.bhtml
+Disallow: /promowane
+Disallow: /cart.bhtml
+Disallow: /product-user-manual/
+Disallow: /product-energy-cards/
+Disallow: /files-c/
+Disallow: /order
+Disallow: /katalog/
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /

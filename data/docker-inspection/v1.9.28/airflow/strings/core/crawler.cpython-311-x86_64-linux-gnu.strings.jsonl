@@ -1,0 +1,542 @@
+{"offset": "0x54000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x54038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x54060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x54090", "text": " while calling a Python object"}
+{"offset": "0x540b0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x540e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x54108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x54130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x541e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x54210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x54240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x542a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x542c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x542f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x54328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x54358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x543c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x543f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x54450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x54480", "text": "__name__ must be set to a string object"}
+{"offset": "0x544a8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x544d8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x54620", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x54658", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x54690", "text": "%.200s() keywords must be strings"}
+{"offset": "0x546b8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x546e8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x54720", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x54758", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x54780", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x547b0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x547f0", "text": "join() result is too long for a Python string"}
+{"offset": "0x54820", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x54848", "text": "generator raised StopIteration"}
+{"offset": "0x54868", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/crawler.c"}
+{"offset": "0x548a0", "text": "core.crawler.collect_paginated_html._fetch"}
+{"offset": "0x548d0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x54908", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x54950", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x54990", "text": "generator ignored GeneratorExit"}
+{"offset": "0x549b0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x549d0", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x549f8", "text": "core.crawler.CrawlSession._open_sb_context"}
+{"offset": "0x54a28", "text": "core.crawler.CrawlSession._install_media_capture.on_response"}
+{"offset": "0x54a68", "text": "core.crawler.CrawlSession.__aenter__"}
+{"offset": "0x54a90", "text": "core.crawler.CrawlSession._install_media_capture.route_handler"}
+{"offset": "0x54ad0", "text": "core.crawler.CrawlSession._install_media_capture"}
+{"offset": "0x54b08", "text": "core.crawler.CrawlSession.fetch_html"}
+{"offset": "0x54b30", "text": "core.crawler.CrawlSession._load_local"}
+{"offset": "0x54b58", "text": "core.crawler.CrawlSession.load"}
+{"offset": "0x54b78", "text": "core.crawler.CrawlSession._load_scrapingbee"}
+{"offset": "0x54ba8", "text": "core.crawler.collect_paginated_html._absolutize"}
+{"offset": "0x54bd8", "text": "core.crawler.CrawlSession.__aexit__"}
+{"offset": "0x54c00", "text": "core.crawler._pager_url.lambda10"}
+{"offset": "0x54c28", "text": "core.crawler._pager_url.lambda9"}
+{"offset": "0x54c48", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x54c68", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x54c98", "text": "instance exception may not have a separate value"}
+{"offset": "0x54cd0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x54d18", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x54d58", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x54d90", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x54dd0", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x54e08", "text": "__await__() returned a coroutine"}
+{"offset": "0x54e30", "text": "core.crawler.collect_paginated_html._novel.genexpr"}
+{"offset": "0x54e68", "text": "core.crawler.collect_paginated_html._novel"}
+{"offset": "0x54e98", "text": "coroutine is being awaited already"}
+{"offset": "0x54ec0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x54ee8", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x54f18", "text": "core.crawler.collect_paginated_html._keep"}
+{"offset": "0x54f48", "text": "core.crawler.collect_paginated_html"}
+{"offset": "0x54f70", "text": "core.crawler.CrawlSession._install_media_capture.route_handler.genexpr"}
+{"offset": "0x54fb8", "text": "core.crawler.CrawlSession._load_local.genexpr"}
+{"offset": "0x54fe8", "text": "core.crawler.collect_paginated_html.genexpr"}
+{"offset": "0x55018", "text": "Module 'crawler' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x55068", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x550b8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x550f8", "text": "core.crawler.CrawlSession.__init__"}
+{"offset": "0x55120", "text": "core.crawler.is_blocked.genexpr"}
+{"offset": "0x55140", "text": "core.crawler.CrawlSession._install_media_capture.on_request.genexpr"}
+{"offset": "0x55188", "text": "core.crawler.CrawlSession._install_media_capture.on_request"}
+{"offset": "0x551c8", "text": "qualified name of the generator"}
+{"offset": "0x551e8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x55218", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x55278", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x552e8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x55320", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x55350", "text": "qualified name of the coroutine"}
+{"offset": "0x55370", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x553d0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x55440", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x55478", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x554a0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x554d8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x55538", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x555a8", "text": "core.crawler.__pyx_scope_struct_26_collect_media"}
+{"offset": "0x555e0", "text": "core.crawler.__pyx_scope_struct_25__pager_url"}
+{"offset": "0x55610", "text": "core.crawler.__pyx_scope_struct_24_genexpr"}
+{"offset": "0x55640", "text": "core.crawler.__pyx_scope_struct_23__fetch"}
+{"offset": "0x55670", "text": "core.crawler.__pyx_scope_struct_22_genexpr"}
+{"offset": "0x556a0", "text": "core.crawler.__pyx_scope_struct_21_collect_paginated_html"}
+{"offset": "0x556e0", "text": "core.crawler.__pyx_scope_struct_20_scroll_to_bottom"}
+{"offset": "0x55718", "text": "core.crawler.__pyx_scope_struct_19_genexpr"}
+{"offset": "0x55748", "text": "core.crawler.__pyx_scope_struct_18_genexpr"}
+{"offset": "0x55778", "text": "core.crawler.__pyx_scope_struct_17__load_local"}
+{"offset": "0x557a8", "text": "core.crawler.__pyx_scope_struct_16_fetch_html"}
+{"offset": "0x557d8", "text": "core.crawler.__pyx_scope_struct_15__load_scrapingbee"}
+{"offset": "0x55810", "text": "core.crawler.__pyx_scope_struct_14_load"}
+{"offset": "0x55838", "text": "core.crawler.__pyx_scope_struct_13_on_response"}
+{"offset": "0x55868", "text": "core.crawler.__pyx_scope_struct_12_genexpr"}
+{"offset": "0x55898", "text": "core.crawler.__pyx_scope_struct_11_route_handler"}
+{"offset": "0x558d0", "text": "core.crawler.__pyx_scope_struct_10_genexpr"}
+{"offset": "0x55900", "text": "core.crawler.__pyx_scope_struct_9_genexpr"}
+{"offset": "0x55930", "text": "core.crawler.__pyx_scope_struct_8_on_request"}
+{"offset": "0x55960", "text": "core.crawler.__pyx_scope_struct_7__install_media_capture"}
+{"offset": "0x559a0", "text": "core.crawler.__pyx_scope_struct_6___aexit__"}
+{"offset": "0x559d0", "text": "core.crawler.__pyx_scope_struct_5___aenter__"}
+{"offset": "0x55a00", "text": "core.crawler.__pyx_scope_struct_4__open_sb_context"}
+{"offset": "0x55a38", "text": "core.crawler.__pyx_scope_struct_3_jsonld_snapshot"}
+{"offset": "0x55a70", "text": "core.crawler.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x55aa0", "text": "core.crawler.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x55ad0", "text": "core.crawler.__pyx_scope_struct__is_blocked"}
+{"offset": "0x55afc", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x55b1a", "text": "%.200s() needs an argument"}
+{"offset": "0x55b35", "text": "Bad call flags for CyFunction"}
+{"offset": "0x55b53", "text": "<cyfunction %U at %p>"}
+{"offset": "0x55b69", "text": "__loader__"}
+{"offset": "0x55b74", "text": "loader"}
+{"offset": "0x55b7b", "text": "__file__"}
+{"offset": "0x55b84", "text": "origin"}
+{"offset": "0x55b8b", "text": "__package__"}
+{"offset": "0x55b97", "text": "parent"}
+{"offset": "0x55b9e", "text": "__path__"}
+{"offset": "0x55ba7", "text": "submodule_search_locations"}
+{"offset": "0x55bc2", "text": "keywords must be strings"}
+{"offset": "0x55bdb", "text": "_cython_coroutine_type"}
+{"offset": "0x55bf2", "text": "_cython_generator_type"}
+{"offset": "0x55c09", "text": "_module"}
+{"offset": "0x55c11", "text": "__builtins__"}
+{"offset": "0x55c1e", "text": "_cython_3_0_12"}
+{"offset": "0x55c2d", "text": "cannot import name %S"}
+{"offset": "0x55c43", "text": "%s (%s:%d)"}
+{"offset": "0x55c4e", "text": "core/crawler.py"}
+{"offset": "0x55c61", "text": "url_lower"}
+{"offset": "0x55c6b", "text": "genexpr"}
+{"offset": "0x55c73", "text": "title_lower"}
+{"offset": "0x55c7f", "text": "product_re"}
+{"offset": "0x55c8a", "text": "_fetch"}
+{"offset": "0x55c91", "text": "exactly"}
+{"offset": "0x55c99", "text": "coroutine already executing"}
+{"offset": "0x55cb5", "text": "generator already executing"}
+{"offset": "0x55cd1", "text": "core.crawler.collect_media"}
+{"offset": "0x55cec", "text": "_open_sb_context"}
+{"offset": "0x55cfd", "text": "on_response"}
+{"offset": "0x55d09", "text": "__aenter__"}
+{"offset": "0x55d14", "text": "route_handler"}
+{"offset": "0x55d22", "text": "_install_media_capture"}
+{"offset": "0x55d39", "text": "fetch_html"}
+{"offset": "0x55d44", "text": "_load_local"}
+{"offset": "0x55d50", "text": "load"}
+{"offset": "0x55d55", "text": "_load_scrapingbee"}
+{"offset": "0x55d67", "text": "_urljoin"}
+{"offset": "0x55d70", "text": "sess"}
+{"offset": "0x55d75", "text": "_absolutize"}
+{"offset": "0x55d81", "text": "__aexit__"}
+{"offset": "0x55d8b", "text": "at least"}
+{"offset": "0x55d94", "text": "lambda10"}
+{"offset": "0x55d9d", "text": "value"}
+{"offset": "0x55da3", "text": "lambda9"}
+{"offset": "0x55dab", "text": "title"}
+{"offset": "0x55db1", "text": "name '%U' is not defined"}
+{"offset": "0x55dca", "text": "core.crawler._seed_from_page"}
+{"offset": "0x55de7", "text": "core.crawler._page_hrefs"}
+{"offset": "0x55e00", "text": "core.crawler._inject_base"}
+{"offset": "0x55e1a", "text": "throw"}
+{"offset": "0x55e20", "text": "_novel"}
+{"offset": "0x55e27", "text": "htmls"}
+{"offset": "0x55e2d", "text": "append"}
+{"offset": "0x55e34", "text": "sink"}
+{"offset": "0x55e39", "text": "_keep"}
+{"offset": "0x55e3f", "text": "core.crawler.scroll_to_bottom"}
+{"offset": "0x55e5d", "text": "core.crawler._pager_spec"}
+{"offset": "0x55e76", "text": "core.crawler.jsonld_snapshot"}
+{"offset": "0x55e93", "text": "at most"}
+{"offset": "0x55e9b", "text": "collect_paginated_html"}
+{"offset": "0x55eb2", "text": "self"}
+{"offset": "0x55eb7", "text": "builtins"}
+{"offset": "0x55ec0", "text": "cython_runtime"}
+{"offset": "0x55ecf", "text": "does not match"}
+{"offset": "0x55ede", "text": "collections.abc"}
+{"offset": "0x55eee", "text": "backports_abc"}
+{"offset": "0x55efc", "text": "init core.crawler"}
+{"offset": "0x55f0e", "text": "core.crawler._pager_url"}
+{"offset": "0x55f26", "text": "__init__"}
+{"offset": "0x55f2f", "text": "core.crawler.is_blocked"}
+{"offset": "0x55f47", "text": "on_request"}
+{"offset": "0x55f52", "text": "_cython_3_0_12.generator"}
+{"offset": "0x55f6b", "text": "__name__"}
+{"offset": "0x55f74", "text": "name of the generator"}
+{"offset": "0x55f8a", "text": "__qualname__"}
+{"offset": "0x55f97", "text": "gi_frame"}
+{"offset": "0x55fa0", "text": "Frame of the generator"}
+{"offset": "0x55fb7", "text": "gi_running"}
+{"offset": "0x55fc2", "text": "gi_yieldfrom"}
+{"offset": "0x55fcf", "text": "gi_code"}
+{"offset": "0x55fd7", "text": "__module__"}
+{"offset": "0x55fe2", "text": "send"}
+{"offset": "0x55fe7", "text": "close"}
+{"offset": "0x55fed", "text": "CythonUnboundCMethod"}
+{"offset": "0x56002", "text": "__reduce__"}
+{"offset": "0x5600d", "text": "func_doc"}
+{"offset": "0x56016", "text": "__doc__"}
+{"offset": "0x5601e", "text": "func_name"}
+{"offset": "0x56028", "text": "func_dict"}
+{"offset": "0x56032", "text": "__dict__"}
+{"offset": "0x5603b", "text": "func_globals"}
+{"offset": "0x56048", "text": "__globals__"}
+{"offset": "0x56054", "text": "func_closure"}
+{"offset": "0x56061", "text": "__closure__"}
+{"offset": "0x5606d", "text": "func_code"}
+{"offset": "0x56077", "text": "__code__"}
+{"offset": "0x56080", "text": "func_defaults"}
+{"offset": "0x5608e", "text": "__defaults__"}
+{"offset": "0x5609b", "text": "__kwdefaults__"}
+{"offset": "0x560aa", "text": "__annotations__"}
+{"offset": "0x560ba", "text": "_is_coroutine"}
+{"offset": "0x560c8", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x560e1", "text": "name of the coroutine"}
+{"offset": "0x560f7", "text": "cr_frame"}
+{"offset": "0x56100", "text": "Frame of the coroutine"}
+{"offset": "0x56117", "text": "cr_running"}
+{"offset": "0x56122", "text": "cr_await"}
+{"offset": "0x5612b", "text": "object being awaited, or None"}
+{"offset": "0x56149", "text": "cr_code"}
+{"offset": "0x56151", "text": "__reduce_ex__"}
+{"offset": "0x56260", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x56340", "text": "els => els.map(el => el.src || el.dataset.src || \"\")\n            .filter(u => u.startsWith(\"http\"))"}
+{"offset": "0x563c0", "text": "collect_paginated_html.<locals>._novel"}
+{"offset": "0x56400", "text": "CrawlSession._install_media_capture.<locals>.on_request"}
+{"offset": "0x56440", "text": "CrawlSession._install_media_capture.<locals>.on_response"}
+{"offset": "0x56480", "text": "CrawlSession._install_media_capture.<locals>.route_handler"}
+{"offset": "0x564c0", "text": "CrawlSession._install_media_capture.<locals>.route_handler.<locals>.genexpr"}
+{"offset": "0x56520", "text": "CrawlSession._install_media_capture.<locals>.on_request.<locals>.genexpr"}
+{"offset": "0x56580", "text": "video[src], video source[src], video[data-src], source[src]"}
+{"offset": "0x565c0", "text": "els => els.map(el =>\n            el.src || el.dataset.src || el.dataset.lazySrc || el.currentSrc || \"\"\n        ).filter(u => u.startsWith(\"http\"))"}
+{"offset": "0x56660", "text": "data-component-type=\"s-search-result\""}
+{"offset": "0x566a0", "text": "collect_paginated_html.<locals>.genexpr"}
+{"offset": "0x566e0", "text": "collect_paginated_html.<locals>._novel.<locals>.genexpr"}
+{"offset": "0x56720", "text": "collect_paginated_html.<locals>._keep"}
+{"offset": "0x56760", "text": "collect_paginated_html.<locals>._fetch"}
+{"offset": "0x567a0", "text": "collect_paginated_html.<locals>._absolutize"}
+{"offset": "0x567e0", "text": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+{"offset": "0x56860", "text": "CrawlSession._install_media_capture"}
+{"offset": "0x568a0", "text": "window.scrollBy(0, document.body.scrollHeight)"}
+{"offset": "0x568e0", "text": "tuple[str, str | None, int, int] | None"}
+{"offset": "0x56920", "text": "(requirePositive) => {\n            const out = {};\n            for (const s of document.querySelectorAll('script[type=\"application/ld+json\"]')) {\n                try {\n                    const data = JSON.parse(s.innerText);\n                    const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);\n                    for (const n of nodes) {\n                        if (!n || (n['@type'] !== 'Product' && n['@type'] !== 'ProductGroup')) continue;\n                        let offers = n.offers || {};\n                        if (Array.isArray(offers)) offers = offers[0] || {};\n                        if (offers.price != null && (!requirePositive || Number(offers.price) > 0))\n                            out.price = String(offers.price);\n                        if (offers.availability) out.inventory = String(offers.availability).split('/').pop();\n                        const agg = n.aggregateRating || {};\n                        if (agg.ratingValue != null) {\n                            out.rating = agg.ratingValue;\n                            out.review_count = agg.reviewCount || agg.ratingCount || null;\n                        }\n                    }\n                } catch (e) {}\n            }\n            return out;\n        }"}
+{"offset": "0x56e20", "text": "<(?:link|a)[^>]+rel=[\"\\']next[\"\\'][^>]+href=[\"\\']([^\"\\']+)[\"\\']|<(?:link|a)[^>]+href=[\"\\']([^\"\\']+)[\"\\'][^>]+rel=[\"\\']next[\"\\']"}
+{"offset": "0x56ea0", "text": "() => {\n            const found = [];\n            const videoExts = ['.mp4', '.webm', '.m4v', '.m3u8', '.mpd', '.ts'];\n            document.querySelectorAll('script').forEach(s => {\n                const text = s.textContent || '';\n                const matches = text.match(/https?:\\/\\/[^\"'\\s]+/g) || [];\n                matches.forEach(u => {\n                    const lower = u.toLowerCase();\n                    if (videoExts.some(ext => lower.includes(ext))) {\n                        found.push(u.replace(/\\\\u002F/g, '/'));\n                    }\n                });\n            });\n            return [...new Set(found)];\n        }"}
+{"offset": "0x57120", "text": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"}
+{"offset": "0x57180", "text": "CrawlSession._load_local.<locals>.genexpr"}
+{"offset": "0x571b0", "text": "CrawlSession._load_scrapingbee"}
+{"offset": "0x571d0", "text": "CrawlSession._open_sb_context"}
+{"offset": "0x571f0", "text": "navigator_languages_override"}
+{"offset": "0x57210", "text": "_DOMAIN_TITLE_CONTENT_MARKERS"}
+{"offset": "0x57230", "text": "document.body.scrollHeight"}
+{"offset": "0x57260", "text": "  [scrapingbee] set_content 실패("}
+{"offset": "0x57290", "text": "is_blocked.<locals>.genexpr"}
+{"offset": "0x572b0", "text": "CrawlSession._load_local"}
+{"offset": "0x572d0", "text": "tuple[list[str], list[str]]"}
+{"offset": "0x57300", "text": "  [scrapingbee] set_content 대상 사망 → 컨텍스트 재생성("}
+{"offset": "0x57350", "text": "_pager_url.<locals>.<lambda>"}
+{"offset": "0x57370", "text": "CrawlSession.fetch_html"}
+{"offset": "0x573a0", "text": "^(www\\.)?[a-z0-9-]+\\.[a-z]{2,}(\\.[a-z]{2,})?$"}
+{"offset": "0x573d0", "text": "tuple[int | None, str, str]"}
+{"offset": "0x573f0", "text": "require_positive_price"}
+{"offset": "0x57410", "text": "collect_paginated_html"}
+{"offset": "0x57430", "text": "is_navigation_request"}
+{"offset": "0x57450", "text": "_install_media_capture"}
+{"offset": "0x57470", "text": "CrawlSession.__aenter__"}
+{"offset": "0x57490", "text": "eval_on_selector_all"}
+{"offset": "0x574b0", "text": "CrawlSession.__aexit__"}
+{"offset": "0x574d0", "text": "BLOCK_RESOURCE_TYPES"}
+{"offset": "0x574f0", "text": "window.scrollTo(0, 0)"}
+{"offset": "0x57510", "text": "wait_for_load_state"}
+{"offset": "0x57530", "text": "java_script_enabled"}
+{"offset": "0x57550", "text": "ignore_https_errors"}
+{"offset": "0x57570", "text": "apply_stealth_async"}
+{"offset": "0x57590", "text": "CrawlSession.__init__"}
+{"offset": "0x575b0", "text": "_sb_block_resources"}
+{"offset": "0x575d0", "text": "playwright_stealth"}
+{"offset": "0x575f0", "text": "extra_http_headers"}
+{"offset": "0x57610", "text": "cline_in_traceback"}
+{"offset": "0x57630", "text": "asyncio.coroutines"}
+{"offset": "0x57650", "text": "CHALLENGE_KEYWORDS"}
+{"offset": "0x57670", "text": "CrawlSession.load"}
+{"offset": "0x57690", "text": "wait_for_timeout"}
+{"offset": "0x576b0", "text": "scroll_to_bottom"}
+{"offset": "0x576d0", "text": "\n<!-- pagination-merge -->\n"}
+{"offset": "0x576f0", "text": "_load_scrapingbee"}
+{"offset": "0x57710", "text": "domcontentloaded"}
+{"offset": "0x57730", "text": "VIDEO_PATH_HINTS"}
+{"offset": "0x57750", "text": "MODE_SCRAPINGBEE"}
+{"offset": "0x57770", "text": "_open_sb_context"}
+{"offset": "0x57788", "text": "_local_browser"}
+{"offset": "0x577a0", "text": "jsonld_snapshot"}
+{"offset": "0x577b0", "text": "json_video_urls"}
+{"offset": "0x577c0", "text": "core/crawler.py"}
+{"offset": "0x577d0", "text": "captured_videos"}
+{"offset": "0x577e0", "text": "block_resources"}
+{"offset": "0x577f0", "text": "add_init_script"}
+{"offset": "0x57800", "text": "Accept-Language"}
+{"offset": "0x57810", "text": "(,strona-)(\\d+)(\\.bhtml$)"}
+{"offset": "0x57830", "text": "_seed_from_page"}
+{"offset": "0x57840", "text": ";q=0.9,en;q=0.8"}
+{"offset": "0x57850", "text": "dom_video_urls"}
+{"offset": "0x57860", "text": "content-length"}
+{"offset": "0x57870", "text": "bytes_received"}
+{"offset": "0x57880", "text": "_PATH_STRONA_RE"}
+{"offset": "0x57890", "text": "'CrawlSession'"}
+{"offset": "0x578a0", "text": "  [scrapingbee] 컨텍스트 재생성 실패 — 브라우저 자체 사망 의심: "}
+{"offset": "0x578f8", "text": "route_handler"}
+{"offset": "0x57908", "text": "resource_type"}
+{"offset": "0x57918", "text": "requested_url"}
+{"offset": "0x57928", "text": "local_browser"}
+{"offset": "0x57940", "text": "__init_subclass__"}
+{"offset": "0x57958", "text": "collect_media"}
+{"offset": "0x57968", "text": "blocked_count"}
+{"offset": "0x57978", "text": "asyncio.tasks"}
+{"offset": "0x57988", "text": "_PAGN_PARALLEL"}
+{"offset": "0x57998", "text": "_PAGN_HARD_CAP"}
+{"offset": "0x579a8", "text": "GAP_TOLERANCE"}
+{"offset": "0x579b8", "text": "BLOCK_DOMAINS"}
+{"offset": "0x579c8", "text": "urllib.parse"}
+{"offset": "0x579d8", "text": "_is_coroutine"}
+{"offset": "0x579e8", "text": "_initializing"}
+{"offset": "0x579f8", "text": "credits_used"}
+{"offset": "0x57a08", "text": "core.crawler"}
+{"offset": "0x57a18", "text": "_PATH_PAGE_RE"}
+{"offset": "0x57a28", "text": "CrawlSession"}
+{"offset": "0x57a38", "text": "title_lower"}
+{"offset": "0x57a48", "text": "timezone_id"}
+{"offset": "0x57a58", "text": "set_content"}
+{"offset": "0x57a68", "text": "scrapingbee"}
+{"offset": "0x57a78", "text": "_render_js"}
+{"offset": "0x57a88", "text": "on_response"}
+{"offset": "0x57a98", "text": "new_context"}
+{"offset": "0x57aa8", "text": "networkidle"}
+{"offset": "0x57ab8", "text": "_inject_base"}
+{"offset": "0x57ac8", "text": "_REL_NEXT_RE"}
+{"offset": "0x57ad8", "text": "wait_until"}
+{"offset": "0x57ae8", "text": "user_agent"}
+{"offset": "0x57af8", "text": "urlunparse"}
+{"offset": "0x57b08", "text": "startswith"}
+{"offset": "0x57b18", "text": "seen_hrefs"}
+{"offset": "0x57b28", "text": "_scenario"}
+{"offset": "0x57b40", "text": "rel=next+외삽"}
+{"offset": "0x57b50", "text": "product_re"}
+{"offset": "0x57b60", "text": "playwright"}
+{"offset": "0x57b70", "text": "_pager_spec"}
+{"offset": "0x57b80", "text": "_page_hrefs"}
+{"offset": "0x57b90", "text": "on_request"}
+{"offset": "0x57ba0", "text": "nav_status"}
+{"offset": "0x57bb0", "text": "main_frame"}
+{"offset": "0x57bc0", "text": "_load_local"}
+{"offset": "0x57bd0", "text": "is_blocked"}
+{"offset": "0x57be0", "text": "image_urls"}
+{"offset": "0x57bf0", "text": "href=\"([^\"]{4,300})\""}
+{"offset": "0x57c08", "text": "first_html"}
+{"offset": "0x57c18", "text": "fetch_html"}
+{"offset": "0x57c28", "text": "_absolutize"}
+{"offset": "0x57c38", "text": "VIDEO_EXTS"}
+{"offset": "0x57c48", "text": "MODE_LOCAL"}
+{"offset": "0x57c58", "text": "LOCALE_MAP"}
+{"offset": "0x57c68", "text": "IGNORECASE"}
+{"offset": "0x57c78", "text": "_urljoin"}
+{"offset": "0x57c88", "text": "urlencode"}
+{"offset": "0x57c98", "text": "url_lower"}
+{"offset": "0x57ca8", "text": "_stealth"}
+{"offset": "0x57cb8", "text": "_sb_wait"}
+{"offset": "0x57cc8", "text": "render_js"}
+{"offset": "0x57cd8", "text": "remaining"}
+{"offset": "0x57ce8", "text": "parse_qsl"}
+{"offset": "0x57cf8", "text": "_pager_url"}
+{"offset": "0x57d08", "text": "new_hrefs"}
+{"offset": "0x57d18", "text": "__metaclass__"}
+{"offset": "0x57d28", "text": "max_pages"}
+{"offset": "0x57d38", "text": "list | None"}
+{"offset": "0x57d48", "text": "isenabled"}
+{"offset": "0x57d58", "text": "getLogger"}
+{"offset": "0x57d68", "text": "<base href=\""}
+{"offset": "0x57d78", "text": "_UA_CHROME"}
+{"offset": "0x57d88", "text": "_DOMAIN_RE"}
+{"offset": "0x57d98", "text": "viewport"}
+{"offset": "0x57da8", "text": "urlparse"}
+{"offset": "0x57db8", "text": "unescape"}
+{"offset": "0x57dc8", "text": "str | None"}
+{"offset": "0x57dd8", "text": "spec_url"}
+{"offset": "0x57de8", "text": "__set_name__"}
+{"offset": "0x57df8", "text": "scenario"}
+{"offset": "0x57e08", "text": "response"}
+{"offset": "0x57e18", "text": "rel=next"}
+{"offset": "0x57e28", "text": "__qualname__"}
+{"offset": "0x57e38", "text": "pause_ms"}
+{"offset": "0x57e48", "text": "new_page"}
+{"offset": "0x57e58", "text": "list[str]"}
+{"offset": "0x57e68", "text": "int | None"}
+{"offset": "0x57e78", "text": "fromkeys"}
+{"offset": "0x57e88", "text": "from_rel"}
+{"offset": "0x57e98", "text": "evaluate"}
+{"offset": "0x57ea8", "text": "endswith"}
+{"offset": "0x57eb8", "text": "continue_"}
+{"offset": "0x57ec8", "text": "best_val"}
+{"offset": "0x57ed8", "text": "base_tag"}
+{"offset": "0x57ee8", "text": "warning"}
+{"offset": "0x57ef0", "text": "urljoin"}
+{"offset": "0x57ef8", "text": "timeout"}
+{"offset": "0x57f00", "text": "stealth"}
+{"offset": "0x57f08", "text": "sb_wait"}
+{"offset": "0x57f10", "text": "request"}
+{"offset": "0x57f18", "text": "req_url"}
+{"offset": "0x57f20", "text": "_replace"}
+{"offset": "0x57f30", "text": "__prepare__"}
+{"offset": "0x57f40", "text": "/media/"}
+{"offset": "0x57f48", "text": "logging"}
+{"offset": "0x57f50", "text": "isdigit"}
+{"offset": "0x57f58", "text": "inspect"}
+{"offset": "0x57f60", "text": "_htmllib"}
+{"offset": "0x57f70", "text": "headers"}
+{"offset": "0x57f78", "text": "genexpr"}
+{"offset": "0x57f80", "text": "findall"}
+{"offset": "0x57f88", "text": "fetched"}
+{"offset": "0x57f90", "text": "_fetch"}
+{"offset": "0x57f98", "text": "disable"}
+{"offset": "0x57fa0", "text": "credits"}
+{"offset": "0x57fa8", "text": "country"}
+{"offset": "0x57fb0", "text": "context"}
+{"offset": "0x57fb8", "text": "content"}
+{"offset": "0x57fc0", "text": "compile"}
+{"offset": "0x57fc8", "text": "attempt"}
+{"offset": "0x57fd0", "text": "asyncio"}
+{"offset": "0x57fd8", "text": "Stealth"}
+{"offset": "0x57fe0", "text": "_HREF_RE"}
+{"offset": "0x57ff0", "text": "_HEAD_RE"}
+{"offset": "0x57ff9", "text": "videos"}
+{"offset": "0x58000", "text": "update"}
+{"offset": "0x58007", "text": "strona"}
+{"offset": "0x58010", "text": "/stream/"}
+{"offset": "0x58019", "text": "status"}
+{"offset": "0x58020", "text": "spec"}
+{"offset": "0x58025", "text": "search"}
+{"offset": "0x5802c", "text": "rounds"}
+{"offset": "0x58033", "text": "return"}
+{"offset": "0x58040", "text": "(/page[-/])(\\d+)(/?$)"}
+{"offset": "0x58058", "text": "__module__"}
+{"offset": "0x58063", "text": "misses"}
+{"offset": "0x5806a", "text": "locale"}
+{"offset": "0x58078", "text": "__import__"}
+{"offset": "0x58083", "text": "images"}
+{"offset": "0x5808a", "text": "height"}
+{"offset": "0x58091", "text": "gather"}
+{"offset": "0x58098", "text": "enable"}
+{"offset": "0x580a0", "text": "__dict__"}
+{"offset": "0x580a9", "text": "config"}
+{"offset": "0x580b0", "text": "closed"}
+{"offset": "0x580b7", "text": "append"}
+{"offset": "0x580c0", "text": "__aenter__"}
+{"offset": "0x580cb", "text": "width"}
+{"offset": "0x580d8", "text": "/video/"}
+{"offset": "0x580e0", "text": "value"}
+{"offset": "0x580e6", "text": "tuple"}
+{"offset": "0x580ec", "text": "title"}
+{"offset": "0x580f2", "text": "throw"}
+{"offset": "0x580f8", "text": "super"}
+{"offset": "0x580fe", "text": "strip"}
+{"offset": "0x58104", "text": "rtype"}
+{"offset": "0x5810a", "text": "route"}
+{"offset": "0x58110", "text": "range"}
+{"offset": "0x58116", "text": "query"}
+{"offset": "0x5811c", "text": "_novel"}
+{"offset": "0x58123", "text": "media"}
+{"offset": "0x58129", "text": "match"}
+{"offset": "0x5812f", "text": "lower"}
+{"offset": "0x58135", "text": "local"}
+{"offset": "0x5813b", "text": "htmls"}
+{"offset": "0x58141", "text": "group"}
+{"offset": "0x58147", "text": "gen_n"}
+{"offset": "0x5814d", "text": "frame"}
+{"offset": "0x58153", "text": "fetch"}
+{"offset": "0x58159", "text": "error"}
+{"offset": "0x5815f", "text": "en-US"}
+{"offset": "0x58165", "text": "count"}
+{"offset": "0x5816b", "text": "close"}
+{"offset": "0x58171", "text": "clear"}
+{"offset": "0x58177", "text": "batch"}
+{"offset": "0x58180", "text": "__await__"}
+{"offset": "0x58190", "text": "__aexit__"}
+{"offset": "0x5819a", "text": "abort"}
+{"offset": "0x581a0", "text": ".webm"}
+{"offset": "0x581a6", "text": "wait"}
+{"offset": "0x581b0", "text": "__test__"}
+{"offset": "0x581b9", "text": "stop"}
+{"offset": "0x581be", "text": "step"}
+{"offset": "0x581c8", "text": "__spec__"}
+{"offset": "0x581d1", "text": "sink"}
+{"offset": "0x581d6", "text": "sess"}
+{"offset": "0x581db", "text": "send"}
+{"offset": "0x581e0", "text": "self"}
+{"offset": "0x581e5", "text": "seen"}
+{"offset": "0x581ea", "text": "path"}
+{"offset": "0x581ef", "text": "page"}
+{"offset": "0x581f8", "text": "__name__"}
+{"offset": "0x58201", "text": "mode"}
+{"offset": "0x58208", "text": "__main__"}
+{"offset": "0x58211", "text": ".m3u8"}
+{"offset": "0x58217", "text": "load"}
+{"offset": "0x5821c", "text": "last"}
+{"offset": "0x58221", "text": "kind"}
+{"offset": "0x58226", "text": "_keep"}
+{"offset": "0x5822c", "text": "ints"}
+{"offset": "0x58238", "text": "__init__"}
+{"offset": "0x58241", "text": "info"}
+{"offset": "0x58246", "text": "http"}
+{"offset": "0x5824b", "text": "html"}
+{"offset": "0x58250", "text": "href"}
+{"offset": "0x58258", "text": "<head[^>]*>"}
+{"offset": "0x58264", "text": "goto"}
+{"offset": "0x58269", "text": "dict"}
+{"offset": "0x5826e", "text": "/dash/"}
+{"offset": "0x58275", "text": "cand"}
+{"offset": "0x5827a", "text": "bool"}
+{"offset": "0x5827f", "text": "body"}
+{"offset": "0x58284", "text": "best"}
+{"offset": "0x58289", "text": "base"}
+{"offset": "0x5828e", "text": "args"}
+{"offset": "0x582bb", "text": ".mpd"}
+{"offset": "0x582c0", "text": ".mp4"}
+{"offset": "0x582c5", "text": ".mov"}
+{"offset": "0x582ca", "text": ".m4v"}
+{"offset": "0x582df", "text": "/hls/"}
+{"offset": "0x582f8", "text": "__doc__"}
+{"offset": "0x58320", "text": " 페이지네이션 병합: "}
+{"offset": "0x5834a", "text": "**/*"}

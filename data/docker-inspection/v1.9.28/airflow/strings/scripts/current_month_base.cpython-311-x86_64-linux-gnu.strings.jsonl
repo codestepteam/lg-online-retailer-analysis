@@ -1,0 +1,122 @@
+{"offset": "0xd000", "text": " while calling a Python object"}
+{"offset": "0xd020", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0xd050", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0xd0b0", "text": "__qualname__ must be set to a string object"}
+{"offset": "0xd0e0", "text": "__name__ must be set to a string object"}
+{"offset": "0xd108", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0xd250", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0xd288", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0xd2c0", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/current_month_base.c"}
+{"offset": "0xd300", "text": "Module 'current_month_base' has already been imported. Re-initialisation is not supported."}
+{"offset": "0xd360", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0xd3b0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0xd3e0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0xd420", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0xd448", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0xd4f8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0xd538", "text": "scripts.current_month_base.genexpr"}
+{"offset": "0xd560", "text": "join() result is too long for a Python string"}
+{"offset": "0xd590", "text": "init scripts.current_month_base"}
+{"offset": "0xd5b0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0xd5e8", "text": "generator raised StopIteration"}
+{"offset": "0xd608", "text": "generator ignored GeneratorExit"}
+{"offset": "0xd628", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0xd650", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0xd680", "text": "instance exception may not have a separate value"}
+{"offset": "0xd6b8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0xd700", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0xd740", "text": "qualified name of the generator"}
+{"offset": "0xd760", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0xd790", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xd7f0", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xd860", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0xd898", "text": "scripts.current_month_base.__pyx_scope_struct__genexpr"}
+{"offset": "0xd8cf", "text": "cannot import name %S"}
+{"offset": "0xd8e5", "text": "name"}
+{"offset": "0xd8ea", "text": "__loader__"}
+{"offset": "0xd8f5", "text": "loader"}
+{"offset": "0xd8fc", "text": "__file__"}
+{"offset": "0xd905", "text": "origin"}
+{"offset": "0xd90c", "text": "__package__"}
+{"offset": "0xd918", "text": "parent"}
+{"offset": "0xd91f", "text": "__path__"}
+{"offset": "0xd928", "text": "submodule_search_locations"}
+{"offset": "0xd943", "text": "_cython_coroutine_type"}
+{"offset": "0xd95a", "text": "_cython_generator_type"}
+{"offset": "0xd971", "text": "_module"}
+{"offset": "0xd979", "text": "__builtins__"}
+{"offset": "0xd986", "text": "%s (%s:%d)"}
+{"offset": "0xd991", "text": "generator already executing"}
+{"offset": "0xd9ad", "text": "name '%U' is not defined"}
+{"offset": "0xd9c6", "text": "builtins"}
+{"offset": "0xd9cf", "text": "cython_runtime"}
+{"offset": "0xd9de", "text": "scripts.current_month_base"}
+{"offset": "0xd9f9", "text": "does not match"}
+{"offset": "0xda08", "text": "_cython_3_0_12"}
+{"offset": "0xda17", "text": "collections.abc"}
+{"offset": "0xda27", "text": "backports_abc"}
+{"offset": "0xda35", "text": "scripts/current_month_base.py"}
+{"offset": "0xda56", "text": "genexpr"}
+{"offset": "0xda5e", "text": "throw"}
+{"offset": "0xda64", "text": "_cython_3_0_12.generator"}
+{"offset": "0xda7d", "text": "__name__"}
+{"offset": "0xda86", "text": "name of the generator"}
+{"offset": "0xda9c", "text": "__qualname__"}
+{"offset": "0xdaa9", "text": "gi_frame"}
+{"offset": "0xdab2", "text": "Frame of the generator"}
+{"offset": "0xdac9", "text": "gi_running"}
+{"offset": "0xdad4", "text": "gi_yieldfrom"}
+{"offset": "0xdae1", "text": "gi_code"}
+{"offset": "0xdae9", "text": "__module__"}
+{"offset": "0xdaf4", "text": "send"}
+{"offset": "0xdaf9", "text": "close"}
+{"offset": "0xdb00", "text": "SELECT DISTINCT batch_id FROM pdp_target_list"}
+{"offset": "0xdb30", "text": "scripts.current_month_base"}
+{"offset": "0xdb60", "text": "pdp base batch 전무 — daily 스킵"}
+{"offset": "0xdb90", "text": "cline_in_traceback"}
+{"offset": "0xdba8", "text": "get_connection"}
+{"offset": "0xdbb8", "text": "_initializing"}
+{"offset": "0xdbc8", "text": "this_month"}
+{"offset": "0xdbd8", "text": "startswith"}
+{"offset": "0xdbe8", "text": "timedelta"}
+{"offset": "0xdbf8", "text": "isenabled"}
+{"offset": "0xdc08", "text": "fullmatch"}
+{"offset": "0xdc18", "text": "timezone"}
+{"offset": "0xdc28", "text": "strftime"}
+{"offset": "0xdc38", "text": "fetchall"}
+{"offset": "0xdc48", "text": "datetime"}
+{"offset": "0xdc58", "text": "batch_id"}
+{"offset": "0xdc68", "text": "resolve"}
+{"offset": "0xdc70", "text": "pathlib"}
+{"offset": "0xdc78", "text": "parents"}
+{"offset": "0xdc80", "text": "genexpr"}
+{"offset": "0xdc88", "text": "execute"}
+{"offset": "0xdc90", "text": "disable"}
+{"offset": "0xdc98", "text": "core.db"}
+{"offset": "0xdca0", "text": "stderr"}
+{"offset": "0xdca7", "text": "insert"}
+{"offset": "0xdcb0", "text": "__import__"}
+{"offset": "0xdcbb", "text": "file"}
+{"offset": "0xdcc0", "text": "exit"}
+{"offset": "0xdcc5", "text": "enable"}
+{"offset": "0xdccc", "text": "cursor"}
+{"offset": "0xdcd3", "text": "throw"}
+{"offset": "0xdcd9", "text": "print"}
+{"offset": "0xdcdf", "text": "hours"}
+{"offset": "0xdce8", "text": "__enter__"}
+{"offset": "0xdcf2", "text": "close"}
+{"offset": "0xdcf8", "text": "bases"}
+{"offset": "0xdd00", "text": "__test__"}
+{"offset": "0xdd10", "text": "__spec__"}
+{"offset": "0xdd19", "text": "send"}
+{"offset": "0xdd1e", "text": "path"}
+{"offset": "0xdd28", "text": "__name__"}
+{"offset": "0xdd38", "text": "__main__"}
+{"offset": "0xdd48", "text": "__file__"}
+{"offset": "0xdd58", "text": "__exit__"}
+{"offset": "0xdd61", "text": "conn"}
+{"offset": "0xdd80", "text": ") base 없음 — 전월 폴백: "}
+{"offset": "0xdda2", "text": "args"}
+{"offset": "0xdda7", "text": "Path"}
+{"offset": "0xddb4", "text": "\\d{8}"}
+{"offset": "0xddbe", "text": "%Y%m"}

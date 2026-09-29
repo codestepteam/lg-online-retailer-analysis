@@ -1,0 +1,181 @@
+{"offset": "0x16000", "text": "%.200s() needs an argument"}
+{"offset": "0x1601b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x16039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1604f", "text": "cannot import name %S"}
+{"offset": "0x16065", "text": "__loader__"}
+{"offset": "0x16070", "text": "loader"}
+{"offset": "0x16077", "text": "__file__"}
+{"offset": "0x16080", "text": "origin"}
+{"offset": "0x16087", "text": "__package__"}
+{"offset": "0x16093", "text": "parent"}
+{"offset": "0x1609a", "text": "__path__"}
+{"offset": "0x160a3", "text": "submodule_search_locations"}
+{"offset": "0x160be", "text": "keywords must be strings"}
+{"offset": "0x160d7", "text": "_cython_coroutine_type"}
+{"offset": "0x160ee", "text": "_cython_generator_type"}
+{"offset": "0x16105", "text": "_module"}
+{"offset": "0x1610d", "text": "__builtins__"}
+{"offset": "0x1611a", "text": "_cython_3_0_12"}
+{"offset": "0x16129", "text": "%s (%s:%d)"}
+{"offset": "0x16134", "text": "generator already executing"}
+{"offset": "0x16150", "text": "name '%U' is not defined"}
+{"offset": "0x1616c", "text": "scripts/repair_checkpoint.py"}
+{"offset": "0x16189", "text": "genexpr"}
+{"offset": "0x16191", "text": "throw"}
+{"offset": "0x16197", "text": "repair"}
+{"offset": "0x1619e", "text": "exactly"}
+{"offset": "0x161a6", "text": "builtins"}
+{"offset": "0x161af", "text": "cython_runtime"}
+{"offset": "0x161be", "text": "scripts.repair_checkpoint"}
+{"offset": "0x161d8", "text": "does not match"}
+{"offset": "0x161e7", "text": "collections.abc"}
+{"offset": "0x161f7", "text": "backports_abc"}
+{"offset": "0x16205", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1621e", "text": "__name__"}
+{"offset": "0x16227", "text": "name of the generator"}
+{"offset": "0x1623d", "text": "__qualname__"}
+{"offset": "0x1624a", "text": "gi_frame"}
+{"offset": "0x16253", "text": "Frame of the generator"}
+{"offset": "0x1626a", "text": "gi_running"}
+{"offset": "0x16275", "text": "gi_yieldfrom"}
+{"offset": "0x16282", "text": "gi_code"}
+{"offset": "0x1628a", "text": "__module__"}
+{"offset": "0x16295", "text": "send"}
+{"offset": "0x1629a", "text": "close"}
+{"offset": "0x162a0", "text": "__reduce__"}
+{"offset": "0x162ab", "text": "func_doc"}
+{"offset": "0x162b4", "text": "__doc__"}
+{"offset": "0x162bc", "text": "func_name"}
+{"offset": "0x162c6", "text": "func_dict"}
+{"offset": "0x162d0", "text": "__dict__"}
+{"offset": "0x162d9", "text": "func_globals"}
+{"offset": "0x162e6", "text": "__globals__"}
+{"offset": "0x162f2", "text": "func_closure"}
+{"offset": "0x162ff", "text": "__closure__"}
+{"offset": "0x1630b", "text": "func_code"}
+{"offset": "0x16315", "text": "__code__"}
+{"offset": "0x1631e", "text": "func_defaults"}
+{"offset": "0x1632c", "text": "__defaults__"}
+{"offset": "0x16339", "text": "__kwdefaults__"}
+{"offset": "0x16348", "text": "__annotations__"}
+{"offset": "0x16358", "text": "_is_coroutine"}
+{"offset": "0x16366", "text": "main"}
+{"offset": "0x16370", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x16398", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x163c8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x163f0", "text": " while calling a Python object"}
+{"offset": "0x16410", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x16440", "text": "function's dictionary may not be deleted"}
+{"offset": "0x16470", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x164a0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x16500", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x16530", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x16560", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x16590", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x165f8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x16628", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x16688", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x166b8", "text": "__name__ must be set to a string object"}
+{"offset": "0x166e0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x16828", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x16860", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x16898", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x168c8", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x16908", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/repair_checkpoint.c"}
+{"offset": "0x16948", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x16980", "text": "generator raised StopIteration"}
+{"offset": "0x169a0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x169c0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x169e8", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x16a08", "text": "join() result is too long for a Python string"}
+{"offset": "0x16a38", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x16a68", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x16a90", "text": "scripts.repair_checkpoint.main"}
+{"offset": "0x16ab0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x16ae0", "text": "instance exception may not have a separate value"}
+{"offset": "0x16b18", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x16b60", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x16ba0", "text": "scripts.repair_checkpoint.repair"}
+{"offset": "0x16bc8", "text": "scripts.repair_checkpoint.repair.genexpr"}
+{"offset": "0x16bf8", "text": "strings are too large to concat"}
+{"offset": "0x16c18", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x16c50", "text": "%.200s() keywords must be strings"}
+{"offset": "0x16c78", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x16ca8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x16ce8", "text": "Module 'repair_checkpoint' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x16d48", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x16d98", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x16dc0", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x16e70", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x16eb0", "text": "init scripts.repair_checkpoint"}
+{"offset": "0x16ed0", "text": "qualified name of the generator"}
+{"offset": "0x16ef0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x16f20", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x16f80", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x16ff0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x17028", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x17058", "text": "scripts.repair_checkpoint.__pyx_scope_struct__genexpr"}
+{"offset": "0x170a0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x17180", "text": "data/20260714_id31_final/checkpoint.jsonl"}
+{"offset": "0x171b0", "text": "scripts/repair_checkpoint.py"}
+{"offset": "0x171d0", "text": "scripts.repair_checkpoint"}
+{"offset": "0x171f0", "text": "repair.<locals>.genexpr"}
+{"offset": "0x17210", "text": "cline_in_traceback"}
+{"offset": "0x17230", "text": "asyncio.coroutines"}
+{"offset": "0x17250", "text": ".jsonl.prerepair"}
+{"offset": "0x17268", "text": "_is_coroutine"}
+{"offset": "0x17278", "text": "_initializing"}
+{"offset": "0x17288", "text": "CLINIC_ENTRY"}
+{"offset": "0x17298", "text": "with_suffix"}
+{"offset": "0x172a8", "text": "JSONDecoder"}
+{"offset": "0x172b8", "text": "write_text"}
+{"offset": "0x172c8", "text": "core.jsonl"}
+{"offset": "0x172d8", "text": "read_text"}
+{"offset": "0x172e8", "text": "isenabled"}
+{"offset": "0x172f8", "text": "dump_line"}
+{"offset": "0x17308", "text": "encoding"}
+{"offset": "0x17318", "text": "resolve"}
+{"offset": "0x17320", "text": "records"}
+{"offset": "0x17328", "text": "pathlib"}
+{"offset": "0x17330", "text": "parents"}
+{"offset": "0x17338", "text": "genexpr"}
+{"offset": "0x17340", "text": "environ"}
+{"offset": "0x17348", "text": "disable"}
+{"offset": "0x17350", "text": "strict"}
+{"offset": "0x17357", "text": "stderr"}
+{"offset": "0x1735e", "text": "repair"}
+{"offset": "0x17368", "text": "__name__"}
+{"offset": "0x17371", "text": "main"}
+{"offset": "0x17376", "text": "joined"}
+{"offset": "0x1737d", "text": "insert"}
+{"offset": "0x17388", "text": "__import__"}
+{"offset": "0x17398", "text": "__file__"}
+{"offset": "0x173a1", "text": "exists"}
+{"offset": "0x173a8", "text": "enable"}
+{"offset": "0x173af", "text": "decode"}
+{"offset": "0x173b6", "text": "backup"}
+{"offset": "0x173bd", "text": "utf-8"}
+{"offset": "0x173c3", "text": "throw"}
+{"offset": "0x173c9", "text": "strip"}
+{"offset": "0x173cf", "text": "split"}
+{"offset": "0x173d5", "text": "print"}
+{"offset": "0x173db", "text": "close"}
+{"offset": "0x173e8", "text": "__test__"}
+{"offset": "0x173f8", "text": "__spec__"}
+{"offset": "0x17408", "text": "[skip] "}
+{"offset": "0x17410", "text": "send"}
+{"offset": "0x17415", "text": "phys"}
+{"offset": "0x1741a", "text": "path"}
+{"offset": "0x1741f", "text": "name"}
+{"offset": "0x17428", "text": "__main__"}
+{"offset": "0x17431", "text": "json"}
+{"offset": "0x17436", "text": "file"}
+{"offset": "0x1743b", "text": "argv"}
+{"offset": "0x17440", "text": "args"}
+{"offset": "0x17445", "text": "REPO"}
+{"offset": "0x1744a", "text": "Path"}
+{"offset": "0x17480", "text": "개) — 원본→"}
+{"offset": "0x174a0", "text": "개 (재결합 복구 "}
+{"offset": "0x174b8", "text": ": 레코드 "}
+{"offset": "0x174d0", "text": "자 — 확인 필요"}
+{"offset": "0x17500", "text": "⚠️ 말미에 파싱 안 된 잔여 "}

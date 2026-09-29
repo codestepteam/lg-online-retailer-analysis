@@ -1,0 +1,174 @@
+{"offset": "0x11000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x11038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x11060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x11090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x110b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x110e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x11118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x11178", "text": "invalid input, expected coroutine"}
+{"offset": "0x111a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x111d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x11200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x11230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x11298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x112c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x11328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x11358", "text": "__name__ must be set to a string object"}
+{"offset": "0x11380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x114c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x11500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x11538", "text": "%.200s() keywords must be strings"}
+{"offset": "0x11560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x11590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x115c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x11600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x11628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x11658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x11698", "text": " while calling a Python object"}
+{"offset": "0x116b8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x116e8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x11710", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/pdp/but_fr.c"}
+{"offset": "0x11750", "text": "crawl_retailers.pdp.but_fr.extract"}
+{"offset": "0x11778", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x117b8", "text": "strings are too large to concat"}
+{"offset": "0x117d8", "text": "crawl_retailers.pdp.but_fr.page_targets"}
+{"offset": "0x11800", "text": "generator ignored GeneratorExit"}
+{"offset": "0x11820", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x11840", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x11868", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x11898", "text": "instance exception may not have a separate value"}
+{"offset": "0x118d0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x11918", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x11958", "text": "coroutine is being awaited already"}
+{"offset": "0x11980", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x119b8", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x119f8", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x11a30", "text": "__await__() returned a coroutine"}
+{"offset": "0x11a58", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x11a88", "text": "dictionary changed size during iteration"}
+{"offset": "0x11ab8", "text": "'NoneType' object is not iterable"}
+{"offset": "0x11ae0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x11b08", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x11b38", "text": "generator raised StopIteration"}
+{"offset": "0x11b58", "text": "Module 'but_fr' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x11ba8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x11bf8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x11c20", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x11cd0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x11d10", "text": "init crawl_retailers.pdp.but_fr"}
+{"offset": "0x11d30", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x11d60", "text": "qualified name of the coroutine"}
+{"offset": "0x11d80", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x11de0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x11e50", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x11e88", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x11eb0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x11ee8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11f48", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11fb8", "text": "crawl_retailers.pdp.but_fr.__pyx_scope_struct__extract"}
+{"offset": "0x11fef", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x1200d", "text": "%.200s() needs an argument"}
+{"offset": "0x12028", "text": "Bad call flags for CyFunction"}
+{"offset": "0x12046", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1205c", "text": "__loader__"}
+{"offset": "0x12067", "text": "loader"}
+{"offset": "0x1206e", "text": "__file__"}
+{"offset": "0x12077", "text": "origin"}
+{"offset": "0x1207e", "text": "__package__"}
+{"offset": "0x1208a", "text": "parent"}
+{"offset": "0x12091", "text": "__path__"}
+{"offset": "0x1209a", "text": "submodule_search_locations"}
+{"offset": "0x120b5", "text": "keywords must be strings"}
+{"offset": "0x120ce", "text": "_cython_coroutine_type"}
+{"offset": "0x120e5", "text": "_cython_generator_type"}
+{"offset": "0x120fc", "text": "_module"}
+{"offset": "0x12104", "text": "__builtins__"}
+{"offset": "0x12111", "text": "_cython_3_0_12"}
+{"offset": "0x12120", "text": "%s (%s:%d)"}
+{"offset": "0x1212b", "text": "extract"}
+{"offset": "0x12133", "text": "crawl_retailers/pdp/but_fr.py"}
+{"offset": "0x12151", "text": "exactly"}
+{"offset": "0x12159", "text": "name '%U' is not defined"}
+{"offset": "0x12172", "text": "page_targets"}
+{"offset": "0x1217f", "text": "coroutine already executing"}
+{"offset": "0x1219b", "text": "generator already executing"}
+{"offset": "0x121b7", "text": "throw"}
+{"offset": "0x121bd", "text": "items"}
+{"offset": "0x121c3", "text": "builtins"}
+{"offset": "0x121cc", "text": "cython_runtime"}
+{"offset": "0x121db", "text": "crawl_retailers.pdp.but_fr"}
+{"offset": "0x121f6", "text": "does not match"}
+{"offset": "0x12205", "text": "collections.abc"}
+{"offset": "0x12215", "text": "backports_abc"}
+{"offset": "0x12223", "text": "__reduce__"}
+{"offset": "0x1222e", "text": "__module__"}
+{"offset": "0x12239", "text": "func_doc"}
+{"offset": "0x12242", "text": "__doc__"}
+{"offset": "0x1224a", "text": "func_name"}
+{"offset": "0x12254", "text": "__name__"}
+{"offset": "0x1225d", "text": "__qualname__"}
+{"offset": "0x1226a", "text": "func_dict"}
+{"offset": "0x12274", "text": "__dict__"}
+{"offset": "0x1227d", "text": "func_globals"}
+{"offset": "0x1228a", "text": "__globals__"}
+{"offset": "0x12296", "text": "func_closure"}
+{"offset": "0x122a3", "text": "__closure__"}
+{"offset": "0x122af", "text": "func_code"}
+{"offset": "0x122b9", "text": "__code__"}
+{"offset": "0x122c2", "text": "func_defaults"}
+{"offset": "0x122d0", "text": "__defaults__"}
+{"offset": "0x122dd", "text": "__kwdefaults__"}
+{"offset": "0x122ec", "text": "__annotations__"}
+{"offset": "0x122fc", "text": "_is_coroutine"}
+{"offset": "0x1230a", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x12323", "text": "name of the coroutine"}
+{"offset": "0x12339", "text": "cr_frame"}
+{"offset": "0x12342", "text": "Frame of the coroutine"}
+{"offset": "0x12359", "text": "cr_running"}
+{"offset": "0x12364", "text": "cr_await"}
+{"offset": "0x1236d", "text": "object being awaited, or None"}
+{"offset": "0x1238b", "text": "cr_code"}
+{"offset": "0x12393", "text": "send"}
+{"offset": "0x12398", "text": "close"}
+{"offset": "0x1239e", "text": "__reduce_ex__"}
+{"offset": "0x123c0", "text": "script[type=\"application/ld+json\"]"}
+{"offset": "0x12400", "text": "() => {\n        const out = {};\n        const num = (s) => {\n            if (s == null) return null;\n            const v = parseFloat(String(s).replace(/[^0-9,.-]/g, '')\n                                          .replace(/\\.(?=\\d{3}\\b)/g, '')\n                                          .replace(',', '.'));\n            return Number.isFinite(v) ? v : null;\n        };\n        const isProduct = (n) => {\n            if (!n) return false;\n            const t = Array.isArray(n['@type']) ? n['@type'] : [n['@type']];\n            return t.includes('Product') || t.includes('ProductGroup');\n        };\n        // 1) JSON-LD Product (파싱 성공 시)\n        for (const s of document.querySelectorAll('script[type=\"application/ld+json\"]')) {\n            let data; try { data = JSON.parse(s.textContent); } catch (e) { continue; }\n            const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);\n            for (const raw of nodes) {\n                if (!isProduct(raw)) continue;\n                let offers = raw.offers || {};\n                if (Array.isArray(offers)) offers = offers[0] || {};\n                if (offers.price != null && out.price == null) out.price = String(offers.price);\n                if (offers.availability && out.inventory == null)\n                    out.inventory = String(offers.availability).split('/').pop();\n                const agg = raw.aggregateRating || {};\n                if (agg.ratingValue != null && out.rating == null) out.rating = num(agg.ratingValue);\n                if (out.review_count == null)\n                    out.review_count = agg.reviewCount || agg.ratingCount || null;\n            }\n        }\n        // 2) DOM 폴백 (But ld+json 은 raw 제어문자로 파싱 실패가 잦아 이 경로가 실질 주력).\n        //    현재가는 .price-value (leaf). .price/.price-container 는 취소선 구가(.old-price--crossed)\n        //    까지 감싸 \"1 199,99€1 399,99€\" 로 병합되므로 쓰지 않는다 (NEWAAAAA-9 실측).\n        if (out.price == null) {\n            const pe = document.querySelector('.price-value');\n            const v = pe ? num(pe.textContent) : null;\n            if (v != null) out.price = String(v);\n        }\n        if (out.rating == null) {\n            const re = document.querySelector('.rating-value');\n            if (re) out.rating = num(re.textContent);\n        }\n        if (out.price === 'null') delete out.price;\n        return out;\n    }"}
+{"offset": "0x12da0", "text": "crawl_retailers/pdp/but_fr.py"}
+{"offset": "0x12dc0", "text": "/marques/lg/index-c10417.html"}
+{"offset": "0x12de0", "text": "crawl_retailers.pdp.but_fr"}
+{"offset": "0x12e00", "text": "cline_in_traceback"}
+{"offset": "0x12e20", "text": "asyncio.coroutines"}
+{"offset": "0x12e40", "text": "https://www.but.fr"}
+{"offset": "0x12e60", "text": "() => document.baseURI"}
+{"offset": "0x12e78", "text": "SUCCESS_MARKER"}
+{"offset": "0x12e88", "text": "page_targets"}
+{"offset": "0x12e98", "text": "_is_coroutine"}
+{"offset": "0x12ea8", "text": "about:blank"}
+{"offset": "0x12eb8", "text": "page_type"}
+{"offset": "0x12ec8", "text": "list[dict]"}
+{"offset": "0x12ed8", "text": "isenabled"}
+{"offset": "0x12ee8", "text": "snapshot"}
+{"offset": "0x12ef8", "text": "/produits/"}
+{"offset": "0x12f08", "text": "evaluate"}
+{"offset": "0x12f18", "text": "category"}
+{"offset": "0x12f28", "text": "brand_lg"}
+{"offset": "0x12f38", "text": "extract"}
+{"offset": "0x12f40", "text": "disable"}
+{"offset": "0x12f48", "text": "country"}
+{"offset": "0x12f50", "text": "return"}
+{"offset": "0x12f57", "text": "enable"}
+{"offset": "0x12f5e", "text": "throw"}
+{"offset": "0x12f64", "text": "lower"}
+{"offset": "0x12f6a", "text": "items"}
+{"offset": "0x12f70", "text": "close"}
+{"offset": "0x12f76", "text": "brand"}
+{"offset": "0x12f80", "text": "__await__"}
+{"offset": "0x12f90", "text": "__test__"}
+{"offset": "0x12f99", "text": "sess"}
+{"offset": "0x12f9e", "text": "send"}
+{"offset": "0x12fa3", "text": "page"}
+{"offset": "0x12fa8", "text": "__name__"}
+{"offset": "0x12fb8", "text": "__main__"}
+{"offset": "0x12fc1", "text": "dict"}
+{"offset": "0x12fc6", "text": "args"}
+{"offset": "0x12fcb", "text": "_BASE"}

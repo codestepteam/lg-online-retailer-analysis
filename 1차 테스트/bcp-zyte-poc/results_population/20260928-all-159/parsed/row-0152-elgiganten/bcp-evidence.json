@@ -1,0 +1,941 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0152-elgiganten",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork",
+    "finalUrl": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork",
+    "capturedAt": "2026-09-28T08:14:31.095658+09:00",
+    "collectionOk": true,
+    "title": "Electrolux tvätt och tork - Elgiganten"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0152-elgiganten/brand-category/raw.html",
+      "sha256": "1e9951baa7fc7be9135dc30b5ecee701699523a46bfb2f874a627da1a7cbf2b7"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0152-elgiganten/brand-category/capture-state.json",
+      "sha256": "22d383e8e156245ad6156064a5f6d9ce3e65c67a16032e25f19bf5149ffd7736"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0152-elgiganten/brand-category/response.json",
+      "sha256": "f2f7a02cb605a314c3794a699e4fe3c14ddd99e734908990847ae641207d7e89"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "body.flex.min-h-screen.flex-col > main#main-content > div > section.plp-module-container.wrapper.bg-background > div.cms-module-container.module-spacing-x.flex > h1.text-foreground.font-headline.text-3xl/none",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Electrolux tvätt och tork",
+        "attributes": {
+          "class": "text-foreground font-headline text-3xl/none lg:text-5xl/none"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x.has-bg > div.flex.flex-1.flex-col > h2.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tvätta dina kläder med ånga",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x.has-bg > div.flex.flex-1.flex-col > h2.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Undrar du hur man rengör en tvättmaskin?",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x.has-bg > div.flex.flex-1.flex-col > h2.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Få bort lukter ur kläder snabbt och enkelt",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > section.plp-module-container.wrapper.bg-background > ul.cms-module-container.module-spacing-x.grid > li.flex.flex-col.md:grid > div#5023484 > h3.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "En tvättäkta maskin - otaliga funktioner",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > section.plp-module-container.wrapper.bg-background > ul.cms-module-container.module-spacing-x.grid > li.flex.flex-col.md:grid > div#5023484 > h3.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "En tvättäkta maskin - otaliga funktioner",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "section.plp-module-container.wrapper.bg-background > ul.cms-module-container.module-spacing-x.grid > li.flex.flex-col.md:grid > a.hide-external-link.flex.h-full > div#5023500 > h3.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ladda ner My Electrolux App",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x > a#5633098 > h2.text-balance.break-words.font-bold",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Se alla tvättmaskiner och torktumlare från Electrolux",
+        "attributes": {
+          "class": "text-balance break-words font-bold font-regular text-2xl text-foreground lg:text-3xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "dialog.cc-modal-dialog > div.cc-modal.cc-modal-has-top-image > div.cc-modal-content > div.cc-scrollable-body > div.cc-header > h2#cc-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Cookies: för en mer relevant upplevelse",
+        "attributes": {
+          "id": "cc-title",
+          "class": "cc-title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 18,
+        "top10ByRenderedArea": [
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023486/1-col-tile/tablet/2/688/324/download-washing-app-image.jpg?w=1920&q=75",
+            "alt": "Download washing app - image",
+            "renderedWidth": 1312,
+            "renderedHeight": 617.859375,
+            "renderedArea": 810631.5,
+            "naturalWidth": 1920,
+            "naturalHeight": 904,
+            "naturalArea": 1735680,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023508/hero/tablet/2/1536/576/electrolux-top-image-desktop-washing-machine-and-dryer-from-electrolux-in-a-laundry-room.jpg?w=3840&q=75",
+            "alt": "Washing machine and dryer from  Electrolux in a laundry room",
+            "renderedWidth": 1440,
+            "renderedHeight": 540,
+            "renderedArea": 777600,
+            "naturalWidth": 1920,
+            "naturalHeight": 720,
+            "naturalArea": 1382400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5633096/image_text/tablet/3/1195/717/a-white-shirt-being-steamed-inside-of-an-electrolux-washing-machine.jpg?w=3840&q=75",
+            "alt": "En vit skjorta som ångas inuti en Electrolux tvättmaskin",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023506/image_text/tablet/2/1195/717/electrolux-laundry-close-up-on-wet-jeans.jpg?w=3840&q=75",
+            "alt": "Close up on wet jeans",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://www.elgiganten.se/assets_spa/images/logo_b2c_header_se.svg?dpl=dpl_6MTqjCC1zHT3Z8qnyMjFLUxA2Bq3",
+            "alt": "Elgigantens privatkunder",
+            "renderedWidth": 204.5625,
+            "renderedHeight": 48,
+            "renderedArea": 9819,
+            "naturalWidth": 300,
+            "naturalHeight": 70,
+            "naturalArea": 21000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029890/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-washing-machine-1-.png?w=640&q=75",
+            "alt": "Electrolux - Laundry -Product image Electrolux washing machine (1)",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029892/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-dryer.png?w=640&q=75",
+            "alt": "Electrolux  -Laundry- Product image Electrolux dryer",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029742/category/tablet/2/240/240/electrolux-laundry-prodiudt-image-on-electrolux-washer-dryer-combo.png?w=640&q=75",
+            "alt": "Electrolux- Laundry - Prodiudt image on Electrolux washer dryer combo",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5276490/category/tablet/1/240/240/electrolux-wash-dry-vc.jpg?w=640&q=75",
+            "alt": "wash dry VC",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1892632/category/tablet/3/240/240/electrolux-mda-electrolux-mypro-washing-machine-and-dryer-next-to-each-other.jpg?w=640&q=75",
+            "alt": "Electrolux - MDA - Electrolux myPRO tvättmaskin och torktumlare bredvid varandra",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029890/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-washing-machine-1-.png?w=640&q=75",
+            "alt": "Electrolux - Laundry -Product image Electrolux washing machine (1)",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029892/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-dryer.png?w=640&q=75",
+            "alt": "Electrolux  -Laundry- Product image Electrolux dryer",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029742/category/tablet/2/240/240/electrolux-laundry-prodiudt-image-on-electrolux-washer-dryer-combo.png?w=640&q=75",
+            "alt": "Electrolux- Laundry - Prodiudt image on Electrolux washer dryer combo",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5276490/category/tablet/1/240/240/electrolux-wash-dry-vc.jpg?w=640&q=75",
+            "alt": "wash dry VC",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1892632/category/tablet/3/240/240/electrolux-mda-electrolux-mypro-washing-machine-and-dryer-next-to-each-other.jpg?w=640&q=75",
+            "alt": "Electrolux - MDA - Electrolux myPRO tvättmaskin och torktumlare bredvid varandra",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 25,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5659290/category/tablet/3/240/240/electrolux-perfectcare-teaser.jpg?w=640&q=75",
+            "alt": "Electrolux PerfectCare",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5633096/image_text/tablet/3/1195/717/a-white-shirt-being-steamed-inside-of-an-electrolux-washing-machine.jpg?w=3840&q=75",
+            "alt": "En vit skjorta som ångas inuti en Electrolux tvättmaskin",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023506/image_text/tablet/2/1195/717/electrolux-laundry-close-up-on-wet-jeans.jpg?w=3840&q=75",
+            "alt": "Close up on wet jeans",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023486/1-col-tile/tablet/2/688/324/download-washing-app-image.jpg?w=1920&q=75",
+            "alt": "Download washing app - image",
+            "renderedWidth": 1312,
+            "renderedHeight": 617.859375,
+            "renderedArea": 810631.5,
+            "naturalWidth": 1920,
+            "naturalHeight": 904,
+            "naturalArea": 1735680,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023508/hero/tablet/2/1536/576/electrolux-top-image-desktop-washing-machine-and-dryer-from-electrolux-in-a-laundry-room.jpg?w=3840&q=75",
+            "alt": "Washing machine and dryer from  Electrolux in a laundry room",
+            "renderedWidth": 1440,
+            "renderedHeight": 540,
+            "renderedArea": 777600,
+            "naturalWidth": 1920,
+            "naturalHeight": 720,
+            "naturalArea": 1382400,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Electrolux tvätt och tork - Elgiganten"
+        ],
+        "metaDescription": [
+          "Browse our wide range of washing machines, dryers and washer dryers from Electrolux."
+        ],
+        "h1": [
+          "Electrolux tvätt och tork"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "body.flex.min-h-screen.flex-col > main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.relative > a#5023512",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "heromedia flex flex-col items-center gap-4 focus-ring relative",
+              "id": "5023512"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023486/1-col-tile/tablet/2/688/324/download-washing-app-image.jpg?w=1920&q=75",
+            "alt": "Download washing app - image",
+            "renderedWidth": 1312,
+            "renderedHeight": 617.859375,
+            "renderedArea": 810631.5,
+            "naturalWidth": 1920,
+            "naturalHeight": 904,
+            "naturalArea": 1735680,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023508/hero/tablet/2/1536/576/electrolux-top-image-desktop-washing-machine-and-dryer-from-electrolux-in-a-laundry-room.jpg?w=3840&q=75",
+            "alt": "Washing machine and dryer from  Electrolux in a laundry room",
+            "renderedWidth": 1440,
+            "renderedHeight": 540,
+            "renderedArea": 777600,
+            "naturalWidth": 1920,
+            "naturalHeight": 720,
+            "naturalArea": 1382400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5633096/image_text/tablet/3/1195/717/a-white-shirt-being-steamed-inside-of-an-electrolux-washing-machine.jpg?w=3840&q=75",
+            "alt": "En vit skjorta som ångas inuti en Electrolux tvättmaskin",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5023506/image_text/tablet/2/1195/717/electrolux-laundry-close-up-on-wet-jeans.jpg?w=3840&q=75",
+            "alt": "Close up on wet jeans",
+            "renderedWidth": 648,
+            "renderedHeight": 388.796875,
+            "renderedArea": 251940.375,
+            "naturalWidth": 1920,
+            "naturalHeight": 1152,
+            "naturalArea": 2211840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://www.elgiganten.se/assets_spa/images/logo_b2c_header_se.svg?dpl=dpl_6MTqjCC1zHT3Z8qnyMjFLUxA2Bq3",
+            "alt": "Elgigantens privatkunder",
+            "renderedWidth": 204.5625,
+            "renderedHeight": 48,
+            "renderedArea": 9819,
+            "naturalWidth": 300,
+            "naturalHeight": 70,
+            "naturalArea": 21000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029890/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-washing-machine-1-.png?w=640&q=75",
+            "alt": "Electrolux - Laundry -Product image Electrolux washing machine (1)",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029892/category/tablet/2/240/240/electrolux-laundry-product-image-electrolux-dryer.png?w=640&q=75",
+            "alt": "Electrolux  -Laundry- Product image Electrolux dryer",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5029742/category/tablet/2/240/240/electrolux-laundry-prodiudt-image-on-electrolux-washer-dryer-combo.png?w=640&q=75",
+            "alt": "Electrolux- Laundry - Prodiudt image on Electrolux washer dryer combo",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5276490/category/tablet/1/240/240/electrolux-wash-dry-vc.jpg?w=640&q=75",
+            "alt": "wash dry VC",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1892632/category/tablet/3/240/240/electrolux-mda-electrolux-mypro-washing-machine-and-dryer-next-to-each-other.jpg?w=640&q=75",
+            "alt": "Electrolux - MDA - Electrolux myPRO tvättmaskin och torktumlare bredvid varandra",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Electrolux",
+            "href": "https://www.elgiganten.se/brand/electrolux",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "ELECTROLUX TVÄTTMASKIN",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-tvattmaskin",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "ELECTROLUX TORKTUMLARE",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "ELECTROLUX TVÄTTMASKIN MED TORKTUMLARE",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-tvattmaskin-med-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "ELECTROLUX TILLBEHÖR TILL TVÄTTMASKIN OCH TORKTUMLARE",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-tillbehor-till-tvattmaskin-och-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "ELECTROLUX MYPRO - DESIGNAD FÖR MINDRE VERKSAMHETER",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-mypro-designad-for-mindre-verksamheter",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          },
+          {
+            "text": "TA HAND OM DINA KLÄDER MED ELECTROLUX PERFECTCARE. MAKE IT LAST.",
+            "href": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork/electrolux-perfectcare",
+            "signals": [
+              "페이지 주제어와 일치: electrolux"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kundtjänst Hitta butik/varuhus Spåra din leverans Support via fjärrhjälp Bluffmail m.m. Kontakta oss",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kundtjänst Kundtjänst Hitta butik/varuhus Spåra din leverans Support via fjärrhjälp Bluffmail m.m. Kontakta oss",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Leverans- och installationsavtal Cookies på Elgiganten Marketplace Personuppgiftspolicy Visselblåsning",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Information Leverans- och installationsavtal Cookies på Elgiganten Marketplace Personuppgiftspolicy Visselblåsning",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kampanjer Guider & inspiration Julklappstips 2026 Black Friday / Black Week 2026 Mellandagsrea 2026",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Inspiration Kampanjer Guider & inspiration Julklappstips 2026 Black Friday / Black Week 2026 Mellandagsrea 2026",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Om oss Om Elkjøp Nordic Ledningsgrupp Jobba hos oss Elgigantenfonden Elgiganten Företag Kundklubb Pressrum Hållbarhet",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Om Elgiganten Om oss Om Elkjøp Nordic Ledningsgrupp Jobba hos oss Elgigantenfonden Elgiganten Företag Kundklubb Pressrum Hållbarhet",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

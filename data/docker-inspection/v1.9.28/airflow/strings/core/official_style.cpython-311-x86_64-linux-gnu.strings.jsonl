@@ -1,0 +1,445 @@
+{"offset": "0x4a000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x4a038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x4a060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x4a090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x4a0b8", "text": " while calling a Python object"}
+{"offset": "0x4a0d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x4a108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x4a130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x4a1e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x4a210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x4a240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x4a2a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x4a2c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x4a2f8", "text": "generator raised StopIteration"}
+{"offset": "0x4a318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x4a348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x4a378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x4a3e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x4a410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x4a470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x4a4a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x4a4c8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x4a4f8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x4a640", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x4a678", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x4a6a8", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x4a6c8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x4a700", "text": "%.200s() keywords must be strings"}
+{"offset": "0x4a728", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x4a758", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x4a790", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x4a7c8", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x4a7f0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x4a820", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x4a860", "text": "join() result is too long for a Python string"}
+{"offset": "0x4a890", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x4a8b8", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x4a8e0", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/official_style.c"}
+{"offset": "0x4a918", "text": "Module 'official_style' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x4a970", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x4a9c0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x4aa00", "text": "core.official_style.backfill_models_sync._run"}
+{"offset": "0x4aa30", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x4aa68", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x4aab0", "text": "core.official_style.inject_dhashes.fill"}
+{"offset": "0x4aad8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x4ab18", "text": "core.official_style.backfill_models_sync"}
+{"offset": "0x4ab48", "text": "core.official_style.backfill_and_cache"}
+{"offset": "0x4ab70", "text": "core.official_style.fetch_retailer_blocks_via_sb"}
+{"offset": "0x4aba8", "text": "core.official_style.verify_videos"}
+{"offset": "0x4abd0", "text": "core.official_style.inject_dhashes"}
+{"offset": "0x4abf8", "text": "core.official_style.fetch_caption_styles"}
+{"offset": "0x4ac28", "text": "generator ignored GeneratorExit"}
+{"offset": "0x4ac48", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x4ac68", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x4ac90", "text": "core.official_style.fetch_official_blocks_via_sb"}
+{"offset": "0x4acc8", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x4acf8", "text": "instance exception may not have a separate value"}
+{"offset": "0x4ad30", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x4ad78", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x4adb8", "text": "object of type 'NoneType' has no len()"}
+{"offset": "0x4ade0", "text": "core.official_style._minify_js.genexpr"}
+{"offset": "0x4ae08", "text": "%.200s object is not an iterator"}
+{"offset": "0x4ae30", "text": "core.official_style._minify_js"}
+{"offset": "0x4ae50", "text": "coroutine is being awaited already"}
+{"offset": "0x4ae78", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x4aeb0", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x4aef0", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x4af28", "text": "__await__() returned a coroutine"}
+{"offset": "0x4af50", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x4af78", "text": "core.official_style._dam_locale_mismatch.genexpr"}
+{"offset": "0x4afb0", "text": "core.official_style._dam_locale_mismatch"}
+{"offset": "0x4afe0", "text": "set changed size during iteration"}
+{"offset": "0x4b008", "text": "core.official_style.fetch_official_blocks_via_sb.genexpr"}
+{"offset": "0x4b048", "text": "qualified name of the generator"}
+{"offset": "0x4b068", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x4b098", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x4b0f8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x4b168", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x4b1a0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x4b1d0", "text": "qualified name of the coroutine"}
+{"offset": "0x4b1f0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x4b250", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x4b2c0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x4b2f8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x4b320", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x4b358", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x4b3b8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x4b428", "text": "core.official_style.__pyx_scope_struct_12__run"}
+{"offset": "0x4b458", "text": "core.official_style.__pyx_scope_struct_11_backfill_models_sync"}
+{"offset": "0x4b498", "text": "core.official_style.__pyx_scope_struct_10_backfill_and_cache"}
+{"offset": "0x4b4d8", "text": "core.official_style.__pyx_scope_struct_9_fetch_retailer_blocks_via_sb"}
+{"offset": "0x4b520", "text": "core.official_style.__pyx_scope_struct_8_genexpr"}
+{"offset": "0x4b558", "text": "core.official_style.__pyx_scope_struct_7_fetch_official_blocks_via_sb"}
+{"offset": "0x4b5a0", "text": "core.official_style.__pyx_scope_struct_6_genexpr"}
+{"offset": "0x4b5d8", "text": "core.official_style.__pyx_scope_struct_5_verify_videos"}
+{"offset": "0x4b610", "text": "core.official_style.__pyx_scope_struct_4_fill"}
+{"offset": "0x4b640", "text": "core.official_style.__pyx_scope_struct_3_inject_dhashes"}
+{"offset": "0x4b678", "text": "core.official_style.__pyx_scope_struct_2_fetch_caption_styles"}
+{"offset": "0x4b6b8", "text": "core.official_style.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x4b6f0", "text": "core.official_style.__pyx_scope_struct___dam_locale_mismatch"}
+{"offset": "0x4b72d", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x4b74b", "text": "%.200s() needs an argument"}
+{"offset": "0x4b766", "text": "Bad call flags for CyFunction"}
+{"offset": "0x4b784", "text": "<cyfunction %U at %p>"}
+{"offset": "0x4b79a", "text": "__loader__"}
+{"offset": "0x4b7a5", "text": "loader"}
+{"offset": "0x4b7ac", "text": "__file__"}
+{"offset": "0x4b7b5", "text": "origin"}
+{"offset": "0x4b7bc", "text": "__package__"}
+{"offset": "0x4b7c8", "text": "parent"}
+{"offset": "0x4b7cf", "text": "__path__"}
+{"offset": "0x4b7d8", "text": "submodule_search_locations"}
+{"offset": "0x4b7f3", "text": "keywords must be strings"}
+{"offset": "0x4b80c", "text": "_cython_coroutine_type"}
+{"offset": "0x4b823", "text": "_cython_generator_type"}
+{"offset": "0x4b83a", "text": "_module"}
+{"offset": "0x4b842", "text": "__builtins__"}
+{"offset": "0x4b84f", "text": "_cython_3_0_12"}
+{"offset": "0x4b85e", "text": "cannot import name %S"}
+{"offset": "0x4b874", "text": "name '%U' is not defined"}
+{"offset": "0x4b88d", "text": "%s (%s:%d)"}
+{"offset": "0x4b898", "text": "builtins"}
+{"offset": "0x4b8a1", "text": "cython_runtime"}
+{"offset": "0x4b8b0", "text": "does not match"}
+{"offset": "0x4b8bf", "text": "collections.abc"}
+{"offset": "0x4b8cf", "text": "backports_abc"}
+{"offset": "0x4b8dd", "text": "core/official_style.py"}
+{"offset": "0x4b8f4", "text": "init core.official_style"}
+{"offset": "0x4b910", "text": "_low"}
+{"offset": "0x4b915", "text": "genexpr"}
+{"offset": "0x4b91d", "text": "fill"}
+{"offset": "0x4b922", "text": "exactly"}
+{"offset": "0x4b92a", "text": "at least"}
+{"offset": "0x4b933", "text": "at most"}
+{"offset": "0x4b93b", "text": "backfill_models_sync"}
+{"offset": "0x4b950", "text": "backfill_and_cache"}
+{"offset": "0x4b963", "text": "fetch_retailer_blocks_via_sb"}
+{"offset": "0x4b980", "text": "verify_videos"}
+{"offset": "0x4b98e", "text": "inject_dhashes"}
+{"offset": "0x4b99d", "text": "fetch_caption_styles"}
+{"offset": "0x4b9b2", "text": "coroutine already executing"}
+{"offset": "0x4b9ce", "text": "generator already executing"}
+{"offset": "0x4b9ea", "text": "fetch_official_blocks_via_sb"}
+{"offset": "0x4ba07", "text": "throw"}
+{"offset": "0x4ba0d", "text": "_minify_js"}
+{"offset": "0x4ba18", "text": "unicode"}
+{"offset": "0x4ba20", "text": "Expected %s, got %.200s"}
+{"offset": "0x4ba38", "text": "targets"}
+{"offset": "0x4ba40", "text": "force"}
+{"offset": "0x4ba46", "text": "_run"}
+{"offset": "0x4ba4f", "text": "client"}
+{"offset": "0x4ba56", "text": "calc_dhash"}
+{"offset": "0x4ba61", "text": "_dam_locale_mismatch"}
+{"offset": "0x4ba79", "text": "_cython_3_0_12.generator"}
+{"offset": "0x4ba92", "text": "__name__"}
+{"offset": "0x4ba9b", "text": "name of the generator"}
+{"offset": "0x4bab1", "text": "__qualname__"}
+{"offset": "0x4babe", "text": "gi_frame"}
+{"offset": "0x4bac7", "text": "Frame of the generator"}
+{"offset": "0x4bade", "text": "gi_running"}
+{"offset": "0x4bae9", "text": "gi_yieldfrom"}
+{"offset": "0x4baf6", "text": "gi_code"}
+{"offset": "0x4bafe", "text": "__module__"}
+{"offset": "0x4bb09", "text": "send"}
+{"offset": "0x4bb0e", "text": "close"}
+{"offset": "0x4bb14", "text": "__reduce__"}
+{"offset": "0x4bb1f", "text": "func_doc"}
+{"offset": "0x4bb28", "text": "__doc__"}
+{"offset": "0x4bb30", "text": "func_name"}
+{"offset": "0x4bb3a", "text": "func_dict"}
+{"offset": "0x4bb44", "text": "__dict__"}
+{"offset": "0x4bb4d", "text": "func_globals"}
+{"offset": "0x4bb5a", "text": "__globals__"}
+{"offset": "0x4bb66", "text": "func_closure"}
+{"offset": "0x4bb73", "text": "__closure__"}
+{"offset": "0x4bb7f", "text": "func_code"}
+{"offset": "0x4bb89", "text": "__code__"}
+{"offset": "0x4bb92", "text": "func_defaults"}
+{"offset": "0x4bba0", "text": "__defaults__"}
+{"offset": "0x4bbad", "text": "__kwdefaults__"}
+{"offset": "0x4bbbc", "text": "__annotations__"}
+{"offset": "0x4bbcc", "text": "_is_coroutine"}
+{"offset": "0x4bbda", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x4bbf3", "text": "name of the coroutine"}
+{"offset": "0x4bc09", "text": "cr_frame"}
+{"offset": "0x4bc12", "text": "Frame of the coroutine"}
+{"offset": "0x4bc29", "text": "cr_running"}
+{"offset": "0x4bc34", "text": "cr_await"}
+{"offset": "0x4bc3d", "text": "object being awaited, or None"}
+{"offset": "0x4bc5b", "text": "cr_code"}
+{"offset": "0x4bc63", "text": "__reduce_ex__"}
+{"offset": "0x4bd60", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x4be40", "text": "official_style.fetch_caption_styles 실패("}
+{"offset": "0x4be80", "text": "fetch_official_blocks_via_sb.<locals>.genexpr"}
+{"offset": "0x4bec0", "text": "backfill_models_sync.<locals>._run"}
+{"offset": "0x4bf00", "text": "(() => { for (const s of ['#flix-inpage','#flix-minisite','#aplus']) { const e=document.querySelector(s); if(e){e.scrollIntoView({block:'center'});return;} } })()"}
+{"offset": "0x4bfc0", "text": "(() => { document.querySelectorAll('h1,h2,h3,h4,p,span,div,li,a,strong,em,[class*=feat],[class*=title],[class*=headline]').forEach(e => { try { const t=(e.textContent||'').trim(); if(!t || t.length>140) return; const c=getComputedStyle(e); e.setAttribute('data-al', c.textAlign); e.setAttribute('data-co', c.color); } catch(x){} }); })()"}
+{"offset": "0x4c120", "text": "_dam_locale_mismatch.<locals>.genexpr"}
+{"offset": "0x4c160", "text": "\n(() => {\n  const selectors = %s;\n  const heuristicFallback = %s;\n  // 크롬(내비/헤더/푸터) 배제 — body 를 잡으면 메뉴 텍스트가 콘텐츠로 섞여 분모를 부풀린다.\n  const CHROME = 'header,nav,footer,aside,[role=banner],[role=navigation],[role=contentinfo]';\n  const out = [];\n  const roots = [];\n  for (const sel of selectors) document.querySelectorAll(sel).forEach(n => roots.push(n));\n  const seen = new Set();\n  // 이미지 URL 은 **lazy 원본 속성 최우선** — src 를 승격해도 currentSrc 는 로드 시작 전까지\n  // loading.gif 를 유지해 플레이스홀더가 캡처된다(2026-07-14 실측). 속성이 곧 진실이다.\n  const LZ = ['data-flixsrcset', 'data-srcset', 'data-src', 'data-lazy-src'];\n  const ab = u => (u || '').startsWith('//') ? 'https:' + u : u;\n  const f1 = v => (v || '').split(',')[0].trim().split(' ')[0];\n  const iurl = (img) => {\n    for (const a of LZ) { const d = img.getAttribute(a); if (d) return ab(f1(d)); }\n    return img.currentSrc || img.src || '';\n  };\n  // 캡처 본체 — 셀렉터 경로와 휴리스틱 폴백이 같은 로직을 쓰므로 한 함수로 공유한다\n  // (중복 코드를 두면 SB 요청 길이 한도 8,190자를 넘겨 400 이 난다).\n  const grab = (root, minImg) => {\n    root.querySelectorAll('img').forEach(img => {\n      if (seen.has(img) || img.closest(CHROME)) return;\n      seen.add(img);\n      const r = img.getBoundingClientRect();\n      if (r.width < minImg || r.height < minImg) return;\n      out.push({kind:'image', box:[r.x, r.y, r.width, r.height], url: iurl(img)});\n    });\n    root.querySelectorAll('*').forEach(el => {\n      if (seen.has(el) || el.closest(CHROME)) return;\n      seen.add(el);\n      const text = Array.from(el.childNodes).filter(n => n.nodeType === 3)\n        .map(n => n.textContent).join(' ').trim();\n      if (!text || text.length > 200) return;\n      const r = el.getBoundingClientRect();\n      if (r.width < 2 || r.height < 2) return;\n      const cs = getComputedStyle(el);\n      out.push({kind:'text', box:[r.x, r.y, r.width, r.height], text,\n                font_size: parseFloat(cs.fontSize) || 0, align: cs.textAlign, color: cs.color,\n                border_width: cs.borderTopWidth, border_style: cs.borderTopStyle});\n    });\n  };\n  for (const root of roots) grab(root, 2);\n  // ⚠️ **컨테이너가 있으면 절대 폴백하지 않는다**(2026-07-14 ECI 실증): flix 컨테이너가 있는데\n  // 콘텐츠 주입 전이면 페이지 전체를 긁어 갤러리·UI 를 공식 콘텐츠와 대조하게 된다.\n  // 폴백은 컨테이너 자체가 없는 리테일러(Media Markt 등 해시 클래스 자체 CDN)에만 허용한다.\n  if (heuristicFallback && roots.length === 0) grab(document.body, 40);\n\n  const blob = roots.length\n    ? roots.map(r => r.innerText || '').join('\n')\n    : (document.body.innerText || '');\n\n  // 비디오 재생 판정 — SB 는 실브라우저라 <video> 의 error/readyState 를 그대로 읽는다.\n  const vids = [];\n  document.querySelectorAll('video').forEach(v => {\n    const s0 = v.querySelector('source');\n    const src = v.currentSrc || v.src || (s0 ? (s0.src || s0.getAttribute('src') || '') : '');\n    vids.push({kind: 'video', src: src, error: v.error ? v.error.code : null,\n               readyState: v.readyState, networkState: v.networkState});\n  });\n  document.querySelectorAll('iframe').forEach(f => {\n    const s = f.src || '';\n    if (/youtube|youtu\\.be|vimeo|flixcar|brightcove|cliplister|player/i.test(s))\n      vids.push({kind: 'embed', src: s});\n  });\n  // 클릭형 팝업 비디오 — 플레이어는 클릭 후에만 뜨고 DOM 엔 비디오 서비스 썸네일만 있다\n  // (MediaMarkt Cliplister 실측: 썸네일 4·refs 17 인데 video/iframe 0 → \"영상 있는데 0\").\n  document.querySelectorAll('img').forEach(im => {\n    const u = im.currentSrc || im.src || '';\n    if (/cliplister|img\\.youtube\\.com\\/vi\\/|i\\.ytimg\\.com|vimeocdn/i.test(u))\n      vids.push({kind: 'popup', src: u});\n  });\n\n  // 렌더 결함(ID43) — **에셋 컨테이너 안에서만**(로컬 acapture_render_defects 와 동일 계약).\n  // body 전체를 훑으면 \"No has seleccionado una tienda\"(매장 선택기) 같은 UI 크롬이 결함으로\n  // 잡힌다(2026-07-14 실측: 잘림 165건이 전부 그런 것이었다). roots 가 없으면 판정하지 않는다.\n  const rd = roots.length ? {truncated: [], broken_images: []} : null;\n  const seenT = new Set(), seenI = new Set();\n  for (const root of roots) {\n    root.querySelectorAll('*').forEach(el => {\n      if (el.closest(CHROME)) return;\n      const cs = getComputedStyle(el);\n      if (cs.textOverflow === 'ellipsis' && el.scrollWidth > el.clientWidth + 1) {\n        const t = (el.innerText || '').trim().slice(0, 80);\n        if (t && !seenT.has(t)) { seenT.add(t); rd.truncated.push(t); }\n      }\n    });\n    root.querySelectorAll('img').forEach(img => {\n      if (img.closest(CHROME)) return;\n      if (img.complete && img.naturalWidth === 0) {\n        // UI 아이콘·0×0(CSS 미적용) 배제(MIN_CONTENT_IMG_PX=200, 2026-07-31 — 0도 포함해야\n        // CSS 클래스 의존 요소가 스타일시트 없이 0×0 렌더되는 경우를 잡는다)\n        const r = img.getBoundingClientRect();\n        if (Math.max(r.width, r.height) < 200) return;\n        const u = img.currentSrc || img.src || '';\n        if (u && !seenI.has(u)) { seenI.add(u); rd.broken_images.push(u); }\n      }\n    });\n  }\n\n  const s = document.createElement('script');\n  s.id = '__official_blocks__'; s.type = 'application/json';\n  s.textContent = JSON.stringify(out); document.body.appendChild(s);\n  const m = document.createElement('script');\n  m.id = '__capture_meta__'; m.type = 'application/json';\n  m.textContent = JSON.stringify({roots: roots.length, fallback: roots.length === 0 && heuristicFallback,\n                                  flixDiv: !!document.querySelector('#flix-inpage,#flix-minisite'),\n                                  text: blob.slice(0, 30000), videos: vids, render_defects: rd});\n  document.body.appendChild(m);\n})()\n"}
+{"offset": "0x4d960", "text": "\n(() => {\n  const LAZY = ['data-flixsrcset', 'data-srcset', 'data-src', 'data-lazy-src'];\n  const abs = u => (u || '').startsWith('//') ? 'https:' + u : u;\n  const firstUrl = v => (v || '').split(',')[0].trim().split(' ')[0];\n  // ⚠️ **이미지도 lazy 다.** FlixMedia 는 <img src=\"…/images/loading.gif\"> 로 두고 실제 URL 을\n  // data-flixsrcset 에 넣는다(2026-07-14 실측: ECI 콘텐츠 이미지 406장 중 323장(80%)·Unieuro\n  // 65%가 loading.gif). 승격하지 않으면 이미지 개수가 부풀고 dHash 는 loading.gif 끼리 비교돼\n  // 전부 미매칭이 된다 — ID43 이미지 축이 통째로 왜곡된다.\n  document.querySelectorAll('img').forEach(im => {\n    try {\n      for (const a of LAZY) {\n        const d = im.getAttribute(a);\n        if (d && (!im.src || im.src.includes('loading') || im.src.startsWith('data:'))) {\n          im.src = abs(firstUrl(d));\n          im.removeAttribute('srcset');\n          break;\n        }\n      }\n    } catch (e) {}\n  });\n  document.querySelectorAll('video').forEach(v => {\n    try {\n      for (const a of LAZY) {\n        const d = v.getAttribute(a);\n        if (!v.src && d) { v.src = abs(firstUrl(d)); break; }\n      }\n      v.querySelectorAll('source').forEach(s => {\n        for (const a of LAZY) {\n          const d = s.getAttribute(a);\n          if (!s.getAttribute('src') && d) { s.setAttribute('src', abs(firstUrl(d))); break; }\n        }\n      });\n      v.muted = true;                 // muted 여야 자동재생 정책을 통과한다\n      v.playsInline = true;\n      v.load();\n      const p = v.play();\n      if (p && p.catch) p.catch(() => {});\n    } catch (e) {}\n  });\n  const sels = ['button[aria-label*=play i]', 'button[class*=play i]', '[class*=play-button]',\n                '[data-testid*=play]', '.video-play', 'button[title*=play i]'];\n  for (const s of sels) {\n    document.querySelectorAll(s).forEach(b => { try { b.click(); } catch (e) {} });\n  }\n})()\n"}
+{"offset": "0x4e120", "text": "fetch_official_blocks_via_sb 실패("}
+{"offset": "0x4e160", "text": "official_blocks_via_sb: status="}
+{"offset": "0x4e180", "text": "official_blocks_via_sb: 요청 locale="}
+{"offset": "0x4e1b0", "text": "crawl_retailers.asset_capture"}
+{"offset": "0x4e1e0", "text": "official_blocks_via_sb: 봇 챌린지 감지 title="}
+{"offset": "0x4e220", "text": "fetch_retailer_blocks_via_sb"}
+{"offset": "0x4e240", "text": "fetch_official_blocks_via_sb"}
+{"offset": "0x4e260", "text": "retailer_blocks_via_sb: flix 주입 미확인 — 폴백(페이지 전체) 결과 사용 ("}
+{"offset": "0x4e2c0", "text": "inject_dhashes.<locals>.fill"}
+{"offset": "0x4e2e0", "text": "build_blocks_from_elements"}
+{"offset": "0x4e300", "text": "official_videos_cache_get"}
+{"offset": "0x4e320", "text": "official_blocks_cache_put"}
+{"offset": "0x4e340", "text": "official_blocks_cache_get"}
+{"offset": "0x4e360", "text": "official_blocks_via_sb: "}
+{"offset": "0x4e380", "text": "_minify_js.<locals>.genexpr"}
+{"offset": "0x4e3a0", "text": "retailer_blocks_via_sb: "}
+{"offset": "0x4e3c0", "text": ".pdp-overview-section"}
+{"offset": "0x4e3e0", "text": "official_blocks_via_sb 파싱 실패: "}
+{"offset": "0x4e410", "text": "core/official_style.py"}
+{"offset": "0x4e430", "text": "_RETAILER_CAPTURE_TRIES"}
+{"offset": "0x4e450", "text": "official_style: status="}
+{"offset": "0x4e470", "text": "_CHALLENGE_DOM_MARKERS"}
+{"offset": "0x4e490", "text": "#pdp-overview-section"}
+{"offset": "0x4e4b0", "text": "fetch_caption_styles"}
+{"offset": "0x4e4d0", "text": "backfill_models_sync"}
+{"offset": "0x4e4f0", "text": "id=\"sec-if-container\""}
+{"offset": "0x4e510", "text": "_dam_locale_mismatch"}
+{"offset": "0x4e530", "text": "core.official_style"}
+{"offset": "0x4e550", "text": "PDP_ASSET_SELECTORS"}
+{"offset": "0x4e570", "text": "_incapsula_resource"}
+{"offset": "0x4e590", "text": "incapsula incident"}
+{"offset": "0x4e5b0", "text": "heuristic_fallback"}
+{"offset": "0x4e5e0", "text": "cross-origin embed — 내부 판정 불가"}
+{"offset": "0x4e610", "text": "cline_in_traceback"}
+{"offset": "0x4e630", "text": "backfill_and_cache"}
+{"offset": "0x4e650", "text": "asyncio.coroutines"}
+{"offset": "0x4e680", "text": "official_blocks 캐시 저장 실패("}
+{"offset": "0x4e6b0", "text": "official backfill "}
+{"offset": "0x4e6d0", "text": "core.asset_blocks"}
+{"offset": "0x4e6f0", "text": "challenge content"}
+{"offset": "0x4e710", "text": "retailer_blocked"}
+{"offset": "0x4e730", "text": "follow_redirects"}
+{"offset": "0x4e750", "text": "detected_locales"}
+{"offset": "0x4e770", "text": "core.image_match"}
+{"offset": "0x4e790", "text": "captcha-delivery"}
+{"offset": "0x4e7b0", "text": "_VIDEO_TRIGGER_JS"}
+{"offset": "0x4e7d0", "text": "window._imperva"}
+{"offset": "0x4e7e0", "text": "#__official_blocks__"}
+{"offset": "0x4e800", "text": "normalize_align"}
+{"offset": "0x4e810", "text": "locale_mismatch"}
+{"offset": "0x4e820", "text": "block_resources"}
+{"offset": "0x4e830", "text": "official_style: "}
+{"offset": "0x4e848", "text": "normalize_text"}
+{"offset": "0x4e858", "text": "inject_dhashes"}
+{"offset": "0x4e870", "text": "_CAPTURE_INJECT"}
+{"offset": "0x4e880", "text": "verify_videos"}
+{"offset": "0x4e890", "text": ", media error "}
+{"offset": "0x4e8a0", "text": "id=\"sec-cpt-if\""}
+{"offset": "0x4e8b0", "text": "__class_getitem__"}
+{"offset": "0x4e8c8", "text": "asyncio.tasks"}
+{"offset": "0x4e8d8", "text": "_DAM_LOCALE_RE"}
+{"offset": "0x4e8e8", "text": "BeautifulSoup"}
+{"offset": "0x4e8f8", "text": "video_status"}
+{"offset": "0x4e910", "text": " 정상이나 readyState="}
+{"offset": "0x4e930", "text": "readyState="}
+{"offset": "0x4e940", "text": "_is_coroutine"}
+{"offset": "0x4e950", "text": "instructions"}
+{"offset": "0x4e960", "text": "_initializing"}
+{"offset": "0x4e970", "text": "core.crawler"}
+{"offset": "0x4e980", "text": "color_family"}
+{"offset": "0x4e990", "text": "#__capture_meta__"}
+{"offset": "0x4e9a8", "text": "bytes=0-1023"}
+{"offset": "0x4e9b8", "text": "status_code"}
+{"offset": "0x4e9c8", "text": "scrapingbee"}
+{"offset": "0x4e9d8", "text": "return_meta"}
+{"offset": "0x4e9e8", "text": "media_error="}
+{"offset": "0x4e9f8", "text": "http_status"}
+{"offset": "0x4ea08", "text": "html.parser"}
+{"offset": "0x4ea18", "text": "expect_flix"}
+{"offset": "0x4ea30", "text": "dhash fetch 실패("}
+{"offset": "0x4ea48", "text": "credits_cap"}
+{"offset": "0x4ea58", "text": "concurrency"}
+{"offset": "0x4ea68", "text": "block_title"}
+{"offset": "0x4ea78", "text": "AsyncClient"}
+{"offset": "0x4ea88", "text": "with_dhash"}
+{"offset": "0x4ea98", "text": "startswith"}
+{"offset": "0x4eaa8", "text": "splitlines"}
+{"offset": "0x4eab8", "text": "select_one"}
+{"offset": "0x4eac8", "text": "readyState"}
+{"offset": "0x4ead8", "text": "raw_videos"}
+{"offset": "0x4eae8", "text": "px-captcha"}
+{"offset": "0x4eaf8", "text": "perimeterx"}
+{"offset": "0x4eb08", "text": "is_blocked"}
+{"offset": "0x4eb18", "text": " fallback="}
+{"offset": "0x4eb28", "text": "fallback"}
+{"offset": "0x4eb38", "text": "calc_dhash"}
+{"offset": "0x4eb48", "text": "broken_url"}
+{"offset": "0x4eb58", "text": "selectors"}
+{"offset": "0x4eb68", "text": "scroll_to"}
+{"offset": "0x4eb78", "text": "_minify_js"}
+{"offset": "0x4eb88", "text": "isenabled"}
+{"offset": "0x4eb98", "text": "getLogger"}
+{"offset": "0x4eba8", "text": " flixDiv="}
+{"offset": "0x4ebb8", "text": "enumerate"}
+{"offset": "0x4ebc8", "text": "data-al"}
+{"offset": "0x4ebd0", "text": "credits"}
+{"offset": "0x4ebd8", "text": ", credits "}
+{"offset": "0x4ebe8", "text": "best_meta"}
+{"offset": "0x4ebf8", "text": "Semaphore"}
+{"offset": "0x4ec08", "text": "_INJECT_JS"}
+{"offset": "0x4ec20", "text": "/wcms/([a-z_]+)/"}
+{"offset": "0x4ec38", "text": "str | None"}
+{"offset": "0x4ec48", "text": "scroll_y"}
+{"offset": "0x4ec58", "text": "scenario"}
+{"offset": "0x4ec68", "text": "reversed"}
+{"offset": "0x4ec78", "text": "playable"}
+{"offset": "0x4ec88", "text": "int | None"}
+{"offset": "0x4ec98", "text": "get_text"}
+{"offset": "0x4eca8", "text": ", fallback "}
+{"offset": "0x4ecb8", "text": "evidence"}
+{"offset": "0x4ecc8", "text": "evaluate"}
+{"offset": "0x4ecd8", "text": "endswith"}
+{"offset": "0x4ece8", "text": "elements"}
+{"offset": "0x4ecf8", "text": "warning"}
+{"offset": "0x4ed00", "text": "_title"}
+{"offset": "0x4ed08", "text": "timeout"}
+{"offset": "0x4ed10", "text": "targets"}
+{"offset": "0x4ed18", "text": "stealth"}
+{"offset": "0x4ed20", "text": "_shell"}
+{"offset": "0x4ed28", "text": "차 — roots="}
+{"offset": "0x4ed37", "text": "roots"}
+{"offset": "0x4ed40", "text": "refdata"}
+{"offset": "0x4ed48", "text": "premium"}
+{"offset": "0x4ed50", "text": "logging"}
+{"offset": "0x4ed58", "text": "locales"}
+{"offset": "0x4ed60", "text": "isspace"}
+{"offset": "0x4ed68", "text": "inspect"}
+{"offset": "0x4ed70", "text": "headers"}
+{"offset": "0x4ed78", "text": "genexpr"}
+{"offset": "0x4ed80", "text": "flixDiv"}
+{"offset": "0x4ed88", "text": "disable"}
+{"offset": "0x4ed90", "text": "data-co"}
+{"offset": "0x4ed98", "text": "[data-al]"}
+{"offset": "0x4edc0", "text": "개 캡션 스타일 취득 (credits "}
+{"offset": "0x4ede8", "text": "country"}
+{"offset": "0x4edf0", "text": "content"}
+{"offset": "0x4edf8", "text": "compile"}
+{"offset": "0x4ee00", "text": "attempt"}
+{"offset": "0x4ee08", "text": "asyncio"}
+{"offset": "0x4ee10", "text": "videos"}
+{"offset": "0x4ee17", "text": "string"}
+{"offset": "0x4ee1e", "text": "status"}
+{"offset": "0x4ee25", "text": "select"}
+{"offset": "0x4ee2c", "text": "search"}
+{"offset": "0x4ee33", "text": "return"}
+{"offset": "0x4ee3a", "text": "_json"}
+{"offset": "0x4ee40", "text": "inject"}
+{"offset": "0x4ee48", "text": "__import__"}
+{"offset": "0x4ee53", "text": "http="}
+{"offset": "0x4ee59", "text": "html"}
+{"offset": "0x4ee5e", "text": "gather"}
+{"offset": "0x4ee65", "text": "enable"}
+{"offset": "0x4ee6c", "text": "client"}
+{"offset": "0x4ee73", "text": "blocks"}
+{"offset": "0x4ee80", "text": "__aenter__"}
+{"offset": "0x4ee90", "text": "판정보류 — HTTP "}
+{"offset": "0x4eeb0", "text": " (로드 확인), HTTP "}
+{"offset": "0x4eec8", "text": "video"}
+{"offset": "0x4eece", "text": "title"}
+{"offset": "0x4eed4", "text": "throw"}
+{"offset": "0x4eeda", "text": "strip"}
+{"offset": "0x4eee0", "text": "steps"}
+{"offset": "0x4ef00", "text": "트리거 후에도 src 미부착 — 사용자 클릭 상호작용 필요(판정보류)"}
+{"offset": "0x4ef60", "text": " shell="}
+{"offset": "0x4ef70", "text": "블록 (roots "}
+{"offset": "0x4ef7f", "text": "range"}
+{"offset": "0x4ef85", "text": "quote"}
+{"offset": "0x4ef8b", "text": "popup"}
+{"offset": "0x4ef98", "text": "__nosrc_"}
+{"offset": "0x4efa1", "text": "model"}
+{"offset": "0x4efa7", "text": "lower"}
+{"offset": "0x4efad", "text": "loads"}
+{"offset": "0x4efb3", "text": "lines"}
+{"offset": "0x4efb9", "text": "image"}
+{"offset": "0x4efbf", "text": "httpx"}
+{"offset": "0x4efc5", "text": "group"}
+{"offset": "0x4efcb", "text": "force"}
+{"offset": "0x4efd1", "text": "fetch"}
+{"offset": "0x4efd7", "text": "false"}
+{"offset": "0x4efdd", "text": "error"}
+{"offset": "0x4efe3", "text": "embed"}
+{"offset": "0x4efe9", "text": "dumps"}
+{"offset": "0x4efef", "text": "dhash"}
+{"offset": "0x4eff5", "text": "debug"}
+{"offset": "0x4effb", "text": "close"}
+{"offset": "0x4f001", "text": "bytes"}
+{"offset": "0x4f008", "text": "__await__"}
+{"offset": "0x4f012", "text": "align"}
+{"offset": "0x4f018", "text": "__aexit__"}
+{"offset": "0x4f022", "text": "Range"}
+{"offset": "0x4f028", "text": "PUNCT"}
+{"offset": "0x4f02e", "text": "wait"}
+{"offset": "0x4f033", "text": "true"}
+{"offset": "0x4f038", "text": "__test__"}
+{"offset": "0x4f048", "text": "__spec__"}
+{"offset": "0x4f051", "text": "soup"}
+{"offset": "0x4f056", "text": "send"}
+{"offset": "0x4f05b", "text": "sels"}
+{"offset": "0x4f060", "text": "seen"}
+{"offset": "0x4f069", "text": "prev"}
+{"offset": "0x4f070", "text": "__name__"}
+{"offset": "0x4f079", "text": "mtag"}
+{"offset": "0x4f07e", "text": "meta"}
+{"offset": "0x4f088", "text": "__main__"}
+{"offset": "0x4f091", "text": "list"}
+{"offset": "0x4f096", "text": "line"}
+{"offset": "0x4f09b", "text": "kind"}
+{"offset": "0x4f0a0", "text": "json"}
+{"offset": "0x4f0a5", "text": "info"}
+{"offset": "0x4f0aa", "text": "http"}
+{"offset": "0x4f0af", "text": " html="}
+{"offset": "0x4f0b6", "text": "fill"}
+{"offset": "0x4f0bb", "text": "dict"}
+{"offset": "0x4f0c0", "text": "core"}
+{"offset": "0x4f0c5", "text": "bool"}
+{"offset": "0x4f0ca", "text": "best"}
+{"offset": "0x4f0cf", "text": "args"}
+{"offset": "0x4f0d4", "text": "None"}
+{"offset": "0x4f0e0", "text": "). ID31 대조 신뢰도 낮음."}
+{"offset": "0x4f110", "text": "객관적 결함 — HTTP "}
+{"offset": "0x4f13f", "text": "_run"}
+{"offset": "0x4f150", "text": "_low"}
+{"offset": "0x4f178", "text": " 실패: "}
+{"offset": "0x4f188", "text": " → 재시도"}
+{"offset": "0x4f1a0", "text": "차 시도에서 에셋 컨테이너 확보"}
+{"offset": "0x4f1e0", "text": " — 리다이렉트로 다른 나라 페이지 렌더된 것으로 판단, 미스 처리(캐시 오염 방지)"}
+{"offset": "0x4f260", "text": " — 차단 표기"}
+{"offset": "0x4f278", "text": " — 미취득"}
+{"offset": "0x4f290", "text": "{}();,:=<>+-*/&|!?[]"}
+{"offset": "0x4f2c0", "text": " (코덱/자동재생 등 환경 의존 가능)"}
+{"offset": "0x4f300", "text": "클릭형 팝업 플레이어(비디오 썸네일 관측) — 재생판정 불가"}
+{"offset": "0x4f354", "text": "ERR:"}
+{"offset": "0x4f360", "text": " 인데 DAM 로케일="}
+{"offset": "0x4f3a0", "text": " — 스타일 미취득"}

@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "retailer": "mediamarkt-es",
+  "page_type": "brand-category",
+  "requested_url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+  "entry_url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+  "final_url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+  "status_code": 200,
+  "captured_at": "2026-09-27T21:01:01.925189+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 1.007,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.501,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 18.518,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.011,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.016,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "049cbcef415500ae35477d5318bc3ddc0ef1217afc517b7474599c5b3cc4786e",
+  "bytes": {
+    "raw_html": 2707473,
+    "screenshot": 1017278
+  }
+}

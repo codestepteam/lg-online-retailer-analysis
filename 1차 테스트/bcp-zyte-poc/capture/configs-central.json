@@ -1,0 +1,825 @@
+{
+  "boulanger": {
+    "home": {
+      "retailer": "boulanger",
+      "page_type": "home",
+      "ready": "main",
+      "required": [
+        "main"
+      ],
+      "scroll_steps": 24,
+      "cookies": [],
+      "steps": [],
+      "evidence": {
+        "notes": "Live Chrome visited this URL, inspected catalog and scroll. Brand text/categories and category text expanded; PDP specs + Description opened, modal close verified.",
+        "forbidden_text": []
+      }
+    },
+    "brand": {
+      "retailer": "boulanger",
+      "page_type": "brand",
+      "ready": "h1",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [],
+      "steps": [
+        {
+          "selector": "label.ems__seo-label"
+        },
+        {
+          "selector": "button",
+          "text": "Afficher plus de catégories",
+          "expand": true
+        }
+      ],
+      "evidence": {
+        "notes": "Live Chrome visited this URL, inspected catalog and scroll. Brand text/categories and category text expanded; PDP specs + Description opened, modal close verified.",
+        "forbidden_text": []
+      }
+    },
+    "brand-category": {
+      "retailer": "boulanger",
+      "page_type": "brand-category",
+      "url": "https://www.boulanger.com/c/refrigerateur/brand~lg",
+      "ready": "h1",
+      "required": [
+        "h1"
+      ],
+      "cookies": [],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "label.ems__seo-label",
+          "text_pattern": "Lire la suite",
+          "expand": true
+        }
+      ],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "전체 스크롤 후 Lire la suite를 눌러 접힌 설명을 펼친다.",
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "retailer": "boulanger",
+      "page_type": "plp",
+      "ready": "h1",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [],
+      "steps": [],
+      "evidence": {
+        "notes": "Live Chrome visited this URL, inspected catalog and scroll. Brand text/categories and category text expanded; PDP specs + Description opened, modal close verified.",
+        "forbidden_text": []
+      }
+    },
+    "pdp": {
+      "retailer": "boulanger",
+      "page_type": "pdp",
+      "ready": "#product-head__label",
+      "required": [
+        "#product-head__label",
+        "#lg-captured-panels"
+      ],
+      "scroll_steps": 24,
+      "cookies": [],
+      "steps": [],
+      "evidence": {
+        "notes": "Live Chrome visited this URL, inspected catalog and scroll. Brand text/categories and category text expanded; PDP specs + Description opened, modal close verified.",
+        "forbidden_text": []
+      },
+      "panels": [
+        {
+          "label": "Caractéristiques",
+          "open": {
+            "selector": "[data-popin-content-id=\"feature-content\"]",
+            "wait_ms": 800
+          },
+          "content": "#product-details-popin-index #section-content",
+          "close": {
+            "selector": "button[aria-label=\"Fermer la popin\"]"
+          },
+          "min_chars": 1000
+        },
+        {
+          "label": "Description",
+          "open": {
+            "selector": "[data-popin-content-id=\"description-content\"]",
+            "wait_ms": 800
+          },
+          "content": "#product-details-popin-index #section-content",
+          "close": {
+            "selector": "button[aria-label=\"Fermer la popin\"]"
+          },
+          "min_chars": 500
+        },
+        {
+          "label": "Avis",
+          "open": {
+            "selector": "[data-popin-content-id=\"reviews-content\"]",
+            "wait_ms": 800
+          },
+          "content": "#product-details-popin-index #section-content",
+          "close": {
+            "selector": "button[aria-label=\"Fermer la popin\"]"
+          }
+        },
+        {
+          "label": "Notice",
+          "open": {
+            "selector": "[data-popin-content-id=\"document-content\"]",
+            "wait_ms": 800
+          },
+          "content": "#product-details-popin-index #section-content",
+          "close": {
+            "selector": "button[aria-label=\"Fermer la popin\"]"
+          },
+          "min_chars": 100
+        }
+      ]
+    }
+  },
+  "darty": {
+    "home": {
+      "retailer": "darty",
+      "page_type": "home",
+      "ready": "main",
+      "required": [
+        "main"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#onetrust-accept-btn-handler"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "All five live browser pages returned maintenance; selectors inspected in prior Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "Malheureusement notre site"
+        ]
+      },
+      "min_viewport_width": 1000
+    },
+    "brand": {
+      "retailer": "darty",
+      "page_type": "brand",
+      "ready": "h1",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#onetrust-accept-btn-handler"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "All five live browser pages returned maintenance; selectors inspected in prior Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "Malheureusement notre site"
+        ]
+      },
+      "min_viewport_width": 1000
+    },
+    "brand-category": {
+      "retailer": "darty",
+      "page_type": "brand-category",
+      "ready": "h1",
+      "required": [
+        "h1",
+        ".second_text_seo.js-active"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#onetrust-accept-btn-handler"
+        }
+      ],
+      "steps": [
+        {
+          "selector": ".second_text_seo button.button_seo"
+        }
+      ],
+      "evidence": {
+        "notes": "All five live browser pages returned maintenance; selectors inspected in prior Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "Malheureusement notre site"
+        ]
+      },
+      "min_viewport_width": 1000
+    },
+    "plp": {
+      "retailer": "darty",
+      "page_type": "plp",
+      "ready": "h1",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#onetrust-accept-btn-handler"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "All five live browser pages returned maintenance; selectors inspected in prior Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "Malheureusement notre site"
+        ]
+      },
+      "min_viewport_width": 1000
+    },
+    "pdp": {
+      "retailer": "darty",
+      "page_type": "pdp",
+      "ready": "[data-automation-id=\"product_title\"]",
+      "required": [
+        "[data-automation-id=\"product_title\"]",
+        "[data-automation-id=\"product-Caractéristiques\"]"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#onetrust-accept-btn-handler"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "All five live browser pages returned maintenance; selectors inspected in prior Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "Malheureusement notre site"
+        ]
+      },
+      "after_scroll": [
+        {
+          "selector": "[data-automation-id=\"product-description-trigger\"]",
+          "closedParent": ".bloc-expandable:not(.open)"
+        },
+        {
+          "selector": "[data-automation-id=\"product-Caractéristiques-trigger\"]",
+          "closedParent": ".bloc-expandable:not(.open)"
+        }
+      ],
+      "min_viewport_width": 1000
+    }
+  },
+  "mediamarkt-es": {
+    "home": {
+      "retailer": "mediamarkt-es",
+      "page_type": "home",
+      "ready": "#main-content",
+      "required": [
+        "main"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": []
+      }
+    },
+    "brand": {
+      "retailer": "mediamarkt-es",
+      "page_type": "brand",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "aside button",
+          "text": "Mostrar más",
+          "expand": true
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Fresh Zyte screenshot/HTML exposed category expand button Mostrar más inside aside.",
+        "forbidden_text": []
+      }
+    },
+    "brand-category": {
+      "retailer": "mediamarkt-es",
+      "page_type": "brand-category",
+      "url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "button",
+          "text_pattern": "^Mostrar \\d+ productos más$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Mostrar \\d+ productos más$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Mostrar \\d+ productos más$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button,[role='button']",
+          "text_pattern": "^¿Qué debo tomar en cuenta a la hora de elegir un frigorífico\\?$",
+          "expand": true,
+          "wait_for_ms": 1500
+        },
+        {
+          "selector": "button,[role='button']",
+          "text_pattern": "^¿Qué es Door Cooling\\?$",
+          "expand": true,
+          "wait_for_ms": 1500
+        }
+      ],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "CAPTCHA/점검 문구가 남으면 실패로 처리한다. 정상 본문이면 쿠키 창을 닫고 전체 스크롤한 뒤 Mostrar N productos más를 최대 3회 누르고 관찰된 FAQ 질문 2개를 펼친다.",
+        "forbidden_text": [
+          "Pero no se preocupe, mientras tanto, aún puede visitarnos y contactarnos en nuestros canales de redes sociales",
+          "completa el captcha"
+        ]
+      }
+    },
+    "plp": {
+      "retailer": "mediamarkt-es",
+      "page_type": "plp",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": []
+      }
+    },
+    "pdp": {
+      "retailer": "mediamarkt-es",
+      "page_type": "pdp",
+      "ready": "[data-sctrack=\"pdp-product-headline\"]",
+      "required": [
+        "[data-sctrack=\"pdp-product-headline\"]",
+        "#features-content",
+        "#description-content p",
+        "#features-content button[data-test=\"show-details-button\"][aria-expanded=\"true\"]"
+      ],
+      "scroll_steps": 35,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "button#description",
+          "expand": true
+        },
+        {
+          "selector": "button#features",
+          "expand": true
+        },
+        {
+          "selector": "button#reviews",
+          "expand": true
+        },
+        {
+          "selector": "#features-content button[data-test=\"show-details-button\"]",
+          "expand": true,
+          "wait_ms": 500
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Quality audit found nested technical-details disclosure still closed; expand it and require aria-expanded=true.",
+        "forbidden_text": []
+      }
+    }
+  },
+  "mediamarkt-nl": {
+    "home": {
+      "retailer": "mediamarkt-nl",
+      "page_type": "home",
+      "ready": "#main-content",
+      "required": [
+        "main"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "vul de captcha hieronder"
+        ]
+      }
+    },
+    "brand": {
+      "retailer": "mediamarkt-nl",
+      "page_type": "brand",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "vul de captcha hieronder"
+        ]
+      }
+    },
+    "brand-category": {
+      "retailer": "mediamarkt-nl",
+      "page_type": "brand-category",
+      "url": "https://www.mediamarkt.nl/nl/category/lg-koelkasten-964.html",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button[data-test='mms-collapse-button']",
+          "text": "Toon meer",
+          "expand": true
+        }
+      ],
+      "after_scroll": [
+        {
+          "selector": "button",
+          "text_pattern": "^Toon \\d+ meer producten$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Toon \\d+ meer producten$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Toon \\d+ meer producten$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        }
+      ],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "CAPTCHA 문구가 남으면 실패로 처리한다. 정상 본문이면 쿠키 창을 닫고 Toon meer로 LG 설명을 펼친 뒤 전체 스크롤하고 Toon N meer producten를 최대 3회 눌러 제품 목록을 추가 로드한다.",
+        "forbidden_text": [
+          "Sorry, dat was te snel voor ons",
+          "vul de captcha hieronder in"
+        ]
+      }
+    },
+    "plp": {
+      "retailer": "mediamarkt-nl",
+      "page_type": "plp",
+      "ready": "#main-content",
+      "required": [
+        "h1",
+        "button[data-test=\"mms-collapse-button\"][aria-expanded=\"true\"]"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button[data-test=\"mms-collapse-button\"]",
+          "text": "Toon meer",
+          "expand": true
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Original search URL redirects to editorial page. Replacement is actual Alle koelkasten link in returned page; live Chrome visit also captcha, fresh Zyte type check required.",
+        "forbidden_text": [
+          "vul de captcha hieronder"
+        ]
+      },
+      "url": "https://www.mediamarkt.nl/nl/category/koelkasten-1304.html"
+    },
+    "pdp": {
+      "retailer": "mediamarkt-nl",
+      "page_type": "pdp",
+      "ready": "[data-sctrack=\"pdp-product-headline\"]",
+      "required": [
+        "[data-sctrack=\"pdp-product-headline\"]",
+        "#features-content",
+        "#description-content p",
+        "#features-content button[data-test=\"show-details-button\"][aria-expanded=\"true\"]"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "button#description",
+          "expand": true
+        },
+        {
+          "selector": "button#features",
+          "expand": true
+        },
+        {
+          "selector": "button#reviews",
+          "expand": true
+        },
+        {
+          "selector": "#features-content button[data-test=\"show-details-button\"]",
+          "expand": true,
+          "wait_ms": 500
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Quality audit found nested technical-details disclosure still closed; expand it and require aria-expanded=true.",
+        "forbidden_text": [
+          "vul de captcha hieronder"
+        ]
+      }
+    }
+  },
+  "mediaworld": {
+    "home": {
+      "retailer": "mediaworld",
+      "page_type": "home",
+      "ready": "#main-content",
+      "required": [
+        "main"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "completa il captcha qui sotto"
+        ]
+      }
+    },
+    "brand": {
+      "retailer": "mediaworld",
+      "page_type": "brand",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "aside button",
+          "text": "Mostra di più",
+          "expand": true
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Fresh Zyte screenshot/HTML exposed category expand button Mostra di più inside aside.",
+        "forbidden_text": [
+          "completa il captcha qui sotto"
+        ]
+      }
+    },
+    "brand-category": {
+      "retailer": "mediaworld",
+      "page_type": "brand-category",
+      "url": "https://www.mediaworld.it/it/brand/lg/frigoriferi",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "button",
+          "text_pattern": "^Mostra altri \\d+ prodotti$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Mostra altri \\d+ prodotti$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        },
+        {
+          "selector": "button",
+          "text_pattern": "^Mostra altri \\d+ prodotti$",
+          "wait_for_ms": 1500,
+          "wait_ms": 900
+        }
+      ],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "CAPTCHA 문구가 남으면 실패로 처리한다. 정상 본문이면 쿠키 창을 닫고 전체 스크롤한 뒤 Mostra altri N prodotti를 최대 3회 눌러 제품 목록을 추가 로드한다.",
+        "forbidden_text": [
+          "Sfortunatamente, questo è successo troppo in fretta per noi",
+          "completa il captcha qui sotto"
+        ]
+      }
+    },
+    "plp": {
+      "retailer": "mediaworld",
+      "page_type": "plp",
+      "ready": "#main-content",
+      "required": [
+        "h1"
+      ],
+      "scroll_steps": 24,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required.",
+        "forbidden_text": [
+          "completa il captcha qui sotto"
+        ]
+      }
+    },
+    "pdp": {
+      "retailer": "mediaworld",
+      "page_type": "pdp",
+      "ready": "[data-sctrack=\"pdp-product-headline\"]",
+      "required": [
+        "[data-sctrack=\"pdp-product-headline\"]",
+        "#features-content",
+        "#description-content [data-test=\"pdp-description-pim-fallback\"] b",
+        "#features-content button[data-test=\"show-details-button\"][aria-expanded=\"true\"]",
+        "#flix-inpage .f1xIN"
+      ],
+      "scroll_steps": 70,
+      "cookies": [
+        {
+          "selector": "#pwa-consent-layer-deny-all-button"
+        },
+        {
+          "selector": "#pwa-consent-layer-accept-all-button"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [
+        {
+          "selector": "button#description",
+          "expand": true
+        },
+        {
+          "selector": "button#features",
+          "expand": true
+        },
+        {
+          "selector": "button#reviews",
+          "expand": true
+        },
+        {
+          "selector": "#features-content button[data-test=\"show-details-button\"]",
+          "expand": true,
+          "wait_ms": 500
+        },
+        {
+          "selector": "button[data-test=\"pdp-richcontent-modal\"]",
+          "wait_ms": 1000
+        },
+        {
+          "selector": "#mms-modal-dialog button[data-test=\"mms-modal-primary-action-button\"]",
+          "text": "Attiva",
+          "wait_ms": 5500
+        }
+      ],
+      "evidence": {
+        "notes": "Local live browser blocked (maintenance/captcha); selectors inspected in existing Zyte raw HTML. Fresh Zyte run required. Quality audit found nested technical-details disclosure still closed; expand it and require aria-expanded=true. Fresh original Zyte diagnosis: Mostra maggiori dettagli da LG opens external-content consent; Attiva loads inline Flixmedia #flix-inpage. Preserve manufacturer full specifications from Flix modal and scroll added inline content. Follow-up original runtime inspection confirms #flix-open-modal is display:none and visibility:hidden even after scrolling to inline content. Do not fabricate a manufacturer specs modal unavailable in source UI; preserve visible inline manufacturer content and expanded retailer technical details. Evidence: output/quality-audit/central-evidence/mediaworld-visibility-diagnostic/raw.html #quality-flix-visibility.",
+        "forbidden_text": [
+          "completa il captcha qui sotto"
+        ]
+      },
+      "required_visible": [
+        "#flix-inpage .f1xIN",
+        "#description-content [data-test=\"pdp-description-pim-fallback\"]",
+        "#features-content button[data-test=\"show-details-button\"][aria-expanded=\"true\"]"
+      ]
+    }
+  }
+}

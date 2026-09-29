@@ -1,0 +1,141 @@
+{
+  "ruleVersion": "bcp-first-assessment-2026-09-28",
+  "sourceEvidence": "parsed/mediamarkt-nl/bcp-evidence.json",
+  "retailer": "mediamarkt-nl",
+  "requestedUrl": "https://www.mediamarkt.nl/nl/category/lg-koelkasten-964.html",
+  "capturedFinalUrl": "https://www.mediamarkt.nl/nl/category/lg-koelkasten-964.html?page=3",
+  "results": {
+    "ID8": {
+      "status": "REVIEW",
+      "reason": "상위 이미지의 화면 크기는 수집했으나 제품 카드·배경·장식 이미지의 포함 범위가 미확정",
+      "evidence": {
+        "candidateCounts": {
+          "top10ByRenderedArea": 10
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID9": {
+      "status": "REVIEW",
+      "reason": "요청 URL의 ID9는 미확인. 수집 최종 화면에서는 N: Robots Meta가 index, follow 조건에 맞지 않음: noindex,follow",
+      "evidence": {
+        "Title": [
+          "LG-koelkast kopen? Bezorgd wanneer je wilt | MediaMarkt | LG-koelkasten"
+        ],
+        "Meta Description": [
+          "LG-koelkast kopen? Het grootste assortiment vind je online bij MediaMarkt of in één van onze winkels. ✓ De juiste prijs ✓ Morgen thuisbezorgd ✓ Ook af te halen"
+        ],
+        "H1": [
+          "LG-koelkasten"
+        ],
+        "Robots Meta": [
+          "noindex,follow"
+        ],
+        "missing": [],
+        "invalidRobots": [
+          "noindex,follow"
+        ],
+        "conflictingFields": [],
+        "metadataMoment": "captured_final_page",
+        "capturedFinalPageStatus": "N"
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID10": {
+      "status": "REVIEW",
+      "reason": "요청 URL의 ID10는 미확인. 수집 최종 화면에서는 Y: Canonical 태그가 있음",
+      "evidence": {
+        "tagCount": 1,
+        "hrefs": [
+          "https://www.mediamarkt.nl/nl/category/lg-koelkasten-964.html?page=3"
+        ],
+        "metadataMoment": "captured_final_page",
+        "capturedFinalPageStatus": "Y"
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID18": {
+      "status": "REVIEW",
+      "reason": "상단 대표 배너의 브랜드·제품군 관련성과 화면 배치를 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 0,
+          "largeVisibleImages": 10
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID19": {
+      "status": "REVIEW",
+      "reason": "브랜드 선택 이유를 설명하는 독립된 본문 영역인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 0
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID20": {
+      "status": "REVIEW",
+      "reason": "제품군 기술·기능·효익을 설명하는 영역인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 35
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID21": {
+      "status": "REVIEW",
+      "reason": "카테고리 탐색 블록의 전체 링크를 클릭하고 도착 페이지를 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 2,
+          "linkCandidates": 7
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID22": {
+      "status": "REVIEW",
+      "reason": "제품 카드와 같은 제품의 상세 페이지로 실제 이동하는지 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 1,
+          "productLinkCandidates": 93
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    },
+    "ID23": {
+      "status": "REVIEW",
+      "reason": "화면에 보이는 브랜드·제품군 질문과 답변인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 0,
+          "detailsElements": 0,
+          "faqPageJsonLd": 0
+        }
+      },
+      "warnings": [
+        "스크롤·더보기 후 수집 최종 URL이 요청 URL과 달라짐. ID9·ID10은 최종 화면 기준"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0019-alza",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.alza.cz/pracky/samsung/18852774-v1299.htm",
+    "finalUrl": "https://www.alza.cz/pracky/samsung/18852774-v1299.htm",
+    "capturedAt": "2026-09-28T07:57:21.583244+09:00",
+    "collectionOk": true,
+    "title": "Automatické pračky Samsung | Alza.cz"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0019-alza/brand-category/raw.html",
+      "sha256": "6e3477200b807a44eae73de041939fb885e16516a6f653c5be68b40ff2ee1893"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0019-alza/brand-category/capture-state.json",
+      "sha256": "fa098f16b569f5f5f8767415837bd5bf4055c1e3f9d7f71e24df432aa1564c39"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0019-alza/brand-category/response.json",
+      "sha256": "0bca5091db6d93c49ff2db0eae05d4485df8cc4bb57453e4d3cd631c062bd403"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "div#categoryAnotationBlock > div#categoryUpperDescription > div > div#brandpage > section.brandpage-intro > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Samsung",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Samsung s předním plněním",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Parní pračky Samsung",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky se sušičkou a sety spotřebičů Samsung",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Samsung s funkcí AddWash",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč zrovna pračka Samsung?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jak postupovat při výběru pračky Samsung?",
+        "attributes": {}
+      },
+      {
+        "tag": "h3",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h3",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Chcete zjistit více o tom, jak se vybírá pračka Samsung?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Malá kuchyň nebo koupelna? Pračka se sušičkou Samsung to vyřeší",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Chytrá pračka Samsung znamená budoucnost",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Pračky Samsung hodnotí naši zákazníci",
+        "attributes": {}
+      },
+      {
+        "tag": "h1",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div#categoryAnotationBlock > div#h1cc > div#h1c > h1",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Automatické pračky Samsung",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div.category-tiles.bottom > div.category-archive-tiles > h2.category-archive-tiles__title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Již neprodáváme",
+        "attributes": {
+          "class": "category-archive-tiles__title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 145,
+        "top10ByRenderedArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/banner-pracka.png",
+            "alt": "Pračky Samsung",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 499.53125,
+            "renderedArea": 541476.2646484375,
+            "naturalWidth": 1085,
+            "naturalHeight": 500,
+            "naturalArea": 542500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/parni%20pracka.JPG",
+            "alt": "Parní pračky Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 240.171875,
+            "renderedArea": 102782.30444335938,
+            "naturalWidth": 996,
+            "naturalHeight": 559,
+            "naturalArea": 556764,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/asswash.JPG",
+            "alt": "Pračky Samsung s funkcí AddWash",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 236.625,
+            "renderedArea": 101264.408203125,
+            "naturalWidth": 1360,
+            "naturalHeight": 752,
+            "naturalArea": 1022720,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/predem%20plnene.JPG",
+            "alt": "Pračky Samsung s předním plněním",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 235.03125,
+            "renderedArea": 100582.35791015625,
+            "naturalWidth": 1473,
+            "naturalHeight": 809,
+            "naturalArea": 1191657,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/se%20suenim.JPG",
+            "alt": "Pračky se sušičkou a sety spotřebičů Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 218.125,
+            "renderedArea": 93347.275390625,
+            "naturalWidth": 1444,
+            "naturalHeight": 736,
+            "naturalArea": 1062784,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 150,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 47,
+            "src": "https://image.alza.cz/products/SAMWM022/SAMWM022.jpg?width=230&height=230",
+            "alt": "SAMSUNG EcoBubble WW11DG5B25AELE - Parní pračka",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/SAWM094/SAWM094.jpg?width=230&height=230",
+            "alt": "SAMSUNG EcoBubble WW90DG6U85LHU4 - Parní pračka",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 167,
+            "naturalHeight": 229,
+            "naturalArea": 38243,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/predem%20plnene.JPG",
+            "alt": "Pračky Samsung s předním plněním",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 235.03125,
+            "renderedArea": 100582.35791015625,
+            "naturalWidth": 1473,
+            "naturalHeight": 809,
+            "naturalArea": 1191657,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/se%20suenim.JPG",
+            "alt": "Pračky se sušičkou a sety spotřebičů Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 218.125,
+            "renderedArea": 93347.275390625,
+            "naturalWidth": 1444,
+            "naturalHeight": 736,
+            "naturalArea": 1062784,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/asswash.JPG",
+            "alt": "Pračky Samsung s funkcí AddWash",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 236.625,
+            "renderedArea": 101264.408203125,
+            "naturalWidth": 1360,
+            "naturalHeight": 752,
+            "naturalArea": 1022720,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/parni%20pracka.JPG",
+            "alt": "Parní pračky Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 240.171875,
+            "renderedArea": 102782.30444335938,
+            "naturalWidth": 996,
+            "naturalHeight": 559,
+            "naturalArea": 556764,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/banner-pracka.png",
+            "alt": "Pračky Samsung",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 499.53125,
+            "renderedArea": 541476.2646484375,
+            "naturalWidth": 1085,
+            "naturalHeight": 500,
+            "naturalArea": 542500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 150,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 160,
+            "src": "https://image.alza.cz/Images/icons/footer/logo/kristalova-lupa.png",
+            "alt": "Křišťálová lupa",
+            "renderedWidth": 89.28125,
+            "renderedHeight": 50,
+            "renderedArea": 4464.0625,
+            "naturalWidth": 300,
+            "naturalHeight": 168,
+            "naturalArea": 50400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 114,
+            "src": "https://image.alza.cz/products/SAWM105/SAWM105.jpg?width=230&height=230",
+            "alt": "SAMSUNG WW10FG6U94LBU4 - Pračka",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 167,
+            "naturalHeight": 230,
+            "naturalArea": 38410,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Automatické pračky Samsung | Alza.cz"
+        ],
+        "metaDescription": [
+          "Automatické pračky Samsung přehledně na jednom místě. ✅ Široká nabídka. ✅ Produkty skladem. ✅ Doručíme do 24 hodin. ✅ Pravidelné akce a slevy na Automatické ..."
+        ],
+        "h1": [
+          "Automatické pračky Samsung"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.alza.cz/pracky/samsung/18852774-v1299.htm"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/banner-pracka.png",
+            "alt": "Pračky Samsung",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 499.53125,
+            "renderedArea": 541476.2646484375,
+            "naturalWidth": 1085,
+            "naturalHeight": 500,
+            "naturalArea": 542500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/parni%20pracka.JPG",
+            "alt": "Parní pračky Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 240.171875,
+            "renderedArea": 102782.30444335938,
+            "naturalWidth": 996,
+            "naturalHeight": 559,
+            "naturalArea": 556764,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/asswash.JPG",
+            "alt": "Pračky Samsung s funkcí AddWash",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 236.625,
+            "renderedArea": 101264.408203125,
+            "naturalWidth": 1360,
+            "naturalHeight": 752,
+            "naturalArea": 1022720,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/predem%20plnene.JPG",
+            "alt": "Pračky Samsung s předním plněním",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 235.03125,
+            "renderedArea": 100582.35791015625,
+            "naturalWidth": 1473,
+            "naturalHeight": 809,
+            "naturalArea": 1191657,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/se%20suenim.JPG",
+            "alt": "Pračky se sušičkou a sety spotřebičů Samsung",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 218.125,
+            "renderedArea": 93347.275390625,
+            "naturalWidth": 1444,
+            "naturalHeight": 736,
+            "naturalArea": 1062784,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 150,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 47,
+            "src": "https://image.alza.cz/products/SAMWM022/SAMWM022.jpg?width=230&height=230",
+            "alt": "SAMSUNG EcoBubble WW11DG5B25AELE - Parní pračka",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/SAWM094/SAWM094.jpg?width=230&height=230",
+            "alt": "SAMSUNG EcoBubble WW90DG6U85LHU4 - Parní pračka",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 167,
+            "naturalHeight": 229,
+            "naturalArea": 38243,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#content0 > div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div#blockFilterNoEmpty > div.component.alzaPlusPromoForApplications",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "component alzaPlusPromoForApplications",
+              "data-testid": "component-alzaPlusPromoForApplications"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#footerc > div.component.footer > div.MuiScopedCssBaseline-root.footer-1ym4w4j > div > footer.footer-alz-8reqr6-1 > div.footer-alz-l8x0jw-16.footer-alz-q5z8sn-2",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Nejspolehlivější internetový obchod v ČR Zboží doručíme již v den objednání Nonstop dostupná zákaznická podpora Doručení zdarma na cokoliv s AlzaPlus+ Prodejny a odběrná místa po celé ČR",
+            "attributes": {
+              "class": "footer-alz-l8x0jw-16 footer-alz-q5z8sn-2",
+              "data-testid": "footerUspList"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#leftParametrizationContainer > div.component.categoryNavigation > div.MuiScopedCssBaseline-root.category-navigation-1ym4w4j > div.MuiBox-root.category-navigation-1cytd0c > button > div.MuiBox-root.category-navigation-1easgqs",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Zobrazit katalog",
+            "attributes": {
+              "class": "MuiBox-root category-navigation-1easgqs"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemAvatar-root.category-navigation-1plwxek",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiListItemAvatar-root category-navigation-1plwxek"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > span.MuiTouchRipple-root.category-navigation-w0pj6f",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiTouchRipple-root category-navigation-w0pj6f"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          }
+        ],
+        "linkCandidates": [
+          {
+            "text": "Samsung",
+            "href": "https://www.alza.cz/samsung/v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Pračky",
+            "href": "https://www.alza.cz/pracky/samsung/18852774-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "Pračky Samsung s předním plněním",
+            "href": "https://www.alza.cz/pracky-s-prednim-plnenim/samsung/18852776-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky, samsung"
+            ]
+          },
+          {
+            "text": "Parní pračky Samsung",
+            "href": "https://www.alza.cz/parni-pracky/samsung/18863014-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky, samsung"
+            ]
+          },
+          {
+            "text": "Pračky se sušičkou Samsung",
+            "href": "https://www.alza.cz/pracky-se-susickou/samsung/18852778-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky, samsung"
+            ]
+          },
+          {
+            "text": "sety spotřebičů Samsung",
+            "href": "https://www.alza.cz/set-pracka-a-susicka/samsung/18862980-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "chytrá pračka Samsung",
+            "href": "https://www.alza.cz/chytre-pracky/samsung/18862885-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Vše od Samsung",
+            "href": "https://www.alza.cz/samsung/v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Příslušenství pro pračky",
+            "href": "https://www.alza.cz/prislusenstvi-k-prackam/samsung/18853308-v1299.htm",
+            "signals": [
+              "페이지 주제어와 일치: pracky"
+            ]
+          },
+          {
+            "text": "SAMSUNG EcoBubble WW11DG5B25AELE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww11dg5b25aele-d12293466.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG EcoBubble WW90DG6U85LHU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ecobubble-ww90dg6u85lhu4-d12355029.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WD90DG6G94BKU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-wd90dg6g94bku4-d12936914.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WD90DG5G34BELE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-wd90dg5g34bele-d12936916.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG EcoBubble WW90CGC04DTELE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ecobubble-ww90cgc04dtele-d8629869.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW80CGC04DABLE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ecobubble-ww80cgc04dable-d8629870.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WD11DB8B85GHU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-wd11db8b85ghu4-d12551110.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG BESPOKE AI WW11DB8B95GBU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-bespoke-ai-ww11db8b95gbu4-d12355024.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW80FG3M05AWLF + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww80fg3m05awlf-d12936912.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG EcoBubble WW11DG5B25ABLE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww11dg5b25able-d12293464.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW60A3120BE/LE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww60a3120be-le-d7370521.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG BESPOKE AI WW90DB8U95GHU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-bespoke-ai-ww90db8u95ghu4-d12355023.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG BESPOKE AI WW11DB7B34GWU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-bespoke-ai-ww11db7b34gwu4-d12355026.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW90FG3M05AWLF + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww90fg3m05awlf-d12936913.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW90DG5G34ABLE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww90dg5g34able-d12936917.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG EcoBubble WW11DG6B85LKU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww11dg6b85lku4-d12293479.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW80CGC04DAELE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww80cgc04daele-d12711323.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW70FG3M05AWLF + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww70fg3m05awlf-d12936915.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG BESPOKE AI WW11DB7B94GBU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-bespoke-ai-ww11db7b94gbu4-d12355025.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW10FG6U94LBU4 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww10fg6u94lbu4-d13075461.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WD18DB8995BZT2 + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-wd18db8995bzt2-d12920985.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW90CGC04DABLE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww90cgc04dable-d13037971.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WW80FG5L32AELE 8 kg + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-ww80fg5l32aele-8-kg-d13295283.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG WD11DG5B15BELE + 10 let záruka na motor (bez registrace)",
+            "href": "https://www.alza.cz/samsung-wd11dg5b15bele-d12293478.htm",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

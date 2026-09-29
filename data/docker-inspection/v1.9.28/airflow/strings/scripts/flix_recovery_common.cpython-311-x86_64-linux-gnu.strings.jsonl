@@ -1,0 +1,327 @@
+{"offset": "0x2d000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x2d038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x2d060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x2d090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x2d0b8", "text": " while calling a Python object"}
+{"offset": "0x2d0d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x2d108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x2d130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x2d1e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x2d210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x2d240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x2d2a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x2d2c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x2d2f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x2d328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x2d358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2d3c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x2d3f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2d450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x2d480", "text": "__name__ must be set to a string object"}
+{"offset": "0x2d4a8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x2d5f0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x2d628", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x2d660", "text": "%.200s() keywords must be strings"}
+{"offset": "0x2d688", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x2d6b8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x2d6f0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x2d728", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x2d750", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x2d780", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x2d7c0", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x2d7f0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x2d818", "text": "generator raised StopIteration"}
+{"offset": "0x2d838", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/flix_recovery_common.c"}
+{"offset": "0x2d880", "text": "scripts/flix_recovery_common.py"}
+{"offset": "0x2d8a0", "text": "scripts.flix_recovery_common.prefetch_delivery.one"}
+{"offset": "0x2d8d8", "text": "Module 'flix_recovery_common' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x2d938", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x2d988", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x2d9c8", "text": "init scripts.flix_recovery_common"}
+{"offset": "0x2d9f0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x2da30", "text": "scripts.flix_recovery_common.col_index"}
+{"offset": "0x2da58", "text": "generator ignored GeneratorExit"}
+{"offset": "0x2da78", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x2da98", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x2dac0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x2daf8", "text": "scripts.flix_recovery_common.parallel_hash.f"}
+{"offset": "0x2db28", "text": "scripts.flix_recovery_common.prefetch_delivery"}
+{"offset": "0x2db58", "text": "scripts.flix_recovery_common.ean_from_url"}
+{"offset": "0x2db88", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x2dbc0", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x2dc00", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x2dc38", "text": "__await__() returned a coroutine"}
+{"offset": "0x2dc60", "text": "coroutine is being awaited already"}
+{"offset": "0x2dc88", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x2dcb0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x2dce0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x2dd08", "text": "scripts.flix_recovery_common.has_gap_marker.genexpr"}
+{"offset": "0x2dd40", "text": "scripts.flix_recovery_common.has_gap_marker"}
+{"offset": "0x2dd70", "text": "scripts.flix_recovery_common.model_from_lgurl"}
+{"offset": "0x2dda0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x2ddd0", "text": "instance exception may not have a separate value"}
+{"offset": "0x2de08", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x2de50", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x2de90", "text": "join() result is too long for a Python string"}
+{"offset": "0x2dec0", "text": "scripts.flix_recovery_common.official_hashes"}
+{"offset": "0x2def0", "text": "scripts.flix_recovery_common.mpc_from_lgurl"}
+{"offset": "0x2df20", "text": "scripts.flix_recovery_common.resolve_ean"}
+{"offset": "0x2df50", "text": "scripts.flix_recovery_common.distinct_retailer_images"}
+{"offset": "0x2df88", "text": "scripts.flix_recovery_common.url_mpc_map"}
+{"offset": "0x2dfb8", "text": "scripts.flix_recovery_common.parallel_hash"}
+{"offset": "0x2dfe8", "text": "scripts.flix_recovery_common.clean_model"}
+{"offset": "0x2e018", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x2e048", "text": "dictionary changed size during iteration"}
+{"offset": "0x2e078", "text": "'NoneType' object is not iterable"}
+{"offset": "0x2e0a0", "text": "scripts.flix_recovery_common.apply_and_save"}
+{"offset": "0x2e0d0", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x2e118", "text": "'NoneType' object is not subscriptable"}
+{"offset": "0x2e140", "text": "scripts.flix_recovery_common.load_ean_cache"}
+{"offset": "0x2e170", "text": "qualified name of the generator"}
+{"offset": "0x2e190", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x2e1c0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2e220", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2e290", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x2e2c8", "text": "qualified name of the coroutine"}
+{"offset": "0x2e2e8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x2e348", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x2e3b8", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x2e3f0", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x2e418", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x2e450", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2e4b0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2e520", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x2e550", "text": "scripts.flix_recovery_common.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x2e590", "text": "scripts.flix_recovery_common.__pyx_scope_struct_1_one"}
+{"offset": "0x2e5c8", "text": "scripts.flix_recovery_common.__pyx_scope_struct__prefetch_delivery"}
+{"offset": "0x2e60b", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x2e629", "text": "%.200s() needs an argument"}
+{"offset": "0x2e644", "text": "Bad call flags for CyFunction"}
+{"offset": "0x2e662", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2e678", "text": "__loader__"}
+{"offset": "0x2e683", "text": "loader"}
+{"offset": "0x2e68a", "text": "__file__"}
+{"offset": "0x2e693", "text": "origin"}
+{"offset": "0x2e69a", "text": "__package__"}
+{"offset": "0x2e6a6", "text": "parent"}
+{"offset": "0x2e6ad", "text": "__path__"}
+{"offset": "0x2e6b6", "text": "submodule_search_locations"}
+{"offset": "0x2e6d1", "text": "keywords must be strings"}
+{"offset": "0x2e6ea", "text": "_cython_coroutine_type"}
+{"offset": "0x2e701", "text": "_cython_generator_type"}
+{"offset": "0x2e718", "text": "_module"}
+{"offset": "0x2e720", "text": "__builtins__"}
+{"offset": "0x2e72d", "text": "_cython_3_0_12"}
+{"offset": "0x2e73c", "text": "cannot import name %S"}
+{"offset": "0x2e752", "text": "%s (%s:%d)"}
+{"offset": "0x2e75d", "text": "name '%U' is not defined"}
+{"offset": "0x2e776", "text": "builtins"}
+{"offset": "0x2e77f", "text": "cython_runtime"}
+{"offset": "0x2e78e", "text": "scripts.flix_recovery_common"}
+{"offset": "0x2e7ab", "text": "does not match"}
+{"offset": "0x2e7ba", "text": "collections.abc"}
+{"offset": "0x2e7ca", "text": "backports_abc"}
+{"offset": "0x2e7d8", "text": "exactly"}
+{"offset": "0x2e7e0", "text": "col_index"}
+{"offset": "0x2e7ea", "text": "coroutine already executing"}
+{"offset": "0x2e806", "text": "generator already executing"}
+{"offset": "0x2e825", "text": "genexpr"}
+{"offset": "0x2e82f", "text": "at least"}
+{"offset": "0x2e838", "text": "at most"}
+{"offset": "0x2e840", "text": "prefetch_delivery"}
+{"offset": "0x2e852", "text": "ean_from_url"}
+{"offset": "0x2e85f", "text": "has_gap_marker"}
+{"offset": "0x2e86e", "text": "model_from_lgurl"}
+{"offset": "0x2e87f", "text": "throw"}
+{"offset": "0x2e885", "text": "official_hashes"}
+{"offset": "0x2e895", "text": "mpc_from_lgurl"}
+{"offset": "0x2e8a4", "text": "resolve_ean"}
+{"offset": "0x2e8b0", "text": "distinct_retailer_images"}
+{"offset": "0x2e8c9", "text": "url_mpc_map"}
+{"offset": "0x2e8d5", "text": "parallel_hash"}
+{"offset": "0x2e8e3", "text": "clean_model"}
+{"offset": "0x2e8ef", "text": "apply_and_save"}
+{"offset": "0x2e8fe", "text": "items"}
+{"offset": "0x2e90c", "text": "load_ean_cache"}
+{"offset": "0x2e91b", "text": "_cython_3_0_12.generator"}
+{"offset": "0x2e934", "text": "__name__"}
+{"offset": "0x2e93d", "text": "name of the generator"}
+{"offset": "0x2e953", "text": "__qualname__"}
+{"offset": "0x2e960", "text": "gi_frame"}
+{"offset": "0x2e969", "text": "Frame of the generator"}
+{"offset": "0x2e980", "text": "gi_running"}
+{"offset": "0x2e98b", "text": "gi_yieldfrom"}
+{"offset": "0x2e998", "text": "gi_code"}
+{"offset": "0x2e9a0", "text": "__module__"}
+{"offset": "0x2e9ab", "text": "send"}
+{"offset": "0x2e9b0", "text": "close"}
+{"offset": "0x2e9b6", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x2e9cf", "text": "name of the coroutine"}
+{"offset": "0x2e9e5", "text": "cr_frame"}
+{"offset": "0x2e9ee", "text": "Frame of the coroutine"}
+{"offset": "0x2ea05", "text": "cr_running"}
+{"offset": "0x2ea10", "text": "cr_await"}
+{"offset": "0x2ea19", "text": "object being awaited, or None"}
+{"offset": "0x2ea37", "text": "cr_code"}
+{"offset": "0x2ea3f", "text": "__reduce_ex__"}
+{"offset": "0x2ea4d", "text": "__reduce__"}
+{"offset": "0x2ea58", "text": "func_doc"}
+{"offset": "0x2ea61", "text": "__doc__"}
+{"offset": "0x2ea69", "text": "func_name"}
+{"offset": "0x2ea73", "text": "func_dict"}
+{"offset": "0x2ea7d", "text": "__dict__"}
+{"offset": "0x2ea86", "text": "func_globals"}
+{"offset": "0x2ea93", "text": "__globals__"}
+{"offset": "0x2ea9f", "text": "func_closure"}
+{"offset": "0x2eaac", "text": "__closure__"}
+{"offset": "0x2eab8", "text": "func_code"}
+{"offset": "0x2eac2", "text": "__code__"}
+{"offset": "0x2eacb", "text": "func_defaults"}
+{"offset": "0x2ead9", "text": "__defaults__"}
+{"offset": "0x2eae6", "text": "__kwdefaults__"}
+{"offset": "0x2eaf5", "text": "__annotations__"}
+{"offset": "0x2eb05", "text": "_is_coroutine"}
+{"offset": "0x2eb60", "text": "SELECT cat_url_addr, mpc FROM pdp_target_list WHERE rtlr_name=%s AND cntry_cd=%s AND cat_url_addr LIKE 'http%%'"}
+{"offset": "0x2ebe0", "text": "scripts/flix_recovery_common.py"}
+{"offset": "0x2ec00", "text": "SELECT url,dhash FROM pdp_asset_hash WHERE url IN ("}
+{"offset": "0x2ec40", "text": "has_gap_marker.<locals>.genexpr"}
+{"offset": "0x2ec60", "text": "scripts.flix_recovery_common"}
+{"offset": "0x2ec80", "text": "prefetch_delivery.<locals>.one"}
+{"offset": "0x2eca0", "text": "scripts.st_coverage_batch"}
+{"offset": "0x2ecc0", "text": "Elcorteingles_electronica"}
+{"offset": "0x2ece0", "text": "distinct_retailer_images"}
+{"offset": "0x2ed00", "text": "backfill_official_hashes"}
+{"offset": "0x2ed20", "text": "parallel_hash.<locals>.f"}
+{"offset": "0x2ed40", "text": "concurrent.futures"}
+{"offset": "0x2ed60", "text": "cline_in_traceback"}
+{"offset": "0x2ed80", "text": "asyncio.coroutines"}
+{"offset": "0x2eda0", "text": "ThreadPoolExecutor"}
+{"offset": "0x2edc0", "text": "prefetch_delivery"}
+{"offset": "0x2ede0", "text": "fetch_inpage_html"}
+{"offset": "0x2ee00", "text": "model_from_lgurl"}
+{"offset": "0x2ee20", "text": "follow_redirects"}
+{"offset": "0x2ee40", "text": "core.image_match"}
+{"offset": "0x2ee60", "text": "official_hashes"}
+{"offset": "0x2ee70", "text": "flix_image_urls"}
+{"offset": "0x2ee80", "text": "_VIDEO_POSTER_RE"}
+{"offset": "0x2ee98", "text": "mpc_from_lgurl"}
+{"offset": "0x2eea8", "text": "load_ean_cache"}
+{"offset": "0x2eeb8", "text": "has_gap_marker"}
+{"offset": "0x2eec8", "text": "get_connection"}
+{"offset": "0x2eed8", "text": "apply_and_save"}
+{"offset": "0x2eee8", "text": "Czech Republic"}
+{"offset": "0x2eef8", "text": "parallel_hash"}
+{"offset": "0x2ef08", "text": "flix_delivery"}
+{"offset": "0x2ef18", "text": "ean_for_model"}
+{"offset": "0x2ef30", "text": "__class_getitem__"}
+{"offset": "0x2ef48", "text": "asyncio.tasks"}
+{"offset": "0x2ef58", "text": "_URL_MPC_CACHE"}
+{"offset": "0x2ef68", "text": "MediaMarkt_PL"}
+{"offset": "0x2ef78", "text": "MediaMarkt_ES"}
+{"offset": "0x2ef88", "text": "FLIX_RETAILER"}
+{"offset": "0x2efa0", "text": "^[A-Z]{2}\\d{3}(?=[A-Z])"}
+{"offset": "0x2efb8", "text": "retailer_url"}
+{"offset": "0x2efc8", "text": "_is_coroutine"}
+{"offset": "0x2efd8", "text": "_initializing"}
+{"offset": "0x2efe8", "text": "ean_from_url"}
+{"offset": "0x2eff8", "text": "col_by_sheet"}
+{"offset": "0x2f008", "text": "cat_url_addr"}
+{"offset": "0x2f018", "text": "_STORE_PREFIX"}
+{"offset": "0x2f028", "text": "url_mpc_map"}
+{"offset": "0x2f038", "text": "status_code"}
+{"offset": "0x2f048", "text": "resolve_ean"}
+{"offset": "0x2f058", "text": "every_saved"}
+{"offset": "0x2f068", "text": "concurrency"}
+{"offset": "0x2f078", "text": "clean_model"}
+{"offset": "0x2f088", "text": "cell_values"}
+{"offset": "0x2f098", "text": "startswith"}
+{"offset": "0x2f0a8", "text": "calc_dhash"}
+{"offset": "0x2f0b8", "text": "Mediaworld"}
+{"offset": "0x2f0c8", "text": "MediaMarkt"}
+{"offset": "0x2f0d8", "text": "DictReader"}
+{"offset": "0x2f0e8", "text": "utf-8-sig"}
+{"offset": "0x2f0f8", "text": "model_mpc"}
+{"offset": "0x2f108", "text": "isenabled"}
+{"offset": "0x2f118", "text": "enumerate"}
+{"offset": "0x2f128", "text": "ean_cache"}
+{"offset": "0x2f138", "text": "col_index"}
+{"offset": "0x2f148", "text": "Semaphore"}
+{"offset": "0x2f158", "text": "88060\\d{8}"}
+{"offset": "0x2f168", "text": "out_path"}
+{"offset": "0x2f178", "text": "_img_stem"}
+{"offset": "0x2f188", "text": "fromkeys"}
+{"offset": "0x2f198", "text": "fetchall"}
+{"offset": "0x2f1a8", "text": "encoding"}
+{"offset": "0x2f1b8", "text": "Darty_FR"}
+{"offset": "0x2f1c8", "text": "workers"}
+{"offset": "0x2f1d0", "text": "timeout"}
+{"offset": "0x2f1d8", "text": "results"}
+{"offset": "0x2f1e0", "text": "refdata"}
+{"offset": "0x2f1e8", "text": "pathlib"}
+{"offset": "0x2f1f0", "text": "inspect"}
+{"offset": "0x2f1f8", "text": "genexpr"}
+{"offset": "0x2f200", "text": "execute"}
+{"offset": "0x2f208", "text": "disable"}
+{"offset": "0x2f210", "text": "core.db"}
+{"offset": "0x2f218", "text": "content"}
+{"offset": "0x2f220", "text": "compile"}
+{"offset": "0x2f228", "text": "asyncio"}
+{"offset": "0x2f230", "text": "Unieuro"}
+{"offset": "0x2f238", "text": "search"}
+{"offset": "0x2f23f", "text": "rstrip"}
+{"offset": "0x2f246", "text": "return"}
+{"offset": "0x2f250", "text": "__import__"}
+{"offset": "0x2f25b", "text": "gather"}
+{"offset": "0x2f262", "text": "exists"}
+{"offset": "0x2f269", "text": "enable"}
+{"offset": "0x2f270", "text": "cursor"}
+{"offset": "0x2f278", "text": "__aenter__"}
+{"offset": "0x2f283", "text": "Poland"}
+{"offset": "0x2f290", "text": "_HANGUL"}
+{"offset": "0x2f298", "text": "France"}
+{"offset": "0x2f2a0", "text": "_EAN_LG"}
+{"offset": "0x2f2a8", "text": "Datart"}
+{"offset": "0x2f2af", "text": "value"}
+{"offset": "0x2f2b5", "text": "upper"}
+{"offset": "0x2f2bb", "text": "throw"}
+{"offset": "0x2f2c1", "text": "strip"}
+{"offset": "0x2f2c7", "text": "split"}
+{"offset": "0x2f2cd", "text": "sheet"}
+{"offset": "0x2f2d3", "text": "paths"}
+{"offset": "0x2f2d9", "text": "model"}
+{"offset": "0x2f2df", "text": "items"}
+{"offset": "0x2f2e5", "text": "httpx"}
+{"offset": "0x2f2eb", "text": "group"}
+{"offset": "0x2f2f8", "text": "__enter__"}
+{"offset": "0x2f302", "text": "dhash"}
+{"offset": "0x2f308", "text": "close"}
+{"offset": "0x2f310", "text": "__await__"}
+{"offset": "0x2f320", "text": "__aexit__"}
+{"offset": "0x2f32a", "text": "Spain"}
+{"offset": "0x2f330", "text": "Italy"}
+{"offset": "0x2f336", "text": "Darty"}
+{"offset": "0x2f33c", "text": "vals"}
+{"offset": "0x2f341", "text": "urls"}
+{"offset": "0x2f348", "text": "__test__"}
+{"offset": "0x2f358", "text": "__spec__"}
+{"offset": "0x2f361", "text": "send"}
+{"offset": "0x2f366", "text": "save"}
+{"offset": "0x2f36b", "text": "rtlr"}
+{"offset": "0x2f370", "text": "pool"}
+{"offset": "0x2f375", "text": "open"}
+{"offset": "0x2f380", "text": "__name__"}
+{"offset": "0x2f390", "text": "__main__"}
+{"offset": "0x2f399", "text": "list"}
+{"offset": "0x2f39e", "text": "keys"}
+{"offset": "0x2f3a3", "text": "http"}
+{"offset": "0x2f3a8", "text": "html"}
+{"offset": "0x2f3b0", "text": "__exit__"}
+{"offset": "0x2f3b9", "text": "dict"}
+{"offset": "0x2f3be", "text": "core"}
+{"offset": "0x2f3c3", "text": "conn"}
+{"offset": "0x2f3c8", "text": "cell"}
+{"offset": "0x2f3cd", "text": "bool"}
+{"offset": "0x2f3d2", "text": "args"}
+{"offset": "0x2f3d7", "text": "Path"}
+{"offset": "0x2f3dc", "text": "None"}
+{"offset": "0x2f428", "text": "[가-힣]"}

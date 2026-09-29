@@ -1,0 +1,954 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0033-datart",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.datart.cz/chladnicky-kombinovane-s-mrazakem-dole/gorenje",
+    "finalUrl": "https://www.datart.cz/chladnicky-kombinovane-s-mrazakem-dole/gorenje",
+    "capturedAt": "2026-09-28T07:58:18.258150+09:00",
+    "collectionOk": true,
+    "title": "Kombinované lednice s mrazákem dole Gorenje | DATART"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0033-datart/brand-category/raw.html",
+      "sha256": "e059ab6fbba4cdc30d9912929f4a4941ee63a709467cf62c772172c728ecd327"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0033-datart/brand-category/capture-state.json",
+      "sha256": "d87f382fe641a3a95def13e0b818702079b2c8ba4f60f626ed979109b433101f"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0033-datart/brand-category/response.json",
+      "sha256": "d11eed441023eca53144a155df9ece0c9caf2eee4b1c36c9d3d7bee03a80ad1c"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "snippet#snippet--categoryProductList > div.container.p-0 > div.product-category-koncova__grid.js-product-category-wrapper > div.product-category-koncova__grid-top-content > div.product-category-koncova__grid-cell-inner > h1.product-category-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kombinované lednice s mrazákem dole Gorenje",
+        "attributes": {
+          "class": "product-category-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "snippet#snippet--categoryParametricFilter > div.filter-groups.bg-white.especially-lg > div#filter-parameters > div#feedbackFormButton > div.feedback-container > h3.title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nenašli jste požadovaný filtr?",
+        "attributes": {
+          "class": "title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.exponea-app-download > div.blmr-container > div.main-content-container > div.text > div.main-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "APLIKACE DATART",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "html > body > div#subscriptionNewsletter > dialog#subscription-modal > div.modal-body > h2#subscription-modal-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Děkujeme za váš zájem!",
+        "attributes": {
+          "id": "subscription-modal-title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#cc--main > div#cc_div > div#cm > div#c-inr > div#c-inr-i > h2#c-ttl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nastavení soukromí",
+        "attributes": {
+          "id": "c-ttl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#c-vln > div#cs > div#c-s-in > div#s-inr > div#s-hdr > h2#s-ttl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nastavení cookies",
+        "attributes": {
+          "id": "s-ttl"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 96,
+        "top10ByRenderedArea": [
+          {
+            "index": 19,
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgMTkwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjE5MCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=",
+            "alt": "",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 300,
+            "naturalHeight": 63,
+            "naturalArea": 18900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/90b53742-48cc-4e72-8378-fa8b34fa1e11/w=900/f6f2ce5c-db7d-4220-92b8-4e8c55cc8cee.webp?_v=MTAyNjI4MTcwOFNlcDk4cHM&_s=db4c19e46dafb45cb8ca9a63578a4293fccdcb51518d67d0afb117364419aad5",
+            "alt": "Vybrané velké spotřebiče Siemens s DOPRAVARTem zdarma – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/665303a5-209d-4174-bcce-c52fd06f8682/w=900/2f04c5b3-71b9-4229-9df3-a3ece95407b9.webp?_v=MTIyNjEyMDgyOFNlcHc4ajE&_s=7d146d2814159c2b7b9f6ece81073d1ee82f5881fc9f161254e2ac849ce1e0a9",
+            "alt": "Spotřebiče Beko nyní s poukazem 500 Kč do Kauflandu a dárkem – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/c06f2851-6320-45d2-9e47-55fb2a58e99f/w=900/26aa42b4-6b6c-4f22-9056-b790893e82d9.webp?_v=MTIyNjI4MzExNkF1Z1Ftc2s&_s=99bbebab748d750851fa1a52e04249ca0765289c7457805122f035c4730112f3",
+            "alt": "Nakup a recenzuj vybrané produkty TCL a vyhraj herní monitor – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 25,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/5681a959-ce9b-4819-9233-eeb288beab81/w=900/3572e91f-ef65-4429-ad7e-8a6cc583c0f0.webp?_v=MDYyNjEzMjgzMEF1Z3c3NEI&_s=642cd55d7ebf7a6f87ae21ac827c0ad85ad8e4c220e9baf9793b739b2e732ed3",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 26,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/0811a82f-4576-41cc-9486-dce60d1dfce1/w=900/9e53d24e-375e-403a-90bd-6219c432d1bb.webp?_v=MTMyNjEyMjYzN0F1ZzdPSW0&_s=e426c58abc8b698efd19c51506f68422c6d7851f86b85dbdb15597e8c5e667d0",
+            "alt": "Spotřebiče Whirlpool s cashbackem za recenzi až 4 000 Kč – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 27,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/da28209c-6063-45e8-ac01-7c616c29dd36/w=900/f8c56c46-1d79-4090-b9cd-520a0c40158e.webp?_v=MDYyNjI1MDY0MUF1Z0xVOHg&_s=fc0875fb0d99d8a95e29febc1ec3ab5c65efae88bd55115b942ee1198221ff16",
+            "alt": "Nakupte spotřebič Samsung a získejte poukaz na nákup v Lidlu – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/15e12aab-62c1-499f-b98c-6d01f6eca30b/w=900/65e95cce-02e3-4023-aaae-09c31e620b66.webp?_v=MDcyNjU2MDQyOEF1Z3A2dXc&_s=7a440e9a05ed8669b2e219d99482e13ee14908a1ca701d90c804a6580f833681",
+            "alt": "Splátky s nízkým úrokem - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 74,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/05bb0e11-3825-4aa3-8274-c049d6706f37/w=350/e36616a1-59c0-4df2-8508-d7c4eae358ca.webp?_v=MTMyNjEyMjY1NEF1Z0JmUWE&_s=56eee76f090554a230611ac72c58616db671d43cddd5c6c9b850a6963a252b1a",
+            "alt": "Spotřebiče Whirlpool s cashbackem za recenzi až 4 000 Kč – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 75,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/da61ed78-a0c8-4815-91d9-f2a81d7f2841/w=350/aac51b60-7880-4aca-bff6-b3a7dee35261.webp?_v=MTAyNjI5MTcxMlNlcFdCdWE&_s=4c71783a3b635365908899f80cfa679b55a333d49b7e6e89ddd64d9d52b32945",
+            "alt": "Vybrané velké spotřebiče Siemens s DOPRAVARTem zdarma – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 76,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8edfbfe1-4a47-416c-81e4-5fc54deeb157/w=350/b4e16e19-38d6-41a1-a2dc-76b1e7051fd0.webp?_v=MTAyNjQzMTY1MFNlcHRra1Q&_s=27b8b01ff0a1bac185b91d02a2f50b1580176e769d57f38f7af5a041756679cc",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 77,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/d34074d8-6323-4982-b14b-d83b34e1053f/w=350/67ec02b3-37a0-4c80-bc71-c3d950a77a63.webp?_v=MTIyNjEzMDgzN1NlcDQzbTA&_s=bf12dda9f71d5a0a6242daa3b387b3b6f780b0d60a0016c91a135cbb9c5845f8",
+            "alt": "Spotřebiče Beko nyní s poukazem 500 Kč do Kauflandu a dárkem – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 78,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/bcee58d4-6aaa-4057-afaf-6160016c65ab/w=350/efca8ce2-c37d-4c12-8105-51854c4d845e.webp?_v=MTIyNjI4MzEwNEF1ZzRPMFA&_s=75100843948fdc1ff1122ddec7e72cf390cc24a44b7a45352de2f6b7d1db595d",
+            "alt": "Nakup a recenzuj vybrané produkty TCL a vyhraj herní monitor – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 79,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/9bbfa6d7-c9b3-4097-a354-fbe1c5e02a8e/w=350/89237506-5020-4ad8-bbf9-d58653b2e2a7.webp?_v=MDYyNjE0Mjg0MkF1ZzVJVVc&_s=1ccecd23ca2ea57bf9284d823d3de9349eec1b869db4cc62f085ba455d52d26a",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 80,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/05bb0e11-3825-4aa3-8274-c049d6706f37/w=350/e36616a1-59c0-4df2-8508-d7c4eae358ca.webp?_v=MTMyNjEyMjY1NEF1Z0JmUWE&_s=56eee76f090554a230611ac72c58616db671d43cddd5c6c9b850a6963a252b1a",
+            "alt": "Spotřebiče Whirlpool s cashbackem za recenzi až 4 000 Kč – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 81,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/da61ed78-a0c8-4815-91d9-f2a81d7f2841/w=350/aac51b60-7880-4aca-bff6-b3a7dee35261.webp?_v=MTAyNjI5MTcxMlNlcFdCdWE&_s=4c71783a3b635365908899f80cfa679b55a333d49b7e6e89ddd64d9d52b32945",
+            "alt": "Vybrané velké spotřebiče Siemens s DOPRAVARTem zdarma – DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 109,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/2d2f2182-60a3-4c88-9e57-030f30d84191/w=350/3ee06ba5-4251-40d3-8bad-ace2bcd6acba.webp?_v=MDgyNDQwMzEyOE9jdFk3OXg&_s=2c755584c1db4719bd80019ac911b0b38885d647d16747aee31ad5a6778055d9",
+            "alt": "Články Datart",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 110,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/680c54ee-17e2-4c33-ac82-839fdd202034/w=350/cf7bd9e3-0332-4bd2-81d6-54fffb2c2ad4.webp?_v=MDgyNjIwMzExNE1hcjlrTFg&_s=abe307d86c127119ac7f2e59da960996577a305bd3cc9afd0b7b5abe6434a058",
+            "alt": "Mobilní aplikace - opravdový elektrospecialista v kapse - DATART",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Kombinované lednice s mrazákem dole Gorenje | DATART"
+        ],
+        "metaDescription": [
+          "DATART - přední český prodejce elektroniky. Vaše zboží připravíme na prodejně už do 30 minut nebo doručíme po celé ČR."
+        ],
+        "h1": [
+          "Kombinované lednice s mrazákem dole Gorenje"
+        ],
+        "robots": [
+          "index,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.datart.cz/chladnicky-kombinovane-s-mrazakem-dole/gorenje"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 19,
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgMTkwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjE5MCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=",
+            "alt": "",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 300,
+            "naturalHeight": 63,
+            "naturalArea": 18900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/90b53742-48cc-4e72-8378-fa8b34fa1e11/w=900/f6f2ce5c-db7d-4220-92b8-4e8c55cc8cee.webp?_v=MTAyNjI4MTcwOFNlcDk4cHM&_s=db4c19e46dafb45cb8ca9a63578a4293fccdcb51518d67d0afb117364419aad5",
+            "alt": "Vybrané velké spotřebiče Siemens s DOPRAVARTem zdarma – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/665303a5-209d-4174-bcce-c52fd06f8682/w=900/2f04c5b3-71b9-4229-9df3-a3ece95407b9.webp?_v=MTIyNjEyMDgyOFNlcHc4ajE&_s=7d146d2814159c2b7b9f6ece81073d1ee82f5881fc9f161254e2ac849ce1e0a9",
+            "alt": "Spotřebiče Beko nyní s poukazem 500 Kč do Kauflandu a dárkem – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/c06f2851-6320-45d2-9e47-55fb2a58e99f/w=900/26aa42b4-6b6c-4f22-9056-b790893e82d9.webp?_v=MTIyNjI4MzExNkF1Z1Ftc2s&_s=99bbebab748d750851fa1a52e04249ca0765289c7457805122f035c4730112f3",
+            "alt": "Nakup a recenzuj vybrané produkty TCL a vyhraj herní monitor – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 25,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/5681a959-ce9b-4819-9233-eeb288beab81/w=900/3572e91f-ef65-4429-ad7e-8a6cc583c0f0.webp?_v=MDYyNjEzMjgzMEF1Z3c3NEI&_s=642cd55d7ebf7a6f87ae21ac827c0ad85ad8e4c220e9baf9793b739b2e732ed3",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 26,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/0811a82f-4576-41cc-9486-dce60d1dfce1/w=900/9e53d24e-375e-403a-90bd-6219c432d1bb.webp?_v=MTMyNjEyMjYzN0F1ZzdPSW0&_s=e426c58abc8b698efd19c51506f68422c6d7851f86b85dbdb15597e8c5e667d0",
+            "alt": "Spotřebiče Whirlpool s cashbackem za recenzi až 4 000 Kč – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 27,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/da28209c-6063-45e8-ac01-7c616c29dd36/w=900/f8c56c46-1d79-4090-b9cd-520a0c40158e.webp?_v=MDYyNjI1MDY0MUF1Z0xVOHg&_s=fc0875fb0d99d8a95e29febc1ec3ab5c65efae88bd55115b942ee1198221ff16",
+            "alt": "Nakupte spotřebič Samsung a získejte poukaz na nákup v Lidlu – DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/15e12aab-62c1-499f-b98c-6d01f6eca30b/w=900/65e95cce-02e3-4023-aaae-09c31e620b66.webp?_v=MDcyNjU2MDQyOEF1Z3A2dXc&_s=7a440e9a05ed8669b2e219d99482e13ee14908a1ca701d90c804a6580f833681",
+            "alt": "Splátky s nízkým úrokem - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "html > body > div#subscriptionNewsletter > dialog#subscription-modal > div.modal-body > div.subscription-modal__benefits",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "získáte výhodné slevy na zboží o akcích a novinkách se dozvíte mezi prvními na míru vám ušijeme speciální nabídky",
+            "attributes": {
+              "class": "subscription-modal__benefits"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Lednice",
+            "href": "https://www.datart.cz/lednicky.html",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Kombinované lednice",
+            "href": "https://www.datart.cz/kombinovane-lednice.html",
+            "signals": [
+              "페이지 주제어와 일치: kombinovane, lednice"
+            ]
+          },
+          {
+            "text": "Kombinované lednice s mrazákem dole",
+            "href": "https://www.datart.cz/chladnicky-kombinovane-s-mrazakem-dole.html",
+            "signals": [
+              "페이지 주제어와 일치: dole, kombinovane, lednice, mrazakem"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 NRK61C61X4WFE nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-nrk61c61x4wfe-nerez",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 NRB62C6W4WFE bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-nrb62c6w4wfe-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Advanced NRK620CA2W4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-advanced-nrk620ca2w4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Primary RK4182PW4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-primary-rk4182pw4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G400 NRK61CS2W4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g400-nrk61cs2w4-bila",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Essential NRK418DCW4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-essential-nrk418dcw4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Superior NRK61CS2XL4 nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-superior-nrk61cs2xl4-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje RK4182PS4 stříbrná",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-rk4182ps4-stribrna",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Advanced NRK612AW4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-advanced-nrk612aw4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Advanced N619EAW4 KitchenFit bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-advanced-n619eaw4-kitchenfit-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 NRK619AA1XL4 nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-nrk619aa1xl4-nerez",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje RK14CPS4 stříbrná",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-rk14cps4-stribrna.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Essential NRK418ECB4 černá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-essential-nrk418ecb4-cerna.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Advanced NRK612AXL4 IonAir nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-advanced-nrk612axl4-ionair-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Primary RK416DPS4 šedá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-primary-rk416dps4-seda.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje NRK418ECW4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-nrk418ecw4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Advanced N619EAXL4 KitchenFit nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-advanced-n619eaxl4-kitchenfit-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje N61EA2W4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-n61ea2w4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 N62CS2XL4 nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-n62cs2xl4-nerez",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 N62CS2W4 bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-n62cs2w4-bila",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje Superior NFB612CSXL4 nerez",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-superior-nfb612csxl4-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Chladnička s mrazničkou Gorenje G600 NRK61C61W4WFE bílá",
+            "href": "https://www.datart.cz/chladnicka-s-mraznickou-gorenje-g600-nrk61c61w4wfe-bila",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "snippet",
+            "path": "html > body > main#main > div.product-category-koncova.category-with-filter > snippet#snippet--login-refresh > snippet#snippet--categoryProductList",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Kombinované lednice s mrazákem dole Gorenje Kombinované chladničky s mrazákem dole jsou oblíbeným řešením, jak obsáhnout chladicí i mrazicí část v jednom spotřebiči. Dolní umístění mrazničky je navíc z mnoha ohledů praktičtější. Zajímá vás, podle jakých parametrů lednici vybírat? Pak si určitě přečtěte náš článek Jak vybrat chladničku . Více informací Méně informací Nejprodávanější v kategorii Nejprodávanější produkty Chladnička s mrazničkou LG GBBS312APY nerez LG GBBS312APY nerez Skladem v 43 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 16 490 Kč 19 890 Kč Chladnička s mrazničkou LG GBBS525CPY nerez LG GBBS525CPY nerez Skladem v 108 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 14 490 Kč 17 290 Kč Chladnička s mrazničkou ETA 235590000DN bílá ETA 235590000DN bílá Skladem v 107 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 12 490 Kč Chladnička s mrazničkou Beko B1RCSO264S stříbrná Beko B1RCSO264S stříbrná Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 6 490 Kč 6 980 Kč Chladnička s mrazničkou Bosch KGN39OCAF Green Collection antracitová Bosch KGN39OCAF Green Collection antracitová Skladem v 84 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 24 990 Kč 24 790 Kč Chladnička s mrazničkou Samsung RB34C675DSA/EF stříbrná Samsung RB34C675DSA/EF stříbrná Skladem v 58 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 12 390 Kč 12 290 Kč Chladnička s mrazničkou LG GBBS716CSW bílá LG GBBS716CSW bílá Skladem v 105 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 13 990 Kč 16 390 Kč Chladnička s mrazničkou ETA 275090000D bílá ETA 275090000D bílá Skladem v 79 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 8 990 Kč 10 890 Kč Chladnička s mrazničkou Samsung RB38C607AS9/EF Inoxlook Samsung RB38C607AS9/EF Inoxlook Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 17 990 Kč Chladnička s mrazničkou ETA 275090010D nerez ETA 275090010D nerez Skladem v 46 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 8 990 Kč 10 890 Kč Zobrazit dalších 7 produktů Skrýt 7 produktů Chladnička s mrazničkou LG GBBS312APY nerez LG GBBS312APY nerez Skladem v 43 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 16 490 Kč 19 890 Kč Chladnička s mrazničkou LG GBBS525CPY nerez LG GBBS525CPY nerez Skladem v 108 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 14 490 Kč 17 290 Kč Chladnička s mrazničkou ETA 235590000DN bílá ETA 235590000DN bílá Skladem v 107 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 12 490 Kč Chladnička s mrazničkou Beko B1RCSO264S stříbrná Beko B1RCSO264S stříbrná Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 6 490 Kč 6 980 Kč Chladnička s mrazničkou Bosch KGN39OCAF Green Collection antracitová Bosch KGN39OCAF Green Collection antracitová Skladem v 84 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 24 990 Kč 24 790 Kč Chladnička s mrazničkou Samsung RB34C675DSA/EF stříbrná Samsung RB34C675DSA/EF stříbrná Skladem v 58 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 12 390 Kč 12 290 Kč Chladnička s mrazničkou LG GBBS716CSW bílá LG GBBS716CSW bílá Skladem v 105 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 13 990 Kč 16 390 Kč Chladnička s mrazničkou ETA 27509000",
+            "attributes": {
+              "id": "snippet--categoryProductList",
+              "class": "snippet"
+            }
+          }
+        ],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

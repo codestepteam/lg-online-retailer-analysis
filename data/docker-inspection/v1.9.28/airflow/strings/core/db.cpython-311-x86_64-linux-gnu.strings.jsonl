@@ -1,0 +1,134 @@
+{"offset": "0x10000", "text": "%.200s() needs an argument"}
+{"offset": "0x1001b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x10039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1004f", "text": "cannot import name %S"}
+{"offset": "0x10065", "text": "__loader__"}
+{"offset": "0x10070", "text": "loader"}
+{"offset": "0x10077", "text": "__file__"}
+{"offset": "0x10080", "text": "origin"}
+{"offset": "0x10087", "text": "__package__"}
+{"offset": "0x10093", "text": "parent"}
+{"offset": "0x1009a", "text": "__path__"}
+{"offset": "0x100a3", "text": "submodule_search_locations"}
+{"offset": "0x100be", "text": "keywords must be strings"}
+{"offset": "0x100d7", "text": "%s (%s:%d)"}
+{"offset": "0x100e2", "text": "name '%U' is not defined"}
+{"offset": "0x100fb", "text": "core/db.py"}
+{"offset": "0x10106", "text": "core.db.health_check"}
+{"offset": "0x10122", "text": "core.db.get_connection"}
+{"offset": "0x10139", "text": "builtins"}
+{"offset": "0x10142", "text": "cython_runtime"}
+{"offset": "0x10151", "text": "__builtins__"}
+{"offset": "0x1015e", "text": "does not match"}
+{"offset": "0x1016d", "text": "_cython_3_0_12"}
+{"offset": "0x1017c", "text": "init core.db"}
+{"offset": "0x10189", "text": "__reduce__"}
+{"offset": "0x10194", "text": "__module__"}
+{"offset": "0x1019f", "text": "func_doc"}
+{"offset": "0x101a8", "text": "__doc__"}
+{"offset": "0x101b0", "text": "func_name"}
+{"offset": "0x101ba", "text": "__name__"}
+{"offset": "0x101c3", "text": "__qualname__"}
+{"offset": "0x101d0", "text": "func_dict"}
+{"offset": "0x101da", "text": "__dict__"}
+{"offset": "0x101e3", "text": "func_globals"}
+{"offset": "0x101f0", "text": "__globals__"}
+{"offset": "0x101fc", "text": "func_closure"}
+{"offset": "0x10209", "text": "__closure__"}
+{"offset": "0x10215", "text": "func_code"}
+{"offset": "0x1021f", "text": "__code__"}
+{"offset": "0x10228", "text": "func_defaults"}
+{"offset": "0x10236", "text": "__defaults__"}
+{"offset": "0x10243", "text": "__kwdefaults__"}
+{"offset": "0x10252", "text": "__annotations__"}
+{"offset": "0x10262", "text": "_is_coroutine"}
+{"offset": "0x10270", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x10298", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x102c8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x102f0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x10320", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x10350", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x103b0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x103e0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x10410", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x10440", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x104a8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x104d8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x10538", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x10568", "text": "__name__ must be set to a string object"}
+{"offset": "0x10590", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x105d8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x10618", "text": " while calling a Python object"}
+{"offset": "0x10638", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x10668", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/db.c"}
+{"offset": "0x10698", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x106d0", "text": "join() result is too long for a Python string"}
+{"offset": "0x10700", "text": "Module 'db' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x10750", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x107a0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x107d0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x10810", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x10840", "text": "SELECT VERSION() AS version, DATABASE() AS db, CURRENT_USER() AS user"}
+{"offset": "0x10890", "text": "pymysql.connections.Connection"}
+{"offset": "0x108b0", "text": "cline_in_traceback"}
+{"offset": "0x108d0", "text": "asyncio.coroutines"}
+{"offset": "0x108f0", "text": "OperationalError"}
+{"offset": "0x10910", "text": "pymysql.cursors"}
+{"offset": "0x10920", "text": " — .env 를 확인하라 (.env.example 참조)"}
+{"offset": "0x10960", "text": "connect_timeout"}
+{"offset": "0x10970", "text": "_CONNECT_RETRIES"}
+{"offset": "0x10990", "text": "_CONNECT_BACKOFF"}
+{"offset": "0x109a8", "text": "get_connection"}
+{"offset": "0x109b8", "text": "SELECT 1 AS ok"}
+{"offset": "0x109c8", "text": "ssl_disabled"}
+{"offset": "0x109d8", "text": "_is_coroutine"}
+{"offset": "0x109e8", "text": "_initializing"}
+{"offset": "0x109f8", "text": "health_check"}
+{"offset": "0x10a08", "text": "RuntimeError"}
+{"offset": "0x10a18", "text": "cursorclass"}
+{"offset": "0x10a28", "text": "DB_PASSWORD"}
+{"offset": "0x10a38", "text": "core/db.py"}
+{"offset": "0x10a48", "text": "DictCursor"}
+{"offset": "0x10a58", "text": "DB_USE_SSL"}
+{"offset": "0x10a68", "text": "getLogger"}
+{"offset": "0x10a78", "text": "password"}
+{"offset": "0x10a88", "text": "fetchone"}
+{"offset": "0x10a98", "text": "database"}
+{"offset": "0x10aa8", "text": "version"}
+{"offset": "0x10ab0", "text": "utf8mb4"}
+{"offset": "0x10ab8", "text": "pymysql"}
+{"offset": "0x10ac0", "text": "missing"}
+{"offset": "0x10ac8", "text": "logging"}
+{"offset": "0x10ad0", "text": "execute"}
+{"offset": "0x10ad8", "text": "core.db"}
+{"offset": "0x10ae0", "text": "connect"}
+{"offset": "0x10ae8", "text": "charset"}
+{"offset": "0x10af0", "text": "attempt"}
+{"offset": "0x10af8", "text": "DB_USER"}
+{"offset": "0x10b00", "text": "DB_PORT"}
+{"offset": "0x10b08", "text": "DB_NAME"}
+{"offset": "0x10b10", "text": "DB_HOST"}
+{"offset": "0x10b18", "text": "return"}
+{"offset": "0x10b1f", "text": "kwargs"}
+{"offset": "0x10b28", "text": "__import__"}
+{"offset": "0x10b33", "text": "cursor"}
+{"offset": "0x10b3a", "text": "config"}
+{"offset": "0x10b41", "text": "sleep"}
+{"offset": "0x10b47", "text": "range"}
+{"offset": "0x10b50", "text": "__enter__"}
+{"offset": "0x10b5a", "text": "close"}
+{"offset": "0x10b60", "text": "user"}
+{"offset": "0x10b65", "text": "time"}
+{"offset": "0x10b70", "text": "__test__"}
+{"offset": "0x10b80", "text": "__spec__"}
+{"offset": "0x10b89", "text": "port"}
+{"offset": "0x10b90", "text": "__name__"}
+{"offset": "0x10ba0", "text": "__main__"}
+{"offset": "0x10ba9", "text": "last"}
+{"offset": "0x10bae", "text": "host"}
+{"offset": "0x10bb8", "text": "__exit__"}
+{"offset": "0x10bc1", "text": "dict"}
+{"offset": "0x10bc6", "text": "conn"}
+{"offset": "0x10bcb", "text": "code"}
+{"offset": "0x10bd0", "text": "args"}
+{"offset": "0x10c00", "text": "DB 설정 누락: "}

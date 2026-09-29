@@ -1,0 +1,158 @@
+{"offset": "0x13000", "text": "%.200s() needs an argument"}
+{"offset": "0x1301b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x13039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1304f", "text": "cannot import name %S"}
+{"offset": "0x13065", "text": "__loader__"}
+{"offset": "0x13070", "text": "loader"}
+{"offset": "0x13077", "text": "__file__"}
+{"offset": "0x13080", "text": "origin"}
+{"offset": "0x13087", "text": "__package__"}
+{"offset": "0x13093", "text": "parent"}
+{"offset": "0x1309a", "text": "__path__"}
+{"offset": "0x130a3", "text": "submodule_search_locations"}
+{"offset": "0x130be", "text": "keywords must be strings"}
+{"offset": "0x130d7", "text": "%s (%s:%d)"}
+{"offset": "0x130e2", "text": "name '%U' is not defined"}
+{"offset": "0x130fb", "text": "exactly"}
+{"offset": "0x13103", "text": "_sql_rows"}
+{"offset": "0x1310d", "text": "scripts/gen_plp_config.py"}
+{"offset": "0x13127", "text": "builtins"}
+{"offset": "0x13130", "text": "cython_runtime"}
+{"offset": "0x1313f", "text": "__builtins__"}
+{"offset": "0x1314c", "text": "does not match"}
+{"offset": "0x1315b", "text": "_cython_3_0_12"}
+{"offset": "0x1316a", "text": "init scripts.gen_plp_config"}
+{"offset": "0x13186", "text": "scripts.gen_plp_config.main"}
+{"offset": "0x131a2", "text": "__reduce__"}
+{"offset": "0x131ad", "text": "__module__"}
+{"offset": "0x131b8", "text": "func_doc"}
+{"offset": "0x131c1", "text": "__doc__"}
+{"offset": "0x131c9", "text": "func_name"}
+{"offset": "0x131d3", "text": "__name__"}
+{"offset": "0x131dc", "text": "__qualname__"}
+{"offset": "0x131e9", "text": "func_dict"}
+{"offset": "0x131f3", "text": "__dict__"}
+{"offset": "0x131fc", "text": "func_globals"}
+{"offset": "0x13209", "text": "__globals__"}
+{"offset": "0x13215", "text": "func_closure"}
+{"offset": "0x13222", "text": "__closure__"}
+{"offset": "0x1322e", "text": "func_code"}
+{"offset": "0x13238", "text": "__code__"}
+{"offset": "0x13241", "text": "func_defaults"}
+{"offset": "0x1324f", "text": "__defaults__"}
+{"offset": "0x1325c", "text": "__kwdefaults__"}
+{"offset": "0x1326b", "text": "__annotations__"}
+{"offset": "0x1327b", "text": "_is_coroutine"}
+{"offset": "0x13290", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x132b8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x132e8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x13310", "text": " while calling a Python object"}
+{"offset": "0x13330", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x13360", "text": "function's dictionary may not be deleted"}
+{"offset": "0x13390", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x133c0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x13420", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x13450", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x13480", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x134b0", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x13518", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x13548", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x135a8", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x135d8", "text": "__name__ must be set to a string object"}
+{"offset": "0x13600", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/gen_plp_config.c"}
+{"offset": "0x13640", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x13680", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x136b8", "text": "%.200s() keywords must be strings"}
+{"offset": "0x136e0", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x13710", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x13740", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x13768", "text": "join() result is too long for a Python string"}
+{"offset": "0x13798", "text": "scripts.gen_plp_config._sql_rows"}
+{"offset": "0x137c0", "text": "Module 'gen_plp_config' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x13818", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x13868", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x13898", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x138d8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x13920", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x13960", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x13990", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x139b8", "text": "strings are too large to concat"}
+{"offset": "0x139d8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x13a20", "text": "')\n  ON DUPLICATE KEY UPDATE url = VALUES(url);"}
+{"offset": "0x13a60", "text": "INSERT INTO plp_config (retailer, instance, url, hs_category)\n  VALUES ('"}
+{"offset": "0x13ab0", "text": "scripts/gen_plp_config.py"}
+{"offset": "0x13ae0", "text": "홈 HTML 경로 (--retailer 필수). 생략 시 test/sample 픽스처"}
+{"offset": "0x13b40", "text": "GNB → plp_config INSERT SQL 생성"}
+{"offset": "0x13b70", "text": "scripts.gen_plp_config"}
+{"offset": "0x13b90", "text": "crawl_retailers.plp"}
+{"offset": "0x13bb0", "text": "cline_in_traceback"}
+{"offset": "0x13bd0", "text": "asyncio.coroutines"}
+{"offset": "0x13bf0", "text": "*/*/HOMEPAGE/base.html"}
+{"offset": "0x13c08", "text": "core.retailers"}
+{"offset": "0x13c18", "text": "ArgumentParser"}
+{"offset": "0x13c40", "text": "--html 은 --retailer 와 함께 사용"}
+{"offset": "0x13c70", "text": "__class_getitem__"}
+{"offset": "0x13c88", "text": "_is_coroutine"}
+{"offset": "0x13c98", "text": "_initializing"}
+{"offset": "0x13ca8", "text": "add_argument"}
+{"offset": "0x13cb8", "text": "CLINIC_ENTRY"}
+{"offset": "0x13cc8", "text": "plp_targets"}
+{"offset": "0x13cd8", "text": "hs_category"}
+{"offset": "0x13ce8", "text": "description"}
+{"offset": "0x13cf8", "text": "SAMPLE_ROOT"}
+{"offset": "0x13d08", "text": "write_text"}
+{"offset": "0x13d18", "text": "--retailer"}
+{"offset": "0x13d28", "text": "parse_args"}
+{"offset": "0x13d38", "text": "SystemExit"}
+{"offset": "0x13d60", "text": "SQL 저장 경로 (생략 시 stdout)"}
+{"offset": "0x13d88", "text": "read_text"}
+{"offset": "0x13d98", "text": "RETAILERS"}
+{"offset": "0x13dc0", "text": "-- ⚠️ GNB 추출 0건 (수동 URL 보완 필요): "}
+{"offset": "0x13df8", "text": "_sql_rows"}
+{"offset": "0x13e08", "text": "retailer"}
+{"offset": "0x13e18", "text": "list[str]"}
+{"offset": "0x13e28", "text": "instance"}
+{"offset": "0x13e38", "text": "encoding"}
+{"offset": "0x13e48", "text": "argparse"}
+{"offset": "0x13e60", "text": "특정 리테일러만 (예: Coolblue)"}
+{"offset": "0x13e88", "text": "resolve"}
+{"offset": "0x13e90", "text": "replace"}
+{"offset": "0x13e98", "text": "pathlib"}
+{"offset": "0x13ea0", "text": "missing"}
+{"offset": "0x13ea8", "text": "environ"}
+{"offset": "0x13eb0", "text": "country"}
+{"offset": "0x13eb8", "text": "__test__"}
+{"offset": "0x13ec1", "text": "stderr"}
+{"offset": "0x13ec8", "text": "sample"}
+{"offset": "0x13ecf", "text": "return"}
+{"offset": "0x13ed6", "text": "parent"}
+{"offset": "0x13ee0", "text": "__name__"}
+{"offset": "0x13ee9", "text": "main"}
+{"offset": "0x13eee", "text": "insert"}
+{"offset": "0x13ef8", "text": "__import__"}
+{"offset": "0x13f03", "text": "ignore"}
+{"offset": "0x13f0a", "text": "--html"}
+{"offset": "0x13f18", "text": "__file__"}
+{"offset": "0x13f21", "text": "errors"}
+{"offset": "0x13f28", "text": "INSERT"}
+{"offset": "0x13f2f", "text": "utf-8"}
+{"offset": "0x13f35", "text": "upper"}
+{"offset": "0x13f3b", "text": "print"}
+{"offset": "0x13f45", "text": "lines"}
+{"offset": "0x13f4b", "text": "error"}
+{"offset": "0x13f51", "text": "test"}
+{"offset": "0x13f58", "text": "__spec__"}
+{"offset": "0x13f61", "text": "rows"}
+{"offset": "0x13f66", "text": "path"}
+{"offset": "0x13f6b", "text": "name"}
+{"offset": "0x13f70", "text": "__main__"}
+{"offset": "0x13f79", "text": "jobs"}
+{"offset": "0x13f7e", "text": "html"}
+{"offset": "0x13f83", "text": "help"}
+{"offset": "0x13f88", "text": "glob"}
+{"offset": "0x13f8d", "text": "file"}
+{"offset": "0x13f92", "text": "args"}
+{"offset": "0x13f97", "text": "Path"}
+{"offset": "0x13fb0", "text": "--out"}
+{"offset": "0x13fd0", "text": "저장 → "}
+{"offset": "0x13fea", "text": "', '"}

@@ -1,0 +1,123 @@
+{"offset": "0x12000", "text": "%.200s() needs an argument"}
+{"offset": "0x1201b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x12039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1204f", "text": "__loader__"}
+{"offset": "0x1205a", "text": "loader"}
+{"offset": "0x12061", "text": "__file__"}
+{"offset": "0x1206a", "text": "origin"}
+{"offset": "0x12071", "text": "__package__"}
+{"offset": "0x1207d", "text": "parent"}
+{"offset": "0x12084", "text": "__path__"}
+{"offset": "0x1208d", "text": "submodule_search_locations"}
+{"offset": "0x120a8", "text": "keywords must be strings"}
+{"offset": "0x120c1", "text": "%s (%s:%d)"}
+{"offset": "0x120cc", "text": "core/ean_extract.py"}
+{"offset": "0x120e0", "text": "core.ean_extract._valid"}
+{"offset": "0x120f8", "text": "exactly"}
+{"offset": "0x12100", "text": "name '%U' is not defined"}
+{"offset": "0x12119", "text": "builtins"}
+{"offset": "0x12122", "text": "cython_runtime"}
+{"offset": "0x12131", "text": "__builtins__"}
+{"offset": "0x1213e", "text": "does not match"}
+{"offset": "0x1214d", "text": "_cython_3_0_12"}
+{"offset": "0x1215c", "text": "init core.ean_extract"}
+{"offset": "0x12172", "text": "core.ean_extract._from_jsonld"}
+{"offset": "0x12190", "text": "core.ean_extract.extract_ean"}
+{"offset": "0x121ad", "text": "_from_loaders"}
+{"offset": "0x121bb", "text": "__reduce__"}
+{"offset": "0x121c6", "text": "__module__"}
+{"offset": "0x121d1", "text": "func_doc"}
+{"offset": "0x121da", "text": "__doc__"}
+{"offset": "0x121e2", "text": "func_name"}
+{"offset": "0x121ec", "text": "__name__"}
+{"offset": "0x121f5", "text": "__qualname__"}
+{"offset": "0x12202", "text": "func_dict"}
+{"offset": "0x1220c", "text": "__dict__"}
+{"offset": "0x12215", "text": "func_globals"}
+{"offset": "0x12222", "text": "__globals__"}
+{"offset": "0x1222e", "text": "func_closure"}
+{"offset": "0x1223b", "text": "__closure__"}
+{"offset": "0x12247", "text": "func_code"}
+{"offset": "0x12251", "text": "__code__"}
+{"offset": "0x1225a", "text": "func_defaults"}
+{"offset": "0x12268", "text": "__defaults__"}
+{"offset": "0x12275", "text": "__kwdefaults__"}
+{"offset": "0x12284", "text": "__annotations__"}
+{"offset": "0x12294", "text": "_is_coroutine"}
+{"offset": "0x122a8", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x122d0", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x12300", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x12328", "text": "function's dictionary may not be deleted"}
+{"offset": "0x12358", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x12388", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x123e8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x12418", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x12448", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x12478", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x124e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x12510", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x12570", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x125a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x125c8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x12600", "text": "%.200s() keywords must be strings"}
+{"offset": "0x12628", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x12658", "text": " while calling a Python object"}
+{"offset": "0x12678", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x126a8", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/ean_extract.c"}
+{"offset": "0x126e0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x12720", "text": "Module 'ean_extract' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x12778", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x127c8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x127f8", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x12838", "text": "core.ean_extract._from_loaders"}
+{"offset": "0x12858", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x128a0", "text": "<script[^>]*type=[\\\"']application/ld\\+json[\\\"'][^>]*>(.*?)</script>"}
+{"offset": "0x12900", "text": "<script[^>]*\\bdata-flix-ean=[\\\"'](\\d{12,14})[\\\"'][^>]*>"}
+{"offset": "0x12940", "text": "\\bdata-flix-ean=[\\\"'](\\d{12,14})[\\\"']"}
+{"offset": "0x12980", "text": "[\\\"']\\w*[eE]an[\\\"']\\s*:\\s*[\\\"'](\\d{12,14})[\\\"']"}
+{"offset": "0x129b0", "text": "core/ean_extract.py"}
+{"offset": "0x129d0", "text": "cline_in_traceback"}
+{"offset": "0x129f0", "text": "\\bgtin1?3?=[\\\"']?(\\d{12,14})\\b"}
+{"offset": "0x12a10", "text": "asyncio.coroutines"}
+{"offset": "0x12a30", "text": "<script[^>]*\\bdata-flix-[^>]*>"}
+{"offset": "0x12a50", "text": "core.ean_extract"}
+{"offset": "0x12a80", "text": "\\bdata-flix-brand=[\\\"']([^\\\"']*)[\\\"']"}
+{"offset": "0x12aa8", "text": "_INLINE_EAN_RE"}
+{"offset": "0x12ab8", "text": "_is_coroutine"}
+{"offset": "0x12ac8", "text": "_initializing"}
+{"offset": "0x12ad8", "text": "_from_loaders"}
+{"offset": "0x12ae8", "text": "_GTIN_ATTR_RE"}
+{"offset": "0x12af8", "text": "_from_jsonld"}
+{"offset": "0x12b08", "text": "extract_ean"}
+{"offset": "0x12b18", "text": "startswith"}
+{"offset": "0x12b28", "text": "_LOADER_RE"}
+{"offset": "0x12b38", "text": "_JSONLD_RE"}
+{"offset": "0x12b48", "text": "str | None"}
+{"offset": "0x12b58", "text": "finditer"}
+{"offset": "0x12b68", "text": "_BRAND_RE"}
+{"offset": "0x12b78", "text": "isdigit"}
+{"offset": "0x12b80", "text": "findall"}
+{"offset": "0x12b88", "text": "compile"}
+{"offset": "0x12b90", "text": "Product"}
+{"offset": "0x12b98", "text": "search"}
+{"offset": "0x12b9f", "text": "return"}
+{"offset": "0x12ba8", "text": "__import__"}
+{"offset": "0x12bb3", "text": "gtin13"}
+{"offset": "0x12bba", "text": "_valid"}
+{"offset": "0x12bc1", "text": "upper"}
+{"offset": "0x12bc7", "text": "strip"}
+{"offset": "0x12bcd", "text": "loads"}
+{"offset": "0x12bd3", "text": "items"}
+{"offset": "0x12bd9", "text": "group"}
+{"offset": "0x12bdf", "text": "first"}
+{"offset": "0x12be5", "text": "cands"}
+{"offset": "0x12beb", "text": "@type"}
+{"offset": "0x12bf8", "text": "__test__"}
+{"offset": "0x12c08", "text": "__spec__"}
+{"offset": "0x12c18", "text": "__name__"}
+{"offset": "0x12c28", "text": "__main__"}
+{"offset": "0x12c31", "text": "json"}
+{"offset": "0x12c36", "text": "html"}
+{"offset": "0x12c3b", "text": "gtin"}
+{"offset": "0x12c40", "text": "data"}
+{"offset": "0x12c45", "text": "bool"}

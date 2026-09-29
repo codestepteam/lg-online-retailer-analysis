@@ -1,0 +1,898 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0034-datart",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.datart.cz/mrazaky-suplikove-52744/gorenje",
+    "finalUrl": "https://www.datart.cz/mrazaky-suplikove-52744/gorenje",
+    "capturedAt": "2026-09-28T07:58:18.002575+09:00",
+    "collectionOk": true,
+    "title": "Mrazáky šuplíkové Gorenje | DATART"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0034-datart/brand-category/raw.html",
+      "sha256": "48abac91105c33d535f70995ba663b30aa963a80be7b7b40f3f74e5809ff0552"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0034-datart/brand-category/capture-state.json",
+      "sha256": "c2d1ac05e88ed6c2e1566fe26176402a61cb361ca4149fbb89c20fe0a78a8612"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0034-datart/brand-category/response.json",
+      "sha256": "934650426b21c75c093084c31c92051f4f5d85ae7d76b51220f76c627be80316"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "snippet#snippet--categoryProductList > div.container.p-0 > div.product-category-koncova__grid.js-product-category-wrapper > div.product-category-koncova__grid-top-content > div.product-category-koncova__grid-cell-inner > h1.product-category-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Mrazáky šuplíkové Gorenje",
+        "attributes": {
+          "class": "product-category-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "snippet#snippet--categoryParametricFilter > div.filter-groups.bg-white.especially-lg > div#filter-parameters > div#feedbackFormButton > div.feedback-container > h3.title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nenašli jste požadovaný filtr?",
+        "attributes": {
+          "class": "title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.exponea-app-download > div.blmr-container > div.main-content-container > div.text > div.main-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "APLIKACE DATART",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "html > body > div#subscriptionNewsletter > dialog#subscription-modal > div.modal-body > h2#subscription-modal-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Děkujeme za váš zájem!",
+        "attributes": {
+          "id": "subscription-modal-title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#cc--main > div#cc_div > div#cm > div#c-inr > div#c-inr-i > h2#c-ttl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nastavení soukromí",
+        "attributes": {
+          "id": "c-ttl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#c-vln > div#cs > div#c-s-in > div#s-inr > div#s-hdr > h2#s-ttl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nastavení cookies",
+        "attributes": {
+          "id": "s-ttl"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 68,
+        "top10ByRenderedArea": [
+          {
+            "index": 18,
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgMTkwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjE5MCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=",
+            "alt": "",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 300,
+            "naturalHeight": 63,
+            "naturalArea": 18900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/5681a959-ce9b-4819-9233-eeb288beab81/w=900/3572e91f-ef65-4429-ad7e-8a6cc583c0f0.webp?_v=MDYyNjEzMjgzMEF1Z3c3NEI&_s=642cd55d7ebf7a6f87ae21ac827c0ad85ad8e4c220e9baf9793b739b2e732ed3",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/15e12aab-62c1-499f-b98c-6d01f6eca30b/w=900/65e95cce-02e3-4023-aaae-09c31e620b66.webp?_v=MDcyNjU2MDQyOEF1Z3A2dXc&_s=7a440e9a05ed8669b2e219d99482e13ee14908a1ca701d90c804a6580f833681",
+            "alt": "Splátky s nízkým úrokem - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 64,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/d8aea47e-35f2-4e82-9a11-48e344410aa6/w=350/5f629ac5-e13e-4be5-b7ea-1d7fbf004429.webp?_v=MTIyNTI5MjkyNURlY1c0SzU&_s=33dd83028bc7b923d285629b9bb0d803eab054341eba4803ee0358ae56c56907",
+            "alt": "ARTové služby",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 65,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8edfbfe1-4a47-416c-81e4-5fc54deeb157/w=350/b4e16e19-38d6-41a1-a2dc-76b1e7051fd0.webp?_v=MTAyNjQzMTY1MFNlcHRra1Q&_s=27b8b01ff0a1bac185b91d02a2f50b1580176e769d57f38f7af5a041756679cc",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 66,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/9bbfa6d7-c9b3-4097-a354-fbe1c5e02a8e/w=350/89237506-5020-4ad8-bbf9-d58653b2e2a7.webp?_v=MDYyNjE0Mjg0MkF1ZzVJVVc&_s=1ccecd23ca2ea57bf9284d823d3de9349eec1b869db4cc62f085ba455d52d26a",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 64,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/d8aea47e-35f2-4e82-9a11-48e344410aa6/w=350/5f629ac5-e13e-4be5-b7ea-1d7fbf004429.webp?_v=MTIyNTI5MjkyNURlY1c0SzU&_s=33dd83028bc7b923d285629b9bb0d803eab054341eba4803ee0358ae56c56907",
+            "alt": "ARTové služby",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 65,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8edfbfe1-4a47-416c-81e4-5fc54deeb157/w=350/b4e16e19-38d6-41a1-a2dc-76b1e7051fd0.webp?_v=MTAyNjQzMTY1MFNlcHRra1Q&_s=27b8b01ff0a1bac185b91d02a2f50b1580176e769d57f38f7af5a041756679cc",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 66,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/9bbfa6d7-c9b3-4097-a354-fbe1c5e02a8e/w=350/89237506-5020-4ad8-bbf9-d58653b2e2a7.webp?_v=MDYyNjE0Mjg0MkF1ZzVJVVc&_s=1ccecd23ca2ea57bf9284d823d3de9349eec1b869db4cc62f085ba455d52d26a",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 67,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/ca1cf172-3e6a-47aa-adec-b0bbb893f1d4/w=350/b004155c-7567-4aec-875c-294e7ff1539a.webp?_v=MDcyNjU3MDQzNUF1Z24ycmM&_s=880778487bf97d57350a9d572d2dc936c849166330f11d98371f9030a2e66f26",
+            "alt": "Splátky s nízkým úrokem - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 68,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/d8aea47e-35f2-4e82-9a11-48e344410aa6/w=350/5f629ac5-e13e-4be5-b7ea-1d7fbf004429.webp?_v=MTIyNTI5MjkyNURlY1c0SzU&_s=33dd83028bc7b923d285629b9bb0d803eab054341eba4803ee0358ae56c56907",
+            "alt": "ARTové služby",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 69,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8edfbfe1-4a47-416c-81e4-5fc54deeb157/w=350/b4e16e19-38d6-41a1-a2dc-76b1e7051fd0.webp?_v=MTAyNjQzMTY1MFNlcHRra1Q&_s=27b8b01ff0a1bac185b91d02a2f50b1580176e769d57f38f7af5a041756679cc",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 97,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/2d2f2182-60a3-4c88-9e57-030f30d84191/w=350/3ee06ba5-4251-40d3-8bad-ace2bcd6acba.webp?_v=MDgyNDQwMzEyOE9jdFk3OXg&_s=2c755584c1db4719bd80019ac911b0b38885d647d16747aee31ad5a6778055d9",
+            "alt": "Články Datart",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 98,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/680c54ee-17e2-4c33-ac82-839fdd202034/w=350/cf7bd9e3-0332-4bd2-81d6-54fffb2c2ad4.webp?_v=MDgyNjIwMzExNE1hcjlrTFg&_s=abe307d86c127119ac7f2e59da960996577a305bd3cc9afd0b7b5abe6434a058",
+            "alt": "Mobilní aplikace - opravdový elektrospecialista v kapse - DATART",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 99,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8a3072b4-efc1-47db-a4ca-b88c116f6f9e/w=350/5fdd6fbe-a19a-4fec-bc5a-afc058dc0672.webp?_v=MTEyNjI3MjczMkZlYlh5UjI&_s=6f0f4c5bfc5b8c6d8647ab92f7d99a9638ebc49e544e8230833411c91a43315b",
+            "alt": "Všechny služby k MDA - DATART",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 100,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/5abe7bcf-8095-4764-8553-2b1dd8bad025/w=350/a91c6f9e-18cd-491e-b618-8b38c75deed1.webp?_v=MDkyNjI3Mjc0MEZlYkFoY2M&_s=2a065c97a454b0468712d0f27f40eaaa4525608abe7b50e328500e0e8c2907f7",
+            "alt": "Otočení dvířek u lednic a mrazáků - DATART",
+            "renderedWidth": 285,
+            "renderedHeight": 590,
+            "renderedArea": 168150,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Mrazáky šuplíkové Gorenje | DATART"
+        ],
+        "metaDescription": [
+          "DATART - přední český prodejce elektroniky. Vaše zboží připravíme na prodejně už do 30 minut nebo doručíme po celé ČR."
+        ],
+        "h1": [
+          "Mrazáky šuplíkové Gorenje"
+        ],
+        "robots": [
+          "index,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.datart.cz/mrazaky-suplikove-52744/gorenje"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 18,
+            "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MDAgMTkwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjE5MCIgZmlsbD0id2hpdGUiLz48L3N2Zz4=",
+            "alt": "",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 300,
+            "naturalHeight": 63,
+            "naturalArea": 18900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/5681a959-ce9b-4819-9233-eeb288beab81/w=900/3572e91f-ef65-4429-ad7e-8a6cc583c0f0.webp?_v=MDYyNjEzMjgzMEF1Z3c3NEI&_s=642cd55d7ebf7a6f87ae21ac827c0ad85ad8e4c220e9baf9793b739b2e732ed3",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/15e12aab-62c1-499f-b98c-6d01f6eca30b/w=900/65e95cce-02e3-4023-aaae-09c31e620b66.webp?_v=MDcyNjU2MDQyOEF1Z3A2dXc&_s=7a440e9a05ed8669b2e219d99482e13ee14908a1ca701d90c804a6580f833681",
+            "alt": "Splátky s nízkým úrokem - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/dac985f7-18de-4fcc-9487-28eaa0470b9a/w=900/b08f0572-1eb1-4ec4-aab9-7ad0cb092f82.webp?_v=MTIyNTI1Mjk0MURlY1BnSUw&_s=7b49b612f8a12134716e83fa6c0f33b772f8c49167323ad12356028151aa5226",
+            "alt": "ARTové služby",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/99e26016-92e2-42df-9f9f-b36c75e1f512/w=900/2a242db3-282a-4f56-acc0-95099ef456a3.webp?_v=MTAyNjQyMTY0OFNlcGV0NWI&_s=ac0e8e93770a1d446ddddef05c623e3049e8d272ffb68208315686d3375e18f6",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 900,
+            "renderedHeight": 190,
+            "renderedArea": 171000,
+            "naturalWidth": 450,
+            "naturalHeight": 95,
+            "naturalArea": 42750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 64,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/d8aea47e-35f2-4e82-9a11-48e344410aa6/w=350/5f629ac5-e13e-4be5-b7ea-1d7fbf004429.webp?_v=MTIyNTI5MjkyNURlY1c0SzU&_s=33dd83028bc7b923d285629b9bb0d803eab054341eba4803ee0358ae56c56907",
+            "alt": "ARTové služby",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 65,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/8edfbfe1-4a47-416c-81e4-5fc54deeb157/w=350/b4e16e19-38d6-41a1-a2dc-76b1e7051fd0.webp?_v=MTAyNjQzMTY1MFNlcHRra1Q&_s=27b8b01ff0a1bac185b91d02a2f50b1580176e769d57f38f7af5a041756679cc",
+            "alt": "DATART nákupy - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 66,
+            "src": "https://amp.hptronic.cz/data/images/banner_content/9bbfa6d7-c9b3-4097-a354-fbe1c5e02a8e/w=350/89237506-5020-4ad8-bbf9-d58653b2e2a7.webp?_v=MDYyNjE0Mjg0MkF1ZzVJVVc&_s=1ccecd23ca2ea57bf9284d823d3de9349eec1b869db4cc62f085ba455d52d26a",
+            "alt": "VISA soutěž o iPhone - DATART",
+            "renderedWidth": 286,
+            "renderedHeight": 590,
+            "renderedArea": 168740,
+            "naturalWidth": 1919,
+            "naturalHeight": 3236,
+            "naturalArea": 6209884,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "html > body > div#subscriptionNewsletter > dialog#subscription-modal > div.modal-body > div.subscription-modal__benefits",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "získáte výhodné slevy na zboží o akcích a novinkách se dozvíte mezi prvními na míru vám ušijeme speciální nabídky",
+            "attributes": {
+              "class": "subscription-modal__benefits"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Mrazáky",
+            "href": "https://www.datart.cz/mrazaky.html",
+            "signals": [
+              "페이지 주제어와 일치: mrazaky"
+            ]
+          },
+          {
+            "text": "Mrazáky šuplíkové",
+            "href": "https://www.datart.cz/mrazaky-suplikove.html",
+            "signals": [
+              "페이지 주제어와 일치: mrazaky, suplikove"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje F585DW4 bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-f585dw4-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje F514EW5 bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-f514ew5-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje F49CPW bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-f49cpw-bila",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Essential FN617EES5 šedá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-essential-fn617ees5-seda.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Advanced FN619EAXL6 nerez",
+            "href": "https://www.datart.cz/mraznicka-gorenje-advanced-fn619eaxl6-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Primary F49DPW bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-primary-f49dpw-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Primary F4142PW bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-primary-f4142pw-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Essential FN619EES5 nerez",
+            "href": "https://www.datart.cz/mraznicka-gorenje-essential-fn619ees5-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Essential FN619EEW5 bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-essential-fn619eew5-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje FN517DW5 bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-fn517dw5-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Essential FN617EEW5 bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-essential-fn617eew5-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje G600 FNC618C61X6WFE nerez",
+            "href": "https://www.datart.cz/mraznicka-gorenje-g600-fnc618c61x6wfe-nerez",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Advanced FN619DAXL6 nerez",
+            "href": "https://www.datart.cz/mraznicka-gorenje-advanced-fn619daxl6-nerez.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Primary F492PW bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-primary-f492pw-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          },
+          {
+            "text": "Mraznička Gorenje Essential FN4172CW bílá",
+            "href": "https://www.datart.cz/mraznicka-gorenje-essential-fn4172cw-bila.html",
+            "signals": [
+              "페이지 주제어와 일치: gorenje"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "snippet",
+            "path": "html > body > main#main > div.product-category-koncova.category-with-filter > snippet#snippet--login-refresh > snippet#snippet--categoryProductList",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Mrazáky šuplíkové Gorenje Nejprodávanější v kategorii Nejprodávanější produkty Mraznička ETA 374990000D bílá ETA 374990000D bílá Skladem v 66 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 499 Kč 6 690 Kč Mraznička Siemens iQ500 GS58NAWCV bílá Siemens iQ500 GS58NAWCV bílá Skladem v 34 prodejnách Ihned k odeslání u vás již 30. 9. 2026 u vás již 30. 9. 2026 ? Nejnižší cena za posledních 30 dní. 20 299 Kč 24 850 Kč Mraznička ETA 254590000D bílá ETA 254590000D bílá Skladem v 42 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 13 999 Kč 15 590 Kč Mraznička ETA 385290020D černá ETA 385290020D černá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 7 499 Kč 8 890 Kč Mraznička Gorenje F49CPW bílá Gorenje F49CPW bílá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 389 Kč 6 490 Kč Mraznička ETA 236990000D bílá ETA 236990000D bílá Skladem v 61 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 6 290 Kč 6 290 Kč Mraznička ETA 275990000E bílá ETA 275990000E bílá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 3 599 Kč 4 190 Kč Mraznička Bosch Serie 4 GSN36VLCG Total No Frost nerez Bosch Serie 4 GSN36VLCG Total No Frost nerez Skladem v 5 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 18 990 Kč 22 590 Kč Mraznička Hyundai FSB050WW8E bílá Hyundai FSB050WW8E bílá Skladem v 51 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 2 999 Kč 3 599 Kč Mraznička Gorenje F514EW5 bílá Gorenje F514EW5 bílá Skladem v 12 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 999 Kč 7 450 Kč Zobrazit dalších 7 produktů Skrýt 7 produktů Mraznička ETA 374990000D bílá ETA 374990000D bílá Skladem v 66 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 499 Kč 6 690 Kč Mraznička Siemens iQ500 GS58NAWCV bílá Siemens iQ500 GS58NAWCV bílá Skladem v 34 prodejnách Ihned k odeslání u vás již 30. 9. 2026 u vás již 30. 9. 2026 ? Nejnižší cena za posledních 30 dní. 20 299 Kč 24 850 Kč Mraznička ETA 254590000D bílá ETA 254590000D bílá Skladem v 42 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 13 999 Kč 15 590 Kč Mraznička ETA 385290020D černá ETA 385290020D černá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 7 499 Kč 8 890 Kč Mraznička Gorenje F49CPW bílá Gorenje F49CPW bílá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 389 Kč 6 490 Kč Mraznička ETA 236990000D bílá ETA 236990000D bílá Skladem v 61 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 6 290 Kč 6 290 Kč Mraznička ETA 275990000E bílá ETA 275990000E bílá Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 3 599 Kč 4 190 Kč Mraznička Bosch Serie 4 GSN36VLCG Total No Frost nerez Bosch Serie 4 GSN36VLCG Total No Frost nerez Skladem v 5 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 18 990 Kč 22 590 Kč Mraznička Hyundai FSB050WW8E bílá Hyundai FSB050WW8E bílá Skladem v 51 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 2 999 Kč 3 599 Kč Mraznička Gorenje F514EW5 bílá Gorenje F514EW5 bílá Skladem v 12 prodejnách Ihned k odeslání u vás již 29. 9. 2026 u vás již 29. 9. 2026 ? Nejnižší cena za posledních 30 dní. 5 999 Kč 7 450 Kč ‹ › Filtrovat 15 Mrazáky šuplí",
+            "attributes": {
+              "id": "snippet--categoryProductList",
+              "class": "snippet"
+            }
+          }
+        ],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

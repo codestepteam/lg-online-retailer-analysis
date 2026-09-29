@@ -1,0 +1,224 @@
+{"offset": "0x1b000", "text": "%.200s() needs an argument"}
+{"offset": "0x1b01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1b039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1b04f", "text": "cannot import name %S"}
+{"offset": "0x1b065", "text": "__loader__"}
+{"offset": "0x1b070", "text": "loader"}
+{"offset": "0x1b077", "text": "__file__"}
+{"offset": "0x1b080", "text": "origin"}
+{"offset": "0x1b087", "text": "__package__"}
+{"offset": "0x1b093", "text": "parent"}
+{"offset": "0x1b09a", "text": "__path__"}
+{"offset": "0x1b0a3", "text": "submodule_search_locations"}
+{"offset": "0x1b0be", "text": "keywords must be strings"}
+{"offset": "0x1b0d7", "text": "_cython_coroutine_type"}
+{"offset": "0x1b0ee", "text": "_cython_generator_type"}
+{"offset": "0x1b105", "text": "_module"}
+{"offset": "0x1b10d", "text": "__builtins__"}
+{"offset": "0x1b11a", "text": "_cython_3_0_12"}
+{"offset": "0x1b129", "text": "%s (%s:%d)"}
+{"offset": "0x1b134", "text": "generator already executing"}
+{"offset": "0x1b150", "text": "name '%U' is not defined"}
+{"offset": "0x1b169", "text": "builtins"}
+{"offset": "0x1b172", "text": "cython_runtime"}
+{"offset": "0x1b181", "text": "does not match"}
+{"offset": "0x1b190", "text": "collections.abc"}
+{"offset": "0x1b1a0", "text": "backports_abc"}
+{"offset": "0x1b1b1", "text": "genexpr"}
+{"offset": "0x1b1b9", "text": "_card_json"}
+{"offset": "0x1b1c4", "text": "exactly"}
+{"offset": "0x1b1cc", "text": "parse"}
+{"offset": "0x1b1d2", "text": "brand_from_name"}
+{"offset": "0x1b1e2", "text": "_search_term"}
+{"offset": "0x1b1ef", "text": "throw"}
+{"offset": "0x1b1f5", "text": "extract_products"}
+{"offset": "0x1b206", "text": "_tile_brand"}
+{"offset": "0x1b212", "text": "_anchor_name"}
+{"offset": "0x1b21f", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1b238", "text": "__name__"}
+{"offset": "0x1b241", "text": "name of the generator"}
+{"offset": "0x1b257", "text": "__qualname__"}
+{"offset": "0x1b264", "text": "gi_frame"}
+{"offset": "0x1b26d", "text": "Frame of the generator"}
+{"offset": "0x1b284", "text": "gi_running"}
+{"offset": "0x1b28f", "text": "gi_yieldfrom"}
+{"offset": "0x1b29c", "text": "gi_code"}
+{"offset": "0x1b2a4", "text": "__module__"}
+{"offset": "0x1b2af", "text": "send"}
+{"offset": "0x1b2b4", "text": "close"}
+{"offset": "0x1b2ba", "text": "__reduce__"}
+{"offset": "0x1b2c5", "text": "func_doc"}
+{"offset": "0x1b2ce", "text": "__doc__"}
+{"offset": "0x1b2d6", "text": "func_name"}
+{"offset": "0x1b2e0", "text": "func_dict"}
+{"offset": "0x1b2ea", "text": "__dict__"}
+{"offset": "0x1b2f3", "text": "func_globals"}
+{"offset": "0x1b300", "text": "__globals__"}
+{"offset": "0x1b30c", "text": "func_closure"}
+{"offset": "0x1b319", "text": "__closure__"}
+{"offset": "0x1b325", "text": "func_code"}
+{"offset": "0x1b32f", "text": "__code__"}
+{"offset": "0x1b338", "text": "func_defaults"}
+{"offset": "0x1b346", "text": "__defaults__"}
+{"offset": "0x1b353", "text": "__kwdefaults__"}
+{"offset": "0x1b362", "text": "__annotations__"}
+{"offset": "0x1b372", "text": "_is_coroutine"}
+{"offset": "0x1b380", "text": "elcorteingles"}
+{"offset": "0x1b390", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1b3b8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1b3e8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1b410", "text": " while calling a Python object"}
+{"offset": "0x1b430", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1b460", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1b490", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1b4c0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1b520", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1b550", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1b580", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1b5b0", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1b618", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1b648", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1b6a8", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1b6d8", "text": "__name__ must be set to a string object"}
+{"offset": "0x1b700", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x1b848", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x1b880", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1b8b8", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1b8e0", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1b910", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x1b948", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1b978", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1b9b8", "text": "/tmp/clinic_build_y1xih54e/cbuild/parse_retailers/home/elcorteingles.c"}
+{"offset": "0x1ba00", "text": "generator ignored GeneratorExit"}
+{"offset": "0x1ba20", "text": "Module 'elcorteingles' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1ba78", "text": "parse_retailers.home.elcorteingles"}
+{"offset": "0x1baa0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1baf0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1bb18", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1bbc8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x1bc08", "text": "parse_retailers/home/elcorteingles.py"}
+{"offset": "0x1bc30", "text": "init parse_retailers.home.elcorteingles"}
+{"offset": "0x1bc58", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x1bc90", "text": "generator raised StopIteration"}
+{"offset": "0x1bcb0", "text": "parse_retailers.home.elcorteingles._card_json"}
+{"offset": "0x1bce0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1bd20", "text": "parse_retailers.home.elcorteingles.parse"}
+{"offset": "0x1bd50", "text": "parse_retailers.home.elcorteingles.brand_from_name"}
+{"offset": "0x1bd88", "text": "parse_retailers.home.elcorteingles._search_term"}
+{"offset": "0x1bdb8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1bde0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x1be10", "text": "instance exception may not have a separate value"}
+{"offset": "0x1be48", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x1be90", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x1bed0", "text": "parse_retailers.home.elcorteingles.extract_products"}
+{"offset": "0x1bf08", "text": "parse_retailers.home.elcorteingles._tile_brand.genexpr"}
+{"offset": "0x1bf40", "text": "parse_retailers.home.elcorteingles._tile_brand"}
+{"offset": "0x1bf70", "text": "parse_retailers.home.elcorteingles._anchor_name"}
+{"offset": "0x1bfa0", "text": "qualified name of the generator"}
+{"offset": "0x1bfc0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x1bff0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1c050", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1c0c0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x1c0f8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1c128", "text": "parse_retailers.home.elcorteingles.__pyx_scope_struct__genexpr"}
+{"offset": "0x1c180", "text": "parse_retailers/home/elcorteingles.py"}
+{"offset": "0x1c1c0", "text": "parse_retailers.home.elcorteingles"}
+{"offset": "0x1c1f0", "text": "https://www.elcorteingles.es"}
+{"offset": "0x1c210", "text": "_tile_brand.<locals>.genexpr"}
+{"offset": "0x1c230", "text": "cline_in_traceback"}
+{"offset": "0x1c250", "text": "asyncio.coroutines"}
+{"offset": "0x1c270", "text": "extract_products"}
+{"offset": "0x1c290", "text": "_NAME_SKIP_TOKENS"}
+{"offset": "0x1c2b0", "text": "brand_from_name"}
+{"offset": "0x1c2c0", "text": "JSONDecodeError"}
+{"offset": "0x1c2d0", "text": "search_term"}
+{"offset": "0x1c2e0", "text": "HOME_TEMPLATE"}
+{"offset": "0x1c2f0", "text": "BeautifulSoup"}
+{"offset": "0x1c300", "text": "urllib.parse"}
+{"offset": "0x1c310", "text": "unquote_plus"}
+{"offset": "0x1c320", "text": "lavavajillas"}
+{"offset": "0x1c330", "text": "_is_coroutine"}
+{"offset": "0x1c340", "text": "_initializing"}
+{"offset": "0x1c350", "text": "_PRODUCT_HREF"}
+{"offset": "0x1c360", "text": "_search_term"}
+{"offset": "0x1c370", "text": "integrables"}
+{"offset": "0x1c380", "text": "instalacion"}
+{"offset": "0x1c390", "text": "html.parser"}
+{"offset": "0x1c3a0", "text": "_anchor_name"}
+{"offset": "0x1c3b0", "text": "_MAX_RESULTS"}
+{"offset": "0x1c3c0", "text": "_tile_brand"}
+{"offset": "0x1c3d0", "text": "n_products"}
+{"offset": "0x1c3e0", "text": "integrable"}
+{"offset": "0x1c3f0", "text": "instalación"}
+{"offset": "0x1c400", "text": "list | None"}
+{"offset": "0x1c410", "text": "isenabled"}
+{"offset": "0x1c420", "text": "integrado"}
+{"offset": "0x1c430", "text": "final_url"}
+{"offset": "0x1c440", "text": "dict | None"}
+{"offset": "0x1c450", "text": "data-json"}
+{"offset": "0x1c460", "text": "core.eval"}
+{"offset": "0x1c470", "text": "_card_json"}
+{"offset": "0x1c480", "text": "TypeError"}
+{"offset": "0x1c490", "text": "urlsplit"}
+{"offset": "0x1c4a0", "text": "str | None"}
+{"offset": "0x1c4b0", "text": "parse_qs"}
+{"offset": "0x1c4c0", "text": "page_url"}
+{"offset": "0x1c4d0", "text": "itemprop"}
+{"offset": "0x1c4e0", "text": "get_text"}
+{"offset": "0x1c4f0", "text": "find_all"}
+{"offset": "0x1c500", "text": "deepcopy"}
+{"offset": "0x1c510", "text": "compacto"}
+{"offset": "0x1c520", "text": "compacta"}
+{"offset": "0x1c530", "text": "urljoin"}
+{"offset": "0x1c538", "text": "results"}
+{"offset": "0x1c540", "text": "isdigit"}
+{"offset": "0x1c548", "text": "genexpr"}
+{"offset": "0x1c550", "text": "disable"}
+{"offset": "0x1c558", "text": "compile"}
+{"offset": "0x1c560", "text": "search"}
+{"offset": "0x1c567", "text": "return"}
+{"offset": "0x1c56e", "text": "result"}
+{"offset": "0x1c575", "text": "parent"}
+{"offset": "0x1c580", "text": "__name__"}
+{"offset": "0x1c590", "text": "__import__"}
+{"offset": "0x1c59b", "text": "enable"}
+{"offset": "0x1c5a2", "text": "title"}
+{"offset": "0x1c5a8", "text": "throw"}
+{"offset": "0x1c5ae", "text": "strip"}
+{"offset": "0x1c5b4", "text": "split"}
+{"offset": "0x1c5ba", "text": "range"}
+{"offset": "0x1c5c0", "text": "query"}
+{"offset": "0x1c5c6", "text": "parse"}
+{"offset": "0x1c5cc", "text": "lower"}
+{"offset": "0x1c5d2", "text": "loads"}
+{"offset": "0x1c5d8", "text": "limit"}
+{"offset": "0x1c5de", "text": "libre"}
+{"offset": "0x1c5e4", "text": "items"}
+{"offset": "0x1c5ea", "text": "group"}
+{"offset": "0x1c5f0", "text": "close"}
+{"offset": "0x1c5f6", "text": "brand"}
+{"offset": "0x1c5fc", "text": "attrs"}
+{"offset": "0x1c608", "text": "/(A\\d{6,})-"}
+{"offset": "0x1c614", "text": "vals"}
+{"offset": "0x1c620", "text": "__test__"}
+{"offset": "0x1c630", "text": "__spec__"}
+{"offset": "0x1c639", "text": "soup"}
+{"offset": "0x1c63e", "text": "send"}
+{"offset": "0x1c643", "text": "seen"}
+{"offset": "0x1c648", "text": "rank"}
+{"offset": "0x1c64d", "text": "para"}
+{"offset": "0x1c652", "text": "node"}
+{"offset": "0x1c657", "text": "name"}
+{"offset": "0x1c65c", "text": "mini"}
+{"offset": "0x1c661", "text": "meta"}
+{"offset": "0x1c668", "text": "__main__"}
+{"offset": "0x1c671", "text": "json"}
+{"offset": "0x1c676", "text": "html"}
+{"offset": "0x1c67b", "text": "href"}
+{"offset": "0x1c680", "text": "find"}
+{"offset": "0x1c685", "text": "dict"}
+{"offset": "0x1c68a", "text": "copy"}
+{"offset": "0x1c68f", "text": "card"}
+{"offset": "0x1c694", "text": "args"}
+{"offset": "0x1c699", "text": "_BASE"}
+{"offset": "0x1c6b3", "text": "[\\s,]+"}

@@ -1,0 +1,242 @@
+{"offset": "0x21000", "text": "%.200s() needs an argument"}
+{"offset": "0x2101b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x21039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2104f", "text": "cannot import name %S"}
+{"offset": "0x21065", "text": "__loader__"}
+{"offset": "0x21070", "text": "loader"}
+{"offset": "0x21077", "text": "__file__"}
+{"offset": "0x21080", "text": "origin"}
+{"offset": "0x21087", "text": "__package__"}
+{"offset": "0x21093", "text": "parent"}
+{"offset": "0x2109a", "text": "__path__"}
+{"offset": "0x210a3", "text": "submodule_search_locations"}
+{"offset": "0x210be", "text": "keywords must be strings"}
+{"offset": "0x210d7", "text": "_cython_coroutine_type"}
+{"offset": "0x210ee", "text": "_cython_generator_type"}
+{"offset": "0x21105", "text": "_module"}
+{"offset": "0x2110d", "text": "__builtins__"}
+{"offset": "0x2111a", "text": "_cython_3_0_12"}
+{"offset": "0x21129", "text": "%s (%s:%d)"}
+{"offset": "0x21137", "text": "genexpr"}
+{"offset": "0x2113f", "text": "generator already executing"}
+{"offset": "0x2115b", "text": "name '%U' is not defined"}
+{"offset": "0x21174", "text": "builtins"}
+{"offset": "0x2117d", "text": "cython_runtime"}
+{"offset": "0x2118c", "text": "does not match"}
+{"offset": "0x2119b", "text": "collections.abc"}
+{"offset": "0x211ab", "text": "backports_abc"}
+{"offset": "0x211b9", "text": "upsert"}
+{"offset": "0x211c0", "text": "exactly"}
+{"offset": "0x211c8", "text": "rows"}
+{"offset": "0x211cd", "text": "targets"}
+{"offset": "0x211d5", "text": "throw"}
+{"offset": "0x211db", "text": "_cython_3_0_12.generator"}
+{"offset": "0x211f4", "text": "__name__"}
+{"offset": "0x211fd", "text": "name of the generator"}
+{"offset": "0x21213", "text": "__qualname__"}
+{"offset": "0x21220", "text": "gi_frame"}
+{"offset": "0x21229", "text": "Frame of the generator"}
+{"offset": "0x21240", "text": "gi_running"}
+{"offset": "0x2124b", "text": "gi_yieldfrom"}
+{"offset": "0x21258", "text": "gi_code"}
+{"offset": "0x21260", "text": "__module__"}
+{"offset": "0x2126b", "text": "send"}
+{"offset": "0x21270", "text": "close"}
+{"offset": "0x21276", "text": "__reduce__"}
+{"offset": "0x21281", "text": "func_doc"}
+{"offset": "0x2128a", "text": "__doc__"}
+{"offset": "0x21292", "text": "func_name"}
+{"offset": "0x2129c", "text": "func_dict"}
+{"offset": "0x212a6", "text": "__dict__"}
+{"offset": "0x212af", "text": "func_globals"}
+{"offset": "0x212bc", "text": "__globals__"}
+{"offset": "0x212c8", "text": "func_closure"}
+{"offset": "0x212d5", "text": "__closure__"}
+{"offset": "0x212e1", "text": "func_code"}
+{"offset": "0x212eb", "text": "__code__"}
+{"offset": "0x212f4", "text": "func_defaults"}
+{"offset": "0x21302", "text": "__defaults__"}
+{"offset": "0x2130f", "text": "__kwdefaults__"}
+{"offset": "0x2131e", "text": "__annotations__"}
+{"offset": "0x2132e", "text": "_is_coroutine"}
+{"offset": "0x2133c", "text": "backfill_ean_from_lgcom"}
+{"offset": "0x21354", "text": "main"}
+{"offset": "0x21360", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x21388", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x213b8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x213e0", "text": " while calling a Python object"}
+{"offset": "0x21400", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x21430", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x21458", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x21508", "text": "function's dictionary may not be deleted"}
+{"offset": "0x21538", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x21568", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x215c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x215f8", "text": "generator raised StopIteration"}
+{"offset": "0x21618", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x21648", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x21678", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x216e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x21710", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x21770", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x217a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x217c8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x21910", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x21948", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x21978", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x219b0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x219d8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x21a08", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x21a40", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x21a70", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x21ab0", "text": "join() result is too long for a Python string"}
+{"offset": "0x21ae0", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/backfill_ean_from_lgcom.c"}
+{"offset": "0x21b28", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x21b60", "text": "scripts/backfill_ean_from_lgcom.py"}
+{"offset": "0x21b88", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x21bb0", "text": "Module 'backfill_ean_from_lgcom' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x21c10", "text": "scripts.backfill_ean_from_lgcom"}
+{"offset": "0x21c30", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x21c80", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x21cc0", "text": "init scripts.backfill_ean_from_lgcom"}
+{"offset": "0x21ce8", "text": "generator ignored GeneratorExit"}
+{"offset": "0x21d08", "text": "scripts.backfill_ean_from_lgcom.upsert"}
+{"offset": "0x21d30", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x21d70", "text": "scripts.backfill_ean_from_lgcom.targets.genexpr"}
+{"offset": "0x21da0", "text": "scripts.backfill_ean_from_lgcom.targets"}
+{"offset": "0x21dc8", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x21df0", "text": "scripts.backfill_ean_from_lgcom.main"}
+{"offset": "0x21e18", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x21e48", "text": "instance exception may not have a separate value"}
+{"offset": "0x21e80", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x21ec8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x21f08", "text": "qualified name of the generator"}
+{"offset": "0x21f28", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x21f58", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x21fb8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x22028", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x22060", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x22090", "text": "scripts.backfill_ean_from_lgcom.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x220d0", "text": "scripts.backfill_ean_from_lgcom.__pyx_scope_struct__genexpr"}
+{"offset": "0x22120", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x22200", "text": "scripts/backfill_ean_from_lgcom.py"}
+{"offset": "0x22240", "text": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"offset": "0x222c0", "text": "INSERT INTO product_ean (model_mpc, ean, source) VALUES (%s,%s,%s) ON DUPLICATE KEY UPDATE model_mpc=model_mpc"}
+{"offset": "0x22340", "text": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+{"offset": "0x22380", "text": "scripts.backfill_ean_from_lgcom"}
+{"offset": "0x223a0", "text": "\n        SELECT UPPER(p.sales_model_code) AS model,\n               SUBSTRING(p.locale, 1, 2) AS cc, p.url\n          FROM pdp_20260622 p\n          LEFT JOIN product_ean e ON e.model_mpc = UPPER(p.sales_model_code)\n         WHERE e.model_mpc IS NULL\n               AND SUBSTRING(p.locale, 1, 2) IN ("}
+{"offset": "0x224e0", "text": ")\n               AND p.url IS NOT NULL AND p.url <> ''\n         GROUP BY model, cc, p.url\n         ORDER BY cc, model\n    "}
+{"offset": "0x22560", "text": "Upgrade-Insecure-Requests"}
+{"offset": "0x22580", "text": "targets.<locals>.genexpr"}
+{"offset": "0x225a0", "text": "cline_in_traceback"}
+{"offset": "0x225c0", "text": "asyncio.coroutines"}
+{"offset": "0x225e0", "text": "follow_redirects"}
+{"offset": "0x22600", "text": "core.ean_extract"}
+{"offset": "0x22620", "text": "Accept-Language"}
+{"offset": "0x22630", "text": "get_connection"}
+{"offset": "0x22640", "text": "Sec-Fetch-User"}
+{"offset": "0x22650", "text": "Sec-Fetch-Site"}
+{"offset": "0x22660", "text": "Sec-Fetch-Mode"}
+{"offset": "0x22670", "text": "Sec-Fetch-Dest"}
+{"offset": "0x22680", "text": "ArgumentParser"}
+{"offset": "0x22690", "text": "_is_coroutine"}
+{"offset": "0x226a0", "text": "_initializing"}
+{"offset": "0x226b0", "text": "add_argument"}
+{"offset": "0x226c0", "text": "CLINIC_ENTRY"}
+{"offset": "0x226d0", "text": "status_code"}
+{"offset": "0x226e0", "text": "건 product_ean 적재 완료"}
+{"offset": "0x22700", "text": "extract_ean"}
+{"offset": "0x22710", "text": "executemany"}
+{"offset": "0x22720", "text": "description"}
+{"offset": "0x22730", "text": "--countries"}
+{"offset": "0x22740", "text": "store_true"}
+{"offset": "0x22750", "text": "parse_args"}
+{"offset": "0x22760", "text": "User-Agent"}
+{"offset": "0x22770", "text": "isenabled"}
+{"offset": "0x22780", "text": "enumerate"}
+{"offset": "0x22790", "text": "\n[dry-run] 적재 안 함"}
+{"offset": "0x227b0", "text": "dry_run"}
+{"offset": "0x227b8", "text": "countries"}
+{"offset": "0x227c8", "text": "required"}
+{"offset": "0x227d8", "text": "navigate"}
+{"offset": "0x227e8", "text": "fetchall"}
+{"offset": "0x227f8", "text": "en;q=0.9"}
+{"offset": "0x22808", "text": "document"}
+{"offset": "0x22818", "text": "argparse"}
+{"offset": "0x22830", "text": " 비-LG EAN 무시: "}
+{"offset": "0x22850", "text": "쉼표 구분 (CZ,PL,FR …)"}
+{"offset": "0x22870", "text": "^8806\\d{9}$"}
+{"offset": "0x22880", "text": "timeout"}
+{"offset": "0x22888", "text": "targets"}
+{"offset": "0x22890", "text": "resolve"}
+{"offset": "0x22898", "text": "pathlib"}
+{"offset": "0x228a0", "text": "parents"}
+{"offset": "0x228a8", "text": "--limit"}
+{"offset": "0x228b0", "text": "headers"}
+{"offset": "0x228b8", "text": "genexpr"}
+{"offset": "0x228c0", "text": "execute"}
+{"offset": "0x228c8", "text": "environ"}
+{"offset": "0x228d0", "text": "--dry-run"}
+{"offset": "0x228e0", "text": "disable"}
+{"offset": "0x228e8", "text": "default"}
+{"offset": "0x228f0", "text": "core.db"}
+{"offset": "0x228f8", "text": "compile"}
+{"offset": "0x22900", "text": "upsert"}
+{"offset": "0x22907", "text": "return"}
+{"offset": "0x2290e", "text": "main"}
+{"offset": "0x22913", "text": "insert"}
+{"offset": "0x22920", "text": "__import__"}
+{"offset": "0x2292b", "text": "enable"}
+{"offset": "0x22932", "text": "cursor"}
+{"offset": "0x22939", "text": "commit"}
+{"offset": "0x22940", "text": "action"}
+{"offset": "0x22948", "text": "_LG_EAN"}
+{"offset": "0x22950", "text": "Client"}
+{"offset": "0x22957", "text": "Accept"}
+{"offset": "0x2295e", "text": "upper"}
+{"offset": "0x22964", "text": "throw"}
+{"offset": "0x2296a", "text": "strip"}
+{"offset": "0x22970", "text": "split"}
+{"offset": "0x22976", "text": "sleep"}
+{"offset": "0x2297c", "text": "print"}
+{"offset": "0x22982", "text": "pairs"}
+{"offset": "0x22988", "text": "model"}
+{"offset": "0x2298e", "text": "match"}
+{"offset": "0x22994", "text": "limit"}
+{"offset": "0x2299a", "text": "lgcom:"}
+{"offset": "0x229a1", "text": "httpx"}
+{"offset": "0x229a7", "text": "found"}
+{"offset": "0x229ad", "text": "flush"}
+{"offset": "0x229b8", "text": "__enter__"}
+{"offset": "0x229c2", "text": "close"}
+{"offset": "0x229c8", "text": "type"}
+{"offset": "0x229cd", "text": "time"}
+{"offset": "0x229d2", "text": "text"}
+{"offset": "0x229d8", "text": "__test__"}
+{"offset": "0x229e8", "text": "__spec__"}
+{"offset": "0x229f1", "text": "send"}
+{"offset": "0x229f6", "text": "seen"}
+{"offset": "0x229fb", "text": "rows"}
+{"offset": "0x22a00", "text": "path"}
+{"offset": "0x22a05", "text": "none"}
+{"offset": "0x22a10", "text": "__name__"}
+{"offset": "0x22a19", "text": "miss"}
+{"offset": "0x22a20", "text": "__main__"}
+{"offset": "0x22a29", "text": "list"}
+{"offset": "0x22a2e", "text": "help"}
+{"offset": "0x22a38", "text": "__file__"}
+{"offset": "0x22a48", "text": "__exit__"}
+{"offset": "0x22a51", "text": "conn"}
+{"offset": "0x22a56", "text": "args"}
+{"offset": "0x22a5b", "text": "REPO"}
+{"offset": "0x22a60", "text": "Path"}
+{"offset": "0x22a65", "text": "None"}
+{"offset": "0x22a6a", "text": "_HDRS"}
+{"offset": "0x22a90", "text": "__doc__"}
+{"offset": "0x22ac0", "text": "\n확보 "}
+{"offset": "0x22ad0", "text": " · 미검출 "}
+{"offset": "0x22ae0", "text": " · 확보 "}
+{"offset": "0x22b00", "text": ") — EAN 미보유 공홈모델"}
+{"offset": "0x22b40", "text": "  ⚠️ "}
+{"offset": "0x22b50", "text": "모델 ("}
+{"offset": "0x22b70", "text": " · 비-LG무시 "}

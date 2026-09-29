@@ -1,0 +1,199 @@
+{"offset": "0x17000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x17038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x17060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x17090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x170b8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x170e0", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x17190", "text": "function's dictionary may not be deleted"}
+{"offset": "0x171c0", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x171f0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x17250", "text": "invalid input, expected coroutine"}
+{"offset": "0x17278", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x172a8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x172d8", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x17308", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x17370", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x173a0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x17400", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x17430", "text": "__name__ must be set to a string object"}
+{"offset": "0x17458", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x175a0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x175d8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x17610", "text": "%.200s() keywords must be strings"}
+{"offset": "0x17638", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x17668", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x176a0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x176d8", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x17700", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x17730", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x17770", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x17798", "text": " while calling a Python object"}
+{"offset": "0x177b8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x177e8", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/targeted_media.c"}
+{"offset": "0x17820", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x17860", "text": "core.targeted_media.download_targets"}
+{"offset": "0x17888", "text": "core.targeted_media.download_asset"}
+{"offset": "0x178b0", "text": "generator raised StopIteration"}
+{"offset": "0x178d0", "text": "coroutine is being awaited already"}
+{"offset": "0x178f8", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x17930", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x17970", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x179a8", "text": "__await__() returned a coroutine"}
+{"offset": "0x179d0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x179f0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x17a10", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x17a38", "text": "join() result is too long for a Python string"}
+{"offset": "0x17a68", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x17a98", "text": "instance exception may not have a separate value"}
+{"offset": "0x17ad0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x17b18", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x17b58", "text": "Module 'targeted_media' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x17bb0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x17c00", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x17c40", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x17c70", "text": "qualified name of the coroutine"}
+{"offset": "0x17c90", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x17cf0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x17d60", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x17d98", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x17dc0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x17df8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x17e58", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x17ec8", "text": "core.targeted_media.__pyx_scope_struct_1_download_targets"}
+{"offset": "0x17f08", "text": "core.targeted_media.__pyx_scope_struct__download_asset"}
+{"offset": "0x17f3f", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x17f5d", "text": "%.200s() needs an argument"}
+{"offset": "0x17f78", "text": "Bad call flags for CyFunction"}
+{"offset": "0x17f96", "text": "<cyfunction %U at %p>"}
+{"offset": "0x17fac", "text": "cannot import name %S"}
+{"offset": "0x17fc2", "text": "__loader__"}
+{"offset": "0x17fcd", "text": "loader"}
+{"offset": "0x17fd4", "text": "__file__"}
+{"offset": "0x17fdd", "text": "origin"}
+{"offset": "0x17fe4", "text": "__package__"}
+{"offset": "0x17ff0", "text": "parent"}
+{"offset": "0x17ff7", "text": "__path__"}
+{"offset": "0x18000", "text": "submodule_search_locations"}
+{"offset": "0x1801b", "text": "keywords must be strings"}
+{"offset": "0x18034", "text": "_cython_coroutine_type"}
+{"offset": "0x1804b", "text": "_cython_generator_type"}
+{"offset": "0x18062", "text": "_module"}
+{"offset": "0x1806a", "text": "__builtins__"}
+{"offset": "0x18077", "text": "_cython_3_0_12"}
+{"offset": "0x18086", "text": "%s (%s:%d)"}
+{"offset": "0x18091", "text": "exactly"}
+{"offset": "0x18099", "text": "download_targets"}
+{"offset": "0x180aa", "text": "core/targeted_media.py"}
+{"offset": "0x180c1", "text": "download_asset"}
+{"offset": "0x180d0", "text": "name '%U' is not defined"}
+{"offset": "0x180e9", "text": "coroutine already executing"}
+{"offset": "0x18105", "text": "generator already executing"}
+{"offset": "0x18121", "text": "throw"}
+{"offset": "0x18127", "text": "builtins"}
+{"offset": "0x18130", "text": "cython_runtime"}
+{"offset": "0x1813f", "text": "does not match"}
+{"offset": "0x1814e", "text": "collections.abc"}
+{"offset": "0x1815e", "text": "backports_abc"}
+{"offset": "0x1816c", "text": "init core.targeted_media"}
+{"offset": "0x18185", "text": "__reduce__"}
+{"offset": "0x18190", "text": "__module__"}
+{"offset": "0x1819b", "text": "func_doc"}
+{"offset": "0x181a4", "text": "__doc__"}
+{"offset": "0x181ac", "text": "func_name"}
+{"offset": "0x181b6", "text": "__name__"}
+{"offset": "0x181bf", "text": "__qualname__"}
+{"offset": "0x181cc", "text": "func_dict"}
+{"offset": "0x181d6", "text": "__dict__"}
+{"offset": "0x181df", "text": "func_globals"}
+{"offset": "0x181ec", "text": "__globals__"}
+{"offset": "0x181f8", "text": "func_closure"}
+{"offset": "0x18205", "text": "__closure__"}
+{"offset": "0x18211", "text": "func_code"}
+{"offset": "0x1821b", "text": "__code__"}
+{"offset": "0x18224", "text": "func_defaults"}
+{"offset": "0x18232", "text": "__defaults__"}
+{"offset": "0x1823f", "text": "__kwdefaults__"}
+{"offset": "0x1824e", "text": "__annotations__"}
+{"offset": "0x1825e", "text": "_is_coroutine"}
+{"offset": "0x1826c", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x18285", "text": "name of the coroutine"}
+{"offset": "0x1829b", "text": "cr_frame"}
+{"offset": "0x182a4", "text": "Frame of the coroutine"}
+{"offset": "0x182bb", "text": "cr_running"}
+{"offset": "0x182c6", "text": "cr_await"}
+{"offset": "0x182cf", "text": "object being awaited, or None"}
+{"offset": "0x182ed", "text": "cr_code"}
+{"offset": "0x182f5", "text": "send"}
+{"offset": "0x182fa", "text": "close"}
+{"offset": "0x18300", "text": "__reduce_ex__"}
+{"offset": "0x18340", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x18420", "text": " targeted images for Vision AI..."}
+{"offset": "0x18450", "text": "Failed to download target "}
+{"offset": "0x18470", "text": "core/targeted_media.py"}
+{"offset": "0x18490", "text": "core.targeted_media"}
+{"offset": "0x184b0", "text": "cline_in_traceback"}
+{"offset": "0x184d0", "text": "asyncio.coroutines"}
+{"offset": "0x184f0", "text": "return_exceptions"}
+{"offset": "0x18510", "text": "httpx.AsyncClient"}
+{"offset": "0x18530", "text": "follow_redirects"}
+{"offset": "0x18550", "text": "download_targets"}
+{"offset": "0x18568", "text": "object_storage"}
+{"offset": "0x18578", "text": "download_asset"}
+{"offset": "0x18588", "text": "asyncio.tasks"}
+{"offset": "0x18598", "text": "urllib.parse"}
+{"offset": "0x185a8", "text": "_is_coroutine"}
+{"offset": "0x185b8", "text": "_initializing"}
+{"offset": "0x185c8", "text": "write_bytes"}
+{"offset": "0x185d8", "text": "target_urls"}
+{"offset": "0x185e8", "text": "status_code"}
+{"offset": "0x185f8", "text": "Downloading "}
+{"offset": "0x18608", "text": "AsyncClient"}
+{"offset": "0x18618", "text": "to_thread"}
+{"offset": "0x18628", "text": "save_path"}
+{"offset": "0x18638", "text": "isenabled"}
+{"offset": "0x18648", "text": "getLogger"}
+{"offset": "0x18658", "text": "enumerate"}
+{"offset": "0x18668", "text": "urlparse"}
+{"offset": "0x18678", "text": "save_dir"}
+{"offset": "0x18688", "text": "list[str]"}
+{"offset": "0x18698", "text": "exist_ok"}
+{"offset": "0x186a8", "text": "timeout"}
+{"offset": "0x186b0", "text": "pathlib"}
+{"offset": "0x186b8", "text": "parents"}
+{"offset": "0x186c0", "text": "logging"}
+{"offset": "0x186c8", "text": "inspect"}
+{"offset": "0x186d0", "text": "img_dir"}
+{"offset": "0x186d8", "text": "disable"}
+{"offset": "0x186e0", "text": "content"}
+{"offset": "0x186e8", "text": "asyncio"}
+{"offset": "0x186f0", "text": "verify"}
+{"offset": "0x186f7", "text": "upload"}
+{"offset": "0x186fe", "text": "parent"}
+{"offset": "0x18708", "text": "__name__"}
+{"offset": "0x18718", "text": "__import__"}
+{"offset": "0x18723", "text": "images"}
+{"offset": "0x1872a", "text": "gather"}
+{"offset": "0x18731", "text": "exists"}
+{"offset": "0x18738", "text": "enable"}
+{"offset": "0x1873f", "text": "client"}
+{"offset": "0x18748", "text": "__aenter__"}
+{"offset": "0x18753", "text": "throw"}
+{"offset": "0x18759", "text": "tasks"}
+{"offset": "0x1875f", "text": "mkdir"}
+{"offset": "0x18765", "text": "httpx"}
+{"offset": "0x1876b", "text": "debug"}
+{"offset": "0x18771", "text": "close"}
+{"offset": "0x18778", "text": "__await__"}
+{"offset": "0x18788", "text": "__aexit__"}
+{"offset": "0x18798", "text": "__test__"}
+{"offset": "0x187a8", "text": "__spec__"}
+{"offset": "0x187b1", "text": "send"}
+{"offset": "0x187b6", "text": "resp"}
+{"offset": "0x187bb", "text": "path"}
+{"offset": "0x187c0", "text": "name"}
+{"offset": "0x187c8", "text": "__main__"}
+{"offset": "0x187d1", "text": "info"}
+{"offset": "0x187d6", "text": "args"}
+{"offset": "0x187db", "text": "Path"}
+{"offset": "0x187ec", "text": ".jpg"}
+{"offset": "0x187f1", "text": "img_"}

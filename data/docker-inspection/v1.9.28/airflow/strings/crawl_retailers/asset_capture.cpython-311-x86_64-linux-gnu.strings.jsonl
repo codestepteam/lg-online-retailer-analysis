@@ -1,0 +1,307 @@
+{"offset": "0x33000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x33038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x33060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x33090", "text": " while calling a Python object"}
+{"offset": "0x330b0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x330e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x33108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x33130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x331e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x33210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x33240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x332a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x332c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x332f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x33328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x33358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x333c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x333f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x33450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x33480", "text": "__name__ must be set to a string object"}
+{"offset": "0x334a8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x335f0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x33628", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x33660", "text": "%.200s() keywords must be strings"}
+{"offset": "0x33688", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x336b8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x336f0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x33728", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x33750", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x33780", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x337c0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x337e8", "text": "generator raised StopIteration"}
+{"offset": "0x33808", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/asset_capture.c"}
+{"offset": "0x33850", "text": "generator ignored GeneratorExit"}
+{"offset": "0x33870", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x33890", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x338b8", "text": "crawl_retailers/asset_capture.py"}
+{"offset": "0x338e0", "text": "crawl_retailers.asset_capture.acapture_heuristic_elements"}
+{"offset": "0x33920", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x33960", "text": "crawl_retailers.asset_capture.read_flix_loader"}
+{"offset": "0x33990", "text": "crawl_retailers.asset_capture.acapture_video_status"}
+{"offset": "0x339c8", "text": "crawl_retailers.asset_capture.acapture_render_defects"}
+{"offset": "0x33a00", "text": "crawl_retailers.asset_capture.acapture_from_flix_html"}
+{"offset": "0x33a38", "text": "crawl_retailers.asset_capture.acapture_asset_elements"}
+{"offset": "0x33a70", "text": "Module 'asset_capture' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x33ac8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x33b18", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x33b58", "text": "init crawl_retailers.asset_capture"}
+{"offset": "0x33b80", "text": "crawl_retailers.asset_capture.capture_heuristic_elements"}
+{"offset": "0x33bc0", "text": "crawl_retailers.asset_capture.capture_asset_elements"}
+{"offset": "0x33bf8", "text": "crawl_retailers.asset_capture.apromote_lazy_images"}
+{"offset": "0x33c30", "text": "crawl_retailers.asset_capture.capture_asset_blocks"}
+{"offset": "0x33c68", "text": "crawl_retailers.asset_capture._classify_video"}
+{"offset": "0x33c98", "text": "crawl_retailers.asset_capture.acapture_asset_text"}
+{"offset": "0x33cd0", "text": "crawl_retailers.asset_capture.acapture_asset_blocks"}
+{"offset": "0x33d08", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x33d38", "text": "instance exception may not have a separate value"}
+{"offset": "0x33d70", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x33db8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x33df8", "text": "coroutine is being awaited already"}
+{"offset": "0x33e20", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x33e58", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x33e98", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x33ed0", "text": "__await__() returned a coroutine"}
+{"offset": "0x33ef8", "text": "crawl_retailers.asset_capture.selectors_for"}
+{"offset": "0x33f28", "text": "crawl_retailers.asset_capture.scroll_for_lazy"}
+{"offset": "0x33f58", "text": "crawl_retailers.asset_capture.await_flix_content"}
+{"offset": "0x33f90", "text": "join() result is too long for a Python string"}
+{"offset": "0x33fc0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x33ff0", "text": "qualified name of the coroutine"}
+{"offset": "0x34010", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x34070", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x340e0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x34118", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x34140", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x34178", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x341d8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x34248", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_10_acapture_from_flix_html"}
+{"offset": "0x34298", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_9_acapture_render_defects"}
+{"offset": "0x342e8", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_8_acapture_video_status"}
+{"offset": "0x34338", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_7_acapture_asset_blocks"}
+{"offset": "0x34388", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_6_acapture_asset_text"}
+{"offset": "0x343d0", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_5_await_flix_content"}
+{"offset": "0x34418", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_4_read_flix_loader"}
+{"offset": "0x34460", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_3_apromote_lazy_images"}
+{"offset": "0x344a8", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_2_acapture_asset_elements"}
+{"offset": "0x344f8", "text": "crawl_retailers.asset_capture.__pyx_scope_struct_1_scroll_for_lazy"}
+{"offset": "0x34540", "text": "crawl_retailers.asset_capture.__pyx_scope_struct__acapture_heuristic_elements"}
+{"offset": "0x3458e", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x345ac", "text": "%.200s() needs an argument"}
+{"offset": "0x345c7", "text": "Bad call flags for CyFunction"}
+{"offset": "0x345e5", "text": "<cyfunction %U at %p>"}
+{"offset": "0x345fb", "text": "__loader__"}
+{"offset": "0x34606", "text": "__file__"}
+{"offset": "0x3460f", "text": "origin"}
+{"offset": "0x34616", "text": "__package__"}
+{"offset": "0x34622", "text": "parent"}
+{"offset": "0x34629", "text": "__path__"}
+{"offset": "0x34632", "text": "submodule_search_locations"}
+{"offset": "0x3464d", "text": "keywords must be strings"}
+{"offset": "0x34666", "text": "_cython_coroutine_type"}
+{"offset": "0x3467d", "text": "_cython_generator_type"}
+{"offset": "0x34694", "text": "_module"}
+{"offset": "0x3469c", "text": "__builtins__"}
+{"offset": "0x346a9", "text": "_cython_3_0_12"}
+{"offset": "0x346b8", "text": "cannot import name %S"}
+{"offset": "0x346ce", "text": "%s (%s:%d)"}
+{"offset": "0x346d9", "text": "coroutine already executing"}
+{"offset": "0x346f5", "text": "generator already executing"}
+{"offset": "0x34711", "text": "acapture_heuristic_elements"}
+{"offset": "0x3472d", "text": "exactly"}
+{"offset": "0x34735", "text": "read_flix_loader"}
+{"offset": "0x34746", "text": "acapture_video_status"}
+{"offset": "0x3475c", "text": "acapture_render_defects"}
+{"offset": "0x34774", "text": "acapture_from_flix_html"}
+{"offset": "0x3478c", "text": "acapture_asset_elements"}
+{"offset": "0x347a4", "text": "name '%U' is not defined"}
+{"offset": "0x347bd", "text": "builtins"}
+{"offset": "0x347c6", "text": "cython_runtime"}
+{"offset": "0x347d5", "text": "crawl_retailers.asset_capture"}
+{"offset": "0x347f3", "text": "does not match"}
+{"offset": "0x34802", "text": "collections.abc"}
+{"offset": "0x34812", "text": "backports_abc"}
+{"offset": "0x34820", "text": "at least"}
+{"offset": "0x34829", "text": "at most"}
+{"offset": "0x34831", "text": "apromote_lazy_images"}
+{"offset": "0x34846", "text": "_classify_video"}
+{"offset": "0x34856", "text": "acapture_asset_text"}
+{"offset": "0x3486a", "text": "acapture_asset_blocks"}
+{"offset": "0x34880", "text": "throw"}
+{"offset": "0x34886", "text": "selectors_for"}
+{"offset": "0x34894", "text": "scroll_for_lazy"}
+{"offset": "0x348a4", "text": "await_flix_content"}
+{"offset": "0x348b7", "text": "__reduce__"}
+{"offset": "0x348c2", "text": "__module__"}
+{"offset": "0x348cd", "text": "func_doc"}
+{"offset": "0x348d6", "text": "__doc__"}
+{"offset": "0x348de", "text": "func_name"}
+{"offset": "0x348e8", "text": "__name__"}
+{"offset": "0x348f1", "text": "__qualname__"}
+{"offset": "0x348fe", "text": "func_dict"}
+{"offset": "0x34908", "text": "__dict__"}
+{"offset": "0x34911", "text": "func_globals"}
+{"offset": "0x3491e", "text": "__globals__"}
+{"offset": "0x3492a", "text": "func_closure"}
+{"offset": "0x34937", "text": "__closure__"}
+{"offset": "0x34943", "text": "func_code"}
+{"offset": "0x3494d", "text": "__code__"}
+{"offset": "0x34956", "text": "func_defaults"}
+{"offset": "0x34964", "text": "__defaults__"}
+{"offset": "0x34971", "text": "__kwdefaults__"}
+{"offset": "0x34980", "text": "__annotations__"}
+{"offset": "0x34990", "text": "_is_coroutine"}
+{"offset": "0x3499e", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x349b7", "text": "name of the coroutine"}
+{"offset": "0x349cd", "text": "cr_frame"}
+{"offset": "0x349d6", "text": "Frame of the coroutine"}
+{"offset": "0x349ed", "text": "cr_running"}
+{"offset": "0x349f8", "text": "cr_await"}
+{"offset": "0x34a01", "text": "object being awaited, or None"}
+{"offset": "0x34a1f", "text": "cr_code"}
+{"offset": "0x34a27", "text": "send"}
+{"offset": "0x34a2c", "text": "close"}
+{"offset": "0x34a32", "text": "__reduce_ex__"}
+{"offset": "0x34ae0", "text": "crawl_retailers/asset_capture.py"}
+{"offset": "0x34b20", "text": "(sels) => { const lens = sels.map(s => { const e = document.querySelector(s); return e ? (e.innerText || '').trim().length : null; }).filter(x => x !== null); return lens.length ? Math.max(...lens) : -1; }"}
+{"offset": "0x34c00", "text": "\n(selectors) => {\n  const roots = [];\n  for (const sel of selectors) document.querySelectorAll(sel).forEach(n => roots.push(n));\n  // 에셋 컨테이너가 없으면(자체 CDN 리테일러 — Amazon/Coolblue 등은 해시 클래스라 고정\n  // 셀렉터가 안 맞는다) 크롬(헤더/내비/푸터) 제외한 body 텍스트로 폴백한다. SB 경로\n  // (core.official_style._CAPTURE_INJECT)와 동일 계약 — 안 그러면 로컬 크롤 건만\n  // asset_text 가 빈 값이 되어 ID31 이 블록 캡션 폴백으로 떨어진다(일치율 과소평가).\n  if (!roots.length) {\n    const clone = document.body.cloneNode(true);\n    clone.querySelectorAll('header,nav,footer,aside,[role=banner],[role=navigation],[role=contentinfo]')\n      .forEach(n => n.remove());\n    return (clone.innerText || '').slice(0, 30000);\n  }\n  return roots.map(r => r.innerText || '').join('\\n').slice(0, 30000);\n}\n"}
+{"offset": "0x34fa0", "text": "\n(selectors) => {\n  const out = {truncated: [], broken_images: [], carousel_overlaps: []};\n  const roots = [];\n  for (const sel of selectors) document.querySelectorAll(sel).forEach(n => roots.push(n));\n  const seenT = new Set(), seenI = new Set();\n  // 같은 URL이 페이지에 중복 삽입되는 경우(히어로 이미지 + 탭/선택 아이콘 등, flix\n  // 위젯에 흔함) 한쪽 인스턴스만 로드 실패하는 걸 실측했다(2026-07-31, Darty\n  // F20F12BST: 같은 motion.webp가 큰 이미지로는 정상 로드·아이콘 인스턴스는 실패,\n  // 30초 대기해도 안정적으로 재현 — 격리 렌더가 CSS 없이 아이콘을 의도치 않은\n  // 크기로 렌더해 200px 필터도 못 거른다). URL 자체가 실제로 깨졌다면 **모든**\n  // 인스턴스가 실패해야 한다 — 어느 한 곳이라도 로드에 성공했다면 그 URL은 깨진\n  // 게 아니라는 가장 직접적인 증거다. 그래서 먼저 전 root에서 로드 성공 URL을\n  // 모으고, 그 목록에 있는 URL은 깨짐 판정에서 제외한다.\n  // ⚠️ 프로토콜 표기 정규화 필수 — 같은 리소스라도 승격된(promoted) 인스턴스는\n  // currentSrc 가 절대경로(https://...)인 반면, 실패한 인스턴스는 currentSrc 가\n  // 비어 원본 속성 그대로인 프로토콜 상대경로(//...)로 폴백된다(격리 렌더는\n  // about:blank 라 // 를 해석할 기준 프로토콜이 없어 이 인스턴스만 로드 실패 —\n  // 실서비스 페이지에선 정상 로드될 URL). 정규화 없인 두 표기가 다른 문자열이라\n  // Set 매칭이 실패한다(2026-07-31 Darty F20F12BST 재현: 동일 motion.webp 6건).\n  const normU = u => (u || '').replace(/^https?:/, '');\n  const loadedOk = new Set();\n  for (const root of roots) {\n    root.querySelectorAll('img').forEach(img => {\n      if (img.complete && img.naturalWidth > 0) {\n        const u = img.currentSrc || img.src || '';\n        if (u) loadedOk.add(normU(u));\n      }\n    });\n  }\n  for (const root of roots) {\n    root.querySelectorAll('*').forEach(el => {\n      const cs = getComputedStyle(el);\n      // 텍스트 잘림: ellipsis 처리 + 실제 넘침\n      if (cs.textOverflow === 'ellipsis' && el.scrollWidth > el.clientWidth + 1) {\n        const t = (el.innerText || '').trim().slice(0, 80);\n        if (t && !seenT.has(t)) { seenT.add(t); out.truncated.push(t); }\n      }\n    });\n    root.querySelectorAll('img').forEach(img => {\n      // 이미지 깨짐: 로드 완료됐는데 naturalWidth 0. naturalWidth 가 0 이라 크기를\n      // 못 재니 **렌더 박스**(CSS/HTML 지정 크기)로 UI 아이콘·썸네일을 배제한다. 기준은\n      // core.eval.MIN_CONTENT_IMG_PX(200) 와 동일 — 2026-07-31 실측: PDF/다운로드\n      // SVG 아이콘·로딩 스피너가 naturalWidth 0 으로 잡혀 위결함이었다(실제론 정상\n      // 로드됨, httpx 직접조회 200 확인).\n      // ⚠️ 0×0(렌더 박스 자체가 없음)도 배제 대상 — CSS 클래스 의존 요소가 그 스타일시트\n      // 없이(격리 렌더 등) 삽입되면 정확히 0×0 이 되고 네트워크 요청조차 안 간다(같은\n      // 실측: flix delivery 격리 렌더의 .flix-adobe-icon). 반면 **크기 지정 없이 진짜\n      // 깨진** 이미지는 브라우저 기본 깨짐 아이콘(~22px)으로 렌더돼 0이 아닌 작은 양수가\n      // 나온다 — 그래서 \"0×0\"과 \"작은 양수\"를 구분할 필요 없이 200px 미만이면 전부\n      // 배제해도 true positive(큰 콘텐츠 이미지)는 안 죽는다.\n      if (img.complete && img.naturalWidth === 0) {\n        const r = img.getBoundingClientRect();\n        if (Math.max(r.width, r.height) < 200) return;\n        const u = img.currentSrc || img.src || '';\n        if (u && loadedOk.has(normU(u))) return;   // 다른 인스턴스가 로드 성공 → 이 URL은 안 깨짐\n        if (u && !seenI.has(u)) { seenI.add(u); out.broken_images.push(u); }\n      }\n    });\n  }\n  // 캐러셀 네비 버튼 겹침 (2026-07-24 보수 구현 — 검출 로직 미검증, 재현 케이스 미확보).\n  // 버튼끼리의 겹침만 센다: 화살표가 슬라이드(이미지) 위에 얹히는 건 정상 캐러셀 디자인이라\n  // 콘텐츠와의 겹침을 세면 전 행 위결함이 된다. 이중 렌더로 같은 자리에 버튼이 포개진\n  // 증상(연동 오류 추정)만 잡는다. 겹침은 해상도 종속 — 기준은 크롤 뷰포트(1280×720 잠정).\n  const NAV_RE = /(carousel|slider|slick|swiper|splide|glide|flix)[\\w-]*(prev|next|arrow|nav|control|button)|(prev|next|arrow)[\\w-]*(carousel|slider|slick|swiper|flix)|\\b(slick|swiper)-(prev|next|arrow)/i;\n  const btnSeen = new Set(), btns = [];\n  const label = el => (el.tagName.toLowerCase() + '.'\n                       + ((el.getAttribute('class') || el.getAttribute('aria-label') || '')\n                          .trim().split(/\\s+/).slice(0, 3).join('.'))).slice(0, 80);\n  for (const root of roots) {\n    root.querySelectorAll('button, [role=\"button\"], a').forEach(el => {\n      if (btnSeen.has(el)) return;                       // 루트 셀렉터 중복 매칭 방지\n      const sig = (el.getAttribute('class') || '') + ' ' + (el.getAttribute('aria-label') || '');\n      if (!NAV_RE.test(sig)) return;\n      const r = el.getBoundingClientRect();\n      if (r.width < 10 || r.height < 10) return;         // display:none/접힘 → rect 0\n      if (getComputedStyle(el).visibility === 'hidden') return;\n      btnSeen.add(el); btns.push({el, r});\n    });\n  }\n  for (let i = 0; i < btns.length; i++) {\n    for (let j = i + 1; j < btns.length; j++) {\n      const a = btns[i], b = btns[j];\n      if (a.el.contains(b.el) || b.el.contains(a.el)) continue;   // 중첩 마크업은 겹침 아님\n      const w = Math.min(a.r.right, b.r.right) - Math.max(a.r.left, b.r.left);\n      const h = Math.min(a.r.bottom, b.r.bottom) - Math.max(a.r.top, b.r.top);\n      if (w <= 0 || h <= 0) continue;\n      const inter = w * h;\n      const minArea = Math.min(a.r.width * a.r.height, b.r.width * b.r.height);\n      const pct = Math.round(inter / minArea * 100);\n      if (pct >= 30)                                      // 작은 스침은 디자인 여지 — 보수 임계\n        out.carousel_overlaps.push({a: label(a.el), b: label(b.el), overlap_pct: pct});\n    }\n  }\n  return out;\n}\n"}
+{"offset": "0x368c0", "text": "\n(selectors) => {\n  const out = [];\n  const roots = [];\n  for (const sel of selectors) document.querySelectorAll(sel).forEach(n => roots.push(n));\n  for (const root of roots) {\n    root.querySelectorAll('img').forEach(img => {\n      const r = img.getBoundingClientRect();\n      if (r.width < 2 || r.height < 2) return;\n      out.push({kind: 'image', box: [r.x, r.y, r.width, r.height],\n                url: img.currentSrc || img.src || ''});\n    });\n    root.querySelectorAll('*').forEach(el => {\n      const text = Array.from(el.childNodes)\n        .filter(n => n.nodeType === 3)\n        .map(n => n.textContent)\n        .join(' ')\n        .trim();\n      if (!text) return;\n      const r = el.getBoundingClientRect();\n      if (r.width < 2 || r.height < 2) return;\n      const cs = getComputedStyle(el);\n      out.push({kind: 'text', box: [r.x, r.y, r.width, r.height],\n                text,\n                font_size: parseFloat(cs.fontSize) || 0,\n                align: cs.textAlign, color: cs.color,\n                border_width: cs.borderTopWidth, border_style: cs.borderTopStyle});\n    });\n  }\n  return out;\n}\n"}
+{"offset": "0x36d20", "text": "<div id=\"flix-inpage\" class=\"flix-inpage\">"}
+{"offset": "0x36d60", "text": "\n() => {\n  const out = [];\n  document.querySelectorAll('video').forEach(v => {\n    const s = v.currentSrc || v.src ||\n      (v.querySelector('source') ? (v.querySelector('source').src || v.querySelector('source').getAttribute('src') || '') : '');\n    out.push({kind:'video', src:s, error: v.error ? v.error.code : null,\n              readyState: v.readyState, networkState: v.networkState});\n  });\n  document.querySelectorAll('iframe').forEach(f => {\n    const s = f.src || '';\n    if (/youtube|youtu\\.be|vimeo|flixcar|brightcove|cliplister|player/i.test(s))\n      out.push({kind:'embed', src:s, error:null, readyState:null, networkState:null});\n  });\n  // 클릭형 팝업 비디오 — 플레이어는 클릭 후에만 뜨고 DOM 엔 비디오 서비스 썸네일만 있다\n  // (2026-07-14 실측: MediaMarkt Cliplister 썸네일 4개·refs 17개인데 video/iframe 0 →\n  // \"영상 있는데 0\"). 알려진 비디오 CDN 썸네일을 '존재 관측'으로 센다.\n  document.querySelectorAll('img').forEach(im => {\n    const u = im.currentSrc || im.src || '';\n    if (/cliplister|img\\.youtube\\.com\\/vi\\/|i\\.ytimg\\.com|vimeocdn/i.test(u))\n      out.push({kind:'popup', src:u, error:null, readyState:null, networkState:null});\n  });\n  return out;\n}\n"}
+{"offset": "0x37260", "text": "\n() => {\n  const LAZY = ['data-flixsrcset', 'data-srcset', 'data-src', 'data-lazy-src'];\n  const abs = u => (u || '').startsWith('//') ? 'https:' + u : u;\n  const first = v => (v || '').split(',')[0].trim().split(' ')[0];\n  let n = 0;\n  document.querySelectorAll('img').forEach(im => {\n    for (const a of LAZY) {\n      const d = im.getAttribute(a);\n      if (d && (!im.src || im.src.includes('loading') || im.src.startsWith('data:'))) {\n        im.src = abs(first(d)); im.removeAttribute('srcset'); n++; break;\n      }\n    }\n  });\n  return n;\n}\n"}
+{"offset": "0x374a0", "text": "() => { const s = document.querySelector(  'script[src*=\"flixcar.com/js/loader\"], script[src*=\"flixfacts\"],   script[data-flix-distributor]'); if (!s) return {present: false}; const g = (n) => s.hasAttribute(n) ? (s.getAttribute(n) || '') : null; return {present: true, distributor: g('data-flix-distributor'),  language: g('data-flix-language'), ean: g('data-flix-ean'),  mpn: g('data-flix-mpn'), loaded: g('data-flix-loaded')}; }"}
+{"offset": "0x37660", "text": "\n() => {\n  const CHROME = 'header,nav,footer,aside,[role=banner],[role=navigation],[role=contentinfo]';\n  const out = [];\n  document.querySelectorAll('img').forEach(img => {\n    if (img.closest(CHROME)) return;\n    const r = img.getBoundingClientRect();\n    if (r.width < 40 || r.height < 40) return;   // 아이콘/썸네일 배제\n    out.push({kind: 'image', box: [r.x, r.y, r.width, r.height],\n              url: img.currentSrc || img.src || ''});\n  });\n  document.querySelectorAll('*').forEach(el => {\n    if (el.closest(CHROME)) return;\n    const text = Array.from(el.childNodes)\n      .filter(n => n.nodeType === 3).map(n => n.textContent).join(' ').trim();\n    if (!text || text.length > 160) return;      // 롱카피(스펙표·리뷰 본문) 배제\n    const r = el.getBoundingClientRect();\n    if (r.width < 2 || r.height < 2) return;\n    const cs = getComputedStyle(el);\n    out.push({kind: 'text', box: [r.x, r.y, r.width, r.height], text,\n              font_size: parseFloat(cs.fontSize) || 0,\n              align: cs.textAlign, color: cs.color,\n              border_width: cs.borderTopWidth, border_style: cs.borderTopStyle});\n  });\n  return out;\n}\n"}
+{"offset": "0x37af0", "text": "crawl_retailers.asset_capture"}
+{"offset": "0x37b10", "text": "acapture_heuristic_elements"}
+{"offset": "0x37b30", "text": "section.product-highlights"}
+{"offset": "0x37b50", "text": "capture_heuristic_elements"}
+{"offset": "0x37b70", "text": "build_blocks_from_elements"}
+{"offset": "0x37b90", "text": "RETAILER_EXTRA_SELECTORS"}
+{"offset": "0x37bb0", "text": "acapture_render_defects"}
+{"offset": "0x37bd0", "text": "acapture_from_flix_html"}
+{"offset": "0x37bf0", "text": "acapture_asset_elements"}
+{"offset": "0x37c10", "text": "capture_asset_elements"}
+{"offset": "0x37c30", "text": "acapture_video_status"}
+{"offset": "0x37c50", "text": "acapture_asset_blocks"}
+{"offset": "0x37c70", "text": "capture_asset_blocks"}
+{"offset": "0x37c90", "text": "apromote_lazy_images"}
+{"offset": "0x37cb0", "text": "wait_for_load_state"}
+{"offset": "0x37cd0", "text": "#product-information"}
+{"offset": "0x37cf0", "text": ".product-description"}
+{"offset": "0x37d10", "text": "[cel_widget_id*=aplus]"}
+{"offset": "0x37d30", "text": "acapture_asset_text"}
+{"offset": "0x37d50", "text": "PDP_ASSET_SELECTORS"}
+{"offset": "0x37d70", "text": "e => e.scrollIntoView()"}
+{"offset": "0x37d90", "text": "cline_in_traceback"}
+{"offset": "0x37db0", "text": "await_flix_content"}
+{"offset": "0x37dd0", "text": "asyncio.coroutines"}
+{"offset": "0x37df0", "text": ".mediaTextSections"}
+{"offset": "0x37e10", "text": "core.asset_blocks"}
+{"offset": "0x37e30", "text": "carousel_overlaps"}
+{"offset": "0x37e50", "text": "_RENDER_DEFECTS_JS"}
+{"offset": "0x37e70", "text": "wait_for_timeout"}
+{"offset": "0x37e90", "text": "read_flix_loader"}
+{"offset": "0x37eb0", "text": "eval_on_selector"}
+{"offset": "0x37ed0", "text": "domcontentloaded"}
+{"offset": "0x37ef0", "text": "scroll_for_lazy"}
+{"offset": "0x37f00", "text": "#mms-pdp-wrapper"}
+{"offset": "0x37f20", "text": "frame_url_match"}
+{"offset": "0x37f30", "text": "_PROMOTE_LAZY_JS"}
+{"offset": "0x37f48", "text": "render_defects"}
+{"offset": "0x37f58", "text": "media_error_%s"}
+{"offset": "0x37f68", "text": "core.retailers"}
+{"offset": "0x37f80", "text": "_classify_video"}
+{"offset": "0x37f90", "text": "_FLIX_LOADER_JS"}
+{"offset": "0x37fa0", "text": "selectors_for"}
+{"offset": "0x37fb0", "text": "frame_or_page"}
+{"offset": "0x37fc0", "text": "#flix-minisite"}
+{"offset": "0x37fd0", "text": "broken_images"}
+{"offset": "0x37fe0", "text": "_ASSET_TEXT_JS"}
+{"offset": "0x37ff0", "text": "networkState"}
+{"offset": "0x38000", "text": "_is_coroutine"}
+{"offset": "0x38010", "text": ".detailText"}
+{"offset": "0x38020", "text": "color_family"}
+{"offset": "0x38030", "text": "_HEURISTIC_JS"}
+{"offset": "0x38040", "text": "set_content"}
+{"offset": "0x38050", "text": "networkidle"}
+{"offset": "0x38060", "text": "inpage_html"}
+{"offset": "0x38070", "text": "#flix-inpage"}
+{"offset": "0x38080", "text": "#description"}
+{"offset": "0x38090", "text": "_FLIX_LEN_JS"}
+{"offset": "0x380a0", "text": "wait_until"}
+{"offset": "0x380b0", "text": "timeout_ms"}
+{"offset": "0x380c0", "text": "readyState"}
+{"offset": "0x380d0", "text": "main_frame"}
+{"offset": "0x380e0", "text": "#detailText"}
+{"offset": "0x380f0", "text": "Mediaworld"}
+{"offset": "0x38100", "text": "MediaMarkt"}
+{"offset": "0x38110", "text": "Elgiganten"}
+{"offset": "0x38120", "text": "truncated"}
+{"offset": "0x38130", "text": "split_key"}
+{"offset": "0x38140", "text": "selectors"}
+{"offset": "0x38150", "text": "no_source"}
+{"offset": "0x38160", "text": "min_chars"}
+{"offset": "0x38170", "text": "isenabled"}
+{"offset": "0x38180", "text": "Boulanger"}
+{"offset": "0x38190", "text": "viewport"}
+{"offset": "0x381a0", "text": "retailer"}
+{"offset": "0x381b0", "text": "playable"}
+{"offset": "0x381c0", "text": "pause_ms"}
+{"offset": "0x381d0", "text": "new_page"}
+{"offset": "0x381e0", "text": "evaluate"}
+{"offset": "0x381f0", "text": "captions"}
+{"offset": "0x38200", "text": "_VIDEO_JS"}
+{"offset": "0x38210", "text": "Coolblue"}
+{"offset": "0x38220", "text": "timeout"}
+{"offset": "0x38228", "text": "step_px"}
+{"offset": "0x38230", "text": "present"}
+{"offset": "0x38238", "text": "poll_ms"}
+{"offset": "0x38240", "text": "disable"}
+{"offset": "0x38248", "text": "browser"}
+{"offset": "0x38250", "text": "waited"}
+{"offset": "0x38257", "text": "rounds"}
+{"offset": "0x3825e", "text": "return"}
+{"offset": "0x38268", "text": "__import__"}
+{"offset": "0x38273", "text": "height"}
+{"offset": "0x3827a", "text": "frames"}
+{"offset": "0x38281", "text": "enable"}
+{"offset": "0x38288", "text": "blocks"}
+{"offset": "0x3828f", "text": "Datart"}
+{"offset": "0x38296", "text": "width"}
+{"offset": "0x3829c", "text": "wheel"}
+{"offset": "0x382a2", "text": "video"}
+{"offset": "0x382a8", "text": "throw"}
+{"offset": "0x382ae", "text": "strip"}
+{"offset": "0x382b4", "text": "range"}
+{"offset": "0x382ba", "text": "popup"}
+{"offset": "0x382c0", "text": "mouse"}
+{"offset": "0x382c6", "text": "frame"}
+{"offset": "0x382cc", "text": "error"}
+{"offset": "0x382d2", "text": "embed"}
+{"offset": "0x382d8", "text": "close"}
+{"offset": "0x382e0", "text": "__await__"}
+{"offset": "0x382ea", "text": "#aplus"}
+{"offset": "0x382f1", "text": "align"}
+{"offset": "0x382f7", "text": "vids"}
+{"offset": "0x382fc", "text": "text"}
+{"offset": "0x38308", "text": "__test__"}
+{"offset": "0x38311", "text": "send"}
+{"offset": "0x38316", "text": "sels"}
+{"offset": "0x3831b", "text": "seen"}
+{"offset": "0x38320", "text": "raws"}
+{"offset": "0x38325", "text": "page"}
+{"offset": "0x38330", "text": "__name__"}
+{"offset": "0x38340", "text": "__main__"}
+{"offset": "0x38349", "text": "list"}
+{"offset": "0x3834e", "text": "kind"}
+{"offset": "0x38353", "text": "info"}
+{"offset": "0x38358", "text": "heur"}
+{"offset": "0x3835d", "text": "flix"}
+{"offset": "0x38362", "text": "dict"}
+{"offset": "0x38367", "text": "body"}
+{"offset": "0x3836c", "text": "best"}
+{"offset": "0x38371", "text": "base"}
+{"offset": "0x38376", "text": "args"}
+{"offset": "0x3837b", "text": "Alza"}
+{"offset": "0x383a8", "text": "</div>"}

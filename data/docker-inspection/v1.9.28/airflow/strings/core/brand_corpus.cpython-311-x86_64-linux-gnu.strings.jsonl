@@ -1,0 +1,177 @@
+{"offset": "0x18000", "text": "%.200s() needs an argument"}
+{"offset": "0x1801b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x18039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1804f", "text": "cannot import name %S"}
+{"offset": "0x18065", "text": "__loader__"}
+{"offset": "0x18070", "text": "loader"}
+{"offset": "0x18077", "text": "__file__"}
+{"offset": "0x18080", "text": "origin"}
+{"offset": "0x18087", "text": "__package__"}
+{"offset": "0x18093", "text": "parent"}
+{"offset": "0x1809a", "text": "__path__"}
+{"offset": "0x180a3", "text": "submodule_search_locations"}
+{"offset": "0x180be", "text": "keywords must be strings"}
+{"offset": "0x180d7", "text": "_cython_coroutine_type"}
+{"offset": "0x180ee", "text": "_cython_generator_type"}
+{"offset": "0x18105", "text": "_module"}
+{"offset": "0x1810d", "text": "__builtins__"}
+{"offset": "0x1811a", "text": "_cython_3_0_12"}
+{"offset": "0x18129", "text": "%s (%s:%d)"}
+{"offset": "0x18134", "text": "core/brand_corpus.py"}
+{"offset": "0x18149", "text": "core.brand_corpus._products"}
+{"offset": "0x18165", "text": "exactly"}
+{"offset": "0x1816d", "text": "generator already executing"}
+{"offset": "0x18189", "text": "throw"}
+{"offset": "0x1818f", "text": "name '%U' is not defined"}
+{"offset": "0x181a8", "text": "items"}
+{"offset": "0x181ae", "text": "core.brand_corpus.build"}
+{"offset": "0x181c6", "text": "builtins"}
+{"offset": "0x181cf", "text": "cython_runtime"}
+{"offset": "0x181de", "text": "does not match"}
+{"offset": "0x181ed", "text": "collections.abc"}
+{"offset": "0x181fd", "text": "backports_abc"}
+{"offset": "0x1820b", "text": "init core.brand_corpus"}
+{"offset": "0x18222", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1823b", "text": "__name__"}
+{"offset": "0x18244", "text": "name of the generator"}
+{"offset": "0x1825a", "text": "__qualname__"}
+{"offset": "0x18267", "text": "gi_frame"}
+{"offset": "0x18270", "text": "Frame of the generator"}
+{"offset": "0x18287", "text": "gi_running"}
+{"offset": "0x18292", "text": "gi_yieldfrom"}
+{"offset": "0x1829f", "text": "gi_code"}
+{"offset": "0x182a7", "text": "__module__"}
+{"offset": "0x182b2", "text": "send"}
+{"offset": "0x182b7", "text": "close"}
+{"offset": "0x182bd", "text": "__reduce__"}
+{"offset": "0x182c8", "text": "func_doc"}
+{"offset": "0x182d1", "text": "__doc__"}
+{"offset": "0x182d9", "text": "func_name"}
+{"offset": "0x182e3", "text": "func_dict"}
+{"offset": "0x182ed", "text": "__dict__"}
+{"offset": "0x182f6", "text": "func_globals"}
+{"offset": "0x18303", "text": "__globals__"}
+{"offset": "0x1830f", "text": "func_closure"}
+{"offset": "0x1831c", "text": "__closure__"}
+{"offset": "0x18328", "text": "func_code"}
+{"offset": "0x18332", "text": "__code__"}
+{"offset": "0x1833b", "text": "func_defaults"}
+{"offset": "0x18349", "text": "__defaults__"}
+{"offset": "0x18356", "text": "__kwdefaults__"}
+{"offset": "0x18365", "text": "__annotations__"}
+{"offset": "0x18375", "text": "_is_coroutine"}
+{"offset": "0x18383", "text": "lambda"}
+{"offset": "0x18390", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x183b8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x183e8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x18410", "text": "function's dictionary may not be deleted"}
+{"offset": "0x18440", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x18470", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x184d0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x18500", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x18530", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x18560", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x185c8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x185f8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x18658", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x18688", "text": "__name__ must be set to a string object"}
+{"offset": "0x186b0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x187f8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x18830", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x18868", "text": "%.200s() keywords must be strings"}
+{"offset": "0x18890", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x188c0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x188f8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x18928", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x18968", "text": " while calling a Python object"}
+{"offset": "0x18988", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x189b8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x189e0", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/brand_corpus.c"}
+{"offset": "0x18a18", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x18a58", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x18a80", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x18ab0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x18ad0", "text": "dictionary changed size during iteration"}
+{"offset": "0x18b00", "text": "'NoneType' object is not iterable"}
+{"offset": "0x18b28", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x18b50", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x18b80", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x18bb0", "text": "instance exception may not have a separate value"}
+{"offset": "0x18be8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x18c30", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x18c70", "text": "core.brand_corpus.build.lambda"}
+{"offset": "0x18c90", "text": "generator raised StopIteration"}
+{"offset": "0x18cb0", "text": "set changed size during iteration"}
+{"offset": "0x18cd8", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x18d08", "text": "Module 'brand_corpus' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x18d60", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x18db0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x18dd8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x18e88", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x18ec8", "text": "qualified name of the generator"}
+{"offset": "0x18ee8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x18f18", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x18f78", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x18fe8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x19020", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x19050", "text": "core.brand_corpus.__pyx_scope_struct___products"}
+{"offset": "0x19080", "text": "core/brand_corpus.py"}
+{"offset": "0x190a0", "text": "build.<locals>.<lambda>"}
+{"offset": "0x190c0", "text": "cline_in_traceback"}
+{"offset": "0x190e0", "text": "asyncio.coroutines"}
+{"offset": "0x19100", "text": "METRO Professional"}
+{"offset": "0x19120", "text": "core.brand_corpus"}
+{"offset": "0x19140", "text": "_NOUN_MIN_BRANDS"}
+{"offset": "0x19160", "text": "__class_getitem__"}
+{"offset": "0x19178", "text": "_VERIFIED_SEED"}
+{"offset": "0x19188", "text": "token_brands"}
+{"offset": "0x19198", "text": "_is_coroutine"}
+{"offset": "0x191a8", "text": "_initializing"}
+{"offset": "0x191b8", "text": "is_seedable"}
+{"offset": "0x191c8", "text": "defaultdict"}
+{"offset": "0x191d8", "text": "dedupe_keys"}
+{"offset": "0x191e8", "text": "collections"}
+{"offset": "0x191f8", "text": "Smith&Brown"}
+{"offset": "0x19208", "text": "PremierTech"}
+{"offset": "0x19218", "text": "products"}
+{"offset": "0x19230", "text": "[A-Za-zÀ-ÿ0-9.&'-]+"}
+{"offset": "0x19248", "text": "match_key"}
+{"offset": "0x19258", "text": "isenabled"}
+{"offset": "0x19268", "text": "_products"}
+{"offset": "0x19278", "text": "declared"}
+{"offset": "0x19288", "text": "cntry_cd"}
+{"offset": "0x19298", "text": "seen_cc"}
+{"offset": "0x192a0", "text": "results"}
+{"offset": "0x192a8", "text": "records"}
+{"offset": "0x192b0", "text": "findall"}
+{"offset": "0x192b8", "text": "disable"}
+{"offset": "0x192c0", "text": "compile"}
+{"offset": "0x192c8", "text": "GEDTECH"}
+{"offset": "0x192d0", "text": "Counter"}
+{"offset": "0x192d8", "text": "return"}
+{"offset": "0x192df", "text": "parsed"}
+{"offset": "0x192e8", "text": "__name__"}
+{"offset": "0x192f8", "text": "__import__"}
+{"offset": "0x19303", "text": "enable"}
+{"offset": "0x1930a", "text": "brands"}
+{"offset": "0x19311", "text": "XIAOMI"}
+{"offset": "0x19318", "text": "Hammer"}
+{"offset": "0x1931f", "text": "upper"}
+{"offset": "0x19325", "text": "throw"}
+{"offset": "0x1932b", "text": "strip"}
+{"offset": "0x19331", "text": "nouns"}
+{"offset": "0x19337", "text": "items"}
+{"offset": "0x1933d", "text": "close"}
+{"offset": "0x19343", "text": "build"}
+{"offset": "0x19349", "text": "brand"}
+{"offset": "0x1934f", "text": "_TOKEN"}
+{"offset": "0x19358", "text": "__test__"}
+{"offset": "0x19368", "text": "__spec__"}
+{"offset": "0x19371", "text": "send"}
+{"offset": "0x19376", "text": "name"}
+{"offset": "0x19380", "text": "__main__"}
+{"offset": "0x19389", "text": "keys"}
+{"offset": "0x1938e", "text": "dict"}
+{"offset": "0x19393", "text": "core"}
+{"offset": "0x19398", "text": "args"}
+{"offset": "0x1939d", "text": "NEFF"}

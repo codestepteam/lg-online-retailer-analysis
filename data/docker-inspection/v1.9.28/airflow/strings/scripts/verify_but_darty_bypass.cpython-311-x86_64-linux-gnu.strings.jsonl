@@ -1,0 +1,253 @@
+{"offset": "0x1a000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x1a038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1a060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1a090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1a0b8", "text": " while calling a Python object"}
+{"offset": "0x1a0d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1a108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1a130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1a1e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1a210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1a240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1a2a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x1a2c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1a2f8", "text": "generator raised StopIteration"}
+{"offset": "0x1a318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1a348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1a378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1a3e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1a410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1a470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1a4a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x1a4c8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x1a610", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x1a648", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1a680", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1a6a8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1a6d8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x1a710", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x1a748", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x1a770", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1a7a0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1a7e0", "text": "join() result is too long for a Python string"}
+{"offset": "0x1a810", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1a838", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/verify_but_darty_bypass.c"}
+{"offset": "0x1a880", "text": "scripts/verify_but_darty_bypass.py"}
+{"offset": "0x1a8a8", "text": "scripts.verify_but_darty_bypass.main"}
+{"offset": "0x1a8d0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1a910", "text": "scripts.verify_but_darty_bypass._probe"}
+{"offset": "0x1a938", "text": "generator ignored GeneratorExit"}
+{"offset": "0x1a958", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x1a978", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x1a9a0", "text": "Module 'verify_but_darty_bypass' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1aa00", "text": "scripts.verify_but_darty_bypass"}
+{"offset": "0x1aa20", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1aa70", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x1aab0", "text": "init scripts.verify_but_darty_bypass"}
+{"offset": "0x1aad8", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x1ab10", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x1ab58", "text": "scripts.verify_but_darty_bypass._classify.genexpr"}
+{"offset": "0x1ab90", "text": "scripts.verify_but_darty_bypass._classify"}
+{"offset": "0x1abc0", "text": "coroutine is being awaited already"}
+{"offset": "0x1abe8", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x1ac20", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x1ac60", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x1ac98", "text": "__await__() returned a coroutine"}
+{"offset": "0x1acc0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x1acf0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x1ad18", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x1ad48", "text": "instance exception may not have a separate value"}
+{"offset": "0x1ad80", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x1adc8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x1ae08", "text": "qualified name of the generator"}
+{"offset": "0x1ae28", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x1ae58", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1aeb8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1af28", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x1af60", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1af90", "text": "qualified name of the coroutine"}
+{"offset": "0x1afb0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x1b010", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x1b080", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x1b0b8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x1b0e0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x1b118", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1b178", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1b1e8", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct_5_main"}
+{"offset": "0x1b228", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct_4__probe"}
+{"offset": "0x1b268", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct_3_genexpr"}
+{"offset": "0x1b2a8", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x1b2e8", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x1b328", "text": "scripts.verify_but_darty_bypass.__pyx_scope_struct___classify"}
+{"offset": "0x1b366", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x1b384", "text": "%.200s() needs an argument"}
+{"offset": "0x1b39f", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1b3bd", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1b3d3", "text": "cannot import name %S"}
+{"offset": "0x1b3e9", "text": "__loader__"}
+{"offset": "0x1b3f4", "text": "loader"}
+{"offset": "0x1b3fb", "text": "__file__"}
+{"offset": "0x1b404", "text": "origin"}
+{"offset": "0x1b40b", "text": "__package__"}
+{"offset": "0x1b417", "text": "parent"}
+{"offset": "0x1b41e", "text": "__path__"}
+{"offset": "0x1b427", "text": "submodule_search_locations"}
+{"offset": "0x1b442", "text": "keywords must be strings"}
+{"offset": "0x1b45b", "text": "_cython_coroutine_type"}
+{"offset": "0x1b472", "text": "_cython_generator_type"}
+{"offset": "0x1b489", "text": "_module"}
+{"offset": "0x1b491", "text": "__builtins__"}
+{"offset": "0x1b49e", "text": "_cython_3_0_12"}
+{"offset": "0x1b4ad", "text": "%s (%s:%d)"}
+{"offset": "0x1b4b8", "text": "exactly"}
+{"offset": "0x1b4c0", "text": "_probe"}
+{"offset": "0x1b4c7", "text": "coroutine already executing"}
+{"offset": "0x1b4e3", "text": "generator already executing"}
+{"offset": "0x1b4ff", "text": "name '%U' is not defined"}
+{"offset": "0x1b518", "text": "builtins"}
+{"offset": "0x1b521", "text": "cython_runtime"}
+{"offset": "0x1b530", "text": "does not match"}
+{"offset": "0x1b53f", "text": "collections.abc"}
+{"offset": "0x1b54f", "text": "backports_abc"}
+{"offset": "0x1b564", "text": "genexpr"}
+{"offset": "0x1b56c", "text": "_classify"}
+{"offset": "0x1b576", "text": "main"}
+{"offset": "0x1b57b", "text": "throw"}
+{"offset": "0x1b581", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1b59a", "text": "__name__"}
+{"offset": "0x1b5a3", "text": "name of the generator"}
+{"offset": "0x1b5b9", "text": "__qualname__"}
+{"offset": "0x1b5c6", "text": "gi_frame"}
+{"offset": "0x1b5cf", "text": "Frame of the generator"}
+{"offset": "0x1b5e6", "text": "gi_running"}
+{"offset": "0x1b5f1", "text": "gi_yieldfrom"}
+{"offset": "0x1b5fe", "text": "gi_code"}
+{"offset": "0x1b606", "text": "__module__"}
+{"offset": "0x1b611", "text": "send"}
+{"offset": "0x1b616", "text": "close"}
+{"offset": "0x1b61c", "text": "__reduce__"}
+{"offset": "0x1b627", "text": "func_doc"}
+{"offset": "0x1b630", "text": "__doc__"}
+{"offset": "0x1b638", "text": "func_name"}
+{"offset": "0x1b642", "text": "func_dict"}
+{"offset": "0x1b64c", "text": "__dict__"}
+{"offset": "0x1b655", "text": "func_globals"}
+{"offset": "0x1b662", "text": "__globals__"}
+{"offset": "0x1b66e", "text": "func_closure"}
+{"offset": "0x1b67b", "text": "__closure__"}
+{"offset": "0x1b687", "text": "func_code"}
+{"offset": "0x1b691", "text": "__code__"}
+{"offset": "0x1b69a", "text": "func_defaults"}
+{"offset": "0x1b6a8", "text": "__defaults__"}
+{"offset": "0x1b6b5", "text": "__kwdefaults__"}
+{"offset": "0x1b6c4", "text": "__annotations__"}
+{"offset": "0x1b6d4", "text": "_is_coroutine"}
+{"offset": "0x1b6e2", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x1b6fb", "text": "name of the coroutine"}
+{"offset": "0x1b711", "text": "cr_frame"}
+{"offset": "0x1b71a", "text": "Frame of the coroutine"}
+{"offset": "0x1b731", "text": "cr_running"}
+{"offset": "0x1b73c", "text": "cr_await"}
+{"offset": "0x1b745", "text": "object being awaited, or None"}
+{"offset": "0x1b763", "text": "cr_code"}
+{"offset": "0x1b76b", "text": "__reduce_ex__"}
+{"offset": "0x1b779", "text": "verify_but_darty_bypass"}
+{"offset": "0x1b7a0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x1b880", "text": "scripts/verify_but_darty_bypass.py"}
+{"offset": "0x1b8c0", "text": "https://www.darty.com/nav/q/marque-lg.html"}
+{"offset": "0x1b900", "text": "https://www.but.fr/sitemap-produits.xml"}
+{"offset": "0x1b940", "text": "scripts.verify_but_darty_bypass"}
+{"offset": "0x1b960", "text": "BLOCKED (DataDome interstitial, "}
+{"offset": "0x1b9a0", "text": "\n=== §5-2 But_FR 자식 sitemap (LG PDP URL 개수 산정) ==="}
+{"offset": "0x1b9e0", "text": "https://www.but.fr/marques/lg"}
+{"offset": "0x1ba00", "text": "SCRAPINGBEE_API_KEY 미설정 — .env 에 키 필요 (크롤러 런타임 .env)."}
+{"offset": "0x1ba60", "text": "_classify.<locals>.genexpr"}
+{"offset": "0x1ba80", "text": "<loc>([^<]*(?:lg|/marques/lg)[^<]*)</loc>"}
+{"offset": "0x1bab0", "text": "geo.captcha-delivery"}
+{"offset": "0x1bad0", "text": "captcha-delivery.com"}
+{"offset": "0x1baf0", "text": "But sitemap-produits"}
+{"offset": "0x1bb10", "text": "SCRAPINGBEE_API_KEY"}
+{"offset": "0x1bb30", "text": "cline_in_traceback"}
+{"offset": "0x1bb50", "text": "asyncio.coroutines"}
+{"offset": "0x1bb80", "text": "=== §5-1 [핵심] But_FR 브랜드관 stealth 실측 ==="}
+{"offset": "0x1bbc0", "text": "  sitemap: total <loc>="}
+{"offset": "0x1bbe0", "text": "PASS (200, LG hits≈"}
+{"offset": "0x1bc00", "text": "_DATADOME_MARKERS"}
+{"offset": "0x1bc18", "text": "lg-electronics"}
+{"offset": "0x1bc28", "text": "LG Electronics"}
+{"offset": "0x1bc38", "text": "Darty brand-lg"}
+{"offset": "0x1bc50", "text": "But /marques/lg"}
+{"offset": "0x1bc60", "text": "ArgumentParser"}
+{"offset": "0x1bc80", "text": "sitemap + darty 도 실측(추가 크레딧)"}
+{"offset": "0x1bcb0", "text": "asyncio.tasks"}
+{"offset": "0x1bcc0", "text": "_is_coroutine"}
+{"offset": "0x1bcd0", "text": "_initializing"}
+{"offset": "0x1bce0", "text": "add_argument"}
+{"offset": "0x1bcf0", "text": "CLINIC_ENTRY"}
+{"offset": "0x1bd00", "text": "scrapingbee"}
+{"offset": "0x1bd10", "text": "core.config"}
+{"offset": "0x1bd20", "text": ", LG-matching≈"}
+{"offset": "0x1bd38", "text": "store_true"}
+{"offset": "0x1bd48", "text": "parse_args"}
+{"offset": "0x1bd58", "text": "/marques/lg"}
+{"offset": "0x1bd68", "text": "OTHER (http="}
+{"offset": "0x1bd78", "text": "_LG_MARKERS"}
+{"offset": "0x1bd88", "text": "render_js"}
+{"offset": "0x1bd98", "text": "marque-lg"}
+{"offset": "0x1bda8", "text": "isenabled"}
+{"offset": "0x1bdb8", "text": "credits"}
+{"offset": "0x1bdc0", "text": "\n=== Darty 브랜드/카테고리 (결정 1(b) 재확인) ==="}
+{"offset": "0x1be00", "text": "int | None"}
+{"offset": "0x1be10", "text": "endswith"}
+{"offset": "0x1be20", "text": "datadome"}
+{"offset": "0x1be30", "text": "_classify"}
+{"offset": "0x1be40", "text": "argparse"}
+{"offset": "0x1be50", "text": "stealth"}
+{"offset": "0x1be58", "text": "premium"}
+{"offset": "0x1be60", "text": "lg_urls"}
+{"offset": "0x1be68", "text": "inspect"}
+{"offset": "0x1be70", "text": "genexpr"}
+{"offset": "0x1be78", "text": "findall"}
+{"offset": "0x1be80", "text": "environ"}
+{"offset": "0x1be88", "text": "disable"}
+{"offset": "0x1be90", "text": "  | credits="}
+{"offset": "0x1bea0", "text": "country"}
+{"offset": "0x1bea8", "text": "asyncio"}
+{"offset": "0x1beb0", "text": "status"}
+{"offset": "0x1beb7", "text": "return"}
+{"offset": "0x1bec0", "text": "__main__"}
+{"offset": "0x1bed0", "text": "__import__"}
+{"offset": "0x1bedb", "text": "full"}
+{"offset": "0x1bee0", "text": "enable"}
+{"offset": "0x1bee7", "text": "action"}
+{"offset": "0x1bef0", "text": "B, http="}
+{"offset": "0x1bef9", "text": "throw"}
+{"offset": "0x1beff", "text": "spent"}
+{"offset": "0x1bf05", "text": "_probe"}
+{"offset": "0x1bf0c", "text": "print"}
+{"offset": "0x1bf12", "text": "lower"}
+{"offset": "0x1bf18", "text": "label"}
+{"offset": "0x1bf1e", "text": "fetch"}
+{"offset": "0x1bf24", "text": "count"}
+{"offset": "0x1bf2a", "text": "close"}
+{"offset": "0x1bf30", "text": "__await__"}
+{"offset": "0x1bf40", "text": "  ERROR: "}
+{"offset": "0x1bf50", "text": "__test__"}
+{"offset": "0x1bf60", "text": "__spec__"}
+{"offset": "0x1bf69", "text": "send"}
+{"offset": "0x1bf70", "text": "__name__"}
+{"offset": "0x1bf79", "text": "main"}
+{"offset": "0x1bf7e", "text": "html"}
+{"offset": "0x1bf83", "text": "help"}
+{"offset": "0x1bf88", "text": "--full"}
+{"offset": "0x1bf8f", "text": "exit"}
+{"offset": "0x1bf94", "text": "core"}
+{"offset": "0x1bf99", "text": "bool"}
+{"offset": "0x1bf9e", "text": "args"}
+{"offset": "0x1bfa3", "text": "None"}
+{"offset": "0x1bfa8", "text": ".xml"}
+{"offset": "0x1bfc5", "text": "<loc>"}
+{"offset": "0x1bfd9", "text": " ==="}
+{"offset": "0x1bfe0", "text": "\n=== 총 소모 크레딧 ≈ "}
+{"offset": "0x1c011", "text": "  -> "}
+{"offset": "0x1c01f", "text": ">LG<"}

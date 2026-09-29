@@ -1,0 +1,152 @@
+{"offset": "0xd000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0xd038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0xd060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0xd090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0xd0b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0xd0e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0xd118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0xd178", "text": "invalid input, expected coroutine"}
+{"offset": "0xd1a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0xd1d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0xd200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0xd230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0xd298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0xd2c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0xd328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0xd358", "text": "__name__ must be set to a string object"}
+{"offset": "0xd380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0xd4c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0xd500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0xd538", "text": "%.200s() keywords must be strings"}
+{"offset": "0xd560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0xd590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0xd5c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0xd600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0xd628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0xd658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0xd698", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/home/darty.c"}
+{"offset": "0xd6d8", "text": "crawl_retailers.home.darty.extract"}
+{"offset": "0xd700", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0xd740", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0xd768", "text": " while calling a Python object"}
+{"offset": "0xd788", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0xd7b8", "text": "strings are too large to concat"}
+{"offset": "0xd7d8", "text": "crawl_retailers.home.darty.page_targets"}
+{"offset": "0xd800", "text": "generator raised StopIteration"}
+{"offset": "0xd820", "text": "generator ignored GeneratorExit"}
+{"offset": "0xd840", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0xd860", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0xd888", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0xd8b8", "text": "instance exception may not have a separate value"}
+{"offset": "0xd8f0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0xd938", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0xd978", "text": "Module 'darty' has already been imported. Re-initialisation is not supported."}
+{"offset": "0xd9c8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0xda18", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0xda40", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0xdaf0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0xdb30", "text": "init crawl_retailers.home.darty"}
+{"offset": "0xdb50", "text": "qualified name of the coroutine"}
+{"offset": "0xdb70", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xdbd0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xdc40", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0xdc78", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0xdca0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0xdcd8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xdd38", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xdda8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0xddd8", "text": "crawl_retailers.home.darty.__pyx_scope_struct__extract"}
+{"offset": "0xde0f", "text": "cannot pickle '%.200s' object"}
+{"offset": "0xde2d", "text": "%.200s() needs an argument"}
+{"offset": "0xde48", "text": "Bad call flags for CyFunction"}
+{"offset": "0xde66", "text": "<cyfunction %U at %p>"}
+{"offset": "0xde7c", "text": "__loader__"}
+{"offset": "0xde87", "text": "loader"}
+{"offset": "0xde8e", "text": "__file__"}
+{"offset": "0xde97", "text": "origin"}
+{"offset": "0xde9e", "text": "__package__"}
+{"offset": "0xdeaa", "text": "parent"}
+{"offset": "0xdeb1", "text": "__path__"}
+{"offset": "0xdeba", "text": "submodule_search_locations"}
+{"offset": "0xded5", "text": "keywords must be strings"}
+{"offset": "0xdeee", "text": "_cython_coroutine_type"}
+{"offset": "0xdf05", "text": "_cython_generator_type"}
+{"offset": "0xdf1c", "text": "_module"}
+{"offset": "0xdf24", "text": "__builtins__"}
+{"offset": "0xdf31", "text": "_cython_3_0_12"}
+{"offset": "0xdf40", "text": "%s (%s:%d)"}
+{"offset": "0xdf4b", "text": "extract"}
+{"offset": "0xdf53", "text": "crawl_retailers/home/darty.py"}
+{"offset": "0xdf71", "text": "exactly"}
+{"offset": "0xdf79", "text": "coroutine already executing"}
+{"offset": "0xdf95", "text": "generator already executing"}
+{"offset": "0xdfb1", "text": "name '%U' is not defined"}
+{"offset": "0xdfca", "text": "page_targets"}
+{"offset": "0xdfd7", "text": "throw"}
+{"offset": "0xdfdd", "text": "builtins"}
+{"offset": "0xdfe6", "text": "cython_runtime"}
+{"offset": "0xdff5", "text": "crawl_retailers.home.darty"}
+{"offset": "0xe010", "text": "does not match"}
+{"offset": "0xe01f", "text": "collections.abc"}
+{"offset": "0xe02f", "text": "backports_abc"}
+{"offset": "0xe03d", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0xe056", "text": "__name__"}
+{"offset": "0xe05f", "text": "name of the coroutine"}
+{"offset": "0xe075", "text": "__qualname__"}
+{"offset": "0xe082", "text": "cr_frame"}
+{"offset": "0xe08b", "text": "Frame of the coroutine"}
+{"offset": "0xe0a2", "text": "cr_running"}
+{"offset": "0xe0ad", "text": "cr_await"}
+{"offset": "0xe0b6", "text": "object being awaited, or None"}
+{"offset": "0xe0d4", "text": "cr_code"}
+{"offset": "0xe0dc", "text": "__module__"}
+{"offset": "0xe0e7", "text": "send"}
+{"offset": "0xe0ec", "text": "close"}
+{"offset": "0xe0f2", "text": "__reduce_ex__"}
+{"offset": "0xe100", "text": "__reduce__"}
+{"offset": "0xe10b", "text": "func_doc"}
+{"offset": "0xe114", "text": "__doc__"}
+{"offset": "0xe11c", "text": "func_name"}
+{"offset": "0xe126", "text": "func_dict"}
+{"offset": "0xe130", "text": "__dict__"}
+{"offset": "0xe139", "text": "func_globals"}
+{"offset": "0xe146", "text": "__globals__"}
+{"offset": "0xe152", "text": "func_closure"}
+{"offset": "0xe15f", "text": "__closure__"}
+{"offset": "0xe16b", "text": "func_code"}
+{"offset": "0xe175", "text": "__code__"}
+{"offset": "0xe17e", "text": "func_defaults"}
+{"offset": "0xe18c", "text": "__defaults__"}
+{"offset": "0xe199", "text": "__kwdefaults__"}
+{"offset": "0xe1a8", "text": "__annotations__"}
+{"offset": "0xe1b8", "text": "_is_coroutine"}
+{"offset": "0xe1d0", "text": "crawl_retailers/home/darty.py"}
+{"offset": "0xe1f0", "text": "crawl_retailers.home.darty"}
+{"offset": "0xe210", "text": "https://www.darty.com"}
+{"offset": "0xe230", "text": "cline_in_traceback"}
+{"offset": "0xe250", "text": "asyncio.coroutines"}
+{"offset": "0xe268", "text": "page_targets"}
+{"offset": "0xe278", "text": "_is_coroutine"}
+{"offset": "0xe288", "text": "page_type"}
+{"offset": "0xe298", "text": "list[dict]"}
+{"offset": "0xe2a8", "text": "isenabled"}
+{"offset": "0xe2b8", "text": "category"}
+{"offset": "0xe2c8", "text": "targets"}
+{"offset": "0xe2d0", "text": "extract"}
+{"offset": "0xe2d8", "text": "disable"}
+{"offset": "0xe2e0", "text": "country"}
+{"offset": "0xe2e8", "text": "return"}
+{"offset": "0xe2ef", "text": "result"}
+{"offset": "0xe2f6", "text": "enable"}
+{"offset": "0xe2fd", "text": "throw"}
+{"offset": "0xe303", "text": "close"}
+{"offset": "0xe310", "text": "__test__"}
+{"offset": "0xe319", "text": "sess"}
+{"offset": "0xe31e", "text": "send"}
+{"offset": "0xe323", "text": "page"}
+{"offset": "0xe328", "text": "__name__"}
+{"offset": "0xe338", "text": "__main__"}
+{"offset": "0xe341", "text": "home"}
+{"offset": "0xe346", "text": "dict"}
+{"offset": "0xe34b", "text": "args"}
+{"offset": "0xe350", "text": "_BASE"}

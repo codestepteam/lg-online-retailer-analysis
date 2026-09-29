@@ -1,0 +1,451 @@
+{
+  "generated_at": "2026-09-21T23:22:29+09:00",
+  "count": 70,
+  "retailers": [
+    "eci",
+    "mediamarkt-es",
+    "darty",
+    "boulanger",
+    "mediaworld",
+    "amazon-it",
+    "unieuro",
+    "coolblue",
+    "mediamarkt-nl",
+    "elgiganten",
+    "media-expert",
+    "rtv-euro-agd",
+    "datart",
+    "alza"
+  ],
+  "page_types": [
+    "home",
+    "brand",
+    "brand-category",
+    "plp",
+    "pdp"
+  ],
+  "entries": [
+    {
+      "retailer_slug": "eci",
+      "page_type": "home",
+      "url": "https://www.elcorteingles.es/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "eci",
+      "page_type": "brand",
+      "url": "https://www.elcorteingles.es/lg/electrodomesticos/",
+      "source": "xlsx sharedStrings: ECI LG electrodomesticos hub (ID9 has no Brand Page rows)"
+    },
+    {
+      "retailer_slug": "eci",
+      "page_type": "brand-category",
+      "url": "https://www.elcorteingles.es/lg/electrodomesticos/",
+      "source": "xlsx sharedStrings: only LG brand hub present; used as brand-category sample (ID9 empty for ECI)"
+    },
+    {
+      "retailer_slug": "eci",
+      "page_type": "plp",
+      "url": "https://www.elcorteingles.es/search-nwx/?s=Secadora",
+      "source": "xlsx ID11 row 1001 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "eci",
+      "page_type": "pdp",
+      "url": "https://www.elcorteingles.es/electrodomesticos/A53102916-8806096112892-pr-lavadora-lg-20-kg-1000-rpm-f0p3cyv2e-negro/",
+      "source": "xlsx ID13 row 4645 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-es",
+      "page_type": "home",
+      "url": "https://www.mediamarkt.es/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "mediamarkt-es",
+      "page_type": "brand",
+      "url": "https://www.mediamarkt.es/es/brand/lg-electronics",
+      "source": "xlsx ID9 row 121 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-es",
+      "page_type": "brand-category",
+      "url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+      "source": "xlsx ID9 row 123 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-es",
+      "page_type": "plp",
+      "url": "https://www.mediamarkt.es/es/search.html?query=Secadora",
+      "source": "xlsx ID11 row 1091 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-es",
+      "page_type": "pdp",
+      "url": "https://www.mediamarkt.es/es/product/_lg-electronics-f1p1cy2t-1511040.html",
+      "source": "xlsx ID13 row 4884 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "darty",
+      "page_type": "home",
+      "url": "https://www.darty.com/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "darty",
+      "page_type": "brand",
+      "url": "https://www.darty.com/nav/q/marque-lg.html",
+      "source": "xlsx ID9 row 76 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "darty",
+      "page_type": "brand-category",
+      "url": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateurs/marque__lg__LG.html",
+      "source": "xlsx sharedStrings: Darty marque__lg refrigerateurs (ID9 has Brand Page only)"
+    },
+    {
+      "retailer_slug": "darty",
+      "page_type": "plp",
+      "url": "https://www.darty.com/nav/recherche?text=lave-linge",
+      "source": "xlsx ID11 row 335 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "darty",
+      "page_type": "pdp",
+      "url": "https://www.darty.com/nav/achat/ref/MC351138276.html",
+      "source": "xlsx ID13 row 2334 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "boulanger",
+      "page_type": "home",
+      "url": "https://www.boulanger.com/",
+      "source": "structure.md boulanger home live"
+    },
+    {
+      "retailer_slug": "boulanger",
+      "page_type": "brand",
+      "url": "https://www.boulanger.com/marque/lg",
+      "source": "structure.md boulanger brand ID9!H53"
+    },
+    {
+      "retailer_slug": "boulanger",
+      "page_type": "brand-category",
+      "url": "https://www.boulanger.com/c/refrigerateur/brand~lg",
+      "source": "structure.md boulanger brand-category ID9!H54"
+    },
+    {
+      "retailer_slug": "boulanger",
+      "page_type": "plp",
+      "url": "https://www.boulanger.com/resultats?tr=R%C3%A9frig%C3%A9raeur+multi-portes",
+      "source": "structure.md boulanger plp ID11!I195"
+    },
+    {
+      "retailer_slug": "boulanger",
+      "page_type": "pdp",
+      "url": "https://www.boulanger.com/ref/1160268",
+      "source": "structure.md boulanger pdp ID13!I2096"
+    },
+    {
+      "retailer_slug": "mediaworld",
+      "page_type": "home",
+      "url": "https://www.mediaworld.it/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "mediaworld",
+      "page_type": "brand",
+      "url": "https://www.mediaworld.it/it/brand/lg",
+      "source": "xlsx ID9 row 149 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "mediaworld",
+      "page_type": "brand-category",
+      "url": "https://www.mediaworld.it/it/brand/lg/frigoriferi",
+      "source": "xlsx ID9 row 151 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "mediaworld",
+      "page_type": "plp",
+      "url": "https://www.mediaworld.it/it/search.html?query=lavatrice",
+      "source": "xlsx ID11 row 523 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "mediaworld",
+      "page_type": "pdp",
+      "url": "https://www.mediaworld.it/it/product/_lg-gbbsj20dpy-527178.html",
+      "source": "xlsx ID13 row 2518 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "amazon-it",
+      "page_type": "home",
+      "url": "https://www.amazon.it/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "amazon-it",
+      "page_type": "brand",
+      "url": "https://www.amazon.it/stores/page/CFD4D966-B596-4662-9305-AE3889DCC47C?ingress=0&visitId=123343d5-4ec3-4e5b-8acd-7095f152ddde",
+      "source": "xlsx ID9 row 39 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "amazon-it",
+      "page_type": "brand-category",
+      "url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5?ingress=0&visitId=123343d5-4ec3-4e5b-8acd-7095f152ddde",
+      "source": "xlsx ID9 row 41 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "amazon-it",
+      "page_type": "plp",
+      "url": "https://www.amazon.it/s?k=lavatrice",
+      "source": "xlsx ID11 row 425 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "amazon-it",
+      "page_type": "pdp",
+      "url": "https://www.amazon.it/dp/B0H6N6B22K",
+      "source": "xlsx ID13 row 353 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "unieuro",
+      "page_type": "home",
+      "url": "https://www.unieuro.it/online/",
+      "source": "structure.md unieuro home live"
+    },
+    {
+      "retailer_slug": "unieuro",
+      "page_type": "brand",
+      "url": "https://www.unieuro.it/online/LG",
+      "source": "structure.md unieuro brand ID9!H158"
+    },
+    {
+      "retailer_slug": "unieuro",
+      "page_type": "brand-category",
+      "url": "https://www.unieuro.it/online/LG?dFR%5Bbrands.lvl1%5D%5B0%5D=brand_293&dFR%5BcategoryNames_it.lvl3%5D%5B0%5D=Frigoriferi",
+      "source": "structure.md unieuro brand-category live filter"
+    },
+    {
+      "retailer_slug": "unieuro",
+      "page_type": "plp",
+      "url": "https://www.unieuro.it/online/products?q=Frigorifero+combinato",
+      "source": "structure.md unieuro plp ID11!I534"
+    },
+    {
+      "retailer_slug": "unieuro",
+      "page_type": "pdp",
+      "url": "https://www.unieuro.it/online/Frigoriferi/GBBS322APY-Frigorifero-combinato-Fit--Max-60cm-Classe-A-375L-AI-Inverter-Prime-Silver-pidGOLGBBS322APY",
+      "source": "structure.md unieuro pdp ID13!I528"
+    },
+    {
+      "retailer_slug": "coolblue",
+      "page_type": "home",
+      "url": "https://www.coolblue.nl/",
+      "source": "structure.md coolblue home live"
+    },
+    {
+      "retailer_slug": "coolblue",
+      "page_type": "brand",
+      "url": "https://www.coolblue.nl/lg",
+      "source": "structure.md coolblue brand ID9!H69"
+    },
+    {
+      "retailer_slug": "coolblue",
+      "page_type": "brand-category",
+      "url": "https://www.coolblue.nl/koelkasten/lg",
+      "source": "structure.md coolblue brand-category ID9!H70"
+    },
+    {
+      "retailer_slug": "coolblue",
+      "page_type": "plp",
+      "url": "https://www.coolblue.nl/zoeken?query=Amerikaanse+koelkasten",
+      "source": "structure.md coolblue plp ID11!I632"
+    },
+    {
+      "retailer_slug": "coolblue",
+      "page_type": "pdp",
+      "url": "https://www.coolblue.nl/product/980516/lg-gbbs525cpy.html",
+      "source": "structure.md coolblue pdp ID13!I2886"
+    },
+    {
+      "retailer_slug": "mediamarkt-nl",
+      "page_type": "home",
+      "url": "https://www.mediamarkt.nl/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "mediamarkt-nl",
+      "page_type": "brand",
+      "url": "https://www.mediamarkt.nl/nl/brand/lg",
+      "source": "xlsx sharedStrings: MediaMarkt NL brand/lg (ID9 has Brand Category Page only)"
+    },
+    {
+      "retailer_slug": "mediamarkt-nl",
+      "page_type": "brand-category",
+      "url": "https://www.mediamarkt.nl/nl/category/lg-koelkasten-964.html",
+      "source": "xlsx ID9 row 135 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-nl",
+      "page_type": "plp",
+      "url": "https://www.mediamarkt.nl/nl/search.html?query=koelkast",
+      "source": "xlsx ID11 row 703 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "mediamarkt-nl",
+      "page_type": "pdp",
+      "url": "https://www.mediamarkt.nl/nl/product/_lg-gsgv80epld-1803166.html",
+      "source": "xlsx ID13 row 3070 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "elgiganten",
+      "page_type": "home",
+      "url": "https://www.elgiganten.se/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "elgiganten",
+      "page_type": "brand",
+      "url": "https://www.elgiganten.se/brand/lg",
+      "source": "xlsx ID9 row 106 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "elgiganten",
+      "page_type": "brand-category",
+      "url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+      "source": "xlsx ID9 row 107 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "elgiganten",
+      "page_type": "plp",
+      "url": "https://www.elgiganten.se/search?q=Torktumlare",
+      "source": "xlsx ID11 row 1200 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "elgiganten",
+      "page_type": "pdp",
+      "url": "https://www.elgiganten.se/product/outlet/lg-torktumlare-rv9dn9039-9kg/648026",
+      "source": "xlsx ID13 row 5384 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "media-expert",
+      "page_type": "home",
+      "url": "https://www.mediaexpert.pl/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "media-expert",
+      "page_type": "brand",
+      "url": "https://www.mediaexpert.pl/agd/lodowki-i-zamrazarki/lodowki/lg",
+      "source": "xlsx sharedStrings: MediaExpert category brand facet (ID9 has no Brand Page)"
+    },
+    {
+      "retailer_slug": "media-expert",
+      "page_type": "brand-category",
+      "url": "https://www.mediaexpert.pl/agd/pralki-i-suszarki/pralki/lg",
+      "source": "xlsx sharedStrings: MediaExpert pralki/lg brand-category facet"
+    },
+    {
+      "retailer_slug": "media-expert",
+      "page_type": "plp",
+      "url": "https://www.mediaexpert.pl/search?query%5Bquerystring%5D=pralka",
+      "source": "xlsx ID11 row 788 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "media-expert",
+      "page_type": "pdp",
+      "url": "https://www.mediaexpert.pl/agd/pralki-i-suszarki/suszarki/suszarka-lg-rc10v9av2w",
+      "source": "xlsx ID13 row 3849 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "rtv-euro-agd",
+      "page_type": "home",
+      "url": "https://www.euro.com.pl/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "rtv-euro-agd",
+      "page_type": "brand",
+      "url": "https://www.euro.com.pl/search.bhtml?keyword=LG",
+      "source": "xlsx search.bhtml pattern + LG keyword (ID9 has no Brand Page for RtvEuroAgd)"
+    },
+    {
+      "retailer_slug": "rtv-euro-agd",
+      "page_type": "brand-category",
+      "url": "https://www.euro.com.pl/search.bhtml?keyword=LG+lod%C3%B3wka",
+      "source": "xlsx search.bhtml pattern + LG lodówka (ID9 has no Brand Category Page)"
+    },
+    {
+      "retailer_slug": "rtv-euro-agd",
+      "page_type": "plp",
+      "url": "https://www.euro.com.pl/search.bhtml?keyword=pralka",
+      "source": "xlsx ID11 row 879 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "rtv-euro-agd",
+      "page_type": "pdp",
+      "url": "https://www.euro.com.pl/pralki/lg-f2wv3s7s6e.bhtml",
+      "source": "xlsx ID13 row 4301 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "datart",
+      "page_type": "home",
+      "url": "https://www.datart.cz/",
+      "source": "site root (ID3 Home rows are category paths; prefer root per POC rule)"
+    },
+    {
+      "retailer_slug": "datart",
+      "page_type": "brand",
+      "url": "https://www.datart.cz/shop/lg",
+      "source": "xlsx ID9 row 93 Brand Page brand=LG"
+    },
+    {
+      "retailer_slug": "datart",
+      "page_type": "brand-category",
+      "url": "https://www.datart.cz/lednice-lg.html",
+      "source": "xlsx ID9 row 95 Brand Category Page cat=REF brand=LG"
+    },
+    {
+      "retailer_slug": "datart",
+      "page_type": "plp",
+      "url": "https://www.datart.cz/vyhledavani?q=lednice",
+      "source": "xlsx ID11 row 120 PLP brand=LG"
+    },
+    {
+      "retailer_slug": "datart",
+      "page_type": "pdp",
+      "url": "https://www.datart.cz/pracka-lg-f4x5009tbb",
+      "source": "xlsx ID13 row 269 PDP brand=LG"
+    },
+    {
+      "retailer_slug": "alza",
+      "page_type": "home",
+      "url": "https://www.alza.cz/",
+      "source": "structure.md alza home live"
+    },
+    {
+      "retailer_slug": "alza",
+      "page_type": "brand",
+      "url": "https://www.alza.cz/lg/v1357.htm",
+      "source": "structure.md alza brand ID9!H14"
+    },
+    {
+      "retailer_slug": "alza",
+      "page_type": "brand-category",
+      "url": "https://www.alza.cz/pracky/lg/18852774-v1357.htm",
+      "source": "structure.md alza brand-category ID9!H17"
+    },
+    {
+      "retailer_slug": "alza",
+      "page_type": "plp",
+      "url": "https://www.alza.cz/search.htm?exps=americk%C3%A1+lednice",
+      "source": "structure.md alza plp ID11!I2"
+    },
+    {
+      "retailer_slug": "alza",
+      "page_type": "pdp",
+      "url": "https://www.alza.cz/lg-gbbs312bpy-d13349338.htm",
+      "source": "structure.md alza pdp live"
+    }
+  ],
+  "missing": [],
+  "notes": "structure.md preferred for alza/boulanger/coolblue/unieuro; Excel ID9/11/13 + sharedStrings for others; home=site roots"
+}

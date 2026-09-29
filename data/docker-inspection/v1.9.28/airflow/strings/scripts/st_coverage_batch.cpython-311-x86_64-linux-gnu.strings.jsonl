@@ -1,0 +1,530 @@
+{"offset": "0x59000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x59038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x59060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x59090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x590b8", "text": "strings are too large to concat"}
+{"offset": "0x590d8", "text": " while calling a Python object"}
+{"offset": "0x590f8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x59128", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x59150", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x59200", "text": "function's dictionary may not be deleted"}
+{"offset": "0x59230", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x59260", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x592c0", "text": "invalid input, expected coroutine"}
+{"offset": "0x592e8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x59318", "text": "generator raised StopIteration"}
+{"offset": "0x59338", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x59368", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x59398", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x59400", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x59430", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x59490", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x594c0", "text": "__name__ must be set to a string object"}
+{"offset": "0x594e8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x59630", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x59668", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x59698", "text": "instance exception may not have a separate value"}
+{"offset": "0x596d0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x59718", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x59758", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x59788", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x597c0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x597e8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x59818", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x59850", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x59888", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x598b0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x598e0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x59920", "text": "join() result is too long for a Python string"}
+{"offset": "0x59950", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x59978", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/st_coverage_batch.c"}
+{"offset": "0x599b8", "text": "scripts.st_coverage_batch.run.genexpr"}
+{"offset": "0x599e0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x59a00", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x59a20", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x59a48", "text": "scripts.st_coverage_batch._retail_text"}
+{"offset": "0x59a70", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x59ab0", "text": "Module 'st_coverage_batch' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x59b10", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x59b60", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x59ba0", "text": "init scripts.st_coverage_batch"}
+{"offset": "0x59bc0", "text": "scripts.st_coverage_batch.resolve_ean"}
+{"offset": "0x59be8", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x59c08", "text": "scripts.st_coverage_batch._stem_tail"}
+{"offset": "0x59c30", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x59c68", "text": "scripts.st_coverage_batch._hash_set"}
+{"offset": "0x59c90", "text": "scripts.st_coverage_batch.official_image_urls"}
+{"offset": "0x59cc0", "text": "scripts.st_coverage_batch.blockwise_image_match.genexpr"}
+{"offset": "0x59cf8", "text": "scripts.st_coverage_batch.blockwise_image_match"}
+{"offset": "0x59d28", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x59d70", "text": "scripts.st_coverage_batch.eans_from_checkpoints"}
+{"offset": "0x59da0", "text": "scripts.st_coverage_batch._single_file_report.genexpr"}
+{"offset": "0x59dd8", "text": "dictionary changed size during iteration"}
+{"offset": "0x59e08", "text": "scripts.st_coverage_batch._single_file_report"}
+{"offset": "0x59e38", "text": "scripts.st_coverage_batch.locale_mismatch_suspected"}
+{"offset": "0x59e70", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x59e98", "text": "'NoneType' object is not iterable"}
+{"offset": "0x59ec0", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x59ef0", "text": "scripts.st_coverage_batch.main"}
+{"offset": "0x59f10", "text": "scripts.st_coverage_batch.run.genexpr.genexpr"}
+{"offset": "0x59f40", "text": "scripts.st_coverage_batch.targets_from_db"}
+{"offset": "0x59f70", "text": "scripts.st_coverage_batch.caption_body_split"}
+{"offset": "0x59fa0", "text": "scripts.st_coverage_batch.eans_from_csv"}
+{"offset": "0x59fc8", "text": "scripts.st_coverage_batch._img_matches"}
+{"offset": "0x59ff0", "text": "scripts.st_coverage_batch.flix_image_urls"}
+{"offset": "0x5a020", "text": "scripts.st_coverage_batch._img_stem"}
+{"offset": "0x5a048", "text": "coroutine is being awaited already"}
+{"offset": "0x5a070", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x5a0a8", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x5a0e8", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x5a120", "text": "__await__() returned a coroutine"}
+{"offset": "0x5a148", "text": "qualified name of the generator"}
+{"offset": "0x5a168", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x5a198", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5a1f8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5a268", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x5a2a0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x5a2d0", "text": "qualified name of the coroutine"}
+{"offset": "0x5a2f0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x5a350", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x5a3c0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x5a3f8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x5a420", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x5a458", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5a4b8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5a528", "text": "scripts.st_coverage_batch.__pyx_scope_struct_6_genexpr"}
+{"offset": "0x5a560", "text": "scripts.st_coverage_batch.__pyx_scope_struct_5_genexpr"}
+{"offset": "0x5a598", "text": "scripts.st_coverage_batch.__pyx_scope_struct_4_genexpr"}
+{"offset": "0x5a5d0", "text": "scripts.st_coverage_batch.__pyx_scope_struct_3_run"}
+{"offset": "0x5a608", "text": "scripts.st_coverage_batch.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x5a640", "text": "scripts.st_coverage_batch.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x5a678", "text": "scripts.st_coverage_batch.__pyx_scope_struct__blockwise_image_match"}
+{"offset": "0x5a6bc", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x5a6da", "text": "%.200s() needs an argument"}
+{"offset": "0x5a6f5", "text": "Bad call flags for CyFunction"}
+{"offset": "0x5a713", "text": "<cyfunction %U at %p>"}
+{"offset": "0x5a729", "text": "__loader__"}
+{"offset": "0x5a734", "text": "loader"}
+{"offset": "0x5a73b", "text": "__file__"}
+{"offset": "0x5a744", "text": "origin"}
+{"offset": "0x5a74b", "text": "__package__"}
+{"offset": "0x5a757", "text": "parent"}
+{"offset": "0x5a75e", "text": "__path__"}
+{"offset": "0x5a767", "text": "submodule_search_locations"}
+{"offset": "0x5a782", "text": "keywords must be strings"}
+{"offset": "0x5a79b", "text": "_cython_coroutine_type"}
+{"offset": "0x5a7b2", "text": "_cython_generator_type"}
+{"offset": "0x5a7c9", "text": "_module"}
+{"offset": "0x5a7d1", "text": "__builtins__"}
+{"offset": "0x5a7de", "text": "_cython_3_0_12"}
+{"offset": "0x5a7ed", "text": "cannot import name %S"}
+{"offset": "0x5a803", "text": "%s (%s:%d)"}
+{"offset": "0x5a80e", "text": "scripts/st_coverage_batch.py"}
+{"offset": "0x5a82b", "text": "coroutine already executing"}
+{"offset": "0x5a847", "text": "generator already executing"}
+{"offset": "0x5a863", "text": "_retail_text"}
+{"offset": "0x5a870", "text": "exactly"}
+{"offset": "0x5a878", "text": "name '%U' is not defined"}
+{"offset": "0x5a891", "text": "builtins"}
+{"offset": "0x5a89a", "text": "cython_runtime"}
+{"offset": "0x5a8a9", "text": "scripts.st_coverage_batch"}
+{"offset": "0x5a8c3", "text": "does not match"}
+{"offset": "0x5a8d2", "text": "collections.abc"}
+{"offset": "0x5a8e2", "text": "backports_abc"}
+{"offset": "0x5a8f0", "text": "resolve_ean"}
+{"offset": "0x5a8fc", "text": "_stem_tail"}
+{"offset": "0x5a907", "text": "throw"}
+{"offset": "0x5a913", "text": "genexpr"}
+{"offset": "0x5a91b", "text": "at least"}
+{"offset": "0x5a924", "text": "at most"}
+{"offset": "0x5a92c", "text": "scripts.st_coverage_batch.run"}
+{"offset": "0x5a94a", "text": "_hash_set"}
+{"offset": "0x5a954", "text": "official_image_urls"}
+{"offset": "0x5a968", "text": "blockwise_image_match"}
+{"offset": "0x5a981", "text": "eans_from_checkpoints"}
+{"offset": "0x5a997", "text": "_single_file_report"}
+{"offset": "0x5a9ab", "text": "locale_mismatch_suspected"}
+{"offset": "0x5a9c5", "text": "retailer"}
+{"offset": "0x5a9ce", "text": "threshold"}
+{"offset": "0x5a9d8", "text": "stem_cap"}
+{"offset": "0x5a9e1", "text": "items"}
+{"offset": "0x5a9e7", "text": "targets_from_db"}
+{"offset": "0x5a9f7", "text": "rows"}
+{"offset": "0x5a9fc", "text": "caption_body_split"}
+{"offset": "0x5aa0f", "text": "eans_from_csv"}
+{"offset": "0x5aa1d", "text": "_img_matches"}
+{"offset": "0x5aa2a", "text": "flix_image_urls"}
+{"offset": "0x5aa3a", "text": "_img_stem"}
+{"offset": "0x5aa44", "text": "_cython_3_0_12.generator"}
+{"offset": "0x5aa5d", "text": "__name__"}
+{"offset": "0x5aa66", "text": "name of the generator"}
+{"offset": "0x5aa7c", "text": "__qualname__"}
+{"offset": "0x5aa89", "text": "gi_frame"}
+{"offset": "0x5aa92", "text": "Frame of the generator"}
+{"offset": "0x5aaa9", "text": "gi_running"}
+{"offset": "0x5aab4", "text": "gi_yieldfrom"}
+{"offset": "0x5aac1", "text": "gi_code"}
+{"offset": "0x5aac9", "text": "__module__"}
+{"offset": "0x5aad4", "text": "send"}
+{"offset": "0x5aad9", "text": "close"}
+{"offset": "0x5aadf", "text": "__reduce__"}
+{"offset": "0x5aaea", "text": "func_doc"}
+{"offset": "0x5aaf3", "text": "__doc__"}
+{"offset": "0x5aafb", "text": "func_name"}
+{"offset": "0x5ab05", "text": "func_dict"}
+{"offset": "0x5ab0f", "text": "__dict__"}
+{"offset": "0x5ab18", "text": "func_globals"}
+{"offset": "0x5ab25", "text": "__globals__"}
+{"offset": "0x5ab31", "text": "func_closure"}
+{"offset": "0x5ab3e", "text": "__closure__"}
+{"offset": "0x5ab4a", "text": "func_code"}
+{"offset": "0x5ab54", "text": "__code__"}
+{"offset": "0x5ab5d", "text": "func_defaults"}
+{"offset": "0x5ab6b", "text": "__defaults__"}
+{"offset": "0x5ab78", "text": "__kwdefaults__"}
+{"offset": "0x5ab87", "text": "__annotations__"}
+{"offset": "0x5ab97", "text": "_is_coroutine"}
+{"offset": "0x5aba5", "text": "CythonUnboundCMethod"}
+{"offset": "0x5abba", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x5abd3", "text": "name of the coroutine"}
+{"offset": "0x5abe9", "text": "cr_frame"}
+{"offset": "0x5abf2", "text": "Frame of the coroutine"}
+{"offset": "0x5ac09", "text": "cr_running"}
+{"offset": "0x5ac14", "text": "cr_await"}
+{"offset": "0x5ac1d", "text": "object being awaited, or None"}
+{"offset": "0x5ac3b", "text": "cr_code"}
+{"offset": "0x5ac43", "text": "__reduce_ex__"}
+{"offset": "0x5ac51", "text": "main"}
+{"offset": "0x5ace0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x5adc0", "text": "run.<locals>.genexpr.<locals>.genexpr"}
+{"offset": "0x5ae00", "text": "pdp_target_list 배치 ID — DB 타깃 전수 대상 (EAN 은 product_ean 마스터에서, 없으면 mpc 로 MPN 폴백)"}
+{"offset": "0x5ae80", "text": "checkpoint 의 retailer 표기 (flix 등록명과 다를 때. 예: MediaMarkt_ES ← 'MediaMarkt')"}
+{"offset": "0x5af00", "text": "blockwise_image_match.<locals>.genexpr"}
+{"offset": "0x5af40", "text": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"offset": "0x5afc0", "text": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+{"offset": "0x5b000", "text": "--single-official-file 과 --single-retailer-file 은 함께 필요"}
+{"offset": "0x5b060", "text": "_single_file_report.<locals>.genexpr"}
+{"offset": "0x5b0a0", "text": "단건 모드: 공홈 LG.com PDP HTML 파일 경로 (--single-retailer-file 과 함께)"}
+{"offset": "0x5b100", "text": "\n        SELECT DISTINCT t.mpc,\n               (p.url IS NOT NULL) AS has_url,\n               (e.ean IS NOT NULL) AS has_ean\n          FROM pdp_target_list t\n          LEFT JOIN pdp_20260622 p\n                 ON UPPER(p.sales_model_code) = UPPER(SUBSTRING_INDEX(t.mpc, '.', 1))\n                AND p.locale LIKE CONCAT(%s, '%%')\n          LEFT JOIN product_ean e\n                 ON e.model_mpc = UPPER(SUBSTRING_INDEX(t.mpc, '.', 1))\n         WHERE t.batch_id=%s AND t.rtlr_name=%s AND t.cntry_cd=%s\n               AND t.mpc IS NOT NULL AND t.mpc <> ''\n         ORDER BY has_url DESC, has_ean DESC\n    "}
+{"offset": "0x5b360", "text": "[-_](d|m|mobile|desktop|tablet|thumbnail|thumb|zoom)(?=[-_.(]|$)"}
+{"offset": "0x5b3b0", "text": "scripts/st_coverage_batch.py"}
+{"offset": "0x5b3e0", "text": "타깃 0건 — --from-db / --checkpoint / --targets 를 확인하라"}
+{"offset": "0x5b440", "text": "--from-db 의 rtlr_name (기본: --retailer)"}
+{"offset": "0x5b470", "text": "scripts.st_coverage_batch"}
+{"offset": "0x5b490", "text": "locale_mismatch_suspected"}
+{"offset": "0x5b4b0", "text": "Upgrade-Insecure-Requests"}
+{"offset": "0x5b4d0", "text": "parse_official_st_blocks"}
+{"offset": "0x5b500", "text": "model,ean CSV (checkpoint 대신/추가)"}
+{"offset": "0x5b530", "text": "lgcom_pdp_url_for_model"}
+{"offset": "0x5b550", "text": "it-IT,it;q=0.9,en;q=0.8"}
+{"offset": "0x5b570", "text": "single_retailer_file"}
+{"offset": "0x5b590", "text": "single_official_file"}
+{"offset": "0x5b5b0", "text": "thumb(?:na|an)il|poster"}
+{"offset": "0x5b5d0", "text": "eans_from_checkpoints"}
+{"offset": "0x5b5f0", "text": "checkpoint_retailer"}
+{"offset": "0x5b610", "text": "blockwise_image_match"}
+{"offset": "0x5b630", "text": "--single-retailer-file"}
+{"offset": "0x5b650", "text": "--single-official-file"}
+{"offset": "0x5b680", "text": "checkpoint.jsonl 글롭 — EAN 회수 소스"}
+{"offset": "0x5b6b0", "text": "official_image_urls"}
+{"offset": "0x5b6d0", "text": "--checkpoint-retailer"}
+{"offset": "0x5b6f0", "text": "st_coverage_report"}
+{"offset": "0x5b710", "text": "_single_file_report"}
+{"offset": "0x5b730", "text": "run.<locals>.genexpr"}
+{"offset": "0x5b750", "text": "logical_image_name"}
+{"offset": "0x5b770", "text": "cline_in_traceback"}
+{"offset": "0x5b790", "text": "caption_body_split"}
+{"offset": "0x5b7b0", "text": "asyncio.coroutines"}
+{"offset": "0x5b7e0", "text": "EAN·MPN 둘 다 없음 — product_ean 마스터 미보유"}
+{"offset": "0x5b820", "text": "\\.(jpg|jpeg|png|webp)$"}
+{"offset": "0x5b840", "text": "fetch_inpage_html"}
+{"offset": "0x5b860", "text": "이미지 축(dHash)까지 산출 — **블록 단위**: 블록의 반응형 변형(-d/-m/포스터) 중 하나라도 flix 이미지·비디오포스터와 붙으면 커버. 모델당 ~80장 다운로드로 느리다"}
+{"offset": "0x5b940", "text": "core.asset_blocks"}
+{"offset": "0x5b960", "text": "caption_contained"}
+{"offset": "0x5b980", "text": "missing_headings"}
+{"offset": "0x5b9a0", "text": "https://www.lg.com"}
+{"offset": "0x5b9c0", "text": "hamming_distance"}
+{"offset": "0x5b9e0", "text": "follow_redirects"}
+{"offset": "0x5ba00", "text": "flix 콘텐츠 미등록(matchmiss) — 리테일러 미신디케이트"}
+{"offset": "0x5ba60", "text": "단건 모드: 리테일 flix JSON 파일 경로(블록 배열 또는 {blocks:[...]})"}
+{"offset": "0x5bac0", "text": "core.image_match"}
+{"offset": "0x5bae0", "text": "targets_from_db"}
+{"offset": "0x5baf0", "text": "official_blocks"}
+{"offset": "0x5bb00", "text": "include_posters"}
+{"offset": "0x5bb10", "text": "flix_image_urls"}
+{"offset": "0x5bb20", "text": "flix_delivery 등록명 "}
+{"offset": "0x5bb40", "text": "data-flixsrcset"}
+{"offset": "0x5bb50", "text": "data-flixposter"}
+{"offset": "0x5bb60", "text": "_VIDEO_POSTER_RE"}
+{"offset": "0x5bb80", "text": "Accept-Language"}
+{"offset": "0x5bb90", "text": "retailer_count"}
+{"offset": "0x5bba0", "text": "official_count"}
+{"offset": "0x5bbb0", "text": "get_connection"}
+{"offset": "0x5bbc0", "text": "flix_matchmiss"}
+{"offset": "0x5bbd0", "text": "core.st_blocks"}
+{"offset": "0x5bbe0", "text": "content_blocks"}
+{"offset": "0x5bbf0", "text": "body_contained"}
+{"offset": "0x5bc00", "text": "Sec-Fetch-User"}
+{"offset": "0x5bc10", "text": "Sec-Fetch-Site"}
+{"offset": "0x5bc20", "text": "Sec-Fetch-Mode"}
+{"offset": "0x5bc30", "text": "Sec-Fetch-Dest"}
+{"offset": "0x5bc40", "text": "ArgumentParser"}
+{"offset": "0x5bc50", "text": "retailer_text"}
+{"offset": "0x5bc60", "text": "retailer_path"}
+{"offset": "0x5bc70", "text": "retailer_name"}
+{"offset": "0x5bc80", "text": "retail_text"}
+{"offset": "0x5bc90", "text": "official_path"}
+{"offset": "0x5bca0", "text": "no_identifier"}
+{"offset": "0x5bcb0", "text": "missing_count"}
+{"offset": "0x5bcc0", "text": "matched_count"}
+{"offset": "0x5bcd0", "text": "flix_delivery"}
+{"offset": "0x5bce0", "text": "eans_from_csv"}
+{"offset": "0x5bcf0", "text": "ean_for_model"}
+{"offset": "0x5bd00", "text": "db_retailer"}
+{"offset": "0x5bd10", "text": "caption_total"}
+{"offset": "0x5bd20", "text": "asyncio.tasks"}
+{"offset": "0x5bd30", "text": "BeautifulSoup"}
+{"offset": "0x5bd40", "text": "_is_coroutine"}
+{"offset": "0x5bd50", "text": "_initializing"}
+{"offset": "0x5bd60", "text": "data-flixsrc"}
+{"offset": "0x5bd70", "text": "coverage_pct"}
+{"offset": "0x5bd80", "text": "--checkpoint"}
+{"offset": "0x5bd90", "text": "add_argument"}
+{"offset": "0x5bda0", "text": "DISTRIBUTORS"}
+{"offset": "0x5bdb0", "text": "CLINIC_ENTRY"}
+{"offset": "0x5bdc0", "text": "writeheader"}
+{"offset": "0x5bdd0", "text": "status_code"}
+{"offset": "0x5bde0", "text": "_retail_text"}
+{"offset": "0x5bdf0", "text": "resolve_ean"}
+{"offset": "0x5be00", "text": "product_ean"}
+{"offset": "0x5be10", "text": "no_official"}
+{"offset": "0x5be20", "text": "_img_matches"}
+{"offset": "0x5be30", "text": "html.parser"}
+{"offset": "0x5be40", "text": "description"}
+{"offset": "0x5be50", "text": "--db-retailer"}
+{"offset": "0x5be60", "text": "/synd-asset/"}
+{"offset": "0x5be70", "text": "store_true"}
+{"offset": "0x5be80", "text": "startswith"}
+{"offset": "0x5be90", "text": "setdefault"}
+{"offset": "0x5bea0", "text": "--retailer"}
+{"offset": "0x5beb0", "text": "parse_args"}
+{"offset": "0x5bec0", "text": "noncontent"}
+{"offset": "0x5bed0", "text": "match_rate"}
+{"offset": "0x5bee0", "text": "image_rate"}
+{"offset": "0x5bef0", "text": "fieldnames"}
+{"offset": "0x5bf00", "text": "checkpoint"}
+{"offset": "0x5bf10", "text": "calc_dhash"}
+{"offset": "0x5bf20", "text": "body_total"}
+{"offset": "0x5bf30", "text": "ValueError"}
+{"offset": "0x5bf40", "text": "_VARIANT_RE"}
+{"offset": "0x5bf50", "text": "User-Agent"}
+{"offset": "0x5bf60", "text": "SystemExit"}
+{"offset": "0x5bf80", "text": "LG.com 로케일 (공홈 URL 조회용)"}
+{"offset": "0x5bfa8", "text": "DictWriter"}
+{"offset": "0x5bfb8", "text": "DictReader"}
+{"offset": "0x5bfc8", "text": "writerows"}
+{"offset": "0x5bfd8", "text": "utf-8-sig"}
+{"offset": "0x5bfe8", "text": "threshold"}
+{"offset": "0x5bff8", "text": "--targets"}
+{"offset": "0x5c008", "text": "_stem_tail"}
+{"offset": "0x5c018", "text": "rtlr_name"}
+{"offset": "0x5c028", "text": "read_text"}
+{"offset": "0x5c038", "text": "isenabled"}
+{"offset": "0x5c048", "text": "image_min"}
+{"offset": "0x5c058", "text": "from_db"}
+{"offset": "0x5c060", "text": "--country"}
+{"offset": "0x5c070", "text": "88060\\d{8}"}
+{"offset": "0x5c080", "text": "writerow"}
+{"offset": "0x5c090", "text": "text_max"}
+{"offset": "0x5c0a0", "text": "stem_cap"}
+{"offset": "0x5c0b0", "text": "retailer"}
+{"offset": "0x5c0c0", "text": "required"}
+{"offset": "0x5c0d0", "text": "official"}
+{"offset": "0x5c0e0", "text": "navigate"}
+{"offset": "0x5c0f0", "text": "_img_stem"}
+{"offset": "0x5c100", "text": "img_note"}
+{"offset": "0x5c110", "text": "--images"}
+{"offset": "0x5c120", "text": "_hash_set"}
+{"offset": "0x5c130", "text": "get_text"}
+{"offset": "0x5c140", "text": "find_all"}
+{"offset": "0x5c150", "text": "fetchall"}
+{"offset": "0x5c160", "text": "encoding"}
+{"offset": "0x5c170", "text": "document"}
+{"offset": "0x5c180", "text": "data-src"}
+{"offset": "0x5c190", "text": "cntry_cd"}
+{"offset": "0x5c1a0", "text": "batch_id"}
+{"offset": "0x5c1b0", "text": "argparse"}
+{"offset": "0x5c1c0", "text": "Retailer"}
+{"offset": "0x5c1d0", "text": "visuals"}
+{"offset": "0x5c1d8", "text": "timeout"}
+{"offset": "0x5c1e0", "text": "targets"}
+{"offset": "0x5c1e8", "text": "resolve"}
+{"offset": "0x5c1f0", "text": "refdata"}
+{"offset": "0x5c1f8", "text": "present"}
+{"offset": "0x5c200", "text": "pattern"}
+{"offset": "0x5c208", "text": "pathlib"}
+{"offset": "0x5c210", "text": "parents"}
+{"offset": "0x5c218", "text": "newline"}
+{"offset": "0x5c220", "text": "--model"}
+{"offset": "0x5c228", "text": "missing"}
+{"offset": "0x5c230", "text": "matched"}
+{"offset": "0x5c238", "text": "limit"}
+{"offset": "0x5c240", "text": "inspect"}
+{"offset": "0x5c248", "text": "heading"}
+{"offset": "0x5c250", "text": "headers"}
+{"offset": "0x5c258", "text": "has_url"}
+{"offset": "0x5c260", "text": "has_ean"}
+{"offset": "0x5c268", "text": "genexpr"}
+{"offset": "0x5c270", "text": "--from-db"}
+{"offset": "0x5c280", "text": "findall"}
+{"offset": "0x5c288", "text": "execute"}
+{"offset": "0x5c290", "text": "environ"}
+{"offset": "0x5c298", "text": "disable"}
+{"offset": "0x5c2a0", "text": "default"}
+{"offset": "0x5c2a8", "text": "country"}
+{"offset": "0x5c2b0", "text": "core.db"}
+{"offset": "0x5c2b8", "text": "content"}
+{"offset": "0x5c2c0", "text": "compile"}
+{"offset": "0x5c2c8", "text": "asyncio"}
+{"offset": "0x5c2d0", "text": "values"}
+{"offset": "0x5c2d7", "text": "update"}
+{"offset": "0x5c2de", "text": "status"}
+{"offset": "0x5c2e5", "text": "spec"}
+{"offset": "0x5c300", "text": " (--single-* 모드에선 리포트 표기용 라벨일 뿐, 등록명 아니어도 됨)"}
+{"offset": "0x5c359", "text": "search"}
+{"offset": "0x5c360", "text": "rsplit"}
+{"offset": "0x5c367", "text": "return"}
+{"offset": "0x5c36e", "text": "poster"}
+{"offset": "0x5c375", "text": "name"}
+{"offset": "0x5c37a", "text": "main"}
+{"offset": "0x5c37f", "text": "lstrip"}
+{"offset": "0x5c386", "text": "insert"}
+{"offset": "0x5c390", "text": "__import__"}
+{"offset": "0x5c39b", "text": "images"}
+{"offset": "0x5c3a2", "text": "enable"}
+{"offset": "0x5c3a9", "text": "cursor"}
+{"offset": "0x5c3b0", "text": "by_url"}
+{"offset": "0x5c3b7", "text": "blocks"}
+{"offset": "0x5c3be", "text": "append"}
+{"offset": "0x5c3c5", "text": "action"}
+{"offset": "0x5c3e0", "text": "모델 — 공홈URL∩EAN 을 갖춘 채점가능 상한 "}
+{"offset": "0x5c420", "text": "LG.com "}
+{"offset": "0x5c428", "text": "_EAN_RE"}
+{"offset": "0x5c430", "text": "Client"}
+{"offset": "0x5c437", "text": "Accept"}
+{"offset": "0x5c43e", "text": "video"}
+{"offset": "0x5c444", "text": "utf-8"}
+{"offset": "0x5c44a", "text": "upper"}
+{"offset": "0x5c450", "text": "tuple"}
+{"offset": "0x5c456", "text": "throw"}
+{"offset": "0x5c45c", "text": "texts"}
+{"offset": "0x5c462", "text": "strip"}
+{"offset": "0x5c468", "text": "split"}
+{"offset": "0x5c46e", "text": "round"}
+{"offset": "0x5c474", "text": "ready"}
+{"offset": "0x5c47a", "text": "print"}
+{"offset": "0x5c480", "text": "--out"}
+{"offset": "0x5c486", "text": "otail"}
+{"offset": "0x5c48c", "text": "ostem"}
+{"offset": "0x5c492", "text": "model"}
+{"offset": "0x5c498", "text": "lower"}
+{"offset": "0x5c49e", "text": "loads"}
+{"offset": "0x5c4a8", "text": "--limit"}
+{"offset": "0x5c4b0", "text": "legal"}
+{"offset": "0x5c4b6", "text": "known"}
+{"offset": "0x5c4bc", "text": "items"}
+{"offset": "0x5c4c2", "text": "httpx"}
+{"offset": "0x5c4c8", "text": "https:"}
+{"offset": "0x5c4cf", "text": "found"}
+{"offset": "0x5c4d8", "text": "__enter__"}
+{"offset": "0x5c4e2", "text": "dumps"}
+{"offset": "0x5c4e8", "text": "dhash"}
+{"offset": "0x5c4ee", "text": "close"}
+{"offset": "0x5c4f4", "text": "cap_t"}
+{"offset": "0x5c4fa", "text": "cap_c"}
+{"offset": "0x5c500", "text": "bytes"}
+{"offset": "0x5c506", "text": "bod_t"}
+{"offset": "0x5c50c", "text": "bod_c"}
+{"offset": "0x5c518", "text": "__await__"}
+{"offset": "0x5c522", "text": "Model"}
+{"offset": "0x5c528", "text": "EAN출처"}
+{"offset": "0x5c540", "text": "CSV 출력 경로"}
+{"offset": "0x5c552", "text": "urls"}
+{"offset": "0x5c557", "text": "type"}
+{"offset": "0x5c55c", "text": "toks"}
+{"offset": "0x5c561", "text": "text"}
+{"offset": "0x5c568", "text": "__test__"}
+{"offset": "0x5c571", "text": "stem"}
+{"offset": "0x5c578", "text": "__spec__"}
+{"offset": "0x5c581", "text": "soup"}
+{"offset": "0x5c586", "text": "send"}
+{"offset": "0x5c58b", "text": "seen"}
+{"offset": "0x5c590", "text": "same"}
+{"offset": "0x5c595", "text": "rows"}
+{"offset": "0x5c59a", "text": "path"}
+{"offset": "0x5c59f", "text": "open"}
+{"offset": "0x5c5a4", "text": "_norm"}
+{"offset": "0x5c5aa", "text": "none"}
+{"offset": "0x5c5b0", "text": "__name__"}
+{"offset": "0x5c5c0", "text": "__main__"}
+{"offset": "0x5c5c9", "text": "list"}
+{"offset": "0x5c5ce", "text": "line"}
+{"offset": "0x5c5d3", "text": "kind"}
+{"offset": "0x5c5d8", "text": "json"}
+{"offset": "0x5c5dd", "text": "http"}
+{"offset": "0x5c5e2", "text": "html"}
+{"offset": "0x5c5e7", "text": "help"}
+{"offset": "0x5c5ec", "text": "glob"}
+{"offset": "0x5c600", "text": "이미지_flix_개수"}
+{"offset": "0x5c618", "text": "__file__"}
+{"offset": "0x5c628", "text": "__exit__"}
+{"offset": "0x5c631", "text": "dict"}
+{"offset": "0x5c636", "text": "data"}
+{"offset": "0x5c63b", "text": "core"}
+{"offset": "0x5c640", "text": "conn"}
+{"offset": "0x5c645", "text": "bool"}
+{"offset": "0x5c64a", "text": "blob"}
+{"offset": "0x5c64f", "text": "attr"}
+{"offset": "0x5c654", "text": "args"}
+{"offset": "0x5c660", "text": "=== ST 커버리지 배치: "}
+{"offset": "0x5c67d", "text": "REPO"}
+{"offset": "0x5c682", "text": "Path"}
+{"offset": "0x5c687", "text": "None"}
+{"offset": "0x5c690", "text": "공홈 HTTP "}
+{"offset": "0x5c69d", "text": "_HDRS"}
+{"offset": "0x5c6f8", "text": "__doc__"}
+{"offset": "0x5c740", "text": " · 평균 이미지 일치율 "}
+{"offset": "0x5c760", "text": " · 평균 커버리지 "}
+{"offset": "0x5c780", "text": "\n채점 "}
+{"offset": "0x5c790", "text": "건 ==="}
+{"offset": "0x5c798", "text": " — 타깃 "}
+{"offset": "0x5c7c0", "text": "단건 모드 리포트 표기용 모델코드"}
+{"offset": "0x5c7f2", "text": " ==="}
+{"offset": "0x5c7f8", "text": "% 누락 "}
+{"offset": "0x5c808", "text": "블록 커버 "}
+{"offset": "0x5c820", "text": "  ⚠️ 언어/버전 불일치 의심"}
+{"offset": "0x5c860", "text": "언어/버전 불일치 의심 — 이미지는 일치하나 텍스트 전무"}
+{"offset": "0x5c8b8", "text": " | 이미지 "}
+{"offset": "0x5c8d0", "text": "공홈 조회 실패: "}
+{"offset": "0x5c8f0", "text": "이미지파일_일치_개수"}
+{"offset": "0x5c910", "text": "이미지파일_공홈_개수"}
+{"offset": "0x5c930", "text": "텍스트_사용_개수"}
+{"offset": "0x5c950", "text": "텍스트_공홈_개수"}
+{"offset": "0x5c970", "text": "이미지캡션_사용_개수"}
+{"offset": "0x5c990", "text": "이미지캡션_공홈_개수"}
+{"offset": "0x5c9b0", "text": "이미지_일치율(%)"}
+{"offset": "0x5c9d0", "text": "이미지_일치_블록수"}
+{"offset": "0x5c9f0", "text": "이미지_블록수"}
+{"offset": "0x5ca10", "text": "누락 블록(제목)"}
+{"offset": "0x5ca30", "text": "누락 블록 수"}
+{"offset": "0x5ca50", "text": "커버리지(%)"}
+{"offset": "0x5ca60", "text": "리테일 사용 블록 수"}
+{"offset": "0x5ca80", "text": "공홈 콘텐츠 블록 수"}
+{"offset": "0x5caa5", "text": "[-_]"}
+{"offset": "0x5cab0", "text": "\\(.*?\\)"}
+{"offset": "0x5cac0", "text": " 미게시(URL 없음)"}
+{"offset": "0x5cad7", "text": "N.A."}
+{"offset": "0x5cae4", "text": "\nCSV: "}
+{"offset": "0x5cb20", "text": "\n=== ST 블록 커버리지: "}
+{"offset": "0x5cb48", "text": "  DB 타깃 "}
+{"offset": "0x5cb80", "text": "타깃 상위 N 건만 (시범 실행용)"}

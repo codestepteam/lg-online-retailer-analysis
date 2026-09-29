@@ -1,0 +1,3027 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0134-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+    "capturedAt": "2026-09-28T08:08:55.276346+09:00",
+    "collectionOk": true,
+    "title": "Ofertas Lavavajillas Bosch al mejor precio | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0134-mediamarkt-es/brand-category/raw.html",
+      "sha256": "2572d871e2451572be8a822a293477b5254673e50674c409d4021e84ea52a46c"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0134-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "143999edb66a1e6f3626f1966407a64c189f32a2b18cb996a97af920f84ad190"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0134-mediamarkt-es/brand-category/response.json",
+      "sha256": "32efc438c87061442deff8efa5675dd1d06403f7c85c84322e1bbd25edaf8714"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "BOSCH Lavavajillas en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4EMW06E, 14 servicios, 6 programas, 60 cm, Home Connect, RackMatic, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Bosch SMV2ITX09E, 13 Servicios, 5 programas, 60 cm, Home Connect, Función Extra Secado, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4HVW14E, Serie 4, 14 servicios, 6 programas, 60 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - BOSCH SMS4EMI06E, 14 servicios, 6 programas, 60 cm, Silence Plus, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch Serie 4 SMS46KI01E, 13 servicios, 6 programas, 60 cm, 46 dB, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4EKI06E, Serie 4, 13 servicios, 6 programas , 60 cm, Home Connect, Silence Plus, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch Serie 2 SMS25AW05E, Independiente, 12 cubiertos, 5 Programas, 60 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Bosch SMV4HAX07E, 13 servicios, 6 programas, 59.8 cm, AquaStop, Home Connect, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4ECW28E, 14 servicios, 6 programas, 60 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Bosch SMV2ITX09E, 13 Servicios, 5 programas, 60 cm, Home Connect, Función Extra Secado",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Bosch SMI4ECS28E, Serie 4, 14 servicios, 6 programas, 60 cm, Home Connect, Silence Plus, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 45 cm - BOSCH Serie 4 SPI4HMS49E, 10 servicios, 6 programas, 448 mm, No aplicable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS4HMI13E, 10 servicios, 6 programas, 45 cm, SilentPowerDrive, Home connect, Extra secado, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS2HKW55E, 10 servicios, 6 programas, 45 cm, Home connect, Smart start, Extra secado, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS2HKI58E, 10 servicios, 45 cm, Home Connect, Función Extra Secado, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS2HKW58E, Serie 2, 10 servicios, 5 programas , 45 cm, Extra Secado, Active Water, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SPS4HMI49E, 10 servicios, 6 programas, 45 cm, Silence Plus, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Bosch SPV2HKX42E, 10 Servicios, 6 programas, 45 cm, ActiveWater, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS4HMW13E, 10 servicios, 6 programas, 45, Home connect, Extra secado, SilentPowerDrive, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SPS4HMI49E, 10 servicios, 6 programas, 45 cm, Silence Plus, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Bosch SMS4ECI28E, Serie 4, 14 servicios, 6 programas, 60 cm, App Home Connect, Extra Secado, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SPS2HKI58E, 10 servicios, 45 cm, Home Connect, Función Extra Secado, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SMS4HVI02E, 14 servicios, 6 programas, 60 cm, Home Connect, Función Extra secado, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - BOSCH SMH4EVX08E, 14 servicios, 6 programas, 60,0 cm, No aplicable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMV4HVX14E, 14 servicios, 6 programas, 59,8 cm, Plata",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - BOSCH SMV4ECX28E, 14,0 servicios, 6 programas, 598 mm, Inox Panelable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 45 cm - BOSCH SPH4EKX17E, 10 servicios, 6 programas, 44,8 cm, -",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 45 cm - BOSCH SPV4EMX17E, 10 servicios, 6 programas, 44,8 cm, -",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMV4ENX06E, 13 servicios, 6 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMS2HTI06E, 13 servicios, 5 programas, 60 cm, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 45 cm - BOSCH SPV2HKX02E, 10 servicios, 5 programas, 49 mm, White",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS46KW02E, 13 servicios, 6 programas, 60,0 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SBH4HVX14E, 14 servicios, 6 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH Serie 4 SMV4HAX19E, 13 servicios, 6 programas, 59,8 cm, No aplicable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMH4HCX48E, 14 servicios, 6 programas, 598 mm, Grey",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SBH4HVX00E, 14 servicios, 6 programas, 598 mm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS4HVW33E, 13 servicios, 6 programas, 600 mm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH Serie 4 SMS4HMW07E, 14 servicios, 6 programas, 60,0 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS6ECI15E, 14 servicios, 6 programas, 60 cm, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH Serie 6 SBV6ZCX10E, 14 servicios, 6 programas, 598 mm, No aplicable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMV6ZCX10E, 14 servicios, 6 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS4EMC06E, 14 servicios, 6 programas, 60,0 cm, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH Serie 8 SMD8TCX04E, 14,0 servicios, 8 programas, 60 cm, White",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BOSCH SMS8TCI04E, 14 servicios, 8 programas, 60,00 cm, Grey",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BOSCH Serie 4 SMS4HTI03E, 13 servicios, 6 programas, 60,0 cm, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Los lavavajillas Bosch son buenos?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cómo limpiar un lavavajillas Bosch?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Dónde encuentro lavavajillas Bosch baratos?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 97,
+        "top10ByRenderedArea": [
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133863936?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145719218?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_167307430?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133913003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79422701?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_166068458?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73065978?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183873768?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163481365?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_160348400?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 81,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 82,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 68,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133863936?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145719218?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_167307430?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133913003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79422701?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_166068458?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73065978?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Ofertas Lavavajillas Bosch al mejor precio | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Limpieza y secado eficientes de tu vajilla gracias a los Lavavajillas Bosch. Descubre la gran variedad de gamas y ofertas en MediaMarkt"
+        ],
+        "h1": [
+          "BOSCH Lavavajillas en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133863936?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145719218?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_167307430?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_133913003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-79422701?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_166068458?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_73065978?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183873768?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_163481365?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_160348400?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "539,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "453,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "459,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "643,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "427,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "699,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "385,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "529,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "625,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "759,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "476,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "385,05€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "760,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "706,72€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "739,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "569,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "689,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "396,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "599,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "636,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "551,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "615,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "749,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "725,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "585,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "483,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "583,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "504,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "740,84€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "623,31€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "608,84€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "848,96€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "478,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "414,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "676,85€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "623,38€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "841,87€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "806,11€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "678,91€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "663,30€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "984,67€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1050,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1020,26€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "857,21€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1479,06€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1505,98€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "555,26€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Top ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "BOSCH",
+            "href": "https://www.mediamarkt.es/es/brand/bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Lavavajillas de libre instalación",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas/lavavajillas-libre-instalacion",
+            "signals": [
+              "페이지 주제어와 일치: lavavajillas"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrables",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas/lavavajillas-integrables",
+            "signals": [
+              "페이지 주제어와 일치: lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas - Bosch SMS4HVW14E, Serie 4, 14 servicios, 6 programas, 60 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas - Bosch Serie 4 SMS46KI01E, 13 servicios, 6 programas, 60 cm, 46 dB, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas - Bosch SMS4ECW28E, 14 servicios, 6 programas, 60 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 45 cm - BOSCH SPH4EKX17E, 10 servicios, 6 programas, 44,8 cm, -",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 45 cm - BOSCH SPV4EMX17E, 10 servicios, 6 programas, 44,8 cm, -",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 45 cm - BOSCH SPV2HKX02E, 10 servicios, 5 programas, 49 mm, White",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - BOSCH SMH4HCX48E, 14 servicios, 6 programas, 598 mm, Grey",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "¿Los lavavajillas Bosch son buenos?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "¿Cómo limpiar un lavavajillas Bosch?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "¿Dónde encuentro lavavajillas Bosch baratos?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "lavavajillas Bosch",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas",
+            "signals": [
+              "페이지 주제어와 일치: bosch, lavavajillas"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          },
+          {
+            "text": "Ofertas y campañas",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas Flash",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas del día",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Top venta Ficha técnica Lavavajillas - Bosch SMS4EMW06E, 14 servicios, 6 programas, 60 cm, Home Connect, RackMatic, Blanco 1192 Basado en 1192 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas Altura de cesta ajustable Sí Programas eco 50°C, automático 45-65°C, intensivo, programa noche 50 °, rápido, autolimpieza -33% 809,– € 809,00€ 539,– € 539,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavavajillas integrable - Bosch SMV2ITX09E, 13 Servicios, 5 programas, 60 cm, Home Connect, Función Extra Secado, Sin panelar 54 Basado en 54 valoraciones Formato de construcción Integrable Tipo de dispositivo Lavavajillas integrable Dimensiones hueco 600 mm / 815 mm / 550 mm Altura de cesta ajustable Sí -33% 679,– € 679,00€ 453,– € 453,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavavajillas - Bosch SMS4HVW14E, Serie 4, 14 servicios, 6 programas, 60 cm, Blanco 31 Basado en 31 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas Altura de cesta ajustable Sí Programas Auto 45-60 °C, Auto 45-65 °C, Eco 50 °C, Favorite, Hygiene+, Intensive 70°C, Pre-enjuague, Quick 65°C, Silent 50°C -32% 679,– € 679,00€ 459,– € 459,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Top venta Ficha técnica Lavavajillas - BOSCH SMS4EMI06E, 14 servicios, 6 programas, 60 cm, Silence Plus, Acero inoxidable 1221 Basado en 1221 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas Altura de cesta ajustable Sí Programas eco, silencio 50°C, intensivo, eco 50°C, prelavado, 1h 65 °C, intensivo 70°C 643,– € 643,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Top venta Lavavajillas - Bosch Serie 4 SMS46KI01E, 13 servicios, 6 programas, 60 cm, 46 dB, Inox 98 Basado en 98 valoraciones Formato de construcción Independiente Tipo de dispositivo Lavavajillas Programas Automático. Copas. Eco. Intensivo. Prelavado. Rápido Hora de inicio configurable 24 -19% 529,– € 529,00€ 427,– € 427,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavavajillas - Bosch SMS4EKI06E, Serie 4, 13 servicios, 6 programas , 60 cm, Home Connect, Silence Plus, Acero antihuellas 65 Basado en 65 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas Altura de cesta ajustable Sí Programas 60min 65°C, Auto 45-60 °C, Eco 50 °C, Favorite, Silent 50°C 699,– € 699,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Top venta Ficha técnica Lavavajillas - Bosch Serie 2 SMS25AW05E, Independiente, 12 cubiertos, 5 Programas, 60 cm, Blanco 213 Basado en 213 valoraciones Formato de construcción Independiente Tipo de dispositivo Lavavajillas Altura de cesta ajustable No Programas Intensivo 70 °C, Normal 65 °C, ECO 50 °C, 1 hora 65 °C, Prelavado -8% 420,– € 420,00€ 385,– € 385,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar ti",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Un lavavajillas Bosch blanco. Tiene un panel de control en la parte superior y está cerrado.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4emw06e-14-servicios-6-programas-60-cm-home-connect-rackmatic-blanco-1560894.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4EMW06E, 14 servicios, 6 programas, 60 cm, Home Connect, RackMatic, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4emw06e-14-servicios-6-programas-60-cm-home-connect-rackmatic-blanco-1560894.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch empotrado blanco, abierto para revelar los bastidores interiores.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-smv2itx09e-13-servicios-5-programas-60-cm-home-connect-funcion-extra-secado-blanco-1583048.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Bosch SMV2ITX09E, 13 Servicios, 5 programas, 60 cm, Home Connect, Función Extra Secado, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-smv2itx09e-13-servicios-5-programas-60-cm-home-connect-funcion-extra-secado-blanco-1583048.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco con panel de control. Muestra un temporizador y opciones de programa.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4hvw14e-serie-4-14-servicios-6-programas-60-cm-blanco-1611391.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4HVW14E, Serie 4, 14 servicios, 6 programas, 60 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4hvw14e-serie-4-14-servicios-6-programas-60-cm-blanco-1611391.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch de acero inoxidable. Tiene un panel de control en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4emi06e-14-sergicios-6-programas-60-cm-silence-plus-acero-inoxidable-1560893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - BOSCH SMS4EMI06E, 14 servicios, 6 programas, 60 cm, Silence Plus, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4emi06e-14-sergicios-6-programas-60-cm-silence-plus-acero-inoxidable-1560893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas de acero inoxidable. Tiene un panel de control en la parte superior con botones y una pantalla digital que muestra '1:00'. La marca es Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-serie-4-sms46ki01e-13-servicios-46-db-3%C2%AA-bandeja-programa-copas-1436547.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch Serie 4 SMS46KI01E, 13 servicios, 6 programas, 60 cm, 46 dB, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-serie-4-sms46ki01e-13-servicios-46-db-3%C2%AA-bandeja-programa-copas-1436547.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch de acero inoxidable. Tiene un panel de control con botones y una pantalla digital que muestra '0:40'.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4eki06e-serie-4-13-servicios-6-programas-60-cm-home-connect-silence-plus-acero-antihuellas-1592636.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4EKI06E, Serie 4, 13 servicios, 6 programas , 60 cm, Home Connect, Silence Plus, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4eki06e-serie-4-13-servicios-6-programas-60-cm-home-connect-silence-plus-acero-antihuellas-1592636.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco. Vista frontal con panel de control en el lado derecho.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-serie-2-sms25aw05e-12-cubiertos-blanco-5-programas-1365323.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch Serie 2 SMS25AW05E, Independiente, 12 cubiertos, 5 Programas, 60 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-serie-2-sms25aw05e-12-cubiertos-blanco-5-programas-1365323.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de un lavavajillas plateado Bosch Serie 4 con pantalla digital y botones de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1611390.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1611390.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas blanco Bosch con puerta abierta, mostrando rejillas y panel de control 0:40. Tiene detalles de acero inoxidable.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smv4hax07e-13-servicios-6-programas-598-cm-aquastop-home-connect-sin-panelar-1606802.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Bosch SMV4HAX07E, 13 servicios, 6 programas, 59.8 cm, AquaStop, Home Connect, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smv4hax07e-13-servicios-6-programas-598-cm-aquastop-home-connect-sin-panelar-1606802.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco. Tiene botones para eco, auto, favorito e inicio. Una pantalla muestra el tiempo restante.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4ecw28e-14-servicios-6-programas-60-cm-blanco-1603586.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4ECW28E, 14 servicios, 6 programas, 60 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4ecw28e-14-servicios-6-programas-60-cm-blanco-1603586.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch de acero inoxidable. Tiene botones de control y una pantalla digital que muestra '0:40'. La marca es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1671472.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1671472.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch empotrado blanco, abierto para revelar los bastidores interiores.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-bosch-smv2itx09e-13-servicios-5-programas-60-cm-home-connect-funcion-extra-secado-blanco-1590467.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Bosch SMV2ITX09E, 13 Servicios, 5 programas, 60 cm, Home Connect, Función Extra Secado",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-bosch-smv2itx09e-13-servicios-5-programas-60-cm-home-connect-funcion-extra-secado-blanco-1590467.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con un panel de control superior de acero inoxidable.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smi4ecs28e-serie-4-14-servicios-6-programas-60-cm-home-connect-silence-plus-inox-semi-panelable-1583966.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Bosch SMI4ECS28E, Serie 4, 14 servicios, 6 programas, 60 cm, Home Connect, Silence Plus, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smi4ecs28e-serie-4-14-servicios-6-programas-60-cm-home-connect-silence-plus-inox-semi-panelable-1583966.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco con tapa de acero inoxidable, sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-serie-4-spi4hms49e-10-servicios-6-programas-448-mm-no-aplicable-153564004.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 45 cm - BOSCH Serie 4 SPI4HMS49E, 10 servicios, 6 programas, 448 mm, No aplicable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-serie-4-spi4hms49e-10-servicios-6-programas-448-mm-no-aplicable-153564004.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch plateado con pantalla digital y botones de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmi13e-10-servicios-6-programas-45-cm-silentpowerdrive-home-connect-extra-secado-acero-antihuellas-1630652.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS4HMI13E, 10 servicios, 6 programas, 45 cm, SilentPowerDrive, Home connect, Extra secado, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmi13e-10-servicios-6-programas-45-cm-silentpowerdrive-home-connect-extra-secado-acero-antihuellas-1630652.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco con pantalla digital y tirador plateado.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hkw55e-10-servicios-6-programas-45-cm-home-connect-smart-start-extra-secado-blanco-1630655.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS2HKW55E, 10 servicios, 6 programas, 45 cm, Home connect, Smart start, Extra secado, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hkw55e-10-servicios-6-programas-45-cm-home-connect-smart-start-extra-secado-blanco-1630655.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch de acero inoxidable. El panel de control está en la parte superior. La puerta está cerrada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hki58e-10-servicios-45-cm-home-connect-funcion-extra-secado-inox-1560896.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS2HKI58E, 10 servicios, 45 cm, Home Connect, Función Extra Secado, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hki58e-10-servicios-45-cm-home-connect-funcion-extra-secado-inox-1560896.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch de acero inoxidable. Tiene botones de control y una pantalla digital que muestra '0:40'. La marca es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1621455.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Bosch SMS4HVI14E, 14 servicios, 6 programas, 60 cm, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-bosch-sms4hvi14e-14-servicios-6-programas-60-cm-acero-antihuellas-1621455.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco. Tiene una pantalla digital y botones. Fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hkw58e-serie-2-10-servicios-5-programas-45-cm-extra-secado-active-water-blanco-1577049.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS2HKW58E, Serie 2, 10 servicios, 5 programas , 45 cm, Extra Secado, Active Water, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps2hkw58e-serie-2-10-servicios-5-programas-45-cm-extra-secado-active-water-blanco-1577049.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch plateado. Tiene una pantalla digital y una manija.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-bosch-sps4hmi49e-10-servicios-6-programas-45-cm-silence-plus-acero-inoxidable-1574970.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SPS4HMI49E, 10 servicios, 6 programas, 45 cm, Silence Plus, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-bosch-sps4hmi49e-10-servicios-6-programas-45-cm-silence-plus-acero-inoxidable-1574970.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con la puerta abierta. El interior es visible con estantes para platos.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-integrable-bosch-spv2hkx42e-10-servicios-6-programas-45-cm-activewater-inox-1568770.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Bosch SPV2HKX42E, 10 Servicios, 6 programas, 45 cm, ActiveWater, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-integrable-bosch-spv2hkx42e-10-servicios-6-programas-45-cm-activewater-inox-1568770.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con panel de control y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmw13e-10-servicios-6-programas-45-home-connect-extra-secado-silentpowerdrive-blanco-1630653.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS4HMW13E, 10 servicios, 6 programas, 45, Home connect, Extra secado, SilentPowerDrive, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmw13e-10-servicios-6-programas-45-home-connect-extra-secado-silentpowerdrive-blanco-1630653.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch plateado. Tiene una pantalla digital y una manija.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmi49e-10-servicios-6-programas-45-cm-silence-plus-acero-inoxidable-1560895.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SPS4HMI49E, 10 servicios, 6 programas, 45 cm, Silence Plus, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sps4hmi49e-10-servicios-6-programas-45-cm-silence-plus-acero-inoxidable-1560895.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable. Tiene botones de encendido, programas y una pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4eci28e-serie-4-14-servicios-6-programas-60-cm-app-home-connect-extra-secado-acero-antihuellas-1603584.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Bosch SMS4ECI28E, Serie 4, 14 servicios, 6 programas, 60 cm, App Home Connect, Extra Secado, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bosch-sms4eci28e-serie-4-14-servicios-6-programas-60-cm-app-home-connect-extra-secado-acero-antihuellas-1603584.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch de acero inoxidable. El panel de control está en la parte superior. La puerta está cerrada.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-bosch-sps2hki58e-10-servicios-45-cm-home-connect-funcion-extra-secado-inox-1571193.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SPS2HKI58E, 10 servicios, 45 cm, Home Connect, Función Extra Secado, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-bosch-sps2hki58e-10-servicios-45-cm-home-connect-funcion-extra-secado-inox-1571193.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable con panel de control. Acabado plateado con detalles negros.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-bosch-sms4hvi02e-14-servicios-6-programas-60-cm-home-connect-funcion-extra-secado-inox-1574257.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Bosch SMS4HVI02E, 14 servicios, 6 programas, 60 cm, Home Connect, Función Extra secado, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-bosch-sms4hvi02e-14-servicios-6-programas-60-cm-home-connect-funcion-extra-secado-inox-1574257.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco con puerta abierta, rejillas dentro y panel de control 0:48. Logo Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-4-smh4evx08e-14-servicios-6-programas-598-mm-no-aplicable-149654049.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - BOSCH SMH4EVX08E, 14 servicios, 6 programas, 60,0 cm, No aplicable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-4-smh4evx08e-14-servicios-6-programas-598-mm-no-aplicable-149654049.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco abierto con panel de control plateado y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv4hvx14e-14-servicios-6-programas-598-mm-plata-166257800.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMV4HVX14E, 14 servicios, 6 programas, 59,8 cm, Plata",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv4hvx14e-14-servicios-6-programas-598-mm-plata-166257800.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco abierto con panel de control plateado y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smv4ecx28e-14-servicios-6-programas-598-cm-inox-panelable-146562715.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - BOSCH SMV4ECX28E, 14,0 servicios, 6 programas, 598 mm, Inox Panelable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bosch-smv4ecx28e-14-servicios-6-programas-598-cm-inox-panelable-146562715.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch SilencePlus blanco con la puerta abierta. Muestra los estantes internos y el panel de control con pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-sph4ekx17e-10-servicios-6-programas-448-cm--166780791.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 45 cm - BOSCH SPH4EKX17E, 10 servicios, 6 programas, 44,8 cm, -",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-sph4ekx17e-10-servicios-6-programas-448-cm--166780791.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con la puerta abierta. El panel de control muestra '0:40'. Se ven las rejillas interiores.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-spv4emx17e-10-servicios-6-programas-448-cm--166780825.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 45 cm - BOSCH SPV4EMX17E, 10 servicios, 6 programas, 44,8 cm, -",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-spv4emx17e-10-servicios-6-programas-448-cm--166780825.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con la puerta abierta. El panel de control muestra un temporizador de 0:40.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv4enx06e-13-servicios-6-programas-60-cm-blanco-166258716.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMV4ENX06E, 13 servicios, 6 programas, 59,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv4enx06e-13-servicios-6-programas-60-cm-blanco-166258716.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable con pantalla digital y selección de programas.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sms2hti06e-13-servicios-5-programas-600-mm-acero-inoxidable-167064709.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMS2HTI06E, 13 servicios, 5 programas, 60 cm, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sms2hti06e-13-servicios-5-programas-600-mm-acero-inoxidable-167064709.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con la puerta abierta, mostrando rejillas plateadas.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-spv2hkx02e-10-servicios-5-programas-49-mm-white-175219355.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 45 cm - BOSCH SPV2HKX02E, 10 servicios, 5 programas, 49 mm, White",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-45-cm-bosch-spv2hkx02e-10-servicios-5-programas-49-mm-white-175219355.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch Serie 4, frontal blanco, puerta cerrada con panel de control superior que muestra tiempo y ajustes.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms46kw02e-13-servicios-6-programas-600-mm-blanco-151003213.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS46KW02E, 13 servicios, 6 programas, 60,0 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms46kw02e-13-servicios-6-programas-600-mm-blanco-151003213.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco abierto con panel de control plateado y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sbh4hvx14e-14-servicios-6-programas-598-cm-blanco-170407955.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SBH4HVX14E, 14 servicios, 6 programas, 59,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sbh4hvx14e-14-servicios-6-programas-598-cm-blanco-170407955.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Bosch blanco con la puerta abierta, mostrando las rejillas internas.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-4-smv4hax19e-13-servicios-6-programas-598-mm-no-aplicable-144915544.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH Serie 4 SMV4HAX19E, 13 servicios, 6 programas, 59,8 cm, No aplicable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-4-smv4hax19e-13-servicios-6-programas-598-mm-no-aplicable-144915544.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco con puerta abierta. Interior con estantes.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-smh4hcx48e-siem-94622809.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMH4HCX48E, 14 servicios, 6 programas, 598 mm, Grey",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-smh4hcx48e-siem-94622809.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco con la puerta abierta, mostrando las rejillas interiores y controles.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sbh4hvx00e-6-programas-6000-cm-blanco-144651568.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SBH4HVX00E, 14 servicios, 6 programas, 598 mm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sbh4hvx00e-6-programas-6000-cm-blanco-144651568.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco. Tiene un panel de control en la parte superior y está sobre un fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-bosch-sms4hvw33e-6-programas-60-cm-inox-140527889.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS4HVW33E, 13 servicios, 6 programas, 600 mm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-bosch-sms4hvw33e-6-programas-60-cm-inox-140527889.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco, vista frontal, botones y pantalla digital, detalles en negro, fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-serie-4-sms4hmw07e-14-servicios-6-programas-600-mm-blanco-148956043.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH Serie 4 SMS4HMW07E, 14 servicios, 6 programas, 60,0 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-serie-4-sms4hmw07e-14-servicios-6-programas-600-mm-blanco-148956043.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable con pantalla digital y logo Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms6eci15e-14-servicios-6-programas-600-mm-steel-168239409.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS6ECI15E, 14 servicios, 6 programas, 60 cm, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms6eci15e-14-servicios-6-programas-600-mm-steel-168239409.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch blanco con puerta abierta, la pantalla muestra 0:40.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-6-sbv6zcx10e-14-servicios-6-programas-598-mm-no-aplicable-148955908.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH Serie 6 SBV6ZCX10E, 14 servicios, 6 programas, 598 mm, No aplicable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-6-sbv6zcx10e-14-servicios-6-programas-598-mm-no-aplicable-148955908.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco Bosch con la puerta abierta, mostrando las rejillas interiores.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv6zcx10e-140-servicios-6-programas-598-cm-blanco-150934265.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMV6ZCX10E, 14 servicios, 6 programas, 59,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-smv6zcx10e-140-servicios-6-programas-598-cm-blanco-150934265.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Bosch gris oscuro con pantalla digital y botones de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms4emc06e-14-servicios-6-programas-600-mm-negro-145166132.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH SMS4EMC06E, 14 servicios, 6 programas, 60,0 cm, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-sms4emc06e-14-servicios-6-programas-600-mm-negro-145166132.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Cesta de lavavajillas con cubiertos, tazas y utensilios sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-8-smd8tcx04e-14-servicios-8-programas-598-mm-blanco-148956024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH Serie 8 SMD8TCX04E, 14,0 servicios, 8 programas, 60 cm, White",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-serie-8-smd8tcx04e-14-servicios-8-programas-598-mm-blanco-148956024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Máquina de gimnasio con cables y pesas. Negro, sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sms8tci04e-140-servicios-8-programas-600-mm-150934112.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BOSCH SMS8TCI04E, 14 servicios, 8 programas, 60,00 cm, Grey",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-bosch-sms8tci04e-140-servicios-8-programas-600-mm-150934112.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable con pantalla digital. Tiene un panel con varios botones y un asa.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-serie-4-sms4hti03e-13-servicios-6-programas-600-mm-acero-inoxidable-148955784.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BOSCH Serie 4 SMS4HTI03E, 13 servicios, 6 programas, 60,0 cm, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-bosch-serie-4-sms4hti03e-13-servicios-6-programas-600-mm-acero-inoxidable-148955784.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Los lavavajillas Bosch son buenos?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cómo limpiar un lavavajillas Bosch?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Dónde encuentro lavavajillas Bosch baratos?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Los lavavajillas Bosch son buenos? La marca Bosch es una de las marcas más conocidas en España, por lo que los lavavajillas Bosch son de muy buena calidad y sus prestaciones son profesionales. ¿Cómo limpiar un lavavajillas Bosch? Para limpiar tu lavavajillas Bosch tienes que sacar las piezas que sean extraíbles limpiarlos en el exterior, utilizar líquidos que faciliten la limpieza y utilizar los programas del mismo lavavajillas de limpieza. ¿Dónde encuentro lavavajillas Bosch baratos? Dentro de nuestra tienda online puedes encontrar las mejores ofertas en lavavajillas Bosch .",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

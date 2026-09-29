@@ -1,0 +1,182 @@
+{"offset": "0x14000", "text": "%.200s() needs an argument"}
+{"offset": "0x1401b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x14039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1404f", "text": "cannot import name %S"}
+{"offset": "0x14065", "text": "__loader__"}
+{"offset": "0x14070", "text": "loader"}
+{"offset": "0x14077", "text": "__file__"}
+{"offset": "0x14080", "text": "origin"}
+{"offset": "0x14087", "text": "__package__"}
+{"offset": "0x14093", "text": "parent"}
+{"offset": "0x1409a", "text": "__path__"}
+{"offset": "0x140a3", "text": "submodule_search_locations"}
+{"offset": "0x140be", "text": "keywords must be strings"}
+{"offset": "0x140d7", "text": "_cython_coroutine_type"}
+{"offset": "0x140ee", "text": "_cython_generator_type"}
+{"offset": "0x14105", "text": "_module"}
+{"offset": "0x1410d", "text": "__builtins__"}
+{"offset": "0x1411a", "text": "_cython_3_0_12"}
+{"offset": "0x14129", "text": "%s (%s:%d)"}
+{"offset": "0x14134", "text": "generator already executing"}
+{"offset": "0x14150", "text": "builtins"}
+{"offset": "0x14159", "text": "cython_runtime"}
+{"offset": "0x14168", "text": "parse_retailers.home.unieuro"}
+{"offset": "0x14185", "text": "does not match"}
+{"offset": "0x14194", "text": "collections.abc"}
+{"offset": "0x141a4", "text": "backports_abc"}
+{"offset": "0x141b2", "text": "name '%U' is not defined"}
+{"offset": "0x141cb", "text": "_search_term"}
+{"offset": "0x141d8", "text": "exactly"}
+{"offset": "0x141e0", "text": "parse"}
+{"offset": "0x141e6", "text": "throw"}
+{"offset": "0x141ec", "text": "extract_products"}
+{"offset": "0x14200", "text": "genexpr"}
+{"offset": "0x14208", "text": "_cython_3_0_12.generator"}
+{"offset": "0x14221", "text": "__name__"}
+{"offset": "0x1422a", "text": "name of the generator"}
+{"offset": "0x14240", "text": "__qualname__"}
+{"offset": "0x1424d", "text": "gi_frame"}
+{"offset": "0x14256", "text": "Frame of the generator"}
+{"offset": "0x1426d", "text": "gi_running"}
+{"offset": "0x14278", "text": "gi_yieldfrom"}
+{"offset": "0x14285", "text": "gi_code"}
+{"offset": "0x1428d", "text": "__module__"}
+{"offset": "0x14298", "text": "send"}
+{"offset": "0x1429d", "text": "close"}
+{"offset": "0x142a3", "text": "__reduce__"}
+{"offset": "0x142ae", "text": "func_doc"}
+{"offset": "0x142b7", "text": "__doc__"}
+{"offset": "0x142bf", "text": "func_name"}
+{"offset": "0x142c9", "text": "func_dict"}
+{"offset": "0x142d3", "text": "__dict__"}
+{"offset": "0x142dc", "text": "func_globals"}
+{"offset": "0x142e9", "text": "__globals__"}
+{"offset": "0x142f5", "text": "func_closure"}
+{"offset": "0x14302", "text": "__closure__"}
+{"offset": "0x1430e", "text": "func_code"}
+{"offset": "0x14318", "text": "__code__"}
+{"offset": "0x14321", "text": "func_defaults"}
+{"offset": "0x1432f", "text": "__defaults__"}
+{"offset": "0x1433c", "text": "__kwdefaults__"}
+{"offset": "0x1434b", "text": "__annotations__"}
+{"offset": "0x1435b", "text": "_is_coroutine"}
+{"offset": "0x14370", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x14398", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x143c8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x143f0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x14420", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x14450", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x144b0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x144e0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x14510", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x14540", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x145a8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x145d8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x14638", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x14668", "text": "__name__ must be set to a string object"}
+{"offset": "0x14690", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x147d8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x14810", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x14848", "text": "%.200s() keywords must be strings"}
+{"offset": "0x14870", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x148a0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x148d8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x14908", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x14948", "text": "/tmp/clinic_build_y1xih54e/cbuild/parse_retailers/home/unieuro.c"}
+{"offset": "0x14990", "text": "Module 'unieuro' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x149e0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x14a30", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x14a58", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x14b08", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x14b48", "text": "parse_retailers/home/unieuro.py"}
+{"offset": "0x14b68", "text": "init parse_retailers.home.unieuro"}
+{"offset": "0x14b90", "text": " while calling a Python object"}
+{"offset": "0x14bb0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x14be0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x14c00", "text": "parse_retailers.home.unieuro._search_term"}
+{"offset": "0x14c30", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x14c70", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x14c98", "text": "parse_retailers.home.unieuro.parse"}
+{"offset": "0x14cc0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x14cf0", "text": "instance exception may not have a separate value"}
+{"offset": "0x14d28", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x14d70", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x14db0", "text": "parse_retailers.home.unieuro.extract_products.genexpr"}
+{"offset": "0x14de8", "text": "%.200s object is not an iterator"}
+{"offset": "0x14e10", "text": "parse_retailers.home.unieuro.extract_products"}
+{"offset": "0x14e40", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x14e78", "text": "generator raised StopIteration"}
+{"offset": "0x14e98", "text": "qualified name of the generator"}
+{"offset": "0x14eb8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x14ee8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x14f48", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x14fb8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x14ff0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x15020", "text": "parse_retailers.home.unieuro.__pyx_scope_struct__genexpr"}
+{"offset": "0x15060", "text": "parse_retailers/home/unieuro.py"}
+{"offset": "0x15080", "text": "extract_products.<locals>.genexpr"}
+{"offset": "0x150b0", "text": "parse_retailers.home.unieuro"}
+{"offset": "0x150d0", "text": "a.product-link-title[href]"}
+{"offset": "0x150f0", "text": "https://www.unieuro.it"}
+{"offset": "0x15110", "text": "cline_in_traceback"}
+{"offset": "0x15130", "text": "asyncio.coroutines"}
+{"offset": "0x15150", "text": "extract_products"}
+{"offset": "0x15168", "text": "search_term"}
+{"offset": "0x15178", "text": "HOME_TEMPLATE"}
+{"offset": "0x15188", "text": "BeautifulSoup"}
+{"offset": "0x15198", "text": "urllib.parse"}
+{"offset": "0x151a8", "text": "unquote_plus"}
+{"offset": "0x151b8", "text": "_is_coroutine"}
+{"offset": "0x151c8", "text": "_initializing"}
+{"offset": "0x151d8", "text": "_search_term"}
+{"offset": "0x151e8", "text": "html.parser"}
+{"offset": "0x151f8", "text": "_MAX_RESULTS"}
+{"offset": "0x15208", "text": "select_one"}
+{"offset": "0x15218", "text": "list | None"}
+{"offset": "0x15228", "text": "isenabled"}
+{"offset": "0x15238", "text": "final_url"}
+{"offset": "0x15248", "text": "core.eval"}
+{"offset": "0x15258", "text": "urlsplit"}
+{"offset": "0x15268", "text": "str | None"}
+{"offset": "0x15278", "text": "parse_qs"}
+{"offset": "0x15288", "text": "page_url"}
+{"offset": "0x15298", "text": "get_text"}
+{"offset": "0x152a8", "text": "deepcopy"}
+{"offset": "0x152b8", "text": "urljoin"}
+{"offset": "0x152c0", "text": "results"}
+{"offset": "0x152c8", "text": "genexpr"}
+{"offset": "0x152d0", "text": "disable"}
+{"offset": "0x152d8", "text": "article"}
+{"offset": "0x152e0", "text": "select"}
+{"offset": "0x152e7", "text": "return"}
+{"offset": "0x152ee", "text": "result"}
+{"offset": "0x152f8", "text": "__name__"}
+{"offset": "0x15308", "text": "__import__"}
+{"offset": "0x15313", "text": "enable"}
+{"offset": "0x15320", "text": "a[href]"}
+{"offset": "0x15328", "text": "throw"}
+{"offset": "0x1532e", "text": "strip"}
+{"offset": "0x15334", "text": "split"}
+{"offset": "0x1533a", "text": "query"}
+{"offset": "0x15340", "text": "parse"}
+{"offset": "0x15346", "text": "limit"}
+{"offset": "0x1534c", "text": "items"}
+{"offset": "0x15352", "text": "close"}
+{"offset": "0x15358", "text": "brand"}
+{"offset": "0x1535e", "text": "vals"}
+{"offset": "0x15368", "text": "__test__"}
+{"offset": "0x15378", "text": "__spec__"}
+{"offset": "0x15381", "text": "soup"}
+{"offset": "0x15386", "text": "send"}
+{"offset": "0x1538b", "text": "rank"}
+{"offset": "0x15390", "text": "name"}
+{"offset": "0x15395", "text": "meta"}
+{"offset": "0x153a0", "text": "__main__"}
+{"offset": "0x153a9", "text": "html"}
+{"offset": "0x153ae", "text": "href"}
+{"offset": "0x153b3", "text": "dict"}
+{"offset": "0x153b8", "text": "copy"}
+{"offset": "0x153bd", "text": "card"}
+{"offset": "0x153c2", "text": "args"}
+{"offset": "0x153c7", "text": "_BASE"}
+{"offset": "0x153d5", "text": "-pid"}

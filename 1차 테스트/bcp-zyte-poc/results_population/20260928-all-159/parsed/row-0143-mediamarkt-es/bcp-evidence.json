@@ -1,0 +1,2915 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0143-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+    "capturedAt": "2026-09-28T06:57:43.992089+09:00",
+    "collectionOk": true,
+    "title": "Lavadoras LG Carga Frontal | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0143-mediamarkt-es/brand-category/raw.html",
+      "sha256": "b8859f380749ab5f4ba5df75372842b17c8ef12cf9431c0915fa9f09a04453f9"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0143-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "f0c649821b6d31b818102985ee5d4e32fa1daabd4482b4f40a027ab88bd0448f"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0143-mediamarkt-es/brand-category/response.json",
+      "sha256": "213fe7e814a0793274ede4a2dbaeb78ccd22bbd5e498b18c1dc42370b83f8aa6"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "LG Lavadoras en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR6010A0W, Serie 600, 10 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X1008NWH, 8 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG WT1210BBF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Inox grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7011TWS, 11 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F2DR5S09A1W, 9 kg+5 kg, 1200 rpm, 12 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR5009A3W, Serie 500, 9kg/6kg, 1400 rpm, 12 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X5009TBB, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Acero Grafito Mate",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F2X50S8TSC, 8 kg, 1200 rpm, 12 programas, Fondo reducido, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR5509A1W, 9 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR7510AGW, 10/6 kg, TurboWash™360°, Steam™, Autodosificador, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4A10S8NDK, 8 kg, 1400 rpm, 8 programas, Grafito Silver",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7009TWS, 9 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG WT1210WWF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR5510A0W, Serie 550, 10 kg, 1400 rpm, 14 Programas, AI Direct Drive™, Steam™, Autodosificación, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR7010AGW, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR9513A2W, 13 Kg + 7 Kg, 1400 rpm, 14 programas, AI Direct Drive™, TurboWash™360, Autodosificación, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR7010AGS, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR6009A1W, Serie 600, 9 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7511TWS, 11 kg, 1400 rpm, 23 programas, Autodosificación, Selector LCD, Clase A-30%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, Steam™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR6010A1W, 10 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F0P3CYV2W, 20 kg, 1000 rpm, 14 programas, TurboWash™ 360˚, Steam™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F0P3CYV2E, 20 kg, 1000 rpm, 14 programas, AI Direct Drive™, TurboWash™360˚, Acero negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR6013AGW, 13 kg, 1400 rpm, 12 programas, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F1P1CY2W, 17 kg, 1100 rpm, 14 Programas, Blanco Marfil",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - LG F4DR7511AGW, 11 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, TurboWash™360, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F1P1CY2T, Serie XXL, 17 kg, 1100rpm, TurboWash™ con Jet Spray, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4WR7010AGS, Serie 700, 10 kg, 1400 rpm, 14 Programas, AI Direct Drive ™, Steam™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR5509A1W, Serie 550, 9 kg, 1400 rpm, 15 programas, AI Direct Drive™, Autodosificador de detergente, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X9009TWCE, 9 kg, 1400 rpm, 23 programas, TurboWash™ 360°, Selector LCD, Clase A-60%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7509TWS, 9 kg, 1400 rpm, 23 programas, Autodosificación, Selector LCD, Clase A-30%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4WR5010A6W, 10 kg, 1400 rpm, 11 programas, AI Direct Drive™, Steam™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - LG F4WR5010A6W, 10 kg, 1400 rpm, 11 programas, AI Direct Drive™, Steam™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, Steam™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - LG F4WR7509AGH, Serie 750, 9 kg, 1400 rpm, 14 programas, AI Direct Drive™, Steam™",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavadora secadora - LG WT1210BBF, 12/10 kg, WashTower™, TurboWash™, Inox grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - LG F4X7513TWS, 13 kg, 1400 rpm, 23 programas, TurboWash™, Selector LCD, Blanco marfil",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - LG F4A10S8NDK, 8 kg, 1400 rpm, 8 programas, Grafito Silver",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, ThinQ™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Lavadora secadora - LG F2DR5S09A1W, 9 kg+5 kg, 1200 rpm, 12 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90CGC04DAEEC, 9 kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Las lavadoras LG son las más eficientes del mercado?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué tecnologías encontramos en las lavadoras LG?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es AI Direct Drive?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > div#¿Las lavadoras de LG pueden ser secadoras? > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Las lavadoras de LG pueden ser secadoras?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 128,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175445374?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146909639?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146811024?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181052539?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176501407?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773837?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773814?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146810950?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_148333077?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_170381468?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 112,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 113,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 99,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175445374?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146909639?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146811024?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181052539?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176501407?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773837?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773814?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Lavadoras LG Carga Frontal | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Descubre la gama de Lavadoras eficientes carga frontal de LG, con las tecnologías más innovadoras del sector."
+        ],
+        "h1": [
+          "LG Lavadoras en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175445374?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146909639?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146811024?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181052539?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176501407?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773837?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159773814?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146810950?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_148333077?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_170381468?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Lavadora carga frontal - LG F4X1008NWH, 8 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, ThinQ™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "¿Qué tecnologías encontramos en las lavadoras LG?",
+            "attributes": {
+              "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+            },
+            "matchedTerms": [
+              "tecnologia",
+              "tecnologias"
+            ]
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "429,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "499,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "379,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1599,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "599,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "492,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "549,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "710,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "799,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1749,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "569,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "629,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1119,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "699,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "619,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "416,73€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "278,85€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "980,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1099,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "681,87€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "869,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "879,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "969,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "629,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "539,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "559,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "809,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "749,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "651,63€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2345,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "336,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "396,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "364,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Lavadoras secadoras",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado/lavadoras-secadoras",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Lavadoras LG 8kg",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado/lavadora-lg-8kg",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Lavadoras LG 9kg",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado/lavadora-lg-9kg",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "¿Las lavadoras LG son las más eficientes del mercado?",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "¿Qué tecnologías encontramos en las lavadoras LG?",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "¿Las lavadoras de LG pueden ser secadoras?",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Top venta Ficha técnica Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco 39 Basado en 39 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí -18% 529,– € 529,00€ 429,– € 429,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Lavadora carga frontal - LG F4WR6010A0W, Serie 600, 10 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco 4126 Basado en 4126 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -20% 599,– € 599,00€ 479,– € 479,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚, Inox 2512 Basado en 2512 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí -12% 569,– € 569,00€ 499,– € 499,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Lavadora carga frontal - LG F4X1008NWH, 8 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil 419 Basado en 419 valoraciones Nivel de ruido del centrifugado 74 dB(A) Dosificación automática No Función Vapor No Compatible con la aplicación Sí -15% 449,– € 449,00€ 379,– € 379,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Regalo Natulim Ficha técnica Lavadora secadora - LG WT1210BBF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Inox grafito 343 Basado en 343 valoraciones Capacidad secado 10 kg Capacidad de carga 12 kg Nivel de ruido del centrifugado 72 dB(A) Medidas (An x Al x F) 60 cm x 165.5 cm x 66 cm -36% 2529,– € 2529,00€ 1599,– € 1599,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Especial hogar Lavadora carga frontal - LG F4X7011TWS, 11 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco 463 Basado en 463 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -14% 699,– € 699,00€ 599,– € 599,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Regalo Natulim Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco 463 Basado en 463 valoraciones Nivel de ruido del centrifugado 71 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -25% 809,– € 809,00€ 599,– € 599,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Top venta Ficha técnica Lavadora seca",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Lavadora LG blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x5009tlc-9-kg-1400-rpm-12-programas-turbowash-360o-clase-a-40percent-blanco-1622696.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x5009tlc-9-kg-1400-rpm-12-programas-turbowash-360o-clase-a-40percent-blanco-1622696.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta negra y panel de control en la parte delantera, y una pegatina dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr6010a0w-serie-600-10-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1556465.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR6010A0W, Serie 600, 10 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr6010a0w-serie-600-10-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1556465.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR6010A0W, Serie 600, 10 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG en color gris oscuro. Tiene una puerta negra y un panel de control. Una pegatina de garantía es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7009ags-serie-700-9-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-blanco-1556463.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7009ags-serie-700-9-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-blanco-1556463.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora frontal blanca LG con una pegatina de garantía dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x1008nwh-8-kg-1400-rpm-10-programas-steamtm-thinqtm-blanco-1578898.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X1008NWH, 8 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x1008nwh-8-kg-1400-rpm-10-programas-steamtm-thinqtm-blanco-1578898.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X1008NWH, 8 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Torre de lavadora y secadora LG negra con panel de control y puerta redonda.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-wt1210bbf-1210-kg-washtowertm-turbowashtm-inox-grafito-1577958.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG WT1210BBF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Inox grafito",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-wt1210bbf-1210-kg-washtowertm-turbowashtm-inox-grafito-1577958.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG WT1210BBF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Inox grafito",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta negra y una pegatina de garantía dorada. Los controles incluyen una pantalla y botones.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7011tws-11-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592834.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X7011TWS, 11 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7011tws-11-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592834.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X7011TWS, 11 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra. Tiene controles, una pantalla y una pegatina dorada de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7013tws-13-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592835.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7013tws-13-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592835.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X7013TWS, 13 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca, vista frontal. Cuenta con una puerta negra, pantalla y una pegatina dorada de \"garantía\".",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f2dr5s09a1w-9-kg5-kg-1200-rpm-12-programas-blanco-1567081.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F2DR5S09A1W, 9 kg+5 kg, 1200 rpm, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f2dr5s09a1w-9-kg5-kg-1200-rpm-12-programas-blanco-1567081.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F2DR5S09A1W, 9 kg+5 kg, 1200 rpm, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con una pegatina dorada de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr5009a3w-serie-500-9kg6kg-1400-rpm-12-programas-blanco-1566307.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR5009A3W, Serie 500, 9kg/6kg, 1400 rpm, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr5009a3w-serie-500-9kg6kg-1400-rpm-12-programas-blanco-1566307.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR5009A3W, Serie 500, 9kg/6kg, 1400 rpm, 12 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG oscura con panel de control y puerta redonda.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x5009tbb-9-kg-1400-rpm-12-programas-turbowash-360o-acero-grafito-mate-1611861.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X5009TBB, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Acero Grafito Mate",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x5009tbb-9-kg-1400-rpm-12-programas-turbowash-360o-acero-grafito-mate-1611861.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X5009TBB, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Acero Grafito Mate",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F2X50S8TSC, 8 kg, 1200 rpm, 12 programas, Fondo reducido, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f2x50s8tsc-8-kg-1200-rpm-12-programas-inox-1667770.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F2X50S8TSC, 8 kg, 1200 rpm, 12 programas, Fondo reducido, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta y panel de control negros. Garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr5509a1w-9-kg-6-kg-1400-rpm-14-programas-ai-direct-drivetm-autodosificacion-turbowashtm360-blanco-1562822.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR5509A1W, 9 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr5509a1w-9-kg-6-kg-1400-rpm-14-programas-ai-direct-drivetm-autodosificacion-turbowashtm360-blanco-1562822.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR5509A1W, 9 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora blanca con puerta negra, pegatina de garantía amarilla.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr7510agw-106-kg-turbowashtm360-steamtm-autodosificador-blanco-1592840.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR7510AGW, 10/6 kg, TurboWash™360°, Steam™, Autodosificador, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr7510agw-106-kg-turbowashtm360-steamtm-autodosificador-blanco-1592840.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR7510AGW, 10/6 kg, TurboWash™360°, Steam™, Autodosificador, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Vista frontal de una lavadora LG gris oscuro. Tiene una puerta redonda negra, un panel de control y un pequeño cajón.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4a10s8ndk-8-kg-1400-rpm-8-programas-grafito-silver-1592831.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4A10S8NDK, 8 kg, 1400 rpm, 8 programas, Grafito Silver",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4a10s8ndk-8-kg-1400-rpm-8-programas-grafito-silver-1592831.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4A10S8NDK, 8 kg, 1400 rpm, 8 programas, Grafito Silver",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta negra. Tiene un panel de control y una pegatina \"GARANTÍA DE POR VIDA\".",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7009tws-9-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592833.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X7009TWS, 9 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7009tws-9-kg-1400-rpm-23-programas-turbowash-360o-thinqtm-blanco-1592833.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X7009TWS, 9 kg, 1400 rpm, 23 programas, TurboWash 360º, Selector LCD, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora y secadora LG blancas apiladas con paneles de control y pegatinas de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-wt1210wwf-1210-kg-washtowertm-turbowashtm-blanco-1607174.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG WT1210WWF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-wt1210wwf-1210-kg-washtowertm-turbowashtm-blanco-1607174.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG WT1210WWF, Torre de lavado 12/10 kg, TurboWash™, Smart Pairing™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca. Puerta y panel de control negros. Etiqueta de garantía dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr5510a0w-serie-550-10-kg-1400-rpm-14-programas-ai-direct-drivetm-steamtm-autodosificacion-blanco-1556466.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR5510A0W, Serie 550, 10 kg, 1400 rpm, 14 Programas, AI Direct Drive™, Steam™, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr5510a0w-serie-550-10-kg-1400-rpm-14-programas-ai-direct-drivetm-steamtm-autodosificacion-blanco-1556466.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR5510A0W, Serie 550, 10 kg, 1400 rpm, 14 Programas, AI Direct Drive™, Steam™, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG en color gris oscuro. Tiene una puerta negra y un panel de control. Una pegatina de garantía es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4wr7009ags-serie-700-9-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-1585825.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4wr7009ags-serie-700-9-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-1585825.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4WR7009AGS, Serie 700, 9 kg, 1400 rpm, 14 Programas, AI Direct Drive™, TurboWash™360˚",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora blanca. Puerta negra. Pegatina dorada: Garantía de por vida en el motor.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7010agw-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-blanco-1562809.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR7010AGW, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7010agw-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-blanco-1562809.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR7010AGW, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora blanca con puerta negra. Cuenta con una parte superior plateada y una pegatina dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr9513a2w-13-kg-7-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360-autodosificacion-blanco-1562817.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR9513A2W, 13 Kg + 7 Kg, 1400 rpm, 14 programas, AI Direct Drive™, TurboWash™360, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr9513a2w-13-kg-7-kg-1400-rpm-14-programas-ai-direct-drivetm-turbowashtm360-autodosificacion-blanco-1562817.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR9513A2W, 13 Kg + 7 Kg, 1400 rpm, 14 programas, AI Direct Drive™, TurboWash™360, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra, pegatina de garantía amarilla.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x1009nwk-9-kg-1400-rpm-10-programas-ai-direct-drivetm-steamtm-blanco-1578899.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x1009nwk-9-kg-1400-rpm-10-programas-ai-direct-drivetm-steamtm-blanco-1578899.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, ThinQ™, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG plateada con puerta negra. Fondo blanco y pegatina dorada de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7010ags-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-blanco-1562808.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR7010AGS, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr7010ags-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-blanco-1562808.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR7010AGS, Serie 700, 10 kg, 1400 rpm, 14 Programas, Steam™, Clase A-10%, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra. Etiqueta de garantía dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr6009a1w-serie-600-9-kg-6-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1562823.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR6009A1W, Serie 600, 9 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr6009a1w-serie-600-9-kg-6-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1562823.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR6009A1W, Serie 600, 9 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra y pantalla digital. Etiqueta de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7511tws-11-kg-1400-rpm-23-programas-turbowash-360o-autodosificacion-blanco-1592837.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4X7511TWS, 11 kg, 1400 rpm, 23 programas, Autodosificación, Selector LCD, Clase A-30%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4x7511tws-11-kg-1400-rpm-23-programas-turbowash-360o-autodosificacion-blanco-1592837.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4X7511TWS, 11 kg, 1400 rpm, 23 programas, Autodosificación, Selector LCD, Clase A-30%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta negra, etiqueta energética A y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4x1009nwk-9-kg-1400-rpm-10-programas-ai-direct-drivetm-steamtm-blanco-1589366.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, Steam™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4x1009nwk-9-kg-1400-rpm-10-programas-ai-direct-drivetm-steamtm-blanco-1589366.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4X1009NWK, 9 kg, 1400 rpm, 10 programas, AI Direct Drive™, Steam™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra. Etiqueta dorada: \"Garantia de por Vida\".",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr6010a1w-10-kg-6-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1562821.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR6010A1W, 10 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr6010a1w-10-kg-6-kg-1400-rpm-12-programas-ai-direct-drivetm-turbowashtm360o-blanco-1562821.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR6010A1W, 10 kg / 6 kg, 1400 rpm, 12 programas, AI Direct Drive™, TurboWash™360˚, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-lavadora-carga-frontal-lg-f4x5009tlc-9-kg-1400-rpm-12-programas-turbowash-360o-clase-a-40percent-blanco-1672030.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-lavadora-carga-frontal-lg-f4x5009tlc-9-kg-1400-rpm-12-programas-turbowash-360o-clase-a-40percent-blanco-1672030.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Funcional Lavadora carga frontal - LG F4X5009TLC, 9 kg, 1400 rpm, 12 programas, TurboWash 360º, Clase A-40%, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta negra. Una pegatina dorada de garantía está en la parte delantera.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f0p3cyv2w-20-kg-1000-rpm-14-programas-turbowashtm-360o-steamtm-blanco-1578136.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F0P3CYV2W, 20 kg, 1000 rpm, 14 programas, TurboWash™ 360˚, Steam™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f0p3cyv2w-20-kg-1000-rpm-14-programas-turbowashtm-360o-steamtm-blanco-1578136.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F0P3CYV2W, 20 kg, 1000 rpm, 14 programas, TurboWash™ 360˚, Steam™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG negra con una pegatina dorada de garantía en el frontal.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f0p3cyv2e-20-kg-1000-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-acero-negro-1578137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F0P3CYV2E, 20 kg, 1000 rpm, 14 programas, AI Direct Drive™, TurboWash™360˚, Acero negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f0p3cyv2e-20-kg-1000-rpm-14-programas-ai-direct-drivetm-turbowashtm360o-acero-negro-1578137.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F0P3CYV2E, 20 kg, 1000 rpm, 14 programas, AI Direct Drive™, TurboWash™360˚, Acero negro",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca con puerta negra y panel de control, con una pegatina de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr6013agw-13-kg-12-programas-inox-141668528.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F4WR6013AGW, 13 kg, 1400 rpm, 12 programas, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f4wr6013agw-13-kg-12-programas-inox-141668528.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F4WR6013AGW, 13 kg, 1400 rpm, 12 programas, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Una lavadora LG blanca con puerta negra y pegatina de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f1p1cy2w-17-kg-1100rpm-14-programas-blanco-1511041.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F1P1CY2W, 17 kg, 1100 rpm, 14 Programas, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-lg-f1p1cy2w-17-kg-1100rpm-14-programas-blanco-1511041.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F1P1CY2W, 17 kg, 1100 rpm, 14 Programas, Blanco Marfil",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG blanca con puerta y panel de control negros. Sello \"Garantía de por vida\".",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr7511agw-11-kg-6-kg-1400-rpm-14-programas-ai-direct-drivetm-autodosificacion-turbowashtm360-blanco-1562818.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - LG F4DR7511AGW, 11 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, TurboWash™360, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-lg-f4dr7511agw-11-kg-6-kg-1400-rpm-14-programas-ai-direct-drivetm-autodosificacion-turbowashtm360-blanco-1562818.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - LG F4DR7511AGW, 11 kg / 6 kg, 1400 rpm, 14 programas, AI Direct Drive™, Autodosificación, TurboWash™360, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG plateada con panel de control y pegatina de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lg-electronics-f1p1cy2t-1511040.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - LG F1P1CY2T, Serie XXL, 17 kg, 1100rpm, TurboWash™ con Jet Spray, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lg-electronics-f1p1cy2t-1511040.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - LG F1P1CY2T, Serie XXL, 17 kg, 1100rpm, TurboWash™ con Jet Spray, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/lavado?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Lavadora LG plateada con puerta negra. Fondo blanco y pegatina dorada de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4wr7010ags-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-inox-1594053.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavadora carga frontal - LG F4WR7010AGS, Serie 700, 10 kg, 1400 rpm, 14 Programas, AI Direct Drive ™, Steam™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavadora-carga-frontal-lg-f4wr7010ags-serie-700-10-kg-1400-rpm-14-programas-ai-direct-drive-tm-steamtm-inox-1594053.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Las lavadoras LG son las más eficientes del mercado?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué tecnologías encontramos en las lavadoras LG?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es AI Direct Drive?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Las lavadoras de LG pueden ser secadoras?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Las lavadoras LG son las más eficientes del mercado? Las lavadoras LG están diseñadas para ser altamente eficientes en el uso de energía y agua, lo que les permite reducir el costo de operación y ser más amigables con el medio ambiente. Algunas de las tecnologías avanzadas utilizadas en las lavadoras LG para lograr esta eficiencia incluyen: Tecnología de carga frontal: al tener la puerta en la parte frontal, la lavadora requiere menos energía para calentar el agua y operar el motor. Inversión de tambores: esta tecnología permite que el tambor gire en dos direcciones diferentes durante el ciclo de lavado, lo que ayuda a distribuir la ropa de manera uniforme y a mejorar el rendimiento de lavado. Etiquetas de eficiencia energética: algunos modelos cuentan con etiquetas de eficiencia energética que indican que su consumo de energía es menor que el de las lavadoras promedio. Además, también ofrecen una gran variedad de diseños y estilos para adaptarse a cualquier tipo de hogar y preferencia del cliente. En definitiva, LG ha trabajado en la creación de lavadoras eficientes, que ayudan a reducir el consumo de recursos naturales y al mismo tiempo cuidando la ropa de sus clientes. ¿Qué tecnologías encontramos en las lavadoras LG? Ofrece varias tecnologías avanzadas en sus lavadoras para mejorar su rendimiento y eficiencia: 6 Motion Direct Drive: Es un sistema de lavado que permite a la lavadora moverse en seis direcciones diferentes, para un lavado más profundo y eficiente. Además, se optimiza el ahorro de agua, y reduce la cantidad de energía utilizada en el ciclo de lavado. TurboWash: Es una tecnología de lavado de LG que utiliza un sistema de inyección de agua para aumentar la velocidad de lavado, reduciendo el tiempo de ciclo en un 30%. Inverter Direct Drive: es un sistema de motor inversor que elimina la caja de engranajes para conectar directamente el motor al tambor de lavado. Esto hace que la lavadora sea más eficiente en el consumo de energía y más silenciosa. Steam: Algunas lavadoras de LG cuentan con una opción de vapor, la cual permite limpiar y desinfectar la ropa con vapor, eliminando alérgenos, ácaros y olores. SmartThinQ: es una tecnología que permite controlar y monitorear la lavadora desde un smartphone o dispositivo inteligente. Esta tecnología también permite programar y pausar el ciclo de lavado. Estas son solo algunas de las tecnologías avanzadas que ofrece LG en sus lavadoras, cada modelo tiene características específicas, LG busca proporcionar tecnologías innovadoras para mejorar el rendimiento y eficiencia de sus lavadoras. ¿Qué es AI Direct Drive? AI Direct Drive es una tecnología de lavado desarrollada por LG que combina la inteligencia artificial (IA) con la tecnología Direct Drive. La tecnología Direct Drive se refiere al sistema de transmisión utilizado en las lavadoras LG, donde el motor está directamente conectado al tambor de lavado en lugar de utilizar una caja de engranajes intermediaria. Esto proporciona una mayor eficiencia energética y un menor ruido en comparación con los sistemas de transmisión tradicionales. La IA, por su parte, se utiliza para optimizar el rendimiento de la lavadora y para adaptarse a las necesidades del usuario. Por ejemplo, la tecnología AI Direct Drive puede analizar la cantidad de ropa en la lavadora y ajustar la cantidad de agua y energía utilizada para el ciclo de lavado. También puede utilizar sensores para detectar la densidad de la ropa y ajustar el ciclo de lavado en consecuencia para garantizar una limpieza óptima. ¿Las lavadoras de LG pueden ser secadoras? Las lavasecadoras de LG cuentan con características innovadoras que las hacen muy atractivas para aquellos que buscan un electrodoméstico versátil y eficiente. La inteligencia artificial es una de las características más destacadas, ya que permite que la lavasecadora detecte las características de los tejidos de la ropa y se adapte a ellos para proporcionar un cuidado adecuado y evitar dañarlos. Además, al tener ",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

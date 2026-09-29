@@ -1,0 +1,163 @@
+# Elcorteingles_electronica robots.txt
+# source: https://www.elcorteingles.es/robots.txt (via Bright Data, country=es)
+# HTTP 200
+#
+# '*'(일반 크롤러) 전면금지: 아니오 (홈/제품 허용)
+# Brightbot 전면금지: 아니오
+# 전면금지된 named 봇 7개: MJ12bot, DotBot, BLEXBot, Amazonbot, Bytespider, ClaudeBot, Claude-User
+======================================================================
+
+#                                                                  
+#  _____ _    ____           _         ___             _   _       
+# | ____| |  / ___|___  _ __| |_ ___  |_ _|_ __   __ _| | /_/  ___ 
+# |  _| | | | |   / _ \| '__| __/ _ \  | || '_ \ / _` | |/ _ \/ __|
+# | |___| | | |__| (_) | |  | ||  __/  | || | | | (_| | |  __/\__ \
+# |_____|_|  \____\___/|_|   \__\___| |___|_| |_|\__, |_|\___||___/
+#                                                |___/             
+
+User-agent: *
+User-agent: Googlebot
+User-agent: Googlebot-News
+User-agent: Googlebot-Image
+User-agent: Googlebot-Video
+User-agent: Googlebot-Mobile
+
+Disallow: /login
+Disallow: */checkout/*
+Disallow: /checkout-signin
+Disallow: /profile2
+Disallow: /*/search
+Disallow: /store/
+Disallow: */cart/*
+Disallow: /aptc/c/
+Disallow: /compra/
+Disallow: /entradas/blog/*/feed/
+
+#oes1 (28/04/2025) - (GoogleBot)
+#oes2 (08/05/2025) - (Disallow Bots)
+#oes3 (20/05/2025) - (Se quita el Disallow Bots) 
+Disallow: /*%2Fmarcas*
+Disallow: */?zip=*
+Disallow: /search-nwx/*
+Disallow: /*/search-nwx/*
+Disallow: /mis-listas/* 
+Disallow: /mi-lista/*
+Disallow: */license::*
+Disallow: */?stype*
+Disallow: /*&AMV=*
+Disallow: */?sorting*
+Disallow: /AMV/*
+
+# 14-07-2025 (Filters all business)
+Disallow: *brand::*
+Disallow: *rating::*
+
+# 14-07-2025 (Filters electronics)
+Disallow: *attr.mobile_phone_type::*
+Disallow: *attr.mobile_phone_model_range::*
+Disallow: *attr.mogile_phone_front_camera_resolution::*
+Disallow: *energy_classification::*
+Disallow: *attr.mobile_phone_sales_package_content::*
+Disallow: *attr.laptop_processor::*
+Disallow: *attr.tv_high_definition::*
+Disallow: *attr.reflex_camera_effective_sensor_resolution::*
+Disallow: *attr.laptops_accessories_product_type::*
+Disallow: *attr.tipo_de_impresion::*
+
+# 02-02-2026 (Filters supermarket)
+Disallow: /supermercado/tienda-club-del-gourmet/
+Disallow: /supermercado/tienda-mascota/
+Disallow: /alimentacion/minisite/
+Disallow: /ofertas-supermercado/supermercado/
+Disallow: /ff-alimentacion/promo/
+Disallow: /brand%
+Disallow: /skus.food_badges.names%
+Disallow: /offer_type%
+Disallow: /skus.presentation%
+
+# 09-02-2026 
+Disallow: /canarias/
+
+# 25-02-2026
+Disallow: /?third=
+Disallow: /?vuestore=
+Disallow: /?app=
+Disallow: /?s=
+Disallow: /?level=
+Disallow: /?force_lang=
+Disallow: /?msockid=
+
+Disallow: /purchase/*
+
+Disallow: /empresas/isbutpage/*
+Disallow: /empresas/busqueda/*
+Disallow: /empresas/registrarse/*
+Disallow: /empresas/es/informacion/pdf/politica_de_cookies.pdf
+Disallow: /empresas/cesta/*
+Disallow: /electronica/telefonia/pulseras-de-actividad/
+Disallow: /app-empleados/
+Disallow: /informacioncorporativa/es/comunicacion/notas-de-prensa/?*
+Disallow: /informacioncorporativa/es/cargarMediaMediaElement.do* 
+Disallow: /informacioncorporativa/en/cargarMediaMediaElement.do*
+Disallow: /informacioncorporativa/pt/cargarMediaMediaElement.do*
+Disallow: /bodamas_ssl
+Disallow: /api
+Disallow: /empresas/tienda/isbutpage/*
+
+Disallow: /supermercat/
+Disallow: /alimentacio/
+Disallow: /ofertes-supermercat/
+Disallow: /productes-ecologics-supermercat/
+Disallow: /supermercado-entrega-en-el-dia/
+Disallow: /catering/*
+
+Disallow: /suscripcion/club-de-vinos/*
+Disallow: /el-club-de-vinos/*
+
+Disallow: *price::*
+
+Disallow: /*?AMV=1*
+Disallow: /*?AMV=true*
+
+Disallow: /promocion-repsol-info/
+
+Disallow: /entradas/search/*
+Disallow: /entradas/agenda/*
+
+User-agent: AdsBot-Google
+Allow: /search-nwx/*
+Allow: */?sorting*
+Allow: *brand::*
+Allow: *rating::*
+
+# blacklist UA
+User-agent: MJ12bot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: DotBot
+Disallow: /
+Crawl-delay: 20
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-User
+Disallow: /
+
+
+Sitemap: https://www.elcorteingles.es/sgfm/statics-front/front-msh3-eci-es/contents/sitemap-variants/sitemap.xml.gz
+Sitemap: https://www.elcorteingles.es/sgfm/SGFM/contents/sitemaps/empresas/sitemap-index-division-empresas.xml
+Sitemap: https://www.elcorteingles.es/aptc/sitemap.xml
+Sitemap: https://www.elcorteingles.es/entradas/sitemaps/sitemap.xml
+Sitemap: https://www.elcorteingles.es/contenidos/sitemap-index.xml
+Sitemap: https://www.elcorteingles.es/sicor/sitemap_index.xml

@@ -1,0 +1,567 @@
+{"offset": "0x71000", "text": "strings are too large to concat"}
+{"offset": "0x71020", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x71048", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x71078", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x710a0", "text": " while calling a Python object"}
+{"offset": "0x710c0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x710f0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x71118", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x711c8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x71200", "text": "%.200s() keywords must be strings"}
+{"offset": "0x71228", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x71258", "text": "function's dictionary may not be deleted"}
+{"offset": "0x71288", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x712b8", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x71318", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x71348", "text": "generator raised StopIteration"}
+{"offset": "0x71368", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x71398", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x713c8", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x71430", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x71460", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x714c0", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x714f0", "text": "__name__ must be set to a string object"}
+{"offset": "0x71518", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x71660", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x71698", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x716c8", "text": "instance exception may not have a separate value"}
+{"offset": "0x71700", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x71748", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x71788", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x717c0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x717f0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x71830", "text": "join() result is too long for a Python string"}
+{"offset": "0x71860", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/osm_daily_sync.c"}
+{"offset": "0x718a0", "text": "scripts.osm_daily_sync.main.genexpr"}
+{"offset": "0x718c8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x71908", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x71940", "text": "generator ignored GeneratorExit"}
+{"offset": "0x71960", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x71990", "text": "dictionary changed size during iteration"}
+{"offset": "0x719c0", "text": "Module 'osm_daily_sync' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x71a18", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x71a68", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x71aa8", "text": "scripts.osm_daily_sync._link_or_copy"}
+{"offset": "0x71ad0", "text": "scripts.osm_daily_sync.cnx_signature.genexpr"}
+{"offset": "0x71b00", "text": "scripts.osm_daily_sync.cnx_signature"}
+{"offset": "0x71b28", "text": "scripts.osm_daily_sync._cnx_record_ok"}
+{"offset": "0x71b50", "text": "scripts.osm_daily_sync._is_osm_record"}
+{"offset": "0x71b78", "text": "scripts.osm_daily_sync.read_ledger_csv"}
+{"offset": "0x71ba0", "text": "scripts.osm_daily_sync.cnx_retailers"}
+{"offset": "0x71bc8", "text": "scripts.osm_daily_sync._load_parsed"}
+{"offset": "0x71bf0", "text": "scripts.osm_daily_sync.kst_today"}
+{"offset": "0x71c18", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x71c48", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x71c70", "text": "scripts.osm_daily_sync.content_hash.genexpr"}
+{"offset": "0x71ca0", "text": "'NoneType' object is not iterable"}
+{"offset": "0x71cc8", "text": "scripts.osm_daily_sync.content_hash"}
+{"offset": "0x71cf0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x71d18", "text": "scripts.osm_daily_sync.vis_rows"}
+{"offset": "0x71d38", "text": "scripts.osm_daily_sync.build_all_batch"}
+{"offset": "0x71d60", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x71da8", "text": "scripts.osm_daily_sync.ledger_get"}
+{"offset": "0x71dd0", "text": "scripts.osm_daily_sync.sync_date"}
+{"offset": "0x71df8", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x71e18", "text": "scripts.osm_daily_sync.content_hash.genexpr.genexpr"}
+{"offset": "0x71e50", "text": "scripts.osm_daily_sync.ensure_ledger.genexpr"}
+{"offset": "0x71e80", "text": "scripts.osm_daily_sync.ensure_ledger"}
+{"offset": "0x71ea8", "text": "scripts.osm_daily_sync.ensure_history.genexpr"}
+{"offset": "0x71ed8", "text": "scripts.osm_daily_sync.ensure_history"}
+{"offset": "0x71f00", "text": "scripts.osm_daily_sync.history_add"}
+{"offset": "0x71f28", "text": "scripts.osm_daily_sync.ledger_touch"}
+{"offset": "0x71f50", "text": "scripts.osm_daily_sync.has_cnx_gnb"}
+{"offset": "0x71f78", "text": "scripts.osm_daily_sync._link_records.genexpr"}
+{"offset": "0x71fa8", "text": "scripts.osm_daily_sync._link_records"}
+{"offset": "0x71fd0", "text": "scripts.osm_daily_sync.write_ey_daily.genexpr"}
+{"offset": "0x72000", "text": "scripts.osm_daily_sync.write_ey_daily"}
+{"offset": "0x72028", "text": "scripts.osm_daily_sync.archive_raw"}
+{"offset": "0x72050", "text": "scripts.osm_daily_sync.ledger_upsert.genexpr"}
+{"offset": "0x72080", "text": "scripts.osm_daily_sync.ledger_upsert"}
+{"offset": "0x720a8", "text": "qualified name of the generator"}
+{"offset": "0x720c8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x720f8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x72158", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x721c8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x72200", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x72230", "text": "scripts.osm_daily_sync.__pyx_scope_struct_12_genexpr"}
+{"offset": "0x72268", "text": "scripts.osm_daily_sync.__pyx_scope_struct_11_genexpr"}
+{"offset": "0x722a0", "text": "scripts.osm_daily_sync.__pyx_scope_struct_10_genexpr"}
+{"offset": "0x722d8", "text": "scripts.osm_daily_sync.__pyx_scope_struct_9_genexpr"}
+{"offset": "0x72310", "text": "scripts.osm_daily_sync.__pyx_scope_struct_8_genexpr"}
+{"offset": "0x72348", "text": "scripts.osm_daily_sync.__pyx_scope_struct_7_genexpr"}
+{"offset": "0x72380", "text": "scripts.osm_daily_sync.__pyx_scope_struct_6_genexpr"}
+{"offset": "0x723b8", "text": "scripts.osm_daily_sync.__pyx_scope_struct_5_genexpr"}
+{"offset": "0x723f0", "text": "scripts.osm_daily_sync.__pyx_scope_struct_4_genexpr"}
+{"offset": "0x72428", "text": "scripts.osm_daily_sync.__pyx_scope_struct_3_genexpr"}
+{"offset": "0x72460", "text": "scripts.osm_daily_sync.__pyx_scope_struct_2_cnx_signature"}
+{"offset": "0x724a0", "text": "scripts.osm_daily_sync.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x724d8", "text": "scripts.osm_daily_sync.__pyx_scope_struct__genexpr"}
+{"offset": "0x7250b", "text": "%.200s() needs an argument"}
+{"offset": "0x72526", "text": "Bad call flags for CyFunction"}
+{"offset": "0x72544", "text": "<cyfunction %U at %p>"}
+{"offset": "0x7255a", "text": "__loader__"}
+{"offset": "0x72565", "text": "loader"}
+{"offset": "0x7256c", "text": "__file__"}
+{"offset": "0x72575", "text": "origin"}
+{"offset": "0x7257c", "text": "__package__"}
+{"offset": "0x72588", "text": "parent"}
+{"offset": "0x7258f", "text": "__path__"}
+{"offset": "0x72598", "text": "submodule_search_locations"}
+{"offset": "0x725b3", "text": "keywords must be strings"}
+{"offset": "0x725cc", "text": "_cython_coroutine_type"}
+{"offset": "0x725e3", "text": "_cython_generator_type"}
+{"offset": "0x725fa", "text": "_module"}
+{"offset": "0x72602", "text": "__builtins__"}
+{"offset": "0x7260f", "text": "_cython_3_0_12"}
+{"offset": "0x7261e", "text": "cannot import name %S"}
+{"offset": "0x72634", "text": "%s (%s:%d)"}
+{"offset": "0x7263f", "text": "scripts/osm_daily_sync.py"}
+{"offset": "0x72659", "text": "scripts.osm_daily_sync._canon"}
+{"offset": "0x72677", "text": "exactly"}
+{"offset": "0x72682", "text": "genexpr"}
+{"offset": "0x7268a", "text": "generator already executing"}
+{"offset": "0x726a6", "text": "split"}
+{"offset": "0x726ac", "text": "name '%U' is not defined"}
+{"offset": "0x726c5", "text": "builtins"}
+{"offset": "0x726ce", "text": "cython_runtime"}
+{"offset": "0x726dd", "text": "does not match"}
+{"offset": "0x726ec", "text": "collections.abc"}
+{"offset": "0x726fc", "text": "backports_abc"}
+{"offset": "0x7270a", "text": "init scripts.osm_daily_sync"}
+{"offset": "0x72726", "text": "_link_or_copy"}
+{"offset": "0x72734", "text": "scripts.osm_daily_sync._run"}
+{"offset": "0x72750", "text": "cnx_signature"}
+{"offset": "0x7275e", "text": "_cnx_record_ok"}
+{"offset": "0x7276d", "text": "_is_osm_record"}
+{"offset": "0x7277c", "text": "read_ledger_csv"}
+{"offset": "0x7278c", "text": "at least"}
+{"offset": "0x72795", "text": "at most"}
+{"offset": "0x7279d", "text": "scripts.osm_daily_sync.window"}
+{"offset": "0x727bb", "text": "_load_parsed"}
+{"offset": "0x727c8", "text": "content_hash"}
+{"offset": "0x727d5", "text": "throw"}
+{"offset": "0x727db", "text": "vis_rows"}
+{"offset": "0x727e4", "text": "scripts.osm_daily_sync.main"}
+{"offset": "0x72800", "text": "build_all_batch"}
+{"offset": "0x72810", "text": "ledger_get"}
+{"offset": "0x7281b", "text": "sync_date"}
+{"offset": "0x72825", "text": "scripts.osm_daily_sync.seed"}
+{"offset": "0x72841", "text": "ensure_ledger"}
+{"offset": "0x7284f", "text": "ensure_history"}
+{"offset": "0x7285e", "text": "history_add"}
+{"offset": "0x7286a", "text": "ledger_touch"}
+{"offset": "0x72877", "text": "has_cnx_gnb"}
+{"offset": "0x72883", "text": "_link_records"}
+{"offset": "0x72891", "text": "write_ey_daily"}
+{"offset": "0x728a0", "text": "archive_raw"}
+{"offset": "0x728ac", "text": "ledger_upsert"}
+{"offset": "0x728ba", "text": "replace"}
+{"offset": "0x728c2", "text": "_cython_3_0_12.generator"}
+{"offset": "0x728db", "text": "__name__"}
+{"offset": "0x728e4", "text": "name of the generator"}
+{"offset": "0x728fa", "text": "__qualname__"}
+{"offset": "0x72907", "text": "gi_frame"}
+{"offset": "0x72910", "text": "Frame of the generator"}
+{"offset": "0x72927", "text": "gi_running"}
+{"offset": "0x72932", "text": "gi_yieldfrom"}
+{"offset": "0x7293f", "text": "gi_code"}
+{"offset": "0x72947", "text": "__module__"}
+{"offset": "0x72952", "text": "send"}
+{"offset": "0x72957", "text": "close"}
+{"offset": "0x7295d", "text": "__reduce__"}
+{"offset": "0x72968", "text": "func_doc"}
+{"offset": "0x72971", "text": "__doc__"}
+{"offset": "0x72979", "text": "func_name"}
+{"offset": "0x72983", "text": "func_dict"}
+{"offset": "0x7298d", "text": "__dict__"}
+{"offset": "0x72996", "text": "func_globals"}
+{"offset": "0x729a3", "text": "__globals__"}
+{"offset": "0x729af", "text": "func_closure"}
+{"offset": "0x729bc", "text": "__closure__"}
+{"offset": "0x729c8", "text": "func_code"}
+{"offset": "0x729d2", "text": "__code__"}
+{"offset": "0x729db", "text": "func_defaults"}
+{"offset": "0x729e9", "text": "__defaults__"}
+{"offset": "0x729f6", "text": "__kwdefaults__"}
+{"offset": "0x72a05", "text": "__annotations__"}
+{"offset": "0x72a15", "text": "_is_coroutine"}
+{"offset": "0x72a23", "text": "CythonUnboundCMethod"}
+{"offset": "0x72a38", "text": "kst_today"}
+{"offset": "0x72a42", "text": "cnx_retailers"}
+{"offset": "0x72b00", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x72be0", "text": "content_hash.<locals>.genexpr.<locals>.genexpr"}
+{"offset": "0x72c20", "text": "SELECT COUNT(*) AS n FROM l1_visibility WHERE batch_id=%s"}
+{"offset": "0x72c60", "text": " (run_at, osm_date, outcome, content_hash, prev_hash, srch_rows, menu_rows, prev_srch_rows, prev_menu_rows, vis_rows, cnx_sig, note) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"}
+{"offset": "0x72d20", "text": "%(asctime)s %(levelname)s %(message)s"}
+{"offset": "0x72d60", "text": " SET checked_at=%s WHERE osm_date=%s"}
+{"offset": "0x72da0", "text": "창 = 오늘-N … 어제 (기본 env OSM_SYNC_LOOKBACK_DAYS 또는 3 — 0917 7→3. OSM 지연 D-2 라 일자당 D-2·D-3 이틀×3런 재확인; 그 뒤 정정은 --from/--to·--month 로)"}
+{"offset": "0x72e60", "text": "write_ey_daily.<locals>.genexpr"}
+{"offset": "0x72e80", "text": "ensure_history.<locals>.genexpr"}
+{"offset": "0x72ea0", "text": "sync_count=VALUES(sync_count)"}
+{"offset": "0x72ec0", "text": "ledger_upsert.<locals>.genexpr"}
+{"offset": "0x72ee0", "text": "ensure_ledger.<locals>.genexpr"}
+{"offset": "0x72f00", "text": "cnx_signature.<locals>.genexpr"}
+{"offset": "0x72f20", "text": "_link_records.<locals>.genexpr"}
+{"offset": "0x72f40", "text": "content_hash.<locals>.genexpr"}
+{"offset": "0x72f60", "text": "scripts/export_dash_raw.py"}
+{"offset": "0x72f80", "text": "scripts/osm_daily_sync.py"}
+{"offset": "0x72fa0", "text": "개 → data/osm_sync_history/raw/"}
+{"offset": "0x72fd0", "text": "057_osm_sync_history.sql"}
+{"offset": "0x72ff0", "text": "sync_count=sync_count+1"}
+{"offset": "0x73010", "text": ") ON DUPLICATE KEY UPDATE "}
+{"offset": "0x73030", "text": "scripts.osm_daily_sync"}
+{"offset": "0x73050", "text": "OSM_SYNC_LOOKBACK_DAYS"}
+{"offset": "0x73070", "text": "bq_visibility_ingest"}
+{"offset": "0x73090", "text": "055_osm_sync_log.sql"}
+{"offset": "0x730b0", "text": "skip_menu_retailers"}
+{"offset": "0x730d0", "text": "main.<locals>.genexpr"}
+{"offset": "0x73100", "text": "마트(l1_visibility) 적재 생략 — 리포트만 재생성 (8월처럼 마트가 OSM 엑셀 슬라이스인 구간)"}
+{"offset": "0x73180", "text": "CNX_DAILY_RETAILERS"}
+{"offset": "0x731a0", "text": "cline_in_traceback"}
+{"offset": "0x731c0", "text": "asyncio.coroutines"}
+{"offset": "0x731e0", "text": "SHOW TABLES LIKE %s"}
+{"offset": "0x73200", "text": "gnb_cnx_retailers"}
+{"offset": "0x73220", "text": "HISTORY_MIGRATION"}
+{"offset": "0x73240", "text": "osm_sync_history"}
+{"offset": "0x73260", "text": "[export] --no-export — "}
+{"offset": "0x73280", "text": "_drop_ey_excluded"}
+{"offset": "0x732a0", "text": " WHERE osm_date=%s"}
+{"offset": "0x732c0", "text": "read_ledger_csv"}
+{"offset": "0x732d0", "text": "build_all_batch"}
+{"offset": "0x732e0", "text": "write_ey_daily"}
+{"offset": "0x732f0", "text": "object_storage"}
+{"offset": "0x73300", "text": "make_report.py"}
+{"offset": "0x73310", "text": "get_connection"}
+{"offset": "0x73320", "text": "ensure_history"}
+{"offset": "0x73330", "text": "MediaExpert_PL"}
+{"offset": "0x73340", "text": "ArgumentParser"}
+{"offset": "0x73350", "text": "run_daily_sql"}
+{"offset": "0x73360", "text": "parsed.json"}
+{"offset": "0x73370", "text": "*/parsed.json"}
+{"offset": "0x73380", "text": "ledger_upsert"}
+{"offset": "0x73390", "text": "_is_osm_record"}
+{"offset": "0x733a0", "text": "ensure_ledger"}
+{"offset": "0x733b0", "text": "cnx_signature"}
+{"offset": "0x733c0", "text": "cnx_retailers"}
+{"offset": "0x733d0", "text": "_cnx_record_ok"}
+{"offset": "0x733e0", "text": "bq_osm_common"}
+{"offset": "0x733f0", "text": "%Y%m%dT%H%M%SZ"}
+{"offset": "0x73400", "text": "RtvEuroAgd_PL"}
+{"offset": "0x73410", "text": "MediaMarkt_NL"}
+{"offset": "0x73420", "text": "set[str] | None"}
+{"offset": "0x73430", "text": "report_*.xlsx"}
+{"offset": "0x73440", "text": "osm_sync_log"}
+{"offset": "0x73450", "text": "osm_batch_id"}
+{"offset": "0x73460", "text": "merge_report"}
+{"offset": "0x73470", "text": "menu_skipped"}
+{"offset": "0x73480", "text": "menu_dropped"}
+{"offset": "0x73490", "text": "_link_records"}
+{"offset": "0x734a0", "text": "_link_or_copy"}
+{"offset": "0x734b0", "text": "ledger_touch"}
+{"offset": "0x734c0", "text": "_is_coroutine"}
+{"offset": "0x734d0", "text": "_initializing"}
+{"offset": "0x734e0", "text": "content_hash"}
+{"offset": "0x734f0", "text": "all_batch_id"}
+{"offset": "0x73500", "text": "add_argument"}
+{"offset": "0x73510", "text": "CLINIC_ENTRY"}
+{"offset": "0x73520", "text": "CLINIC-DAILY-"}
+{"offset": "0x73540", "text": "seed (기존 {D}_osm 배치 승계)"}
+{"offset": "0x73568", "text": "save_ledger"}
+{"offset": "0x73578", "text": "parsed_json"}
+{"offset": "0x73588", "text": "osm-changed"}
+{"offset": "0x73598", "text": " [no-export]"}
+{"offset": "0x735a8", "text": "no_export"}
+{"offset": "0x735b8", "text": "_load_parsed"}
+{"offset": "0x735c8", "text": "history_add"}
+{"offset": "0x735d8", "text": "has_cnx_gnb"}
+{"offset": "0x735e8", "text": "cnx-changed"}
+{"offset": "0x735f8", "text": "basicConfig"}
+{"offset": "0x73608", "text": "archive_raw"}
+{"offset": "0x73618", "text": "SELECT * FROM "}
+{"offset": "0x73628", "text": "INSERT INTO "}
+{"offset": "0x73638", "text": "ExcelWriter"}
+{"offset": "0x73648", "text": "synthesize"}
+{"offset": "0x73658", "text": "sync_count"}
+{"offset": "0x73668", "text": "subprocess"}
+{"offset": "0x73678", "text": "store_true"}
+{"offset": "0x73688", "text": "startswith"}
+{"offset": "0x73698", "text": "splitlines"}
+{"offset": "0x736a8", "text": "sheet_name"}
+{"offset": "0x736b8", "text": "setdefault"}
+{"offset": "0x736c8", "text": "report_dir"}
+{"offset": "0x736d8", "text": "read_excel"}
+{"offset": "0x736e8", "text": "read_bytes"}
+{"offset": "0x736f8", "text": "parse_args"}
+{"offset": "0x73708", "text": "osm_srch_"}
+{"offset": "0x73718", "text": "osm_menu_"}
+{"offset": "0x73728", "text": "migrations"}
+{"offset": "0x73738", "text": "--lookback"}
+{"offset": "0x73748", "text": "ledger_get"}
+{"offset": "0x73758", "text": "executable"}
+{"offset": "0x73768", "text": "cnx_filter"}
+{"offset": "0x73778", "text": "checked_at"}
+{"offset": "0x73788", "text": "--batch-id"}
+{"offset": "0x73798", "text": "SystemExit"}
+{"offset": "0x737a8", "text": "DictReader"}
+{"offset": "0x737b8", "text": "utf-8-sig"}
+{"offset": "0x737c8", "text": "timedelta"}
+{"offset": "0x737d8", "text": "synced_at"}
+{"offset": "0x737e8", "text": "sync_date"}
+{"offset": "0x737f8", "text": "summary"}
+{"offset": "0x73800", "text": "[summary] 실패 "}
+{"offset": "0x73818", "text": "srch_rows"}
+{"offset": "0x73828", "text": "read_text"}
+{"offset": "0x73838", "text": "parse_dir"}
+{"offset": "0x73848", "text": "--page-type"}
+{"offset": "0x73858", "text": "osm_batch"}
+{"offset": "0x73868", "text": "--no-export"}
+{"offset": "0x73878", "text": "menu_rows"}
+{"offset": "0x73888", "text": "list[dict]"}
+{"offset": "0x73898", "text": "list[date]"}
+{"offset": "0x738a8", "text": "kst_today"}
+{"offset": "0x738b8", "text": "isenabled"}
+{"offset": "0x738c8", "text": "hexdigest"}
+{"offset": "0x738d8", "text": "getLogger"}
+{"offset": "0x738e8", "text": "exception"}
+{"offset": "0x738f8", "text": " [dry-run]"}
+{"offset": "0x73908", "text": "--dry-run"}
+{"offset": "0x73918", "text": "dict | None"}
+{"offset": "0x73928", "text": "date_from"}
+{"offset": "0x73938", "text": "date | None"}
+{"offset": "0x73948", "text": "collector"}
+{"offset": "0x73958", "text": "bq_client"}
+{"offset": "0x73968", "text": "batch_dir"}
+{"offset": "0x73978", "text": "all_batch"}
+{"offset": "0x73988", "text": "Path | None"}
+{"offset": "0x73998", "text": "MIGRATION"}
+{"offset": "0x739a8", "text": "[window] "}
+{"offset": "0x739c0", "text": "[window] 대상 일자 없음"}
+{"offset": "0x739e0", "text": "vis_rows"}
+{"offset": "0x739f0", "text": "to_excel"}
+{"offset": "0x73a00", "text": "timezone"}
+{"offset": "0x73a10", "text": "strptime"}
+{"offset": "0x73a20", "text": "strftime"}
+{"offset": "0x73a30", "text": "str | None"}
+{"offset": "0x73a40", "text": "src_root"}
+{"offset": "0x73a50", "text": "parse.py"}
+{"offset": "0x73a60", "text": "osm_sync"}
+{"offset": "0x73a70", "text": "osm_srch"}
+{"offset": "0x73a80", "text": "osm_menu"}
+{"offset": "0x73a90", "text": "osm_date"}
+{"offset": "0x73aa0", "text": "openpyxl"}
+{"offset": "0x73ab0", "text": "lookback"}
+{"offset": "0x73ac0", "text": "int | None"}
+{"offset": "0x73ad0", "text": "fetchone"}
+{"offset": "0x73ae0", "text": "exist_ok"}
+{"offset": "0x73af0", "text": "endswith"}
+{"offset": "0x73b00", "text": "encoding"}
+{"offset": "0x73b10", "text": "dst_root"}
+{"offset": "0x73b20", "text": "_dev.xlsx"}
+{"offset": "0x73b30", "text": "datetime"}
+{"offset": "0x73b40", "text": " 직전 bq_raw "}
+{"offset": "0x73b50", "text": "batch_id"}
+{"offset": "0x73b60", "text": "argparse"}
+{"offset": "0x73b70", "text": "YYYYMMDD"}
+{"offset": "0x73b80", "text": ") VALUES ("}
+{"offset": "0x73b90", "text": "StringIO"}
+{"offset": "0x73ba0", "text": "SQL_SRCH"}
+{"offset": "0x73bb0", "text": "SQL_MENU"}
+{"offset": "0x73bc0", "text": "DATA_DIR"}
+{"offset": "0x73bd0", "text": " 원장 CSV 없음 — skip"}
+{"offset": "0x73bf0", "text": "BASE_DIR"}
+{"offset": "0x73c00", "text": "warning"}
+{"offset": "0x73c08", "text": "[summary] "}
+{"offset": "0x73c18", "text": "set[str]"}
+{"offset": "0x73c28", "text": "scripts"}
+{"offset": "0x73c30", "text": "resolve"}
+{"offset": "0x73c38", "text": "replace"}
+{"offset": "0x73c40", "text": "pathlib"}
+{"offset": "0x73c48", "text": "partial"}
+{"offset": "0x73c50", "text": "parents"}
+{"offset": "0x73c58", "text": "outcome"}
+{"offset": "0x73c60", "text": "--month"}
+{"offset": "0x73c70", "text": " 생성 (mig 057)"}
+{"offset": "0x73c90", "text": " 생성 (mig 055)"}
+{"offset": "0x73ca8", "text": "metavar"}
+{"offset": "0x73cb0", "text": "logging"}
+{"offset": "0x73cb8", "text": "iterdir"}
+{"offset": "0x73cc0", "text": "is_file"}
+{"offset": "0x73cc8", "text": "[history] "}
+{"offset": "0x73cd8", "text": "hashlib"}
+{"offset": "0x73ce0", "text": "genexpr"}
+{"offset": "0x73d00", "text": "--from 과 --to 는 함께 지정"}
+{"offset": "0x73d28", "text": " [force]"}
+{"offset": "0x73d31", "text": "force"}
+{"offset": "0x73d38", "text": "execute"}
+{"offset": "0x73d40", "text": "environ"}
+{"offset": "0x73d48", "text": "dry_run"}
+{"offset": "0x73d50", "text": "disable"}
+{"offset": "0x73d58", "text": "default"}
+{"offset": "0x73d60", "text": "date_to"}
+{"offset": "0x73d68", "text": "core.db"}
+{"offset": "0x73d70", "text": "cnx_sig"}
+{"offset": "0x73d78", "text": "[archive] "}
+{"offset": "0x73d88", "text": "OSError"}
+{"offset": "0x73d90", "text": "HISTORY"}
+{"offset": "0x73d98", "text": "window"}
+{"offset": "0x73d9f", "text": "values"}
+{"offset": "0x73da6", "text": "upload"}
+{"offset": "0x73dad", "text": "update"}
+{"offset": "0x73db4", "text": "tzinfo"}
+{"offset": "0x73dbb", "text": "suffix"}
+{"offset": "0x73dc2", "text": "status"}
+{"offset": "0x73dd0", "text": " (srch "}
+{"offset": "0x73dd8", "text": " srch "}
+{"offset": "0x73ddf", "text": "source"}
+{"offset": "0x73de6", "text": "skip"}
+{"offset": "0x73deb", "text": "shutil"}
+{"offset": "0x73df2", "text": "sheets"}
+{"offset": "0x73df9", "text": "sha256"}
+{"offset": "0x73e00", "text": " [seed]"}
+{"offset": "0x73e08", "text": "seed"}
+{"offset": "0x73e0d", "text": "--seed"}
+{"offset": "0x73e14", "text": ":same"}
+{"offset": "0x73e1a", "text": "run_at"}
+{"offset": "0x73e21", "text": "rt_dir"}
+{"offset": "0x73e28", "text": "rmtree"}
+{"offset": "0x73e2f", "text": "return"}
+{"offset": "0x73e36", "text": "pandas"}
+{"offset": "0x73e3d", "text": "osm_bq"}
+{"offset": "0x73e44", "text": "name"}
+{"offset": "0x73e49", "text": "n_arch"}
+{"offset": "0x73e50", "text": "merged"}
+{"offset": "0x73e58", "text": " / menu "}
+{"offset": "0x73e61", "text": "main"}
+{"offset": "0x73e66", "text": "lstrip"}
+{"offset": "0x73e6d", "text": "loaded"}
+{"offset": "0x73e78", "text": "[ledger] "}
+{"offset": "0x73e82", "text": "is_dir"}
+{"offset": "0x73e89", "text": "insert"}
+{"offset": "0x73e90", "text": "__import__"}
+{"offset": "0x73e9b", "text": "format"}
+{"offset": "0x73ea2", "text": "failed"}
+{"offset": "0x73ea9", "text": "export"}
+{"offset": "0x73eb0", "text": "exit"}
+{"offset": "0x73eb5", "text": "exists"}
+{"offset": "0x73ebc", "text": "engine"}
+{"offset": "0x73ec3", "text": "encode"}
+{"offset": "0x73eca", "text": "enable"}
+{"offset": "0x73ed1", "text": "decode"}
+{"offset": "0x73ed8", "text": "cursor"}
+{"offset": "0x73edf", "text": "config"}
+{"offset": "0x73ee6", "text": "commit"}
+{"offset": "0x73eed", "text": "client"}
+{"offset": "0x73ef4", "text": "bq_raw"}
+{"offset": "0x73efb", "text": "action"}
+{"offset": "0x73f02", "text": "YYYYMM"}
+{"offset": "0x73f10", "text": "=VALUES("}
+{"offset": "0x73f20", "text": "UPDATE "}
+{"offset": "0x73f28", "text": "LEDGER"}
+{"offset": "0x73f30", "text": ":FAILED"}
+{"offset": "0x73f38", "text": "Datart"}
+{"offset": "0x73f40", "text": "기존 {D}_osm 배치로 원장 채우기 (조회·적재 없음)"}
+{"offset": "0x73f88", "text": "→vis "}
+{"offset": "0x73f90", "text": "utf-8"}
+{"offset": "0x73f96", "text": "today"}
+{"offset": "0x73f9c", "text": "throw"}
+{"offset": "0x73fa2", "text": "synth"}
+{"offset": "0x73fa8", "text": "strip"}
+{"offset": "0x73fae", "text": "stats"}
+{"offset": "0x73fb4", "text": "stamp"}
+{"offset": "0x73fba", "text": "_run"}
+{"offset": "0x73fc3", "text": "retry"}
+{"offset": "0x73fc9", "text": "range"}
+{"offset": "0x73fcf", "text": "parts"}
+{"offset": "0x73fd5", "text": "_osm"}
+{"offset": "0x73fde", "text": "n_osm"}
+{"offset": "0x73fe4", "text": "n_cnx"}
+{"offset": "0x73fea", "text": "month"}
+{"offset": "0x73ff0", "text": "mkdir"}
+{"offset": "0x73ff8", "text": "[merge] "}
+{"offset": "0x74001", "text": "loads"}
+{"offset": "0x74007", "text": "lines"}
+{"offset": "0x7400d", "text": "level"}
+{"offset": "0x74013", "text": "index"}
+{"offset": "0x74019", "text": "hours"}
+{"offset": "0x74020", "text": "--grain"}
+{"offset": "0x74028", "text": "--force"}
+{"offset": "0x74030", "text": "files"}
+{"offset": "0x74036", "text": "error"}
+{"offset": "0x74040", "text": "__enter__"}
+{"offset": "0x7404a", "text": "empty"}
+{"offset": "0x74050", "text": "dtype"}
+{"offset": "0x74056", "text": "dates"}
+{"offset": "0x7405c", "text": "daily"}
+{"offset": "0x74062", "text": ".csv"}
+{"offset": "0x74067", "text": "*.csv"}
+{"offset": "0x7406d", "text": "copy2"}
+{"offset": "0x74078", "text": " / cnx '"}
+{"offset": "0x74085", "text": "close"}
+{"offset": "0x7408b", "text": "check"}
+{"offset": "0x74091", "text": "_canon"}
+{"offset": "0x74098", "text": "--all"}
+{"offset": "0x7409e", "text": "%Y%m%d"}
+{"offset": "0x740a5", "text": ".xlsx"}
+{"offset": "0x740ab", "text": "vals"}
+{"offset": "0x740b0", "text": "type"}
+{"offset": "0x740b8", "text": "__test__"}
+{"offset": "0x740c8", "text": "[sync] "}
+{"offset": "0x740d0", "text": "stmt"}
+{"offset": "0x740d5", "text": "stem"}
+{"offset": "0x740da", "text": "srch"}
+{"offset": "0x740e0", "text": "__spec__"}
+{"offset": "0x74100", "text": " 이미 원장에 있음 — skip"}
+{"offset": "0x74122", "text": "send"}
+{"offset": "0x74128", "text": "[seed] "}
+{"offset": "0x74130", "text": "same"}
+{"offset": "0x74135", "text": "rows"}
+{"offset": "0x7413a", "text": "root"}
+{"offset": "0x7413f", "text": "prev"}
+{"offset": "0x74144", "text": "path"}
+{"offset": "0x74149", "text": "only"}
+{"offset": "0x7414e", "text": "note"}
+{"offset": "0x74158", "text": "__name__"}
+{"offset": "0x74161", "text": "mode"}
+{"offset": "0x74166", "text": "menu"}
+{"offset": "0x74170", "text": "__main__"}
+{"offset": "0x74179", "text": "link"}
+{"offset": "0x7417e", "text": "keys"}
+{"offset": "0x74183", "text": "json"}
+{"offset": "0x74188", "text": "info"}
+{"offset": "0x7418d", "text": "home"}
+{"offset": "0x74192", "text": "help"}
+{"offset": "0x74197", "text": " hash "}
+{"offset": "0x7419e", "text": "glob"}
+{"offset": "0x741a3", "text": "--from"}
+{"offset": "0x741b0", "text": "__file__"}
+{"offset": "0x741c0", "text": "__exit__"}
+{"offset": "0x741c9", "text": "dict"}
+{"offset": "0x741ce", "text": "dest"}
+{"offset": "0x741d3", "text": "days"}
+{"offset": "0x741d8", "text": "date"}
+{"offset": "0x741dd", "text": "core"}
+{"offset": "0x741e2", "text": "conn"}
+{"offset": "0x741e7", "text": "cols"}
+{"offset": "0x741ec", "text": "bool"}
+{"offset": "0x741f1", "text": "argv"}
+{"offset": "0x741f6", "text": "args"}
+{"offset": "0x741fd", "text": "Path"}
+{"offset": "0x74202", "text": "None"}
+{"offset": "0x74207", "text": "INFO"}
+{"offset": "0x7420c", "text": "Alza"}
+{"offset": "0x74239", "text": "[run] "}
+{"offset": "0x74250", "text": ": osm "}
+{"offset": "0x7425f", "text": "%m-%d"}
+{"offset": "0x74279", "text": "(dry)"}
+{"offset": "0x74290", "text": " + cnx "}
+{"offset": "0x7429c", "text": "_all"}
+{"offset": "0x742c0", "text": "일 등록"}
+{"offset": "0x742e0", "text": "해시 무관 재적재"}
+{"offset": "0x74300", "text": " 마트 적재 생략"}
+{"offset": "0x74320", "text": " 리포트 없음"}
+{"offset": "0x74338", "text": " 리테일러)"}
+{"offset": "0x74348", "text": " 레코드 ("}
+{"offset": "0x74360", "text": " 기록 실패 — "}
+{"offset": "0x74393", "text": "--to"}
+{"offset": "0x743b3", "text": "[ey] "}
+{"offset": "0x743f0", "text": " 0행 — 대기"}

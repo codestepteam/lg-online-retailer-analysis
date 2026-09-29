@@ -1,0 +1,2832 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0133-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/beko/lavavajillas",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+    "capturedAt": "2026-09-28T08:08:40.306772+09:00",
+    "collectionOk": true,
+    "title": "Ofertas en Lavavajillas Beko al mejor precio | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0133-mediamarkt-es/brand-category/raw.html",
+      "sha256": "d944e322eff234f879730ce11f1980f0bcf0c66f9298a8e17ad5e7720c88a71e"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0133-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "8bfa004627c6fcf84ee48d82c890c666d9546eac9deccc8b557a518e810c9401"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0133-mediamarkt-es/brand-category/response.json",
+      "sha256": "f2d7495c0ecf8d01ee3413d7f9df0250e42492f434a2542694511fe8c3b0df60"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "BEKO Lavavajillas en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Beko BDIN38650C, 16 servicios, 8 programas, 60 cm, CornerIntense, DeepWash, Motor ProSmart, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Beko BDFS26020WQ, 10 servicios, 6 programas, 45cm, AquaIntense, Motor ProSmart, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Beko DVS05024W, 10 servicios, 5 programas, 45 cm, Media carga, Clean&Shine™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Beko DIS35023, 10 servicios, 5 programas, 45 cm, Media carga, ProSmart, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Beko BDIN38644D, 16 Servicios, 8 Programas, 60 cm, Tercera bandeja, CornerIntense, DeepWash, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26540XP, 59,8 cm",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26540WP, 59,8 cm",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BEKO BDIN38542P, 59,8 cm",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Beko BDIS38040A, 11 servicios, 8 programas, 45 cm, Auto Dose, AquaIntense, Motor ProSmart, Sin Panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430W, 14 servicios, 6,0 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable - Beko DIS48120, 11 servicios, 8 programas, 45 cm, Tercera bandeja, AquaIntense, Motor ProSmart, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Beko BDFN36650XC, 16 Servicios, 11 Programas, Ancho 59.8 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Beko BDIS38040A | 7641103935, Motor ProSmart, AutoDose, Aqua Intense, 8 Programas, 45 cm",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26430X, 14 Servicios, 6 Programas, 60 cm Ancho, SelFit, SteamGloss, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas - Beko BDFS26020XQ, 10 Servicios, 6 Programas, 45 cm, AquaIntense, Motor ProSmart, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko DVS05024W, Independiente, 10 servicios, 5 programas, WaterSafe™, 44.8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas integrable - Beko BDIN38644D, 16 Servicios, 8 Programas, 60 cm, Tercera bandeja, CornerIntense",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas - Beko BDFN26640WC, 16 servicios, 6 programas, 59.8 cm, Tercera bandeja, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26640WC, 16 servicios, 6 programas, 59.8 cm, Tercera bandeja, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26550XC, 15 servicios, 6 programas, 598 mm, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26440WC, 14 servicios, 6 programas, 600 mm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 45 cm - BEKO DVS05024X, 10,0 servicios, 5 programas, 45 cm, Not available",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO DVN05320X, 13,0 servicios, 4,0 programas, 59,8 cm, Not available",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BEKO DIN36430, 14 servicios, 6 programas, 598 mm, No aplicable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 45 cm - BEKO BDFS26046XQ, 10,0 servicios, 6 programas, 448 mm, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BEKO 7617503977, 13 servicios, 4 programas, 60 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26640XC, 16 servicios, 6,0 programas, 59,8 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN36560XC, 15 servicios, 11 programas, 60 cm, Gris",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430WC, 14 servicios, 6,0 programas, 64 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN36650XC, 16,0 servicios, 11,0 programas, 59,8 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26440XC, 14 servicios, 6 programas, 598 mm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO DVN05320W, 13 servicios, 5 programas, 60 cm, Not available",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26640WC, 16 servicios, 6,0 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26640WC, 16 servicios, 6,0 programas, 59,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430X, 14 servicios, 6 programas, 60 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas integrable 60 cm - BEKO 213204085, 13 servicios, 5 programas, 600 mm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavavajillas libre instalación 60 cm - BEKO 8690842609725, 15 servicios, 6 programas, 60,0 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "1. ¿Qué lavavajillas Beko elegir: 45 cm o 60 cm?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "2. ¿En qué debo fijarme antes de comprar un lavavajillas Beko?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "3. ¿Qué funciones pueden marcar la diferencia en un lavavajillas Beko?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "4. ¿Qué es CornerIntense en un lavavajillas Beko?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "5. ¿Qué lavavajillas Beko me conviene si quiero ahorrar tiempo y ganar comodidad?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 83,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408906?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_104157098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_80760065?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408688?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408355?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98120670?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427551?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427520?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427575?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98120670?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 67,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 68,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 54,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408906?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_104157098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_80760065?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408688?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408355?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98120670?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427551?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Ofertas en Lavavajillas Beko al mejor precio | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Lavavajillas Beko todos los modelos de lavavajillas integrables al mejor precio solo en MediaMarkt."
+        ],
+        "h1": [
+          "BEKO Lavavajillas en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408906?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_104157098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_80760065?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408688?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183408355?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98120670?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427551?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427520?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_184427575?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_98120670?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "549,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "359,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "389,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "373,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "499,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "239,85€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "483,87€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "478,51€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "484,64€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "276,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "529,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "350,94€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "425,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "398,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "313,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "373,23€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "459,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "294,93€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "539,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "254,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "431,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "388,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "292,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "296,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "389,16€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "453,54€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "347,12€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "485,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "570,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "437,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "451,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "398,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "284,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "432,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "367,08€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "486,59€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,64€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Top ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "BEKO",
+            "href": "https://www.mediamarkt.es/es/brand/beko",
+            "signals": [
+              "페이지 주제어와 일치: beko"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - BEKO BDFN26540XP, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - BEKO BDFN26540WP, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - BEKO BDIN38542P, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - BEKO 7617503977, 13 servicios, 4 programas, 60 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - BEKO 213204085, 13 servicios, 5 programas, 600 mm, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "lavavajillas de libre instalación",
+            "href": "https://www.mediamarkt.es/es/category/lavavajillas-libre-instalaci%C3%B3n-661.html?filter=brand%3ABEKO",
+            "signals": [
+              "페이지 주제어와 일치: lavavajillas"
+            ]
+          },
+          {
+            "text": "1. ¿Qué lavavajillas Beko elegir: 45 cm o 60 cm?",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "2. ¿En qué debo fijarme antes de comprar un lavavajillas Beko?",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "3. ¿Qué funciones pueden marcar la diferencia en un lavavajillas Beko?",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "4. ¿Qué es CornerIntense en un lavavajillas Beko?",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "5. ¿Qué lavavajillas Beko me conviene si quiero ahorrar tiempo y ganar comodidad?",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: beko, lavavajillas"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          },
+          {
+            "text": "Ofertas y campañas",
+            "href": "https://www.mediamarkt.es/es/brand/beko/lavavajillas?page=4",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas Flash",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas del día",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Lavavajillas integrable - Beko BDIN38650C, 16 servicios, 8 programas, 60 cm, CornerIntense, DeepWash, Motor ProSmart, Sin panelar 19 Basado en 19 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas integrable Dimensiones hueco 59.8 cm / 82 cm / 55.5 cm Altura de cesta ajustable Sí -12% 629,– € 629,00€ 549,– € 549,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Lavavajillas - Beko BDFS26020WQ, 10 servicios, 6 programas, 45cm, AquaIntense, Motor ProSmart, Blanco 11 Basado en 11 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Lavavajillas Altura de cesta ajustable Sí Programas 6 -20% 449,– € 449,00€ 359,– € 359,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Lavavajillas - Beko DVS05024W, 10 servicios, 5 programas, 45 cm, Media carga, Clean&Shine™, Blanco 23 Basado en 23 valoraciones Formato de construcción - Tipo de dispositivo Lavavajillas Programas Eco 50°C, Intensivo 70 °C, Clean & Shine™, Quick & Shine®, Mini Media carga Sí 389,– € 389,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavavajillas integrable - Beko DIS35023, 10 servicios, 5 programas, 45 cm, Media carga, ProSmart, Sin panelar 16 Basado en 16 valoraciones Formato de construcción Integrable Tipo de dispositivo Lavavajillas integrable Altura de cesta ajustable No Programas Intensivo 70 °C, Eco 50 °C, Clean & Shine™, Quick & Shine®, Mini -15% 439,– € 439,00€ 373,– € 373,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Lavavajillas integrable - Beko BDIN38644D, 16 Servicios, 8 Programas, 60 cm, Tercera bandeja, CornerIntense, DeepWash, Sin panelar 188 Basado en 188 valoraciones Formato de construcción Totalmente Integrable Tipo de dispositivo Lavavajillas integrable Altura de cesta ajustable Sí Programas Automático, AquaFlex®, Intensivo 70 °C, Eco 50 °C, Delicado 40 °C, Quick & Shine®, Mini, Prelavado -16% 599,– € 599,00€ 499,– € 499,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Reacondicionado Ficha técnica REACONDICIONADO Seminuevo Funcional Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox 3 Basado en 3 valoraciones Formato de construcción Libre instalación Tipo de dispositivo Reacondicionado Lavavajillas Altura de cesta ajustable Sí Programas Auto. Delicate 40°C. Eco 50 °C. Intensive 70°C. Mini. Quick&Shine -35% 369,– € 369,00€ 239,85 € 239,85€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Lavavajillas libre instalación 60 cm - BEKO BDFN26540XP, 59,8 cm 0 Basado en 0 valoraciones Tipo de dispositivo Lavavajillas libre instalación 60 cm Programas SensorAdapt, Intensivo 70°, Eco 50°, Delicado 40°, FastClean, Mini Contenido de la caja Lavavajillas + manual de instrucciones Medidas (An x Al x F) 59.8 cm x 85 cm x 60 cm -10% 538,99 € 538,99€ 483,87 € 483,87€ IVA incl. Con envío gratis Vendido y enviado por eTendencias – Entrega produc",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Un lavavajillas blanco Beko con la puerta abierta y el panel de control visible.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdin38650c-or-7635102477-motor-prosmartdeepwash-60-cm-inox-1600904.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Beko BDIN38650C, 16 servicios, 8 programas, 60 cm, CornerIntense, DeepWash, Motor ProSmart, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdin38650c-or-7635102477-motor-prosmartdeepwash-60-cm-inox-1600904.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco. Panel de control arriba, puerta abajo. Diseño simple.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-bdfs26020wq-independiente-6-programas-448-cm-fasttm-blanco-1551079.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Beko BDFS26020WQ, 10 servicios, 6 programas, 45cm, AquaIntense, Motor ProSmart, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-bdfs26020wq-independiente-6-programas-448-cm-fasttm-blanco-1551079.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco. Panel de control con botones. Diseño sencillo.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dvs05024w-independiente-10-servicios-5-programas-watersafe%E2%84%A2-44-8-cm-blanco-1497095.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Beko DVS05024W, 10 servicios, 5 programas, 45 cm, Media carga, Clean&Shine™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dvs05024w-independiente-10-servicios-5-programas-watersafe%E2%84%A2-44-8-cm-blanco-1497095.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco con la puerta abierta, mostrando la bandeja superior y el panel.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dis35023-119-l-10-servicios-5-programas-45-cm-integrable-blanco-1503343.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Beko DIS35023, 10 servicios, 5 programas, 45 cm, Media carga, ProSmart, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dis35023-119-l-10-servicios-5-programas-45-cm-integrable-blanco-1503343.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas blanco Beko BPRO 500 con panel de control superior y puerta abierta.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdin38644d-16-servicios-8-programas-598-cm-77-kwh-95-l-inox-1575985.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Beko BDIN38644D, 16 Servicios, 8 Programas, 60 cm, Tercera bandeja, CornerIntense, DeepWash, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdin38644d-16-servicios-8-programas-598-cm-77-kwh-95-l-inox-1575985.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado con pantalla digital y panel de control. Marca Beko.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1551107.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1551107.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko plateado independiente con panel de control digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn26540xp-598-cm-184427493.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26540XP, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn26540xp-598-cm-184427493.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco Beko aislado sobre un fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn26540wp-598-cm-184427490.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26540WP, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn26540wp-598-cm-184427490.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas blanco Beko con la puerta abierta, interior iluminado y panel de control digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-bdin38542p-598-cm-184427489.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BEKO BDIN38542P, 59,8 cm",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-bdin38542p-598-cm-184427489.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado con pantalla digital y panel de control. Marca Beko.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1573095.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1573095.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco abierto que muestra sus rejillas interiores.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdis38040a-or-7641103935-motor-prosmart-auto-dose-aqua-intense-8-programas-45-cm-blanco-1603615.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Beko BDIS38040A, 11 servicios, 8 programas, 45 cm, Auto Dose, AquaIntense, Motor ProSmart, Sin Panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-beko-bdis38040a-or-7641103935-motor-prosmart-auto-dose-aqua-intense-8-programas-45-cm-blanco-1603615.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco. Vista frontal, puerta cerrada. Controles en la parte superior. Fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bdfn26430w-beko-independiente-6-programas-blanco-134286877.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430W, 14 servicios, 6,0 programas, 59,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bdfn26430w-beko-independiente-6-programas-blanco-134286877.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco con la puerta abierta, mostrando las rejillas.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dis48120-integrable-8-programas-45-cm-46-db-a-inox-1533052.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable - Beko DIS48120, 11 servicios, 8 programas, 45 cm, Tercera bandeja, AquaIntense, Motor ProSmart, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-dis48120-integrable-8-programas-45-cm-46-db-a-inox-1533052.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko de acero inoxidable. Tiene una pantalla y varios botones de control en el frente.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-beko-bdfn36650xc-16-servicios-11-programas-ancho-598-cm-inox-1612729.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Beko BDFN36650XC, 16 Servicios, 11 Programas, Ancho 59.8 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-beko-bdfn36650xc-16-servicios-11-programas-ancho-598-cm-inox-1612729.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con puerta abierta. Panel de control visible en la parte superior. La pantalla muestra el tiempo restante.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-integrable-beko-bdis38040a-or-7641103935-motor-prosmart-autodose-aqua-intense-8-programas-45-cm-1624255.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas integrable - Beko BDIS38040A | 7641103935, Motor ProSmart, AutoDose, Aqua Intense, 8 Programas, 45 cm",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-integrable-beko-bdis38040a-or-7641103935-motor-prosmart-autodose-aqua-intense-8-programas-45-cm-1624255.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado con pantalla digital y panel de control. Marca Beko.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1560984.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Beko BDFN26640XC, 9.5 l, 16 servicios, 6 programas, 59.8 cm, Libre instalación, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-lavavajillas-beko-bdfn26640xc-95-l-16-servicios-6-programas-598-cm-libre-instalacion-inox-1560984.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko plateado con panel de control, sobre un fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26430x-14-servicios-6-programas-60-cm-ancho-selfit-steamgloss-inox-1593954.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26430X, 14 Servicios, 6 Programas, 60 cm Ancho, SelFit, SteamGloss, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26430x-14-servicios-6-programas-60-cm-ancho-selfit-steamgloss-inox-1593954.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko plateado con pantalla digital y panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-bdfs26020xq-10-servicios-6-programas-448-cm-87-l-libre-instalacion-inox-1573830.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas - Beko BDFS26020XQ, 10 Servicios, 6 Programas, 45 cm, AquaIntense, Motor ProSmart, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-beko-bdfs26020xq-10-servicios-6-programas-448-cm-87-l-libre-instalacion-inox-1573830.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco. Panel de control con botones. Diseño sencillo.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-lavavajillas-beko-dvs05024w-independiente-10-servicios-5-programas-watersafe%E2%84%A2-44-8-cm-1505982.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko DVS05024W, Independiente, 10 servicios, 5 programas, WaterSafe™, 44.8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-lavavajillas-beko-dvs05024w-independiente-10-servicios-5-programas-watersafe%E2%84%A2-44-8-cm-1505982.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con la puerta abierta. Panel de control en la parte superior con varios símbolos.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-integrable-beko-bdin38644d-16-servicios-8-programas-60-cm-tercera-bandeja-cornerintense-1668372.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas integrable - Beko BDIN38644D, 16 Servicios, 8 Programas, 60 cm, Tercera bandeja, CornerIntense",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-integrable-beko-bdin38644d-16-servicios-8-programas-60-cm-tercera-bandeja-cornerintense-1668372.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con una pantalla digital que muestra 1:10, sobre un fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-beko-bdfn26640wc-16-servicios-6-programas-598-cm-tercera-bandeja-blanco-1585824.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas - Beko BDFN26640WC, 16 servicios, 6 programas, 59.8 cm, Tercera bandeja, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-beko-bdfn26640wc-16-servicios-6-programas-598-cm-tercera-bandeja-blanco-1585824.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con una pantalla digital que muestra 1:10, sobre un fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26640wc-16-servicios-6-programas-598-cm-tercera-bandeja-blanco-1584844.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavavajillas - Beko BDFN26640WC, 16 servicios, 6 programas, 59.8 cm, Tercera bandeja, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavavajillas-beko-bdfn26640wc-16-servicios-6-programas-598-cm-tercera-bandeja-blanco-1584844.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko plateado. El frontal tiene un panel de control y un acabado de metal cepillado.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-bdfn26550xc-598-mm-acero-inoxidable-150580571.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26550XC, 15 servicios, 6 programas, 598 mm, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-bdfn26550xc-598-mm-acero-inoxidable-150580571.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Puerta blanca de lavavajillas Beko con panel de control negro y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-lavavajillas-beko-bdfn26440wc-60cm-16-servicios-6-programas-598-cm-blanco-138921286.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26440WC, 14 servicios, 6 programas, 600 mm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-lavavajillas-beko-bdfn26440wc-60cm-16-servicios-6-programas-598-cm-blanco-138921286.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado, puerta cerrada, fondo negro. Diseño simple.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvs05024x-beko-94273962.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 45 cm - BEKO DVS05024X, 10,0 servicios, 5 programas, 45 cm, Not available",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvs05024x-beko-94273962.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko plateado con panel de control y símbolos.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvn05320x-7698963-93325744.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO DVN05320X, 13,0 servicios, 4,0 programas, 59,8 cm, Not available",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvn05320x-7698963-93325744.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con puerta abierta. Estantes interiores visibles. Controles en el panel superior.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bekdin36430-beko-integrable-6-programas-blanco-99920759.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BEKO DIN36430, 14 servicios, 6 programas, 598 mm, No aplicable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bekdin36430-beko-integrable-6-programas-blanco-99920759.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas de acero inoxidable con panel de control frontal, sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-45-cm-beko-bdfs26046xq-10-servicios-6-programas-448-mm-acero-inoxidable-154248739.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 45 cm - BEKO BDFS26046XQ, 10,0 servicios, 6 programas, 448 mm, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-45-cm-beko-bdfs26046xq-10-servicios-6-programas-448-mm-acero-inoxidable-154248739.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco con la puerta abierta, mostrando rejillas y controles.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-7617503977-598-mm-inox-142594110.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BEKO 7617503977, 13 servicios, 4 programas, 60 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-7617503977-598-mm-inox-142594110.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado con panel de control y botones. Fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bdfn26640xc-beko-independiente-6-programas-inox-99131044.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26640XC, 16 servicios, 6,0 programas, 59,8 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-bdfn26640xc-beko-independiente-6-programas-inox-99131044.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko plateado con panel de control negro. La puerta está cerrada.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn36560xc-15-servicios-11-programas-598-mm-gris-148954169.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN36560XC, 15 servicios, 11 programas, 60 cm, Gris",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bdfn36560xc-15-servicios-11-programas-598-mm-gris-148954169.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con pantalla digital y panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bdfn26430wc-beko-independiente-6-programas-blanco-100194582.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430WC, 14 servicios, 6,0 programas, 64 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-bdfn26430wc-beko-independiente-6-programas-blanco-100194582.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas plateado con pantalla digital y botones de control, sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bekbdfn36650xc-160-servicios-110-programas-598-cm-inox-137208927.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN36650XC, 16,0 servicios, 11,0 programas, 59,8 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-bekbdfn36650xc-160-servicios-110-programas-598-cm-inox-137208927.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko plateado. Panel de control con pantalla y botones. Diseño limpio.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-lavavajillas-beko-bdfn26440xc-60cm-14-servicios-6-programas-598-cm-inox-138830140.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26440XC, 14 servicios, 6 programas, 598 mm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-lavavajillas-beko-bdfn26440xc-60cm-14-servicios-6-programas-598-cm-inox-138830140.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco con panel de control y pantalla.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvn05320w-beko-94274054.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO DVN05320W, 13 servicios, 5 programas, 60 cm, Not available",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacin-dvn05320w-beko-94274054.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko blanco con pantalla digital y botones de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-beko-bekbdfn26640wc-16-servicios-60-programas-598-cm-blanco-137207411.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26640WC, 16 servicios, 6,0 programas, 59,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-beko-bekbdfn26640wc-16-servicios-60-programas-598-cm-blanco-137207411.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un lavavajillas Beko plateado con panel de control digital y dígitos rojos.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-bdfn26430x-6-programas-15240-cm-inox-140520642.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO BDFN26430X, 14 servicios, 6 programas, 60 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-beko-bdfn26430x-6-programas-15240-cm-inox-140520642.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas integrable 60 cm - BEKO 213204085, 13 servicios, 5 programas, 600 mm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-beko-213204085-13-servicios-5-programas-598-cm-blanco-134286813.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas Beko blanco con panel de control negro que muestra la hora 1:10 e iconos de programas.",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-8690842609725-15-servicios-6-programas-600-cm-blanco-168636020.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavavajillas libre instalación 60 cm - BEKO 8690842609725, 15 servicios, 6 programas, 60,0 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-beko-8690842609725-15-servicios-6-programas-600-cm-blanco-168636020.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un smartphone azul oscuro muestra su parte delantera y trasera. La parte trasera tiene tres cámaras, flash y el logo de Apple. La pantalla tiene líneas brillantes.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+            "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una consola negra Nintendo Switch 2 con mandos Joy-Con sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+            "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Tableta blanca con marco negro, con un fondo de pantalla abstracto y colorido en la pantalla.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Dos AirPods Pro blancos sobre fondo gris. Cada uno tiene una malla negra arriba y abajo. Las puntas son negras.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un iPhone plateado que muestra su parte trasera con tres cámaras y logotipo de Apple, junto a su pantalla con patrón.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 Marvel: Lobezno",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Wolverine, personaje de Marvel Comics, con garras sobre fondo amarillo.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+            "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de un portátil ASUS Vivobook gris plateado con fondo de pantalla azul.",
+            "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola y mando PlayStation 5. Consola y mando blancos sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "1. ¿Qué lavavajillas Beko elegir: 45 cm o 60 cm?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "2. ¿En qué debo fijarme antes de comprar un lavavajillas Beko?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "3. ¿Qué funciones pueden marcar la diferencia en un lavavajillas Beko?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "4. ¿Qué es CornerIntense en un lavavajillas Beko?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "5. ¿Qué lavavajillas Beko me conviene si quiero ahorrar tiempo y ganar comodidad?",
+            "attributes": {
+              "id": "acc-header-4",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "1. ¿Qué lavavajillas Beko elegir: 45 cm o 60 cm? Esa elección depende sobre todo del espacio y del volumen de vajilla que generas en casa. Un lavavajillas Beko de 45 cm suele encajar mejor en cocinas pequeñas o en hogares con menos carga diaria. Un lavavajillas Beko de 60 cm, en cambio, ofrece más capacidad y suele resultar más cómodo si cocinas con frecuencia o sois varias personas. 2. ¿En qué debo fijarme antes de comprar un lavavajillas Beko? Antes de comprar un lavavajillas Beko, merece la pena revisar estos puntos: ancho: 45 cm o 60 cm capacidad interior tipo de instalación programas sistema de secado distribución de bandejas y cestos También ayuda mucho pensar en tu uso real: si lavas bandejas grandes, si te interesa acortar los ciclos o si valoras especialmente un secado más eficaz. 3. ¿Qué funciones pueden marcar la diferencia en un lavavajillas Beko? Hay varias tecnologías que cambian bastante la experiencia de uso. Según el modelo, puedes encontrar CornerIntense, pensada para mejorar el alcance del lavado; Fast+, útil para acortar la duración del ciclo; SelfDry, orientada al secado; HygieneIntense, interesante si buscas una limpieza más higiénica; AutoDose, que ayuda a dosificar automáticamente el detergente, entre otras. 4. ¿Qué es CornerIntense en un lavavajillas Beko? CornerIntense es una tecnología de Beko con un sistema de lavado de tres brazos de pulverización diseñado para llegar a toda la cuba, incluidas las esquinas. A diferencia de los recorridos circulares más convencionales, trabaja con una cobertura más amplia para favorecer una limpieza más uniforme. 5. ¿Qué lavavajillas Beko me conviene si quiero ahorrar tiempo y ganar comodidad? Si para ti es importante que la vajilla esté lista cuanto antes, conviene fijarse en modelos con programas rápidos, buen secado y una organización interior práctica. Funciones como Fast+ ayudan a reducir el tiempo del ciclo, mientras que SelfDry o AutoDose aportan comodidad en el uso diario. Son detalles que se notan mucho cuando el lavavajillas se pone con frecuencia.",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

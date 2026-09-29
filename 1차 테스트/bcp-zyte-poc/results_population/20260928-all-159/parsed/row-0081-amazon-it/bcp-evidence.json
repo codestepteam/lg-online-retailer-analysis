@@ -1,0 +1,1333 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0081-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/FCF5BF33-8DFF-4334-9EC0-6C5E2A73C35F",
+    "finalUrl": "https://www.amazon.it/stores/page/FCF5BF33-8DFF-4334-9EC0-6C5E2A73C35F",
+    "capturedAt": "2026-09-28T08:04:19.149461+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Samsung: Asciugatrici"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0081-amazon-it/brand-category/raw.html",
+      "sha256": "9c5467a0d7657c56c97035bb036092216cf58e53a8d429d149852dbc5bb84457"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0081-amazon-it/brand-category/capture-state.json",
+      "sha256": "531e9ccbe82da122b7d02c593c67e0765d760122aad6eaa22845ba659af0aa31"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0081-amazon-it/brand-category/response.json",
+      "sha256": "880c6ae2b9c5ff05e1b6f622de52fd6f2aad4d8a6aa3d7eb39ad730a51df8ba4"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Samsung Asciugatrice Crystal EcoDry DV90DG52A0TE, 9 kg, Wifi, Pompa di Calore, Optimal Dry Sensor, Display Led, Filtro 2 in 1,...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 51,
+        "top10ByRenderedArea": [
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/53591a41-7394-4c7b-b749-6be76e64cca0._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing AI technology for monitoring humidity and temperature, optimizing energy consumption in appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/afaff8fc-cb32-42da-9953-de5f07a1cabd._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Front-loading washing machine with large circular door. White exterior, digital display. Close-up of 'AI Dry' feature highlighted on control panel.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/51f610ef-898f-4337-b374-36c4343c67c1._CR0%2C0%2C750%2C750_SX750_SY750_.jpg",
+            "alt": "Samsung heat pump dryer with black circular door, displaying A+++ energy efficiency rating. Diagram shows air circulation and heating process.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/06fc022c-4b08-47eb-a50d-0cf1329fd2cf._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/84cd77e3-4fde-4b5a-8337-789c06c1d190._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings app interface. Text describes features like cycle selection, scheduling, problem monitoring, and energy-saving AI mode for appliance control.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3509f8f5-20cc-4249-8743-83798bc6cc72._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Smartphone screen displaying energy usage statistics and graphs, with smart home device interface shown in background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0140a02d-8ec8-463c-8608-7d397c3511e4._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads \"Asciugatrici\". Gray background with black sans-serif typography displaying product category name for clothes dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61OTNvmRaAL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/53591a41-7394-4c7b-b749-6be76e64cca0._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing AI technology for monitoring humidity and temperature, optimizing energy consumption in appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/afaff8fc-cb32-42da-9953-de5f07a1cabd._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Front-loading washing machine with large circular door. White exterior, digital display. Close-up of 'AI Dry' feature highlighted on control panel.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/51f610ef-898f-4337-b374-36c4343c67c1._CR0%2C0%2C750%2C750_SX750_SY750_.jpg",
+            "alt": "Samsung heat pump dryer with black circular door, displaying A+++ energy efficiency rating. Diagram shows air circulation and heating process.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/06fc022c-4b08-47eb-a50d-0cf1329fd2cf._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/84cd77e3-4fde-4b5a-8337-789c06c1d190._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings app interface. Text describes features like cycle selection, scheduling, problem monitoring, and energy-saving AI mode for appliance control.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3509f8f5-20cc-4249-8743-83798bc6cc72._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Smartphone screen displaying energy usage statistics and graphs, with smart home device interface shown in background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0140a02d-8ec8-463c-8608-7d397c3511e4._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads \"Asciugatrici\". Gray background with black sans-serif typography displaying product category name for clothes dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61OTNvmRaAL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Samsung: Asciugatrici"
+        ],
+        "metaDescription": [
+          "Asciugatrici"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Samsung/page/FCF5BF33-8DFF-4334-9EC0-6C5E2A73C35F"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/53591a41-7394-4c7b-b749-6be76e64cca0._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing AI technology for monitoring humidity and temperature, optimizing energy consumption in appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/afaff8fc-cb32-42da-9953-de5f07a1cabd._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Front-loading washing machine with large circular door. White exterior, digital display. Close-up of 'AI Dry' feature highlighted on control panel.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/51f610ef-898f-4337-b374-36c4343c67c1._CR0%2C0%2C750%2C750_SX750_SY750_.jpg",
+            "alt": "Samsung heat pump dryer with black circular door, displaying A+++ energy efficiency rating. Diagram shows air circulation and heating process.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/06fc022c-4b08-47eb-a50d-0cf1329fd2cf._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 38,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/84cd77e3-4fde-4b5a-8337-789c06c1d190._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "SmartThings app interface. Text describes features like cycle selection, scheduling, problem monitoring, and energy-saving AI mode for appliance control.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 39,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3509f8f5-20cc-4249-8743-83798bc6cc72._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Smartphone screen displaying energy usage statistics and graphs, with smart home device interface shown in background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0140a02d-8ec8-463c-8608-7d397c3511e4._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads \"Asciugatrici\". Gray background with black sans-serif typography displaying product category name for clothes dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/51rFdkq-wOL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 397,
+            "renderedHeight": 360,
+            "renderedArea": 142920,
+            "naturalWidth": 397,
+            "naturalHeight": 360,
+            "naturalArea": 142920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61OTNvmRaAL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Samsung",
+            "href": "https://www.amazon.it/stores/page/37219BDE-81D7-45BE-8C88-E2143A37718D?ingress=0&visitId=2f8594e4-dbc5-4305-8f8b-7a550e06f262",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Asciugatrici",
+            "href": "https://www.amazon.it/stores/page/FCF5BF33-8DFF-4334-9EC0-6C5E2A73C35F#",
+            "signals": [
+              "페이지 주제어와 일치: asciugatrici"
+            ]
+          },
+          {
+            "text": "SAMSUNG HEALTH",
+            "href": "https://www.amazon.it/stores/page/85BF3E57-4174-4206-9EF2-16DD3A6FAEC0?ingress=0&visitId=2f8594e4-dbc5-4305-8f8b-7a550e06f262",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice Crystal EcoDry...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Crystal EcoDry... 4,4 4,4 su 5 stelle 128 4,4 su 5 stelle. 128 recensioni dei clienti 599 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice... 4,1 4,1 su 5 stelle 58 4,1 su 5 stelle. 58 recensioni dei clienti 1.195 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice Bespoke AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,6 4,6 su 5 stelle 32 4,6 su 5 stelle. 32 recensioni dei clienti 699 , 99 € Ricevilo entro 30 settembre - 1 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice AI Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice AI Control... 4,4 4,4 su 5 stelle 43 4,4 su 5 stelle. 43 recensioni dei clienti 648 , 94 € Ricevilo entro il giorno lunedì 5 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice AI Control... 4,7 4,7 su 5 stelle 106 4,7 su 5 stelle. 106 recensioni dei clienti - 18% 653 , 48 € Prezzo consigliato: Barrato - Prezzo consigliato: 799 , 00 € Ricevilo entro 1 ottobre - 5 ottobre 200 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice DV16DG8600BVU3,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice DV16DG8600BVU3,... 4,1 4,1 su 5 stelle 58 4,1 su 5 stelle. 58 recensioni dei clienti 1.009 , 99 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Crystal EcoDry... 591 , 84 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 842 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 841 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 899 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice Ai Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Ai Control... 793 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice AI Control... 793 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice Bespoke AI Laundry...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI Laundry... 1.269 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Asciugatrice Ai Control,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Ai Control,... 4,6 4,6 su 5 stelle 384 4,6 su 5 stelle. 384 recensioni dei clienti Non disponibile.",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,6 4,6 su 5 stelle 65 4,6 su 5 stelle. 65 recensioni dei clienti 684 , 00 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,8 4,8 su 5 stelle 62 4,8 su 5 stelle. 62 recensioni dei clienti 932 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-t74hveict9 > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Asciugatrice Crystal EcoDry... 4,4 4,4 su 5 stelle 128 4,4 su 5 stelle. 128 recensioni dei clienti 599 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice... 4,1 4,1 su 5 stelle 58 4,1 su 5 stelle. 58 recensioni dei clienti 1.195 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,6 4,6 su 5 stelle 32 4,6 su 5 stelle. 32 recensioni dei clienti 699 , 99 € Ricevilo entro 30 settembre - 1 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice AI Control... 4,4 4,4 su 5 stelle 43 4,4 su 5 stelle. 43 recensioni dei clienti 648 , 94 € Ricevilo entro il giorno lunedì 5 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice AI Control... 4,7 4,7 su 5 stelle 106 4,7 su 5 stelle. 106 recensioni dei clienti - 18% 653 , 48 € Prezzo consigliato: Barrato - Prezzo consigliato: 799 , 00 € Ricevilo entro 1 ottobre - 5 ottobre 200 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice DV16DG8600BVU3,... 4,1 4,1 su 5 stelle 58 4,1 su 5 stelle. 58 recensioni dei clienti 1.009 , 99 € Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Crystal EcoDry... 591 , 84 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 842 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 841 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 899 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Ai Control... 793 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice AI Control... 793 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Bespoke AI Laundry... 1.269 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello Visualizzazione rapida Samsung Asciugatrice Ai Control,... 4,6 4,6 su 5 stelle 384 4,6 su 5 stelle. 384 recensioni dei clienti Non disponibile. Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,6 4,6 su 5 stelle 65 4,6 su 5 stelle. 65 recensioni dei clienti 684 , 00 € Vedi le opzioni Visualizzazione rapida Samsung Asciugatrice Bespoke AI... 4,8 4,8 su 5 stelle 62 4,8 su 5 stelle. 62 recensioni dei clienti 932 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Samsung Asciugatrice Crystal EcoDry DV90DG52A0TE, 9 kg, Wifi, Pompa di Calore, Optimal Dry Sensor, Display Led, Filtro 2 in 1,...",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-Crystal-DV90DG52A0TE-Frontale/dp/B0DT9SM62M?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.4 4,4 su 5 stelle 128",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-Crystal-DV90DG52A0TE-Frontale/dp/B0DT9SM62M?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-Crystal-DV90DG52A0TE-Frontale/dp/B0DT9SM62M?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Crystal EcoDry DV90DG52A0TE, 9 kg, Wifi, Pompa di Calore, Optimal Dry Sensor, Display Led, Filtro 2 in 1, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-Crystal-DV90DG52A0TE-Frontale/dp/B0DT9SM62M?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice DV16DG8600BW/U3, 16 kg, Pompa di Calore, Wifi, AI Dry, Programma Igienizzante, Carica Frontale, 68,6L x 98,4H x 84,4P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV16DG8600BW-Programma-Igienizzante/dp/B0DWT7GRMY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI DV90DB7845GW/U3, 9 kg, Pompa di Calore, Wifi, Sensore Optimal Dry, Quick Drive, Display AI Control, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-Bespoke-DV90DB7845GW-Frontale/dp/B0DWT85YM6?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice AI Control DV90DG6845LE/U3, 9 kg, Pompa di Calore, Wifi, AI Dry+, Air Wash, Tecnologia Optimal Dry, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV90DG6845LE-Tecnologia-Frontale/dp/B0DWT89QC2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice AI Control DV90DG6845LB/U3, 9 kg, Pompa di Calore, Wifi, QuickDrive, AI Dry, Sensore Optimal Dry, Display AI Control, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV90DG6845LB-QuickDrive-Frontale/dp/B0DWT9DTBW?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice DV16DG8600BVU3, 16 kg, Pompa di Calore, Wifi, AI Dry, Programma Igienizzante, Carica Frontale, 68,6L x 98,4H x 84,4P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV16DG8600BVU3-Programma-Igienizzante/dp/B0DWT8NGSL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Crystal EcoDry DV80DG52B0AHET, 8 kg, Pompa di Calore, Wifi, Optimal Dry Sensor, Air Refresh, Porta Reversibile, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV80DG52B0AHET-Reversibile-Frontale/dp/B0GTRV1WV8?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI F-DT90DB78GB3M, 9 kg, Pompa di Calore, Wifi, QuickDrive, AI Dry, Hygine Dry, Carica Frontale, 3 Mesi Garanzia Extra, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90DB78GB3M-QuickDrive-Frontale/dp/B0GKGMY49T?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI F-DT90DB78GE3M, 9 kg, Pompa di Calore, Wifi, QuickDrive, AI Dry, Sensore Optimal Dry, Display AI Control, 3 Mesi Garanzia Extra, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90DB78GE3M-QuickDrive-Garanzia/dp/B0GKHH9C5L?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI F-DT90DB88GB3M, 9 kg, Silent Dry, Pompa di Calore, QuickDrive, Sensore Optimal Dry, Display AI Control, Carica Frontale, 3 Mesi Garanzia Extra, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90DB88GB3M-QuickDrive-Frontale/dp/B0GKGD5B4C?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Ai Control F-DT90DG68LB3M, 9 kg, Pompa di Calore, Wifi, QuickDrive, AI Dry, Sensore Optimal Dry, Display AI Control, 3 Mesi Garanzia Extra, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90DG68LB3M-QuickDrive-Garanzia/dp/B0GKGHJHJC?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice AI Control F-DT90DG68LK3M, 9 kg, Pompa di Calore, Wifi, AI Dry, Air Wash, Tecnologia Optimal Dry, Carica Frontale, 3 Mesi Garanzia Extra, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90DG68LK3M-Tecnologia-Frontale/dp/B0GKGQ4FPJ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI Laundry F-DT90F09F4S3M, 9 kg, Pompa di Calore, Wifi, Controllo Vocale, Display AI Home, AI Dry, Carica Frontale, 3 Mesi Garanzia Extra, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-F-DT90F09F4S3M-Controllo-Frontale/dp/B0GKGT77BF?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Ai Control, DV80T5220TT/S3, 8 Kg, Pompa di Calore, Wifi, Sensore Optimal Dry, Filtro 2 in 1, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-DV80T5220TT-Reversibile-Prevenzione/dp/B08CBD23MC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI DV90DB7845GE/U3, 9 kg, Pompa di Calore, Wifi, QuickDrive, AI Dry, Sensore Optimal Dry, Display AI Control, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV90DB7845GE-QuickDrive-Frontale/dp/B0DWT9RGY2?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV90DB7845GE-QuickDrive-Frontale/dp/B0DWT9RGY2?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Asciugatrice Bespoke AI DV90DB8845GB/U3, 9 kg, Silent Dry, Pompa di Calore, Wifi, QuickDrive, AI Dry, Sensore Optimal Dry, Display AI Control, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Asciugatrice-DV90DB8845GB-QuickDrive-Frontale/dp/B0DWT7LB9X?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

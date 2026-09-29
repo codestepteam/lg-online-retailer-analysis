@@ -1,0 +1,216 @@
+{"offset": "0x16000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x16038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x16060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x16090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x160b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x160e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x16118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x16178", "text": "invalid input, expected coroutine"}
+{"offset": "0x161a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x161d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x16200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x16230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x16298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x162c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x16328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x16358", "text": "__name__ must be set to a string object"}
+{"offset": "0x16380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x164c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x16500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x16538", "text": "%.200s() keywords must be strings"}
+{"offset": "0x16560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x16590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x165c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x16600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x16628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x16658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x16698", "text": " while calling a Python object"}
+{"offset": "0x166b8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x166e8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x16710", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/home/mediamarkt.c"}
+{"offset": "0x16758", "text": "crawl_retailers/home/mediamarkt.py"}
+{"offset": "0x16780", "text": "crawl_retailers.home.mediamarkt.extract"}
+{"offset": "0x167a8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x167e8", "text": "strings are too large to concat"}
+{"offset": "0x16808", "text": "crawl_retailers.home.mediamarkt.page_targets"}
+{"offset": "0x16838", "text": "crawl_retailers.home.mediamarkt.sb_scenario"}
+{"offset": "0x16868", "text": "generator ignored GeneratorExit"}
+{"offset": "0x16888", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x168a8", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x168d0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x16900", "text": "instance exception may not have a separate value"}
+{"offset": "0x16938", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x16980", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x169c0", "text": "crawl_retailers.home.mediamarkt.home_fetch_url"}
+{"offset": "0x169f0", "text": "crawl_retailers.home.mediamarkt._expand_instructions"}
+{"offset": "0x16a28", "text": "coroutine is being awaited already"}
+{"offset": "0x16a50", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x16a88", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x16ac8", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x16b00", "text": "__await__() returned a coroutine"}
+{"offset": "0x16b28", "text": "generator raised StopIteration"}
+{"offset": "0x16b48", "text": "join() result is too long for a Python string"}
+{"offset": "0x16b78", "text": "Module 'mediamarkt' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x16bd0", "text": "crawl_retailers.home.mediamarkt"}
+{"offset": "0x16bf0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x16c40", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x16c68", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x16d18", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x16d58", "text": "init crawl_retailers.home.mediamarkt"}
+{"offset": "0x16d80", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x16db0", "text": "qualified name of the coroutine"}
+{"offset": "0x16dd0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x16e30", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x16ea0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x16ed8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x16f00", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x16f38", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x16f98", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x17008", "text": "crawl_retailers.home.mediamarkt.__pyx_scope_struct__extract"}
+{"offset": "0x17044", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x17062", "text": "%.200s() needs an argument"}
+{"offset": "0x1707d", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1709b", "text": "<cyfunction %U at %p>"}
+{"offset": "0x170b1", "text": "__loader__"}
+{"offset": "0x170bc", "text": "loader"}
+{"offset": "0x170c3", "text": "__file__"}
+{"offset": "0x170cc", "text": "origin"}
+{"offset": "0x170d3", "text": "__package__"}
+{"offset": "0x170df", "text": "parent"}
+{"offset": "0x170e6", "text": "__path__"}
+{"offset": "0x170ef", "text": "submodule_search_locations"}
+{"offset": "0x1710a", "text": "keywords must be strings"}
+{"offset": "0x17123", "text": "_cython_coroutine_type"}
+{"offset": "0x1713a", "text": "_cython_generator_type"}
+{"offset": "0x17151", "text": "_module"}
+{"offset": "0x17159", "text": "__builtins__"}
+{"offset": "0x17166", "text": "_cython_3_0_12"}
+{"offset": "0x17175", "text": "cannot import name %S"}
+{"offset": "0x1718b", "text": "%s (%s:%d)"}
+{"offset": "0x17196", "text": "extract"}
+{"offset": "0x1719e", "text": "exactly"}
+{"offset": "0x171a6", "text": "name '%U' is not defined"}
+{"offset": "0x171bf", "text": "page_targets"}
+{"offset": "0x171cc", "text": "sb_scenario"}
+{"offset": "0x171d8", "text": "coroutine already executing"}
+{"offset": "0x171f4", "text": "generator already executing"}
+{"offset": "0x17210", "text": "throw"}
+{"offset": "0x17216", "text": "home_fetch_url"}
+{"offset": "0x17225", "text": "builtins"}
+{"offset": "0x1722e", "text": "cython_runtime"}
+{"offset": "0x1723d", "text": "does not match"}
+{"offset": "0x1724c", "text": "collections.abc"}
+{"offset": "0x1725c", "text": "backports_abc"}
+{"offset": "0x1726a", "text": "__reduce__"}
+{"offset": "0x17275", "text": "__module__"}
+{"offset": "0x17280", "text": "func_doc"}
+{"offset": "0x17289", "text": "__doc__"}
+{"offset": "0x17291", "text": "func_name"}
+{"offset": "0x1729b", "text": "__name__"}
+{"offset": "0x172a4", "text": "__qualname__"}
+{"offset": "0x172b1", "text": "func_dict"}
+{"offset": "0x172bb", "text": "__dict__"}
+{"offset": "0x172c4", "text": "func_globals"}
+{"offset": "0x172d1", "text": "__globals__"}
+{"offset": "0x172dd", "text": "func_closure"}
+{"offset": "0x172ea", "text": "__closure__"}
+{"offset": "0x172f6", "text": "func_code"}
+{"offset": "0x17300", "text": "__code__"}
+{"offset": "0x17309", "text": "func_defaults"}
+{"offset": "0x17317", "text": "__defaults__"}
+{"offset": "0x17324", "text": "__kwdefaults__"}
+{"offset": "0x17333", "text": "__annotations__"}
+{"offset": "0x17343", "text": "_is_coroutine"}
+{"offset": "0x17351", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x1736a", "text": "name of the coroutine"}
+{"offset": "0x17380", "text": "cr_frame"}
+{"offset": "0x17389", "text": "Frame of the coroutine"}
+{"offset": "0x173a0", "text": "cr_running"}
+{"offset": "0x173ab", "text": "cr_await"}
+{"offset": "0x173b4", "text": "object being awaited, or None"}
+{"offset": "0x173d2", "text": "cr_code"}
+{"offset": "0x173da", "text": "send"}
+{"offset": "0x173df", "text": "close"}
+{"offset": "0x173e5", "text": "__reduce_ex__"}
+{"offset": "0x173f3", "text": "mediamarkt"}
+{"offset": "0x173fe", "text": "_expand_instructions"}
+{"offset": "0x17420", "text": "https://www.mediamarkt.nl/nl/category/wasmachines-1283.html"}
+{"offset": "0x17460", "text": "');if(el){el.scrollIntoView({block:'center'});var t=el.querySelector('button')||el.querySelector('a')||el;click(t); return true;}return false;}"}
+{"offset": "0x17500", "text": "crawl_retailers/home/mediamarkt.py"}
+{"offset": "0x17540", "text": "https://www.mediamarkt.nl/nl/category/koelkasten-1304.html"}
+{"offset": "0x17580", "text": "function(el){[\"mousedown\",\"mouseup\",\"click\"].forEach(function(t){el.dispatchEvent(new MouseEvent(t,{bubbles:true,cancelable:true,view:window}));});}"}
+{"offset": "0x17620", "text": "');if(el){el.scrollIntoView({block:'center'});var t=el.querySelector('button')||el.querySelector('a')||el;click(t);}"}
+{"offset": "0x176a0", "text": "[data-test=\"mms-search-srp-loadmore\"]"}
+{"offset": "0x176e0", "text": "crawl_retailers.home.mediamarkt"}
+{"offset": "0x17700", "text": ";var el=document.querySelector('"}
+{"offset": "0x17730", "text": "[data-test=\"mms-product-card\"]"}
+{"offset": "0x17750", "text": "https://www.mediamarkt.es"}
+{"offset": "0x17770", "text": "_expand_instructions"}
+{"offset": "0x17790", "text": "_NL_SEARCH_REDIRECTS"}
+{"offset": "0x177b0", "text": "cline_in_traceback"}
+{"offset": "0x177d0", "text": "asyncio.coroutines"}
+{"offset": "0x177f0", "text": "_CLICK_MORE_RET_JS"}
+{"offset": "0x17810", "text": "load_more_until"}
+{"offset": "0x17820", "text": "home_fetch_url"}
+{"offset": "0x17830", "text": "count_selector"}
+{"offset": "0x17840", "text": "_MOUSE_CLICK_JS"}
+{"offset": "0x17850", "text": "requested_url"}
+{"offset": "0x17860", "text": "mediamarkt.nl"}
+{"offset": "0x17870", "text": "_FIND_CLICK_JS"}
+{"offset": "0x17880", "text": "_CLICK_MORE_JS"}
+{"offset": "0x17890", "text": "urllib.parse"}
+{"offset": "0x178a0", "text": "unquote_plus"}
+{"offset": "0x178b0", "text": "page_targets"}
+{"offset": "0x178c0", "text": "_is_coroutine"}
+{"offset": "0x178d0", "text": "instructions"}
+{"offset": "0x178e0", "text": "_LOADMORE_SEL"}
+{"offset": "0x178f0", "text": "() => {var click="}
+{"offset": "0x17908", "text": "search.html"}
+{"offset": "0x17918", "text": "sb_scenario"}
+{"offset": "0x17928", "text": "wasmachine"}
+{"offset": "0x17938", "text": "mediamarkt"}
+{"offset": "0x17948", "text": "/category/"}
+{"offset": "0x17958", "text": "var click="}
+{"offset": "0x17968", "text": "page_type"}
+{"offset": "0x17978", "text": "list[dict]"}
+{"offset": "0x17988", "text": "isenabled"}
+{"offset": "0x17998", "text": "dict | None"}
+{"offset": "0x179a8", "text": "wait_for"}
+{"offset": "0x179b8", "text": "urlsplit"}
+{"offset": "0x179c8", "text": "scroll_y"}
+{"offset": "0x179d8", "text": "parse_qs"}
+{"offset": "0x179e8", "text": "koelkast"}
+{"offset": "0x179f8", "text": "evaluate"}
+{"offset": "0x17a08", "text": "click_js"}
+{"offset": "0x17a18", "text": "category"}
+{"offset": "0x17a28", "text": "targets"}
+{"offset": "0x17a30", "text": "extract"}
+{"offset": "0x17a38", "text": "disable"}
+{"offset": "0x17a40", "text": "country"}
+{"offset": "0x17a48", "text": "content"}
+{"offset": "0x17a50", "text": "changed"}
+{"offset": "0x17a58", "text": "target"}
+{"offset": "0x17a5f", "text": "return"}
+{"offset": "0x17a68", "text": "__import__"}
+{"offset": "0x17a73", "text": "enable"}
+{"offset": "0x17a80", "text": "_common"}
+{"offset": "0x17a88", "text": "throw"}
+{"offset": "0x17a8e", "text": "strip"}
+{"offset": "0x17a94", "text": "query"}
+{"offset": "0x17a9a", "text": "lower"}
+{"offset": "0x17aa0", "text": "label"}
+{"offset": "0x17aa6", "text": "close"}
+{"offset": "0x17ab0", "text": "__await__"}
+{"offset": "0x17aba", "text": "wait"}
+{"offset": "0x17ac0", "text": "__test__"}
+{"offset": "0x17ac9", "text": "sess"}
+{"offset": "0x17ace", "text": "send"}
+{"offset": "0x17ad3", "text": "page"}
+{"offset": "0x17ad8", "text": "__name__"}
+{"offset": "0x17ae8", "text": "__main__"}
+{"offset": "0x17af1", "text": "list"}
+{"offset": "0x17af6", "text": "_html"}
+{"offset": "0x17afc", "text": "home"}
+{"offset": "0x17b01", "text": "dict"}
+{"offset": "0x17b06", "text": "args"}
+{"offset": "0x17b0b", "text": "_BASE"}

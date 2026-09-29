@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0072-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/416016B1-E647-4558-9113-BB9200B1E99D",
+    "finalUrl": "https://www.amazon.it/stores/page/416016B1-E647-4558-9113-BB9200B1E99D",
+    "capturedAt": "2026-09-28T08:03:03.226190+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Hisense 2026: Asciugatrici"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0072-amazon-it/brand-category/raw.html",
+      "sha256": "8c0f196b2ca55f71163bdecd0ed68e3c8b2269cb18ab96fdc381281c9f4eb77d"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0072-amazon-it/brand-category/capture-state.json",
+      "sha256": "f04f34ea3d5e9fd0a89d544a47189626cb31b7673654a9b484bbf21e9dad9847"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0072-amazon-it/brand-category/response.json",
+      "sha256": "22918636cfbd6ee9e603c6705c98622947dbeca6d18f7e7a78914b69ccc5e709"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense DHQE800BW2 Asciugatrice A Pompa Di Calore, 8 Kg, Classe D, Oblò Nero, Big Display, 16 programmi, Refresh",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense DH7S107BW Asciugatrice Pompa di Calore con AI, Condensatore Autopulente, Refresh Vapore, Ion Tech, 10kg Classe C, Display TFT a colori,...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense DH3S902BWCCA Asciugatrice a Pompa Di Calore, 9 Kg, A+++/C, Big Display, 16 programmi, Refresh, WiFi, Porta Reversibile, Bianco/Silver",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense DHQE900UWDC Asciugatrice A Pompa Di Calore, 9 Kg, D, Bianco, Big Display, 15 programmi, Refresh",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 84,
+        "top10ByRenderedArea": [
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a90677a3-d0b6-4c78-a200-d2026ca602c4._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "White front-loading washing machine with digital display showing '30 min' cycle time. Text indicates 'Asciugatura Rapida 30'' (Quick Dry 30').",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/5a098352-38bf-4eb9-967c-3661481352f7._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Marketing image showing a light blue collared shirt in a circular frame with steam effects, promoting a clothing refresh feature with Italian text.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 59,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 81,
+            "src": "https://m.media-amazon.com/images/I/71cJ6LmiLyL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a90677a3-d0b6-4c78-a200-d2026ca602c4._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "White front-loading washing machine with digital display showing '30 min' cycle time. Text indicates 'Asciugatura Rapida 30'' (Quick Dry 30').",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/5a098352-38bf-4eb9-967c-3661481352f7._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Marketing image showing a light blue collared shirt in a circular frame with steam effects, promoting a clothing refresh feature with Italian text.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 59,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 81,
+            "src": "https://m.media-amazon.com/images/I/71cJ6LmiLyL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Hisense 2026: Asciugatrici"
+        ],
+        "metaDescription": [
+          "Asciugatrici Hisense"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Hisense2026/page/416016B1-E647-4558-9113-BB9200B1E99D"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-9qkp3obarq > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-9qkp3obarq > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a90677a3-d0b6-4c78-a200-d2026ca602c4._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "White front-loading washing machine with digital display showing '30 min' cycle time. Text indicates 'Asciugatura Rapida 30'' (Quick Dry 30').",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/5a098352-38bf-4eb9-967c-3661481352f7._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Marketing image showing a light blue collared shirt in a circular frame with steam effects, promoting a clothing refresh feature with Italian text.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 59,
+            "src": "https://m.media-amazon.com/images/I/81FF-awnCpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 437,
+            "renderedHeight": 360,
+            "renderedArea": 157320,
+            "naturalWidth": 437,
+            "naturalHeight": 360,
+            "naturalArea": 157320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://m.media-amazon.com/images/I/712JO9ukwJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 360,
+            "renderedArea": 149040,
+            "naturalWidth": 414,
+            "naturalHeight": 360,
+            "naturalArea": 149040,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 81,
+            "src": "https://m.media-amazon.com/images/I/71cJ6LmiLyL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 410,
+            "renderedHeight": 360,
+            "renderedArea": 147600,
+            "naturalWidth": 410,
+            "naturalHeight": 360,
+            "naturalArea": 147600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__backgroundVideoTile__rn3uO.EditorialTileVideo__autoPlay__NmsDx.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_3 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - This advertisement showcases a sleek washing machine with a distinctive black door and modern design. The product highlights advanced features and efficiency capabilities, displayed through a series of informational icons suggesting smart technology, energy savings, and various wash cycle options designed for modern home laundry needs. - This advertisement showcases a sleek washing machine with a distinctive black door and modern design. The product highlights advanced features and efficiency capabilities, displayed through a series of informational icons suggesting smart technology, energy savings, and various wash cycle options designed for modern home laundry needs."
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Hisense 2026",
+            "href": "https://www.amazon.it/stores/page/F773A328-0850-4C20-9A0A-3D85B51C6927?ingress=0&visitId=7d4ef5d5-ff23-4ad1-b274-d736adbc8de6",
+            "signals": [
+              "페이지 주제어와 일치: 2026, hisense"
+            ]
+          },
+          {
+            "text": "Asciugatrici",
+            "href": "https://www.amazon.it/stores/page/416016B1-E647-4558-9113-BB9200B1E99D#",
+            "signals": [
+              "페이지 주제어와 일치: asciugatrici"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense DH1I900UWDC Asciugatrice A...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense DH1I900UWDC Asciugatrice A... 429 , 00 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense DH1I700UWEE Asciugatrice...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense DH1I700UWEE Asciugatrice... 369 , 00 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-Wjns8cvz9l > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense DH1I900UWDC Asciugatrice A... 429 , 00 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello Visualizzazione rapida Hisense DH1I700UWEE Asciugatrice... 369 , 00 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Hisense DHQE800BW2 Asciugatrice A Pompa Di Calore, 8 Kg, Classe D, Oblò Nero, Big Display, 16 programmi, Refresh",
+            "href": "https://www.amazon.it/Hisense-DHQE800BW2-Asciugatrice-Display-programmi/dp/B0DCB9C26S?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.6 4,6 su 5 stelle 571",
+            "href": "https://www.amazon.it/Hisense-DHQE800BW2-Asciugatrice-Display-programmi/dp/B0DCB9C26S?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-DHQE800BW2-Asciugatrice-Display-programmi/dp/B0DCB9C26S?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense DH7S107BW Asciugatrice Pompa di Calore con AI, Condensatore Autopulente, Refresh Vapore, Ion Tech, 10kg Classe C, Display TFT a colori,...",
+            "href": "https://www.amazon.it/Hisense-DH7S107BW-Asciugatrice-Condensatore-Autopulente/dp/B08DLKXR22?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.6 4,6 su 5 stelle 571",
+            "href": "https://www.amazon.it/Hisense-DH7S107BW-Asciugatrice-Condensatore-Autopulente/dp/B08DLKXR22?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-DH7S107BW-Asciugatrice-Condensatore-Autopulente/dp/B08DLKXR22?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense DH3S902BWCCA Asciugatrice a Pompa Di Calore, 9 Kg, A+++/C, Big Display, 16 programmi, Refresh, WiFi, Porta Reversibile, Bianco/Silver",
+            "href": "https://www.amazon.it/Hisense-DH3S902BWCCA-Asciugatrice-programmi-Reversibile/dp/B08DMT3N6S?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.6 4,6 su 5 stelle 571",
+            "href": "https://www.amazon.it/Hisense-DH3S902BWCCA-Asciugatrice-programmi-Reversibile/dp/B08DMT3N6S?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-DH3S902BWCCA-Asciugatrice-programmi-Reversibile/dp/B08DMT3N6S?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense DHQE900UWDC Asciugatrice A Pompa Di Calore, 9 Kg, D, Bianco, Big Display, 15 programmi, Refresh",
+            "href": "https://www.amazon.it/Hisense-DHQE900UWDC-Asciugatrice-Display-programmi/dp/B0FHVR2HHB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.6 4,6 su 5 stelle 571",
+            "href": "https://www.amazon.it/Hisense-DHQE900UWDC-Asciugatrice-Display-programmi/dp/B0FHVR2HHB?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-DHQE900UWDC-Asciugatrice-Display-programmi/dp/B0FHVR2HHB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense DH1I900UWDC Asciugatrice A Pompa Di Calore, 9 Kg, Classe D, Display Touch, Filtro Aromatico, 15 Programmi",
+            "href": "https://www.amazon.it/Hisense-DH1I900UWDC-Asciugatrice-Aromatico-Programmi/dp/B0HDVP3FJL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense DH1I700UWEE Asciugatrice Pompa Di Calore, 7 Kg, Classe E, Display Touch, Filtro Aromatico, 15 Programmi",
+            "href": "https://www.amazon.it/Hisense-DH1I700UWEE-Asciugatrice-Aromatico-Programmi/dp/B0HDVXTD99?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

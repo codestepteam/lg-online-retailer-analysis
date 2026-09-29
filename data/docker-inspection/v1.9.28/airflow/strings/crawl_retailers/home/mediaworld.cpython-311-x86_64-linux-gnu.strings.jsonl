@@ -1,0 +1,206 @@
+{"offset": "0x14000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x14038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x14060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x14090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x140b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x140e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x14118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x14178", "text": "invalid input, expected coroutine"}
+{"offset": "0x141a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x141d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x14200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x14230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x14298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x142c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x14328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x14358", "text": "__name__ must be set to a string object"}
+{"offset": "0x14380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x144c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x14500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x14538", "text": "%.200s() keywords must be strings"}
+{"offset": "0x14560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x14590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x145c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x14600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x14628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x14658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x14698", "text": " while calling a Python object"}
+{"offset": "0x146b8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x146e8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x14710", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/home/mediaworld.c"}
+{"offset": "0x14758", "text": "crawl_retailers/home/mediaworld.py"}
+{"offset": "0x14780", "text": "crawl_retailers.home.mediaworld.extract"}
+{"offset": "0x147a8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x147e8", "text": "strings are too large to concat"}
+{"offset": "0x14808", "text": "crawl_retailers.home.mediaworld.page_targets"}
+{"offset": "0x14838", "text": "crawl_retailers.home.mediaworld.sb_scenario"}
+{"offset": "0x14868", "text": "generator ignored GeneratorExit"}
+{"offset": "0x14888", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x148a8", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x148d0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x14900", "text": "instance exception may not have a separate value"}
+{"offset": "0x14938", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x14980", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x149c0", "text": "crawl_retailers.home.mediaworld._expand_instructions"}
+{"offset": "0x149f8", "text": "coroutine is being awaited already"}
+{"offset": "0x14a20", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x14a58", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x14a98", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x14ad0", "text": "__await__() returned a coroutine"}
+{"offset": "0x14af8", "text": "generator raised StopIteration"}
+{"offset": "0x14b18", "text": "join() result is too long for a Python string"}
+{"offset": "0x14b48", "text": "Module 'mediaworld' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x14ba0", "text": "crawl_retailers.home.mediaworld"}
+{"offset": "0x14bc0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x14c10", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x14c38", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x14ce8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x14d28", "text": "init crawl_retailers.home.mediaworld"}
+{"offset": "0x14d50", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x14d80", "text": "qualified name of the coroutine"}
+{"offset": "0x14da0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x14e00", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x14e70", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x14ea8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x14ed0", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x14f08", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x14f68", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x14fd8", "text": "crawl_retailers.home.mediaworld.__pyx_scope_struct__extract"}
+{"offset": "0x15014", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x15032", "text": "%.200s() needs an argument"}
+{"offset": "0x1504d", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1506b", "text": "<cyfunction %U at %p>"}
+{"offset": "0x15081", "text": "__loader__"}
+{"offset": "0x1508c", "text": "loader"}
+{"offset": "0x15093", "text": "__file__"}
+{"offset": "0x1509c", "text": "origin"}
+{"offset": "0x150a3", "text": "__package__"}
+{"offset": "0x150af", "text": "parent"}
+{"offset": "0x150b6", "text": "__path__"}
+{"offset": "0x150bf", "text": "submodule_search_locations"}
+{"offset": "0x150da", "text": "keywords must be strings"}
+{"offset": "0x150f3", "text": "_cython_coroutine_type"}
+{"offset": "0x1510a", "text": "_cython_generator_type"}
+{"offset": "0x15121", "text": "_module"}
+{"offset": "0x15129", "text": "__builtins__"}
+{"offset": "0x15136", "text": "_cython_3_0_12"}
+{"offset": "0x15145", "text": "cannot import name %S"}
+{"offset": "0x1515b", "text": "%s (%s:%d)"}
+{"offset": "0x15166", "text": "extract"}
+{"offset": "0x1516e", "text": "exactly"}
+{"offset": "0x15176", "text": "name '%U' is not defined"}
+{"offset": "0x1518f", "text": "page_targets"}
+{"offset": "0x1519c", "text": "sb_scenario"}
+{"offset": "0x151a8", "text": "coroutine already executing"}
+{"offset": "0x151c4", "text": "generator already executing"}
+{"offset": "0x151e0", "text": "throw"}
+{"offset": "0x151e6", "text": "builtins"}
+{"offset": "0x151ef", "text": "cython_runtime"}
+{"offset": "0x151fe", "text": "does not match"}
+{"offset": "0x1520d", "text": "collections.abc"}
+{"offset": "0x1521d", "text": "backports_abc"}
+{"offset": "0x1522b", "text": "__reduce__"}
+{"offset": "0x15236", "text": "__module__"}
+{"offset": "0x15241", "text": "func_doc"}
+{"offset": "0x1524a", "text": "__doc__"}
+{"offset": "0x15252", "text": "func_name"}
+{"offset": "0x1525c", "text": "__name__"}
+{"offset": "0x15265", "text": "__qualname__"}
+{"offset": "0x15272", "text": "func_dict"}
+{"offset": "0x1527c", "text": "__dict__"}
+{"offset": "0x15285", "text": "func_globals"}
+{"offset": "0x15292", "text": "__globals__"}
+{"offset": "0x1529e", "text": "func_closure"}
+{"offset": "0x152ab", "text": "__closure__"}
+{"offset": "0x152b7", "text": "func_code"}
+{"offset": "0x152c1", "text": "__code__"}
+{"offset": "0x152ca", "text": "func_defaults"}
+{"offset": "0x152d8", "text": "__defaults__"}
+{"offset": "0x152e5", "text": "__kwdefaults__"}
+{"offset": "0x152f4", "text": "__annotations__"}
+{"offset": "0x15304", "text": "_is_coroutine"}
+{"offset": "0x15312", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x1532b", "text": "name of the coroutine"}
+{"offset": "0x15341", "text": "cr_frame"}
+{"offset": "0x1534a", "text": "Frame of the coroutine"}
+{"offset": "0x15361", "text": "cr_running"}
+{"offset": "0x1536c", "text": "cr_await"}
+{"offset": "0x15375", "text": "object being awaited, or None"}
+{"offset": "0x15393", "text": "cr_code"}
+{"offset": "0x1539b", "text": "send"}
+{"offset": "0x153a0", "text": "close"}
+{"offset": "0x153a6", "text": "__reduce_ex__"}
+{"offset": "0x153b4", "text": "mediaworld"}
+{"offset": "0x153bf", "text": "_expand_instructions"}
+{"offset": "0x153e0", "text": "');if(el){el.scrollIntoView({block:'center'});var t=el.querySelector('button')||el.querySelector('a')||el;click(t); return true;}return false;}"}
+{"offset": "0x15480", "text": "crawl_retailers/home/mediaworld.py"}
+{"offset": "0x154c0", "text": "function(el){[\"mousedown\",\"mouseup\",\"click\"].forEach(function(t){el.dispatchEvent(new MouseEvent(t,{bubbles:true,cancelable:true,view:window}));});}"}
+{"offset": "0x15560", "text": "');if(el){el.scrollIntoView({block:'center'});var t=el.querySelector('button')||el.querySelector('a')||el;click(t);}"}
+{"offset": "0x155e0", "text": "[data-test=\"mms-search-srp-loadmore\"]"}
+{"offset": "0x15620", "text": "crawl_retailers.home.mediaworld"}
+{"offset": "0x15640", "text": ";var el=document.querySelector('"}
+{"offset": "0x15670", "text": "[data-test=\"mms-product-card\"]"}
+{"offset": "0x15690", "text": "https://www.mediaworld.it"}
+{"offset": "0x156b0", "text": "_expand_instructions"}
+{"offset": "0x156d0", "text": "cline_in_traceback"}
+{"offset": "0x156f0", "text": "asyncio.coroutines"}
+{"offset": "0x15710", "text": "hover_and_collect"}
+{"offset": "0x15730", "text": "_CLICK_MORE_RET_JS"}
+{"offset": "0x15750", "text": "header nav ul > li"}
+{"offset": "0x15770", "text": "load_more_until"}
+{"offset": "0x15780", "text": "count_selector"}
+{"offset": "0x15790", "text": "_MOUSE_CLICK_JS"}
+{"offset": "0x157a0", "text": "requested_url"}
+{"offset": "0x157b0", "text": "_FIND_CLICK_JS"}
+{"offset": "0x157c0", "text": "_CLICK_MORE_JS"}
+{"offset": "0x157d0", "text": "page_targets"}
+{"offset": "0x157e0", "text": "_is_coroutine"}
+{"offset": "0x157f0", "text": "instructions"}
+{"offset": "0x15800", "text": "core.crawler"}
+{"offset": "0x15810", "text": "_LOADMORE_SEL"}
+{"offset": "0x15820", "text": "() => {var click="}
+{"offset": "0x15838", "text": "search.html"}
+{"offset": "0x15848", "text": "sb_scenario"}
+{"offset": "0x15858", "text": "mediaworld"}
+{"offset": "0x15868", "text": "MODE_LOCAL"}
+{"offset": "0x15878", "text": "var click="}
+{"offset": "0x15888", "text": "page_type"}
+{"offset": "0x15898", "text": "nav_links"}
+{"offset": "0x158a8", "text": "list[dict]"}
+{"offset": "0x158b8", "text": "isenabled"}
+{"offset": "0x158c8", "text": "dict | None"}
+{"offset": "0x158d8", "text": "wait_for"}
+{"offset": "0x158e8", "text": "scroll_y"}
+{"offset": "0x158f8", "text": "evaluate"}
+{"offset": "0x15908", "text": "click_js"}
+{"offset": "0x15918", "text": "category"}
+{"offset": "0x15928", "text": "targets"}
+{"offset": "0x15930", "text": "extract"}
+{"offset": "0x15938", "text": "disable"}
+{"offset": "0x15940", "text": "country"}
+{"offset": "0x15948", "text": "content"}
+{"offset": "0x15950", "text": "changed"}
+{"offset": "0x15958", "text": "target"}
+{"offset": "0x1595f", "text": "rstrip"}
+{"offset": "0x15966", "text": "return"}
+{"offset": "0x15970", "text": "__import__"}
+{"offset": "0x1597b", "text": "enable"}
+{"offset": "0x15988", "text": "_common"}
+{"offset": "0x15990", "text": "throw"}
+{"offset": "0x15996", "text": "label"}
+{"offset": "0x1599c", "text": "close"}
+{"offset": "0x159a8", "text": "__await__"}
+{"offset": "0x159b2", "text": "wait"}
+{"offset": "0x159b8", "text": "__test__"}
+{"offset": "0x159c1", "text": "sess"}
+{"offset": "0x159c6", "text": "send"}
+{"offset": "0x159cb", "text": "page"}
+{"offset": "0x159d0", "text": "__name__"}
+{"offset": "0x159d9", "text": "mode"}
+{"offset": "0x159e0", "text": "__main__"}
+{"offset": "0x159e9", "text": "list"}
+{"offset": "0x159ee", "text": "_html"}
+{"offset": "0x159f4", "text": "home"}
+{"offset": "0x159f9", "text": "dict"}
+{"offset": "0x159fe", "text": "args"}
+{"offset": "0x15a03", "text": "_BASE"}

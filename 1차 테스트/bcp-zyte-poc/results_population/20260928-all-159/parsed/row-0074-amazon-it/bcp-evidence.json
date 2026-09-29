@@ -1,0 +1,1966 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0074-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+    "finalUrl": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+    "capturedAt": "2026-09-28T06:42:14.306112+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: LG: FRIGORIFERI"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0074-amazon-it/brand-category/raw.html",
+      "sha256": "b7cc393f4d09a870dce2a89eb7d42cd11fcfd2fec0e5a29aa852c5f6290b59ea"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0074-amazon-it/brand-category/capture-state.json",
+      "sha256": "d29e529014b877e6a07a9956282e3d403a51595ee2ae9ea115ccfd70ce6efca6"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0074-amazon-it/brand-category/response.json",
+      "sha256": "f03c843e7b02f0405243b8820836526a2ec0c8fdaa2afaa494e7061becf9b609"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 79,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2b43a924-a19f-48cb-b1bc-8075a67d62ba._CR0%2C0%2C1920%2C384_SX1500_.jpg",
+            "alt": "LG branded website header image featuring a modern black refrigerator with digital display panel, overlaid with the text 'Frigoriferi' against a gradient gray background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/61tqhkIcRnL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV80PZLE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Door Cooling, Linear Cooling, Compressore Lineare Inverter - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 164.71875,
+            "renderedHeight": 302,
+            "renderedArea": 49745.0625,
+            "naturalWidth": 180,
+            "naturalHeight": 330,
+            "naturalArea": 59400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/51-eWCWBUaL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSGV81EPLL Frigorifero Americano Side By Side InstaView, 635L, Frigorifero Total No Frost, Wi-Fi, Door & Linear Cooling, Dispenser Acqua e Ghiaccio Senza Allaccio, Fresh Balancer, Nero Opaco",
+            "renderedWidth": 163.796875,
+            "renderedHeight": 302,
+            "renderedArea": 49466.65625,
+            "naturalWidth": 179,
+            "naturalHeight": 330,
+            "naturalArea": 59070,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/81SsyDBHgKL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE91MBAC Frigorifero Americano Side-by-Side, Classe C, Frigorifero No Frost, 628L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Converter, Dispenser Senza Allaccio, UVnano, Metal Sorbet",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/I/61ZqLgkvjRL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE81PYBC Frigorifero Side by Side Total No Frost, Classe C, 628L, Wi-Fi, Tecnologia Door e Linear Cooling, Frigorifero Americano con Dispenser Ghiaccio e Acqua Senza Allaccio, Prime silver",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://m.media-amazon.com/images/I/61rd+Qo39nL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXE91EVAD Frigorifero Americano InstaView, Classe D, 628 L, Wi-Fi, Dispenser Acqua UVnano Senza Allaccio, Tecnologia Door e Linear Cooling, Acciaio Nero",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 82,
+            "src": "https://m.media-amazon.com/images/I/71GuWksJmPL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLC41EPPE Frigorifero Side by Side Total No Frost con Dispenser Ghiaccio e Acqua, Tanica Interna da 4L, Capacità 641L, Classe E, Doppia Porta, Raffreddamento Linear Cooling, Essence Matte Black",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/61EmvHIll7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLV90PZAD Frigorifero Side-by-Side Americano Total No Frost, 635 l, Wi-Fi, Tecnologia Door & Linear Cooling, Dispenser Acqua e Ghiaccio con Allaccio, Igienizzazione UVnano, Inox",
+            "renderedWidth": 157.390625,
+            "renderedHeight": 302,
+            "renderedArea": 47531.96875,
+            "naturalWidth": 172,
+            "naturalHeight": 330,
+            "naturalArea": 56760,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61X6p-U0VuL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV91MCAE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Dispenser Acqua e Ghiaccio UV Nano, Door Cooling, Linear Cooling - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 156.484375,
+            "renderedHeight": 302,
+            "renderedArea": 47258.28125,
+            "naturalWidth": 171,
+            "naturalHeight": 330,
+            "naturalArea": 56430,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://m.media-amazon.com/images/I/8154LLpmkML._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLV91MBAC Frigorifero Americano Side-by-Side, Classe C, Firgorifero No Frost, 635L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Balancer, Dispenser Senza Allaccio, Igienizzazione UVnano, Acciaio",
+            "renderedWidth": 156.484375,
+            "renderedHeight": 302,
+            "renderedArea": 47258.28125,
+            "naturalWidth": 171,
+            "naturalHeight": 330,
+            "naturalArea": 56430,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2b43a924-a19f-48cb-b1bc-8075a67d62ba._CR0%2C0%2C1920%2C384_SX1500_.jpg",
+            "alt": "LG branded website header image featuring a modern black refrigerator with digital display panel, overlaid with the text 'Frigoriferi' against a gradient gray background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/G/29/digital/video/gateway/placement/launch/TheLoveHypothesis/LVHY_2026_SWM_800x78_POST_Final_it-IT_PV00085802._CB767693328_.jpg",
+            "alt": "Prime",
+            "renderedWidth": 400,
+            "renderedHeight": 39,
+            "renderedArea": 15600,
+            "naturalWidth": 800,
+            "naturalHeight": 78,
+            "naturalArea": 62400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/61tqhkIcRnL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV80PZLE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Door Cooling, Linear Cooling, Compressore Lineare Inverter - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 164.71875,
+            "renderedHeight": 302,
+            "renderedArea": 49745.0625,
+            "naturalWidth": 180,
+            "naturalHeight": 330,
+            "naturalArea": 59400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/51-eWCWBUaL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSGV81EPLL Frigorifero Americano Side By Side InstaView, 635L, Frigorifero Total No Frost, Wi-Fi, Door & Linear Cooling, Dispenser Acqua e Ghiaccio Senza Allaccio, Fresh Balancer, Nero Opaco",
+            "renderedWidth": 163.796875,
+            "renderedHeight": 302,
+            "renderedArea": 49466.65625,
+            "naturalWidth": 179,
+            "naturalHeight": 330,
+            "naturalArea": 59070,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/81SsyDBHgKL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE91MBAC Frigorifero Americano Side-by-Side, Classe C, Frigorifero No Frost, 628L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Converter, Dispenser Senza Allaccio, UVnano, Metal Sorbet",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/I/61ZqLgkvjRL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE81PYBC Frigorifero Side by Side Total No Frost, Classe C, 628L, Wi-Fi, Tecnologia Door e Linear Cooling, Frigorifero Americano con Dispenser Ghiaccio e Acqua Senza Allaccio, Prime silver",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://m.media-amazon.com/images/I/61rd+Qo39nL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXE91EVAD Frigorifero Americano InstaView, Classe D, 628 L, Wi-Fi, Dispenser Acqua UVnano Senza Allaccio, Tecnologia Door e Linear Cooling, Acciaio Nero",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 82,
+            "src": "https://m.media-amazon.com/images/I/71GuWksJmPL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLC41EPPE Frigorifero Side by Side Total No Frost con Dispenser Ghiaccio e Acqua, Tanica Interna da 4L, Capacità 641L, Classe E, Doppia Porta, Raffreddamento Linear Cooling, Essence Matte Black",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/61EmvHIll7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLV90PZAD Frigorifero Side-by-Side Americano Total No Frost, 635 l, Wi-Fi, Tecnologia Door & Linear Cooling, Dispenser Acqua e Ghiaccio con Allaccio, Igienizzazione UVnano, Inox",
+            "renderedWidth": 157.390625,
+            "renderedHeight": 302,
+            "renderedArea": 47531.96875,
+            "naturalWidth": 172,
+            "naturalHeight": 330,
+            "naturalArea": 56760,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61X6p-U0VuL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV91MCAE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Dispenser Acqua e Ghiaccio UV Nano, Door Cooling, Linear Cooling - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 156.484375,
+            "renderedHeight": 302,
+            "renderedArea": 47258.28125,
+            "naturalWidth": 171,
+            "naturalHeight": 330,
+            "naturalArea": 56430,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: LG: FRIGORIFERI"
+        ],
+        "metaDescription": [
+          "FRIGORIFERI"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/LG/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-qi8f1wovzc > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-qi8f1wovzc > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2b43a924-a19f-48cb-b1bc-8075a67d62ba._CR0%2C0%2C1920%2C384_SX1500_.jpg",
+            "alt": "LG branded website header image featuring a modern black refrigerator with digital display panel, overlaid with the text 'Frigoriferi' against a gradient gray background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/61tqhkIcRnL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV80PZLE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Door Cooling, Linear Cooling, Compressore Lineare Inverter - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 164.71875,
+            "renderedHeight": 302,
+            "renderedArea": 49745.0625,
+            "naturalWidth": 180,
+            "naturalHeight": 330,
+            "naturalArea": 59400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/51-eWCWBUaL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSGV81EPLL Frigorifero Americano Side By Side InstaView, 635L, Frigorifero Total No Frost, Wi-Fi, Door & Linear Cooling, Dispenser Acqua e Ghiaccio Senza Allaccio, Fresh Balancer, Nero Opaco",
+            "renderedWidth": 163.796875,
+            "renderedHeight": 302,
+            "renderedArea": 49466.65625,
+            "naturalWidth": 179,
+            "naturalHeight": 330,
+            "naturalArea": 59070,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/81SsyDBHgKL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE91MBAC Frigorifero Americano Side-by-Side, Classe C, Frigorifero No Frost, 628L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Converter, Dispenser Senza Allaccio, UVnano, Metal Sorbet",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/I/61ZqLgkvjRL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLE81PYBC Frigorifero Side by Side Total No Frost, Classe C, 628L, Wi-Fi, Tecnologia Door e Linear Cooling, Frigorifero Americano con Dispenser Ghiaccio e Acqua Senza Allaccio, Prime silver",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://m.media-amazon.com/images/I/61rd+Qo39nL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXE91EVAD Frigorifero Americano InstaView, Classe D, 628 L, Wi-Fi, Dispenser Acqua UVnano Senza Allaccio, Tecnologia Door e Linear Cooling, Acciaio Nero",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 82,
+            "src": "https://m.media-amazon.com/images/I/71GuWksJmPL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLC41EPPE Frigorifero Side by Side Total No Frost con Dispenser Ghiaccio e Acqua, Tanica Interna da 4L, Capacità 641L, Classe E, Doppia Porta, Raffreddamento Linear Cooling, Essence Matte Black",
+            "renderedWidth": 158.3125,
+            "renderedHeight": 302,
+            "renderedArea": 47810.375,
+            "naturalWidth": 173,
+            "naturalHeight": 330,
+            "naturalArea": 57090,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/61EmvHIll7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLV90PZAD Frigorifero Side-by-Side Americano Total No Frost, 635 l, Wi-Fi, Tecnologia Door & Linear Cooling, Dispenser Acqua e Ghiaccio con Allaccio, Igienizzazione UVnano, Inox",
+            "renderedWidth": 157.390625,
+            "renderedHeight": 302,
+            "renderedArea": 47531.96875,
+            "naturalWidth": 172,
+            "naturalHeight": 330,
+            "naturalArea": 56760,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/61X6p-U0VuL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSXV91MCAE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Dispenser Acqua e Ghiaccio UV Nano, Door Cooling, Linear Cooling - Frigo Smart con Wi-Fi e Freezer",
+            "renderedWidth": 156.484375,
+            "renderedHeight": 302,
+            "renderedArea": 47258.28125,
+            "naturalWidth": 171,
+            "naturalHeight": 330,
+            "naturalArea": 56430,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://m.media-amazon.com/images/I/8154LLpmkML._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG GSLV91MBAC Frigorifero Americano Side-by-Side, Classe C, Firgorifero No Frost, 635L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Balancer, Dispenser Senza Allaccio, Igienizzazione UVnano, Acciaio",
+            "renderedWidth": 156.484375,
+            "renderedHeight": 302,
+            "renderedArea": 47258.28125,
+            "naturalWidth": 171,
+            "naturalHeight": 330,
+            "naturalArea": 56430,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "FRIGORIFERI",
+            "href": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5#",
+            "signals": [
+              "페이지 주제어와 일치: frigoriferi"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSXV91MCAE Frigorifero Americano...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSXV91MCAE Frigorifero Americano... 4,0 4,0 su 5 stelle 116 4,0 su 5 stelle. 116 recensioni dei clienti 1.483 , 81 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBSJ20DEP Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBSJ20DEP Frigorifero Combinato... 4,7 4,7 su 5 stelle 8 4,7 su 5 stelle. 8 recensioni dei clienti 583 , 12 € Ricevilo entro 6 ottobre - 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS322BPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS322BPY Frigorifero Combinato... 2,5 2,5 su 5 stelle 3 2,5 su 5 stelle. 3 recensioni dei clienti 710 , 40 € Ricevilo entro 7 ottobre - 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS322APY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS322APY Frigorifero Combinato... 4,3 4,3 su 5 stelle 35 4,3 su 5 stelle. 35 recensioni dei clienti 846 , 68 € Ricevilo entro 29 settembre - 30 settembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSXV80PZLE Frigorifero Americano...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSXV80PZLE Frigorifero Americano... 4,3 4,3 su 5 stelle 84 4,3 su 5 stelle. 84 recensioni dei clienti 1.466 , 02 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GMG860EPBE Frigorifero Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GMG860EPBE Frigorifero Slim... 3,8 3,8 su 5 stelle 18 3,8 su 5 stelle. 18 recensioni dei clienti 1.582 , 25 € Ricevilo entro 29 settembre - 30 settembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSLV90PZAD Frigorifero Side-by-Side...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSLV90PZAD Frigorifero Side-by-Side... 4,6 4,6 su 5 stelle 40 4,6 su 5 stelle. 40 recensioni dei clienti 1.296 , 90 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSLE91MBAC Frigorifero Americano...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSLE91MBAC Frigorifero Americano... 4,6 4,6 su 5 stelle 17 4,6 su 5 stelle. 17 recensioni dei clienti 1.373 , 10 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBSJ2CCPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBSJ2CCPY Frigorifero Combinato... 3,8 3,8 su 5 stelle 18 3,8 su 5 stelle. 18 recensioni dei clienti 593 , 98 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBW322DPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBW322DPY Frigorifero Combinato... 4,6 4,6 su 5 stelle 9 4,6 su 5 stelle. 9 recensioni dei clienti -15% 803 , 21 € Prezzo consigliato: Barrato - Prezzo consigliato: 949 , 00 € Ricevilo entro 7 ottobre - 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GML861PYPE Frigorifero Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GML861PYPE Frigorifero Slim... 4,0 4,0 su 5 stelle 44 4,0 su 5 stelle. 44 recensioni dei clienti 1.606 , 20 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GTF744PZPED Frigorifero Doppia Porta,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GTF744PZPED Frigorifero Doppia Porta,... 4,3 4,3 su 5 stelle 84 4,3 su 5 stelle. 84 recensioni dei clienti 740 , 22 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSLV91MBAC Frigorifero Americano...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSLV91MBAC Frigorifero Americano... 4,0 4,0 su 5 stelle 6 4,0 su 5 stelle. 6 recensioni dei clienti 1.697 , 10 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSGV81PYLL Frigorifero Side by Side...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSGV81PYLL Frigorifero Side by Side... 4,3 4,3 su 5 stelle 72 4,3 su 5 stelle. 72 recensioni dei clienti 1.654 , 36 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GMM41MSBEM Frigorifero 4 Porte...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GMM41MSBEM Frigorifero 4 Porte... 4,3 4,3 su 5 stelle 39 4,3 su 5 stelle. 39 recensioni dei clienti 985 , 00 € Ricevilo entro 1 ottobre - 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GMV860EPDE Frigorifero Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GMV860EPDE Frigorifero Slim... 4,0 4,0 su 5 stelle 25 4,0 su 5 stelle. 25 recensioni dei clienti 1.176 , 79 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GMBS30SEPY Frigorifero 4 Porte 580 L,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GMBS30SEPY Frigorifero 4 Porte 580 L,... 931 , 46 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBSJ10EPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBSJ10EPY Frigorifero Combinato... 711 , 60 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS312BPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS312BPY Frigorifero Combinato... 2,0 2,0 su 5 stelle 1 2,0 su 5 stelle. 1 recensioni dei clienti 659 , 90 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS524APY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS524APY Frigorifero Combinato... 4,3 4,3 su 5 stelle 35 4,3 su 5 stelle. 35 recensioni dei clienti 729 , 38 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS322CPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS322CPY Frigorifero Combinato... 4,0 4,0 su 5 stelle 65 4,0 su 5 stelle. 65 recensioni dei clienti 569 , 99 € Ricevilo entro 20 ottobre - 22 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBSJ20DPY Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBSJ20DPY Frigorifero Combinato... 4,0 4,0 su 5 stelle 15 4,0 su 5 stelle. 15 recensioni dei clienti 500 , 05 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GBBS726AMB Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GBBS726AMB Frigorifero Combinato... 4,3 4,3 su 5 stelle 35 4,3 su 5 stelle. 35 recensioni dei clienti 972 , 68 € Ricevilo entro il giorno venerdì 2 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GSXV91PZAE Frigorifero Americano...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GSXV91PZAE Frigorifero Americano... 4,3 4,3 su 5 stelle 31 4,3 su 5 stelle. 31 recensioni dei clienti 1.448 , 99 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG GTB744BMBED Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG GTB744BMBED Frigorifero Doppia... 4,2 4,2 su 5 stelle 44 4,2 su 5 stelle. 44 recensioni dei clienti 781 , 07 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "LG GSXV91MCAE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Dispenser Acqua e Ghiaccio UV Nano, Door Cooling, Linear Cooling - Frigo Smart con Wi-Fi e Freezer",
+            "href": "https://www.amazon.it/LG-GSXV91MCAE-Frigorifero-Americano-Congelatore/dp/B09Q99D6VD?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ20DEP Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe D, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Wi-Fi, Compressore Inverter, Nero",
+            "href": "https://www.amazon.it/LG-Frigorifero-Raffreddamento-Ottimizzato-Compressore/dp/B0G2MT7VRH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322BPY Frigorifero Combinato Total No Frost 60 cm Classe B",
+            "href": "https://www.amazon.it/LG-GBBS322BPY-Frigorifero-Combinato-Classe/dp/B0G2M8JT5B?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322APY Frigorifero Combinato Classe A, Larghezza 60 cm Fit & Max, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBS322APY-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G25YRT72?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSXV80PZLE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Door Cooling, Linear Cooling, Compressore Lineare Inverter - Frigo Smart con Wi-Fi e Freezer",
+            "href": "https://www.amazon.it/LG-GSXV80PZLE-Frigorifero-Congelatore-Compressore/dp/B0BGQDF5KH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMG860EPBE Frigorifero Slim Multidoor InstaView, Classe E, 638L, Wi-Fi, Door e Linear Cooling, Frigo con Dispenser Acqua UVnano senza allaccio, Metal Fresh, Frigorifero Nero Opaco",
+            "href": "https://www.amazon.it/LG-GMG860EPBE-Frigorifero-Multidoor-InstaView/dp/B0D66YBWL2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLV90PZAD Frigorifero Side-by-Side Americano Total No Frost, 635 l, Wi-Fi, Tecnologia Door & Linear Cooling, Dispenser Acqua e Ghiaccio con Allaccio, Igienizzazione UVnano, Inox",
+            "href": "https://www.amazon.it/LG-Electronics-Side-Side-GSLV90PZAD/dp/B09RB6X993?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLE91MBAC Frigorifero Americano Side-by-Side, Classe C, Frigorifero No Frost, 628L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Converter, Dispenser Senza Allaccio, UVnano, Metal Sorbet",
+            "href": "https://www.amazon.it/LG-GSLE91MBAC-Frigorifero-Americano-Tecnologia/dp/B0DC7253GB?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ2CCPY Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Wi-Fi, Smart Inverter, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBSJ2CCPY-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MS6Y41?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW322DPY Frigorifero Combinato Fit & Max Larghezza 70cm, Classe D, Raffreddamento Intelligente con AI Fresh,Fresh Converter, Total No Frost e Metal Fresh, Door Cooling, 465L, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBW322DPY-Frigorifero-Raffreddamento-Intelligente/dp/B0FW5PY3YT?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GML861PYPE Frigorifero Slim Multidoor, Classe E, 506L, Wi-Fi, Tecnologia Linear Cooling, Frigo con Dispenser Acqua UVnano Senza Allaccio, Total No Frost, Smart Diagnosis, Silver",
+            "href": "https://www.amazon.it/LG-GML861PYPE-Frigorifero-Multidoor-Tecnologia/dp/B0DFMNSRWX?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTF744PZPED Frigorifero Doppia Porta, Classe E, 509l, Wi-fi, Door Cooling, Gestione Umidità,dispenser Acqua, Cassetto 0 Gradi, Fabbricatore Del Ghiaccio, Compressore Smart Inverter, Inox",
+            "href": "https://www.amazon.it/LG-GTF744PZPED-Frigorifero-Fabbricatore-Compressore/dp/B0D1H3VH1P?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLV91MBAC Frigorifero Americano Side-by-Side, Classe C, Firgorifero No Frost, 635L, Wi-Fi, Tecnologia Door&Linear Cooling, Fresh Balancer, Dispenser Senza Allaccio, Igienizzazione UVnano, Acciaio",
+            "href": "https://www.amazon.it/LG-GSLV91MBAC-Frigorifero-Firgorifero-Igienizzazione/dp/B0CB8NCQD3?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSGV81PYLL Frigorifero Side by Side InstaView Total No Frost, 635L, Wi-Fi, Tecnologia Door e Linear Cooling, Frigo con Dispenser Acqua e Ghiaccio senza Allaccio, Fresh Balancer, Prime silver",
+            "href": "https://www.amazon.it/LG-GSGV81PYLL-Frigorifero-InstaView-Tecnologia/dp/B0CXTP6TTC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/LG-GSGV81PYLL-Frigorifero-InstaView-Tecnologia/dp/B0CXTP6TTC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "LG GMM41MSBEM Frigorifero 4 Porte Slim, Capacità 474L, Total No Frost con Multi Air Flow, Cassetto Zero Gradi Convertibile Fresh Switch, Ripiani in Vetro Temperato, Illuminazione LED, Classe E, Silver",
+            "href": "https://www.amazon.it/LG-Frigorifero-GMM41MSBEM-1-787mX83-5cm-inossidabile/dp/B0DLHDD5P1?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMV860EPDE Frigorifero Slim Multidoor InstaView, Classe E, 530L, Wi-Fi, Linear Cooling, Total No Frost, Controllo da Remoto, Smart Diagnosis, Larghezza 835mm, Nero Opaco",
+            "href": "https://www.amazon.it/LG-GMV860EPDE-Frigorifero-Multidoor-InstaView/dp/B0DMPWCR4C?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMBS30SEPY Frigorifero 4 Porte 580 L, Total No Frost, Wi-Fi | Display Interno, Classe E, Filtro Anti-Odori, Gestione della Temperatura tramite App, Door Cooling, Smart Inverter",
+            "href": "https://www.amazon.it/LG-GMBS30SEPY-Frigorifero-Porte-Total/dp/B0H3WHJGK9?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ10EPY Frigorifero Combinato 333 L, Larghezza 60 cm, Total No Frost | Funzioni Intelligenza Artificiale, Wi-Fi, Classe E, Display Esterno, Apertura a filo muro, Door e Linear Cooling",
+            "href": "https://www.amazon.it/LG-GBBSJ10EPY-Frigorifero-Classe-Energetica/dp/B0GH23296C?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS312BPY Frigorifero Combinato Larghezza 60 cm Fit & Max 333L, Classe B, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, Cassetto Smart Flex, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBS312BPY-Frigorifero-Raffreddamento-Ottimizzato/dp/B0GVZG972Y?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS524APY Frigorifero Combinato Classe A, Larghezza 60 cm, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBS524APY-Frigorifero-Combinato-Classe/dp/B0FTZ6S37L?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322CPY Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBS322CPY-Frigorifero-Raffreddamento-Ottimizzato/dp/B0FY7MKDRG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ20DPY Frigorifero Combinato Larghezza 60 cm Fit & Max 375L, Classe D, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, Cassetto Smart Flex, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBSJ20DPY-Frigorifero-Combinato-Classe/dp/B0G262GZGT?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS726AMB Frigorifero Combinato Classe A, Larghezza 60 cm Fit & Max, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Metal Sorbet",
+            "href": "https://www.amazon.it/LG-GBBS726AMB-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MSKGKV?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSXV91PZAE Frigorifero Americano Side by Side InstaView Total No Frost con Congelatore, 635 L, Dispenser Acqua e Ghiaccio UV Nano, Door Cooling, Linear Cooling - Frigo Smart con Wi-Fi e Freezer",
+            "href": "https://www.amazon.it/LG-GSXV91PZAE-Frigorifero-Americano-Congelatore/dp/B09NC3L8MV?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTB744BMBED Frigorifero Doppia Porta, Classe E, 506l, Porte In Vetro, Tecnologia Door & Linear Cooling, Cassetto 0 Gradi, Gestione Umidità, Compressore Smart Inverter, Smart Diagnosis, Nero",
+            "href": "https://www.amazon.it/LG-GTB744BMBED-Frigorifero-Tecnologia-Compressore/dp/B0D1H8VYXZ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLV91MBAD Frigorifero Americano Side-by-Side, Classe D, Frigorifero No Frost, 635L, Wi-Fi, Door & Linear Cooling, Fresh Balancer, Dispenser senza allaccio, Igienizzazione UVnano, Acciaio",
+            "href": "https://www.amazon.it/LG-GSLV91MBAD-Frigorifero-Americano-Igienizzazione/dp/B09Q5P5B92?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/LG-GSLV91MBAD-Frigorifero-Americano-Igienizzazione/dp/B09Q5P5B92?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "LG GSGV81EPLL Frigorifero Americano Side By Side InstaView, 635L, Frigorifero Total No Frost, Wi-Fi, Door & Linear Cooling, Dispenser Acqua e Ghiaccio Senza Allaccio, Fresh Balancer, Nero Opaco",
+            "href": "https://www.amazon.it/LG-GSGV81EPLL-Frigorifero-Americano-InstaView/dp/B0CTR2FD9D?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLE81PYBC Frigorifero Side by Side Total No Frost, Classe C, 628L, Wi-Fi, Tecnologia Door e Linear Cooling, Frigorifero Americano con Dispenser Ghiaccio e Acqua Senza Allaccio, Prime silver",
+            "href": "https://www.amazon.it/LG-GSLE81PYBC-Frigorifero-Tecnologia-Dispenser/dp/B0D45741LX?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTB744PZHED Frigorifero Doppia Porta, Classe E, 506l, Connettività Wi-fi Con App Thinq, Tecnologia Door & Linear Cooling, Cassetto 0 Gradi, Gestione Umidità, Compressore Smart Inverter, Inox",
+            "href": "https://www.amazon.it/LG-GTB744PZHED-Frigorifero-Connettivit%C3%A0-Compressore/dp/B0D1GVV6NS?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBB567PZCMB Frigorifero Combinato Total No Frost, 462L, Larghezza 70cm, Wi-Fi, Door & Linear Cooling, Cassetto Fresh Balancer, Display Esterno, Compressore Smart Inverter, Inox",
+            "href": "https://www.amazon.it/LG-GBB567PZCMB1-Frigorifero-capacit%C3%A0-dispenser/dp/B08GHJ73FM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSXE91EVAD Frigorifero Americano InstaView, Classe D, 628 L, Wi-Fi, Dispenser Acqua UVnano Senza Allaccio, Tecnologia Door e Linear Cooling, Acciaio Nero",
+            "href": "https://www.amazon.it/LG-GSXE91EVAD-Frigorifero-Americano-Tecnologia/dp/B0DMPCRQH6?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMB860PYDE Frigorifero Multidoor Slim, Frigorifero 4 Porte Classe E, 530L, Wi-Fi, Linear Cooling, Smart Diagnosis, Compressore Smart Inverter, Total No Frost, Design porte piatte, Prime Silver",
+            "href": "https://www.amazon.it/LG-GMB860PYDE-Frigorifero-Classificazione-Anti-impronta/dp/B0D41N647H?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTBV44PYBKD Frigorifero Doppia Porta 70cm, Classe E, 461l, Connettività Wi-fi Con App Thinq, Porte Piatte, Tecnologia Door & Linear Cooling, Display Esterno, Compressore Smart Inverter, Argento",
+            "href": "https://www.amazon.it/LG-GTBV44PYBKD-Frigorifero-Connettivit%C3%A0-Compressore/dp/B0D1GT7LXY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTF744SEPED Frigorifero Doppia Porta, Classe E, 509l, Wi-fi, Door Cooling, Gestione Umidità, Dispenser Acqua, Cassetto 0 Gradi, Fabbricatore Del Ghiaccio, Compressore Smart Inverter Sabbia",
+            "href": "https://www.amazon.it/LG-GTF744SEPED-Frigorifero-Fabbricatore-Compressore/dp/B0D1GSLLKM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW322CPY Frigorifero Combinato Fit & Max Larghezza 70cm, Classe C, Raffreddamento Intelligente con AI Fresh, Cassetto Fresh Converter, Total No Frost, Door Cooling, 465L, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBW322CPY-Frigorifero-Raffreddamento-Intelligente/dp/B0FTZJG74C?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW322CEV Frigorifero Combinato Fit & Max Larghezza 70cm, Classe C, Raffreddamento Intelligente con AI Fresh, Fresh Converter, Total No Frost, Door e Linear Cooling, 465L, Wi-Fi, Black Steel",
+            "href": "https://www.amazon.it/LG-GBBW322CEV-Frigorifero-Raffreddamento-Intelligente/dp/B0FW5TD5Z4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTFV61PYBQD Frigorifero Doppia Porta con Dispenser Acqua, Classe E, 609l, Wi-fi, Door e Linear Cooling, Gestione Umidità, Cassetto Zero Gradi, Fabbricatore Ghiaccio, Platinum Silver",
+            "href": "https://www.amazon.it/LG-GTFV61PYBQD-Frigorifero-Dispenser-Fabbricatore/dp/B0GR1J6QQY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS726BEV Frigorifero Combinato Larghezza 60 cm Fit & Max 375L, Classe B, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, Cassetto Smart Flex, Wi-Fi, Black Steel",
+            "href": "https://www.amazon.it/LG-GBBS726BEV-Frigorifero-Combinato-Classe/dp/B0FXX7THZJ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS726CEV Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Wi-Fi, Smart Inverter, Nero",
+            "href": "https://www.amazon.it/LG-GBBS726CEV-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MVMTLD?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS726CMB Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Metal Sorbet",
+            "href": "https://www.amazon.it/LG-GBBS726CMB-Frigorifero-Raffreddamento-Ottimizzato/dp/B0GR1J8LW2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTFN256SER Frigorifero Combinato da Incasso, Classe E, 233 L, 4 Ripiani con Finiture Metalliche, Cerniere a Scorrimento, Total No Frost, Porte Reversibili, Display Smooth Touch, Bianco",
+            "href": "https://www.amazon.it/LG-GTFN256SER-Frigorifero-Scorrimento-Reversibili/dp/B0GX1S9RS9?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS726AEV Frigorifero Combinato Classe A, Larghezza 60 cm Fit & Max, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 375 L, Smart Inverter, Wi-Fi, Nero",
+            "href": "https://www.amazon.it/LG-GBBS726AEV-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MTXPSP?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS514CPY Frigorifero Combinato Larghezza 60 cm Fit & Max 333L, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, Cassetto Smart Flex, Wi-Fi, Prime Silver",
+            "href": "https://www.amazon.it/LG-GBBS514CPY-Frigorifero-Combinato-Classe/dp/B0FZMPNKMW?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW726CMB Frigorifero Combinato, Larghezza 70 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 465 L, Smart Inverter, Wi-Fi, Metal Sorbet",
+            "href": "https://www.amazon.it/LG-GBBW726CMB-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MTCQHL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW726DEV Frigorifero Combinato Fit & Max Larghezza 70cm, Classe D, Raffreddamento Intelligente con AI Fresh, Fresh Converter, Total No Frost e Metal Fresh, Door Cooling, 465L, Wi-Fi, Black Steel",
+            "href": "https://www.amazon.it/LG-GBBW726DEV-Frigorifero-Raffreddamento-Intelligente/dp/B0FW65YF6Z?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ10DEP Frigorifero Combinato Fit & Max Larghezza 60 cm, Classe D, Raffreddamento Intelligente con AI Fresh, Total No Frost, Door e Linear Cooling, 333 L, Smart Inverter, Wi-Fi, Matte Black",
+            "href": "https://www.amazon.it/LG-GBBSJ10DEP-Frigorifero-Raffreddamento-Intelligente/dp/B0FW5Q8JWJ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTFV61SEBQD Frigorifero Combinato 609L, Dispenser Acqua, Total No Frost | Dispenser Acqua con Tanica Interna, Fabbricatore Ghiaccio, Total No Frost, Wi-Fi, Classe E, Door e Linear Cooling",
+            "href": "https://www.amazon.it/LG-GTFV61SEBQD-Frigorifero-Combinato-Dispenser/dp/B0GTRG7QYK?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBV7280BEV Frigorifero Combinato Total No Frost, 387L, Classe B, Porte Piatte, Door e Linear Cooling, Fresh Balancer e Converter, Metal Fresh, Compressore Smart Inverter, Black Steel",
+            "href": "https://www.amazon.it/LG-GBV7280BEV-Frigorifero-Combinato-Compressore/dp/B0DT1DL6TC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMG960EVJE Frigorifero Multidoor Instaview, Frigorifero 4 Porte, Classe E, 638l, Dispenser Acqua E Ghiaccio Con Uvnano, Connettività Wi-fi Con App Thinq, Ripiano Pieghevole, Metal Fresh, Nero",
+            "href": "https://www.amazon.it/LG-GMG960EVJE-Frigorifero-Connettivit%C3%A0-Pieghevole/dp/B0D1HDR6Z4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTBV44SEBKD Frigorifero Doppia Porta 70cm, Classe E, 461l, Connettività Wi-fi Con App Thinq, Porte Piatte, Tecnologia Door & Linear Cooling, Display Esterno, Compressore Smart Inverter, Sabbia",
+            "href": "https://www.amazon.it/LG-GTBV44SEBKD-Frigorifero-Connettivit%C3%A0-Compressore/dp/B0D1GTVH7J?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW726AEV Frigorifero Combinato, Larghezza 70 cm Fit & Max, Classe A, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 465 L, Smart Inverter, Wi-Fi, Nero",
+            "href": "https://www.amazon.it/LG-Serie-GBBW726AEV-completamente-FRESHConverter/dp/B0FZVYBZY7?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GLT51PZGSZ Frigorifero Senza Congelatore 386L, Total No Frost, Classe E | Display LED Interno, Door e Linear Cooling, Abbinabile a Congelatore, Porta Reversibile, Compressore Smart Inverter",
+            "href": "https://www.amazon.it/Frigorifero-LG-GLT51PZGSZ-Acciaio-inossidabile/dp/B0951HNNR5?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GFT41PZGSZ Congelatore Verticale 324L, Total No Frost, Porta Reversibile | Display LED Interno, Door e Linear Cooling, Abbinabile a Frigorifero LG, Porta Reversibile, Compressore Smart Inverter",
+            "href": "https://www.amazon.it/Freezer-LG-GFT41PZGSZ-Acciaio-inossidabile/dp/B09662J9L4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMV960NNME Moodup Frigorifero Multidoor Instaview, Classe E, 617l, Porte Colorate Personalizzabili, Wi-fi, No Frost, Cassa Bluetooth Integrata, Tecnologia Door & Linear Cooling, Fresh Balancer",
+            "href": "https://www.amazon.it/LG-GMV960NNME-Frigorifero-Personalizzabili-Tecnologia/dp/B0D18MTWS4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/LG-GMV960NNME-Frigorifero-Personalizzabili-Tecnologia/dp/B0D18MTWS4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "LG GBG719MDNN Moodup Frigorifero Combinato Instaview, Classe D, 352l, Porte Colorate Personalizzabili, Display Touch, Cassa Bluetooth Integrata, Connettività Wi-fi, Linear Cooling, Metal Fresh",
+            "href": "https://www.amazon.it/LG-GBG719MDNN-Frigorifero-Personalizzabili-Connettivit%C3%A0/dp/B0CXV8HSHX?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBV3100CPY Frigorifero Combinato, Classe C, Frigorifero No Frost, 344L, Porte piatte, Tecnologia Door & Linear Cooling, Cassetto Fresh Converter, Wine Rack, Compressore Smart Inverter, Argento",
+            "href": "https://www.amazon.it/LG-GBV3100CPY-Frigorifero-Tecnologia-Compressore/dp/B0C9JWVYZJ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBB567SECMN Frigorifero Combinato Total No Frost, 462L, Larghezza 70cm, Wi-Fi, Door & Linear Cooling, Cassetto Fresh Balancer, Display esterno, Compressore Smart Inverter, Smart Diagnosis, Sabbia",
+            "href": "https://www.amazon.it/Lg-GBB567SECMN-Frigorifero-Combinato-Classe/dp/B093LG2Z8S?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLC41EPPE Frigorifero Side by Side Total No Frost con Dispenser Ghiaccio e Acqua, Tanica Interna da 4L, Capacità 641L, Classe E, Doppia Porta, Raffreddamento Linear Cooling, Essence Matte Black",
+            "href": "https://www.amazon.it/LG-GSLC41EPPE/dp/B0D54BSRFR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS323CEV Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe C, Raffreddamento Ottimizzato con AI Saving, Display Esterno, Total No Frost, Door e Linear Cooling, 375 L, Wi-Fi, Nero",
+            "href": "https://www.amazon.it/LG-GBBS323CEV-Frigorifero-Raffreddamento-Ottimizzato/dp/B0G2MVC443?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ21DEP Frigorifero Combinato Larghezza 60 cm Fit & Max, Classe D, Raffreddamento Ottimizzato con AI Saving, Total No Frost, Door e Linear Cooling, 333 L, Wi-Fi, Compressore Inverter, Nero",
+            "href": "https://www.amazon.it/LG-Frigorifero-Raffreddamento-Ottimizzato-Compressore/dp/B0GVZKB9YL?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMVS30SEPY Frigorifero Multidoor Instaview Slim, Classe E, Prime Silver",
+            "href": "https://www.amazon.it/LG-GMVS30SEPY-Frigorifero-Multidoor-Instaview/dp/B0HC7MJZBC?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

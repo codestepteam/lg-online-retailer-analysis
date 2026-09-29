@@ -1,0 +1,583 @@
+{"offset": "0x5f000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x5f038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x5f060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x5f090", "text": " while calling a Python object"}
+{"offset": "0x5f0b0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x5f0e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x5f108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x5f130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x5f1e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x5f210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x5f240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x5f2a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x5f2c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x5f2f8", "text": "generator raised StopIteration"}
+{"offset": "0x5f318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x5f348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x5f378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5f3e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x5f410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5f470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x5f4a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x5f4c8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x5f4f8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x5f640", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x5f678", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x5f6b0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x5f6d8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x5f708", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x5f740", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x5f778", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x5f7a0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x5f7d0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x5f810", "text": "join() result is too long for a Python string"}
+{"offset": "0x5f840", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x5f868", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/gnb_depth.c"}
+{"offset": "0x5f8a0", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x5f8e8", "text": "core.gnb_depth.make_expander.expand._kwr"}
+{"offset": "0x5f918", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x5f958", "text": "core.gnb_depth.make_equiv_matcher.lambda"}
+{"offset": "0x5f988", "text": "core.gnb_depth.FetchCache.__init__"}
+{"offset": "0x5f9b0", "text": "core.gnb_depth._dismiss_consent"}
+{"offset": "0x5f9d0", "text": "core.gnb_depth._measure_bfs_local.get_links"}
+{"offset": "0x5fa00", "text": "core.gnb_depth._measure_bfs_sb.get_links"}
+{"offset": "0x5fa30", "text": "core.gnb_depth._measure_unieuro_firefox"}
+{"offset": "0x5fa58", "text": "coroutine is being awaited already"}
+{"offset": "0x5fa80", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x5fab8", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x5faf8", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x5fb30", "text": "__await__() returned a coroutine"}
+{"offset": "0x5fb58", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x5fb80", "text": "core.gnb_depth.make_equiv_matcher.eq.genexpr"}
+{"offset": "0x5fbb0", "text": "core.gnb_depth.make_equiv_matcher.eq"}
+{"offset": "0x5fbd8", "text": "core.gnb_depth._first_path_seg"}
+{"offset": "0x5fbf8", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x5fc30", "text": "core.gnb_depth.make_equiv_matcher"}
+{"offset": "0x5fc58", "text": "core.gnb_depth._measure_bfs_sb"}
+{"offset": "0x5fc78", "text": "generator ignored GeneratorExit"}
+{"offset": "0x5fc98", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x5fcb8", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x5fce0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x5fd10", "text": "instance exception may not have a separate value"}
+{"offset": "0x5fd48", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x5fd90", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x5fdd0", "text": "core.gnb_depth._measure_bfs_local"}
+{"offset": "0x5fdf8", "text": "strings are too large to concat"}
+{"offset": "0x5fe18", "text": "'NoneType' object is not subscriptable"}
+{"offset": "0x5fe40", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x5fe70", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x5fe98", "text": "core.gnb_depth.make_expander.expand"}
+{"offset": "0x5fec0", "text": "Module 'gnb_depth' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x5ff18", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x5ff68", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x5ffa8", "text": "%.200s object is not an iterator"}
+{"offset": "0x5ffd0", "text": "argument after ** must be a mapping, not NoneType"}
+{"offset": "0x60008", "text": "dictionary changed size during iteration"}
+{"offset": "0x60038", "text": "'NoneType' object is not iterable"}
+{"offset": "0x60060", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x60080", "text": "core.gnb_depth._measure_unieuro_firefox.genexpr"}
+{"offset": "0x600b0", "text": "qualified name of the generator"}
+{"offset": "0x600d0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x60100", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x60160", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x601d0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x60208", "text": "qualified name of the coroutine"}
+{"offset": "0x60228", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x60288", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x602f8", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x60330", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x60358", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x60390", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x603f0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x60460", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x60490", "text": "core.gnb_depth.__pyx_scope_struct_14_measure_target"}
+{"offset": "0x604c8", "text": "core.gnb_depth.__pyx_scope_struct_13_genexpr"}
+{"offset": "0x604f8", "text": "core.gnb_depth.__pyx_scope_struct_12__measure_unieuro_firefox"}
+{"offset": "0x60538", "text": "core.gnb_depth.__pyx_scope_struct_11_get_links"}
+{"offset": "0x60568", "text": "core.gnb_depth.__pyx_scope_struct_10__measure_bfs_sb"}
+{"offset": "0x605a0", "text": "core.gnb_depth.__pyx_scope_struct_9_get_links"}
+{"offset": "0x605d0", "text": "core.gnb_depth.__pyx_scope_struct_8__measure_bfs_local"}
+{"offset": "0x60608", "text": "core.gnb_depth.__pyx_scope_struct_7__dismiss_consent"}
+{"offset": "0x60640", "text": "core.gnb_depth.__pyx_scope_struct_6_genexpr"}
+{"offset": "0x60670", "text": "core.gnb_depth.__pyx_scope_struct_5_genexpr"}
+{"offset": "0x606a0", "text": "core.gnb_depth.__pyx_scope_struct_4__bfs"}
+{"offset": "0x606d0", "text": "core.gnb_depth.__pyx_scope_struct_3_expand"}
+{"offset": "0x60700", "text": "core.gnb_depth.__pyx_scope_struct_2_make_expander"}
+{"offset": "0x60738", "text": "core.gnb_depth.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x60768", "text": "core.gnb_depth.__pyx_scope_struct__make_equiv_matcher"}
+{"offset": "0x6079e", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x607bc", "text": "%.200s() needs an argument"}
+{"offset": "0x607d7", "text": "Bad call flags for CyFunction"}
+{"offset": "0x607f5", "text": "<cyfunction %U at %p>"}
+{"offset": "0x6080b", "text": "__loader__"}
+{"offset": "0x60816", "text": "loader"}
+{"offset": "0x6081d", "text": "__file__"}
+{"offset": "0x60826", "text": "origin"}
+{"offset": "0x6082d", "text": "__package__"}
+{"offset": "0x60839", "text": "__path__"}
+{"offset": "0x60842", "text": "submodule_search_locations"}
+{"offset": "0x6085d", "text": "keywords must be strings"}
+{"offset": "0x60876", "text": "_cython_coroutine_type"}
+{"offset": "0x6088d", "text": "_cython_generator_type"}
+{"offset": "0x608a4", "text": "_module"}
+{"offset": "0x608ac", "text": "__builtins__"}
+{"offset": "0x608b9", "text": "_cython_3_0_12"}
+{"offset": "0x608c8", "text": "cannot import name %S"}
+{"offset": "0x608de", "text": "%s (%s:%d)"}
+{"offset": "0x608e9", "text": "keywords"}
+{"offset": "0x608f2", "text": "low_u"}
+{"offset": "0x608f8", "text": "low_t"}
+{"offset": "0x608fe", "text": "core/gnb_depth.py"}
+{"offset": "0x60910", "text": "lambda"}
+{"offset": "0x60917", "text": "exactly"}
+{"offset": "0x6091f", "text": "__init__"}
+{"offset": "0x60928", "text": "_dismiss_consent"}
+{"offset": "0x60939", "text": "get_links"}
+{"offset": "0x60943", "text": "_measure_unieuro_firefox"}
+{"offset": "0x6095c", "text": "core.gnb_depth._bfs.lambda4"}
+{"offset": "0x60978", "text": "name '%U' is not defined"}
+{"offset": "0x60991", "text": "core.gnb_depth.FetchCache.get"}
+{"offset": "0x609af", "text": "coroutine already executing"}
+{"offset": "0x609cb", "text": "generator already executing"}
+{"offset": "0x609ea", "text": "tparent"}
+{"offset": "0x609f2", "text": "core.gnb_depth.make_expander"}
+{"offset": "0x60a0f", "text": "_first_path_seg"}
+{"offset": "0x60a1f", "text": "core.gnb_depth.is_ancestor"}
+{"offset": "0x60a3d", "text": "equiv"}
+{"offset": "0x60a43", "text": "core.gnb_depth._bfs"}
+{"offset": "0x60a57", "text": "at least"}
+{"offset": "0x60a60", "text": "at most"}
+{"offset": "0x60a68", "text": "core.gnb_depth.measure_target"}
+{"offset": "0x60a86", "text": "make_equiv_matcher"}
+{"offset": "0x60a99", "text": "_measure_bfs_sb"}
+{"offset": "0x60aa9", "text": "throw"}
+{"offset": "0x60aaf", "text": "core.gnb_depth.FetchCache.put"}
+{"offset": "0x60acd", "text": "_measure_bfs_local"}
+{"offset": "0x60ae0", "text": "tslug"}
+{"offset": "0x60ae6", "text": "core.gnb_depth.matchkey"}
+{"offset": "0x60afe", "text": "cache"}
+{"offset": "0x60b04", "text": "page"}
+{"offset": "0x60b09", "text": "state"}
+{"offset": "0x60b0f", "text": "tkey"}
+{"offset": "0x60b14", "text": "expand"}
+{"offset": "0x60b1e", "text": "core.gnb_depth._fold_norm"}
+{"offset": "0x60b38", "text": "builtins"}
+{"offset": "0x60b41", "text": "cython_runtime"}
+{"offset": "0x60b50", "text": "does not match"}
+{"offset": "0x60b5f", "text": "collections.abc"}
+{"offset": "0x60b6f", "text": "backports_abc"}
+{"offset": "0x60b7d", "text": "init core.gnb_depth"}
+{"offset": "0x60b91", "text": "core.gnb_depth._bfs._pathkey"}
+{"offset": "0x60bae", "text": "core.gnb_depth._bfs.genexpr"}
+{"offset": "0x60bca", "text": "core.gnb_depth._anchor_hidden"}
+{"offset": "0x60be8", "text": "scrapingbee"}
+{"offset": "0x60bf4", "text": "country"}
+{"offset": "0x60bfc", "text": "sb_kw"}
+{"offset": "0x60c02", "text": "function"}
+{"offset": "0x60c0b", "text": "credits"}
+{"offset": "0x60c13", "text": "BeautifulSoup"}
+{"offset": "0x60c21", "text": "core.gnb_depth.url_tokens"}
+{"offset": "0x60c3b", "text": "attempt"}
+{"offset": "0x60c43", "text": "core.gnb_depth._parts"}
+{"offset": "0x60c59", "text": "_cython_3_0_12.generator"}
+{"offset": "0x60c72", "text": "__name__"}
+{"offset": "0x60c7b", "text": "name of the generator"}
+{"offset": "0x60c91", "text": "__qualname__"}
+{"offset": "0x60c9e", "text": "gi_frame"}
+{"offset": "0x60ca7", "text": "Frame of the generator"}
+{"offset": "0x60cbe", "text": "gi_running"}
+{"offset": "0x60cc9", "text": "gi_yieldfrom"}
+{"offset": "0x60cd6", "text": "gi_code"}
+{"offset": "0x60cde", "text": "__module__"}
+{"offset": "0x60ce9", "text": "send"}
+{"offset": "0x60cee", "text": "close"}
+{"offset": "0x60cf4", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x60d0d", "text": "name of the coroutine"}
+{"offset": "0x60d23", "text": "cr_frame"}
+{"offset": "0x60d2c", "text": "Frame of the coroutine"}
+{"offset": "0x60d43", "text": "cr_running"}
+{"offset": "0x60d4e", "text": "cr_await"}
+{"offset": "0x60d57", "text": "object being awaited, or None"}
+{"offset": "0x60d75", "text": "cr_code"}
+{"offset": "0x60d7d", "text": "__reduce_ex__"}
+{"offset": "0x60d8b", "text": "__reduce__"}
+{"offset": "0x60d96", "text": "func_doc"}
+{"offset": "0x60d9f", "text": "__doc__"}
+{"offset": "0x60da7", "text": "func_name"}
+{"offset": "0x60db1", "text": "func_dict"}
+{"offset": "0x60dbb", "text": "__dict__"}
+{"offset": "0x60dc4", "text": "func_globals"}
+{"offset": "0x60dd1", "text": "__globals__"}
+{"offset": "0x60ddd", "text": "func_closure"}
+{"offset": "0x60dea", "text": "__closure__"}
+{"offset": "0x60df6", "text": "func_code"}
+{"offset": "0x60e00", "text": "__code__"}
+{"offset": "0x60e09", "text": "func_defaults"}
+{"offset": "0x60e17", "text": "__defaults__"}
+{"offset": "0x60e24", "text": "__kwdefaults__"}
+{"offset": "0x60e33", "text": "__annotations__"}
+{"offset": "0x60e43", "text": "_is_coroutine"}
+{"offset": "0x60e51", "text": "_kwr"}
+{"offset": "0x60fa0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x61080", "text": "ion-button.menu-category-trigger.Elettrodomestici"}
+{"offset": "0x610c0", "text": "registered_url_not_click_reachable(semantic_state_match)"}
+{"offset": "0x61100", "text": "make_expander.<locals>.expand.<locals>._kwr"}
+{"offset": "0x61140", "text": "make_equiv_matcher.<locals>.<lambda>"}
+{"offset": "0x61180", "text": "make_equiv_matcher.<locals>.eq.<locals>.genexpr"}
+{"offset": "0x611c0", "text": "ion-button.menu-category-trigger"}
+{"offset": "0x61200", "text": "facet_query_serialization_of_target"}
+{"offset": "0x61240", "text": "els => els.map(e => [e.href,\n                                            (e.textContent||'').trim().slice(0,60),\n                                            e.checkVisibility ? !e.checkVisibility()\n                                                              : false])\n                                .filter(x => x[0] && x[0].startsWith('http'))"}
+{"offset": "0x613a0", "text": "dropdown|flyout|mega[-_]?menu|submenu|off[-_]?canvas|drawer|modal|collaps"}
+{"offset": "0x61400", "text": "document.querySelectorAll('a[href*=pidGOL]').length"}
+{"offset": "0x61440", "text": "button:has-text(\"Alles accepteren\")"}
+{"offset": "0x61480", "text": "_measure_bfs_sb.<locals>.get_links"}
+{"offset": "0x614c0", "text": "_measure_bfs_local.<locals>.get_links"}
+{"offset": "0x61500", "text": "_measure_unieuro_firefox.<locals>.genexpr"}
+{"offset": "0x61540", "text": "button:has-text(\"Acceptera alla\")"}
+{"offset": "0x61580", "text": "button:has-text(\"Tout accepter\")"}
+{"offset": "0x615b0", "text": "make_equiv_matcher.<locals>.eq"}
+{"offset": "0x615d0", "text": "#onetrust-accept-btn-handler"}
+{"offset": "0x615f0", "text": "make_expander.<locals>.expand"}
+{"offset": "0x61610", "text": "https://www.unieuro.it/online/"}
+{"offset": "0x61640", "text": "button:has-text(\"Godkänn alla\")"}
+{"offset": "0x61680", "text": ") — `playwright install firefox` 필요"}
+{"offset": "0x616b0", "text": "#didomi-notice-agree-button"}
+{"offset": "0x616d0", "text": "button:has-text(\"Accepteren\")"}
+{"offset": "0x616f0", "text": "no_link_path_within_depth"}
+{"offset": "0x61710", "text": "Elcorteingles_electronica"}
+{"offset": "0x61730", "text": "unieuro_cat_menu_missing("}
+{"offset": "0x61750", "text": "_measure_unieuro_firefox"}
+{"offset": "0x61770", "text": "home_load_failed(status="}
+{"offset": "0x61790", "text": "hidden_container_open(+1)"}
+{"offset": "0x617b0", "text": ".filter-menu-wrapper div"}
+{"offset": "0x617d0", "text": "button:has-text(\"Accetta\")"}
+{"offset": "0x617f0", "text": "Frigoriferi-combinati"}
+{"offset": "0x61810", "text": "parse_retailers.common"}
+{"offset": "0x61830", "text": "Frigoriferi combinati"}
+{"offset": "0x61850", "text": "eval_on_selector_all"}
+{"offset": "0x61870", "text": "_HIDDEN_CONTAINER_CLS"}
+{"offset": "0x61890", "text": "GNB:Elettrodomestici"}
+{"offset": "0x618b0", "text": "wait_for_load_state"}
+{"offset": "0x618d0", "text": "state_mismatch(slug="}
+{"offset": "0x618f0", "text": "firefox_unavailable("}
+{"offset": "0x61910", "text": "_bfs.<locals>._pathkey"}
+{"offset": "0x61930", "text": "_DEFAULT_MAX_FETCHES"}
+{"offset": "0x61950", "text": "reached_equivalent"}
+{"offset": "0x61970", "text": "make_equiv_matcher"}
+{"offset": "0x61990", "text": "cline_in_traceback"}
+{"offset": "0x619b0", "text": "_bfs.<locals>.genexpr"}
+{"offset": "0x619d0", "text": "asyncio.coroutines"}
+{"offset": "0x619f0", "text": "wait_for_selector"}
+{"offset": "0x61a10", "text": "_measure_bfs_local"}
+{"offset": "0x61a30", "text": "keep_blank_values"}
+{"offset": "0x61a50", "text": "home_fetch_failed"}
+{"offset": "0x61a70", "text": "grandi elettrodom"}
+{"offset": "0x61a90", "text": "core/gnb_depth.py"}
+{"offset": "0x61ab0", "text": "_bfs.<locals>.<lambda>"}
+{"offset": "0x61ad0", "text": "automation_failed"}
+{"offset": "0x61af0", "text": "FetchCache.__init__"}
+{"offset": "0x61b10", "text": "CONSENT_SELECTORS"}
+{"offset": "0x61b30", "text": "wait_for_timeout"}
+{"offset": "0x61b50", "text": "manufacturername"}
+{"offset": "0x61b70", "text": "domcontentloaded"}
+{"offset": "0x61b90", "text": "budget_exhausted"}
+{"offset": "0x61bb0", "text": "UNIEURO_CAT_MENU"}
+{"offset": "0x61bd0", "text": "min_of_attempts"}
+{"offset": "0x61be0", "text": "_dismiss_consent"}
+{"offset": "0x61c00", "text": "'FetchCache | None'"}
+{"offset": "0x61c18", "text": "measure_target"}
+{"offset": "0x61c30", "text": "_measure_bfs_sb"}
+{"offset": "0x61c40", "text": "_first_path_seg"}
+{"offset": "0x61c50", "text": "core.gnb_depth"}
+{"offset": "0x61c60", "text": "brand_sub_code"}
+{"offset": "0x61c70", "text": "FetchCache.put"}
+{"offset": "0x61c80", "text": "FetchCache.get"}
+{"offset": "0x61c90", "text": "EXTRA_KEYWORDS"}
+{"offset": "0x61ca0", "text": "_DEFAULT_POLICY"}
+{"offset": "0x61cb0", "text": "total_credits"}
+{"offset": "0x61cc0", "text": "/stores/[^/]+/page/"}
+{"offset": "0x61cd8", "text": "status_reason"}
+{"offset": "0x61ce8", "text": "refrigerateur"}
+{"offset": "0x61cf8", "text": "make_expander"}
+{"offset": "0x61d08", "text": "local_browser"}
+{"offset": "0x61d20", "text": "__init_subclass__"}
+{"offset": "0x61d38", "text": "firefox_ionic"}
+{"offset": "0x61d48", "text": "elettrodomest"}
+{"offset": "0x61d60", "text": "__class_getitem__"}
+{"offset": "0x61d78", "text": "casa e cucina"}
+{"offset": "0x61d88", "text": "asyncio.tasks"}
+{"offset": "0x61d98", "text": "_anchor_hidden"}
+{"offset": "0x61db0", "text": "^LG\\d+ prodotti$"}
+{"offset": "0x61dc8", "text": "BeautifulSoup"}
+{"offset": "0x61dd8", "text": "urllib.parse"}
+{"offset": "0x61de8", "text": "sub_category"}
+{"offset": "0x61df8", "text": "#sp-cc-accept"}
+{"offset": "0x61e08", "text": "_is_coroutine"}
+{"offset": "0x61e18", "text": "_initializing"}
+{"offset": "0x61e28", "text": "filter:Brand"}
+{"offset": "0x61e38", "text": "display:none"}
+{"offset": "0x61e48", "text": "core.crawler"}
+{"offset": "0x61e58", "text": "_STORES_ALIAS"}
+{"offset": "0x61e68", "text": "DEPTH_POLICY"}
+{"offset": "0x61e78", "text": "CrawlSession"}
+{"offset": "0x61e88", "text": "Asciugatrici"}
+{"offset": "0x61e98", "text": "unicodedata"}
+{"offset": "0x61ea8", "text": "tvattmaskin"}
+{"offset": "0x61eb8", "text": "torktumlare"}
+{"offset": "0x61ec8", "text": "/stores/page/"}
+{"offset": "0x61ed8", "text": "stores_lg"}
+{"offset": "0x61ee8", "text": "scrapingbee"}
+{"offset": "0x61ef8", "text": "reached_url"}
+{"offset": "0x61f08", "text": "not_reached"}
+{"offset": "0x61f18", "text": "new_context"}
+{"offset": "0x61f28", "text": "networkidle"}
+{"offset": "0x61f38", "text": "max_fetches"}
+{"offset": "0x61f48", "text": "is_ancestor"}
+{"offset": "0x61f58", "text": "html.parser"}
+{"offset": "0x61f68", "text": ".filter-item"}
+{"offset": "0x61f78", "text": "electronics"}
+{"offset": "0x61f88", "text": "casa-cucina"}
+{"offset": "0x61f98", "text": "asciugatric"}
+{"offset": "0x61fa8", "text": "aria-hidden"}
+{"offset": "0x61fb8", "text": "_STRIP_QUERY"}
+{"offset": "0x61fc8", "text": "Frigoriferi"}
+{"offset": "0x61fd8", "text": "BRAND_LG_RE"}
+{"offset": "0x61fe8", "text": "wait_until"}
+{"offset": "0x61ff8", "text": "url_tokens"}
+{"offset": "0x62008", "text": "structural"}
+{"offset": "0x62018", "text": "startswith"}
+{"offset": "0x62028", "text": "setdefault"}
+{"offset": "0x62038", "text": "playwright"}
+{"offset": "0x62048", "text": "lg_segment"}
+{"offset": "0x62058", "text": "lave-linge"}
+{"offset": "0x62068", "text": "lavasciuga"}
+{"offset": "0x62078", "text": "kombinerad"}
+{"offset": "0x62088", "text": "keywordish"}
+{"offset": "0x62098", "text": "javascript:"}
+{"offset": "0x620a8", "text": "is_visible"}
+{"offset": "0x620b8", "text": "hit_hidden"}
+{"offset": "0x620c8", "text": "frigorifer"}
+{"offset": "0x620d8", "text": "ValueError"}
+{"offset": "0x620e8", "text": "_TOKEN_STOP"}
+{"offset": "0x620f8", "text": "Mediaworld"}
+{"offset": "0x62108", "text": "MediaMarkt"}
+{"offset": "0x62118", "text": "MODE_LOCAL"}
+{"offset": "0x62128", "text": "Lavasciuga"}
+{"offset": "0x62138", "text": "FetchCache"}
+{"offset": "0x62148", "text": "Elgiganten"}
+{"offset": "0x62158", "text": "urlencode"}
+{"offset": "0x62168", "text": "/stores/lg"}
+{"offset": "0x62178", "text": "select:LG"}
+{"offset": "0x62188", "text": "rtlr_name"}
+{"offset": "0x62198", "text": "render_js"}
+{"offset": "0x621a8", "text": "parse_qsl"}
+{"offset": "0x621b8", "text": "normalize"}
+{"offset": "0x621c8", "text": "__metaclass__"}
+{"offset": "0x621d8", "text": "menu_text"}
+{"offset": "0x621e8", "text": "isenabled"}
+{"offset": "0x621f8", "text": "  [gnb_depth] "}
+{"offset": "0x62208", "text": "get_links"}
+{"offset": "0x62218", "text": "getLogger"}
+{"offset": "0x62228", "text": "_fold_norm"}
+{"offset": "0x62238", "text": "enumerate"}
+{"offset": "0x62248", "text": "brand_293"}
+{"offset": "0x62258", "text": "attempt"}
+{"offset": "0x62260", "text": "PDP_LG_RE"}
+{"offset": "0x62270", "text": "MAX_DEPTH"}
+{"offset": "0x62280", "text": "Lavatrici"}
+{"offset": "0x62290", "text": "Boulanger"}
+{"offset": "0x622a0", "text": "vitvaror"}
+{"offset": "0x622b0", "text": "viewport"}
+{"offset": "0x622c0", "text": "urlsplit"}
+{"offset": "0x622d0", "text": "strategy"}
+{"offset": "0x622d9", "text": "stores"}
+{"offset": "0x622e0", "text": "__set_name__"}
+{"offset": "0x622f0", "text": "__qualname__"}
+{"offset": "0x62300", "text": "new_page"}
+{"offset": "0x62310", "text": "matchkey"}
+{"offset": "0x62320", "text": "list[str]"}
+{"offset": "0x62330", "text": "lavatric"}
+{"offset": "0x62340", "text": "keywords"}
+{"offset": "0x62350", "text": "instance"}
+{"offset": "0x62360", "text": "_hidden"}
+{"offset": "0x62368", "text": "headless"}
+{"offset": "0x62378", "text": "has_text"}
+{"offset": "0x62388", "text": "get_text"}
+{"offset": "0x62398", "text": "frontier"}
+{"offset": "0x623a8", "text": "find_all"}
+{"offset": "0x623b8", "text": "evaluate"}
+{"offset": "0x623c8", "text": "category"}
+{"offset": "0x623d8", "text": "brand_ok"}
+{"offset": "0x623e8", "text": "brand_lg"}
+{"offset": "0x623f8", "text": "attempts"}
+{"offset": "0x62408", "text": "ancestor"}
+{"offset": "0x62418", "text": "Coolblue"}
+{"offset": "0x62428", "text": "visitid"}
+{"offset": "0x62430", "text": "visited"}
+{"offset": "0x62438", "text": "urljoin"}
+{"offset": "0x62440", "text": "unquote"}
+{"offset": "0x62448", "text": "tparent"}
+{"offset": "0x62450", "text": "timeout"}
+{"offset": "0x62458", "text": "stealth"}
+{"offset": "0x62460", "text": "slug_ok"}
+{"offset": "0x62468", "text": "sibling"}
+{"offset": "0x62470", "text": "runtime"}
+{"offset": "0x62478", "text": "replace"}
+{"offset": "0x62480", "text": "reasons"}
+{"offset": "0x62488", "text": "reached"}
+{"offset": "0x62490", "text": "__prepare__"}
+{"offset": "0x624a0", "text": "premium"}
+{"offset": "0x624a8", "text": "_pathkey"}
+{"offset": "0x624b8", "text": "parents"}
+{"offset": "0x624c0", "text": "menubar"}
+{"offset": "0x624c8", "text": "logging"}
+{"offset": "0x624d0", "text": "locator"}
+{"offset": "0x624d8", "text": "links"}
+{"offset": "0x624e0", "text": ",lg_grid="}
+{"offset": "0x624f0", "text": "isalpha"}
+{"offset": "0x624f8", "text": "inspect"}
+{"offset": "0x62500", "text": "ingress"}
+{"offset": "0x62508", "text": "hit_url"}
+{"offset": "0x62510", "text": "genexpr"}
+{"offset": "0x62518", "text": "firefox"}
+{"offset": "0x62520", "text": "fetches"}
+{"offset": "0x62528", "text": "disable"}
+{"offset": "0x62530", "text": " depth="}
+{"offset": "0x62538", "text": "credits"}
+{"offset": "0x62540", "text": "country"}
+{"offset": "0x62548", "text": "compile"}
+{"offset": "0x62550", "text": "browser"}
+{"offset": "0x62558", "text": "brand"}
+{"offset": "0x62560", "text": "blocked"}
+{"offset": "0x62568", "text": " attempt "}
+{"offset": "0x62578", "text": "asyncio"}
+{"offset": "0x62580", "text": "Unieuro"}
+{"offset": "0x62588", "text": "target"}
+{"offset": "0x62590", "text": "/stores/"}
+{"offset": "0x62599", "text": "status"}
+{"offset": "0x625a0", "text": "search"}
+{"offset": "0x625a7", "text": "scheme"}
+{"offset": "0x625ae", "text": "rstrip"}
+{"offset": "0x625b5", "text": "rsplit"}
+{"offset": "0x625bc", "text": "return"}
+{"offset": "0x625c3", "text": "result"}
+{"offset": "0x625ca", "text": "policy"}
+{"offset": "0x625d1", "text": "pdp_lg"}
+{"offset": "0x625d8", "text": "parent"}
+{"offset": "0x625df", "text": "online"}
+{"offset": "0x625e6", "text": "netloc"}
+{"offset": "0x625ed", "text": "naming"}
+{"offset": "0x625f8", "text": "__name__"}
+{"offset": "0x62608", "text": "__module__"}
+{"offset": "0x62618", "text": "mailto:"}
+{"offset": "0x62620", "text": "lstrip"}
+{"offset": "0x62627", "text": "locale"}
+{"offset": "0x6262e", "text": "link:"}
+{"offset": "0x62634", "text": "launch"}
+{"offset": "0x62640", "text": "__import__"}
+{"offset": "0x6264b", "text": "ignore"}
+{"offset": "0x62652", "text": "hidden"}
+{"offset": "0x62659", "text": "height"}
+{"offset": "0x62660", "text": "expand"}
+{"offset": "0x62667", "text": "escape"}
+{"offset": "0x6266e", "text": "encode"}
+{"offset": "0x62675", "text": "enable"}
+{"offset": "0x6267c", "text": "dict"}
+{"offset": "0x62681", "text": "dialog"}
+{"offset": "0x62688", "text": "decode"}
+{"offset": "0x6268f", "text": "brands"}
+{"offset": "0x62698", "text": "__aenter__"}
+{"offset": "0x626a8", "text": "[^a-z0-9]"}
+{"offset": "0x626b8", "text": "a[href]"}
+{"offset": "0x626c0", "text": "FANOUT"}
+{"offset": "0x626c7", "text": "Amazon"}
+{"offset": "0x626ce", "text": "width"}
+{"offset": "0x626d4", "text": "upper"}
+{"offset": "0x626da", "text": "tuple"}
+{"offset": "0x626e0", "text": "tslug"}
+{"offset": "0x626e6", "text": "total"}
+{"offset": "0x626ec", "text": "throw"}
+{"offset": "0x626f2", "text": "super"}
+{"offset": "0x626f8", "text": "style"}
+{"offset": "0x626fe", "text": "strip"}
+{"offset": "0x62704", "text": "state"}
+{"offset": "0x6270a", "text": "split"}
+{"offset": "0x62710", "text": "sb_kw"}
+{"offset": "0x62716", "text": "ref_"}
+{"offset": "0x6271b", "text": "range"}
+{"offset": "0x62721", "text": "query"}
+{"offset": "0x62727", "text": "_parts"}
+{"offset": "0x6272e", "text": "lower"}
+{"offset": "0x62734", "text": "low_u"}
+{"offset": "0x6273a", "text": "low_t"}
+{"offset": "0x62740", "text": "local"}
+{"offset": "0x62746", "text": "_links"}
+{"offset": "0x62751", "text": "items"}
+{"offset": "0x62757", "text": "it-IT"}
+{"offset": "0x6275d", "text": "froid"}
+{"offset": "0x62763", "text": "first"}
+{"offset": "0x62769", "text": "fetch"}
+{"offset": "0x6276f", "text": "equiv"}
+{"offset": "0x62775", "text": "depth"}
+{"offset": "0x6277b", "text": "count"}
+{"offset": "0x62781", "text": "close"}
+{"offset": "0x62787", "text": "click"}
+{"offset": "0x6278d", "text": "class"}
+{"offset": "0x62793", "text": "chain"}
+{"offset": "0x62799", "text": "cache"}
+{"offset": "0x627a0", "text": ",brand="}
+{"offset": "0x627b0", "text": "__await__"}
+{"offset": "0x627ba", "text": "attrs"}
+{"offset": "0x627c0", "text": "ascii"}
+{"offset": "0x627c8", "text": "__aexit__"}
+{"offset": "0x627d2", "text": "Brand"}
+{"offset": "0x627d8", "text": "wait"}
+{"offset": "0x627dd", "text": "true"}
+{"offset": "0x627e2", "text": "toks"}
+{"offset": "0x627e7", "text": "tkey"}
+{"offset": "0x627ec", "text": "text"}
+{"offset": "0x627f8", "text": "__test__"}
+{"offset": "0x62808", "text": "__spec__"}
+{"offset": "0x62811", "text": "soup"}
+{"offset": "0x62816", "text": "sort"}
+{"offset": "0x6281b", "text": "slug"}
+{"offset": "0x62820", "text": "sess"}
+{"offset": "0x62825", "text": "send"}
+{"offset": "0x6282a", "text": "self"}
+{"offset": "0x6282f", "text": "segs"}
+{"offset": "0x62834", "text": "role"}
+{"offset": "0x62839", "text": "path"}
+{"offset": "0x6283e", "text": "page"}
+{"offset": "0x62843", "text": "name"}
+{"offset": "0x62848", "text": "menu"}
+{"offset": "0x62850", "text": "__main__"}
+{"offset": "0x62859", "text": "load"}
+{"offset": "0x6285e", "text": "link"}
+{"offset": "0x62867", "text": "last"}
+{"offset": "0x6286c", "text": "kept"}
+{"offset": "0x62878", "text": "__init__"}
+{"offset": "0x62881", "text": "info"}
+{"offset": "0x62886", "text": "html"}
+{"offset": "0x6288b", "text": "href"}
+{"offset": "0x62890", "text": "host"}
+{"offset": "0x62895", "text": "home"}
+{"offset": "0x6289a", "text": "hits"}
+{"offset": "0x6289f", "text": "goto"}
+{"offset": "0x628a4", "text": "flat"}
+{"offset": "0x628b0", "text": "__dict__"}
+{"offset": "0x628b9", "text": "core"}
+{"offset": "0x628be", "text": "cand"}
+{"offset": "0x628c3", "text": "bool"}
+{"offset": "0x628c8", "text": "best"}
+{"offset": "0x628cd", "text": "base"}
+{"offset": "0x628d2", "text": "args"}
+{"offset": "0x628d7", "text": "None"}
+{"offset": "0x628dc", "text": "NFKD"}
+{"offset": "0x628e9", "text": "tel:"}
+{"offset": "0x628fe", "text": "\\s*$"}
+{"offset": "0x62903", "text": "^\\s*"}
+{"offset": "0x62920", "text": "_kwr"}
+{"offset": "0x62940", "text": "__doc__"}
+{"offset": "0x62958", "text": "_bfs"}
+{"offset": "0x629aa", "text": "[/\\-~]"}
+{"offset": "0x62a00", "text": "(숨김 컨테이너 오픈 +1)"}

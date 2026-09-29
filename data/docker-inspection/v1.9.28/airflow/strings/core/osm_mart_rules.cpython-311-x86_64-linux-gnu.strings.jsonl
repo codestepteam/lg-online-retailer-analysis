@@ -1,0 +1,182 @@
+{"offset": "0x18000", "text": "%.200s() needs an argument"}
+{"offset": "0x1801b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x18039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1804f", "text": "__loader__"}
+{"offset": "0x1805a", "text": "loader"}
+{"offset": "0x18061", "text": "__file__"}
+{"offset": "0x1806a", "text": "origin"}
+{"offset": "0x18071", "text": "__package__"}
+{"offset": "0x1807d", "text": "parent"}
+{"offset": "0x18084", "text": "__path__"}
+{"offset": "0x1808d", "text": "submodule_search_locations"}
+{"offset": "0x180a8", "text": "keywords must be strings"}
+{"offset": "0x180c1", "text": "_cython_coroutine_type"}
+{"offset": "0x180d8", "text": "_cython_generator_type"}
+{"offset": "0x180ef", "text": "_module"}
+{"offset": "0x180f7", "text": "__builtins__"}
+{"offset": "0x18104", "text": "_cython_3_0_12"}
+{"offset": "0x18113", "text": "%s (%s:%d)"}
+{"offset": "0x1811e", "text": "name '%U' is not defined"}
+{"offset": "0x18137", "text": "generator already executing"}
+{"offset": "0x18153", "text": "builtins"}
+{"offset": "0x1815c", "text": "cython_runtime"}
+{"offset": "0x1816b", "text": "does not match"}
+{"offset": "0x1817a", "text": "collections.abc"}
+{"offset": "0x1818a", "text": "backports_abc"}
+{"offset": "0x18198", "text": "core/osm_mart_rules.py"}
+{"offset": "0x181af", "text": "core.osm_mart_rules.genexpr"}
+{"offset": "0x181cb", "text": "init core.osm_mart_rules"}
+{"offset": "0x181e4", "text": "core.osm_mart_rules._s"}
+{"offset": "0x181fb", "text": "exactly"}
+{"offset": "0x18203", "text": "core.osm_mart_rules.menu_gate"}
+{"offset": "0x18221", "text": "core.osm_mart_rules._cntry"}
+{"offset": "0x1823c", "text": "core.osm_mart_rules.brand_key"}
+{"offset": "0x1825a", "text": "throw"}
+{"offset": "0x18260", "text": "is_tracked"}
+{"offset": "0x1826b", "text": "core.osm_mart_rules.srch_gate"}
+{"offset": "0x1828c", "text": "_cython_3_0_12.generator"}
+{"offset": "0x182a5", "text": "__name__"}
+{"offset": "0x182ae", "text": "name of the generator"}
+{"offset": "0x182c4", "text": "__qualname__"}
+{"offset": "0x182d1", "text": "gi_frame"}
+{"offset": "0x182da", "text": "Frame of the generator"}
+{"offset": "0x182f1", "text": "gi_running"}
+{"offset": "0x182fc", "text": "gi_yieldfrom"}
+{"offset": "0x18309", "text": "gi_code"}
+{"offset": "0x18311", "text": "__module__"}
+{"offset": "0x1831c", "text": "send"}
+{"offset": "0x18321", "text": "close"}
+{"offset": "0x18327", "text": "__reduce__"}
+{"offset": "0x18332", "text": "func_doc"}
+{"offset": "0x1833b", "text": "__doc__"}
+{"offset": "0x18343", "text": "func_name"}
+{"offset": "0x1834d", "text": "func_dict"}
+{"offset": "0x18357", "text": "__dict__"}
+{"offset": "0x18360", "text": "func_globals"}
+{"offset": "0x1836d", "text": "__globals__"}
+{"offset": "0x18379", "text": "func_closure"}
+{"offset": "0x18386", "text": "__closure__"}
+{"offset": "0x18392", "text": "func_code"}
+{"offset": "0x1839c", "text": "__code__"}
+{"offset": "0x183a5", "text": "func_defaults"}
+{"offset": "0x183b3", "text": "__defaults__"}
+{"offset": "0x183c0", "text": "__kwdefaults__"}
+{"offset": "0x183cf", "text": "__annotations__"}
+{"offset": "0x183df", "text": "_is_coroutine"}
+{"offset": "0x183f0", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x18418", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x18448", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x18470", "text": "function's dictionary may not be deleted"}
+{"offset": "0x184a0", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x184d0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x18530", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x18560", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x18590", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x185c0", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x18628", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x18658", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x186b8", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x186e8", "text": "__name__ must be set to a string object"}
+{"offset": "0x18710", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x18858", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x18890", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x188c0", "text": "instance exception may not have a separate value"}
+{"offset": "0x188f8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x18940", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x18980", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x189b8", "text": "%.200s() keywords must be strings"}
+{"offset": "0x189e0", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x18a10", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x18a48", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x18a78", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x18ab8", "text": " while calling a Python object"}
+{"offset": "0x18ad8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x18b08", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/osm_mart_rules.c"}
+{"offset": "0x18b40", "text": "Module 'osm_mart_rules' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x18b98", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x18be8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x18c10", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x18cc0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x18d00", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x18d40", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x18d68", "text": "generator ignored GeneratorExit"}
+{"offset": "0x18d88", "text": "core.osm_mart_rules.is_tracked"}
+{"offset": "0x18da8", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x18de0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x18e10", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x18e38", "text": "generator raised StopIteration"}
+{"offset": "0x18e58", "text": "qualified name of the generator"}
+{"offset": "0x18e78", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x18ea8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x18f08", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x18f78", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x18fb0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x18fe0", "text": "core.osm_mart_rules.__pyx_scope_struct__genexpr"}
+{"offset": "0x19010", "text": "SITE_PRODUCT_MODEL_CODE"}
+{"offset": "0x19030", "text": "core/osm_mart_rules.py"}
+{"offset": "0x19050", "text": "BOSCH ELETTRODOMESTICI"}
+{"offset": "0x19070", "text": "MAPP_PRODUCT_GR_INFO"}
+{"offset": "0x19090", "text": "core.osm_mart_rules"}
+{"offset": "0x190b0", "text": "cline_in_traceback"}
+{"offset": "0x190d0", "text": "asyncio.coroutines"}
+{"offset": "0x190f0", "text": "BEKO PROFESSIONAL"}
+{"offset": "0x19110", "text": "WASHING MACHINE"}
+{"offset": "0x19120", "text": "BOSCH HAUSGERÄTE"}
+{"offset": "0x19138", "text": "SRCH_KYWD_INFO"}
+{"offset": "0x19148", "text": "LG ELECTRONICS"}
+{"offset": "0x19158", "text": "AssertionError"}
+{"offset": "0x19168", "text": "mars_gaming"}
+{"offset": "0x19178", "text": "OSM_BRAND_MAP"}
+{"offset": "0x19188", "text": "MAPP_CAT_NAME"}
+{"offset": "0x19198", "text": "_is_coroutine"}
+{"offset": "0x191a8", "text": "cat_ne_group"}
+{"offset": "0x191b8", "text": "REFRIGERATOR"}
+{"offset": "0x191c8", "text": "mars gaming"}
+{"offset": "0x191d8", "text": "_CNTRY_ALIAS"}
+{"offset": "0x191e8", "text": "is_tracked"}
+{"offset": "0x191f8", "text": "LG ELCTRNC"}
+{"offset": "0x19208", "text": "ELECTROLUX"}
+{"offset": "0x19218", "text": "DISHWASHER"}
+{"offset": "0x19228", "text": "CNTRY_CODE"}
+{"offset": "0x19238", "text": "BRAND_NAME"}
+{"offset": "0x19248", "text": "_BRAND_FOLD"}
+{"offset": "0x19258", "text": "srch_gate"}
+{"offset": "0x19268", "text": "menu_gate"}
+{"offset": "0x19278", "text": "isenabled"}
+{"offset": "0x19288", "text": "brand_key"}
+{"offset": "0x19298", "text": "str | None"}
+{"offset": "0x192a8", "text": "mpc_null"}
+{"offset": "0x192b8", "text": "LIEBHERR"}
+{"offset": "0x192c8", "text": "sechoir"}
+{"offset": "0x192d0", "text": "genexpr"}
+{"offset": "0x192d8", "text": "disable"}
+{"offset": "0x192e0", "text": "cat_out"}
+{"offset": "0x192e8", "text": "SIEMENS"}
+{"offset": "0x192f0", "text": "SAMSUNG"}
+{"offset": "0x192f8", "text": "HISENSE"}
+{"offset": "0x19300", "text": "séchoir"}
+{"offset": "0x19309", "text": "return"}
+{"offset": "0x19310", "text": "enable"}
+{"offset": "0x19317", "text": "upper"}
+{"offset": "0x1931d", "text": "throw"}
+{"offset": "0x19323", "text": "strip"}
+{"offset": "0x19329", "text": "scope"}
+{"offset": "0x1932f", "text": "lower"}
+{"offset": "0x19335", "text": "_cntry"}
+{"offset": "0x1933c", "text": "close"}
+{"offset": "0x19342", "text": "HAIER"}
+{"offset": "0x19348", "text": "DRYER"}
+{"offset": "0x1934e", "text": "CANDY"}
+{"offset": "0x19354", "text": "BOSCH"}
+{"offset": "0x1935a", "text": "BALAY"}
+{"offset": "0x19360", "text": "__test__"}
+{"offset": "0x19369", "text": "send"}
+{"offset": "0x19370", "text": "__name__"}
+{"offset": "0x19380", "text": "__main__"}
+{"offset": "0x19389", "text": "dict"}
+{"offset": "0x1938e", "text": "bool"}
+{"offset": "0x19393", "text": "args"}
+{"offset": "0x19398", "text": "ETNA"}
+{"offset": "0x1939d", "text": "CATS"}
+{"offset": "0x193a2", "text": "BEKO"}
+{"offset": "0x193a7", "text": "_ALL7"}

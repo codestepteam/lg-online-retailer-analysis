@@ -1,0 +1,2818 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0140-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+    "capturedAt": "2026-09-28T08:09:46.372183+09:00",
+    "collectionOk": true,
+    "title": "Lavadoras y secadoras Hisense | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0140-mediamarkt-es/brand-category/raw.html",
+      "sha256": "33ec05f5fd88d3483c789bfb61e9071e288488ba12becfb2ffb550bcbc5446ae"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0140-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "eb1fec2888534090ce8fda19cc855af937c98510c0c5737ea94e26c204d1a26f"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0140-mediamarkt-es/brand-category/response.json",
+      "sha256": "05e03e8657f79ce0569f2a48061bff66f54f0d8c0ea9d08ac242d089f3832969"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "HISENSE Lavadoras y Secadoras en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div > section.sc-91123189-0.dbwda-D.sc-ed0c81e0-0 > div.sc-f08d1cb8-0.bBWKVb.sc-12389629-0 > div.sc-b5e502cb-0.hzXsTP > div.sc-33b140cf-0.jnxCco > h2.sc-59b6826e-0.eWbYnA",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "",
+        "attributes": {
+          "class": "sc-59b6826e-0 eWbYnA"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-dlUvRw.mms-ui-haSGNB.mms-ui-jTWvec > div.sc-eb42bfae-2.gjITKV > div.sc-80c1f20f-0.hkvKO > div.sc-80c1f20f-3.nmAVo > a.sc-66506eb5-1.cevLqa.sc-a95fa178-1 > h3.sc-59b6826e-0.ksuKuw",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Reembolso hasta 150€",
+        "attributes": {
+          "class": "sc-59b6826e-0 ksuKuw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-dlUvRw.mms-ui-haSGNB.mms-ui-jTWvec > div.sc-eb42bfae-2.gjITKV > div.sc-80c1f20f-0.hkvKO > div.sc-80c1f20f-3.nmAVo > a.sc-66506eb5-1.cevLqa.sc-a95fa178-1 > h3.sc-59b6826e-0.ksuKuw",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Más capacidad en menos espacio",
+        "attributes": {
+          "class": "sc-59b6826e-0 ksuKuw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF5I1045BWQ , 10.5 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora integrable - Hisense WD3M841BWIES , 8 kg /6 kg, 19 programas, Lavado Secado 1h, Inverter, Sin Panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora integrable - Hisense WF3M841BWIES, 8 kg, 1400 rpm, 15 programas, Secado Allergy Care, Clase A, Sin Panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF5I1245BWR, 12 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF3S1043BW3, 10 kg, 1400 rpm, 19 programas, A-20%, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Clase A-30%, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Hisense WF5S1045BW, 10.5 kg, 1400 rpm, 19 programas, Auto-Dosificación, Motor Inverter, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas. Clase A-30%, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Para qué sirve la función vapor?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cómo funciona la Wi Fi en las lavadoras Hisense?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:r17:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":r17:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:r19:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":r19:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:r1b:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":r1b:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:r1d:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":r1d:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:r1e:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":r1e:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 105,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/EsTfAq361NfJAGw4RO2rF/f03026b68f6492859a6a6f6d3806df29/StandartTeaser_Desktop-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/wTKI03aVKg5x8Qj9KISwd/102cb2bfae1a93bb4a9594e0a33233eb/5i-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199676?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199345?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199678?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199333?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199347?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199341?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199674?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199334?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 89,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 90,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 76,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/EsTfAq361NfJAGw4RO2rF/f03026b68f6492859a6a6f6d3806df29/StandartTeaser_Desktop-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/wTKI03aVKg5x8Qj9KISwd/102cb2bfae1a93bb4a9594e0a33233eb/5i-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199676?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199345?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199678?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199333?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199347?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Lavadoras y secadoras Hisense | MediaMarkt"
+        ],
+        "metaDescription": [
+          "La mayor oferta de lavadoras y secadoras Hisense la encontrarás en MediaMarkt al mejor precio. Haz tu pedido en nuestra web y recógelo en 30 min en la tienda MediaMarkt que quieras."
+        ],
+        "h1": [
+          "HISENSE Lavadoras y Secadoras en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/EsTfAq361NfJAGw4RO2rF/f03026b68f6492859a6a6f6d3806df29/StandartTeaser_Desktop-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/wTKI03aVKg5x8Qj9KISwd/102cb2bfae1a93bb4a9594e0a33233eb/5i-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199676?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199345?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199678?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199333?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199347?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199341?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199674?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199334?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "tecnologia"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "tecnologia"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "tecnologia"
+            ]
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "397,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "309,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "407,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "369,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "439,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "379,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "759,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "419,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "543,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "499,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "679,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "641,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "572,74€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "661,58€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "399,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "497,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "377,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "276,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "602,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "577,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "434,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "699,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "432,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "343,88€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "498,81€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "816,50€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "398,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "412,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "808,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,31€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "492,08€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "HISENSE",
+            "href": "https://www.mediamarkt.es/es/brand/hisense",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Lavadoras",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/lavadoras",
+            "signals": [
+              "페이지 주제어와 일치: lavadoras"
+            ]
+          },
+          {
+            "text": "Lava secadoras",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/lavasecadoras",
+            "signals": [
+              "페이지 주제어와 일치: secadoras"
+            ]
+          },
+          {
+            "text": "Secadoras",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/secadoras",
+            "signals": [
+              "페이지 주제어와 일치: secadoras"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense, lavadoras"
+            ]
+          },
+          {
+            "text": "¿Cómo funciona la Wi Fi en las lavadoras Hisense?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense, lavadoras"
+            ]
+          },
+          {
+            "text": "¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense, lavadoras"
+            ]
+          },
+          {
+            "text": "¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+            "signals": [
+              "페이지 주제어와 일치: hisense, lavadoras"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Ficha técnica Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco 62 Basado en 62 valoraciones Medidas (An x Al x F) 59.5 cm x 84.5 cm x 59 cm Consumo anual de energía calentado eléctricamente 244 kWh Compatible con la aplicación No Sensor de humedad Sí -20% 499,– € 499,00€ 397,– € 397,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco 234 Basado en 234 valoraciones Nivel de ruido del centrifugado 72 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -22% 399,– € 399,00€ 309,– € 309,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Top venta Ficha técnica Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco 131 Basado en 131 valoraciones Capacidad secado 5 kg Capacidad de carga 8 kg Nivel de ruido del centrifugado 70 dB(A) Medidas (An x Al x F) 59.5 cm x 84.5 cm x 51 cm -18% 499,– € 499,00€ 407,– € 407,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco 186 Basado en 186 valoraciones Nivel de ruido del centrifugado 72 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí -22% 479,– € 479,00€ 369,– € 369,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco 104 Basado en 104 valoraciones Dosificación automática No Función Vapor Sí Compatible con la aplicación Sí Control de carga No -8% 479,– € 479,00€ 439,– € 439,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco 189 Basado en 189 valoraciones Nivel de ruido del centrifugado 74 dB(A) Dosificación automática No Función Vapor Sí Compatible con la aplicación No -17% 459,– € 459,00€ 379,– € 379,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Reembolso 60€ Vuelta al cole Ficha técnica Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco 29 Basado en 29 valoraciones Medidas (An x Al x F) 59.5 cm x 84.5 cm x 64 cm Compatible con la aplicación Sí Sensor de humedad Sí Función Anti-arrugas Sí -11% 859,– € 859,00€ 759,– € 759,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro 215 Basado en 215 valoraciones Nivel de ruido del centrifugado 72 dB(A) Dosificación automática No",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Secadora blanca Hisense con puerta negra y pantalla digital sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1604541.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1604541.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora frontal Hisense blanca con puerta negra y pantalla digital sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bw-8-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1593599.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bw-8-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1593599.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Hisense con panel negro, puerta redonda de vidrio con ropa azul y etiqueta de garantía de 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1572477.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1572477.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca Hisense con panel de control negro y puerta de vidrio redonda sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572478.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572478.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Hisense con panel de control negro, puerta de cristal grande y pegatina de 20 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i9043bwfs-9-kg-1400-rpm-18-programas-fondo-reducido-47cm-programa-mascotas-blanco-1603936.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i9043bwfs-9-kg-1400-rpm-18-programas-fondo-reducido-47cm-programa-mascotas-blanco-1603936.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora frontal Hisense blanca con puerta negra, pantalla digital y selector giratorio.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q1041bw-10-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1591328.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q1041bw-10-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1591328.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de una secadora blanca Hisense con panel de control negro, puerta de cristal grande y rejilla de ventilación.",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh5i104bwab-10-kg-18-programas-ifit-wifi-estante-flexible-blanco-1603935.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh5i104bwab-10-kg-18-programas-ifit-wifi-estante-flexible-blanco-1603935.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense negra con pantalla digital, selector de programas y pegatina de garantía de 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bb3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572479.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bb3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572479.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de una lavadora Hisense blanca con panel de control negro y pegatina de 20 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1045bwq-105-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603937.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF5I1045BWQ , 10.5 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1045bwq-105-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603937.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta abierta y pantalla digital sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-integrable-hisense-wd3m841bwies-8-kg-6-kg-19-programas-lavado-secado-1h-inverter-blanco-1580164.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora integrable - Hisense WD3M841BWIES , 8 kg /6 kg, 19 programas, Lavado Secado 1h, Inverter, Sin Panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-integrable-hisense-wd3m841bwies-8-kg-6-kg-19-programas-lavado-secado-1h-inverter-blanco-1580164.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Hisense con puerta abierta, fondo liso y panel de control digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-integrable-hisense-wf3m841bwies-8-kg-1400-rpm-15-programas-secado-allergy-care-clase-a-blanco-1580149.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora integrable - Hisense WF3M841BWIES, 8 kg, 1400 rpm, 15 programas, Secado Allergy Care, Clase A, Sin Panelar",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-integrable-hisense-wf3m841bwies-8-kg-1400-rpm-15-programas-secado-allergy-care-clase-a-blanco-1580149.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora frontal Hisense blanca con panel de control negro, puerta grande de vidrio y adhesivo de garantía de 20 años.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wi-fi-programa-especial-mascotas-blanco-1603934.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wi-fi-programa-especial-mascotas-blanco-1603934.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca Hisense con panel de control negro, puerta circular y pegatina de garantía de 20 años en el motor.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1245bwr-12-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603938.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF5I1245BWR, 12 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1245bwr-12-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603938.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta redonda negra, mando de control y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bwl2-11-kg-7-kg-blanco-183090910.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bwl2-11-kg-7-kg-blanco-183090910.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora de carga frontal Hisense negra con pantalla digital y dial sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bbl2-11-kg-7-kg-negro-183090908.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bbl2-11-kg-7-kg-negro-183090908.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora frontal Hisense gris oscura con ojo de buey negro, pantalla digital y selector giratorio.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i9042btp2-9-kg-1400-rpm-15-programas-tecnologia-inverter-funcion-vapor-99percent-inox-gris-1666977.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i9042btp2-9-kg-1400-rpm-15-programas-tecnologia-inverter-funcion-vapor-99percent-inox-gris-1666977.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw1-10-kg-1400-rpm-15-programas-connectlife-tecnologia-inverter-blanco-1666981.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Hisense blanca. Pantalla digital. Capacidad de 10.5 kilos, 14000 revoluciones y eficiencia A-20%. Garantía de 10 años en el motor.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw3-10-kg-1400-rpm-19-programas-a-20percent-wifi-blanco-1582997.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF3S1043BW3, 10 kg, 1400 rpm, 19 programas, A-20%, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw3-10-kg-1400-rpm-19-programas-a-20percent-wifi-blanco-1582997.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta y panel negro. Muestra un reloj digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavasecadoras-hisense-wd3s9043bw3-9-kg-6-kg-blanco-149712299.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavasecadoras-hisense-wd3s9043bw3-9-kg-6-kg-blanco-149712299.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de una lavadora Hisense blanca con puerta de cristal negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i1142bwl-11-kg-1400-rpm-15-programas-funcion-vapor-99percent-tecnologia-inverter-blanco-1666978.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i1142bwl-11-kg-1400-rpm-15-programas-funcion-vapor-99percent-tecnologia-inverter-blanco-1666978.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de una lavadora Hisense blanca con puerta negra y panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-wifiandbluetooth-clase-a-30percent-blanco-1585901.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Clase A-30%, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-wifiandbluetooth-clase-a-30percent-blanco-1585901.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora Hisense blanca con bomba de calor. Puerta negra grande y pantalla digital. Logotipo ConnectLife.",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s902bw3-electrico-9-kg-blanco-145135875.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s902bw3-electrico-9-kg-blanco-145135875.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca. Puerta y panel de control negros. Características: eficiencia A/D, 1400 RPM y 20 años de garantía del motor.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wifi-programa-especial-mascotas-blanco-1667024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wifi-programa-especial-mascotas-blanco-1667024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una secadora de bomba de calor Hisense blanca. Tiene una puerta redonda grande con pantalla digital que muestra 03:20. Incluye varios modos de secado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1612187.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1612187.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora blanca Hisense. Tiene una puerta negra, panel de control y pantalla digital que muestra 3:20. La máquina tiene 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5s1045bw-105-kg-6-programas-auto-dosificacion-motor-inverter-wifi-blanco-1550958.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - Hisense WF5S1045BW, 10.5 kg, 1400 rpm, 19 programas, Auto-Dosificación, Motor Inverter, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5s1045bw-105-kg-6-programas-auto-dosificacion-motor-inverter-wifi-blanco-1550958.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Hisense blanca con puerta negra. Un objeto azul es visible a través de la puerta de cristal.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1586146.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas. Clase A-30%, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1586146.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta negra y panel de control superior.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i8043bwf-8-kg-blanco-157951172.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i8043bwf-8-kg-blanco-157951172.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta y panel de control negros. La pantalla muestra 01:50.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q9041bw-9-kg-15-programas-blanco-149623483.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q9041bw-9-kg-15-programas-blanco-149623483.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Hisense blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s802bw2-electrico-16-programas-blanco-159759705.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s802bw2-electrico-16-programas-blanco-159759705.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca con puerta y panel negro. Muestra el logo de Hisense.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1245bwr-12-kg-8-kg-blanco-162769356.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1245bwr-12-kg-8-kg-blanco-162769356.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Hisense gris, con puerta negra, panel de control y etiquetas visibles.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bt-8-kg-15-programas-gris-152121781.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bt-8-kg-15-programas-gris-152121781.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una secadora de bomba de calor Hisense blanca con puerta y pantalla negras.",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe800bw2-16-programas-blanco-152144205.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe800bw2-16-programas-blanco-152144205.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora blanca con puerta negra y panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1243bw3-12-kg-19-programas-blanco-146558763.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1243bw3-12-kg-19-programas-blanco-146558763.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con puerta negra y pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf7s1247bw-12-kg-20-programas-blanco-149063115.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf7s1247bw-12-kg-20-programas-blanco-149063115.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una lavadora Hisense blanca con la puerta abierta. La puerta es negra y transparente. El panel de control es negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i8043bwf-800-kg-500-kg-blanco-162649436.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i8043bwf-800-kg-500-kg-blanco-162649436.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora Hisense blanca con ojo de buey y panel de control negros.",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8045bw3-1-kg-1-kg-blanco-145249063.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+            "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8045bw3-1-kg-1-kg-blanco-145249063.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un smartphone azul oscuro muestra su parte delantera y trasera. La parte trasera tiene tres cámaras, flash y el logo de Apple. La pantalla tiene líneas brillantes.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+            "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Una consola negra Nintendo Switch 2 con mandos Joy-Con sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+            "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Tableta blanca con marco negro, con un fondo de pantalla abstracto y colorido en la pantalla.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Dos AirPods Pro blancos sobre fondo gris. Cada uno tiene una malla negra arriba y abajo. Las puntas son negras.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un iPhone plateado que muestra su parte trasera con tres cámaras y logotipo de Apple, junto a su pantalla con patrón.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 Marvel: Lobezno",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Wolverine, personaje de Marvel Comics, con garras sobre fondo amarillo.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+            "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vista frontal de un portátil ASUS Vivobook gris plateado con fondo de pantalla azul.",
+            "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Consola y mando PlayStation 5. Consola y mando blancos sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Para qué sirve la función vapor?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cómo funciona la Wi Fi en las lavadoras Hisense?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa?",
+            "attributes": {
+              "id": "acc-header-4",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense? Ofrece un lavado más silencioso, mayor durabilidad y un menor consumo energético en cada ciclo. ¿Para qué sirve la función vapor? Elimina el 99,9 % de bacterias, reduce arrugas y mejora el cuidado de tejidos delicados. ¿Cómo funciona la Wi Fi en las lavadoras Hisense? Permite controlar la lavadora desde el móvil, programar ciclos y recibir alertas mediante la app Connect Life. ¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense? Ajusta automáticamente la cantidad exacta de detergente y suavizante, evitando desperdicios y cuidando la ropa. ¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa? Sí, incluyen lavados rápidos desde 15 minutos y la función Pausa & Añadir para introducir prendas olvidadas sin reiniciar el ciclo.",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#mms-app-root > main#main-content > div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div#FAQs | Hisense | Lavadoras y secadoras",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense? Ofrece un lavado más silencioso, mayor durabilidad y un menor consumo energético en cada ciclo. ¿Para qué sirve la función vapor? Elimina el 99,9 % de bacterias, reduce arrugas y mejora el cuidado de tejidos delicados. ¿Cómo funciona la Wi Fi en las lavadoras Hisense? Permite controlar la lavadora desde el móvil, programar ciclos y recibir alertas mediante la app Connect Life. ¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense? Ajusta automáticamente la cantidad exacta de detergente y suavizante, evitando desperdicios y cuidando la ropa. ¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa? Sí, incluyen lavados rápidos desde 15 minutos y la función Pausa & Añadir para introducir prendas olvidadas sin reiniciar el ciclo.",
+            "attributes": {
+              "id": "FAQs | Hisense | Lavadoras y secadoras",
+              "class": "mms-ui-dMMuNs mms-ui-xNKOC mms-ui-ksdoCR mms-ui-fQrmuT mms-ui-eaFySo"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

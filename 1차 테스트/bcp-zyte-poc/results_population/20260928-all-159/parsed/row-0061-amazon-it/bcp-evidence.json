@@ -1,0 +1,1448 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0061-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/97A7ED25-73E3-4E69-8868-A7B59C838BC3?lp_context_asin=B0CPYNWHVS",
+    "finalUrl": "https://www.amazon.it/stores/page/97A7ED25-73E3-4E69-8868-A7B59C838BC3?lp_context_asin=B0CPYNWHVS",
+    "capturedAt": "2026-09-28T08:01:26.897246+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Bosch Elettrodomestici: Lavatrici"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0061-amazon-it/brand-category/raw.html",
+      "sha256": "abdb3e50735b6900efcb6616c041723bd6b430e197e40d533e9069b71e5ebb09"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0061-amazon-it/brand-category/capture-state.json",
+      "sha256": "28a0115894d6429826fbd98d75fa5414b72fe4a4b76e69b03506a675f9990725"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0061-amazon-it/brand-category/response.json",
+      "sha256": "96daa1b7cb051a4db3005f924458af421358e2e84c48ce4e82c14e80fb5ed9d4"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bosch WGB24402IT Serie 8 Lavatrice 9kg 1400 giri/min Efficienza A -50% | Lavatrice con vapore, Smart, Programma per carichi ridotti, Motore...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h2.EditorialTileProduct__title__rodF5",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "WGH254A0IT Serie 6",
+        "attributes": {
+          "class": "EditorialTileProduct__title__rodF5"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h3.EditorialTileProduct__text__Ggktv",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavatrice smart a carica frontale, 10 kg, 1400 giri, Efficienza energetica A -20%, sistema di dosaggio automatico del detersivo e dell’ammorbidente",
+        "attributes": {
+          "class": "EditorialTileProduct__text__Ggktv"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h2.EditorialTileProduct__title__rodF5",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "WGB24400IT Serie 8",
+        "attributes": {
+          "class": "EditorialTileProduct__title__rodF5"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h3.EditorialTileProduct__text__Ggktv",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavatrice smart a carica frontale, 9 kg, 1400 giri, Efficienza energetica A -20%, con vapore per ridurre le pieghe",
+        "attributes": {
+          "class": "EditorialTileProduct__text__Ggktv"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bosch WGG254Z0II Serie 6 Lavatrice 10kg 1400 giri/min Bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Motore silenzioso con...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bosch WGG244Z0IT Serie 6 Lavatrice 9kg 1400 giri/min bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Sistema Antimacchia,...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 84,
+        "top10ByRenderedArea": [
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0ec9b343-4c12-4b62-8322-3f1ccc21d566._CR0%2C0%2C3000%2C1786_SX1500_.jpg",
+            "alt": "Text reads: 'Ottieni fino a 150€* di rimborso, con il cashback Bosch.' 'ECCO COME FARE IN 3 SEMPLICI PASSAGGI:' with three steps: '1 ACQUISTA', '2 REGISTRA', '3 RICEVI'. Blue promotional banner for Bosch cashback rebate program with registration instructions and website www.bosch-home.com/it.",
+            "renderedWidth": 1470,
+            "renderedHeight": 875.125,
+            "renderedArea": 1286433.75,
+            "naturalWidth": 1500,
+            "naturalHeight": 893,
+            "naturalArea": 1339500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/559bc87c-68db-4ee1-a5d7-82b93d83aac2._CR0%2C0%2C3000%2C1000_SX1500_.png",
+            "alt": "Text reads \"RESISTENZA DA CAMPIONI\", \"LE LAVATRICI BOSCH SONO TESTATE PER DURARE 20 ANNI*\". Two white sports jerseys displayed on right side with red accents, numbered 1 and 3, against blue background advertising Bosch washing machine durability.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/44268735-e121-49cc-8642-52d59c651469._CR0%2C0%2C3000%2C1000_SX1500_.jpg",
+            "alt": "Text reads \"BOSCH\", \"SCEGLI BOSCH E PORTA IL CASHBACK A META!\", \"CASHBACK 150€\", \"Acquista una lavatrice Bosch e ottieni fino a 150€ di rimborso.\" Bosch front-load washing machine with dark drum on blue background, cashback promotion banner advertising €150 rebate on purchase.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/10f5ef24-44ce-47f3-96ca-f86b7a395f80._CR0%2C1442%2C4000%2C800_SX1500_.jpg",
+            "alt": "Laundry room with two white front-loading washers or dryers, wooden clothing rack holding two white jerseys with red text, and a small potted cactus on top.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/I/71JUMasTyDL._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 422.140625,
+            "renderedHeight": 583.125,
+            "renderedArea": 246160.751953125,
+            "naturalWidth": 750,
+            "naturalHeight": 1036,
+            "naturalArea": 777000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 67,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 75,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/618wGPo-5wL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/71tI31OAD1L._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/I/81favk6CUtL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0ec9b343-4c12-4b62-8322-3f1ccc21d566._CR0%2C0%2C3000%2C1786_SX1500_.jpg",
+            "alt": "Text reads: 'Ottieni fino a 150€* di rimborso, con il cashback Bosch.' 'ECCO COME FARE IN 3 SEMPLICI PASSAGGI:' with three steps: '1 ACQUISTA', '2 REGISTRA', '3 RICEVI'. Blue promotional banner for Bosch cashback rebate program with registration instructions and website www.bosch-home.com/it.",
+            "renderedWidth": 1470,
+            "renderedHeight": 875.125,
+            "renderedArea": 1286433.75,
+            "naturalWidth": 1500,
+            "naturalHeight": 893,
+            "naturalArea": 1339500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://m.media-amazon.com/images/I/71tA9L11PDL._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 228.515625,
+            "renderedHeight": 317.2001953125,
+            "renderedArea": 72485.20088195801,
+            "naturalWidth": 750,
+            "naturalHeight": 1041,
+            "naturalArea": 780750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/I/71JUMasTyDL._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 422.140625,
+            "renderedHeight": 583.125,
+            "renderedArea": 246160.751953125,
+            "naturalWidth": 750,
+            "naturalHeight": 1036,
+            "naturalArea": 777000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 47,
+            "src": "https://m.media-amazon.com/images/I/71PzbaHeL1L._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 230.059326171875,
+            "renderedHeight": 317.2001953125,
+            "renderedArea": 72974.8631951809,
+            "naturalWidth": 750,
+            "naturalHeight": 1034,
+            "naturalArea": 775500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/559bc87c-68db-4ee1-a5d7-82b93d83aac2._CR0%2C0%2C3000%2C1000_SX1500_.png",
+            "alt": "Text reads \"RESISTENZA DA CAMPIONI\", \"LE LAVATRICI BOSCH SONO TESTATE PER DURARE 20 ANNI*\". Two white sports jerseys displayed on right side with red accents, numbered 1 and 3, against blue background advertising Bosch washing machine durability.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/44268735-e121-49cc-8642-52d59c651469._CR0%2C0%2C3000%2C1000_SX1500_.jpg",
+            "alt": "Text reads \"BOSCH\", \"SCEGLI BOSCH E PORTA IL CASHBACK A META!\", \"CASHBACK 150€\", \"Acquista una lavatrice Bosch e ottieni fino a 150€ di rimborso.\" Bosch front-load washing machine with dark drum on blue background, cashback promotion banner advertising €150 rebate on purchase.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/10f5ef24-44ce-47f3-96ca-f86b7a395f80._CR0%2C1442%2C4000%2C800_SX1500_.jpg",
+            "alt": "Laundry room with two white front-loading washers or dryers, wooden clothing rack holding two white jerseys with red text, and a small potted cactus on top.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 67,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 75,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/618wGPo-5wL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Bosch Elettrodomestici: Lavatrici"
+        ],
+        "metaDescription": [
+          "Lavatrici"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/BoschElettrodomestici/page/97A7ED25-73E3-4E69-8868-A7B59C838BC3"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-f3wst7zmjm > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-f3wst7zmjm > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 41,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0ec9b343-4c12-4b62-8322-3f1ccc21d566._CR0%2C0%2C3000%2C1786_SX1500_.jpg",
+            "alt": "Text reads: 'Ottieni fino a 150€* di rimborso, con il cashback Bosch.' 'ECCO COME FARE IN 3 SEMPLICI PASSAGGI:' with three steps: '1 ACQUISTA', '2 REGISTRA', '3 RICEVI'. Blue promotional banner for Bosch cashback rebate program with registration instructions and website www.bosch-home.com/it.",
+            "renderedWidth": 1470,
+            "renderedHeight": 875.125,
+            "renderedArea": 1286433.75,
+            "naturalWidth": 1500,
+            "naturalHeight": 893,
+            "naturalArea": 1339500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/559bc87c-68db-4ee1-a5d7-82b93d83aac2._CR0%2C0%2C3000%2C1000_SX1500_.png",
+            "alt": "Text reads \"RESISTENZA DA CAMPIONI\", \"LE LAVATRICI BOSCH SONO TESTATE PER DURARE 20 ANNI*\". Two white sports jerseys displayed on right side with red accents, numbered 1 and 3, against blue background advertising Bosch washing machine durability.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/44268735-e121-49cc-8642-52d59c651469._CR0%2C0%2C3000%2C1000_SX1500_.jpg",
+            "alt": "Text reads \"BOSCH\", \"SCEGLI BOSCH E PORTA IL CASHBACK A META!\", \"CASHBACK 150€\", \"Acquista una lavatrice Bosch e ottieni fino a 150€ di rimborso.\" Bosch front-load washing machine with dark drum on blue background, cashback promotion banner advertising €150 rebate on purchase.",
+            "renderedWidth": 1470,
+            "renderedHeight": 490,
+            "renderedArea": 720300,
+            "naturalWidth": 1500,
+            "naturalHeight": 500,
+            "naturalArea": 750000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/10f5ef24-44ce-47f3-96ca-f86b7a395f80._CR0%2C1442%2C4000%2C800_SX1500_.jpg",
+            "alt": "Laundry room with two white front-loading washers or dryers, wooden clothing rack holding two white jerseys with red text, and a small potted cactus on top.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://m.media-amazon.com/images/I/71JUMasTyDL._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 422.140625,
+            "renderedHeight": 583.125,
+            "renderedArea": 246160.751953125,
+            "naturalWidth": 750,
+            "naturalHeight": 1036,
+            "naturalArea": 777000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 67,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 75,
+            "src": "https://m.media-amazon.com/images/I/419XXlbN5qL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 390,
+            "renderedHeight": 360,
+            "renderedArea": 140400,
+            "naturalWidth": 390,
+            "naturalHeight": 360,
+            "naturalArea": 140400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/618wGPo-5wL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/71tI31OAD1L._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/I/81favk6CUtL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__videoTile__Yi8Im.EditorialTileVideo__large___CJ34.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_4588 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - Bosch's Iron Assist is an innovative washing machine feature using steam technology to treat damp clothes, reducing wrinkles and ironing time by up to 50%. This smart laundry solution combines vapor treatment with efficient washing cycles, making garment care easier while minimizing the need for traditional ironing, perfect for busy households seeking convenience. - Bosch's Iron Assist is an innovative washing machine feature using steam technology to treat damp clothes, reducing wrinkles and ironing time by up to 50%. This smart laundry solution combines vapor treatment with efficient washing cycles, making garment care easier while minimizing the need for traditional ironing, perfect for busy households seeking convenience."
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__videoTile__Yi8Im.EditorialTileVideo__large___CJ34.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_5498 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - This Bosch washing machine advertisement showcases the Opzione Mini feature, highlighting its ability to reduce energy consumption by up to 40%. The product excels in washing individual items like hats with minimal water and detergent required. The intuitive control panel and care-free wash cycles eliminate user concerns, making laundry effortless while promoting sustainability and convenience for modern households. - This Bosch washing machine advertisement showcases the Opzione Mini feature, highlighting its ability to reduce energy consumption by up to 40%. The product excels in washing individual items like hats with minimal water and detergent required. The intuitive control panel and care-free wash cycles eliminate user concerns, making laundry effortless while promoting sustainability and convenience for modern households."
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__videoTile__Yi8Im.EditorialTileVideo__large___CJ34.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_15538 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - A comprehensive showcase of modern washing machines featuring advanced user interfaces, space-efficient designs, and superior energy efficiency. The advertisement highlights intelligent laundry technology with seamless home integration, versatile washing capabilities, and a focus on user-friendly controls and aesthetic appeal in contemporary living spaces. - A comprehensive showcase of modern washing machines featuring advanced user interfaces, space-efficient designs, and superior energy efficiency. The advertisement highlights intelligent laundry technology with seamless home integration, versatile washing capabilities, and a focus on user-friendly controls and aesthetic appeal in contemporary living spaces."
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Bosch Elettrodomestici",
+            "href": "https://www.amazon.it/stores/page/F5EB03D4-D7D5-4001-A28B-AA66880DA7E6?ingress=0&lp_context_asin=B0CPYNWHVS&visitId=2bea1e6f-db76-4446-979a-58c8abc36ce7",
+            "signals": [
+              "페이지 주제어와 일치: bosch, elettrodomestici"
+            ]
+          },
+          {
+            "text": "Lavatrici e Asciugatrici",
+            "href": "https://www.amazon.it/stores/page/D66A1CF1-D7AF-4FFA-B588-9AEDE6124197?ingress=0&lp_context_asin=B0CPYNWHVS&visitId=2bea1e6f-db76-4446-979a-58c8abc36ce7",
+            "signals": [
+              "페이지 주제어와 일치: lavatrici"
+            ]
+          },
+          {
+            "text": "Lavatrici",
+            "href": "https://www.amazon.it/stores/page/97A7ED25-73E3-4E69-8868-A7B59C838BC3?lp_context_asin=B0CPYNWHVS#",
+            "signals": [
+              "페이지 주제어와 일치: lavatrici"
+            ]
+          },
+          {
+            "text": "LAVATRICI E ASCIUGATRICI",
+            "href": "https://www.amazon.it/stores/page/D66A1CF1-D7AF-4FFA-B588-9AEDE6124197?ingress=0&lp_context_asin=B0CPYNWHVS&visitId=2bea1e6f-db76-4446-979a-58c8abc36ce7",
+            "signals": [
+              "페이지 주제어와 일치: lavatrici"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGB24402IT Serie 8 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGB24402IT Serie 8 Lavatrice 9kg... 4,2 4,2 su 5 stelle 53 4,2 su 5 stelle. 53 recensioni dei clienti - 11% 918 , 79 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.031 , 98 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGB24400IT Serie 8 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGB24400IT Serie 8 Lavatrice 9kg... 4,6 4,6 su 5 stelle 59 4,6 su 5 stelle. 59 recensioni dei clienti - 19% 799 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 987 , 71 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGH254A0IT Serie 6 Lavatrice 10kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGH254A0IT Serie 6 Lavatrice 10kg... 4,3 4,3 su 5 stelle 30 4,3 su 5 stelle. 30 recensioni dei clienti 949 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WUU28T29II Serie 6 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WUU28T29II Serie 6 Lavatrice 9kg... 4,3 4,3 su 5 stelle 30 4,3 su 5 stelle. 30 recensioni dei clienti 624 , 99 € Ricevilo entro il giorno venerdì 2 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGG254F0II Serie 6 Lavatrice 10kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGG254F0II Serie 6 Lavatrice 10kg... 4,3 4,3 su 5 stelle 48 4,3 su 5 stelle. 48 recensioni dei clienti 679 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGG254Z0II Serie 6 Lavatrice 10kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGG254Z0II Serie 6 Lavatrice 10kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti 578 , 99 € Ricevilo entro il giorno venerdì 2 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGG244ZRIT Serie 6 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGG244ZRIT Serie 6 Lavatrice 9kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti 679 , 98 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGG244Z0IT Serie 6 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGG244Z0IT Serie 6 Lavatrice 9kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti -10% 551 , 66 € Prezzo consigliato: Barrato - Prezzo consigliato: 614 , 10 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WAN28219IT Serie 4 Lavatrice 9kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WAN28219IT Serie 4 Lavatrice 9kg... 3,2 3,2 su 5 stelle 9 3,2 su 5 stelle. 9 recensioni dei clienti -21% 462 , 56 € Prezzo consigliato: Barrato - Prezzo consigliato: 586 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WAN28228IT Serie 4 Lavatrice 8kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WAN28228IT Serie 4 Lavatrice 8kg... 4,5 4,5 su 5 stelle 26 4,5 su 5 stelle. 26 recensioni dei clienti 419 , 90 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Bosch WGE03200IT Serie 2 Lavatrice 8kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGE03200IT Serie 2 Lavatrice 8kg... 4,6 4,6 su 5 stelle 160 4,6 su 5 stelle. 160 recensioni dei clienti 406 , 00 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-f1598vfj2o > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Bosch WGB24402IT Serie 8 Lavatrice 9kg... 4,2 4,2 su 5 stelle 53 4,2 su 5 stelle. 53 recensioni dei clienti - 11% 918 , 79 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.031 , 98 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Bosch WGB24400IT Serie 8 Lavatrice 9kg... 4,6 4,6 su 5 stelle 59 4,6 su 5 stelle. 59 recensioni dei clienti - 19% 799 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 987 , 71 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Bosch WGH254A0IT Serie 6 Lavatrice 10kg... 4,3 4,3 su 5 stelle 30 4,3 su 5 stelle. 30 recensioni dei clienti 949 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Bosch WUU28T29II Serie 6 Lavatrice 9kg... 4,3 4,3 su 5 stelle 30 4,3 su 5 stelle. 30 recensioni dei clienti 624 , 99 € Ricevilo entro il giorno venerdì 2 ottobre Aggiungi al carrello Visualizzazione rapida Bosch WGG254F0II Serie 6 Lavatrice 10kg... 4,3 4,3 su 5 stelle 48 4,3 su 5 stelle. 48 recensioni dei clienti 679 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Bosch WGG254Z0II Serie 6 Lavatrice 10kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti 578 , 99 € Ricevilo entro il giorno venerdì 2 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Bosch WGG244ZRIT Serie 6 Lavatrice 9kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti 679 , 98 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Bosch WGG244Z0IT Serie 6 Lavatrice 9kg... 4,4 4,4 su 5 stelle 198 4,4 su 5 stelle. 198 recensioni dei clienti -10% 551 , 66 € Prezzo consigliato: Barrato - Prezzo consigliato: 614 , 10 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Bosch WAN28219IT Serie 4 Lavatrice 9kg... 3,2 3,2 su 5 stelle 9 3,2 su 5 stelle. 9 recensioni dei clienti -21% 462 , 56 € Prezzo consigliato: Barrato - Prezzo consigliato: 586 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Bosch WAN28228IT Serie 4 Lavatrice 8kg... 4,5 4,5 su 5 stelle 26 4,5 su 5 stelle. 26 recensioni dei clienti 419 , 90 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Bosch WGE03200IT Serie 2 Lavatrice 8kg... 4,6 4,6 su 5 stelle 160 4,6 su 5 stelle. 160 recensioni dei clienti 406 , 00 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Bosch WGB24402IT Serie 8 Lavatrice 9kg 1400 giri/min Efficienza A -50% | Lavatrice con vapore, Smart, Programma per carichi ridotti, Motore...",
+            "href": "https://www.amazon.it/Bosch-WGB24402IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYMXF4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.2 4,2 su 5 stelle 53",
+            "href": "https://www.amazon.it/Bosch-WGB24402IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYMXF4?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Bosch-WGB24402IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYMXF4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGB24402IT Serie 8 Lavatrice 9kg 1400 giri/min Efficienza A -50% | Lavatrice con vapore, Smart, Programma per carichi ridotti, Motore silenzioso con 10 anni di assistenza, Made in Germany",
+            "href": "https://www.amazon.it/Bosch-WGB24402IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYMXF4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGH254A0IT Serie 6 Lavatrice 10kg 1400 giri/min Efficienza A-20% | Lavatrice con dosaggio automatico di detersivo e ammorbidente, Trattamento vapore, Smart, 10 anni di assistenza sul motore",
+            "href": "https://www.amazon.it/Bosch-WGH254A0IT-Lavatrice-frontale-automatico/dp/B0DFPZNDV7?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGB24400IT Serie 8 Lavatrice 9kg 1400 giri/min Efficienza A-20% | Lavatrice con vapore, Smart, Programma per carichi ridotti, Motore silenzioso con 10 anni di assistenza, Made in Germany",
+            "href": "https://www.amazon.it/Bosch-WGB24400IT-Lavatrice-frontale-capacit%C3%A0/dp/B0CHMM95LL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WUU28T29II Serie 6 Lavatrice 9kg 1400 giri/min Classe A | Lavatrice con doppio attacco per acqua calda e fredda, programma igienico, 10 anni di assistenza, Made in Europe sul motore",
+            "href": "https://www.amazon.it/Bosch-WUU28T29II-Lavatrice-frontale-removibile/dp/B0CYCFDGSC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG254F0II Serie 6 Lavatrice 10kg 1400 giri/min | Lavatrice con dosaggio automatico di detersivo e ammorbidente, Vapore, Sistema Antimacchia, 10 anni di assistenza sul motore",
+            "href": "https://www.amazon.it/Bosch-WGG254F0II-energetica-automatico-dellammorbidente/dp/B0DWXMBWXY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG254Z0II Serie 6 Lavatrice 10kg 1400 giri/min Bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Motore silenzioso con 10 anni di assistenza, Made in Europe",
+            "href": "https://www.amazon.it/Bosch-WGG254Z0II-Lavatrice-energetica-stiratura/dp/B0DWXN3GNL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG244ZRIT Serie 6 Lavatrice 9kg 1400 giri/min Antracite | Lavatrice con vapore, Sitema di riconoscimento del carico, Sistema Antimacchia, Motore silenzioso con 10 anni di assistenza",
+            "href": "https://www.amazon.it/WGG244ZRIT-Lavatrice-Caricamento-Frontale-energetica/dp/B0F1426DJ2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG244Z0IT Serie 6 Lavatrice 9kg 1400 giri/min bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Sistema Antimacchia, Motore silenzioso con 10 anni di assistenza",
+            "href": "https://www.amazon.it/Bosch-WGG244Z0IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYK211?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WAN28219IT Serie 4 Lavatrice 9kg 1400 giri/min Bianco Classe A | Lavatrice con vapore, Riconoscimento del carico, Motore silenzioso e duraturo con 10 anni di assistenza, Made in Europe",
+            "href": "https://www.amazon.it/Bosch-WAN28219IT-Lavatrice-Bianco-Classe/dp/B0GGZXP6HK?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WAN28228IT Serie 4 Lavatrice 8kg 1400 giri/min Bianco Classe A | Lavatrice con vapore, Riconoscimento del carico, Motore silenzioso e duraturo con 10 anni di assistenza, Made in Europe",
+            "href": "https://www.amazon.it/Bosch-WAN28228IT-Lavatrice-Bianco-Classe/dp/B0GH1NRPBD?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGE03200IT Serie 2 Lavatrice 8kg 1200 giri/min Bianco | Lavatrice con opzione per ridurre il tempo di lavaggio, Sitema di riconoscimento del carico, Motore silenzioso",
+            "href": "https://www.amazon.it/Bosch-Elettrodomestici-WGE03200IT-Lavatrice-frontale/dp/B0CYZYXMHL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Bosch-Elettrodomestici-WGE03200IT-Lavatrice-frontale/dp/B0CYZYXMHL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG254Z0II Serie 6 Lavatrice 10kg 1400 giri/min Bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Motore silenzioso con...",
+            "href": "https://www.amazon.it/Bosch-WGG254Z0II-Lavatrice-energetica-stiratura/dp/B0DWXN3GNL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.4 4,4 su 5 stelle 198",
+            "href": "https://www.amazon.it/Bosch-WGG254Z0II-Lavatrice-energetica-stiratura/dp/B0DWXN3GNL?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Bosch-WGG254Z0II-Lavatrice-energetica-stiratura/dp/B0DWXN3GNL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Bosch WGG244Z0IT Serie 6 Lavatrice 9kg 1400 giri/min bianco | Lavatrice con vapore, Sitema di riconoscimento del carico, Sistema Antimacchia,...",
+            "href": "https://www.amazon.it/Bosch-WGG244Z0IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYK211?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.4 4,4 su 5 stelle 198",
+            "href": "https://www.amazon.it/Bosch-WGG244Z0IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYK211?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Bosch-WGG244Z0IT-Lavatrice-frontale-capacit%C3%A0/dp/B0DFPYK211?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

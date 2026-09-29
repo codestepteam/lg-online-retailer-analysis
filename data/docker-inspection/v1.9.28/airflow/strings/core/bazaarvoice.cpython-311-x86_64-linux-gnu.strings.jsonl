@@ -1,0 +1,223 @@
+{"offset": "0x1e000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x1e038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1e060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1e090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1e0b8", "text": " while calling a Python object"}
+{"offset": "0x1e0d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1e108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1e130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1e1e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1e210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1e240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1e2a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x1e2c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1e2f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1e328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1e358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1e3c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1e3f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1e450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1e480", "text": "__name__ must be set to a string object"}
+{"offset": "0x1e4a8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x1e5f0", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x1e628", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1e660", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1e688", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1e6b8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x1e6f0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x1e728", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x1e750", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1e780", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1e7c0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1e7e8", "text": "generator raised StopIteration"}
+{"offset": "0x1e808", "text": "/tmp/clinic_build_y1xih54e/cbuild/core/bazaarvoice.c"}
+{"offset": "0x1e840", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1e880", "text": "core.bazaarvoice.fetch_stats_seo"}
+{"offset": "0x1e8a8", "text": "Module 'bazaarvoice' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1e900", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1e950", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x1e990", "text": "generator ignored GeneratorExit"}
+{"offset": "0x1e9b0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x1e9d0", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x1e9f8", "text": "coroutine is being awaited already"}
+{"offset": "0x1ea20", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x1ea58", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x1ea98", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x1ead0", "text": "__await__() returned a coroutine"}
+{"offset": "0x1eaf8", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x1eb30", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x1eb60", "text": "instance exception may not have a separate value"}
+{"offset": "0x1eb98", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x1ebe0", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x1ec20", "text": "core.bazaarvoice.candidate_ids_from_url"}
+{"offset": "0x1ec48", "text": "join() result is too long for a Python string"}
+{"offset": "0x1ec78", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1eca8", "text": "qualified name of the coroutine"}
+{"offset": "0x1ecc8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x1ed28", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x1ed98", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x1edd0", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x1edf8", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x1ee30", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1ee90", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1ef00", "text": "core.bazaarvoice.__pyx_scope_struct_1_fetch_stats"}
+{"offset": "0x1ef38", "text": "core.bazaarvoice.__pyx_scope_struct__fetch_stats_seo"}
+{"offset": "0x1ef6d", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x1ef8b", "text": "%.200s() needs an argument"}
+{"offset": "0x1efa6", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1efc4", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1efda", "text": "__loader__"}
+{"offset": "0x1efe5", "text": "loader"}
+{"offset": "0x1efec", "text": "__file__"}
+{"offset": "0x1eff5", "text": "origin"}
+{"offset": "0x1effc", "text": "__package__"}
+{"offset": "0x1f008", "text": "parent"}
+{"offset": "0x1f00f", "text": "__path__"}
+{"offset": "0x1f018", "text": "submodule_search_locations"}
+{"offset": "0x1f033", "text": "keywords must be strings"}
+{"offset": "0x1f04c", "text": "_cython_coroutine_type"}
+{"offset": "0x1f063", "text": "_cython_generator_type"}
+{"offset": "0x1f07a", "text": "_module"}
+{"offset": "0x1f082", "text": "__builtins__"}
+{"offset": "0x1f08f", "text": "_cython_3_0_12"}
+{"offset": "0x1f09e", "text": "%s (%s:%d)"}
+{"offset": "0x1f0a9", "text": "exactly"}
+{"offset": "0x1f0b1", "text": "core/bazaarvoice.py"}
+{"offset": "0x1f0c5", "text": "core.bazaarvoice._first"}
+{"offset": "0x1f0dd", "text": "at least"}
+{"offset": "0x1f0e6", "text": "at most"}
+{"offset": "0x1f0ee", "text": "fetch_stats_seo"}
+{"offset": "0x1f0fe", "text": "core.bazaarvoice.fetch_stats"}
+{"offset": "0x1f11b", "text": "name '%U' is not defined"}
+{"offset": "0x1f134", "text": "builtins"}
+{"offset": "0x1f13d", "text": "cython_runtime"}
+{"offset": "0x1f14c", "text": "does not match"}
+{"offset": "0x1f15b", "text": "collections.abc"}
+{"offset": "0x1f16b", "text": "backports_abc"}
+{"offset": "0x1f179", "text": "init core.bazaarvoice"}
+{"offset": "0x1f18f", "text": "coroutine already executing"}
+{"offset": "0x1f1ab", "text": "generator already executing"}
+{"offset": "0x1f1c7", "text": "data"}
+{"offset": "0x1f1cc", "text": "throw"}
+{"offset": "0x1f1d2", "text": "candidate_ids_from_url"}
+{"offset": "0x1f1e9", "text": "resp"}
+{"offset": "0x1f1ee", "text": "__reduce__"}
+{"offset": "0x1f1f9", "text": "__module__"}
+{"offset": "0x1f204", "text": "func_doc"}
+{"offset": "0x1f20d", "text": "__doc__"}
+{"offset": "0x1f215", "text": "func_name"}
+{"offset": "0x1f21f", "text": "__name__"}
+{"offset": "0x1f228", "text": "__qualname__"}
+{"offset": "0x1f235", "text": "func_dict"}
+{"offset": "0x1f23f", "text": "__dict__"}
+{"offset": "0x1f248", "text": "func_globals"}
+{"offset": "0x1f255", "text": "__globals__"}
+{"offset": "0x1f261", "text": "func_closure"}
+{"offset": "0x1f26e", "text": "__closure__"}
+{"offset": "0x1f27a", "text": "func_code"}
+{"offset": "0x1f284", "text": "__code__"}
+{"offset": "0x1f28d", "text": "func_defaults"}
+{"offset": "0x1f29b", "text": "__defaults__"}
+{"offset": "0x1f2a8", "text": "__kwdefaults__"}
+{"offset": "0x1f2b7", "text": "__annotations__"}
+{"offset": "0x1f2c7", "text": "_is_coroutine"}
+{"offset": "0x1f2d5", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x1f2ee", "text": "name of the coroutine"}
+{"offset": "0x1f304", "text": "cr_frame"}
+{"offset": "0x1f30d", "text": "Frame of the coroutine"}
+{"offset": "0x1f324", "text": "cr_running"}
+{"offset": "0x1f32f", "text": "cr_await"}
+{"offset": "0x1f338", "text": "object being awaited, or None"}
+{"offset": "0x1f356", "text": "cr_code"}
+{"offset": "0x1f35e", "text": "send"}
+{"offset": "0x1f363", "text": "close"}
+{"offset": "0x1f369", "text": "__reduce_ex__"}
+{"offset": "0x1f3c0", "text": "https://api.bazaarvoice.com/data/statistics.json"}
+{"offset": "0x1f400", "text": "elcorteingles-53b99fca72c2d55df98dab8d68aa6190"}
+{"offset": "0x1f430", "text": "https://seo.bazaarvoice.com/"}
+{"offset": "0x1f450", "text": "Elcorteingles_electronica"}
+{"offset": "0x1f480", "text": "itemprop=.reviewCount.[^>]*>(\\d+)"}
+{"offset": "0x1f4c0", "text": "itemprop=.ratingValue.[^>]*>([\\d.,]+)"}
+{"offset": "0x1f4f0", "text": "candidate_ids_from_url"}
+{"offset": "0x1f510", "text": "AverageOverallRating"}
+{"offset": "0x1f530", "text": "core/bazaarvoice.py"}
+{"offset": "0x1f550", "text": "cline_in_traceback"}
+{"offset": "0x1f570", "text": "asyncio.coroutines"}
+{"offset": "0x1f590", "text": "/reviews/product/1/"}
+{"offset": "0x1f5b0", "text": "ProductStatistics"}
+{"offset": "0x1f5d0", "text": "core.bazaarvoice"}
+{"offset": "0x1f5f0", "text": "TotalReviewCount"}
+{"offset": "0x1f610", "text": "ReviewStatistics"}
+{"offset": "0x1f630", "text": "\\\"reviewCount\\\":\\s*\\\"?(\\d+)"}
+{"offset": "0x1f660", "text": "\\\"ratingValue\\\":\\s*\\\"?([\\d.,]+)"}
+{"offset": "0x1f680", "text": "fetch_stats_seo"}
+{"offset": "0x1f690", "text": "SEO_DEPLOYMENTS"}
+{"offset": "0x1f6a0", "text": "Main_Site-es_ES"}
+{"offset": "0x1f6b0", "text": "/(A\\d+)-(\\d{8,14})-pr-"}
+{"offset": "0x1f6c8", "text": "productid:eq:"}
+{"offset": "0x1f6d8", "text": "_is_coroutine"}
+{"offset": "0x1f6e8", "text": "_initializing"}
+{"offset": "0x1f6f8", "text": "zone_locale"}
+{"offset": "0x1f708", "text": "status_code"}
+{"offset": "0x1f718", "text": "product_ids"}
+{"offset": "0x1f728", "text": "fetch_stats"}
+{"offset": "0x1f738", "text": "AsyncClient"}
+{"offset": "0x1f748", "text": "product_id"}
+{"offset": "0x1f758", "text": "apiversion"}
+{"offset": "0x1f768", "text": "isenabled"}
+{"offset": "0x1f778", "text": "getLogger"}
+{"offset": "0x1f788", "text": "dict | None"}
+{"offset": "0x1f798", "text": "_RATING_RE"}
+{"offset": "0x1f7a8", "text": "HasErrors"}
+{"offset": "0x1f7b8", "text": "retailer"}
+{"offset": "0x1f7c8", "text": "patterns"}
+{"offset": "0x1f7d8", "text": "_COUNT_RE"}
+{"offset": "0x1f7f0", "text": "BV API 오류: "}
+{"offset": "0x1f800", "text": "warning"}
+{"offset": "0x1f808", "text": "timeout"}
+{"offset": "0x1f810", "text": "seo_key"}
+{"offset": "0x1f818", "text": "replace"}
+{"offset": "0x1f820", "text": "passkey"}
+{"offset": "0x1f828", "text": "logging"}
+{"offset": "0x1f830", "text": "disable"}
+{"offset": "0x1f838", "text": "compile"}
+{"offset": "0x1f840", "text": "average"}
+{"offset": "0x1f848", "text": "Reviews"}
+{"offset": "0x1f850", "text": "Results"}
+{"offset": "0x1f858", "text": "search"}
+{"offset": "0x1f85f", "text": "return"}
+{"offset": "0x1f866", "text": "params"}
+{"offset": "0x1f870", "text": "__import__"}
+{"offset": "0x1f87b", "text": "filter"}
+{"offset": "0x1f882", "text": "enable"}
+{"offset": "0x1f889", "text": "client"}
+{"offset": "0x1f890", "text": "__aenter__"}
+{"offset": "0x1f89b", "text": "Errors"}
+{"offset": "0x1f8b0", "text": "BV SEO 조회 실패("}
+{"offset": "0x1f8d0", "text": "BV API 조회 실패: "}
+{"offset": "0x1f8e7", "text": "throw"}
+{"offset": "0x1f8ed", "text": "strip"}
+{"offset": "0x1f8f3", "text": "stats"}
+{"offset": "0x1f8f9", "text": "scale"}
+{"offset": "0x1f8ff", "text": "httpx"}
+{"offset": "0x1f905", "text": "group"}
+{"offset": "0x1f90b", "text": "float"}
+{"offset": "0x1f911", "text": "_first"}
+{"offset": "0x1f918", "text": "count"}
+{"offset": "0x1f91e", "text": "close"}
+{"offset": "0x1f928", "text": "__await__"}
+{"offset": "0x1f938", "text": "__aexit__"}
+{"offset": "0x1f942", "text": "text"}
+{"offset": "0x1f948", "text": "__test__"}
+{"offset": "0x1f958", "text": "__spec__"}
+{"offset": "0x1f961", "text": "send"}
+{"offset": "0x1f966", "text": "resp"}
+{"offset": "0x1f970", "text": "__name__"}
+{"offset": "0x1f980", "text": "__main__"}
+{"offset": "0x1f989", "text": "list"}
+{"offset": "0x1f98e", "text": "json"}
+{"offset": "0x1f993", "text": "data"}
+{"offset": "0x1f998", "text": "args"}
+{"offset": "0x1f9b1", "text": ".htm"}
+{"offset": "0x1f9d0", "text": "/(A\\d+)-"}
+{"offset": "0x1f9d9", "text": "_API"}

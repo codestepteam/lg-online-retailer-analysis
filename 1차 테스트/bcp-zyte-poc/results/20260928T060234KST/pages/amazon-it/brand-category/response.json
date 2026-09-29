@@ -1,0 +1,74 @@
+{
+  "ok": true,
+  "retailer": "amazon-it",
+  "page_type": "brand-category",
+  "requested_url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+  "entry_url": "https://www.amazon.it/",
+  "final_url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+  "status_code": 200,
+  "captured_at": "2026-09-26T03:00:03.193854+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 5.025,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.5,
+      "status": "success"
+    },
+    {
+      "action": "goto",
+      "elapsedTime": 6.064,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 2,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 5.039,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.5,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.006,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 8.178,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.007,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.01,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "03a027c9351103aa3432d1e67c6742292784c687dca5e0b7aa8c74ded54ef312",
+  "bytes": {
+    "raw_html": 1585744,
+    "screenshot": 972268
+  }
+}

@@ -1,0 +1,2949 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0144-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+    "capturedAt": "2026-09-28T08:09:51.054341+09:00",
+    "collectionOk": true,
+    "title": "Ofertas en Frigoríficos Samsung al mejor precio"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0144-mediamarkt-es/brand-category/raw.html",
+      "sha256": "c91405f70c29c5d1fe9bd41e2ebb970bf0de58072b00e222b3fd6eceb59e9668"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0144-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "4c83d296fe10eb620380101ee242f3b2ccdbc24b79ffeec84d7852c47a33c3e8"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0144-mediamarkt-es/brand-category/response.json",
+      "sha256": "e43626c3a0a7aa0d4c57cd93a2f10110f0dda9723bc52312c7fd40e68c7ba762"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "SAMSUNG Frigoríficos en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Bespoke AI RS70F64KETEF, All Around Cooling, No Frost, 178.4 cm, 640 l, Dispensador agua y hielo, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB38C675CS9/EF, No Frost, 203 cm, 390l, All-Around Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB38C605DS9/EF, No Frost, 203 cm, 390l, All Around Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB34C775CS9/EF, No Frost, 185.3cm, 344l, All-Around Cooling, Metal Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Samsung RR40H39GETEF, No frost, 185.8 cm, 387 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6A22/EF, No Frost, 203 cm, 387l, Twin Cooling Plus™, Metal Cooling, WiFi, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB34C632DSA/EF, No Frost, 185.3cm, 341l, All Around Cooling, Dispensador de agua, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung SMART AI RB34C600CWW/EF, No Frost, 185.3 cm, 344l, All Around Cooling, WiFi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung RS57DG400EM9EF, Mono cooling, No Frost, 178 cm, 583 l, Wifi, Plata mate suave",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung SMART RB38C705CWW/EF, No Frost, 203 cm, 390l, Metal Cooling, All Around Cooling, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB50DG632ES9EF, All Around Cooling, 192 cm, 505 l, Dispensador de agua sin toma, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Bespoke AI RS70F65KDTEF, All Around Cooling, No Frost, 178.4 cm, 640 l, Dispensador agua y hielo, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Samsung Bespoke AI RR70H39CDFEF, No Frost, 185.8 cm, 387 l, Wifi, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Smart RB38C607AS9/EF, No Frost, 203 cm, 387l, Twin Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung SMART AI RB38C675CS9/EF, No Frost, 203 cm, 390l, All-Around Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6AB1/EF, No Frost, 203cm, 387l, Twin Cooling Plus™, Metal Cooling, WiFi, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Samsung RR70H39DCFEF, No frost, 185.8 cm, 382 l, Dispensador de agua sin toma, Wifi, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung Bespoke AI RB34C775CB1/EF, Total No Frost, 185.3 cm, 344 l, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - Samsung RT31CG5624WWES, No Frost , 171.5 cm, 305 l, All Around Cooling, Power Cool, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta integrable - Samsung BRR29703EWW/EF, All-Around Cooling, No Frost, 177.5 cm, 289 l, Wifi, Sin Panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Samsung SMART AI RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi, Dispensador de hielo, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Samsung Smart RB34C632DSA/EF, No Frost, 185.3cm, 341l, All Around Cooling, Dispensador agua",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Family Hub Bespoke AI RS90F66BETEF, Twin Cooling, 178.4 cm, 614 l, Dispensador agua y hielo, Balda botellero, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung RF65DG9H0ESREF, Triple Cooling, 183 cm, 636l, Dispensador de agua, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Family Hub Bespoke AI RS90F66BEFEF, Twin Cooling, 178.4 cm, 614 l, Dispensador agua y hielo, Balda botellero, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Bespoke AI RS90F64EETEF, Mono Cooling, No Frost, 178.4 cm, 621 l, Dispensador de agua y hielo, Balda Botellero, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB53DG703DS9EF, All Around Cooling, 203 cm , 538l, Ancho especial 75.9 cm, Metal Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB53DG706AS9EF, 203 cm, 538 l, Ancho especial 75.9 cm, Metal Cooling, Twin Cooling Plus™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung Smart RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung RB38T607BS9/EF, No Frost, 203 cm, 387l, Twin Cooling Plus™, Cajón Optimal Fresh+, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung Bespoke AI RM90F67CECEF, Hybrid Cooling, 185.3 cm, 654 l, No Frost, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung BESPOKE RF65DB970E22EF, Triple Cooling, 185.3 cm, 645 l, Dispensador agua, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6BS9/EF, No Frost, 203cm, 387l, Twin Cooling Plus, Metal Cooling, WiFi, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - Samsung RT31CG5624S9ES, No Frost, 171.5 cm, 305l, All-Around Cooling, Power Cool, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - SAMSUNG RB34C705CS9, No Frost, Altura 185,3 cm, Plata",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Samsung RF65DG960ESREF, Triple Cooling Plus™, 183 cm, 646 l, Dual Auto Ice Maker, SmartThings, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - SAMSUNG SMART RF59C700EB1/ES, No Frost, Altura 177,9 cm, Capacidad 649 l, Grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div.mms-ui-dMMuNs.mms-ui-xNKOC.mms-ui-xNKZo > div.mms-ui-cYdhWw.mms-ui-iCUXHr.mms-ui-cYzOJj > div.mms-ui-cYdhWw.mms-ui-lmUwit.mms-ui-jZhmni > h2.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gGmMvB",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Conoce las ventajas de los Frigoríficos Samsung",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM mms-ui-gsjAMe"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué frigorífico Samsung comprar?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué son los frigoríficos BESPOKE?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué son las neveras inteligentes de Samsung?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cuántos años de garantía tiene un frigorífico Samsung?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 100,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925279?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925225?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925199?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925262?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925249?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925254?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005920?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925295?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175973424?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925258?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 83,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 84,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 70,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925279?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925225?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925199?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925262?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925249?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925254?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005920?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Ofertas en Frigoríficos Samsung al mejor precio"
+        ],
+        "metaDescription": [
+          "Las últimas novedades en Frigoríficos Samsung las encontrarás en MediaMarkt. Grandes ofertas y amplia gama en tu tienda MediaMarkt."
+        ],
+        "h1": [
+          "SAMSUNG Frigoríficos en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925279?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925225?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925199?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925262?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925249?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925254?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_176005920?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925295?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175973424?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_175925258?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "934,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "619,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "891,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "577,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "636,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "653,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "679,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1189,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "704,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "594,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "806,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "721,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "849,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "976,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1274,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "486,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1104,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "730,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "899,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "854,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1359,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "749,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "738,63€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1954,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2294,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2039,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1444,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1019,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "616,85€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1699,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "584,35€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "711,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2719,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "3229,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "466,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "696,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2804,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1374,94€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Top ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.mediamarkt.es/es/brand/samsung",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Frigoríficos Americanos",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos/frigorificos-americanos",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos Combi",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos/frigorificos-combinados",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico una puerta - Samsung RR40H39GETEF, No frost, 185.8 cm, 387 l, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - SAMSUNG RB34C705CS9, No Frost, Altura 185,3 cm, Plata",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Qué frigorífico Samsung comprar?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Qué son los frigoríficos BESPOKE?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "¿Qué son las neveras inteligentes de Samsung?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "¿Cuántos años de garantía tiene un frigorífico Samsung?",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          },
+          {
+            "text": "Ofertas y campañas",
+            "href": "https://www.mediamarkt.es/es/brand/samsung/frigor%C3%ADficos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas Flash",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas del día",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Destacado Frigorífico americano - Samsung Bespoke AI RS70F64KETEF, All Around Cooling, No Frost, 178.4 cm, 640 l, Dispensador agua y hielo, Inox 131 Basado en 131 valoraciones Medidas (An x Al x F) 91.2 cm x 178.4 cm x 72.6 cm Conexión de toma de agua Sí Dispensador de Hielo Sí Dispensador de Agua Sí -15% 1099,– € 1099,00€ 934,15 € 934,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Samsung days Top venta Ficha técnica Frigorífico combi - Samsung Smart RB38C675CS9/EF, No Frost, 203 cm, 390l, All-Around Cooling, WiFi, Inox 184 Basado en 184 valoraciones Medidas (An x Al x F) 59.5 cm x 203 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -31% 899,– € 899,00€ 619,65 € 619,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Samsung days Vuelta al cole Ficha técnica Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox 101 Basado en 101 valoraciones Medidas (An x Al x F) 59.5 cm x 203 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -18% 1099,– € 1099,00€ 891,65 € 891,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Samsung days Ficha técnica Frigorífico combi - Samsung Smart RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox 103 Basado en 103 valoraciones Medidas (An x Al x F) 59.5 cm x 185.3 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -32% 749,– € 749,00€ 509,15 € 509,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Samsung days Top venta Frigorífico combi - Samsung Smart RB38C605DS9/EF, No Frost, 203 cm, 390l, All Around Cooling, WiFi, Inox 104 Basado en 104 valoraciones Medidas (An x Al x F) 59.5 cm x 203 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -27% 799,– € 799,00€ 577,15 € 577,15€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico combi - Samsung Smart RB34C775CS9/EF, No Frost, 185.3cm, 344l, All-Around Cooling, Metal Cooling, WiFi, Inox 277 Basado en 277 valoraciones Medidas (An x Al x F) 59.5 cm x 185.3 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -15% 749,– € 749,00€ 636,65 € 636,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico una puerta - Samsung RR40H39GETEF, No frost, 185.8 cm, 387 l, Inox 15 Basado en 15 valoraciones Tipo de dispositivo Frigorífico una puerta Medidas (An x Al x F) 59.5 cm x 185.8 cm x 69.4 cm No Frost Sí Color (por fabricante) Inox -15% 769,– € 769,00€ 653,65 € 653,65€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox 46 Basado en 46 valoraciones Medidas (An x Al x F) 59.5 cm x 203 cm x 65.8 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -15% 799,– ",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs70f64ketef-mono-cooling-no-frost-1784-cm-640-l-dispensador-agua-y-hielo-wifi-inox-1596920.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Bespoke AI RS70F64KETEF, All Around Cooling, No Frost, 178.4 cm, 640 l, Dispensador agua y hielo, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs70f64ketef-mono-cooling-no-frost-1784-cm-640-l-dispensador-agua-y-hielo-wifi-inox-1596920.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb38c675cs9ef-no-frost-2m-390l-35-db-all-around-cooling-wifi-inox-1555013.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB38C675CS9/EF, No Frost, 203 cm, 390l, All-Around Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb38c675cs9ef-no-frost-2m-390l-35-db-all-around-cooling-wifi-inox-1555013.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1601349.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1601349.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c602dsaef-mono-cooling-185cm-344l-no-frost-wifi-inox-1555027.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c602dsaef-mono-cooling-185cm-344l-no-frost-wifi-inox-1555027.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb38c605ds9ef-no-frost-2m-390l-wifi-inox-1555019.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB38C605DS9/EF, No Frost, 203 cm, 390l, All Around Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb38c605ds9ef-no-frost-2m-390l-wifi-inox-1555019.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb34c775cs9ef-no-frost-185cm-344l-metal-cooling-wifi-inox-1555024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB34C775CS9/EF, No Frost, 185.3cm, 344l, All-Around Cooling, Metal Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb34c775cs9ef-no-frost-185cm-344l-metal-cooling-wifi-inox-1555024.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-rr40h39getef-no-frost-1858-cm-387-l-inox-1621360.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Samsung RR40H39GETEF, No frost, 185.8 cm, 387 l, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-rr40h39getef-no-frost-1858-cm-387-l-inox-1621360.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38c705cs9ef-all-around-cooling-203-cm-390-l-wifi-inox-1601348.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38c705cs9ef-all-around-cooling-203-cm-390-l-wifi-inox-1601348.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador oscuro con 10 años de garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6a22ef-twin-cooling-plus-200-cm-387l-no-frost-metal-cooling-wifi-negro-1555008.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6A22/EF, No Frost, 203 cm, 387l, Twin Cooling Plus™, Metal Cooling, WiFi, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6a22ef-twin-cooling-plus-200-cm-387l-no-frost-metal-cooling-wifi-negro-1555008.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c632dsaef-all-around-cooling-185cm-341l-no-frost-dispensador-de-agua-wifi-inox-1555026.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB34C632DSA/EF, No Frost, 185.3cm, 341l, All Around Cooling, Dispensador de agua, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c632dsaef-all-around-cooling-185cm-341l-no-frost-dispensador-de-agua-wifi-inox-1555026.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco Samsung con una pegatina de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c600cwwef-all-around-cooling-1853-cm-344l-no-frost-wifi-blanco-1555028.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung SMART AI RB34C600CWW/EF, No Frost, 185.3 cm, 344l, All Around Cooling, WiFi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb34c600cwwef-all-around-cooling-1853-cm-344l-no-frost-wifi-blanco-1555028.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado Samsung de dos puertas sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs57dg400em9ef-mono-cooling-no-frost-178-cm-583-l-wifi-plata-mate-suave-1596537.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung RS57DG400EM9EF, Mono cooling, No Frost, 178 cm, 583 l, Wifi, Plata mate suave",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs57dg400em9ef-mono-cooling-no-frost-178-cm-583-l-wifi-plata-mate-suave-1596537.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb38c705cwwef-no-frost-203-cm-390l-metal-cooling-all-around-cooling-blanco-1564038.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung SMART RB38C705CWW/EF, No Frost, 203 cm, 390l, Metal Cooling, All Around Cooling, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-rb38c705cwwef-no-frost-203-cm-390l-metal-cooling-all-around-cooling-blanco-1564038.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado con dispensador de agua en la puerta superior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb50dg632es9ef-all-around-cooling-192-cm-505-l-dispensador-de-agua-sin-toma-wifi-inox-1601351.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB50DG632ES9EF, All Around Cooling, 192 cm, 505 l, Dispensador de agua sin toma, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb50dg632es9ef-all-around-cooling-192-cm-505-l-dispensador-de-agua-sin-toma-wifi-inox-1601351.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un moderno refrigerador Samsung plateado de doble puerta con dispensador de agua.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs70f65kdtef-1596921.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Bespoke AI RS70F65KDTEF, All Around Cooling, No Frost, 178.4 cm, 640 l, Dispensador agua y hielo, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs70f65kdtef-1596921.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung oscuro con una etiqueta de garantía de 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-bespoke-ai-rr70h39cdfef-no-frost-1858-cm-387-l-wifi-grafito-1621357.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Samsung Bespoke AI RR70H39CDFEF, No Frost, 185.8 cm, 387 l, Wifi, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-bespoke-ai-rr70h39cdfef-no-frost-1858-cm-387-l-wifi-grafito-1621357.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb38c607as9ef-twin-cooling-203-cm-387l-no-frost-wifi-inox-1555016.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Smart RB38C607AS9/EF, No Frost, 203 cm, 387l, Twin Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-smart-ai-rb38c607as9ef-twin-cooling-203-cm-387l-no-frost-wifi-inox-1555016.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado con una puerta superior y un cajón inferior. El logo de Samsung está en la parte superior. El fondo es negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-samsung-smart-ai-rb38c675cs9ef-no-frost-203-cm-390l-all-around-cooling-wifi-inox-1562638.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung SMART AI RB38C675CS9/EF, No Frost, 203 cm, 390l, All-Around Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-samsung-smart-ai-rb38c675cs9ef-no-frost-203-cm-390l-all-around-cooling-wifi-inox-1562638.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador negro de dos puertas sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6ab1ef-twin-cooling-plus-200-cm-387l-no-frost-metal-cooling-wifi-grafito-1555031.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6AB1/EF, No Frost, 203cm, 387l, Twin Cooling Plus™, Metal Cooling, WiFi, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6ab1ef-twin-cooling-plus-200-cm-387l-no-frost-metal-cooling-wifi-grafito-1555031.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-rr70h39dcfef-no-frost-1858-cm-382-l-dispensador-de-agua-sin-toma-wifi-grafito-1621361.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Samsung RR70H39DCFEF, No frost, 185.8 cm, 382 l, Dispensador de agua sin toma, Wifi, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-rr70h39dcfef-no-frost-1858-cm-382-l-dispensador-de-agua-sin-toma-wifi-grafito-1621361.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Samsung negro con etiqueta de 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-ai-rb34c775cb1ef-total-no-frost-1853-cm-344-l-grafito-1621364.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung Bespoke AI RB34C775CB1/EF, Total No Frost, 185.3 cm, 344 l, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-ai-rb34c775cb1ef-total-no-frost-1853-cm-344-l-grafito-1621364.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador blanco con congelador superior, puertas cerradas, sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-samsung-rt31cg5624wwes-no-frost-1715-cm-305-l-all-around-cooling-power-cool-blanco-1564046.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - Samsung RT31CG5624WWES, No Frost , 171.5 cm, 305 l, All Around Cooling, Power Cool, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-samsung-rt31cg5624wwes-no-frost-1715-cm-305-l-all-around-cooling-power-cool-blanco-1564046.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un frigorífico Samsung delgado y blanco con panel de control arriba.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-brr29703ewwef-all-around-cooling-no-frost-1775-cm-289-l-wifi-blanco-1595563.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta integrable - Samsung BRR29703EWW/EF, All-Around Cooling, No Frost, 177.5 cm, 289 l, Wifi, Sin Panelar",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-samsung-brr29703ewwef-all-around-cooling-no-frost-1775-cm-289-l-wifi-blanco-1595563.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Samsung gris oscuro con cuatro puertas. El logotipo de Samsung es visible en la parte superior derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1593545.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1593545.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado de dos puertas con acabado cepillado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-samsung-smart-ai-rb34c602dsaef-no-frost-1853cm-344l-mono-cooling-wifi-inox-1564975.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Samsung SMART AI RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-samsung-smart-ai-rb34c602dsaef-no-frost-1853cm-344l-mono-cooling-wifi-inox-1564975.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado de dos puertas. Compartimento superior, inferior.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1605116.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1605116.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-dispensador-de-hielo-inox-1576401.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi, Dispensador de hielo, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-dispensador-de-hielo-inox-1576401.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung gris con cuatro puertas. Las puertas superiores están una al lado de la otra, al igual que las puertas inferiores. El logotipo está en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1583614.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1583614.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Samsung de acero inoxidable con dispensador de agua y distintivo de 20 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-samsung-smart-rb34c632dsaef-no-frost-1853cm-341l-all-around-cooling-dispensador-agua-1599907.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Samsung Smart RB34C632DSA/EF, No Frost, 185.3cm, 341l, All Around Cooling, Dispensador agua",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-samsung-smart-rb34c632dsaef-no-frost-1853cm-341l-all-around-cooling-dispensador-agua-1599907.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un moderno refrigerador Samsung gris de dos puertas con pantalla inteligente.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f66betef-twin-cooling-1784-cm-614-l-dispensador-agua-y-hielo-wifi-inox-1596925.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Family Hub Bespoke AI RS90F66BETEF, Twin Cooling, 178.4 cm, 614 l, Dispensador agua y hielo, Balda botellero, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f66betef-twin-cooling-1784-cm-614-l-dispensador-agua-y-hielo-wifi-inox-1596925.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado de cuatro puertas con pantalla táctil.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf65dg9h0esref-triple-cooling-183-cm-636l-dispensador-de-agua-inox-1579325.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung RF65DG9H0ESREF, Triple Cooling, 183 cm, 636l, Dispensador de agua, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf65dg9h0esref-triple-cooling-183-cm-636l-dispensador-de-agua-inox-1579325.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano Samsung gris oscuro con pantalla táctil integrada y dispensador de agua.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f66befef-twin-cooling-1784-cm-614-l-dispensador-agua-y-hielo-wifi-grafito-1596923.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Family Hub Bespoke AI RS90F66BEFEF, Twin Cooling, 178.4 cm, 614 l, Dispensador agua y hielo, Balda botellero, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f66befef-twin-cooling-1784-cm-614-l-dispensador-agua-y-hielo-wifi-grafito-1596923.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "10 Años de Garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f64eetef-mono-cooling-no-frost-1784-cm-621-l-dispensador-de-agua-y-hielo-wifi-inox-1596922.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Bespoke AI RS90F64EETEF, Mono Cooling, No Frost, 178.4 cm, 621 l, Dispensador de agua y hielo, Balda Botellero, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rs90f64eetef-mono-cooling-no-frost-1784-cm-621-l-dispensador-de-agua-y-hielo-wifi-inox-1596922.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Samsung plateado con una pegatina de 10 años de garantía en la puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb53dg703ds9ef-all-around-cooling-203-cm-538l-ancho-especial-759-cm-metal-cooling-wifi-inox-1571580.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB53DG703DS9EF, All Around Cooling, 203 cm , 538l, Ancho especial 75.9 cm, Metal Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb53dg703ds9ef-all-around-cooling-203-cm-538l-ancho-especial-759-cm-metal-cooling-wifi-inox-1571580.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado de dos puertas, arriba y abajo.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1604955.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1604955.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Samsung plateado con congelador y pegatina de 10 años de garantía en el compresor sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb53dg706as9ef-twin-cooling-203-cm-538-l-ancho-especial-759-cm-metal-cooling-wifi-inox-1571578.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB53DG706AS9EF, 203 cm, 538 l, Ancho especial 75.9 cm, Metal Cooling, Twin Cooling Plus™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb53dg706as9ef-twin-cooling-203-cm-538-l-ancho-especial-759-cm-metal-cooling-wifi-inox-1571578.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado con diseño de dos puertas y congelador inferior. Una pequeña etiqueta en la puerta dice '20 años de garantía'.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-samsung-rb38c705cs9ef-all-around-cooling-203-cm-390-l-wifi-inox-1608051.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Samsung RB38C705CS9/EF, All Around Cooling, 203 cm, 390 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-samsung-rb38c705cs9ef-all-around-cooling-203-cm-390-l-wifi-inox-1608051.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado de dos puertas, con compartimentos arriba y abajo.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-samsung-smart-ai-rb34c602dsaef-no-frost-1853cm-344l-mono-cooling-wifi-inox-1560848.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung Smart RB34C602DSA/EF, No Frost, 185.3cm, 344l, Mono Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-samsung-smart-ai-rb34c602dsaef-no-frost-1853cm-344l-mono-cooling-wifi-inox-1560848.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung plateado de dos puertas con pantalla táctil.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1609900.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Samsung RB38C776ASR/EF, Twin & Metal Cooling, 203 cm, 387 l, Wifi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-samsung-rb38c776asref-twin-and-metal-cooling-203-cm-387-l-wifi-inox-1609900.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Samsung plateado con pegatina de garantía de 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38t607bs9ef-no-frost-203-cm-387l-twin-cooling-plustm-cajon-optimal-fresh-inox-1562404.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung RB38T607BS9/EF, No Frost, 203 cm, 387l, Twin Cooling Plus™, Cajón Optimal Fresh+, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb38t607bs9ef-no-frost-203-cm-387l-twin-cooling-plustm-cajon-optimal-fresh-inox-1562404.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador negro de cuatro puertas con pantalla táctil que muestra una receta de tarta de manzana.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-bespoke-ai-rm90f67cecef-hybrid-cooling-1853-cm-654-l-no-frost-negro-1601352.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung Bespoke AI RM90F67CECEF, Hybrid Cooling, 185.3 cm, 654 l, No Frost, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-bespoke-ai-rm90f67cecef-hybrid-cooling-1853-cm-654-l-no-frost-negro-1601352.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador moderno negro de cuatro puertas con pantalla táctil en una puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-bespoke-rf65db970e22ef-triple-cooling-1853-cm-645-l-dispensador-agua-negro-1579324.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung BESPOKE RF65DB970E22EF, Triple Cooling, 185.3 cm, 645 l, Dispensador agua, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-bespoke-rf65db970e22ef-triple-cooling-1853-cm-645-l-dispensador-agua-negro-1579324.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un frigorífico plateado de dos puertas sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6bs9ef-no-frost-2m387l-metal-cooling-35-db-wifi-inox-1555032.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Samsung BESPOKE Smart RB38C7B6BS9/EF, No Frost, 203cm, 387l, Twin Cooling Plus, Metal Cooling, WiFi, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-bespoke-smart-ai-rb38c7b6bs9ef-no-frost-2m387l-metal-cooling-35-db-wifi-inox-1555032.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado, alto y rectangular, sobre un fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-samsung-rt31cg5624s9es-no-frost-1715-cm-305l-all-around-cooling-power-cool-inox-1564044.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - Samsung RT31CG5624S9ES, No Frost, 171.5 cm, 305l, All-Around Cooling, Power Cool, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-samsung-rt31cg5624s9es-no-frost-1715-cm-305l-all-around-cooling-power-cool-inox-1564044.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un elegante frigorífico-congelador Samsung plateado de dos puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb34c705cs9-altura-1853-mm-plata-177151624.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - SAMSUNG RB34C705CS9, No Frost, Altura 185,3 cm, Plata",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-samsung-rb34c705cs9-altura-1853-mm-plata-177151624.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado de cuatro puertas con logo Samsung arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf65dg960esref-triple-cooling-183-cm-646-l-dispensador-de-hielo-and-agua-smartthings-wifi-inox-1572617.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Samsung RF65DG960ESREF, Triple Cooling Plus™, 183 cm, 646 l, Dual Auto Ice Maker, SmartThings, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf65dg960esref-triple-cooling-183-cm-646-l-dispensador-de-hielo-and-agua-smartthings-wifi-inox-1572617.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador moderno de cuatro puertas en gris con acabado de metal cepillado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1585673.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Samsung SMART RF59C70TES9/ES, No Frost, All Around Cooling, 177.9 cm, 649l, WiFi",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-samsung-smart-rf59c70tes9es-no-frost-all-around-cooling-1779-cm-649l-wifi-1585673.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Samsung negro de cuatro puertas. Las puertas superiores están una al lado de la otra, al igual que las puertas inferiores. El logotipo de Samsung es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf59c700eb1es-no-frost-altura-1779-cm-capacidad-649-l-grafito-162659558.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - SAMSUNG SMART RF59C700EB1/ES, No Frost, Altura 177,9 cm, Capacidad 649 l, Grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-samsung-rf59c700eb1es-no-frost-altura-1779-cm-capacidad-649-l-grafito-162659558.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué frigorífico Samsung comprar?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué son los frigoríficos BESPOKE?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué son las neveras inteligentes de Samsung?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuántos años de garantía tiene un frigorífico Samsung?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué frigorífico Samsung comprar? MediaMarkt es el sitio ideal para escoger y comprar tu nevera Samsung con la mejor oferta. Pero primero nos gustaría guiarte en el camino para que escojas el frigorífico Samsung que mejor se adapte a tu estilo de vida y, por supuesto, a tu cocina. Samsung posee una variedad de modelos de todos los tamaños y funcionalidades por los que nos gustaría empezar describiendo las principales características de cada uno de ellos. Si pensamos en las diferencias entre un frigorífico combi o americano Samsung ¿Cuál elegir? Dependiendo de tus necesidades, ambas son buenas opciones: no dejes que el tamaño te engañe. ¿Por qué decimos eso? Fácil, lo primero que hay que saber de un frigorífico combi es que se caracteriza por tener la nevera arriba y el congelador abajo; el frigorífico americano es de dos puertas, con dos compartimientos verticales. Por ello, a la hora de escoger tu nevera al mejor precio también debes tener en cuenta el espacio de tu cocina y el que te resulte más cómodo, ya que, afortunadamente, las nuevas funcionales de Samsung (como las neveras No frost) las podemos encontrar en ambos modelos. Los frigoríficos americanos de dos puertas suelen ser más bajos, frente a los dos metros que alcanzan los frigoríficos combi. Por tanto, el primero es más recomendable para cocinas grandes y espaciosas, así como para familias numerosas, y el segundo para espacios más reducidos en los que haya que optimizar hasta el último centímetro. Para esto último, los frigoríficos combi Samsung de una puerta son los mejores. Hay que tener en cuenta también que el tamaño de los congeladores también varía, siendo el más grande el de la versión americana, en comparación con el de la versión combi, ya que llega a ser casi el doble. ¿Qué son los frigoríficos BESPOKE? Los frigoríficos BESPOKE son diseñados por ti y para ti. A través del configurador Bespoke elegir el diseño que mejor se adecúe a tu decoración. Tienen un diseño modular y personalizable con una selección de materiales y colores elegantes que se adaptan fácilmente a tu cocina. ¿Qué son las neveras inteligentes de Samsung? Cada día que pasa, son más los equipos inteligentes que podemos sumar a nuestro repertorio en casa, y los frigoríficos no son una excepción. ¿Pero qué significa realmente inteligente en este caso?. Hablamos de frigoríficos y neveras con cámaras integradas dentro que te permiten observar el interior en cualquier momento y desde tu móvil. Esto es superútil a la hora de saber qué comprar cuando estemos fuera de casa y nos preguntemos “¿qué me hace falta en casa para comer?” Con los frigoríficos inteligentes de Samsung podrás programar tus menús semanales y recibir alertas de lo que te haga falta para completar tus comidas. También podrás controlar la temperatura desde la aplicación directamente en tu móvil mientras estás en el supermercado o en la oficina. Cuenta, además, con una pantalla exterior en la que podremos utilizar aplicaciones como agendas para programar nuestra semana o tablones digitales para dejar avisos a nuestra familia y calendarizar los eventos. Pero eso no es todo: ahora también podrás controlar tus playlists desde tu frigorífico. Sí, como lo oyes. ¿Te imaginas seguir viendo tu serie favorita o escuchar una receta desde tu nevera Samsung? Pues ya es real. ¿Cuántos años de garantía tiene un frigorífico Samsung? Samsung continuando con su compromiso con la sostenibilidad, desde el 2022, extendió la garantía de sus electrodomésticos con compresor Digital Inverter a 20 años. De esta forma amplía la vida útil de los frigoríficos Samsung y colabora con la reducción de residuos. En caso de que se averíe el compresor Digital Inverter cuentas con 20 años de garantía desde el momento en que compras el frigorífico Samsung. Para ejercer la garantía debes presentar una justificación documental de la compra/entrega del producto y seguir el procedimiento que indica la tarjeta de garantía. Importante: las reparaciones deberán realizarlas ",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

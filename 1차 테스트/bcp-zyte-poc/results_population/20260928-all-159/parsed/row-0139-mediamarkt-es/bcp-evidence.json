@@ -1,0 +1,3107 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0139-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+    "capturedAt": "2026-09-28T08:09:42.641625+09:00",
+    "collectionOk": true,
+    "title": "Frigoríficos Hisense | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0139-mediamarkt-es/brand-category/raw.html",
+      "sha256": "833c59b6c65d24f78b312adc4ab044ed2302dbf00e8b9ea4f6b25773a9e15b94"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0139-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "281908fa085903dbeb01cf28155766e72fe7f03635162bfed01b0006e293d130"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0139-mediamarkt-es/brand-category/response.json",
+      "sha256": "ec61bff04d50f426aa468378c8cb1294b732169bae450fe593bb8c3535ace603"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "HISENSE Frigoríficos y Congeladores en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-dlUvRw.mms-ui-haSGNB.mms-ui-jTWvec > div.sc-eb42bfae-2.gjITKV > div.sc-80c1f20f-0.hkvKO > div.sc-80c1f20f-3.nmAVo > a.sc-66506eb5-1.cevLqa.sc-a95fa178-1 > h3.sc-59b6826e-0.ksuKuw",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¡Kitchen Fit, es ajuste prefecto!",
+        "attributes": {
+          "class": "sc-59b6826e-0 ksuKuw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB390N4AWE1, Puerta reversible, Congelamiento rápido, No Frost, 186 cm, 304 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador integrable - Hisense FT3B213SAWE, 235 L, 177.2 cm, No Frost, Inverter Integrable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB390N4BCC, No Frost, 186 cm, 304 l, Micro Vents Cooling, Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - Hisense FT100N1AWDL, 97 l, 85.8 cm, Congelador Convertible, Goma Antibacerias, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Hisense RL3K370SEWE1, Total No Frost, 185.6 cm, 372 l, Kitchen Fit, Ventilación Inferior, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Multi Air Flow, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - Hisense FT200N1AWDL, 198 l, 85.8 cm, Congelador Convertible, Goma Antibacteria, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador vertical - Hisense FT3K310SEWE1, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB645N4BIC, Total No Frost, 200 cm, Ancho 70 cm, 495 l, Metal Tech Cooling, Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Cristal Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - Hisense FT386D4AWLYE, 84.7 cm, 297 l, Función Dual, Bordes suaves, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Hisense RR220D4BWE, Cíclico, 126.5 cm, 165 L, Balconera XXL, Cajón frutas y verduras, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Hisense RS818N4TIE1, No Frost, 179 cm, 636 l, WI-FI, Dispensador Agua & Hielo, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Hisense RB440N4BWE, No Frost, 200.4 cm, 336 l, Multi-air flow, Control táctil, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Hisense RQ5P470SETE, Total No Frost, 178.5 cm, 483 l, WiFi, Inverter, Cristal Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - Hisense FT247D4AWYLE, 191 l, 85.3 cm, Congelación rápida, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Hisense RS677N4ACC, No Frost, 178,6 cm, 519 l, Multi-Air Flow, Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - Hisense FT321D4AWLE, 248 l, 88 cm, Cesta interior, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS3P558NEIC, Total No Frost, Multi Air Flow, 178.6 cm, 544 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico Puerta francesa - HISENSE RF632N4AIC1, No Frost, Total No Frost, Altura 201,3 cm, Capacidad 485 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador horizontal - HISENSE FT145N1AWDL, 85,8 cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - Hisense RL3K370SEWE, No Frost, 185.6 cm, 372 l, Kitchen Fit, Wi Fi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Congelador vertical - Hisense FT3K310SEWE, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Congelador horizontal - Hisense FT386D4AWLYE, 84.7 cm, 297 l, Función Dual, Bordes suaves, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Dual-tech Cooling, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB390N4BCC, No Frost, 186 cm, 304 l, Micro Vents Cooling, Motor Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Hisense RS677N4ACC, No Frost, 178,6 cm, 519 l, Multi-Air Flow, Inverter, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - Hisense RQ5P470SETE, Total No Frost, 178.5 cm, 483 l, WiFi, Inverter, Cristal Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Hisense RB440N4BCE, 200.4 cm, 336l, Freshzone, Iluminación LED, Multi Airflow, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Congelador integrable - Hisense FT3B213SAWE, 235 L, 177.2 cm, No Frost, Inverter Integrable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Hisense RB329N4AWE, No Frost, Multi Air Flow, Control Táctil, 179.7 cm, 255 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS818N4TIE1, No Frost, 179 cm, 636 l, WI-FI, Dispensador Agua & Hielo, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB440N4GWD, No Frost, 200.4 cm, 336 l, Multi Airflow, Cristal Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Dual-tech Cooling, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - HISENSE RS3P558NEIC, No Frost, Total No Frost Multi Air Flow, Altura 1786 mm, Capacidad 544 l, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico una puerta - Hisense RL3K370SEWE, No Frost, 185.6 cm, 372 l, Kitchen Fit, Wi Fi, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS677N4BIE, Total No Frost, 179 cm, 508 l, Inverter, Super Freeze, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB440N4GWD, No Frost, 200.4 cm, 336 l, Multi Airflow, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - HISENSE RB440N4ACD, No Frost, Sí, Altura 200,4 cm, Capacidad 434 l, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - HISENSE RB3K330SAFC, No Frost, Altura 1856 mm, Capacidad 330 l, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es la tecnología No Frost Total?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Por qué es importante la apertura de puerta a 90º?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cómo funcionan los sistemas Fresh Zone y Balance Fresh?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Puedo controlar la temperatura fácilmente?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué capacidades ofrecen los frigoríficos y congeladores Hisense?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#5 > span#acc-header-5 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#6 > span#acc-header-6 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Son eficientes energéticamente?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 100,
+        "top10ByRenderedArea": [
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Q3yZ4P0OSqrJERLuZlnNz/95a3d50757e7f7120ce33d8fec5f4df1/Kitchen_Fit-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179121395?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182230319?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222695?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222578?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182235003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182220413?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182234998?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222681?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182235002?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 84,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 85,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 71,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Q3yZ4P0OSqrJERLuZlnNz/95a3d50757e7f7120ce33d8fec5f4df1/Kitchen_Fit-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179121395?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182230319?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222695?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222578?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182235003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182220413?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Frigoríficos Hisense | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Frigoríficos Hisense al mejor precio elige tu modelo de frigorífico sólo en MediaMarkt."
+        ],
+        "h1": [
+          "HISENSE Frigoríficos y Congeladores en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Q3yZ4P0OSqrJERLuZlnNz/95a3d50757e7f7120ce33d8fec5f4df1/Kitchen_Fit-_889x352.png?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179121395?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182230319?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222695?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222578?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182235003?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182220413?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182234998?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182222681?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182235002?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "¿Qué es la tecnología No Frost Total?",
+            "attributes": {
+              "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+            },
+            "matchedTerms": [
+              "tecnologia"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#5 > span#acc-header-5 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense?",
+            "attributes": {
+              "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+            },
+            "matchedTerms": [
+              "tecnologia",
+              "tecnologias"
+            ]
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "377,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "497,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "551,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "806,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "385,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "639,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "499,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "225,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "679,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "849,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1325,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "359,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "259,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "900,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "489,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "860,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "299,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "999,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "725,40€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "379,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "683,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1021,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "217,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "685,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "749,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "323,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1192,50€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1126,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "549,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "699,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "869,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "899,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "503,73€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "422,45€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "419,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "416,73€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "810,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "512,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "911,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "651,63€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "695,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "729,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "591,81€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "630,91€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "HISENSE",
+            "href": "https://www.mediamarkt.es/es/brand/hisense",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Frigoríficos combi",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores/frigorificos-combi",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos americanos",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores/frigorificos-americanos",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos de una puerta",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores/frigorificos-de-una-puerta",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Congeladores",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores/congeladores",
+            "signals": [
+              "페이지 주제어와 일치: congeladores"
+            ]
+          },
+          {
+            "text": "Frigoríficos doble puerta",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores/frigorificos-doble-puerta",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Multi Air Flow, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Congelador vertical - Hisense FT3K310SEWE1, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Congelador horizontal - Hisense FT247D4AWYLE, 191 l, 85.3 cm, Congelación rápida, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Congelador horizontal - Hisense FT321D4AWLE, 248 l, 88 cm, Cesta interior, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Congelador horizontal - HISENSE FT145N1AWDL, 85,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Congelador vertical - Hisense FT3K310SEWE, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - HISENSE RB3K330SAFC, No Frost, Altura 1856 mm, Capacidad 330 l, Negro",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: hisense"
+            ]
+          },
+          {
+            "text": "¿Qué capacidades ofrecen los frigoríficos y congeladores Hisense?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: congeladores, frigorificos, hisense"
+            ]
+          },
+          {
+            "text": "¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense?",
+            "href": "https://www.mediamarkt.es/es/brand/hisense/frigorificos-y-congeladores?page=4",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos, hisense"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Ficha técnica Frigorífico combi - Hisense RB390N4AWE1, Puerta reversible, Congelamiento rápido, No Frost, 186 cm, 304 l, Blanco 35 Basado en 35 valoraciones Medidas (An x Al x F) 59.5 cm x 186 cm x 58.9 cm No Frost Sí Almacenamiento en caso de avería 11 h Iluminación interior Sí -24% 499,– € 499,00€ 377,– € 377,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Especial hogar Ficha técnica Congelador integrable - Hisense FT3B213SAWE, 235 L, 177.2 cm, No Frost, Inverter Integrable 4 Basado en 4 valoraciones Medidas (An x Al x F) 54 cm x 177.2 cm x 54.5 cm Almacenamiento en caso de avería 135 h No Frost Sí Número de compartimentos del congelador 7 -54% 1099,– € 1099,00€ 497,– € 497,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Frigorífico combi - Hisense RB390N4BCC, No Frost, 186 cm, 304 l, Micro Vents Cooling, Motor Inverter, Inox 76 Basado en 76 valoraciones Medidas (An x Al x F) 59.5 cm x 186 cm x 59 cm No Frost Sí Almacenamiento en caso de avería 0 h Iluminación interior Sí -15% 649,– € 649,00€ 551,– € 551,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox 168 Basado en 168 valoraciones Medidas (An x Al x F) 59.5 cm x 201.7 cm x 57.9 cm No Frost Sí Almacenamiento en caso de avería 6 h Iluminación interior Sí -15% 949,– € 949,00€ 806,– € 806,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Congelador horizontal - Hisense FT100N1AWDL, 97 l, 85.8 cm, Congelador Convertible, Goma Antibacerias, Blanco 6 Basado en 6 valoraciones Medidas (An x Al x F) 57.8 cm x 85.8 cm x 44.4 cm Almacenamiento en caso de avería 160 h No Frost No Tipo de construcción Independiente -18% 219,– € 219,00€ 179,– € 179,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco 64 Basado en 64 valoraciones Medidas (An x Al x F) 59.5 cm x 178.5 cm x 59 cm No Frost Sí Almacenamiento en caso de avería 0 h Iluminación interior Sí -19% 479,– € 479,00€ 385,– € 385,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Reembolso 50€ Vuelta al cole Ficha técnica Frigorífico una puerta - Hisense RL3K370SEWE1, Total No Frost, 185.6 cm, 372 l, Kitchen Fit, Ventilación Inferior, Blanco 4 Basado en 4 valoraciones Tipo de dispositivo Frigorífico una puerta Medidas (An x Al x F) 59.5 cm x 185.6 cm x 60.0 cm No Frost Sí Color (por fabricante) Blanco -13% 739,– € 739,00€ 639,– € 639,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Top venta Ficha técnica Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 ",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Un refrigerador Hisense blanco con etiqueta de patrocinador oficial de la FIFA.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4awe1-puerta-reversible-congelamiento-rapido-no-frost-186-cm-304-l-blanco-1595030.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB390N4AWE1, Puerta reversible, Congelamiento rápido, No Frost, 186 cm, 304 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4awe1-puerta-reversible-congelamiento-rapido-no-frost-186-cm-304-l-blanco-1595030.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico integrable Hisense blanco con logotipo de socio del Real Madrid y 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-integrable-hisense-ft3b213sawe-235-l-1772-cm-no-frost-inverter-integrable-1588533.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador integrable - Hisense FT3B213SAWE, 235 L, 177.2 cm, No Frost, Inverter Integrable",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-integrable-hisense-ft3b213sawe-235-l-1772-cm-no-frost-inverter-integrable-1588533.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense plateado con congelador inferior y pantalla digital sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4bcc-micro-vents-cooling-altura-186-cm-no-frost-motor-inverter-inox-1549671.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB390N4BCC, No Frost, 186 cm, 304 l, Micro Vents Cooling, Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4bcc-micro-vents-cooling-altura-186-cm-no-frost-motor-inverter-inox-1549671.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense plateado con congelador inferior y logotipos arriba sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-216-l-multi-air-flow-motor-inverter-inox-1567714.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-216-l-multi-air-flow-motor-inverter-inox-1567714.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un congelador horizontal Hisense blanco con pantalla digital y logo de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft100n1awdl-97-l-858-cm-congelador-convertible-goma-antibacerias-blanco-1625005.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - Hisense FT100N1AWDL, 97 l, 85.8 cm, Congelador Convertible, Goma Antibacerias, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft100n1awdl-97-l-858-cm-congelador-convertible-goma-antibacerias-blanco-1625005.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un frigorífico congelador Hisense blanco con tirador negro sobre fondo negro y logo del Real Madrid.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-de-alto-iluminacion-led-super-freeze-292-l-blanco-1549669.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-de-alto-iluminacion-led-super-freeze-292-l-blanco-1549669.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un congelador vertical Hisense blanco con tirador largo, pantalla digital y logotipo de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rl3k370sewe1-total-no-frost-1856-cm-372-l-kitchen-fit-ventilacion-inferior-blanco-1620941.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Hisense RL3K370SEWE1, Total No Frost, 185.6 cm, 372 l, Kitchen Fit, Ventilación Inferior, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rl3k370sewe1-total-no-frost-1856-cm-372-l-kitchen-fit-ventilacion-inferior-blanco-1620941.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico blanco Hisense con pantalla digital y pegatinas sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4dwd-dual-tech-cooling-alto-186-cm-no-frost-blanco-1549668.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Multi Air Flow, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb390n4dwd-dual-tech-cooling-alto-186-cm-no-frost-blanco-1549668.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal Hisense blanco con pantalla digital y logo del Real Madrid.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft200n1awdl-198-l-858-cm-congelador-convertible-goma-antibacteria-blanco-1625003.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - Hisense FT200N1AWDL, 198 l, 85.8 cm, Congelador Convertible, Goma Antibacteria, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft200n1awdl-198-l-858-cm-congelador-convertible-goma-antibacteria-blanco-1625003.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense blanco con pantalla digital, tirador plateado y logotipos de socios sobre un fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-vertical-hisense-ft3k310sewe1-312-l-1856-cm-kitchen-fit-wi-fi-blanco-1620940.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador vertical - Hisense FT3K310SEWE1, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-vertical-hisense-ft3k310sewe1-312-l-1856-cm-kitchen-fit-wi-fi-blanco-1620940.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado Hisense con pantalla digital y etiqueta de garantía sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb645n4bic-total-no-frost-200-cm-495-l-metal-tech-cooling-motor-inverter-inox-1591327.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB645N4BIC, Total No Frost, 200 cm, Ancho 70 cm, 495 l, Metal Tech Cooling, Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb645n4bic-total-no-frost-200-cm-495-l-metal-tech-cooling-motor-inverter-inox-1591327.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense plateado de cuatro puertas con un logotipo azul arriba a la izquierda y una garantía arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1601561.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Cristal Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1601561.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un congelador horizontal Hisense blanco con pantalla electrónica y una pegatina azul sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft386d4awlye-independiente-anchura-1114-cm-297-l-blanco-1549670.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - Hisense FT386D4AWLYE, 84.7 cm, 297 l, Función Dual, Bordes suaves, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft386d4awlye-independiente-anchura-1114-cm-297-l-blanco-1549670.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco Hisense sobre fondo negro con un logotipo azul arriba a la izquierda.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rr220d4bwe-ciclico-1265-cm-165-l-balconera-xxl-cajon-frutas-y-verduras-blanco-1619992.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Hisense RR220D4BWE, Cíclico, 126.5 cm, 165 L, Balconera XXL, Cajón frutas y verduras, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rr220d4bwe-ciclico-1265-cm-165-l-balconera-xxl-cajon-frutas-y-verduras-blanco-1619992.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano Hisense plateado con dispensador de agua y logotipos sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs818n4tie1-no-frost-179-cm-636-l-wi-fi-dispensador-agua-and-hielo-inox-1572475.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Hisense RS818N4TIE1, No Frost, 179 cm, 636 l, WI-FI, Dispensador Agua & Hielo, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs818n4tie1-no-frost-179-cm-636-l-wi-fi-dispensador-agua-and-hielo-inox-1572475.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un frigorífico combi blanco Hisense con el logotipo del Real Madrid.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb440n4bwe-multi-air-flow-no-frost-2004-cm-de-alto-control-tactil-blanco-1549666.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Hisense RB440N4BWE, No Frost, 200.4 cm, 336 l, Multi-air flow, Control táctil, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb440n4bwe-multi-air-flow-no-frost-2004-cm-de-alto-control-tactil-blanco-1549666.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico blanco de cuatro puertas Hisense sobre fondo negro con logotipos.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rq5p470sete-total-no-frost-1785-cm-483-l-wifi-inverter-cristal-blanco-1591331.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Hisense RQ5P470SETE, Total No Frost, 178.5 cm, 483 l, WiFi, Inverter, Cristal Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rq5p470sete-total-no-frost-1785-cm-483-l-wifi-inverter-cristal-blanco-1591331.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador Hisense blanco.asa, panel de control, eficiencia nergetica E y 191 litros",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft247d4awyle-191-l-853-cm-congelacion-rapida-blanco-1557276.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - Hisense FT247D4AWYLE, 191 l, 85.3 cm, Congelación rápida, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft247d4awyle-191-l-853-cm-congelacion-rapida-blanco-1557276.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense lado a lado con acabado plateado. Tiene clase C y 519L. Incluye 10 años de garantía en el compresor.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs677n4acc-no-frost-1786-cm-519-l-multi-air-flow-inverter-inox-1572474.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Hisense RS677N4ACC, No Frost, 178,6 cm, 519 l, Multi-Air Flow, Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs677n4acc-no-frost-1786-cm-519-l-multi-air-flow-inverter-inox-1572474.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nevera Hisense de acero inoxidable con un logotipo en la puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-336-l-multi-air-flow-motor-inverter-inox-1592994.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-336-l-multi-air-flow-motor-inverter-inox-1592994.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador de arcón Hisense blanco con pantalla digital y tirador.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft321d4awle-248-l-88-cm-cesta-interior-blanco-1557275.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - Hisense FT321D4AWLE, 248 l, 88 cm, Cesta interior, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft321d4awle-248-l-88-cm-cesta-interior-blanco-1557275.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano Hisense plateado con pantalla digital y logotipos de marcas sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs3p558neic-total-no-frost-multi-air-flow-1786-cm-544-l-inox-1671439.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS3P558NEIC, Total No Frost, Multi Air Flow, 178.6 cm, 544 l, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs3p558neic-total-no-frost-multi-air-flow-1786-cm-544-l-inox-1671439.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense de acero inoxidable con varias puertas. Tiene una insignia de Real Madrid Official Partner. El fondo es negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-puerta-francesa-hisense-rf632n4aic1-no-frost-total-no-frost-altura-2013-cm-capacidad-485-l-inox-162659826.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Puerta francesa - HISENSE RF632N4AIC1, No Frost, Total No Frost, Altura 201,3 cm, Capacidad 485 l, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-puerta-francesa-hisense-rf632n4aic1-no-frost-total-no-frost-altura-2013-cm-capacidad-485-l-inox-162659826.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador Hisense blanco, clase D, 141L, patrocinador oficial FIFA, 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft145n1awdl-858-cm-blanco-177464212.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador horizontal - HISENSE FT145N1AWDL, 85,8 cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-horizontal-hisense-ft145n1awdl-858-cm-blanco-177464212.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense de acero inoxidable. Tiene dos puertas y etiquetas que muestran la clase energética A, 336L de capacidad y 10 años de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-336-l-multi-air-flow-motor-inverter-inox-1585668.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB440N4ACA, No Frost, 201.7 cm, 336 l, Multi-Air Flow. Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-hisense-rb440n4aca-no-frost-2017-cm-336-l-multi-air-flow-motor-inverter-inox-1585668.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense blanco con logo FIFA, clase E, capacidad 372L, garantía 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rl3k370sewe-no-frost-1856-cm-372-l-kitchen-fit-wi-fi-blanco-1595224.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - Hisense RL3K370SEWE, No Frost, 185.6 cm, 372 l, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-hisense-rl3k370sewe-no-frost-1856-cm-372-l-kitchen-fit-wi-fi-blanco-1595224.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense blanco se alza sobre un fondo verde. Tiene un tirador y un logotipo con texto.",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-vertical-hisense-ft3k310sewe-312-l-1856-cm-kitchen-fit-wi-fi-blanco-1595225.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador vertical - Hisense FT3K310SEWE, 312 l, 185.6 cm, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_congelador-vertical-hisense-ft3k310sewe-312-l-1856-cm-kitchen-fit-wi-fi-blanco-1595225.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Congelador blanco con una pegatina verde de Hisense y el logotipo de Euro2024, sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-congelador-horizontal-hisense-ft386d4awlye-847-cm-297-l-funcion-dual-bordes-suaves-blanco-1588064.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Congelador horizontal - Hisense FT386D4AWLYE, 84.7 cm, 297 l, Función Dual, Bordes suaves, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-congelador-horizontal-hisense-ft386d4awlye-847-cm-297-l-funcion-dual-bordes-suaves-blanco-1588064.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense plateado con cuatro puertas. Tiene una pegatina de 'garantía de 10 años' y un logotipo de socio oficial.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1609735.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1609735.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense plateado con cuatro puertas. Tiene una pegatina de 'garantía de 10 años' y un logotipo de socio oficial.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1611638.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Hisense RQ5P605NSVE, No Frost, 190 cm, 591 L, Kitchen Fit, Cajón de vacío, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-hisense-rq5p605nsve-no-frost-190-cm-591-l-kitchen-fit-cajon-de-vacio-inox-1611638.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense blanco con pegatina Euro 2020 sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb390n4dwd-no-frost-186-cm-304-l-dual-tech-cooling-blanco-1573836.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Dual-tech Cooling, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb390n4dwd-no-frost-186-cm-304-l-dual-tech-cooling-blanco-1573836.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense plateado con logo del Real Madrid.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb390n4bcc-no-frost-186-cm-304-l-micro-vents-cooling-motor-inverter-inox-1588670.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB390N4BCC, No Frost, 186 cm, 304 l, Micro Vents Cooling, Motor Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb390n4bcc-no-frost-186-cm-304-l-micro-vents-cooling-motor-inverter-inox-1588670.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con dos puertas, color plateado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-hisense-rs677n4acc-no-frost-1786-cm-519-l-multi-air-flow-inverter-inox-1576627.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico americano - Hisense RS677N4ACC, No Frost, 178,6 cm, 519 l, Multi-Air Flow, Inverter, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-americano-hisense-rs677n4acc-no-frost-1786-cm-519-l-multi-air-flow-inverter-inox-1576627.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense blanco de cuatro puertas, clase E, 483L, patrocinador FIFA.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-hisense-rq5p470sete-total-no-frost-1785-cm-483-l-wifi-inverter-cristal-blanco-1669240.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - Hisense RQ5P470SETE, Total No Frost, 178.5 cm, 483 l, WiFi, Inverter, Cristal Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-hisense-rq5p470sete-total-no-frost-1785-cm-483-l-wifi-inverter-cristal-blanco-1669240.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense plateado con una sección inferior negra. Un logo de Hisense y Real Madrid arriba.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-hisense-rb440n4bce-2004-cm-336l-freshzone-iluminacion-led-multi-airflow-inox-1584067.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Hisense RB440N4BCE, 200.4 cm, 336l, Freshzone, Iluminación LED, Multi Airflow, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-hisense-rb440n4bce-2004-cm-336l-freshzone-iluminacion-led-multi-airflow-inox-1584067.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un frigorífico Hisense blanco, clase E, capacidad 235L, con patrocinio FIFA.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-congelador-integrable-hisense-ft3b213sawe-235-l-1772-cm-no-frost-inverter-integrable-1669751.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Congelador integrable - Hisense FT3B213SAWE, 235 L, 177.2 cm, No Frost, Inverter Integrable",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-congelador-integrable-hisense-ft3b213sawe-235-l-1772-cm-no-frost-inverter-integrable-1669751.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense blanco con la parte superior e inferior negras. Tiene una pegatina con el logotipo de Hisense y 'Clase E'.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-hisense-rb329n4awe-no-frost-multi-air-flow-control-tactil-1797-cm-255-l-blanco-1624314.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Hisense RB329N4AWE, No Frost, Multi Air Flow, Control Táctil, 179.7 cm, 255 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-hisense-rb329n4awe-no-frost-multi-air-flow-control-tactil-1797-cm-255-l-blanco-1624314.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nevera Hisense blanca con parte inferior negra, logo Hisense y Euro 2024 arriba.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-292-l-iluminacion-led-super-freeze-blanco-1567837.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-292-l-iluminacion-led-super-freeze-blanco-1567837.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense de acero inoxidable con diseño de puerta lado a lado sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs818n4tie1-no-frost-179-cm-636-l-wi-fi-dispensador-agua-and-hielo-inox-1587753.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS818N4TIE1, No Frost, 179 cm, 636 l, WI-FI, Dispensador Agua & Hielo, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs818n4tie1-no-frost-179-cm-636-l-wi-fi-dispensador-agua-and-hielo-inox-1587753.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Hisense blanco con logotipo del Real Madrid.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb440n4gwd-no-frost-2004-cm-336-l-multi-airflow-cristal-blanco-1588711.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB440N4GWD, No Frost, 200.4 cm, 336 l, Multi Airflow, Cristal Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb440n4gwd-no-frost-2004-cm-336-l-multi-airflow-cristal-blanco-1588711.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense blanco con pegatina Euro 2020 sobre fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-hisense-rb390n4dwd-no-frost-186-cm-304-l-dual-tech-cooling-blanco-1566422.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Hisense RB390N4DWD, No Frost, 186 cm, 304 l, Dual-tech Cooling, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-hisense-rb390n4dwd-no-frost-186-cm-304-l-dual-tech-cooling-blanco-1566422.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense de dos puertas, plateado, 544L, con garantía de 10 años.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs3p558neic-no-frost-total-no-frost-multi-air-flow-altura-1786-mm-capacidad-544-l-acero-inoxidable-175521010.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - HISENSE RS3P558NEIC, No Frost, Total No Frost Multi Air Flow, Altura 1786 mm, Capacidad 544 l, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-hisense-rs3p558neic-no-frost-total-no-frost-multi-air-flow-altura-1786-mm-capacidad-544-l-acero-inoxidable-175521010.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador blanco con una parte inferior negra. Un logotipo de Hisense está en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-292-l-iluminacion-led-super-freeze-blanco-1585089.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Hisense RB372N4AWE, Total No Frost, 178.5 cm, 292 l, Iluminación LED, Super Freeze, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-hisense-rb372n4awe-total-no-frost-1785-cm-292-l-iluminacion-led-super-freeze-blanco-1585089.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco Hisense con manija negra. Tiene un logo de Hisense y Real Madrid. Pantalla muestra temperatura y ajustes.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-una-puerta-hisense-rl3k370sewe-no-frost-1856-cm-372-l-kitchen-fit-wi-fi-blanco-1603986.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico una puerta - Hisense RL3K370SEWE, No Frost, 185.6 cm, 372 l, Kitchen Fit, Wi Fi, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-una-puerta-hisense-rl3k370sewe-no-frost-1856-cm-372-l-kitchen-fit-wi-fi-blanco-1603986.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense plateado. Dos puertas, pantalla digital. Fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs677n4bie-total-no-frost-179-cm-508-l-inverter-super-freeze-inox-1589893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Hisense RS677N4BIE, Total No Frost, 179 cm, 508 l, Inverter, Super Freeze, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-hisense-rs677n4bie-total-no-frost-179-cm-508-l-inverter-super-freeze-inox-1589893.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Hisense blanco con una pegatina Hisense y UEFA Euro 2024.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb440n4gwd-no-frost-2004-cm-336-l-multi-airflow-blanco-1567412.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Hisense RB440N4GWD, No Frost, 200.4 cm, 336 l, Multi Airflow, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-hisense-rb440n4gwd-no-frost-2004-cm-336-l-multi-airflow-blanco-1567412.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Hisense plateado con puerta inferior negra y panel de control. Se encuentra sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-rb440n4acd-hisense-434-l-si-acero-inoxidable-106654827.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - HISENSE RB440N4ACD, No Frost, Sí, Altura 200,4 cm, Capacidad 434 l, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-rb440n4acd-hisense-434-l-si-acero-inoxidable-106654827.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Hisense negro con acabado cepillado.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb3k330safc-no-frost-altura-1856-mm-capacidad-330-l-negro-155014686.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - HISENSE RB3K330SAFC, No Frost, Altura 1856 mm, Capacidad 330 l, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-hisense-rb3k330safc-no-frost-altura-1856-mm-capacidad-330-l-negro-155014686.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es la tecnología No Frost Total?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Por qué es importante la apertura de puerta a 90º?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cómo funcionan los sistemas Fresh Zone y Balance Fresh?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Puedo controlar la temperatura fácilmente?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué capacidades ofrecen los frigoríficos y congeladores Hisense?",
+            "attributes": {
+              "id": "acc-header-4",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#5 > span#acc-header-5",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense?",
+            "attributes": {
+              "id": "acc-header-5",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#6 > span#acc-header-6",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Son eficientes energéticamente?",
+            "attributes": {
+              "id": "acc-header-6",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es la tecnología No Frost Total? Evita la formación de escarcha y elimina la necesidad de descongelado manual, manteniendo un frío constante y uniforme. ¿Por qué es importante la apertura de puerta a 90º? Permite colocar el electrodoméstico junto a muebles o paredes sin que la puerta sobresalga, optimizando el espacio disponible en la cocina. ¿Cómo funcionan los sistemas Fresh Zone y Balance Fresh? Estos cajones controlan temperatura y humedad para mantener frutas, verduras y carnes frescas durante más tiempo. ¿Puedo controlar la temperatura fácilmente? Sí, los modelos incluyen controles electrónicos intuitivos para ajustar la temperatura con precisión. ¿Qué capacidades ofrecen los frigoríficos y congeladores Hisense? Disponibles en varios tamaños, desde compactos para espacios pequeños hasta grandes combinados y side by side para familias numerosas. ¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense? Incorporan sistemas como No Frost Total, Multi Air Flow y cajones Fresh Zone para mantener una temperatura homogénea y prolongar la frescura de los alimentos. ¿Son eficientes energéticamente? Sí, cuentan con certificaciones que aseguran bajo consumo y funcionamiento respetuoso con el medio ambiente.",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#mms-app-root > main#main-content > div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div#FAQs | Hisense | Frigoríficos y congeladores",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es la tecnología No Frost Total? Evita la formación de escarcha y elimina la necesidad de descongelado manual, manteniendo un frío constante y uniforme. ¿Por qué es importante la apertura de puerta a 90º? Permite colocar el electrodoméstico junto a muebles o paredes sin que la puerta sobresalga, optimizando el espacio disponible en la cocina. ¿Cómo funcionan los sistemas Fresh Zone y Balance Fresh? Estos cajones controlan temperatura y humedad para mantener frutas, verduras y carnes frescas durante más tiempo. ¿Puedo controlar la temperatura fácilmente? Sí, los modelos incluyen controles electrónicos intuitivos para ajustar la temperatura con precisión. ¿Qué capacidades ofrecen los frigoríficos y congeladores Hisense? Disponibles en varios tamaños, desde compactos para espacios pequeños hasta grandes combinados y side by side para familias numerosas. ¿Qué tecnologías garantizan la frescura en los frigoríficos Hisense? Incorporan sistemas como No Frost Total, Multi Air Flow y cajones Fresh Zone para mantener una temperatura homogénea y prolongar la frescura de los alimentos. ¿Son eficientes energéticamente? Sí, cuentan con certificaciones que aseguran bajo consumo y funcionamiento respetuoso con el medio ambiente.",
+            "attributes": {
+              "id": "FAQs | Hisense | Frigoríficos y congeladores",
+              "class": "mms-ui-dMMuNs mms-ui-xNKOC mms-ui-ksdoCR mms-ui-fQrmuT mms-ui-eaFySo"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

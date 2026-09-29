@@ -1,0 +1,1715 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0005-alza",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.alza.cz/refrigerators/bosch/18852759-v1877.htm",
+    "finalUrl": "https://www.alza.cz/lednicky/bosch/18852759-v1877.htm",
+    "capturedAt": "2026-09-28T07:56:15.929004+09:00",
+    "collectionOk": true,
+    "title": "Lednice BOSCH | Alza.cz"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0005-alza/brand-category/raw.html",
+      "sha256": "1b7318c6a33e63d7c056c6c59579536b963b8d8709c763bc7230910187a35ac5"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0005-alza/brand-category/capture-state.json",
+      "sha256": "3a0e84549169d27fa87352efeaa815208de2cea74eced7a6d078f4af800d89ec"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0005-alza/brand-category/response.json",
+      "sha256": "3ec329413081b55ddc0f519c812ca477480ad92224dac0c4e7066c462830bf03"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "div#categoryAnotationBlock > div#categoryUpperDescription > div > div#brandpage > section.brandpage-intro > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lednice Bosch udrží všechny potraviny déle čerstvé",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Žádná námraza a dokonalé chlazení",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Potraviny vydrží déle čerstvé, pokud jsou v té správné chladničce",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Rychlé dosažení ideální teploty",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lze u lednic Bosch změnit otevírání dveří?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je možné lednici převážet naležato?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nová lednice Bosch má po spuštění teplé boční stěny, je to v pořádku?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "U nové lednice není z venku na zadní stěně žebrování (výparník, kondenzátor), ale jakýsi karton. Je nutné tento karton odstranit?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "U nové lednice se hrozně často a na dlouho zapíná kompresor / motor. Je to v pořádku?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "U nové lednice je vzadu na kompresoru hadička, která je zakrytá igelitem, mám ho odstranit?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "V šuplíku na zeleninu (či pod šuplíkem na zeleninu) se nachází velké množství vlhkosti, případně, se v tomto prostoru tvoří velké množství vody.",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Čím se liší lednice s technologií No Frost a Low Frost?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je možné nastavovat teplotu pro mrazák zvlášť?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč chladnička sama aktivuje funkce Superchlazení a Supermrazení?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je v pořádku, když po zadní stěně v chladicí části stéká voda?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč po zapojení nové chladničky pípá a bliká Alarm? Je to chyba?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Na chladničce bliká Alarm, ale teplota uvnitř chladničky se nezměnila. Co to znamená?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Po výměně strany otevírání dveří nejde vysouvat šuplíky na ovoce/zeleninu. Co s tím?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Vejdou se do chladničky plechy z trouby?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je možné vypnout samostatně mrazák/chladící část?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jak dlouho nechat spotřebič v klidu při převozu?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lze při otevření dveří na 90° vyjmout police a šuplíky?",
+        "attributes": {}
+      },
+      {
+        "tag": "h1",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div#categoryAnotationBlock > div#h1cc > div#h1c > h1",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lednice BOSCH",
+        "attributes": {}
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 123,
+        "top10ByRenderedArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-lednice-hlavni-banner_1.jpg",
+            "alt": "Chlaďte like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/SuperFreezing%20Bosch.jpg",
+            "alt": "SuperChlazení a SuperMrazení",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.953125,
+            "renderedArea": 183143.87719726562,
+            "naturalWidth": 600,
+            "naturalHeight": 600,
+            "naturalArea": 360000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/2_140.jpg",
+            "alt": "Bosch VitaFresh",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.234375,
+            "renderedArea": 182836.28588867188,
+            "naturalWidth": 600,
+            "naturalHeight": 599,
+            "naturalArea": 359400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Vystrizek%202.PNG",
+            "alt": "Bosch NoFrost",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 425.359375,
+            "renderedArea": 182033.87377929688,
+            "naturalWidth": 331,
+            "naturalHeight": 329,
+            "naturalArea": 108899,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 128,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://image.alza.cz/products/BOCHL236/BOCHL236.jpg?width=230&height=230",
+            "alt": "BOSCH KGN392LAG - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 67,
+            "naturalHeight": 229,
+            "naturalArea": 15343,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/BOCHL66/BOCHL66.jpg?width=230&height=230",
+            "alt": "BOSCH KIN86VSE0 Serie 4 - Vestavná lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 98,
+            "naturalHeight": 230,
+            "naturalArea": 22540,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://image.alza.cz/products/BOCHL215/BOCHL215.jpg?width=230&height=230",
+            "alt": "BOSCH KIR81VFE0 Serie 4 - Vestavná lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 101,
+            "naturalHeight": 230,
+            "naturalArea": 23230,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-lednice-hlavni-banner_1.jpg",
+            "alt": "Chlaďte like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/SuperFreezing%20Bosch.jpg",
+            "alt": "SuperChlazení a SuperMrazení",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.953125,
+            "renderedArea": 183143.87719726562,
+            "naturalWidth": 600,
+            "naturalHeight": 600,
+            "naturalArea": 360000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/2_140.jpg",
+            "alt": "Bosch VitaFresh",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.234375,
+            "renderedArea": 182836.28588867188,
+            "naturalWidth": 600,
+            "naturalHeight": 599,
+            "naturalArea": 359400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Vystrizek%202.PNG",
+            "alt": "Bosch NoFrost",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 425.359375,
+            "renderedArea": 182033.87377929688,
+            "naturalWidth": 331,
+            "naturalHeight": 329,
+            "naturalArea": 108899,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 128,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 138,
+            "src": "https://image.alza.cz/Images/icons/footer/logo/kristalova-lupa.png",
+            "alt": "Křišťálová lupa",
+            "renderedWidth": 89.28125,
+            "renderedHeight": 50,
+            "renderedArea": 4464.0625,
+            "naturalWidth": 300,
+            "naturalHeight": 168,
+            "naturalArea": 50400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://cdn.alza.cz/images/web-static/eshop-logos/alza_cz.svg",
+            "alt": "",
+            "renderedWidth": 164.828125,
+            "renderedHeight": 50,
+            "renderedArea": 8241.40625,
+            "naturalWidth": 300,
+            "naturalHeight": 91,
+            "naturalArea": 27300,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 73,
+            "src": "https://image.alza.cz/products/BOCHL202/BOCHL202.jpg?width=230&height=230",
+            "alt": "BOSCH KBN96VFE0 Serie 4 - Vestavná lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 118,
+            "naturalHeight": 230,
+            "naturalArea": 27140,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Lednice BOSCH | Alza.cz"
+        ],
+        "metaDescription": [
+          "Lednice BOSCH přehledně na jednom místě. ✅ Široká nabídka. ✅ Produkty skladem. ✅ Doručíme do 24 hodin. ✅ Pravidelné akce a slevy na Lednice BOSCH. ✅"
+        ],
+        "h1": [
+          "Lednice BOSCH"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.alza.cz/lednicky/bosch/18852759-v1877.htm"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-lednice-hlavni-banner_1.jpg",
+            "alt": "Chlaďte like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/SuperFreezing%20Bosch.jpg",
+            "alt": "SuperChlazení a SuperMrazení",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.953125,
+            "renderedArea": 183143.87719726562,
+            "naturalWidth": 600,
+            "naturalHeight": 600,
+            "naturalArea": 360000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/2_140.jpg",
+            "alt": "Bosch VitaFresh",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 427.234375,
+            "renderedArea": 182836.28588867188,
+            "naturalWidth": 600,
+            "naturalHeight": 599,
+            "naturalArea": 359400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Vystrizek%202.PNG",
+            "alt": "Bosch NoFrost",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 425.359375,
+            "renderedArea": 182033.87377929688,
+            "naturalWidth": 331,
+            "naturalHeight": 329,
+            "naturalArea": 108899,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 128,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 45,
+            "src": "https://image.alza.cz/products/BOCHL236/BOCHL236.jpg?width=230&height=230",
+            "alt": "BOSCH KGN392LAG - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 67,
+            "naturalHeight": 229,
+            "naturalArea": 15343,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/BOCHL66/BOCHL66.jpg?width=230&height=230",
+            "alt": "BOSCH KIN86VSE0 Serie 4 - Vestavná lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 98,
+            "naturalHeight": 230,
+            "naturalArea": 22540,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://image.alza.cz/products/BOCHL215/BOCHL215.jpg?width=230&height=230",
+            "alt": "BOSCH KIR81VFE0 Serie 4 - Vestavná lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 101,
+            "naturalHeight": 230,
+            "naturalArea": 23230,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#content0 > div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div#blockFilterNoEmpty > div.component.alzaPlusPromoForApplications",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "component alzaPlusPromoForApplications",
+              "data-testid": "component-alzaPlusPromoForApplications"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#footerc > div.component.footer > div.MuiScopedCssBaseline-root.footer-1ym4w4j > div > footer.footer-alz-8reqr6-1 > div.footer-alz-l8x0jw-16.footer-alz-q5z8sn-2",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Nejspolehlivější internetový obchod v ČR Zboží doručíme již v den objednání Nonstop dostupná zákaznická podpora Doručení zdarma na cokoliv s AlzaPlus+ Prodejny a odběrná místa po celé ČR",
+            "attributes": {
+              "class": "footer-alz-l8x0jw-16 footer-alz-q5z8sn-2",
+              "data-testid": "footerUspList"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#leftParametrizationContainer > div.component.categoryNavigation > div.MuiScopedCssBaseline-root.category-navigation-1ym4w4j > div.MuiBox-root.category-navigation-1cytd0c > button > div.MuiBox-root.category-navigation-1easgqs",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Zobrazit katalog",
+            "attributes": {
+              "class": "MuiBox-root category-navigation-1easgqs"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemAvatar-root.category-navigation-1plwxek",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiListItemAvatar-root category-navigation-1plwxek"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > span.MuiTouchRipple-root.category-navigation-w0pj6f",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiTouchRipple-root category-navigation-w0pj6f"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          }
+        ],
+        "linkCandidates": [
+          {
+            "text": "BOSCH",
+            "href": "https://www.alza.cz/bosch/v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Lednice",
+            "href": "https://www.alza.cz/lednicky/bosch/18852759-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Lednice s technologií NoFrost",
+            "href": "https://www.alza.cz/lednice-no-frost/bosch/18865775-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Lednice s mrazákem",
+            "href": "https://www.alza.cz/kombinovane-lednicky/bosch/18852762-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Lednice bez mrazáku",
+            "href": "https://www.alza.cz/monoklimaticke-lednicky/bosch/18852760-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Americké lednice",
+            "href": "https://www.alza.cz/americke-lednice-side-by-side/bosch/18852763-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Vestavné lednice",
+            "href": "https://www.alza.cz/vestavene-lednicky/bosch/18853614-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Chytré lednice",
+            "href": "https://www.alza.cz/chytre-lednice/bosch/18862889-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Vše od BOSCH",
+            "href": "https://www.alza.cz/bosch/v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN392LAG",
+            "href": "https://www.alza.cz/bosch-kgn392lag-serie-4-d12878733.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIN86VSE0 Serie 4",
+            "href": "https://www.alza.cz/bosch-kin86vse0-d6788417.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIR81VFE0 Serie 4",
+            "href": "https://www.alza.cz/bosch-kir81vfe0-d8134046.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIN96NSE0 Serie 2",
+            "href": "https://www.alza.cz/bosch-kin96nse0-d8006524.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN362LBF Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn362lbf-serie-4-d12355036.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KSV33VLEP Serie 4",
+            "href": "https://www.alza.cz/bosch-ksv33vlep-d6332500.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN392ICF Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn392icf-d6796422.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGE49AICA Serie 6",
+            "href": "https://www.alza.cz/bosch-kge49aica-d6156931.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN39VXCT Serie 4 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-kgn39vxct-serie-4-d12878740.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KBN96VFE0 Serie 4",
+            "href": "https://www.alza.cz/bosch-kbn96vfe0-d8008642.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN39VIBT Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn39vibt-d7789596.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGV58VLEAS",
+            "href": "https://www.alza.cz/bosch-kgv58vleas-d7599747.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN492LDF Serie 4 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-kgn492ldf-serie-4-d12878737.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KBN96ADD0 Serie 6",
+            "href": "https://www.alza.cz/bosch-kbn96add0-d12340926.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN492IAF",
+            "href": "https://www.alza.cz/bosch-kgn492iaf-serie-4-d12878736.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIN86ADB0 Serie 6",
+            "href": "https://www.alza.cz/bosch-kin86adb0-serie-6-d12878738.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIN96VFD0 Serie 4",
+            "href": "https://www.alza.cz/bosch-kin96vfd0-d8008646.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIV87NSE0 Serie 2",
+            "href": "https://www.alza.cz/bosch-kiv87nse0-d8008648.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KIN86ADD0 Serie 6",
+            "href": "https://www.alza.cz/bosch-kin86add0-d7772656.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KFD96APEA Serie 6",
+            "href": "https://www.alza.cz/bosch-kfd96apea-serie-6-d12355040.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN362LAF Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn362laf-serie-4-d13171220.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN392I1F",
+            "href": "https://www.alza.cz/bosch-kgn392i1f-serie-4-d12877985.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN36VICT Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn36vict-d7127103.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH KGN49VICT Serie 4",
+            "href": "https://www.alza.cz/bosch-kgn49vict-d7386846.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

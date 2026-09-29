@@ -1,0 +1,1776 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0007-alza",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.alza.cz/tumble-dryers/bosch/18852767-v1877.htm",
+    "finalUrl": "https://www.alza.cz/susicky/bosch/18852767-v1877.htm",
+    "capturedAt": "2026-09-28T07:56:33.837754+09:00",
+    "collectionOk": true,
+    "title": "Sušičky prádla BOSCH | Alza.cz"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0007-alza/brand-category/raw.html",
+      "sha256": "69de8905aecefd5c7df1ca5f8af68b0b27acc640343ccce081837dbd79bece74"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0007-alza/brand-category/capture-state.json",
+      "sha256": "dad4a1d53c62f02f1e143da23c884e9ec4af06af08ccd9fcc596dc649d29e064"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0007-alza/brand-category/response.json",
+      "sha256": "78dbd5a9d75918247e47903db2e016b37b2986679e73f706c54f7c5e3eac1162"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "div#categoryAnotationBlock > div#categoryUpperDescription > div > div#brandpage > section.brandpage-intro > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušičky Bosch",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušičky Bosch s tepelným čerpadlem",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušičky Bosch nadstandardně pečují o prádlo",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušení přesně na míru od sušičky Bosch",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Snadná údržba sušiček Bosch",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč právě sušička Bosch?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušička Bosch má i další výhody",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kondenzační sušička Bosch je ideální i do malé koupelny",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Máte málo místa? Kombinovaná pračka se sušičkou je ta pravá",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jaké parametry zohlednit při výběru (nejen) sušičky Bosch?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušička prádla Bosch se vybírá i podle recenzí",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lze u sušičky Bosch změnit otevírání dveří?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Čím se od sebe liší sušičky Bosch v nabídce?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jakou lze použít spojovací sadu?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "V sušičce je dole voda, je to v pořádku?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lze sušičku napojit na odpad?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Po připojení sušičky na odpad zůstává v nádržce po sušení vždy voda. Jak to napravit?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Mohu napojit sušičku do jednoho odpadu s pračkou?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "V nádobě na kondenzát není žádná voda i po několika sušení. Je to v pořádku?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Prádlo je po ukončení programu vlhké. Jak to napravit?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Mohu u sušičky nastavit teplotu pro sušení?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Proč se prodlužuje nebo zkracuje čas programu?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušička po pár minutách dokončí sušící program (malé naplnění). Co s tím?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jak poznám, zda daný kus prádla mohu sušit v sušičce?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je možné použít přípravek na čištění tepelných čerpadel u všech typů sušiček?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jaká je teplota sušení a proč nemůžu nastavit přesnou teplotu?",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Je napojení sušičky Bosch na odpad nutné?",
+        "attributes": {}
+      },
+      {
+        "tag": "h1",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div#categoryAnotationBlock > div#h1cc > div#h1c > h1",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sušičky prádla BOSCH",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div.category-tiles.bottom > div.category-archive-tiles > h2.category-archive-tiles__title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Již neprodáváme",
+        "attributes": {
+          "class": "category-archive-tiles__title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 111,
+        "top10ByRenderedArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-pracky-susicky-hlavni-banner_1.jpg",
+            "alt": "Sušičky Bosch - like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-1.jpg",
+            "alt": "Pračka a sušička Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-2_1.jpg",
+            "alt": "Sušička Bosch s tepelným čerpadlem",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-3.jpg",
+            "alt": "Set pračky a sušičky Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-4.jpg",
+            "alt": "Sušička Bosch s kondenzátorem SelfCleaning",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 137,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/BOSU062/BOSU062.jpg?width=230&height=230",
+            "alt": "BOSCH WQH246D3BY Serie 6 - Sušička prádla",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/BOSU059/BOSU059.jpg?width=230&height=230",
+            "alt": "BOSCH WQG243D9CS Serie 6 - Sušička prádla",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-pracky-susicky-hlavni-banner_1.jpg",
+            "alt": "Sušičky Bosch - like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-1.jpg",
+            "alt": "Pračka a sušička Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-2_1.jpg",
+            "alt": "Sušička Bosch s tepelným čerpadlem",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-3.jpg",
+            "alt": "Set pračky a sušičky Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-4.jpg",
+            "alt": "Sušička Bosch s kondenzátorem SelfCleaning",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 137,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 147,
+            "src": "https://image.alza.cz/Images/icons/footer/logo/kristalova-lupa.png",
+            "alt": "Křišťálová lupa",
+            "renderedWidth": 89.28125,
+            "renderedHeight": 50,
+            "renderedArea": 4464.0625,
+            "naturalWidth": 300,
+            "naturalHeight": 168,
+            "naturalArea": 50400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 59,
+            "src": "https://image.alza.cz/products/BOSU068/BOSU068.jpg?width=230&height=230",
+            "alt": "BOSCH WTH8520BCS Serie 4 - Sušička prádla",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 165,
+            "naturalHeight": 230,
+            "naturalArea": 37950,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Sušičky prádla BOSCH | Alza.cz"
+        ],
+        "metaDescription": [
+          "Sušičky prádla BOSCH přehledně na jednom místě. ✅ Široká nabídka. ✅ Produkty skladem. ✅ Doručíme do 24 hodin. ✅ Pravidelné akce a slevy na Sušičky prádla BOS..."
+        ],
+        "h1": [
+          "Sušičky prádla BOSCH"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.alza.cz/susicky/bosch/18852767-v1877.htm"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Bosch-pracky-susicky-hlavni-banner_1.jpg",
+            "alt": "Sušičky Bosch - like a Bosch",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-1.jpg",
+            "alt": "Pračka a sušička Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-2_1.jpg",
+            "alt": "Sušička Bosch s tepelným čerpadlem",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-3.jpg",
+            "alt": "Set pračky a sušičky Bosch",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/Susicky-Bosch-4.jpg",
+            "alt": "Sušička Bosch s kondenzátorem SelfCleaning",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/3a91040d-9e38-467d-ae8b-0b2caf348690.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/1f096b5d-6f5e-42cd-9b15-942c7ff7bbbc.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 137,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/BOSU062/BOSU062.jpg?width=230&height=230",
+            "alt": "BOSCH WQH246D3BY Serie 6 - Sušička prádla",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/BOSU059/BOSU059.jpg?width=230&height=230",
+            "alt": "BOSCH WQG243D9CS Serie 6 - Sušička prádla",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 164,
+            "naturalHeight": 229,
+            "naturalArea": 37556,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h2",
+            "path": "div#categoryUpperDescription > div > div#brandpage > section.brandpage-stuff > div.brandpage-text > h2",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Sušička Bosch má i další výhody",
+            "attributes": {},
+            "matchedTerms": [
+              "vyhody"
+            ]
+          },
+          {
+            "tag": "div",
+            "path": "div#content0 > div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div#blockFilterNoEmpty > div.component.alzaPlusPromoForApplications",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "component alzaPlusPromoForApplications",
+              "data-testid": "component-alzaPlusPromoForApplications"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#footerc > div.component.footer > div.MuiScopedCssBaseline-root.footer-1ym4w4j > div > footer.footer-alz-8reqr6-1 > div.footer-alz-l8x0jw-16.footer-alz-q5z8sn-2",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Nejspolehlivější internetový obchod v ČR Zboží doručíme již v den objednání Nonstop dostupná zákaznická podpora Doručení zdarma na cokoliv s AlzaPlus+ Prodejny a odběrná místa po celé ČR",
+            "attributes": {
+              "class": "footer-alz-l8x0jw-16 footer-alz-q5z8sn-2",
+              "data-testid": "footerUspList"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#leftParametrizationContainer > div.component.categoryNavigation > div.MuiScopedCssBaseline-root.category-navigation-1ym4w4j > div.MuiBox-root.category-navigation-1cytd0c > button > div.MuiBox-root.category-navigation-1easgqs",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Zobrazit katalog",
+            "attributes": {
+              "class": "MuiBox-root category-navigation-1easgqs"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemAvatar-root.category-navigation-1plwxek",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiListItemAvatar-root category-navigation-1plwxek"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > span.MuiTouchRipple-root.category-navigation-w0pj6f",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiTouchRipple-root category-navigation-w0pj6f"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Alza dny - elektro",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          }
+        ],
+        "linkCandidates": [
+          {
+            "text": "BOSCH",
+            "href": "https://www.alza.cz/bosch/v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Sušičky",
+            "href": "https://www.alza.cz/susicky/bosch/18852767-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: susicky"
+            ]
+          },
+          {
+            "text": "Sušičky s tepelným čerpadlem",
+            "href": "https://www.alza.cz/susicky-s-tepelnym-cerpadlem/bosch/18863749-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: susicky"
+            ]
+          },
+          {
+            "text": "Sušičky se samočisticími kondenzátory (SelfClean a AutoClean)",
+            "href": "https://www.alza.cz/susicky/bosch/18852767-v1877.htm#f&cst=0&pg=1&prod=1877&par622=622-126423",
+            "signals": [
+              "페이지 주제어와 일치: susicky"
+            ]
+          },
+          {
+            "text": "kombinované pračky se sušičkou Bosch",
+            "href": "https://www.alza.cz/pracky-se-susickou/bosch/18852778-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Vše od BOSCH",
+            "href": "https://www.alza.cz/bosch/v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Kondenzační (běžné sušičky)",
+            "href": "https://www.alza.cz/kondenzacni-susicky/bosch/18866404-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: susicky"
+            ]
+          },
+          {
+            "text": "Příslušenství pro sušičky",
+            "href": "https://www.alza.cz/prislusenstvi-k-susickam/bosch/18853310-v1877.htm",
+            "signals": [
+              "페이지 주제어와 일치: susicky"
+            ]
+          },
+          {
+            "text": "BOSCH WQH246D3BY Serie 6 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-wqh246d3by-serie-6-d13029674.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG243D9CS Serie 6 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-wqg243d9cs-serie-6-d13032952.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WRB247DNCS Serie 8",
+            "href": "https://www.alza.cz/bosch-wrb247dncs-serie-8-d13096122.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WTH8520BCS Serie 4 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-wth8520bcs-serie-4-d13221180.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WRB247CNBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wrb247cnby-serie-8-d13095995.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG24591BY Serie 6",
+            "href": "https://www.alza.cz/bosch-wqg24591by-serie-6-d13029672.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQB246DNBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wqb246dnby-serie-8-d13029481.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WTH83256BY Serie 4",
+            "href": "https://www.alza.cz/bosch-wth83256by-d12787892.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQB246CNBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wqb246cnby-serie-8-d13029482.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQB246DMBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wqb246dmby-serie-8-d13029673.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG24101BY Serie 6",
+            "href": "https://www.alza.cz/bosch-wqg24101by-serie-6-d12837001.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG245DREU Serie 6",
+            "href": "https://www.alza.cz/bosch-wqg245dreu-serie-6-d13029483.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG243DNBY Serie 6",
+            "href": "https://www.alza.cz/bosch-wqg243dnby-serie-6-d13032951.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQG243DMBY Serie 6",
+            "href": "https://www.alza.cz/bosch-wqg243dmby-serie-6-d13029675.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQA23202CS Serie 4 + záruka 5 let po registraci",
+            "href": "https://www.alza.cz/bosch-wqa23202cs-serie-4-d13529275.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQJ24200BY",
+            "href": "https://www.alza.cz/bosch-wqj24200by-serie-6-d13375380.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WTH85209BY Serie 4",
+            "href": "https://www.alza.cz/bosch-wth85209by-serie-4-d12837000.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WTH85293CS Serie 4",
+            "href": "https://www.alza.cz/bosch-wth85293cs-serie-4-d13221179.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQJ24201BY",
+            "href": "https://www.alza.cz/bosch-wqj24201by-serie-6-d13375381.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQH246D3BY Serie 6",
+            "href": "https://www.alza.cz/bosch-wqh246d3by-serie-6-sleva-d13192892.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WRB247CNBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wrb247cnby-serie-8-sleva-d13197599.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQB246DMBY Serie 8",
+            "href": "https://www.alza.cz/bosch-wqb246dmby-serie-8-sleva-d13243963.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WQA23200CS Serie 4",
+            "href": "https://www.alza.cz/bosch-wqa23200cs-serie-4-d13529276.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH WGG242Z2CS Serie 6 + BOSCH WQG243D9CS Serie 6",
+            "href": "https://www.alza.cz/bosch-wgg242z2cs-serie-6-bosch-wqg243d9cs-serie-6-d13191272.htm",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

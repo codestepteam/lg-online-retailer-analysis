@@ -1,0 +1,202 @@
+{"offset": "0x16000", "text": "%.200s() needs an argument"}
+{"offset": "0x1601b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x16039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1604f", "text": "__loader__"}
+{"offset": "0x1605a", "text": "loader"}
+{"offset": "0x16061", "text": "__file__"}
+{"offset": "0x1606a", "text": "origin"}
+{"offset": "0x16071", "text": "__package__"}
+{"offset": "0x1607d", "text": "parent"}
+{"offset": "0x16084", "text": "__path__"}
+{"offset": "0x1608d", "text": "submodule_search_locations"}
+{"offset": "0x160a8", "text": "keywords must be strings"}
+{"offset": "0x160c1", "text": "_cython_coroutine_type"}
+{"offset": "0x160d8", "text": "_cython_generator_type"}
+{"offset": "0x160ef", "text": "_module"}
+{"offset": "0x160f7", "text": "__builtins__"}
+{"offset": "0x16104", "text": "_cython_3_0_12"}
+{"offset": "0x16113", "text": "cannot import name %S"}
+{"offset": "0x16129", "text": "%s (%s:%d)"}
+{"offset": "0x16134", "text": "generator already executing"}
+{"offset": "0x16153", "text": "role"}
+{"offset": "0x16158", "text": "member"}
+{"offset": "0x1615f", "text": "scripts/gcs_setup_smoke.py"}
+{"offset": "0x1617a", "text": "genexpr"}
+{"offset": "0x16182", "text": "name '%U' is not defined"}
+{"offset": "0x1619b", "text": "builtins"}
+{"offset": "0x161a4", "text": "cython_runtime"}
+{"offset": "0x161b3", "text": "does not match"}
+{"offset": "0x161c2", "text": "collections.abc"}
+{"offset": "0x161d2", "text": "backports_abc"}
+{"offset": "0x161e0", "text": "init scripts.gcs_setup_smoke"}
+{"offset": "0x161fd", "text": "throw"}
+{"offset": "0x16203", "text": "scripts.gcs_setup_smoke.main"}
+{"offset": "0x16220", "text": "_cython_3_0_12.generator"}
+{"offset": "0x16239", "text": "__name__"}
+{"offset": "0x16242", "text": "name of the generator"}
+{"offset": "0x16258", "text": "__qualname__"}
+{"offset": "0x16265", "text": "gi_frame"}
+{"offset": "0x1626e", "text": "Frame of the generator"}
+{"offset": "0x16285", "text": "gi_running"}
+{"offset": "0x16290", "text": "gi_yieldfrom"}
+{"offset": "0x1629d", "text": "gi_code"}
+{"offset": "0x162a5", "text": "__module__"}
+{"offset": "0x162b0", "text": "send"}
+{"offset": "0x162b5", "text": "close"}
+{"offset": "0x162bb", "text": "__reduce__"}
+{"offset": "0x162c6", "text": "func_doc"}
+{"offset": "0x162cf", "text": "__doc__"}
+{"offset": "0x162d7", "text": "func_name"}
+{"offset": "0x162e1", "text": "func_dict"}
+{"offset": "0x162eb", "text": "__dict__"}
+{"offset": "0x162f4", "text": "func_globals"}
+{"offset": "0x16301", "text": "__globals__"}
+{"offset": "0x1630d", "text": "func_closure"}
+{"offset": "0x1631a", "text": "__closure__"}
+{"offset": "0x16326", "text": "func_code"}
+{"offset": "0x16330", "text": "__code__"}
+{"offset": "0x16339", "text": "func_defaults"}
+{"offset": "0x16347", "text": "__defaults__"}
+{"offset": "0x16354", "text": "__kwdefaults__"}
+{"offset": "0x16363", "text": "__annotations__"}
+{"offset": "0x16373", "text": "_is_coroutine"}
+{"offset": "0x16388", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x163b0", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x163e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x16408", "text": " while calling a Python object"}
+{"offset": "0x16428", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x16458", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x16480", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x16530", "text": "function's dictionary may not be deleted"}
+{"offset": "0x16560", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x16590", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x165f0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x16620", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x16650", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x16680", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x166e8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x16718", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x16778", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x167a8", "text": "__name__ must be set to a string object"}
+{"offset": "0x167d0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x16918", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x16950", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x16988", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x169b8", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x169f8", "text": "join() result is too long for a Python string"}
+{"offset": "0x16a28", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/gcs_setup_smoke.c"}
+{"offset": "0x16a68", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x16aa0", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x16ae8", "text": "generator raised StopIteration"}
+{"offset": "0x16b08", "text": "Module 'gcs_setup_smoke' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x16b60", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x16bb0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x16bf0", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x16c18", "text": "generator ignored GeneratorExit"}
+{"offset": "0x16c38", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x16c68", "text": "instance exception may not have a separate value"}
+{"offset": "0x16ca0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x16ce8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x16d28", "text": "scripts.gcs_setup_smoke.main.genexpr"}
+{"offset": "0x16d50", "text": "qualified name of the generator"}
+{"offset": "0x16d70", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x16da0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x16e00", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x16e70", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x16ea8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x16ed8", "text": "scripts.gcs_setup_smoke.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x16f10", "text": "scripts.gcs_setup_smoke.__pyx_scope_struct__main"}
+{"offset": "0x16f60", "text": "uniform_bucket_level_access_enabled"}
+{"offset": "0x16fa0", "text": "sa-hs-clinic-crawler@lge-ha-marketing.iam.gserviceaccount.com"}
+{"offset": "0x16fe0", "text": "    생성 완료 (asia-northeast3, uniform access)"}
+{"offset": "0x17020", "text": "[3] 리포트 미러 스모크 (core/object_storage.upload)"}
+{"offset": "0x17060", "text": "scripts/gcs_setup_smoke.py"}
+{"offset": "0x17080", "text": "    GCS_BUCKET env 미설정 — .env 반영 후 compose 재기동 필요"}
+{"offset": "0x170d0", "text": "roles/storage.objectAdmin"}
+{"offset": "0x170f0", "text": "requested_policy_version"}
+{"offset": "0x17110", "text": "scripts.gcs_setup_smoke"}
+{"offset": "0x17130", "text": "lge-hs-clinic-reports"}
+{"offset": "0x17150", "text": "main.<locals>.genexpr"}
+{"offset": "0x17170", "text": "cline_in_traceback"}
+{"offset": "0x17190", "text": "asyncio.coroutines"}
+{"offset": "0x171b0", "text": "iam_configuration"}
+{"offset": "0x171d0", "text": "report_smoke.csv"}
+{"offset": "0x171f0", "text": "lge-ha-marketing"}
+{"offset": "0x17210", "text": "[2] SA objectAdmin 부여 — "}
+{"offset": "0x17230", "text": "asia-northeast3"}
+{"offset": "0x17240", "text": "set_iam_policy"}
+{"offset": "0x17250", "text": "serviceAccount:"}
+{"offset": "0x17260", "text": "object_storage"}
+{"offset": "0x17270", "text": "get_iam_policy"}
+{"offset": "0x17280", "text": "storage_class"}
+{"offset": "0x17290", "text": "create_bucket"}
+{"offset": "0x172a0", "text": "smoke,ok\n1,1\n"}
+{"offset": "0x172b0", "text": "_is_coroutine"}
+{"offset": "0x172c0", "text": "_initializing"}
+{"offset": "0x172d0", "text": "google.cloud"}
+{"offset": "0x172e0", "text": "CLINIC_ENTRY"}
+{"offset": "0x172f0", "text": "/opt/project"}
+{"offset": "0x17300", "text": "max_results"}
+{"offset": "0x17310", "text": "GCS_PROJECT"}
+{"offset": "0x17320", "text": "write_text"}
+{"offset": "0x17330", "text": "list_blobs"}
+{"offset": "0x17340", "text": "get_bucket"}
+{"offset": "0x17350", "text": "GCS_BUCKET"}
+{"offset": "0x17360", "text": " project="}
+{"offset": "0x17370", "text": "isenabled"}
+{"offset": "0x17380", "text": "gcs_smoke"}
+{"offset": "0x1738a", "text": "upload"}
+{"offset": "0x17398", "text": "location"}
+{"offset": "0x173a8", "text": "exist_ok"}
+{"offset": "0x173b8", "text": "encoding"}
+{"offset": "0x173c8", "text": "bindings"}
+{"offset": "0x173d8", "text": "STANDARD"}
+{"offset": "0x173e8", "text": "DATA_DIR"}
+{"offset": "0x173f8", "text": "[1] bucket="}
+{"offset": "0x17408", "text": "storage"}
+{"offset": "0x17410", "text": "project"}
+{"offset": "0x17418", "text": "parents"}
+{"offset": "0x17420", "text": "members"}
+{"offset": "0x17428", "text": "genexpr"}
+{"offset": "0x17430", "text": "environ"}
+{"offset": "0x17438", "text": "disable"}
+{"offset": "0x17440", "text": "PROJECT"}
+{"offset": "0x17450", "text": "    upload → "}
+{"offset": "0x17460", "text": "return"}
+{"offset": "0x17467", "text": "report"}
+{"offset": "0x1746e", "text": "parent"}
+{"offset": "0x17478", "text": "__name__"}
+{"offset": "0x17481", "text": "member"}
+{"offset": "0x17488", "text": "main"}
+{"offset": "0x1748d", "text": "insert"}
+{"offset": "0x17498", "text": "__import__"}
+{"offset": "0x174a3", "text": "enable"}
+{"offset": "0x174aa", "text": "config"}
+{"offset": "0x174b1", "text": "append"}
+{"offset": "0x174b8", "text": "Client"}
+{"offset": "0x174bf", "text": "Bucket"}
+{"offset": "0x174c6", "text": "BUCKET"}
+{"offset": "0x174cd", "text": "utf-8"}
+{"offset": "0x174d3", "text": "throw"}
+{"offset": "0x174d9", "text": "smoke"}
+{"offset": "0x174df", "text": "print"}
+{"offset": "0x174e5", "text": "mkdir"}
+{"offset": "0x174eb", "text": "close"}
+{"offset": "0x174f8", "text": "__test__"}
+{"offset": "0x17508", "text": "__spec__"}
+{"offset": "0x17511", "text": "size"}
+{"offset": "0x17516", "text": "send"}
+{"offset": "0x1751b", "text": "role"}
+{"offset": "0x17520", "text": "path"}
+{"offset": "0x17525", "text": "name"}
+{"offset": "0x17530", "text": "__main__"}
+{"offset": "0x17539", "text": "exit"}
+{"offset": "0x1753e", "text": "core"}
+{"offset": "0x17543", "text": "args"}
+{"offset": "0x17548", "text": "DONE"}
+{"offset": "0x17560", "text": "[4] 버킷 내용 (최대 10개)"}
+{"offset": "0x17594", "text": "    "}
+{"offset": "0x175a0", "text": "    실패 — 콘솔(IAM)에서 수동 부여 필요: "}
+{"offset": "0x175f0", "text": "    부여 완료"}
+{"offset": "0x17610", "text": "    이미 부여됨"}
+{"offset": "0x17640", "text": "    이미 존재 — 생성 스킵"}

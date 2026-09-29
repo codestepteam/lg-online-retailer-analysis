@@ -1,0 +1,5866 @@
+{
+  "retailer": "mediamarkt-es",
+  "pageType": "brand-category",
+  "steps": [
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "clicked",
+      "expanded": null
+    },
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "clicked",
+      "expanded": null
+    },
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "not-present"
+    },
+    {
+      "selector": "button,[role='button']",
+      "text_pattern": "^¿Qué debo tomar en cuenta a la hora de elegir un frigorífico\\?$",
+      "expand": true,
+      "wait_for_ms": 1500,
+      "status": "not-present"
+    },
+    {
+      "selector": "button,[role='button']",
+      "text_pattern": "^¿Qué es Door Cooling\\?$",
+      "expand": true,
+      "wait_for_ms": 1500,
+      "status": "not-present"
+    }
+  ],
+  "startedAt": "2026-09-27T23:09:22.696Z",
+  "ready": true,
+  "initialMetadata": {
+    "url": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras",
+    "title": [
+      "Lavadoras y secadoras Hisense | MediaMarkt"
+    ],
+    "metaDescription": [
+      "La mayor oferta de lavadoras y secadoras Hisense la encontrarás en MediaMarkt al mejor precio. Haz tu pedido en nuestra web y recógelo en 30 min en la tienda MediaMarkt que quieras."
+    ],
+    "robots": [
+      "index, follow"
+    ],
+    "canonical": [
+      "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras"
+    ],
+    "h1": [
+      "HISENSE Lavadoras y Secadoras en MediaMarkt"
+    ]
+  },
+  "scroll": {
+    "selector": "document",
+    "y": 20838,
+    "height": 21783,
+    "reachedBottom": true
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 945
+  },
+  "url": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3",
+  "title": "Lavadoras y secadoras Hisense | MediaMarkt",
+  "textLength": 27855,
+  "images": [
+    {
+      "index": 0,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/44h8niXHULqXsrJQIX29AZ/56e82d73704471511e9484f373b39f39/MM_logo_white.svg?q=80",
+      "alt": "Mediamarkt Logo",
+      "renderedWidth": 210,
+      "renderedHeight": 28.4375,
+      "renderedArea": 5971.875,
+      "naturalWidth": 288,
+      "naturalHeight": 39,
+      "naturalArea": 11232,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 1,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-65843058/mobilecms_x_72_png",
+      "alt": "hisense Logo",
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "renderedArea": 0,
+      "naturalWidth": 434,
+      "naturalHeight": 72,
+      "naturalArea": 31248,
+      "loaded": true,
+      "visible": false
+    },
+    {
+      "index": 2,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-65843058/mobilecms_x_72_png",
+      "alt": "hisense Logo",
+      "renderedWidth": 326,
+      "renderedHeight": 54.078125,
+      "renderedArea": 17629.46875,
+      "naturalWidth": 434,
+      "naturalHeight": 72,
+      "naturalArea": 31248,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 3,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2dEOrIcqMLOF8lAUis4Kv3/8d3c3b6e1abd9756b815567cd4e47498/Lavadoras.png?q=80",
+      "alt": "",
+      "renderedWidth": 256.5,
+      "renderedHeight": 256.5,
+      "renderedArea": 65792.25,
+      "naturalWidth": 300,
+      "naturalHeight": 300,
+      "naturalArea": 90000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 4,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6zoxjVURQSNuWCCzCciE0f/2f07ea021152dc55da22aa59730aa9f3/Lava_-_Secadoras.png?q=80",
+      "alt": "",
+      "renderedWidth": 256.5,
+      "renderedHeight": 256.5,
+      "renderedArea": 65792.25,
+      "naturalWidth": 300,
+      "naturalHeight": 300,
+      "naturalArea": 90000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 5,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3vHkM1bW8hsZs9xmoDr3IW/ef447351d6f33f4069130faa62825163/300x300__Secadoras-DH5I104BWAB.png?q=80",
+      "alt": "",
+      "renderedWidth": 256.5,
+      "renderedHeight": 256.5,
+      "renderedArea": 65792.25,
+      "naturalWidth": 300,
+      "naturalHeight": 300,
+      "naturalArea": 90000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 6,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/EsTfAq361NfJAGw4RO2rF/f03026b68f6492859a6a6f6d3806df29/StandartTeaser_Desktop-_889x352.png?q=92&w=890&fm=webp",
+      "alt": "",
+      "renderedWidth": 709.328125,
+      "renderedHeight": 400,
+      "renderedArea": 283731.25,
+      "naturalWidth": 889,
+      "naturalHeight": 352,
+      "naturalArea": 312928,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 7,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/wTKI03aVKg5x8Qj9KISwd/102cb2bfae1a93bb4a9594e0a33233eb/5i-_889x352.png?q=92&w=890&fm=webp",
+      "alt": "",
+      "renderedWidth": 709.328125,
+      "renderedHeight": 400,
+      "renderedArea": 283731.25,
+      "naturalWidth": 889,
+      "naturalHeight": 352,
+      "naturalArea": 312928,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 8,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199676?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 9,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199345?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 10,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 11,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199678?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 12,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199333?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 13,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 14,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199347?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 15,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 16,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199341?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 17,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 18,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199674?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 19,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 20,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199334?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 21,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 22,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199328?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 23,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 24,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199680?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 25,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199339?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 26,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 27,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199671?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 28,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182199330?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 29,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 30,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_183090943?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 31,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_183090923?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 32,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181796537?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 33,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 34,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_184601996?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 35,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 36,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159893119?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 37,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 38,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_149712301?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 39,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181795958?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 40,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 41,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_142340958?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 42,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 43,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_145135876?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 44,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161469388?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 45,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162025675?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 46,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_159810400?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 47,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 48,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_141513992?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 49,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 50,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_157951177?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 51,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 52,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_180236873?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 53,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 54,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_173170591?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 55,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_178443421?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 56,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_152121783?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 57,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 58,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_152144206?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 59,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_146558765?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 60,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 61,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_180237321?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 62,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_141913196/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Logotipo de IA. Texto IA morado con brillo de estrella sobre fondo negro.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 89,
+      "naturalHeight": 80,
+      "naturalArea": 7120,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 63,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_166895296?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 64,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_175971703?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 65,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180724471?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 236,
+      "renderedHeight": 157.328125,
+      "renderedArea": 37129.4375,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 66,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183450979?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 67,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161493696?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 68,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181216018?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 69,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151021058?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 70,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_165231042?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 71,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183531621?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 72,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177512609?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 73,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182777746?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 74,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_134330137?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 75,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1k0qXcrvOHbLpkwaZM8T9X/eda4645be9e2e12a3d58d0c5fac6b0d4/Proyecto_nuevo__3_.png?q=80",
+      "alt": "Confianza online",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 76,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+      "alt": "Betterway",
+      "renderedWidth": 216.8125,
+      "renderedHeight": 80,
+      "renderedArea": 17345,
+      "naturalWidth": 1225,
+      "naturalHeight": 452,
+      "naturalArea": 553700,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 77,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3qk7ctvjQwCvAjGEf3DFVZ/80bf10c0323583eb3423fe94e64e0c9b/225x80.png?q=80",
+      "alt": "MediaMarkt VISA",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 78,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2piTFyrRIMwNnLiP8DNsIX/b5a683e26f26d2630bda7f6c4d7bc424/Proyecto_nuevo__5_.png?q=80",
+      "alt": "Mejor precio garantizado",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 79,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/53pBGpuH5mo1pVYszqqkAq/74fba21baf28542d9203d997f134ecb6/Proyecto_nuevo__7_.png?q=80",
+      "alt": "Glovo",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 80,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1iqlFUDBYPAyZS4pvnqh0p/dfa254af16695505d1026bde5638108c/60-dias-devolucion__5_.png?q=80",
+      "alt": "Devoluciones hasta en 60 días",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 81,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2mEZWLG7ACVj10iZjCojSa/9f67b6c0eba4667b0fb07c3ca7e50760/StyleGuideContact.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 32,
+      "naturalHeight": 32,
+      "naturalArea": 1024,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 82,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/5GdczDo1DaBPvWHEy0sboH/d83c4537d31abfc5139e1ebb28fa48d8/StyleGuideChat.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 32,
+      "naturalHeight": 32,
+      "naturalArea": 1024,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 83,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2Q3fwMiK80VdnbdK2KbY4i/d351649352eada61c1268b5f08205ff6/assistant.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 84,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/5aYGSBeVkel4APhFhwU1ae/3329da65f70199ff112d5d315d19b54d/youtube.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 85,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2AIjdlWxtQbdiNw6q2sagh/edadd47d1310e97f17561560d6df4815/instagram.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 86,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/34T0xkLw9LrFjXzB0depu7/686ce98b2fa2e962a0ce540d452c32c0/logo-tiktok.png?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 87,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6nywNxd6oYzRqAROliQSCj/2f1656a6fe7790d9a77a89b2d9d4b6d3/facebook.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 88,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4tjPAs20z3gwC2QddDcfu5/b373dad82f2ab85037fccbc1603e100e/X__twitter_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 89,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 800,
+      "naturalHeight": 800,
+      "naturalArea": 640000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 90,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 800,
+      "naturalHeight": 800,
+      "naturalArea": 640000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 91,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4RffOharq0MRzN2DVzeSVg/5c5ef265b0d2212ead191e4290a663b0/logo-paack-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 84,
+      "naturalArea": 25200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 92,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/CifHaqY0nB1mFHaZSmafy/7439747b2286cde358bbf778f4d44442/Sin_t%C3%83_tulo__8_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 93,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1mdkNqHKt3lKCCE7rR61yo/2d72e97397119e8160cf666784dac865/Sin_t%C3%83_tulo__7_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 94,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4FZVeWZSz1QhRUNHrVClCA/9b56d3e01c9946ce2523de9fb5bca81a/logo-visa-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 97,
+      "naturalArea": 29100,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 95,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2HPA7qmTSe99dRxvNe3TS3/e2159bd0dbe493911cc421488d0e7385/logo-mastercard-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 188,
+      "naturalHeight": 150,
+      "naturalArea": 28200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 96,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1KA72nDkxX7ch8W3nnFY06/9f99aec634ec0075c6c2b37812435bfd/logo-paypal-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 78,
+      "naturalArea": 23400,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 97,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/7EyaxFLmiPpzIbDjt4wZsJ/9aeb1ef898ff5030c307644456dfb147/logo-bizum-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 93,
+      "naturalArea": 27900,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 98,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/7sdsIOTTkQRn6Q0gMpz78m/3cb6031fcd7d4664a486fa85438e45de/apple_pay.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 276,
+      "naturalHeight": 133,
+      "naturalArea": 36708,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 99,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6Y2UJ1yYzT7scIVnWwzBRi/3712df421f7cce9f7bd85f91df62e8a8/Logo-g-pay.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 259,
+      "naturalHeight": 84,
+      "naturalArea": 21756,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 100,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1nlpTrcWJkuSWfJuOJMmBp/31b9183bfd72e60b08bfe32cbef088d0/logo-amex-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 101,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6ngImmBxYKpQN1t77VBxy5/b5faa5389882c3aae82b0f8f3e860edf/51x18px_1.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 33,
+      "naturalHeight": 21,
+      "naturalArea": 693,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 102,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/47iIiPWDpItSZN7BAeSLxU/33b80f48c8d20d695d2491da8b883e10/logo-gift-card-es-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 240,
+      "naturalHeight": 150,
+      "naturalArea": 36000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 103,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/hV8YqBK9dtRwMaJ9VAoRP/d8141de09eaa2688314d7f46a91b2af6/logo-payment-in-store-es-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 84,
+      "naturalArea": 25200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 104,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1JaoV0kwc3zdyqMonGd50x/b15eb7f21b793efe8974acf1ac7bb1b3/ES-APP-STORE-2.svg?q=80",
+      "alt": "Apple AppStore",
+      "renderedWidth": 140,
+      "renderedHeight": 40,
+      "renderedArea": 5600,
+      "naturalWidth": 140,
+      "naturalHeight": 40,
+      "naturalArea": 5600,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 105,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/337HIdnUKTMk59iGFR4RFC/91922d499b574a07ca860825ace463e0/ES-GOOGLE_PAY__8_.svg?q=80",
+      "alt": "Google AppStore Link",
+      "renderedWidth": 140,
+      "renderedHeight": 40,
+      "renderedArea": 5600,
+      "naturalWidth": 140,
+      "naturalHeight": 40,
+      "naturalArea": 5600,
+      "loaded": true,
+      "visible": true
+    }
+  ],
+  "required": [
+    {
+      "selector": "h1",
+      "expected": "present",
+      "present": true
+    }
+  ],
+  "cookieRemaining": [],
+  "finishedAt": "2026-09-27T23:09:42.178Z",
+  "faqExpansion": [
+    {
+      "label": "¿Qué aporta el motor Inverter de las lavadoras Hisense?",
+      "expanded": true
+    },
+    {
+      "label": "¿Para qué sirve la función vapor?",
+      "expanded": true
+    },
+    {
+      "label": "¿Cómo funciona la Wi Fi en las lavadoras Hisense?",
+      "expanded": true
+    },
+    {
+      "label": "¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense?",
+      "expanded": true
+    },
+    {
+      "label": "¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa?",
+      "expanded": true
+    }
+  ],
+  "evidenceVersion": "bcp-v1",
+  "requireScrollBottom": true,
+  "metadata": {
+    "title": "Lavadoras y secadoras Hisense | MediaMarkt",
+    "metaDescription": [
+      "La mayor oferta de lavadoras y secadoras Hisense la encontrarás en MediaMarkt al mejor precio. Haz tu pedido en nuestra web y recógelo en 30 min en la tienda MediaMarkt que quieras."
+    ],
+    "robots": [
+      "noindex,follow"
+    ],
+    "canonical": [
+      "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3"
+    ],
+    "h1": [
+      "HISENSE Lavadoras y Secadoras en MediaMarkt"
+    ]
+  },
+  "clickables": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Ir al contenido",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3#main-content",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/",
+      "ariaLabel": "Ir a la página principal",
+      "expanded": null
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Busca en",
+      "expanded": null
+    },
+    {
+      "index": 3,
+      "tag": "button",
+      "text": "Mi tienda No has seleccionado una tienda",
+      "href": "",
+      "ariaLabel": "Mi tienda, No has seleccionado una tienda",
+      "expanded": null
+    },
+    {
+      "index": 4,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mi cuenta",
+      "expanded": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/myaccount/wishlist",
+      "ariaLabel": "Ir a Mis favoritos",
+      "expanded": null
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/checkout",
+      "ariaLabel": "Mi carrito",
+      "expanded": null
+    },
+    {
+      "index": 7,
+      "tag": "button",
+      "text": "Todas las categorías",
+      "href": "",
+      "ariaLabel": "Todas las categorías",
+      "expanded": "false"
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/category/electrodom%C3%A9sticos-553.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Informática",
+      "href": "https://www.mediamarkt.es/es/category/inform%C3%A1tica-9.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Telefonía",
+      "href": "https://www.mediamarkt.es/es/category/telefon%C3%ADa-262.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Televisión",
+      "href": "https://www.mediamarkt.es/es/category/televisi%C3%B3n-398.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Pequeños electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/category/peque%C3%B1os-electrodom%C3%A9sticos-6201.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Consolas y videojuegos",
+      "href": "https://www.mediamarkt.es/es/specials/consolas-y-videojuegos",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "Ofertas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "¿Te ayudamos?",
+      "href": "https://te-ayudamos.mediamarkt.es/",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "Servicios",
+      "href": "https://www.mediamarkt.es/es/service",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 17,
+      "tag": "a",
+      "text": "miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/myaccount/loyalty-benefits",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Empresas",
+      "href": "https://www.mediamarkt.es/es/specials/empresas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "Marketplace",
+      "href": "https://www.mediamarkt.es/es/campaign/mejores-ofertas-marketplace",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Top ofertas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "Ventajas exclusivas en APP",
+      "href": "https://www.mediamarkt.es/es/specials/app-mediamarkt",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "Reserva tu cita",
+      "href": "https://www.mediamarkt.es/es/service/reserva-tu-cita",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 23,
+      "tag": "a",
+      "text": "Saltar a productos",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3#mms-search-productlist",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 24,
+      "tag": "a",
+      "text": "Pasar a filtros",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3#mms-search-filter",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 25,
+      "tag": "a",
+      "text": "Pasar a clasificar",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras?page=3#mms-search-sort",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 26,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/",
+      "ariaLabel": "Inicio",
+      "expanded": null
+    },
+    {
+      "index": 27,
+      "tag": "a",
+      "text": "Marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 28,
+      "tag": "a",
+      "text": "HISENSE",
+      "href": "https://www.mediamarkt.es/es/brand/hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 29,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/brand/hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 30,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 31,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Especificaciones",
+      "expanded": "false"
+    },
+    {
+      "index": 32,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Eficiencia energética",
+      "expanded": "false"
+    },
+    {
+      "index": 33,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 34,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 35,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 36,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 37,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 38,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 39,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 40,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Eficiencia energética",
+      "expanded": "false"
+    },
+    {
+      "index": 41,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Categoría BetterWay",
+      "expanded": "false"
+    },
+    {
+      "index": 42,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Valoración de los clientes",
+      "expanded": "false"
+    },
+    {
+      "index": 43,
+      "tag": "a",
+      "text": "Lavadoras",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/lavadoras",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 44,
+      "tag": "a",
+      "text": "Lava secadoras",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/lavasecadoras",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 45,
+      "tag": "a",
+      "text": "Secadoras",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavadoras-y-secadoras/secadoras",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 46,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Artículo anterior",
+      "expanded": null
+    },
+    {
+      "index": 47,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Siguiente elemento",
+      "expanded": null
+    },
+    {
+      "index": 48,
+      "tag": "a",
+      "text": "Reembolso hasta 150€",
+      "href": "https://www.mediamarkt.es/es/promo-list/cashback_lavado_hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 49,
+      "tag": "a",
+      "text": "Ver productos",
+      "href": "https://www.mediamarkt.es/es/promo-list/cashback_lavado_hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 50,
+      "tag": "a",
+      "text": "Más capacidad en menos espacio",
+      "href": "https://www.mediamarkt.es/es/promo-list/brandzone_hisense_5i",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 51,
+      "tag": "a",
+      "text": "Ver productos",
+      "href": "https://www.mediamarkt.es/es/promo-list/brandzone_hisense_5i",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 52,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Diapositiva  1",
+      "expanded": null
+    },
+    {
+      "index": 53,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Diapositiva  2",
+      "expanded": null
+    },
+    {
+      "index": 54,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1604541.html",
+      "ariaLabel": "Secadora blanca Hisense con puerta negra y pantalla digital sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 55,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 56,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_162025683/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 57,
+      "tag": "a",
+      "text": "Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1604541.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 58,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 59,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 60,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 61,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 62,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 63,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 64,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bw-8-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1593599.html",
+      "ariaLabel": "Lavadora frontal Hisense blanca con puerta negra y pantalla digital sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 65,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 66,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_151149289/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 67,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bw-8-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1593599.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 68,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 69,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 70,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 71,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 72,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 73,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF1Q8041BW, 8 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 74,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1572477.html",
+      "ariaLabel": "Lavadora blanca Hisense con panel negro, puerta redonda de vidrio con ropa azul y etiqueta de garantía de 10 años.",
+      "expanded": null
+    },
+    {
+      "index": 75,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 76,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142764075/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 77,
+      "tag": "a",
+      "text": "Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1572477.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 78,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 79,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 80,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 81,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 82,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 83,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas, Función Vapor, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 84,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572478.html",
+      "ariaLabel": "Una lavadora blanca Hisense con panel de control negro y puerta de vidrio redonda sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 85,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 86,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142764076/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 87,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572478.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 88,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 89,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 90,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 91,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 92,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 93,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Función Vapor, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 94,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i9043bwfs-9-kg-1400-rpm-18-programas-fondo-reducido-47cm-programa-mascotas-blanco-1603936.html",
+      "ariaLabel": "Lavadora blanca Hisense con panel de control negro, puerta de cristal grande y pegatina de 20 años de garantía.",
+      "expanded": null
+    },
+    {
+      "index": 95,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 96,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i9043bwfs-9-kg-1400-rpm-18-programas-fondo-reducido-47cm-programa-mascotas-blanco-1603936.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 97,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 98,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 99,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 100,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 101,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 102,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF5I9043BWFS, 9 kg, 1400 rpm, 18 programas, Fondo reducido 47cm, Programa Mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 103,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q1041bw-10-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1591328.html",
+      "ariaLabel": "Lavadora frontal Hisense blanca con puerta negra, pantalla digital y selector giratorio.",
+      "expanded": null
+    },
+    {
+      "index": 104,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 105,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_151652765/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 106,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q1041bw-10-kg-1400-rpm-funcion-vapor-eficiencia-a-20percent-blanco-1591328.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 107,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 108,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 109,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 110,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 111,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 112,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF1Q1041BW, 10 kg, 1400 Rpm, Función Vapor, Pausar & Añadir, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 113,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh5i104bwab-10-kg-18-programas-ifit-wifi-estante-flexible-blanco-1603935.html",
+      "ariaLabel": "Vista frontal de una secadora blanca Hisense con panel de control negro, puerta de cristal grande y rejilla de ventilación.",
+      "expanded": null
+    },
+    {
+      "index": 114,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 115,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_161469916/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 116,
+      "tag": "a",
+      "text": "Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh5i104bwab-10-kg-18-programas-ifit-wifi-estante-flexible-blanco-1603935.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 117,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 118,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 119,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 120,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 121,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 122,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Secadora bomba de calor - Hisense DH5I104BWAB, 10 Kg, 18 programas, iFit, WiFI, Estante flexible, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 123,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bb3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572479.html",
+      "ariaLabel": "Lavadora Hisense negra con pantalla digital, selector de programas y pegatina de garantía de 10 años.",
+      "expanded": null
+    },
+    {
+      "index": 124,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 125,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142764077/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 126,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s9043bb3-9-kg-1400-rpm-14-programas-motor-inverter-wifiandbluetooth-blanco-1572479.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 127,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 128,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 129,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 130,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 131,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro",
+      "expanded": null
+    },
+    {
+      "index": 132,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF3S9043BB3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Smart Assist, Negro",
+      "expanded": null
+    },
+    {
+      "index": 133,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1045bwq-105-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603937.html",
+      "ariaLabel": "Vista frontal de una lavadora Hisense blanca con panel de control negro y pegatina de 20 años de garantía.",
+      "expanded": null
+    },
+    {
+      "index": 134,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 135,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_161469689/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 136,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF5I1045BWQ , 10.5 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1045bwq-105-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603937.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 137,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 138,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 139,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 140,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 141,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF5I1045BWQ , 10.5 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 142,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF5I1045BWQ , 10.5 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 143,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-integrable-hisense-wd3m841bwies-8-kg-6-kg-19-programas-lavado-secado-1h-inverter-blanco-1580164.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta abierta y pantalla digital sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 144,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética E",
+      "expanded": null
+    },
+    {
+      "index": 145,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_145468295/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 146,
+      "tag": "a",
+      "text": "Lavadora secadora integrable - Hisense WD3M841BWIES , 8 kg /6 kg, 19 programas, Lavado Secado 1h, Inverter, Sin Panelar",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-integrable-hisense-wd3m841bwies-8-kg-6-kg-19-programas-lavado-secado-1h-inverter-blanco-1580164.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 147,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 148,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 149,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 150,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 151,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora integrable - Hisense WD3M841BWIES , 8 kg /6 kg, 19 programas, Lavado Secado 1h, Inverter, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 152,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora integrable - Hisense WD3M841BWIES , 8 kg /6 kg, 19 programas, Lavado Secado 1h, Inverter, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 153,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-integrable-hisense-wf3m841bwies-8-kg-1400-rpm-15-programas-secado-allergy-care-clase-a-blanco-1580149.html",
+      "ariaLabel": "Lavadora blanca Hisense con puerta abierta, fondo liso y panel de control digital.",
+      "expanded": null
+    },
+    {
+      "index": 154,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 155,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_145468340/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 156,
+      "tag": "a",
+      "text": "Lavadora integrable - Hisense WF3M841BWIES, 8 kg, 1400 rpm, 15 programas, Secado Allergy Care, Clase A, Sin Panelar",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-integrable-hisense-wf3m841bwies-8-kg-1400-rpm-15-programas-secado-allergy-care-clase-a-blanco-1580149.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 157,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 158,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 159,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 160,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 161,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora integrable - Hisense WF3M841BWIES, 8 kg, 1400 rpm, 15 programas, Secado Allergy Care, Clase A, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 162,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora integrable - Hisense WF3M841BWIES, 8 kg, 1400 rpm, 15 programas, Secado Allergy Care, Clase A, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 163,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wi-fi-programa-especial-mascotas-blanco-1603934.html",
+      "ariaLabel": "Una lavadora frontal Hisense blanca con panel de control negro, puerta grande de vidrio y adhesivo de garantía de 20 años.",
+      "expanded": null
+    },
+    {
+      "index": 164,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 165,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_161469820/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 166,
+      "tag": "a",
+      "text": "Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wi-fi-programa-especial-mascotas-blanco-1603934.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 167,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 168,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 169,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 170,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 171,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 172,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 173,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1245bwr-12-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603938.html",
+      "ariaLabel": "Lavadora blanca Hisense con panel de control negro, puerta circular y pegatina de garantía de 20 años en el motor.",
+      "expanded": null
+    },
+    {
+      "index": 174,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 175,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_161469651/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 176,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF5I1245BWR, 12 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i1245bwr-12-kg-1400-rpm-18-programas-ifit-wi-fi-blanco-1603938.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 177,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 178,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 179,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 180,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 181,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF5I1245BWR, 12 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 182,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF5I1245BWR, 12 kg, 1400 RPM, 18 programas, Fondo reducido 55.5 cm, Autodosificación, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 183,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bwl2-11-kg-7-kg-blanco-183090910.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta redonda negra, mando de control y pantalla digital.",
+      "expanded": null
+    },
+    {
+      "index": 184,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 185,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_183090953/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 186,
+      "tag": "a",
+      "text": "Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bwl2-11-kg-7-kg-blanco-183090910.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 187,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 188,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 189,
+      "tag": "a",
+      "text": "CiberElectro(entrega voluminosos a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 190,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 191,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - HISENSE WD1I1142BWL2, 11 kg + 7 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 192,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bbl2-11-kg-7-kg-negro-183090908.html",
+      "ariaLabel": "Una lavadora de carga frontal Hisense negra con pantalla digital y dial sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 193,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 194,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_183090931/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 195,
+      "tag": "a",
+      "text": "Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd1i1142bbl2-11-kg-7-kg-negro-183090908.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 196,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 197,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3128",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 198,
+      "tag": "a",
+      "text": "eTendencias – Entrega producto voluminoso a pie de calle",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3128",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 199,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+      "expanded": null
+    },
+    {
+      "index": 200,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - HISENSE WD1I1142BBL2, 11 kg + 7 kg, Negro",
+      "expanded": null
+    },
+    {
+      "index": 201,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i9042btp2-9-kg-1400-rpm-15-programas-tecnologia-inverter-funcion-vapor-99percent-inox-gris-1666977.html",
+      "ariaLabel": "Lavadora frontal Hisense gris oscura con ojo de buey negro, pantalla digital y selector giratorio.",
+      "expanded": null
+    },
+    {
+      "index": 202,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 203,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_181796135/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 204,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i9042btp2-9-kg-1400-rpm-15-programas-tecnologia-inverter-funcion-vapor-99percent-inox-gris-1666977.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 205,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 206,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 207,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 208,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 209,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+      "expanded": null
+    },
+    {
+      "index": 210,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF1I9042BTP2, 9 kg, 1400 rpm, 15 programas, Tecnología Inverter, Función Vapor 99%, Inox, Gris",
+      "expanded": null
+    },
+    {
+      "index": 211,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw1-10-kg-1400-rpm-15-programas-connectlife-tecnologia-inverter-blanco-1666981.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 212,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 213,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_181796348/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 214,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw1-10-kg-1400-rpm-15-programas-connectlife-tecnologia-inverter-blanco-1666981.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 215,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 216,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 217,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 218,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 219,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 220,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF3S1043BW1, 10 kg, 1400 rpm, 15 programas, Connectlife, Tecnología Inverter, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 221,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw3-10-kg-1400-rpm-19-programas-a-20percent-wifi-blanco-1582997.html",
+      "ariaLabel": "Una lavadora Hisense blanca. Pantalla digital. Capacidad de 10.5 kilos, 14000 revoluciones y eficiencia A-20%. Garantía de 10 años en el motor.",
+      "expanded": null
+    },
+    {
+      "index": 222,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 223,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_145672077/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 224,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF3S1043BW3, 10 kg, 1400 rpm, 19 programas, A-20%, WiFi, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1043bw3-10-kg-1400-rpm-19-programas-a-20percent-wifi-blanco-1582997.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 225,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 226,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 227,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 228,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 229,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF3S1043BW3, 10 kg, 1400 rpm, 19 programas, A-20%, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 230,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF3S1043BW3, 10 kg, 1400 rpm, 19 programas, A-20%, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 231,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavasecadoras-hisense-wd3s9043bw3-9-kg-6-kg-blanco-149712299.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta y panel negro. Muestra un reloj digital.",
+      "expanded": null
+    },
+    {
+      "index": 232,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 233,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_153827903/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 234,
+      "tag": "a",
+      "text": "Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavasecadoras-hisense-wd3s9043bw3-9-kg-6-kg-blanco-149712299.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 235,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 236,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2931",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 237,
+      "tag": "a",
+      "text": "ELECTRONOW 👌 (entrega a domicilio )",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2931",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 238,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 239,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavasecadoras - HISENSE WD3S9043BW3, 9 kg + 6 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 240,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i1142bwl-11-kg-1400-rpm-15-programas-funcion-vapor-99percent-tecnologia-inverter-blanco-1666978.html",
+      "ariaLabel": "Vista frontal de una lavadora Hisense blanca con puerta de cristal negra y pantalla digital.",
+      "expanded": null
+    },
+    {
+      "index": 241,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 242,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_181796158/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 243,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1i1142bwl-11-kg-1400-rpm-15-programas-funcion-vapor-99percent-tecnologia-inverter-blanco-1666978.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 244,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 245,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 246,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 247,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 248,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 249,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF1I1142BWL, 11 kg, 1400 rpm, 15 programas, Función Vapor 99%, Tecnología Inverter, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 250,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-wifiandbluetooth-clase-a-30percent-blanco-1585901.html",
+      "ariaLabel": "Vista frontal de una lavadora Hisense blanca con puerta negra y panel de control.",
+      "expanded": null
+    },
+    {
+      "index": 251,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 252,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142340941/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 253,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Clase A-30%, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-lavadora-carga-frontal-hisense-wf3s9043bw3-9-kg-1400-rpm-14-programas-wifiandbluetooth-clase-a-30percent-blanco-1585901.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 254,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 255,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 256,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 257,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Para comprobar la disponibilidad del producto, introduzca su código postal",
+      "expanded": "false"
+    },
+    {
+      "index": 258,
+      "tag": "button",
+      "text": "Introduzca el código postal",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 259,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 260,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Clase A-30%, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 261,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Bueno Lavadora carga frontal - Hisense WF3S9043BW3, 9 Kg, 1400 rpm, 14 programas, WiFi&Bluetooth, Clase A-30%, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 262,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s902bw3-electrico-9-kg-blanco-145135875.html",
+      "ariaLabel": "Secadora Hisense blanca con bomba de calor. Puerta negra grande y pantalla digital. Logotipo ConnectLife.",
+      "expanded": null
+    },
+    {
+      "index": 263,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética C",
+      "expanded": null
+    },
+    {
+      "index": 264,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_167174207/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 265,
+      "tag": "a",
+      "text": "Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s902bw3-electrico-9-kg-blanco-145135875.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 266,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 267,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2931",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 268,
+      "tag": "a",
+      "text": "ELECTRONOW 👌 (entrega a domicilio )",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2931",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 269,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 270,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Secadora bomba de calor - HISENSE DH3S902BW3, Eléctrico, 9 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 271,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wifi-programa-especial-mascotas-blanco-1667024.html",
+      "ariaLabel": "Lavadora Hisense blanca. Puerta y panel de control negros. Características: eficiencia A/D, 1400 RPM y 20 años de garantía del motor.",
+      "expanded": null
+    },
+    {
+      "index": 272,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 273,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_161469820/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 274,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd5i1045bwq-1056-kg-ifit-wifi-programa-especial-mascotas-blanco-1667024.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 275,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 276,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 277,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 278,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 279,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 280,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD5I1045BWQ, 10.5/6 Kg, iFit, WiFi, Programa especial mascotas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 281,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1612187.html",
+      "ariaLabel": "Una secadora de bomba de calor Hisense blanca. Tiene una puerta redonda grande con pantalla digital que muestra 03:20. Incluye varios modos de secado.",
+      "expanded": null
+    },
+    {
+      "index": 282,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 283,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Bueno Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-secadora-bomba-de-calor-hisense-dhqe900uwdc-9-kg-16-programas-anti-arrugas-secado-automatico-blanco-1612187.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 284,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 285,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 286,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 287,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 288,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Bueno Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 289,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Bueno Secadora bomba de calor - Hisense DHQE900UWDC, 9 kg, 16 programas, Anti arrugas, Secado automático, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 290,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5s1045bw-105-kg-6-programas-auto-dosificacion-motor-inverter-wifi-blanco-1550958.html",
+      "ariaLabel": "Una lavadora blanca Hisense. Tiene una puerta negra, panel de control y pantalla digital que muestra 3:20. La máquina tiene 10 años de garantía.",
+      "expanded": null
+    },
+    {
+      "index": 291,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 292,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142764079/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 293,
+      "tag": "a",
+      "text": "Lavadora carga frontal - Hisense WF5S1045BW, 10.5 kg, 1400 rpm, 19 programas, Auto-Dosificación, Motor Inverter, WiFi, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5s1045bw-105-kg-6-programas-auto-dosificacion-motor-inverter-wifi-blanco-1550958.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 294,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 295,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 296,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 297,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 298,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - Hisense WF5S1045BW, 10.5 kg, 1400 rpm, 19 programas, Auto-Dosificación, Motor Inverter, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 299,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - Hisense WF5S1045BW, 10.5 kg, 1400 rpm, 19 programas, Auto-Dosificación, Motor Inverter, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 300,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1586146.html",
+      "ariaLabel": "Una lavadora Hisense blanca con puerta negra. Un objeto azul es visible a través de la puerta de cristal.",
+      "expanded": null
+    },
+    {
+      "index": 301,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 302,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_142764075/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 303,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas. Clase A-30%, WiFi, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavadora-secadora-hisense-wd3s8043bw3-8-kg5-kg-1400-rpm-16-programas-clase-a-30percent-wifi-blanco-1586146.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 304,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 305,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 306,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 307,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 308,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas. Clase A-30%, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 309,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Muy bueno Lavadora secadora - Hisense WD3S8043BW3, 8 kg/5 kg, 1400 rpm, 16 programas. Clase A-30%, WiFi, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 310,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i8043bwf-8-kg-blanco-157951172.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta negra y panel de control superior.",
+      "expanded": null
+    },
+    {
+      "index": 311,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 312,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_167195805/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 313,
+      "tag": "a",
+      "text": "Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf5i8043bwf-8-kg-blanco-157951172.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 314,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 315,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 316,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 317,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 318,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - HISENSE WF5I8043BWF, 8,00 kg, 1400 rpm, 18 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 319,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q9041bw-9-kg-15-programas-blanco-149623483.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta y panel de control negros. La pantalla muestra 01:50.",
+      "expanded": null
+    },
+    {
+      "index": 320,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 321,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_173711607/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 322,
+      "tag": "a",
+      "text": "Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q9041bw-9-kg-15-programas-blanco-149623483.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 323,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 324,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 325,
+      "tag": "a",
+      "text": "CiberElectro(entrega voluminosos a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 326,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 327,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - HISENSE WF1Q9041BW, 9 kg, 1400 rpm, 15 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 328,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s802bw2-electrico-16-programas-blanco-159759705.html",
+      "ariaLabel": "Una lavadora Hisense blanca con puerta negra y pantalla digital.",
+      "expanded": null
+    },
+    {
+      "index": 329,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 330,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_167156066/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 331,
+      "tag": "a",
+      "text": "Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dh3s802bw2-electrico-16-programas-blanco-159759705.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 332,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 333,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2979",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 334,
+      "tag": "a",
+      "text": "Electrowifi",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2979",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 335,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 336,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Secadora bomba de calor - HISENSE DH3S802BW2, Eléctrico, 8 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 337,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1245bwr-12-kg-8-kg-blanco-162769356.html",
+      "ariaLabel": "Lavadora blanca con puerta y panel negro. Muestra el logo de Hisense.",
+      "expanded": null
+    },
+    {
+      "index": 338,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 339,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_179195218/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 340,
+      "tag": "a",
+      "text": "Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i1245bwr-12-kg-8-kg-blanco-162769356.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 341,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 342,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 343,
+      "tag": "a",
+      "text": "CiberElectro(entrega voluminosos a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 344,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 345,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - HISENSE WD5I1245BWR, 12 kg + 8 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 346,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bt-8-kg-15-programas-gris-152121781.html",
+      "ariaLabel": "Una lavadora Hisense gris, con puerta negra, panel de control y etiquetas visibles.",
+      "expanded": null
+    },
+    {
+      "index": 347,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 348,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_163486310/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 349,
+      "tag": "a",
+      "text": "Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf1q8041bt-8-kg-15-programas-gris-152121781.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 350,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 351,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 352,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 353,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+      "expanded": null
+    },
+    {
+      "index": 354,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - HISENSE WF1Q8041BT, 8 kg, 1400 rpm, 15 programas, Gris",
+      "expanded": null
+    },
+    {
+      "index": 355,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe800bw2-16-programas-blanco-152144205.html",
+      "ariaLabel": "Una secadora de bomba de calor Hisense blanca con puerta y pantalla negras.",
+      "expanded": null
+    },
+    {
+      "index": 356,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 357,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_175791359/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 358,
+      "tag": "a",
+      "text": "Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_secadora-bomba-de-calor-hisense-dhqe800bw2-16-programas-blanco-152144205.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 359,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 360,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 361,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 362,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 363,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Secadora bomba de calor - HISENSE DHQE800BW2 , Eléctrico, 8 kg, 16 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 364,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1243bw3-12-kg-19-programas-blanco-146558763.html",
+      "ariaLabel": "Lavadora blanca con puerta negra y panel de control.",
+      "expanded": null
+    },
+    {
+      "index": 365,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 366,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_149353195/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 367,
+      "tag": "a",
+      "text": "Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf3s1243bw3-12-kg-19-programas-blanco-146558763.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 368,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 369,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 370,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 371,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 372,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - HISENSE WF3S1243BW3, 12 kg, 1400 rpm, 19 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 373,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf7s1247bw-12-kg-20-programas-blanco-149063115.html",
+      "ariaLabel": "Lavadora Hisense blanca con puerta negra y pantalla digital.",
+      "expanded": null
+    },
+    {
+      "index": 374,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 375,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_149063127/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 376,
+      "tag": "a",
+      "text": "Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-carga-frontal-hisense-wf7s1247bw-12-kg-20-programas-blanco-149063115.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 377,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 378,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2979",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 379,
+      "tag": "a",
+      "text": "Electrowifi",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/2979",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 380,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 381,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora carga frontal - HISENSE WF7S1247BW, 12 kg, 1400 rpm, 20 programas, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 382,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i8043bwf-800-kg-500-kg-blanco-162649436.html",
+      "ariaLabel": "Una lavadora Hisense blanca con la puerta abierta. La puerta es negra y transparente. El panel de control es negro.",
+      "expanded": null
+    },
+    {
+      "index": 383,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 384,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_179198419/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 385,
+      "tag": "a",
+      "text": "Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd5i8043bwf-800-kg-500-kg-blanco-162649436.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 386,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 387,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/4891",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 388,
+      "tag": "a",
+      "text": "You Get - Innovation and Technology",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/4891",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 389,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 390,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora-secadora - HISENSE WD5I8043BWF, 8 kg + 5 kg, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 391,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8045bw3-1-kg-1-kg-blanco-145249063.html",
+      "ariaLabel": "Lavadora Hisense blanca con ojo de buey y panel de control negros.",
+      "expanded": null
+    },
+    {
+      "index": 392,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética B",
+      "expanded": null
+    },
+    {
+      "index": 393,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_178901590/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 394,
+      "tag": "a",
+      "text": "Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+      "href": "https://www.mediamarkt.es/es/product/_lavadora-secadora-hisense-wd3s8045bw3-1-kg-1-kg-blanco-145249063.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 395,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 396,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/4891",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 397,
+      "tag": "a",
+      "text": "You Get - Innovation and Technology",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/4891",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 398,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+      "expanded": null
+    },
+    {
+      "index": 399,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavadora secadora - HISENSE WD3S8045BW3, 8 kg + 5 kg, Not available",
+      "expanded": null
+    },
+    {
+      "index": 400,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Artículo anterior",
+      "expanded": null
+    },
+    {
+      "index": 401,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Siguiente elemento",
+      "expanded": null
+    },
+    {
+      "index": 402,
+      "tag": "a",
+      "text": "PS5 EA SPORTS FC™ 27",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 403,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+      "ariaLabel": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+      "expanded": null
+    },
+    {
+      "index": 404,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 405,
+      "tag": "button",
+      "text": "Más información.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 406,
+      "tag": "button",
+      "text": "Activar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 407,
+      "tag": "a",
+      "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+      "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 408,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+      "ariaLabel": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+      "expanded": null
+    },
+    {
+      "index": 409,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 410,
+      "tag": "a",
+      "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 411,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+      "ariaLabel": "Un smartphone azul oscuro muestra su parte delantera y trasera. La parte trasera tiene tres cámaras, flash y el logo de Apple. La pantalla tiene líneas brillantes.",
+      "expanded": null
+    },
+    {
+      "index": 412,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 413,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 414,
+      "tag": "a",
+      "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+      "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 415,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+      "ariaLabel": "Una consola negra Nintendo Switch 2 con mandos Joy-Con sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 416,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 417,
+      "tag": "a",
+      "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+      "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 418,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+      "ariaLabel": "Tableta blanca con marco negro, con un fondo de pantalla abstracto y colorido en la pantalla.",
+      "expanded": null
+    },
+    {
+      "index": 419,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 420,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética G",
+      "expanded": null
+    },
+    {
+      "index": 421,
+      "tag": "a",
+      "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 422,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+      "ariaLabel": "Dos AirPods Pro blancos sobre fondo gris. Cada uno tiene una malla negra arriba y abajo. Las puntas son negras.",
+      "expanded": null
+    },
+    {
+      "index": 423,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 424,
+      "tag": "a",
+      "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 425,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+      "ariaLabel": "Un iPhone plateado que muestra su parte trasera con tres cámaras y logotipo de Apple, junto a su pantalla con patrón.",
+      "expanded": null
+    },
+    {
+      "index": 426,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 427,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 428,
+      "tag": "a",
+      "text": "PS5 Marvel: Lobezno",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 429,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+      "ariaLabel": "Wolverine, personaje de Marvel Comics, con garras sobre fondo amarillo.",
+      "expanded": null
+    },
+    {
+      "index": 430,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 431,
+      "tag": "a",
+      "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+      "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 432,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+      "ariaLabel": "Vista frontal de un portátil ASUS Vivobook gris plateado con fondo de pantalla azul.",
+      "expanded": null
+    },
+    {
+      "index": 433,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 434,
+      "tag": "a",
+      "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 435,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+      "ariaLabel": "Consola y mando PlayStation 5. Consola y mando blancos sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 436,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 437,
+      "tag": "button",
+      "text": "¿Qué aporta el motor Inverter de las lavadoras Hisense?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 438,
+      "tag": "button",
+      "text": "¿Para qué sirve la función vapor?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 439,
+      "tag": "button",
+      "text": "¿Cómo funciona la Wi Fi en las lavadoras Hisense?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 440,
+      "tag": "button",
+      "text": "¿Qué ventajas tiene la auto dosificación de las lavadoras Hisense?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 441,
+      "tag": "button",
+      "text": "¿Las lavadoras Hisense tienen programas rápidos y función para añadir ropa?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "true"
+    },
+    {
+      "index": 442,
+      "tag": "a",
+      "text": "HONOR",
+      "href": "https://www.mediamarkt.es/es/brand/honor",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 443,
+      "tag": "a",
+      "text": "HOOVER",
+      "href": "https://www.mediamarkt.es/es/brand/hoover",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 444,
+      "tag": "a",
+      "text": "HOTPOINT",
+      "href": "https://www.mediamarkt.es/es/brand/hotpoint",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 445,
+      "tag": "a",
+      "text": "HP",
+      "href": "https://www.mediamarkt.es/es/brand/hp",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 446,
+      "tag": "a",
+      "text": "HUAWEI",
+      "href": "https://www.mediamarkt.es/es/brand/huawei",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 447,
+      "tag": "a",
+      "text": "INDESIT",
+      "href": "https://www.mediamarkt.es/es/brand/indesit",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 448,
+      "tag": "a",
+      "text": "INSTA360",
+      "href": "https://www.mediamarkt.es/es/brand/insta360",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 449,
+      "tag": "a",
+      "text": "INTEL",
+      "href": "https://www.mediamarkt.es/es/brand/intel",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 450,
+      "tag": "a",
+      "text": "IRIS",
+      "href": "https://www.mediamarkt.es/es/brand/iris",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 451,
+      "tag": "a",
+      "text": "IROBOT",
+      "href": "https://www.mediamarkt.es/es/brand/irobot",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 452,
+      "tag": "a",
+      "text": "ISY",
+      "href": "https://www.mediamarkt.es/es/brand/isy",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 453,
+      "tag": "a",
+      "text": "JABRA",
+      "href": "https://www.mediamarkt.es/es/brand/jabra",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 454,
+      "tag": "a",
+      "text": "Mostrar todas las marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 455,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.confianzaonline.es/como-reclamar/",
+      "ariaLabel": "Confianza online",
+      "expanded": null
+    },
+    {
+      "index": 456,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/sostenibilidad",
+      "ariaLabel": "Betterway",
+      "expanded": null
+    },
+    {
+      "index": 457,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/specials/financiacion",
+      "ariaLabel": "MediaMarkt VISA",
+      "expanded": null
+    },
+    {
+      "index": 458,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+      "ariaLabel": "Mejor precio garantizado",
+      "expanded": null
+    },
+    {
+      "index": 459,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Glovo",
+      "expanded": null
+    },
+    {
+      "index": 460,
+      "tag": "a",
+      "text": "",
+      "href": "https://te-ayudamos.mediamarkt.es/app/answers/detail/a_id/17124/~/%C2%BFc%C3%B3mo-puedo-hacer-una-devoluci%C3%B3n%3F",
+      "ariaLabel": "Devoluciones hasta en 60 días",
+      "expanded": null
+    },
+    {
+      "index": 461,
+      "tag": "a",
+      "text": "Formulario de contacto",
+      "href": "https://te-ayudamos.mediamarkt.es/app/contact_form/",
+      "ariaLabel": "Formulario de contacto",
+      "expanded": null
+    },
+    {
+      "index": 462,
+      "tag": "a",
+      "text": "Preguntas frecuentes",
+      "href": "https://te-ayudamos.mediamarkt.es/",
+      "ariaLabel": "Preguntas frecuentes",
+      "expanded": null
+    },
+    {
+      "index": 463,
+      "tag": "a",
+      "text": "Detalles encuesta de satisfacción",
+      "href": "https://www.mediamarkt.es/es/specials/encuesta-satisfaccion",
+      "ariaLabel": "Detalles encuesta de satisfacción",
+      "expanded": null
+    },
+    {
+      "index": 464,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.youtube.com/c/MediaMarktEspa%C3%B1a",
+      "ariaLabel": "YouTube",
+      "expanded": null
+    },
+    {
+      "index": 465,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.instagram.com/mediamarkt_es/?hl=es",
+      "ariaLabel": "Instagram",
+      "expanded": null
+    },
+    {
+      "index": 466,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.tiktok.com/@mediamarktes",
+      "ariaLabel": "TikTok",
+      "expanded": null
+    },
+    {
+      "index": 467,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.facebook.com/mediamarktes/",
+      "ariaLabel": "Facebook",
+      "expanded": null
+    },
+    {
+      "index": 468,
+      "tag": "a",
+      "text": "",
+      "href": "https://twitter.com/MediaMarkt_es",
+      "ariaLabel": "Twitter",
+      "expanded": null
+    },
+    {
+      "index": 469,
+      "tag": "a",
+      "text": "",
+      "href": "https://api.whatsapp.com/send/?phone=34628747689&text=Hola+MediaMarkt.+Una+consulta.",
+      "ariaLabel": "WhatsApp",
+      "expanded": null
+    },
+    {
+      "index": 470,
+      "tag": "a",
+      "text": "",
+      "href": "https://profile.google.com/cp/CgsvZy8xdGh2ZDF6cg",
+      "ariaLabel": "Google Discover",
+      "expanded": null
+    },
+    {
+      "index": 471,
+      "tag": "button",
+      "text": "Nuestra empresa",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 472,
+      "tag": "a",
+      "text": "¿Quiénes somos?",
+      "href": "https://www.mediamarkt.es/es/service/quienes-somos",
+      "ariaLabel": "¿Quiénes somos?",
+      "expanded": null
+    },
+    {
+      "index": 473,
+      "tag": "a",
+      "text": "Nuestros compromisos",
+      "href": "https://www.mediamarkt.es/es/specials/nuestros-compromisos",
+      "ariaLabel": "Nuestros compromisos",
+      "expanded": null
+    },
+    {
+      "index": 474,
+      "tag": "a",
+      "text": "El Blog de MediaMarkt",
+      "href": "https://www.mediamarkt.es/es/content",
+      "ariaLabel": "El Blog de MediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 475,
+      "tag": "a",
+      "text": "Sala de prensa",
+      "href": "https://www.mediamarkt.es/es/specials/sala-de-prensa",
+      "ariaLabel": "Sala de prensa",
+      "expanded": null
+    },
+    {
+      "index": 476,
+      "tag": "a",
+      "text": "Trabaja con nosotros",
+      "href": "https://careers.mediamarktsaturn.com/MediaMarktES/content/letsgo/?locale=es_ES",
+      "ariaLabel": "Trabaja con nosotros",
+      "expanded": null
+    },
+    {
+      "index": 477,
+      "tag": "a",
+      "text": "Vender en mediamarkt.es",
+      "href": "https://www.mediamarkt.es/es/about-us/marketplace",
+      "ariaLabel": "Vender en mediamarkt.es",
+      "expanded": null
+    },
+    {
+      "index": 478,
+      "tag": "a",
+      "text": "Encuentra tu tienda",
+      "href": "https://www.mediamarkt.es/es/store/store-finder",
+      "ariaLabel": "Encuentra tu tienda",
+      "expanded": null
+    },
+    {
+      "index": 479,
+      "tag": "a",
+      "text": "Seguridad informática",
+      "href": "https://www.mediamarkt.es/es/legal/seguridad-informatica",
+      "ariaLabel": "Seguridad informática",
+      "expanded": null
+    },
+    {
+      "index": 480,
+      "tag": "a",
+      "text": "BetterWay",
+      "href": "https://www.mediamarkt.es/es/service/sostenibilidad",
+      "ariaLabel": "BetterWay",
+      "expanded": null
+    },
+    {
+      "index": 481,
+      "tag": "a",
+      "text": "Valora y gana",
+      "href": "https://www.mediamarkt.es/es/specials/sorteo-valora-y-gana",
+      "ariaLabel": "Valora y gana",
+      "expanded": null
+    },
+    {
+      "index": 482,
+      "tag": "a",
+      "text": "Mapa Web",
+      "href": "https://www.mediamarkt.es/es/overview/categories",
+      "ariaLabel": "Mapa Web",
+      "expanded": null
+    },
+    {
+      "index": 483,
+      "tag": "a",
+      "text": "Programa de divulgación de vulnerabilidades",
+      "href": "https://www.mediamarkt.es/es/service/politica-divulgacion",
+      "ariaLabel": "Programa de divulgación de vulnerabilidades",
+      "expanded": null
+    },
+    {
+      "index": 484,
+      "tag": "a",
+      "text": "Marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "Marcas",
+      "expanded": null
+    },
+    {
+      "index": 485,
+      "tag": "a",
+      "text": "Marcas propias",
+      "href": "https://www.mediamarkt.es/es/specials/nuestras-marcas-propias",
+      "ariaLabel": "Marcas propias",
+      "expanded": null
+    },
+    {
+      "index": 486,
+      "tag": "a",
+      "text": "Retailmedia en Mediamarkt.es",
+      "href": "https://www.mms-retailmedia.com/",
+      "ariaLabel": "Retailmedia en Mediamarkt.es",
+      "expanded": null
+    },
+    {
+      "index": 487,
+      "tag": "a",
+      "text": "Procedimiento de denuncias de derechos humanos y protección del medioambiente",
+      "href": "https://www.mediamarkt.es/es/legal/procedimiento-de-denuncias",
+      "ariaLabel": "Procedimiento de denuncias de derechos humanos y protección del medioambiente",
+      "expanded": null
+    },
+    {
+      "index": 488,
+      "tag": "a",
+      "text": "Confianza online",
+      "href": "https://www.confianzaonline.es/como-reclamar/",
+      "ariaLabel": "Confianza online",
+      "expanded": null
+    },
+    {
+      "index": 489,
+      "tag": "button",
+      "text": "Servicios",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 490,
+      "tag": "a",
+      "text": "Financiación",
+      "href": "https://www.mediamarkt.es/es/specials/financiacion",
+      "ariaLabel": "Financiación",
+      "expanded": null
+    },
+    {
+      "index": 491,
+      "tag": "a",
+      "text": "Energía",
+      "href": "https://www.mediamarkt.es/es/service/energia",
+      "ariaLabel": "Energía",
+      "expanded": null
+    },
+    {
+      "index": 492,
+      "tag": "a",
+      "text": "Reparaciones",
+      "href": "https://www.mediamarkt.es/es/service/servicio-de-reparaciones",
+      "ariaLabel": "Reparaciones",
+      "expanded": null
+    },
+    {
+      "index": 493,
+      "tag": "a",
+      "text": "Impresión de fotos",
+      "href": "https://revelado.mediamarkt.es/",
+      "ariaLabel": "Impresión de fotos",
+      "expanded": null
+    },
+    {
+      "index": 494,
+      "tag": "a",
+      "text": "Instalación de electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/service/instalaciones",
+      "ariaLabel": "Instalación de electrodomésticos",
+      "expanded": null
+    },
+    {
+      "index": 495,
+      "tag": "a",
+      "text": "Trade In: Vende tus dispositivos",
+      "href": "https://www.mediamarkt.es/es/service/trade-in#recompra",
+      "ariaLabel": "Trade In: Vende tus dispositivos",
+      "expanded": null
+    },
+    {
+      "index": 496,
+      "tag": "a",
+      "text": "Mejor precio garantizado",
+      "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+      "ariaLabel": "Mejor precio garantizado",
+      "expanded": null
+    },
+    {
+      "index": 497,
+      "tag": "a",
+      "text": "Tipos de envíos",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Tipos de envíos",
+      "expanded": null
+    },
+    {
+      "index": 498,
+      "tag": "a",
+      "text": "Garantía plus",
+      "href": "https://www.mediamarkt.es/es/service/garantia-plus",
+      "ariaLabel": "Garantía plus",
+      "expanded": null
+    },
+    {
+      "index": 499,
+      "tag": "a",
+      "text": "MediaMarkt Empresas",
+      "href": "https://www.mediamarkt.es/es/specials/empresas",
+      "ariaLabel": "MediaMarkt Empresas",
+      "expanded": null
+    },
+    {
+      "index": 500,
+      "tag": "a",
+      "text": "Talleres y formaciones",
+      "href": "https://training.mediamarkt.es/online",
+      "ariaLabel": "Talleres y formaciones",
+      "expanded": null
+    },
+    {
+      "index": 501,
+      "tag": "a",
+      "text": "Tarjeta regalo",
+      "href": "https://www.mediamarkt.es/es/specials/tarjeta-regalo-mediamarkt",
+      "ariaLabel": "Tarjeta regalo",
+      "expanded": null
+    },
+    {
+      "index": 502,
+      "tag": "a",
+      "text": "Solicitar factura",
+      "href": "https://specials.mediamarkt.es/facturas/solicita",
+      "ariaLabel": "Solicitar factura",
+      "expanded": null
+    },
+    {
+      "index": 503,
+      "tag": "a",
+      "text": "Reservar cita previa en tienda",
+      "href": "https://dq.mediamarkt.com/customer/servicecategorymenu?scm=039e0e3d-4c36-400d-a1bd-bd3d058b6817",
+      "ariaLabel": "Reservar cita previa en tienda",
+      "expanded": null
+    },
+    {
+      "index": 504,
+      "tag": "a",
+      "text": "Reservar cita telefónica",
+      "href": "https://training.mediamarkt.es/personal-shopper?_gl=1*kmdikg*_gcl_au*MjEwODUxNjAwNS4xNzcxMzE4MTEy*FPAU*MjEwODUxNjAwNS4xNzcxMzE4MTEy*_ga*MTExNDQyNjMxNi4xNzYzMzcwODk4*_ga_7P4TSC4RJ1*czE3NzMxMzU2MDckbzUxJGcwJHQxNzczMTM1NjE3JGo1MCRsMCRoMTM2MTI3NzA2*_ga_6BGXKQDPRN*czE3NzMxMzU2MDUkbzE2NyRnMSR0MTc3MzEzNTYxNiRqNDkkbDAkaDA.",
+      "ariaLabel": "Reservar cita telefónica",
+      "expanded": null
+    },
+    {
+      "index": 505,
+      "tag": "a",
+      "text": "Chat con asesor de marca",
+      "href": "https://www.mediamarkt.es/es/service/asesoria-en-directo",
+      "ariaLabel": "Chat con asesor de marca",
+      "expanded": null
+    },
+    {
+      "index": 506,
+      "tag": "a",
+      "text": "Devoluciones hasta en 60 días",
+      "href": "https://te-ayudamos.mediamarkt.es/app/answers/detail/a_id/17124/~/%C2%BFc%C3%B3mo-puedo-hacer-una-devoluci%C3%B3n%3F",
+      "ariaLabel": "Devoluciones hasta en 60 días",
+      "expanded": null
+    },
+    {
+      "index": 507,
+      "tag": "button",
+      "text": "Ofertas y campañas",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 508,
+      "tag": "a",
+      "text": "Campañas activas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "Campañas activas",
+      "expanded": null
+    },
+    {
+      "index": 509,
+      "tag": "a",
+      "text": "Día sin IVA",
+      "href": "https://www.mediamarkt.es/es/campaign/dia-sin-iva",
+      "ariaLabel": "Día sin IVA",
+      "expanded": null
+    },
+    {
+      "index": 510,
+      "tag": "a",
+      "text": "-15% en APP",
+      "href": "https://www.mediamarkt.es/es/campaign/15-descuento",
+      "ariaLabel": "-15% en APP",
+      "expanded": null
+    },
+    {
+      "index": 511,
+      "tag": "a",
+      "text": "Semana Web",
+      "href": "https://www.mediamarkt.es/es/campaign/semana-web",
+      "ariaLabel": "Semana Web",
+      "expanded": null
+    },
+    {
+      "index": 512,
+      "tag": "a",
+      "text": "Ofertas Flash",
+      "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+      "ariaLabel": "Ofertas Flash",
+      "expanded": null
+    },
+    {
+      "index": 513,
+      "tag": "a",
+      "text": "Black Friday",
+      "href": "https://www.mediamarkt.es/es/campaign/black-friday",
+      "ariaLabel": "Black Friday",
+      "expanded": null
+    },
+    {
+      "index": 514,
+      "tag": "a",
+      "text": "Cyber Monday",
+      "href": "https://www.mediamarkt.es/es/campaign/cyber-monday",
+      "ariaLabel": "Cyber Monday",
+      "expanded": null
+    },
+    {
+      "index": 515,
+      "tag": "a",
+      "text": "Ofertas del día",
+      "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+      "ariaLabel": "Ofertas del día",
+      "expanded": null
+    },
+    {
+      "index": 516,
+      "tag": "a",
+      "text": "Cupones y descuentos MediaMarkt",
+      "href": "https://www.mediamarkt.es/es/campaign/cupones-descuentos-mediamarkt",
+      "ariaLabel": "Cupones y descuentos MediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 517,
+      "tag": "a",
+      "text": "Newsletter",
+      "href": "https://www.mediamarkt.es/es/myaccount/guest-newsletter",
+      "ariaLabel": "Newsletter",
+      "expanded": null
+    },
+    {
+      "index": 518,
+      "tag": "a",
+      "text": "Marketplace",
+      "href": "https://www.mediamarkt.es/es/campaign/mas-productos-mejores-precios-mp",
+      "ariaLabel": "Marketplace",
+      "expanded": null
+    },
+    {
+      "index": 519,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Paack",
+      "expanded": null
+    },
+    {
+      "index": 520,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Seur",
+      "expanded": null
+    },
+    {
+      "index": 521,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Correos",
+      "expanded": null
+    },
+    {
+      "index": 522,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Tipsa",
+      "expanded": null
+    },
+    {
+      "index": 523,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "VISA",
+      "expanded": null
+    },
+    {
+      "index": 524,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "Mastercard",
+      "expanded": null
+    },
+    {
+      "index": 525,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#paypal",
+      "ariaLabel": "Paypal",
+      "expanded": null
+    },
+    {
+      "index": 526,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#bizum",
+      "ariaLabel": "Bizum",
+      "expanded": null
+    },
+    {
+      "index": 527,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#applepay",
+      "ariaLabel": "Apple Pay",
+      "expanded": null
+    },
+    {
+      "index": 528,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#googlepay",
+      "ariaLabel": "Google Pay",
+      "expanded": null
+    },
+    {
+      "index": 529,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "Amex",
+      "expanded": null
+    },
+    {
+      "index": 530,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#financiar",
+      "ariaLabel": "Financiación",
+      "expanded": null
+    },
+    {
+      "index": 531,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta-regalo",
+      "ariaLabel": "Tarjeta regalo",
+      "expanded": null
+    },
+    {
+      "index": 532,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#pago-tienda",
+      "ariaLabel": "Pago en tienda",
+      "expanded": null
+    },
+    {
+      "index": 533,
+      "tag": "a",
+      "text": "",
+      "href": "https://apps.apple.com/es/app/mediamarkt/id1438532508",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 534,
+      "tag": "a",
+      "text": "",
+      "href": "https://play.google.com/store/apps/details?id=es.mediamarkt.app",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 535,
+      "tag": "a",
+      "text": "Condiciones de contratación",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-contratacion",
+      "ariaLabel": "Condiciones de contratación",
+      "expanded": null
+    },
+    {
+      "index": 536,
+      "tag": "a",
+      "text": "Condiciones de contratación para clientes B2B",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-de-contratacion-para-clientes-b2b",
+      "ariaLabel": "Condiciones de contratación para clientes B2B",
+      "expanded": null
+    },
+    {
+      "index": 537,
+      "tag": "a",
+      "text": "Condiciones de uso web",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-de-uso-de-la-web",
+      "ariaLabel": "Condiciones de uso web",
+      "expanded": null
+    },
+    {
+      "index": 538,
+      "tag": "a",
+      "text": "Política de privacidad",
+      "href": "https://www.mediamarkt.es/es/legal/politica-de-privacidad",
+      "ariaLabel": "Política de privacidad",
+      "expanded": null
+    },
+    {
+      "index": 539,
+      "tag": "a",
+      "text": "Información sobre nuestros anunciantes",
+      "href": "https://www.mediamarkt.es/es/legal/anunciantes",
+      "ariaLabel": "Información sobre nuestros anunciantes",
+      "expanded": null
+    },
+    {
+      "index": 540,
+      "tag": "a",
+      "text": "Politica de privacidad miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/legal/politica-de-privacidad-mimediamarkt",
+      "ariaLabel": "Politica de privacidad miMediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 541,
+      "tag": "a",
+      "text": "Términos y condiciones miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/legal/terminos-condiciones-mimediamarkt",
+      "ariaLabel": "Términos y condiciones miMediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 542,
+      "tag": "a",
+      "text": "Integridad y cumplimiento",
+      "href": "https://www.mediamarkt.es/es/legal/integridad-y-cumplimiento",
+      "ariaLabel": "Integridad y cumplimiento",
+      "expanded": null
+    },
+    {
+      "index": 543,
+      "tag": "a",
+      "text": "Declaración de accesibilidad",
+      "href": "https://www.mediamarkt.es/es/legal/declaracion-de-accesibilidad",
+      "ariaLabel": "Declaración de accesibilidad",
+      "expanded": null
+    },
+    {
+      "index": 544,
+      "tag": "button",
+      "text": "Configurar cookies",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{"offset": "0x11000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x11038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x11060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x11090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x110b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0x110e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x11118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x11178", "text": "invalid input, expected coroutine"}
+{"offset": "0x111a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x111d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x11200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x11230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x11298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x112c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x11328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x11358", "text": "__name__ must be set to a string object"}
+{"offset": "0x11380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x114c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x11500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x11538", "text": "%.200s() keywords must be strings"}
+{"offset": "0x11560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x11590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x115c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x11600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x11628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x11658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x11698", "text": " while calling a Python object"}
+{"offset": "0x116b8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x116e8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x11710", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/home/amazon.c"}
+{"offset": "0x11750", "text": "crawl_retailers/home/amazon.py"}
+{"offset": "0x11770", "text": "crawl_retailers.home.amazon.extract"}
+{"offset": "0x11798", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x117d8", "text": "strings are too large to concat"}
+{"offset": "0x117f8", "text": "crawl_retailers.home.amazon.page_targets"}
+{"offset": "0x11828", "text": "generator ignored GeneratorExit"}
+{"offset": "0x11848", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x11868", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x11890", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x118c0", "text": "instance exception may not have a separate value"}
+{"offset": "0x118f8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x11940", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x11980", "text": "coroutine is being awaited already"}
+{"offset": "0x119a8", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x119e0", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x11a20", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x11a58", "text": "__await__() returned a coroutine"}
+{"offset": "0x11a80", "text": "generator raised StopIteration"}
+{"offset": "0x11aa0", "text": "Module 'amazon' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x11af0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x11b40", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x11b68", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x11c18", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x11c58", "text": "init crawl_retailers.home.amazon"}
+{"offset": "0x11c80", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x11cb0", "text": "qualified name of the coroutine"}
+{"offset": "0x11cd0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x11d30", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x11da0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x11dd8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x11e00", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x11e38", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11e98", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x11f08", "text": "crawl_retailers.home.amazon.__pyx_scope_struct__extract"}
+{"offset": "0x11f40", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x11f5e", "text": "%.200s() needs an argument"}
+{"offset": "0x11f79", "text": "Bad call flags for CyFunction"}
+{"offset": "0x11f97", "text": "<cyfunction %U at %p>"}
+{"offset": "0x11fad", "text": "__loader__"}
+{"offset": "0x11fb8", "text": "loader"}
+{"offset": "0x11fbf", "text": "__file__"}
+{"offset": "0x11fc8", "text": "origin"}
+{"offset": "0x11fcf", "text": "__package__"}
+{"offset": "0x11fdb", "text": "parent"}
+{"offset": "0x11fe2", "text": "__path__"}
+{"offset": "0x11feb", "text": "submodule_search_locations"}
+{"offset": "0x12006", "text": "keywords must be strings"}
+{"offset": "0x1201f", "text": "_cython_coroutine_type"}
+{"offset": "0x12036", "text": "_cython_generator_type"}
+{"offset": "0x1204d", "text": "_module"}
+{"offset": "0x12055", "text": "__builtins__"}
+{"offset": "0x12062", "text": "_cython_3_0_12"}
+{"offset": "0x12071", "text": "cannot import name %S"}
+{"offset": "0x12087", "text": "%s (%s:%d)"}
+{"offset": "0x12092", "text": "extract"}
+{"offset": "0x1209a", "text": "exactly"}
+{"offset": "0x120a2", "text": "name '%U' is not defined"}
+{"offset": "0x120bb", "text": "page_targets"}
+{"offset": "0x120c8", "text": "coroutine already executing"}
+{"offset": "0x120e4", "text": "generator already executing"}
+{"offset": "0x12100", "text": "throw"}
+{"offset": "0x12106", "text": "builtins"}
+{"offset": "0x1210f", "text": "cython_runtime"}
+{"offset": "0x1211e", "text": "crawl_retailers.home.amazon"}
+{"offset": "0x1213a", "text": "does not match"}
+{"offset": "0x12149", "text": "collections.abc"}
+{"offset": "0x12159", "text": "backports_abc"}
+{"offset": "0x12167", "text": "__reduce__"}
+{"offset": "0x12172", "text": "__module__"}
+{"offset": "0x1217d", "text": "func_doc"}
+{"offset": "0x12186", "text": "__doc__"}
+{"offset": "0x1218e", "text": "func_name"}
+{"offset": "0x12198", "text": "__name__"}
+{"offset": "0x121a1", "text": "__qualname__"}
+{"offset": "0x121ae", "text": "func_dict"}
+{"offset": "0x121b8", "text": "__dict__"}
+{"offset": "0x121c1", "text": "func_globals"}
+{"offset": "0x121ce", "text": "__globals__"}
+{"offset": "0x121da", "text": "func_closure"}
+{"offset": "0x121e7", "text": "__closure__"}
+{"offset": "0x121f3", "text": "func_code"}
+{"offset": "0x121fd", "text": "__code__"}
+{"offset": "0x12206", "text": "func_defaults"}
+{"offset": "0x12214", "text": "__defaults__"}
+{"offset": "0x12221", "text": "__kwdefaults__"}
+{"offset": "0x12230", "text": "__annotations__"}
+{"offset": "0x12240", "text": "_is_coroutine"}
+{"offset": "0x1224e", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x12267", "text": "name of the coroutine"}
+{"offset": "0x1227d", "text": "cr_frame"}
+{"offset": "0x12286", "text": "Frame of the coroutine"}
+{"offset": "0x1229d", "text": "cr_running"}
+{"offset": "0x122a8", "text": "cr_await"}
+{"offset": "0x122b1", "text": "object being awaited, or None"}
+{"offset": "0x122cf", "text": "cr_code"}
+{"offset": "0x122d7", "text": "send"}
+{"offset": "0x122dc", "text": "close"}
+{"offset": "0x122e2", "text": "__reduce_ex__"}
+{"offset": "0x122f0", "text": "crawl_retailers/home/amazon.py"}
+{"offset": "0x12310", "text": "crawl_retailers.home.amazon"}
+{"offset": "0x12330", "text": "https://www.amazon.it"}
+{"offset": "0x12350", "text": "ensure_it_delivery"}
+{"offset": "0x12370", "text": "cline_in_traceback"}
+{"offset": "0x12390", "text": "asyncio.coroutines"}
+{"offset": "0x123a8", "text": "requested_url"}
+{"offset": "0x123b8", "text": "page_targets"}
+{"offset": "0x123c8", "text": "_is_coroutine"}
+{"offset": "0x123d8", "text": "_initializing"}
+{"offset": "0x123e8", "text": "core.crawler"}
+{"offset": "0x123f8", "text": "plp.amazon"}
+{"offset": "0x12408", "text": "MODE_LOCAL"}
+{"offset": "0x12418", "text": "page_type"}
+{"offset": "0x12428", "text": "list[dict]"}
+{"offset": "0x12438", "text": "isenabled"}
+{"offset": "0x12448", "text": "getLogger"}
+{"offset": "0x12458", "text": "category"}
+{"offset": "0x12468", "text": "targets"}
+{"offset": "0x12470", "text": "logging"}
+{"offset": "0x12478", "text": "extract"}
+{"offset": "0x12480", "text": "disable"}
+{"offset": "0x12488", "text": "country"}
+{"offset": "0x12490", "text": "content"}
+{"offset": "0x12498", "text": "return"}
+{"offset": "0x124a0", "text": "__import__"}
+{"offset": "0x124ab", "text": "enable"}
+{"offset": "0x124b2", "text": "throw"}
+{"offset": "0x124b8", "text": "close"}
+{"offset": "0x124c0", "text": "__await__"}
+{"offset": "0x124d0", "text": "__test__"}
+{"offset": "0x124e0", "text": "__spec__"}
+{"offset": "0x124e9", "text": "sess"}
+{"offset": "0x124ee", "text": "send"}
+{"offset": "0x124f3", "text": "page"}
+{"offset": "0x124f8", "text": "__name__"}
+{"offset": "0x12501", "text": "mode"}
+{"offset": "0x12508", "text": "__main__"}
+{"offset": "0x12511", "text": "_html"}
+{"offset": "0x12517", "text": "home"}
+{"offset": "0x1251c", "text": "dict"}
+{"offset": "0x12521", "text": "args"}
+{"offset": "0x12526", "text": "_BASE"}

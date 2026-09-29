@@ -1,0 +1,3125 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0135-mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/bosch/frigorificos",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+    "capturedAt": "2026-09-28T08:09:12.743221+09:00",
+    "collectionOk": true,
+    "title": "Ofertas Frigoríficos Bosch al mejor precio | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0135-mediamarkt-es/brand-category/raw.html",
+      "sha256": "2d5f41c3a79ec26ed70d443bc6d415b7789ac420aeae08eb5ff997eb59e28e20"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0135-mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "f2aee3e3cd6b3ac484a26bbbfae49b85a6e69a3cd3d437d00d6edddcd4e24aac"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0135-mediamarkt-es/brand-category/response.json",
+      "sha256": "c6a2716286f2721bf449ab808e574c42859fe1add8e3ce972dc2dc02145a7346"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "BOSCH Frigoríficos en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-dlUvRw.mms-ui-haSGNB.mms-ui-jTWvec > div.sc-eb42bfae-2.gjITKV > div.sc-80c1f20f-0.hkvKO > div.sc-80c1f20f-3.nmAVo > a.sc-66506eb5-1.cevLqa.sc-a95fa178-1 > h3.sc-59b6826e-0.ksuKuw",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tu cocina Masterchef",
+        "attributes": {
+          "class": "sc-59b6826e-0 ksuKuw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KGN362WED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203 cm, 363 l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - Bosch KFN96APEA, No Frost, 183 cm, 605 l, Capacidad XXL, Cajón BigBox, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - BOSCH KSV36FIEP, VitaFresh, Altura 186,0 cm, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi integrable - Bosch KIV86VSE0, Low Frost, 277l, VitaFresh XXL, Cajón BigBox, 177.2 cm, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN39VIDB, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN36VLDB, Total no frost, 186 cm, 326 l, VitaFresh, Acero mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi integrable - Bosch KIN86VFE0, Semi Frost, 177.2 cm, 260 l, Vita Fresh, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN39VWEB, Total no frost, 203 CM, 368 l, VitaFresh, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - BOSCH KGN362WED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAirFlow",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN397ICT, No frost, 203 cm, 363 l, SuperCongelación, Cajón VitaFresh XXL, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KGN36VIDB, No Frost, Total No Frost, Altura 1860 mm, Capacidad 326 l, Acero inoxidable antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203cm, 363l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy Bueno Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203 cm, 363 l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN39VIDB, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Bosch KGN397ICT, No frost, 203 cm, 363 l, SuperCongelación, Cajón VitaFresh XXL, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi integrable - Bosch KIV86VSE0, 35dB, No Frost, 277l, VitaFresh XXL, BigBox, 177.20cm, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Bosch KFN96APEA, No Frost, 183 cm, 605 l, Capacidad XXL, Cajón BigBox, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN39LBCF, No Frost, 203 cm, 363 l, Cajón VitaFresh XXL, SuperCongelación, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, NoFrost, 203cm, 368l, Cajón VitaFresh, Sistema MultiAir Flow",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - Bosch KGN86VIEA, No Frost, 186 cm, 631 l, Capacidad XXL, Iluminación LED, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigoríficos y congeladores - BOSCH Serie 4 KGN392XCF, No Frost, Dinámico (con ventilador), Altura 2030 mm, Capacidad 363 l, Negro",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - BOSCH KSV36CIDP, VitaFresh, Altura 186 cm, Capacidad 346 l, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - BOSCH KSV33VWEP, Altura 176,0 cm, Capacidad 324 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - BOSCH KSV33VLEP, Altura 176,0 cm, Capacidad 324 l, Acero mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico integrable - BOSCH BOSKIR81ADD0, Altura 177,2 cm, Capacidad 310 l, Blanco Panelable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KIV86NSE0, No Frost, Multi-Airflow, Altura 1772 mm, Capacidad 267 l, White",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KGN392WCF, No Frost, No Frost, Multi Air Flow, Altura 2030 mm, Capacidad 363 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - BOSCH KGN493WDA, No Frost, No Frost, Altura 2030 mm, Capacidad 438 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - BOSCH Frigorifico Integrable 1P Bosch KIR41VFE0, Estático refrigerador, Altura 1221 mm, Capacidad 204 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "FRIGORIFICO COMBI - BOSCH KGN36NLEA, No Frost, Sí, Altura 1860 mm, Capacidad 305 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH Serie 6 KGN39AIAU, No Frost, Dinámico (con ventilador), Altura 2030 mm, Capacidad 363 l, Acero inoxidable",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KGN36NWEA MPN, No Frost, Altura 1860 mm, Capacidad 329 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - BOSCH KGN36VIBT, No Frost, VitaFresh, VitaFresh Plus, Altura 1860 mm, Capacidad 321 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div.mms-ui-dMMuNs.mms-ui-xNKOC.mms-ui-xNKZo > div.mms-ui-cYdhWw.mms-ui-iCUXHr.mms-ui-cYzOJj > div.mms-ui-cYdhWw.mms-ui-lmUwit.mms-ui-jZhmni > h2.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gGmMvB",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bosch: Innovación y Confianza en Electrodomésticos",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM mms-ui-gsjAMe"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cuántos años de garantia tiene un frigorífico Bosch?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es Home Connect de Bosch?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué significa ECO en el frigorífico Bosch?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cuántos grados hay que poner el frigorífico?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué temperatura tiene que tener la nevera Bosch?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#5 > span#acc-header-5 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Cuál es la mejor clasificación energética para un frigorífico?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 101,
+        "top10ByRenderedArea": [
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/26p3kX2FZ8kmpeMUZ1E3hs/00e92eeb0f4f6f5fbc4c61cacf27f54e/Banners_Bosch_MasterChef_MediaMarkt__889_x_352.jpg?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871196?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177181499?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871068?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871169?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_165718833?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162205960?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97091037?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_140168724?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 6,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2YFmSDY9IGs0W6HrTQ1Jtz/e709b21675d8b783894320c177f4f8ed/Bubble_bosch_con_fondo.jpg?q=80",
+            "alt": "",
+            "renderedWidth": 256.5,
+            "renderedHeight": 256.5,
+            "renderedArea": 65792.25,
+            "naturalWidth": 1181,
+            "naturalHeight": 1181,
+            "naturalArea": 1394761,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6QAoKVQSxKRYDyh3c3TQT9/a4dcb11477077d4c3a3f3aa395a1802e/Bubble_Bosch_Congelador.jpg?q=80",
+            "alt": "",
+            "renderedWidth": 256.5,
+            "renderedHeight": 256.5,
+            "renderedArea": 65792.25,
+            "naturalWidth": 1181,
+            "naturalHeight": 1181,
+            "naturalArea": 1394761,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 85,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 86,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 72,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/26p3kX2FZ8kmpeMUZ1E3hs/00e92eeb0f4f6f5fbc4c61cacf27f54e/Banners_Bosch_MasterChef_MediaMarkt__889_x_352.jpg?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871196?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177181499?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871068?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Ofertas Frigoríficos Bosch al mejor precio | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Descubre los Frigoríficos combinados, de una puerta, Americanos y Multipuerta Bosch. Gran variedad de gamas y ofertas en MediaMarkt"
+        ],
+        "h1": [
+          "BOSCH Frigoríficos en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 8,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/26p3kX2FZ8kmpeMUZ1E3hs/00e92eeb0f4f6f5fbc4c61cacf27f54e/Banners_Bosch_MasterChef_MediaMarkt__889_x_352.jpg?q=92&w=890&fm=webp",
+            "alt": "",
+            "renderedWidth": 709.328125,
+            "renderedHeight": 400,
+            "renderedArea": 283731.25,
+            "naturalWidth": 889,
+            "naturalHeight": 352,
+            "naturalArea": 312928,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871196?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871098?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177181499?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871068?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183871169?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_165718833?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162205960?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_97091037?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_140168724?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h2",
+            "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > aside#category-bottom > div.mms-ui-dMMuNs.mms-ui-xNKOC.mms-ui-xNKZo > div.mms-ui-cYdhWw.mms-ui-iCUXHr.mms-ui-cYzOJj > div.mms-ui-cYdhWw.mms-ui-lmUwit.mms-ui-jZhmni > h2.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gGmMvB",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Bosch: Innovación y Confianza en Electrodomésticos",
+            "attributes": {
+              "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM mms-ui-gsjAMe"
+            },
+            "matchedTerms": [
+              "innovacion"
+            ]
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "599,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "520,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "999,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "564,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "622,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1099,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "539,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1514,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "876,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "905,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "719,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "815,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1175,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "640,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "468,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "719,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "696,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "849,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1129,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "557,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "959,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "749,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "597,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "846,75€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "679,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1199,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "389,35€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1700,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1443,33€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "510,85€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "608,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1045,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1043,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "540,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "963,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1189,24€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "688,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "765,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "866,31€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "753,36€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1125,06€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "896,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "680,95€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "627,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1718,96€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "584,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1159,12€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "579,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Top ofertas",
+            "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "BOSCH",
+            "href": "https://www.mediamarkt.es/es/brand/bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Frigoríficos combinados",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos/frigorificos-combinados",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos de una puerta",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos/frigorificos-de-una-puerta",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos americanos y multipuerta",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos/frigorificos-americanos",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos integrables",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos/frigorificos-integrables",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico una puerta - BOSCH KSV36FIEP, VitaFresh, Altura 186,0 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - Bosch KGN39VWEB, Total no frost, 203 CM, 368 l, VitaFresh, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico una puerta - BOSCH KSV33VWEP, Altura 176,0 cm, Capacidad 324 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos FRIGORIFICO COMBI - BOSCH KGN36NLEA, No Frost, Sí, Altura 1860 mm, Capacidad 305 l, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "¿Cuántos años de garantia tiene un frigorífico Bosch?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "¿Qué es Home Connect de Bosch?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "¿Qué significa ECO en el frigorífico Bosch?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "¿Qué temperatura tiene que tener la nevera Bosch?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "¿Cuál es la mejor clasificación energética para un frigorífico?",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: mejor"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          },
+          {
+            "text": "Ofertas y campañas",
+            "href": "https://www.mediamarkt.es/es/brand/bosch/frigorificos?page=4",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas Flash",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          },
+          {
+            "text": "Ofertas del día",
+            "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+            "signals": [
+              "페이지 주제어와 일치: ofertas"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vuelta al cole Ficha técnica Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas 209 Basado en 209 valoraciones Medidas (An x Al x F) 60 cm x 203 cm x 66 cm No Frost Sí Almacenamiento en caso de avería 16 h Iluminación interior Sí -37% 959,– € 959,00€ 599,– € 599,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Vuelta al cole Ficha técnica Frigorífico combi - BOSCH KGN362WED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco 74 Basado en 74 valoraciones Medidas (An x Al x F) 60 cm x 186 cm x 66 cm No Frost Sí Almacenamiento en caso de avería 13 h Iluminación interior Sí -17% 629,– € 629,00€ 520,– € 520,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Especial hogar Ficha técnica Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203 cm, 363 l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas 872 Basado en 872 valoraciones Medidas (An x Al x F) 60 cm x 203 cm x 66.5 cm No Frost Sí Zona 0°C Sí Almacenamiento en caso de avería 21 h -13% 1149,– € 1149,00€ 999,– € 999,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Acero antihuellas 74 Basado en 74 valoraciones Medidas (An x Al x F) 60 cm x 186 cm x 66 cm No Frost Sí Almacenamiento en caso de avería 13 h Iluminación interior Sí 564,– € 564,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco 71 Basado en 71 valoraciones Medidas (An x Al x F) 60 cm x 203 cm x 67 cm No Frost Sí Almacenamiento en caso de avería 12 h Iluminación interior Sí -15% 735,– € 735,00€ 622,– € 622,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas 280 Basado en 280 valoraciones Medidas (An x Al x F) 70 cm x 203 cm x 67 cm No Frost Sí Zona 0°C Sí Almacenamiento en caso de avería 4 h 1099,– € 1099,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Reacondicionado Seminuevo Excelente Ficha técnica REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas 2 Basado en 2 valoraciones Medidas (An x Al x F) 60 cm x 203 cm x 66 cm No Frost Sí Almacenamiento en caso de avería 16 h Iluminación interior Sí -10% 599,– € 599,00€ 539,10 € 539,10€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Ficha técnica Frigorífico americano - Bosch KFN96APEA, No Frost, 183 cm, 605 l, Capacidad XXL, Cajón BigBox, Inox 1491 Basado en 1491 valoraciones Medidas (An x Al x F) 91 cm x 183 cm x 73.1 cm Conexión de toma de agua No Dispensador de Hielo No Disp",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Un refrigerador Bosch plateado con acabado de acero inoxidable y dos puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1606775.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1606775.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco Bosch con dos puertas y logo plateado sobre fondo claro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn362wed-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiair-flow-blanco-1606771.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KGN362WED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn362wed-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiair-flow-blanco-1606771.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado con logo de Bosch en la parte superior derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn392lag-total-no-frost-203-cm-363-l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1617505.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203 cm, 363 l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn392lag-total-no-frost-203-cm-363-l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1617505.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con congelador inferior y logo Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiair-flow-acero-antihuellas-1606769.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiair-flow-acero-antihuellas-1606769.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco Bosch con dos puertas y tirador plateado.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-blanco-1606774.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-blanco-1606774.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con pantalla superior y congelador inferior. Logotipo de Bosch visible.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1607701.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1607701.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con el logo de Bosch arriba. El refrigerador tiene dos puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1621739.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1621739.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con cuatro puertas. Las puertas superiores son lado a lado, las inferiores son cajones.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-bosch-kfn96apea-no-frost-605-l-183-cm-acero-inox-1537678.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - Bosch KFN96APEA, No Frost, 183 cm, 605 l, Capacidad XXL, Cajón BigBox, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-bosch-kfn96apea-no-frost-605-l-183-cm-acero-inox-1537678.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador alto de acero inoxidable con una sola puerta y manija en el lado derecho.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-bosch-ksv36fiep-vitafresh-altura-1860-mm-inox-140168721.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - BOSCH KSV36FIEP, VitaFresh, Altura 186,0 cm, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-bosch-ksv36fiep-vitafresh-altura-1860-mm-inox-140168721.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador con puertas abiertas que muestran estantes con alimentos.",
+            "href": "https://www.mediamarkt.es/es/product/_frigor%C3%ADfico-combi-bosch-kiv86vse0-integrable-35db-no-frost-277l-vitafresh-xxl-bigbox-177-20cm-blanco-1504770.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi integrable - Bosch KIV86VSE0, Low Frost, 277l, VitaFresh XXL, Cajón BigBox, 177.2 cm, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_frigor%C3%ADfico-combi-bosch-kiv86vse0-integrable-35db-no-frost-277l-vitafresh-xxl-bigbox-177-20cm-blanco-1504770.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con logotipo de Bosch y línea divisoria.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vidb-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-acero-antihuellas-1606773.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN39VIDB, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vidb-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-acero-antihuellas-1606773.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con dos puertas. El logotipo de Bosch es visible. Las puertas están cerradas.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vldb-total-no-frost-186-cm-326-l-vitafresh-acero-mate-antihuellas-1611381.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN36VLDB, Total no frost, 186 cm, 326 l, VitaFresh, Acero mate antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vldb-total-no-frost-186-cm-326-l-vitafresh-acero-mate-antihuellas-1611381.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Bosch blanco con puertas abiertas, mostrando estantes con alimentos.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-integrable-bosch-kin86vfe0-semi-frost-1772-cm-260-l-vita-fresh-blanco-1557431.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi integrable - Bosch KIN86VFE0, Semi Frost, 177.2 cm, 260 l, Vita Fresh, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-integrable-bosch-kin86vfe0-semi-frost-1772-cm-260-l-vita-fresh-blanco-1557431.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Bosch blanco con congelador inferior y tirador integrado.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vweb-total-no-frost-203-cm-368-l-vitafresh-blanco-1611375.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN39VWEB, Total no frost, 203 CM, 368 l, VitaFresh, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn39vweb-total-no-frost-203-cm-368-l-vitafresh-blanco-1611375.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Bosch blanco con congelador inferior. Tiene dos puertas, un logotipo de Bosch y un tirador plateado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn362wed-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiairflow-1612348.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - BOSCH KGN362WED, Serie 4, Total No Frost, 186 cm, 326 l, Cajón VitaFresh, Sistema MultiAirFlow",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn362wed-serie-4-total-no-frost-186-cm-326-l-cajon-vitafresh-sistema-multiairflow-1612348.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Bosch plateado con dos puertas. Fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn397ict-no-frost-203-cm-363-l-supercongelacion-cajon-vitafresh-xxl-inox-1587755.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN397ICT, No frost, 203 cm, 363 l, SuperCongelación, Cajón VitaFresh XXL, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn397ict-no-frost-203-cm-363-l-supercongelacion-cajon-vitafresh-xxl-inox-1587755.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Bosch plateado con dos puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vidb-no-frost-total-no-frost-altura-1860-mm-capacidad-326-l-acero-inoxidable-antihuellas-165360265.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KGN36VIDB, No Frost, Total No Frost, Altura 1860 mm, Capacidad 326 l, Acero inoxidable antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vidb-no-frost-total-no-frost-altura-1860-mm-capacidad-326-l-acero-inoxidable-antihuellas-165360265.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Contorno de frigorífico con dimensiones: Alto 203 cm, Ancho 60 cm, Fondo 66,5 cm.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-bosch-kgn392lag-total-no-frost-203cm-363l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1672096.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203cm, 363l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-bosch-kgn392lag-total-no-frost-203cm-363l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1672096.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con sección superior e inferior. Un logotipo de Bosch está arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1611386.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1611386.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco con acabado de metal cepillado. Tiene dos puertas y un logotipo de Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186cm-326-l-cajon-vitafresh-sistema-multiair-flow-1612349.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186cm-326-l-cajon-vitafresh-sistema-multiair-flow-1612349.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con sección superior e inferior. Un logotipo de Bosch está arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1672540.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy Bueno Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1672540.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado con logo de Bosch en la parte superior derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn392lag-total-no-frost-203-cm-363-l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1669357.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN392LAG, Total No Frost, 203 cm, 363 l, VitaFresh XXL, Cajón 0º, Acero mate antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn392lag-total-no-frost-203-cm-363-l-vitafresh-xxl-cajon-0o-acero-mate-antihuellas-1669357.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco de acero inoxidable. La parte superior es lisa, la inferior tiene un tirador plateado.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn39vidb-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-1627753.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN39VIDB, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Sistema MultiAir Flow",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn39vidb-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-sistema-multiair-flow-1627753.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con sección superior e inferior. Un logotipo de Bosch está arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1670768.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN362ICF, Total No Frost, 186 cm, 321 l, VitaFresh 0º, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn362icf-total-no-frost-186-cm-321-l-vitafresh-0o-acero-inoxidable-1670768.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador Bosch plateado con dos puertas. Fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-bosch-kgn397ict-no-frost-203-cm-363-l-supercongelacion-cajon-vitafresh-xxl-inox-1566126.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - Bosch KGN397ICT, No frost, 203 cm, 363 l, SuperCongelación, Cajón VitaFresh XXL, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-b-frigorifico-combi-bosch-kgn397ict-no-frost-203-cm-363-l-supercongelacion-cajon-vitafresh-xxl-inox-1566126.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con pantalla superior y congelador inferior. Logotipo de Bosch visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1618445.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1618445.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador con puertas abiertas que muestran estantes con alimentos.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-bosch-kiv86vse0-integrable-35db-no-frost-277l-vitafresh-xxl-bigbox-17720cm-blanco-1558525.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi integrable - Bosch KIV86VSE0, 35dB, No Frost, 277l, VitaFresh XXL, BigBox, 177.20cm, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-c-frigorifico-combi-bosch-kiv86vse0-integrable-35db-no-frost-277l-vitafresh-xxl-bigbox-17720cm-blanco-1558525.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con el logo de Bosch arriba. El refrigerador tiene dos puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1609545.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN39VIEB, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh, Perfect Fit, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn39vieb-total-nofrost-203-cm-368-l-cajon-vitafresh-perfect-fit-acero-antihuellas-1609545.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con cuatro puertas. Las puertas superiores son lado a lado, las inferiores son cajones.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-bosch-kfn96apea-no-frost-183-cm-605-l-capacidad-xxl-cajon-bigbox-inox-1590430.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - Bosch KFN96APEA, No Frost, 183 cm, 605 l, Capacidad XXL, Cajón BigBox, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-bosch-kfn96apea-no-frost-183-cm-605-l-capacidad-xxl-cajon-bigbox-inox-1590430.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador negro con dos puertas. Diseño elegante y moderno.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn39lbcf-no-frost-203-cm-363-l-cajon-vitafresh-xxl-supercongelacion-negro-1617699.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN39LBCF, No Frost, 203 cm, 363 l, Cajón VitaFresh XXL, SuperCongelación, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn39lbcf-no-frost-203-cm-363-l-cajon-vitafresh-xxl-supercongelacion-negro-1617699.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Bosch blanco. Tiene dos puertas y una manija horizontal. El logotipo de Bosch es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-nofrost-203cm-368l-cajon-vitafresh-sistema-multiair-flow-1610659.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, NoFrost, 203cm, 368l, Cajón VitaFresh, Sistema MultiAir Flow",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-nofrost-203cm-368l-cajon-vitafresh-sistema-multiair-flow-1610659.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco con acabado de metal cepillado. Tiene dos puertas y un logotipo de Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186-cm-326l-cajon-vitafresh-sistema-multiair-flow-1611663.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - Bosch KGN36VIED, Serie 4, Total No Frost, 186cm, 326 l, Cajón VitaFresh, Sistema MultiAir Flow",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-bosch-kgn36vied-serie-4-total-no-frost-186-cm-326l-cajon-vitafresh-sistema-multiair-flow-1611663.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador plateado sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn86viea-no-frost-modo-eco-186-cm-acero-inoxidable-antihuellas-1542243.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - Bosch KGN86VIEA, No Frost, 186 cm, 631 l, Capacidad XXL, Iluminación LED, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn86viea-no-frost-modo-eco-186-cm-acero-inoxidable-antihuellas-1542243.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con pantalla superior y congelador inferior. Logotipo de Bosch visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1620533.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - Bosch KGN493IDA, Serie 4, Total No Frost, 203 cm, 438 l, VitaFresh, Acero antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-bosch-kgn493ida-serie-4-total-no-frost-203-cm-438-l-vitafresh-acero-antihuellas-1620533.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador Bosch blanco. Tiene dos puertas y una manija horizontal. El logotipo de Bosch es visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-1625375.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico dos puertas - Bosch KGN39VWDC, Serie 4, Total NoFrost, 203 cm, 368 l, Cajón VitaFresh",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-dos-puertas-bosch-kgn39vwdc-serie-4-total-nofrost-203-cm-368-l-cajon-vitafresh-1625375.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un elegante refrigerador Bosch de color gris oscuro con un acabado vertical de metal cepillado.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorificos-y-congeladores-bosch-serie-4-kgn392xcf-no-frost-dinamico-con-ventilador-altura-2030-mm-capacidad-363-l-negro-159526386.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigoríficos y congeladores - BOSCH Serie 4 KGN392XCF, No Frost, Dinámico (con ventilador), Altura 2030 mm, Capacidad 363 l, Negro",
+            "href": "https://www.mediamarkt.es/es/product/_frigorificos-y-congeladores-bosch-serie-4-kgn392xcf-no-frost-dinamico-con-ventilador-altura-2030-mm-capacidad-363-l-negro-159526386.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un moderno refrigerador de acero inoxidable, con un asa plateada. Se ve el logo de Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-bosch-ksv36cidp-no-frost-vitafresh-altura-186-cm-capacidad-346-l-acero-inoxidable-168290145.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - BOSCH KSV36CIDP, VitaFresh, Altura 186 cm, Capacidad 346 l, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-bosch-ksv36cidp-no-frost-vitafresh-altura-186-cm-capacidad-346-l-acero-inoxidable-168290145.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - BOSCH KSV33VWEP, Altura 176,0 cm, Capacidad 324 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorfico-una-puerta-ksv33vwepbosch-blanco-94985784.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador plateado con manija sobre fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-ksv33vlep-bosch-acero-mate-antihuellas-99528270.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - BOSCH KSV33VLEP, Altura 176,0 cm, Capacidad 324 l, Acero mate antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-ksv33vlep-bosch-acero-mate-antihuellas-99528270.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico integrable - BOSCH BOSKIR81ADD0, Altura 177,2 cm, Capacidad 310 l, Blanco Panelable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-una-puerta-bosch-boskir81add0-no-frost-altura-17720-cm-inox-139886796.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador blanco, puerta abierta, con estantes, cajones y alimentos dentro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kiv86nse0-multi-airflow-altura-1772-mm-volumen-total-267-l-blanco-143751427.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KIV86NSE0, No Frost, Multi-Airflow, Altura 1772 mm, Capacidad 267 l, White",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kiv86nse0-multi-airflow-altura-1772-mm-volumen-total-267-l-blanco-143751427.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Refrigerador blanco. La puerta está cerrada. Logotipo de Bosch en la esquina superior derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-kgn392wcf-bosch-no-frost-multi-air-flow-blanco-130580823.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KGN392WCF, No Frost, No Frost, Multi Air Flow, Altura 2030 mm, Capacidad 363 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-kgn392wcf-bosch-no-frost-multi-air-flow-blanco-130580823.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco de dos puertas con pantalla digital en la puerta superior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-bosch-kgn493wda-no-frost-no-frost-altura-2030-mm-capacidad-438-l-blanco-165360719.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - BOSCH KGN493WDA, No Frost, No Frost, Altura 2030 mm, Capacidad 438 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-bosch-kgn493wda-no-frost-no-frost-altura-2030-mm-capacidad-438-l-blanco-165360719.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico Bosch blanco con puerta abierta. Muestra estantes con comida y botellas de vidrio. Fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kir41vfe0-estatico-refrigerador-altura-1221-mm-volumen-total-204-l-blanco-135721393.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - BOSCH Frigorifico Integrable 1P Bosch KIR41VFE0, Estático refrigerador, Altura 1221 mm, Capacidad 204 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kir41vfe0-estatico-refrigerador-altura-1221-mm-volumen-total-204-l-blanco-135721393.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con cajón congelador. El logo de Bosch es visible arriba a la derecha.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36nlea-si-altura-186-cm-inox-139545105.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "FRIGORIFICO COMBI - BOSCH KGN36NLEA, No Frost, Sí, Altura 1860 mm, Capacidad 305 l, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36nlea-si-altura-186-cm-inox-139545105.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado con dos puertas y un logotipo de Bosch.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-serie-6-kgn39aiau-no-frost-dinamico-con-ventilador-altura-2030-mm-capacidad-363-l-acero-inoxidable-154947236.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH Serie 6 KGN39AIAU, No Frost, Dinámico (con ventilador), Altura 2030 mm, Capacidad 363 l, Acero inoxidable",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-serie-6-kgn39aiau-no-frost-dinamico-con-ventilador-altura-2030-mm-capacidad-363-l-acero-inoxidable-154947236.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Se muestra un refrigerador blanco. El refrigerador tiene dos puertas, una superior y otra inferior, con el logotipo de Bosch en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36nwea-mpn-libre-instalacion-1860-mm-329-l-blanco-134294956.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KGN36NWEA MPN, No Frost, Altura 1860 mm, Capacidad 329 l, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36nwea-mpn-libre-instalacion-1860-mm-329-l-blanco-134294956.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un refrigerador de acero inoxidable con dos puertas, logo de Bosch en la parte superior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vibt-vitafresh-vitafresh-plus-altura-1860-mm-inox-140169418.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - BOSCH KGN36VIBT, No Frost, VitaFresh, VitaFresh Plus, Altura 1860 mm, Capacidad 321 l, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-bosch-kgn36vibt-vitafresh-vitafresh-plus-altura-1860-mm-inox-140169418.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "PS5 EA SPORTS FC™ 27",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+            "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+            "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Un smartphone azul oscuro muestra su parte delantera y trasera. La parte trasera tiene tres cámaras, flash y el logo de Apple. La pantalla tiene líneas brillantes.",
+            "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuántos años de garantia tiene un frigorífico Bosch?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es Home Connect de Bosch?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#2 > span#acc-header-2",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué significa ECO en el frigorífico Bosch?",
+            "attributes": {
+              "id": "acc-header-2",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#3 > span#acc-header-3",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuántos grados hay que poner el frigorífico?",
+            "attributes": {
+              "id": "acc-header-3",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#4 > span#acc-header-4",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué temperatura tiene que tener la nevera Bosch?",
+            "attributes": {
+              "id": "acc-header-4",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#5 > span#acc-header-5",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuál es la mejor clasificación energética para un frigorífico?",
+            "attributes": {
+              "id": "acc-header-5",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Cuántos años de garantia tiene un frigorífico Bosch? Todos nuestros electrodomésticos cuentan con sus 3 años correspondientes de garantía del fabricante. ¿Qué es Home Connect de Bosch? Tus electrodomésticos conectan contigo. Los electrodomésticos inteligentes Bosch te permiten cambiar por completo tus rutinas, disfrutando de más tiempo para lo que realmente quieres hacer. Con Home Connect puedes programar la lavadora, ver lo que hay en el frigorífico o conectar en la distancia el lavavajillas. ¿Qué significa ECO en el frigorífico Bosch? Frigoríficos: Una de las funciones de nuestros frigoríficos es el Modo Eco, que configura los valores óptimos de conservación para generar un gasto mínimo. El frigo siempre está encendido, por lo que consume energía continuamente y representa el 18,9 % de la factura eléctrica. ¿Cuántos grados hay que poner el frigorífico? La temperatura ideal para la nevera es de mínimo 8ºC y máximo 2ºC, por lo que se considera que una buena temperatura sería de 4ºC, pero dependerá de la capacidad de la nevera. Cuanto más vacía esté, menos frío necesitará generar, por lo que podrás programar la temperatura más cerca de los 8ºC y así ahorrar energía. ¿Qué temperatura tiene que tener la nevera Bosch? La temperatura recomendada del compartimento frigorífico asciende a 4 °C. La temperatura recomendada del congelador asciende a −18 °C ¿Cuál es la mejor clasificación energética para un frigorífico? Las clasificaciones van desde la letra A hasta la letra G, siendo la A la más eficiente y la G la menos eficiente, por lo tanto, un frigorífico clase a consume menos energía, lo que se traduce en facturas más bajas",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

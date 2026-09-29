@@ -1,0 +1,135 @@
+{
+  "amazon-it": {
+    "home": {
+      "ready": "#nav-main",
+      "required": [
+        "#nav-main",
+        "#nav-logo-sprites"
+      ],
+      "cookies": [
+        {
+          "selector": "#sp-cc-accept"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "evidence": {
+        "notes": "Live Amazon home rendered after #sp-cc-accept input consent; API HTML uses Italian Accetta value. Direct requests encountered bans; tested normal navigation: home -> consent -> native goto target -> consent -> capture. Do not click store navigation links as disclosure actions. Home target uses actual #nav-logo-sprites href /ref=nav_logo observed in the successful store DOM; it is the site home navigation link.",
+        "allow_root_redirect": true
+      },
+      "entry_url": "https://www.amazon.it/",
+      "geolocation": "IT",
+      "url": "https://www.amazon.it/ref=nav_logo"
+    },
+    "brand": {
+      "geolocation": "IT",
+      "ready": "#nav-main",
+      "required": [
+        "#nav-main",
+        "a[data-click-type=\"OTHER\"]"
+      ],
+      "cookies": [
+        {
+          "selector": "#sp-cc-accept"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "evidence": {
+        "notes": "API HTML uses Italian store labels; the rendered navigation anchor is a[data-click-type=\"OTHER\"] with PRODOTTI IN EVIDENZA. Direct requests encountered bans; tested normal navigation: home -> consent -> native goto target -> consent -> capture. Do not click store navigation links as disclosure actions.",
+        "url_contains": [
+          "CFD4D966-B596-4662-9305-AE3889DCC47C"
+        ]
+      },
+      "entry_url": "https://www.amazon.it/"
+    },
+    "brand-category": {
+      "url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+      "entry_url": "https://www.amazon.it/",
+      "geolocation": "IT",
+      "ready": "#nav-main",
+      "required": [
+        "#nav-main"
+      ],
+      "cookies": [
+        {
+          "selector": "#sp-cc-accept"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button[data-click-type='DEFAULT']",
+          "text": "Mostra altro",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "Amazon 홈을 먼저 연 뒤 냉장고 BCP로 이동하고, 선택 쿠키 창과 Mostra altro가 있을 때 처리한 다음 전체 스크롤한다.",
+        "url_contains": [
+          "5DE174FF-7426-4856-9BA8-3EF64DA9BCC5"
+        ],
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "geolocation": "IT",
+      "ready": "#search",
+      "required": [
+        "#search",
+        "div[data-component-type=\"s-search-result\"]"
+      ],
+      "cookies": [
+        {
+          "selector": "#sp-cc-accept"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "evidence": {
+        "notes": "Amazon search rendered #search, result heading, and s-search-result list items. Filter English labels are browser-translation-only and omitted from API replay. Direct requests encountered bans; tested normal navigation: home -> consent -> native goto target -> consent -> capture. Do not click store navigation links as disclosure actions.",
+        "url_contains": [
+          "/s",
+          "k=lavatrice"
+        ]
+      },
+      "entry_url": "https://www.amazon.it/"
+    },
+    "pdp": {
+      "ready": "#productDescription",
+      "required": [
+        "#productTitle",
+        "#productOverview_feature_div table",
+        "#prodDetails",
+        "#productDescription",
+        "#customerReviews"
+      ],
+      "cookies": [
+        {
+          "selector": "#sp-cc-accept"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "evidence": {
+        "notes": "Native home entry and same-site navigation loaded the actual LG GBBSJ1CCEP PDP: product overview, full product specifications, description and zero-review block are present in final HTML and screenshot. No insurance, cart or write-review action is executed.",
+        "url_contains": [
+          "B0H6N6B22K"
+        ]
+      },
+      "entry_url": "https://www.amazon.it/",
+      "geolocation": "IT"
+    }
+  }
+}

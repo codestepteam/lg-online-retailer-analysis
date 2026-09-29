@@ -1,0 +1,13 @@
+# Darty_FR_queue robots.txt
+# source: https://queue.fnacdarty.com/robots.txt (via curl)
+# HTTP 200
+#
+# '*'(일반 크롤러) 전면금지: 예 ⚠️ — 크롤 불가 (Disallow: /)
+# Brightbot 전면금지: 해당 없음 ('*' 자체가 전면금지)
+# → BD가 robots.txt 준수로 거부(brob). 이게 Darty 실패의 직접 원인.
+======================================================================
+
+User-agent: Googlebot, bingbot, BingPreview, Yandex, DuckDuckBot, AhrefsBot
+Allow: /
+User-agent: *
+Disallow: /

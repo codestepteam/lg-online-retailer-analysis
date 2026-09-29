@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0067-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/3A6C6882-5C54-466D-8AF3-6E7358934D73",
+    "finalUrl": "https://www.amazon.it/stores/page/3A6C6882-5C54-466D-8AF3-6E7358934D73",
+    "capturedAt": "2026-09-28T08:02:14.355183+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Haier: FRIGORIFERI"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0067-amazon-it/brand-category/raw.html",
+      "sha256": "a590a4c6c863cf466cad3a5560fe30805523aeb1ca372864c7bb02f03bff39e2"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0067-amazon-it/brand-category/capture-state.json",
+      "sha256": "e304afde609a824d8f1f91022b367f090cd55c251b62b4cebf271c1135ce52b0"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0067-amazon-it/brand-category/response.json",
+      "sha256": "de04cacab9230b7ffe57bb180dfe8f930ebda819ab895133d8bbafc856ff0cca"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 36,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/b6446668-a771-4092-9e5d-18d42ecd9ea8._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads \"EBS 3D\" and \"Raffreddamento flessibile, pensato per ogni giorno\". Side-by-side refrigerator with open doors displaying interior shelving, storage compartments, and fresh food items in a modern kitchen setting with minimalist décor.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c67aca28-27df-476b-a6f0-ee0f2d1b1a42._SL5000_CR15%2C0%2C5000%2C2055_SX1500_.jpg",
+            "alt": "Text reads 'CARATTERISTICHE PRINCIPALI' with six feature icons: Brain with berries labeled 'Aiuta nella formazione di placche'; Leaf labeled 'Assorbimento e flusso d'aria uniforme per conservare la freschezza di alimenti'; Dark leafy greens labeled 'Ideale per frutta e verdura'; Food containers labeled 'Sistema Temperatura ideale per ogni tipo di alimento'; Red warning icon labeled 'Protezione antibatterica avanzata'; Refrigerator interior labeled 'Massima visibilità in ogni angolo'. Product feature comparison display.",
+            "renderedWidth": 1470,
+            "renderedHeight": 604.65625,
+            "renderedArea": 888844.6875,
+            "naturalWidth": 1500,
+            "naturalHeight": 617,
+            "naturalArea": 925500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/4f95c8aa-88f0-4871-8895-77a37b630abc._CR0%2C0%2C2981%2C750_SX1500_.jpg",
+            "alt": "Text reads \"Acqua fresca, subito\" with Italian subtitle \"Drink towards 'frische' acqua per le temperature elevate i nostri gesti di energia\". Image shows hand holding a white beverage dispenser against black and gray modern wall panel.",
+            "renderedWidth": 1470,
+            "renderedHeight": 369.453125,
+            "renderedArea": 543096.09375,
+            "naturalWidth": 1500,
+            "naturalHeight": 377,
+            "naturalArea": 565500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/626cf7ae-95e8-429a-b53d-92aa700e230f._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Meno sprechi, più efficienza' and 'Accedi al tuo frigorifero in modo pratico e senza i consumi. IFS a 30%'. Image shows open refrigerator drawer with organized compartments containing food items and storage containers.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/862aff80-53a2-48f9-826d-308d50c60162._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Haier'. Composite image showing Haier brand logo on left, followed by interior home scenes including potted plant, modern refrigerator with glass doors displaying beverages and food items, and minimalist kitchen appliances.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/fbdae566-cfb6-4d60-9dce-b621ae5ee2e0._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CONGELATORI\" and \"ACQUISTA TUTTI I PRODOTTI\". White upright freezer with stainless steel finish, vertical handle, and compact rectangular design for food storage.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a0518815-22bb-4a46-8092-a2f6645149cb._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CANTINE\" and \"ACQUISTA TUTTI I PRODOTTI\". Black wine cooler/refrigerator with multiple shelves displaying wine bottles, featuring glass door and illuminated interior display.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/08592536-d414-48e4-a06f-2e66539cbbcf._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads \"CUBE\". Four-panel modular display unit with numbered sections 1-4, each featuring rounded rectangle screens with blue borders and gray backgrounds. Section 1 shows a small cylindrical object.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3e8c32c-c979-4e08-955c-3d1e04b3cf49._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads 'FRENCH DOOR'. Diagram showing a French door configuration with four numbered panels: panels 1 and 2 side-by-side at top, panel 3 in middle, panel 4 at bottom. Blue frame outlines indicate glass panes arrangement.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/b6446668-a771-4092-9e5d-18d42ecd9ea8._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads \"EBS 3D\" and \"Raffreddamento flessibile, pensato per ogni giorno\". Side-by-side refrigerator with open doors displaying interior shelving, storage compartments, and fresh food items in a modern kitchen setting with minimalist décor.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c67aca28-27df-476b-a6f0-ee0f2d1b1a42._SL5000_CR15%2C0%2C5000%2C2055_SX1500_.jpg",
+            "alt": "Text reads 'CARATTERISTICHE PRINCIPALI' with six feature icons: Brain with berries labeled 'Aiuta nella formazione di placche'; Leaf labeled 'Assorbimento e flusso d'aria uniforme per conservare la freschezza di alimenti'; Dark leafy greens labeled 'Ideale per frutta e verdura'; Food containers labeled 'Sistema Temperatura ideale per ogni tipo di alimento'; Red warning icon labeled 'Protezione antibatterica avanzata'; Refrigerator interior labeled 'Massima visibilità in ogni angolo'. Product feature comparison display.",
+            "renderedWidth": 1470,
+            "renderedHeight": 604.65625,
+            "renderedArea": 888844.6875,
+            "naturalWidth": 1500,
+            "naturalHeight": 617,
+            "naturalArea": 925500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/4f95c8aa-88f0-4871-8895-77a37b630abc._CR0%2C0%2C2981%2C750_SX1500_.jpg",
+            "alt": "Text reads \"Acqua fresca, subito\" with Italian subtitle \"Drink towards 'frische' acqua per le temperature elevate i nostri gesti di energia\". Image shows hand holding a white beverage dispenser against black and gray modern wall panel.",
+            "renderedWidth": 1470,
+            "renderedHeight": 369.453125,
+            "renderedArea": 543096.09375,
+            "naturalWidth": 1500,
+            "naturalHeight": 377,
+            "naturalArea": 565500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/626cf7ae-95e8-429a-b53d-92aa700e230f._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Meno sprechi, più efficienza' and 'Accedi al tuo frigorifero in modo pratico e senza i consumi. IFS a 30%'. Image shows open refrigerator drawer with organized compartments containing food items and storage containers.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/613ys-eKS4L._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 67.296875,
+            "renderedHeight": 226.46875,
+            "renderedArea": 15240.63916015625,
+            "naturalWidth": 375,
+            "naturalHeight": 1262,
+            "naturalArea": 473250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/862aff80-53a2-48f9-826d-308d50c60162._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Haier'. Composite image showing Haier brand logo on left, followed by interior home scenes including potted plant, modern refrigerator with glass doors displaying beverages and food items, and minimalist kitchen appliances.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/I/61tJEQ7DqQL._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 101.265625,
+            "renderedHeight": 266.25,
+            "renderedArea": 26961.97265625,
+            "naturalWidth": 375,
+            "naturalHeight": 986,
+            "naturalArea": 369750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/616prI1LKeL._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 105.875,
+            "renderedHeight": 266.234375,
+            "renderedArea": 28187.564453125,
+            "naturalWidth": 375,
+            "naturalHeight": 943,
+            "naturalArea": 353625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/411FDEkKu2L._AC_CR0%2C0%2C0%2C0_SX375_.jpg",
+            "alt": "",
+            "renderedWidth": 109.171875,
+            "renderedHeight": 226.484375,
+            "renderedArea": 24725.723876953125,
+            "naturalWidth": 375,
+            "naturalHeight": 778,
+            "naturalArea": 291750,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Haier: FRIGORIFERI"
+        ],
+        "metaDescription": [
+          "Frigoriferi Haier"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Haier/page/3A6C6882-5C54-466D-8AF3-6E7358934D73"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-Zrexvitm8w > div > div.Header__header__g41Bi.Header__left__WRNV4.search > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-Zrexvitm8w > div > div.Header__header__g41Bi.Header__left__WRNV4.search > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/b6446668-a771-4092-9e5d-18d42ecd9ea8._CR0%2C0%2C3000%2C1500_SX1500_.jpg",
+            "alt": "Text reads \"EBS 3D\" and \"Raffreddamento flessibile, pensato per ogni giorno\". Side-by-side refrigerator with open doors displaying interior shelving, storage compartments, and fresh food items in a modern kitchen setting with minimalist décor.",
+            "renderedWidth": 1470,
+            "renderedHeight": 735,
+            "renderedArea": 1080450,
+            "naturalWidth": 1500,
+            "naturalHeight": 750,
+            "naturalArea": 1125000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c67aca28-27df-476b-a6f0-ee0f2d1b1a42._SL5000_CR15%2C0%2C5000%2C2055_SX1500_.jpg",
+            "alt": "Text reads 'CARATTERISTICHE PRINCIPALI' with six feature icons: Brain with berries labeled 'Aiuta nella formazione di placche'; Leaf labeled 'Assorbimento e flusso d'aria uniforme per conservare la freschezza di alimenti'; Dark leafy greens labeled 'Ideale per frutta e verdura'; Food containers labeled 'Sistema Temperatura ideale per ogni tipo di alimento'; Red warning icon labeled 'Protezione antibatterica avanzata'; Refrigerator interior labeled 'Massima visibilità in ogni angolo'. Product feature comparison display.",
+            "renderedWidth": 1470,
+            "renderedHeight": 604.65625,
+            "renderedArea": 888844.6875,
+            "naturalWidth": 1500,
+            "naturalHeight": 617,
+            "naturalArea": 925500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/4f95c8aa-88f0-4871-8895-77a37b630abc._CR0%2C0%2C2981%2C750_SX1500_.jpg",
+            "alt": "Text reads \"Acqua fresca, subito\" with Italian subtitle \"Drink towards 'frische' acqua per le temperature elevate i nostri gesti di energia\". Image shows hand holding a white beverage dispenser against black and gray modern wall panel.",
+            "renderedWidth": 1470,
+            "renderedHeight": 369.453125,
+            "renderedArea": 543096.09375,
+            "naturalWidth": 1500,
+            "naturalHeight": 377,
+            "naturalArea": 565500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/626cf7ae-95e8-429a-b53d-92aa700e230f._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Meno sprechi, più efficienza' and 'Accedi al tuo frigorifero in modo pratico e senza i consumi. IFS a 30%'. Image shows open refrigerator drawer with organized compartments containing food items and storage containers.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ffbbfd13-c549-40e7-866b-4efa90dff4f5._CR0%2C0%2C3000%2C750_SX1500_.jpg",
+            "alt": "Text reads 'Connesso con l'app mai' and 'Imposta la temperatura ideale in base alle tue abitudini alla spazi a all e condizioni meteo.' Smart thermostat display screen showing temperature control interface with hand operating touchscreen; wall-mounted installation shown with multiple mounting options displayed on left side.",
+            "renderedWidth": 1470,
+            "renderedHeight": 367.5,
+            "renderedArea": 540225,
+            "naturalWidth": 1500,
+            "naturalHeight": 375,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/862aff80-53a2-48f9-826d-308d50c60162._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Haier'. Composite image showing Haier brand logo on left, followed by interior home scenes including potted plant, modern refrigerator with glass doors displaying beverages and food items, and minimalist kitchen appliances.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/fbdae566-cfb6-4d60-9dce-b621ae5ee2e0._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CONGELATORI\" and \"ACQUISTA TUTTI I PRODOTTI\". White upright freezer with stainless steel finish, vertical handle, and compact rectangular design for food storage.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a0518815-22bb-4a46-8092-a2f6645149cb._CR0%2C0%2C1500%2C750_SX750_SY375_.jpg",
+            "alt": "Text reads \"CANTINE\" and \"ACQUISTA TUTTI I PRODOTTI\". Black wine cooler/refrigerator with multiple shelves displaying wine bottles, featuring glass door and illuminated interior display.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/08592536-d414-48e4-a06f-2e66539cbbcf._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads \"CUBE\". Four-panel modular display unit with numbered sections 1-4, each featuring rounded rectangle screens with blue borders and gray backgrounds. Section 1 shows a small cylindrical object.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/c3e8c32c-c979-4e08-955c-3d1e04b3cf49._CR0%2C0%2C750%2C750_SX375_SY375_.jpg",
+            "alt": "Text reads 'FRENCH DOOR'. Diagram showing a French door configuration with four numbered panels: panels 1 and 2 side-by-side at top, panel 3 in middle, panel 4 at bottom. Blue frame outlines indicate glass panes arrangement.",
+            "renderedWidth": 356.25,
+            "renderedHeight": 356.25,
+            "renderedArea": 126914.0625,
+            "naturalWidth": 375,
+            "naturalHeight": 375,
+            "naturalArea": 140625,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Haier",
+            "href": "https://www.amazon.it/stores/page/F39D0E6B-009F-45A7-BEE7-6E32081F0A67?ingress=0&visitId=96201eb1-9e96-4efa-84db-0cfe3c1c8bde",
+            "signals": [
+              "페이지 주제어와 일치: haier"
+            ]
+          },
+          {
+            "text": "FRIGORIFERI",
+            "href": "https://www.amazon.it/stores/page/3A6C6882-5C54-466D-8AF3-6E7358934D73#",
+            "signals": [
+              "페이지 주제어와 일치: frigoriferi"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier Cube 90 Serie 5 Frigorifero Multidoor...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Cube 90 Serie 5 Frigorifero Multidoor... 4,4 4,4 su 5 stelle 75 4,4 su 5 stelle. 75 recensioni dei clienti - 19% 999 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.239 , 52 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier FD 70 Serie 3 Frigorifero French Door...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier FD 70 Serie 3 Frigorifero French Door... 4,4 4,4 su 5 stelle 38 4,4 su 5 stelle. 38 recensioni dei clienti 709 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Cube 90 Serie 5 Frigorifero Multidoor... 4,4 4,4 su 5 stelle 75 4,4 su 5 stelle. 75 recensioni dei clienti 999 , 99 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier FD 70 Serie 5 Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier FD 70 Serie 5 Frigorifero Combinato... 4,1 4,1 su 5 stelle 119 4,1 su 5 stelle. 119 recensioni dei clienti 1.394 , 20 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier 2D 60 Serie 3 PRO Frigorifero...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier 2D 60 Serie 3 PRO Frigorifero... 4,2 4,2 su 5 stelle 13 4,2 su 5 stelle. 13 recensioni dei clienti 616 , 91 € Ricevilo entro il giorno venerdì 2 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier 2D 60 Serie 5 Pro Frigorifero...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier 2D 60 Serie 5 Pro Frigorifero... 4,3 4,3 su 5 stelle 213 4,3 su 5 stelle. 213 recensioni dei clienti - 6% 849 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 899 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier 2D 60 Serie 3 Frigorifero Combinato...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier 2D 60 Serie 3 Frigorifero Combinato... 5,0 5,0 su 5 stelle 2 5,0 su 5 stelle. 2 recensioni dei clienti 593 , 46 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Haier FD 83 Serie 7 Frigorifero French Door...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier FD 83 Serie 7 Frigorifero French Door... 4,4 4,4 su 5 stelle 444 4,4 su 5 stelle. 444 recensioni dei clienti 999 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-idxmudq3cr > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Haier Cube 90 Serie 5 Frigorifero Multidoor... 4,4 4,4 su 5 stelle 75 4,4 su 5 stelle. 75 recensioni dei clienti - 19% 999 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.239 , 52 € Aggiungi al carrello Visualizzazione rapida Haier FD 70 Serie 3 Frigorifero French Door... 4,4 4,4 su 5 stelle 38 4,4 su 5 stelle. 38 recensioni dei clienti 709 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Haier Cube 90 Serie 5 Frigorifero Multidoor... 4,4 4,4 su 5 stelle 75 4,4 su 5 stelle. 75 recensioni dei clienti 999 , 99 € Aggiungi al carrello Visualizzazione rapida Haier FD 70 Serie 5 Frigorifero Combinato... 4,1 4,1 su 5 stelle 119 4,1 su 5 stelle. 119 recensioni dei clienti 1.394 , 20 € Vedi le opzioni Visualizzazione rapida Haier 2D 60 Serie 3 PRO Frigorifero... 4,2 4,2 su 5 stelle 13 4,2 su 5 stelle. 13 recensioni dei clienti 616 , 91 € Ricevilo entro il giorno venerdì 2 ottobre Aggiungi al carrello Visualizzazione rapida Haier 2D 60 Serie 5 Pro Frigorifero... 4,3 4,3 su 5 stelle 213 4,3 su 5 stelle. 213 recensioni dei clienti - 6% 849 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 899 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello Visualizzazione rapida Haier 2D 60 Serie 3 Frigorifero Combinato... 5,0 5,0 su 5 stelle 2 5,0 su 5 stelle. 2 recensioni dei clienti 593 , 46 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida Haier FD 83 Serie 7 Frigorifero French Door... 4,4 4,4 su 5 stelle 444 4,4 su 5 stelle. 444 recensioni dei clienti 999 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Text reads \"EBS 3D\" and \"Raffreddamento flessibile, pensato per ogni giorno\". Side-by-side refrigerator with open doors displaying interior shelving, storage compartments, and fresh food items in a modern kitchen setting with minimalist décor.",
+            "href": "https://www.amazon.it/HAIER-Cube-HCR5919ENMM-Frigorifero-Congelatore/dp/B0746CPW7T?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Cube 90 Serie 5 Frigorifero Multidoor 4 Porte 528 Litri, Classe E | Motore Inverter, Trattamento Antibatterico, Total No Frost, Air Surround, My Zone, 38 dB, Platinum Inox, HCR5919ENMP",
+            "href": "https://www.amazon.it/Haier-HCR5919ENMP-Frigorifero-Humidity-Compressore/dp/B0C9DTV9X7?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier FD 70 Serie 3 Frigorifero French Door 402 Litri, Total No Frost | Classe E, Air Surround, My Zone, Libera Installazione, Dark Inox, AxLxP 177,5x70x68,8 cm, HFR3718ENMD",
+            "href": "https://www.amazon.it/Haier-Frigorifero-cassetti-Installazione-HFR3718ENMD/dp/B0F842VTB3?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier SBS 90 Serie 5 Frigorifero Side by Side 511 Litri, Total No Frost | Classe D, Motore Inverter, Multi Air Flow, Dispenser Acqua e Ghiaccio, Inox, AxLxP 177.5x90.8x65.9 cm, HSR5918DIMP",
+            "href": "https://www.amazon.it/Haier-SBS-SERIE-HSR5918DIMP-distributore/dp/B08D3S2SSQ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier 3D 60 Serie 5 Frigorifero Combinato 3 Porte 414 Litri, Classe D, Inox | Air Surround, Cassetti Direct Access, Wi-Fi, App hOn, 35 dB, No Frost, My Zone, Temperatura Regolabile, HTW5620DNMG",
+            "href": "https://www.amazon.it/Haier-HTW5620DNMG/dp/B0C9D19VNL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier 2D 60 Serie 5 Pro Frigorifero Combinato 409 Litri, No Frost, Classe A | Air Surround, My Zone, Inox Scuro, Smart AI, Super Raffreddamento, Wi-Fi, App hOn, AxPxL 205x66,7x59,5 cm, HDPW5620ANPD",
+            "href": "https://www.amazon.it/Haier-HDPW5620ANPD-Frigorifero-Congelatore-HumidityZone/dp/B0CC352LKB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier H3R-330WNA Serie 7 Frigorifero Monoporta con Cassetti, No Frost, 330 Litri, Display Esterno Touch, 59,5x67,5x191 cm, Bianco, Classe A [Classe di efficienza energetica A]",
+            "href": "https://www.amazon.it/Haier-Frigorifero-Monoporta-Cassetti-Installazione/dp/B0968PVDPF?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier Cube 90 Serie 5 Frigorifero Multidoor 4 Porte 643 Litri, Classe E | Motore Inverter, Trattamento Antibatterico, Total No Frost, Air Surround, Display Touch, Inox, HCR5919ENMM",
+            "href": "https://www.amazon.it/HAIER-Cube-HCR5919ENMM-Frigorifero-Congelatore/dp/B0746CPW7T?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier FD 70 Serie 5 Frigorifero Combinato a 4 Porte, 446 Litri, No Frost, Cassetti Easy Access, Funzione MyZone, Luci LED, 70 x 67,5 x 190 cm, Classe E, Libera Installazione, Argento - HFR5719ENMG",
+            "href": "https://www.amazon.it/Frigorifero-Combinato-Cassetti-Funzione-Installazione/dp/B0746CX17H?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Frigorifero-Combinato-Cassetti-Funzione-Installazione/dp/B0746CX17H?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier 2D 60 Serie 3 PRO Frigorifero Combinato 406L (289L Frigo + 117L Freezer), Total No Frost, Wi-Fi hOn App, Air Surround, My Zone Pro, Classe D, Dark Inox, 205x59,5x66,7 cm (AxLxP), HDPW3620DNPD",
+            "href": "https://www.amazon.it/Haier-HDPW3620DNPD-Frigorifero-combinato-energetica/dp/B0DJR47729?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier 2D 60 Serie 3 Frigorifero Combinato No Frost con Display e Wi‑Fi 406L, Classe D, MyZone Pro, Air Surround, Inox, 205 x 59,5 x 66,7 cm (AxLxP) HDPW3620DNPK",
+            "href": "https://www.amazon.it/Haier-HDPW3618DNPK-Frigorifero-combinato-energetica/dp/B0DJR4H3SL?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Haier FD 83 Serie 7 Frigorifero French Door 539 Litri, Fully No Frost | Motore Inverter, Trattamento Antibatterico, My Zone Plus, 37 dB, AxLxP 190x83x66,9 cm, HB18FGSAAA",
+            "href": "https://www.amazon.it/Haier-Frigorifero-Multidoor-Antibatterico-HB18FGSAAA/dp/B07B2Y935C?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

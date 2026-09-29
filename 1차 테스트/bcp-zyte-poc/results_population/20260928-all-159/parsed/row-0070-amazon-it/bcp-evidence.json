@@ -1,0 +1,1204 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0070-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/EDACF759-2774-4DBD-A144-63644FF44232",
+    "finalUrl": "https://www.amazon.it/stores/page/EDACF759-2774-4DBD-A144-63644FF44232",
+    "capturedAt": "2026-09-28T08:02:50.355356+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Hisense 2026: Doppia Porta"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0070-amazon-it/brand-category/raw.html",
+      "sha256": "c7c514a204079934f9f269f14060ed41e6147d76e67b55e153f7ea8dde2d6181"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0070-amazon-it/brand-category/capture-state.json",
+      "sha256": "f3b98c387bb35be418a2fa0eef685d3122ad51d163cef266fb00aafef47f222c"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0070-amazon-it/brand-category/response.json",
+      "sha256": "c9c83da00eb465adcc2b257f92d8ccbb0fb560bb3d4ecba4e547960adcc3a711"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Hisense MTM55205SE Frigorifero Doppia Porta a Libera Installazione Modello 2022, 206 L, Silver, 143.4 x‎ 54.2 x 55 cm",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 35,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16234d44-1b21-4d1f-83ba-98ec4f0eef33._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Close-up of an adjustable refrigerator thermostat control dial, with inset image showing interior refrigerator shelves.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/33e84182-e106-412b-9889-25a47650a706._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern kitchen design featuring reversible door functionality, illustrated with circular diagrams showing door opening directions in a contemporary kitchen setting.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/817ciTr9-jL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/81E4jF+1eJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/71lQgRNI5KL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16234d44-1b21-4d1f-83ba-98ec4f0eef33._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Close-up of an adjustable refrigerator thermostat control dial, with inset image showing interior refrigerator shelves.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/33e84182-e106-412b-9889-25a47650a706._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern kitchen design featuring reversible door functionality, illustrated with circular diagrams showing door opening directions in a contemporary kitchen setting.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/817ciTr9-jL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/81E4jF+1eJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/71lQgRNI5KL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Hisense 2026: Doppia Porta"
+        ],
+        "metaDescription": [
+          "Frigoriferi doppia porta Hisense"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Hisense2026/page/EDACF759-2774-4DBD-A144-63644FF44232"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-9qkp3obarq > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-9qkp3obarq > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16234d44-1b21-4d1f-83ba-98ec4f0eef33._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Close-up of an adjustable refrigerator thermostat control dial, with inset image showing interior refrigerator shelves.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/33e84182-e106-412b-9889-25a47650a706._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Modern kitchen design featuring reversible door functionality, illustrated with circular diagrams showing door opening directions in a contemporary kitchen setting.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ace4185f-4e25-4095-aecf-bb042303092f._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "White Hisense logo on a black background.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/711cxypNUFL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 382,
+            "renderedHeight": 360,
+            "renderedArea": 137520,
+            "naturalWidth": 382,
+            "naturalHeight": 360,
+            "naturalArea": 137520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://m.media-amazon.com/images/I/817ciTr9-jL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/81E4jF+1eJL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/71lQgRNI5KL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://m.media-amazon.com/images/I/81aVRmZxBpL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 369,
+            "renderedHeight": 360,
+            "renderedArea": 132840,
+            "naturalWidth": 369,
+            "naturalHeight": 360,
+            "naturalArea": 132840,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__backgroundVideoTile__rn3uO.EditorialTileVideo__autoPlay__NmsDx.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_3 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - This advertisement showcases a sleek refrigerator by Cibo Atmosfera, highlighting its modern design that complements contemporary kitchens. The product features smart technology for food preservation, organized storage compartments, and climate control, promising an elevated culinary experience while preserving freshness and reducing food waste. - This advertisement showcases a sleek refrigerator by Cibo Atmosfera, highlighting its modern design that complements contemporary kitchens. The product features smart technology for food preservation, organized storage compartments, and climate control, promising an elevated culinary experience while preserving freshness and reducing food waste."
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Hisense 2026",
+            "href": "https://www.amazon.it/stores/page/F773A328-0850-4C20-9A0A-3D85B51C6927?ingress=0&visitId=1e636ab3-9a5e-4c24-be2f-be693b0c5057",
+            "signals": [
+              "페이지 주제어와 일치: 2026, hisense"
+            ]
+          },
+          {
+            "text": "Doppia Porta",
+            "href": "https://www.amazon.it/stores/page/EDACF759-2774-4DBD-A144-63644FF44232#",
+            "signals": [
+              "페이지 주제어와 일치: doppia, porta"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RT600N4WC2 Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT600N4WC2 Frigorifero Doppia... 4,1 4,1 su 5 stelle 96 4,1 su 5 stelle. 96 recensioni dei clienti - 17% 576 , 75 € Prezzo consigliato: Barrato - Prezzo consigliato: 699 , 00 € Ricevilo entro 12 ottobre - 30 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RT422N4AWE Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT422N4AWE Frigorifero Doppia... 3,9 3,9 su 5 stelle 74 3,9 su 5 stelle. 74 recensioni dei clienti - 13% 419 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 479 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RT327N4ACE Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT327N4ACE Frigorifero Doppia... 4,1 4,1 su 5 stelle 102 4,1 su 5 stelle. 102 recensioni dei clienti 368 , 00 € Ricevilo entro 29 settembre - 30 settembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RT327N4AWE Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT327N4AWE Frigorifero Doppia... 4,1 4,1 su 5 stelle 102 4,1 su 5 stelle. 102 recensioni dei clienti - 19% 383 , 35 € Prezzo consigliato: Barrato - Prezzo consigliato: 474 , 99 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense MTM55205EB Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense MTM55205EB Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 27% 219 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 200 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense MTM55205SE Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense MTM55205SE Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 18% 244 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense MTM55205E Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense MTM55205E Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 20% 239 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RT267D4ABE Frigorifero Doppia...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT267D4ABE Frigorifero Doppia... 3,9 3,9 su 5 stelle 38 3,9 su 5 stelle. 38 recensioni dei clienti - 16% 250 , 85 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro 7 ottobre - 9 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hisense RI1P205NEWE Frigorifero...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RI1P205NEWE Frigorifero... 4,3 4,3 su 5 stelle 12 4,3 su 5 stelle. 12 recensioni dei clienti -6% 289 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 306 , 65 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-8vawowoihz > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Hisense RT600N4WC2 Frigorifero Doppia... 4,1 4,1 su 5 stelle 96 4,1 su 5 stelle. 96 recensioni dei clienti - 17% 576 , 75 € Prezzo consigliato: Barrato - Prezzo consigliato: 699 , 00 € Ricevilo entro 12 ottobre - 30 ottobre Aggiungi al carrello Visualizzazione rapida Hisense RT422N4AWE Frigorifero Doppia... 3,9 3,9 su 5 stelle 74 3,9 su 5 stelle. 74 recensioni dei clienti - 13% 419 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 479 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida Hisense RT327N4ACE Frigorifero Doppia... 4,1 4,1 su 5 stelle 102 4,1 su 5 stelle. 102 recensioni dei clienti 368 , 00 € Ricevilo entro 29 settembre - 30 settembre Aggiungi al carrello Visualizzazione rapida Hisense RT327N4AWE Frigorifero Doppia... 4,1 4,1 su 5 stelle 102 4,1 su 5 stelle. 102 recensioni dei clienti - 19% 383 , 35 € Prezzo consigliato: Barrato - Prezzo consigliato: 474 , 99 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida Hisense MTM55205EB Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 27% 219 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 200 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Hisense MTM55205SE Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 18% 244 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Hisense MTM55205E Frigorifero Doppia... 3,7 3,7 su 5 stelle 772 3,7 su 5 stelle. 772 recensioni dei clienti - 20% 239 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello Visualizzazione rapida Hisense RT267D4ABE Frigorifero Doppia... 3,9 3,9 su 5 stelle 38 3,9 su 5 stelle. 38 recensioni dei clienti - 16% 250 , 85 € Prezzo consigliato: Barrato - Prezzo consigliato: 299 , 00 € Ricevilo entro 7 ottobre - 9 ottobre Aggiungi al carrello Visualizzazione rapida Hisense RI1P205NEWE Frigorifero... 4,3 4,3 su 5 stelle 12 4,3 su 5 stelle. 12 recensioni dei clienti -6% 289 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 306 , 65 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Hisense MTM55205SE Frigorifero Doppia Porta a Libera Installazione Modello 2022, 206 L, Silver, 143.4 x‎ 54.2 x 55 cm",
+            "href": "https://www.amazon.it/Hisense-MTM55205SE-Frigorifero-Installazione-Modello/dp/B0C836V2NM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "3.7 3,7 su 5 stelle 772",
+            "href": "https://www.amazon.it/Hisense-MTM55205SE-Frigorifero-Installazione-Modello/dp/B0C836V2NM?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Hisense-MTM55205SE-Frigorifero-Installazione-Modello/dp/B0C836V2NM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RT600N4WC2 Frigorifero Doppia Porta, 467 Litri, Total No Frost, Colore Inox, 70.4 × 68.6 × 185 cm",
+            "href": "https://www.amazon.it/Hisense-RT600N4WC2-Frigorifero-Doppia-Porta/dp/B09CV2B9WY?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RT422N4AWE Frigorifero Doppia Porta a Libera Installazione Total No Frost, Sistema di Ventilazione Multi Air Flow, Larghezza 59.5 cm, Colore Bianco, Capacità Netta 325 L",
+            "href": "https://www.amazon.it/Hisense-RT422N4AWE-Frigorifero-Reversibili-Silenzioso/dp/B0CGD84RV9?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RT327N4ACE Frigorifero Doppia Porta a libera installazione Total No Frost, sistema di ventilazione Multi Air Flow, Larghezza 55 cm, Colore Inox, Capacità netta 249 L",
+            "href": "https://www.amazon.it/Hisense-RT327N4ACE-Frigorifero-installazione-ventilazione/dp/B0D3VFDWCH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RT327N4AWE Frigorifero Doppia Porta a libera installazione Total No Frost, sistema di ventilazione Multi Air Flow, Larghezza 55 cm, Colore Bianco, Capacità netta 249 L",
+            "href": "https://www.amazon.it/Hisense-RT327N4AWE-Frigorifero-installazione-ventilazione/dp/B0D3VF7BMV?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense MTM55205EB Frigorifero Doppia Porta, Libera installazione, Capacità netta 206 L, Nero, Illuminazione Led, Porte reversibili, Ripiani in vetro modulari, 143.4 x‎ 54.2 x 55 cm",
+            "href": "https://www.amazon.it/Hisense-MTM55205EB-Frigorifero-installazione-Illuminazione/dp/B07ZZ3VZP2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense MTM55205E Frigorifero Doppia Porta a Libera Installazione Modello 2023, 206 L, Bianco",
+            "href": "https://www.amazon.it/Hisense-MTM55205E-Frigorifero-Installazione-Modello/dp/B0CBVMBLZH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RT267D4ABE Frigorifero Doppia Porta, Capacità netta 206 L, Nero, Illuminazione Led, Porte reversibili, Ripiani in vetro modulari",
+            "href": "https://www.amazon.it/Hisense-RT267D4ABE-Frigorifero-Illuminazione-reversibili/dp/B0DBRC4487?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Hisense RI1P205NEWE Frigorifero Combinato Incasso 205 Litri, Statico, 1 cassetto, Porte reversibili, LED, Classe E, Bianco",
+            "href": "https://www.amazon.it/Hisense-RI1P205NEWE-altezza-cassetto-reversibili/dp/B0DHH4D9LX?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

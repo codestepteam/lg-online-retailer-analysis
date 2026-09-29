@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "retailer": "mediaworld",
+  "page_type": "brand-category",
+  "requested_url": "https://www.mediaworld.it/it/brand/lg/frigoriferi",
+  "entry_url": "https://www.mediaworld.it/it/brand/lg/frigoriferi",
+  "final_url": "https://www.mediaworld.it/it/brand/lg/frigoriferi?page=4",
+  "status_code": 200,
+  "captured_at": "2026-09-26T03:00:50.870812+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.666,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.5,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 18.678,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.012,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.011,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "ec230230371b335b5a5c75a474bd8669bd291f6bbd12f523cf122a474498cac7",
+  "bytes": {
+    "raw_html": 3033827,
+    "screenshot": 1193614
+  }
+}

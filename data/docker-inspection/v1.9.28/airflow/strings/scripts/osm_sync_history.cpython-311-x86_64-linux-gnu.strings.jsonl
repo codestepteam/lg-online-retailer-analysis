@@ -1,0 +1,479 @@
+{"offset": "0x52000", "text": "%.200s() needs an argument"}
+{"offset": "0x5201b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x52039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x5204f", "text": "__loader__"}
+{"offset": "0x5205a", "text": "loader"}
+{"offset": "0x52061", "text": "__file__"}
+{"offset": "0x5206a", "text": "origin"}
+{"offset": "0x52071", "text": "__package__"}
+{"offset": "0x5207d", "text": "parent"}
+{"offset": "0x52084", "text": "__path__"}
+{"offset": "0x5208d", "text": "submodule_search_locations"}
+{"offset": "0x520a8", "text": "keywords must be strings"}
+{"offset": "0x520c1", "text": "_cython_coroutine_type"}
+{"offset": "0x520d8", "text": "_cython_generator_type"}
+{"offset": "0x520ef", "text": "_module"}
+{"offset": "0x520f7", "text": "__builtins__"}
+{"offset": "0x52104", "text": "_cython_3_0_12"}
+{"offset": "0x52113", "text": "cannot import name %S"}
+{"offset": "0x52129", "text": "%s (%s:%d)"}
+{"offset": "0x52134", "text": "scripts/osm_sync_history.py"}
+{"offset": "0x52154", "text": "exactly"}
+{"offset": "0x5215c", "text": "lambda3"}
+{"offset": "0x52164", "text": "lambda2"}
+{"offset": "0x5216c", "text": "_year_for"}
+{"offset": "0x52176", "text": "_delta"}
+{"offset": "0x5217d", "text": "generator already executing"}
+{"offset": "0x5219c", "text": "genexpr"}
+{"offset": "0x521a4", "text": "print_summary"}
+{"offset": "0x521b2", "text": "name '%U' is not defined"}
+{"offset": "0x521cb", "text": "items"}
+{"offset": "0x521d1", "text": "scripts.osm_sync_history.main"}
+{"offset": "0x521ef", "text": "scripts.osm_sync_history.kst"}
+{"offset": "0x5220c", "text": "throw"}
+{"offset": "0x52212", "text": "parse_log_dir"}
+{"offset": "0x52220", "text": "builtins"}
+{"offset": "0x52229", "text": "cython_runtime"}
+{"offset": "0x52238", "text": "does not match"}
+{"offset": "0x52247", "text": "collections.abc"}
+{"offset": "0x52257", "text": "backports_abc"}
+{"offset": "0x52265", "text": "init scripts.osm_sync_history"}
+{"offset": "0x52283", "text": "summarize"}
+{"offset": "0x5228d", "text": "merge"}
+{"offset": "0x52293", "text": "_strip_prefix"}
+{"offset": "0x522a1", "text": "parse_log_text"}
+{"offset": "0x522b0", "text": "load_db"}
+{"offset": "0x522b8", "text": "write_xlsx"}
+{"offset": "0x522c3", "text": "_cython_3_0_12.generator"}
+{"offset": "0x522dc", "text": "__name__"}
+{"offset": "0x522e5", "text": "name of the generator"}
+{"offset": "0x522fb", "text": "__qualname__"}
+{"offset": "0x52308", "text": "gi_frame"}
+{"offset": "0x52311", "text": "Frame of the generator"}
+{"offset": "0x52328", "text": "gi_running"}
+{"offset": "0x52333", "text": "gi_yieldfrom"}
+{"offset": "0x52340", "text": "gi_code"}
+{"offset": "0x52348", "text": "__module__"}
+{"offset": "0x52353", "text": "send"}
+{"offset": "0x52358", "text": "close"}
+{"offset": "0x5235e", "text": "__reduce__"}
+{"offset": "0x52369", "text": "func_doc"}
+{"offset": "0x52372", "text": "__doc__"}
+{"offset": "0x5237a", "text": "func_name"}
+{"offset": "0x52384", "text": "func_dict"}
+{"offset": "0x5238e", "text": "__dict__"}
+{"offset": "0x52397", "text": "func_globals"}
+{"offset": "0x523a4", "text": "__globals__"}
+{"offset": "0x523b0", "text": "func_closure"}
+{"offset": "0x523bd", "text": "__closure__"}
+{"offset": "0x523c9", "text": "func_code"}
+{"offset": "0x523d3", "text": "__code__"}
+{"offset": "0x523dc", "text": "func_defaults"}
+{"offset": "0x523ea", "text": "__defaults__"}
+{"offset": "0x523f7", "text": "__kwdefaults__"}
+{"offset": "0x52406", "text": "__annotations__"}
+{"offset": "0x52416", "text": "_is_coroutine"}
+{"offset": "0x52428", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x52450", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x52480", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x524a8", "text": "strings are too large to concat"}
+{"offset": "0x524c8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x524f0", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x525a0", "text": " while calling a Python object"}
+{"offset": "0x525c0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x525f0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x52620", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x52650", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x526b0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x526e0", "text": "generator raised StopIteration"}
+{"offset": "0x52700", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x52730", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x52760", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x527c8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x527f8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x52858", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x52888", "text": "__name__ must be set to a string object"}
+{"offset": "0x528b0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x528e0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x52a28", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x52a60", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x52a98", "text": "%.200s() keywords must be strings"}
+{"offset": "0x52ac0", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x52af0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x52b28", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x52b58", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x52b98", "text": "join() result is too long for a Python string"}
+{"offset": "0x52bc8", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x52bf8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x52c20", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/osm_sync_history.c"}
+{"offset": "0x52c60", "text": "scripts.osm_sync_history.merge.key"}
+{"offset": "0x52c88", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x52cc8", "text": "scripts.osm_sync_history.summarize.lambda3"}
+{"offset": "0x52cf8", "text": "scripts.osm_sync_history.merge.lambda2"}
+{"offset": "0x52d20", "text": "scripts.osm_sync_history._year_for"}
+{"offset": "0x52d48", "text": "scripts.osm_sync_history._delta"}
+{"offset": "0x52d68", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x52da0", "text": "dictionary changed size during iteration"}
+{"offset": "0x52dd0", "text": "'NoneType' object is not iterable"}
+{"offset": "0x52df8", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x52e20", "text": "generator ignored GeneratorExit"}
+{"offset": "0x52e40", "text": "scripts.osm_sync_history.print_summary"}
+{"offset": "0x52e68", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x52e98", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x52ec8", "text": "instance exception may not have a separate value"}
+{"offset": "0x52f00", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x52f48", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x52f88", "text": "scripts.osm_sync_history.parse_log_dir.genexpr"}
+{"offset": "0x52fb8", "text": "scripts.osm_sync_history.parse_log_dir"}
+{"offset": "0x52fe0", "text": "Module 'osm_sync_history' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x53040", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x53090", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x530d0", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x530f8", "text": "'%.200s' object is not a mapping"}
+{"offset": "0x53120", "text": "scripts.osm_sync_history.summarize"}
+{"offset": "0x53148", "text": "scripts.osm_sync_history.merge"}
+{"offset": "0x53168", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x53188", "text": "scripts.osm_sync_history._strip_prefix"}
+{"offset": "0x531b0", "text": "scripts.osm_sync_history.parse_log_text.genexpr"}
+{"offset": "0x531e0", "text": "scripts.osm_sync_history.parse_log_text"}
+{"offset": "0x53208", "text": "scripts.osm_sync_history.load_db"}
+{"offset": "0x53230", "text": "scripts.osm_sync_history.write_xlsx.genexpr"}
+{"offset": "0x53260", "text": "scripts.osm_sync_history.write_xlsx"}
+{"offset": "0x53288", "text": "qualified name of the generator"}
+{"offset": "0x532a8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x532d8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x53338", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x533a8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x533e0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x53410", "text": "scripts.osm_sync_history.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x53448", "text": "scripts.osm_sync_history.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x53480", "text": "scripts.osm_sync_history.__pyx_scope_struct__genexpr"}
+{"offset": "0x534e0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x535c0", "text": "xlsx 경로 (기본 data/osm_sync_history/osm_sync_history_{KST now}.xlsx)"}
+{"offset": "0x53620", "text": "tuple[list[dict], list[dict], list[dict]]"}
+{"offset": "0x53660", "text": "SHOW TABLES LIKE 'osm_sync_history'"}
+{"offset": "0x536a0", "text": "SELECT * FROM osm_sync_log ORDER BY osm_date"}
+{"offset": "0x536e0", "text": "Airflow 로그 루트 (기본: /opt/airflow/logs → logs/airflow 순 탐색)"}
+{"offset": "0x53740", "text": "^\\[(\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})(?:\\.\\d+)?([+-]\\d{2}:?\\d{2})?\\] \\{[^}]*\\} \\w+ - (.*)$"}
+{"offset": "0x537a0", "text": "%(asctime)s %(levelname)s %(message)s"}
+{"offset": "0x537e0", "text": "\\[window\\] (\\d{4}-\\d{2}-\\d{2}) … (\\d{4}-\\d{2}-\\d{2}) \\((\\d+)일\\)(.*)$"}
+{"offset": "0x53840", "text": "\\[sync\\] (\\d{4}-\\d{2}-\\d{2}) ← (\\S+) \\(srch (\\d+) / menu (\\d+) / cnx '([^']*)'\\)"}
+{"offset": "0x538a0", "text": "tuple[list[Obs], dict[date, dict]]"}
+{"offset": "0x538e0", "text": "parse_log_text.<locals>.genexpr"}
+{"offset": "0x53900", "text": "^(\\d{2})-(\\d{2}):([A-Za-z-]+)(?:\\(dry\\))?(?:→vis (\\d+|skip))?$"}
+{"offset": "0x53960", "text": "SHOW TABLES LIKE 'osm_sync_log'"}
+{"offset": "0x53980", "text": "parse_log_dir.<locals>.genexpr"}
+{"offset": "0x539a0", "text": "SELECT * FROM osm_sync_history"}
+{"offset": "0x539c0", "text": "scripts/osm_sync_history.py"}
+{"offset": "0x539e0", "text": "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}),\\d+ \\w+ (.*)$"}
+{"offset": "0x53a20", "text": "write_xlsx.<locals>.genexpr"}
+{"offset": "0x53a40", "text": "scripts.osm_sync_history"}
+{"offset": "0x53a60", "text": " ORDER BY run_at, osm_date"}
+{"offset": "0x53a80", "text": "tuple[datetime | None, str]"}
+{"offset": "0x53aa0", "text": "summarize.<locals>.<lambda>"}
+{"offset": "0x53ac0", "text": "| osm_date | 최초 조회 | 최초 적재 | 지연 | 조회 | same | OSM 정정 | cnx | 실패 | 변화 요약 |"}
+{"offset": "0x53b40", "text": "merge.<locals>.<lambda>"}
+{"offset": "0x53b60", "text": "osm_sync_history_"}
+{"offset": "0x53b80", "text": "cline_in_traceback"}
+{"offset": "0x53ba0", "text": "asyncio.coroutines"}
+{"offset": "0x53bc0", "text": "column_dimensions"}
+{"offset": "0x53be0", "text": "osm_sync_history"}
+{"offset": "0x53c00", "text": "/opt/airflow/logs"}
+{"offset": "0x53c20", "text": "merge.<locals>.key"}
+{"offset": "0x53c40", "text": "DEFAULT_LOG_DIRS"}
+{"offset": "0x53c60", "text": "CHANGE_OUTCOMES"}
+{"offset": "0x53c70", "text": "prev_srch_rows"}
+{"offset": "0x53c80", "text": "prev_menu_rows"}
+{"offset": "0x53c90", "text": "parse_log_text"}
+{"offset": "0x53ca0", "text": "osm_daily_sync"}
+{"offset": "0x53cc0", "text": "[log] Airflow 로그 루트 없음 — DB 소스만 사용"}
+{"offset": "0x53d00", "text": "get_connection"}
+{"offset": "0x53d10", "text": "dict[date, dict]"}
+{"offset": "0x53d28", "text": "airflow_logs"}
+{"offset": "0x53d38", "text": "ArgumentParser"}
+{"offset": "0x53d50", "text": "tuple[int, int]"}
+{"offset": "0x53d60", "text": "print_summary"}
+{"offset": "0x53d70", "text": "parse_log_dir"}
+{"offset": "0x53d80", "text": "__init_subclass__"}
+{"offset": "0x53da0", "text": "datetime | None"}
+{"offset": "0x53db0", "text": "column_letter"}
+{"offset": "0x53dc0", "text": "__class_getitem__"}
+{"offset": "0x53dd8", "text": "sync_count"}
+{"offset": "0x53de8", "text": "summary_rows"}
+{"offset": "0x53df8", "text": "_strip_prefix"}
+{"offset": "0x53e08", "text": "osm_date <= %s"}
+{"offset": "0x53e18", "text": "logs/airflow"}
+{"offset": "0x53e28", "text": "_is_coroutine"}
+{"offset": "0x53e38", "text": "_initializing"}
+{"offset": "0x53e48", "text": "first_loaded"}
+{"offset": "0x53e58", "text": "--airflow-logs"}
+{"offset": "0x53e68", "text": "add_argument"}
+{"offset": "0x53e80", "text": "%Y-%m-%dT%H:%M:%S"}
+{"offset": "0x53e98", "text": "CLINIC_ENTRY"}
+{"offset": "0x53eb0", "text": "현재 srch_rows"}
+{"offset": "0x53ec8", "text": "osm-changed"}
+{"offset": "0x53ed8", "text": "microsecond"}
+{"offset": "0x53ef0", "text": "현재 menu_rows"}
+{"offset": "0x53f08", "text": "matrix_rows"}
+{"offset": "0x53f18", "text": "defaultdict"}
+{"offset": "0x53f28", "text": "dataclasses"}
+{"offset": "0x53f38", "text": "collections"}
+{"offset": "0x53f48", "text": "cnx-changed"}
+{"offset": "0x53f58", "text": "basicConfig"}
+{"offset": "0x53f70", "text": "__annotations__"}
+{"offset": "0x53f80", "text": "%Y-%m-%d %H:%M:%S"}
+{"offset": "0x53f98", "text": "ExcelWriter"}
+{"offset": "0x53fa8", "text": "write_xlsx"}
+{"offset": "0x53fb8", "text": "worksheets"}
+{"offset": "0x53fd0", "text": "현재 vis_rows"}
+{"offset": "0x53fe0", "text": "원장 sync_count"}
+{"offset": "0x53ff8", "text": "store_true"}
+{"offset": "0x54008", "text": "splitlines"}
+{"offset": "0x54018", "text": "sheet_name"}
+{"offset": "0x54028", "text": "run_at(KST)"}
+{"offset": "0x54038", "text": "parse_args"}
+{"offset": "0x54048", "text": "osm_date >= %s"}
+{"offset": "0x54060", "text": "[db] history 관측 "}
+{"offset": "0x54078", "text": "checked_at"}
+{"offset": "0x54088", "text": "astimezone"}
+{"offset": "0x54098", "text": "%Y%m%d_%H%M"}
+{"offset": "0x540a8", "text": "timedelta"}
+{"offset": "0x540b8", "text": "synced_at"}
+{"offset": "0x540c8", "text": "summary"}
+{"offset": "0x540d0", "text": "\\[summary\\] (.*)$"}
+{"offset": "0x540e8", "text": "summarize"}
+{"offset": "0x540f8", "text": "srch_rows"}
+{"offset": "0x54108", "text": "read_text"}
+{"offset": "0x54118", "text": "prev_srch"}
+{"offset": "0x54128", "text": "prev_menu"}
+{"offset": "0x54138", "text": "partial "}
+{"offset": "0x54148", "text": "n_changes"}
+{"offset": "0x54158", "text": "__metaclass__"}
+{"offset": "0x54168", "text": "menu_rows"}
+{"offset": "0x54178", "text": "list[dict]"}
+{"offset": "0x54188", "text": "list[date]"}
+{"offset": "0x54198", "text": "last_srch"}
+{"offset": "0x541a8", "text": "last_menu"}
+{"offset": "0x541b8", "text": "isoformat"}
+{"offset": "0x541c8", "text": "isenabled"}
+{"offset": "0x541d8", "text": "hist_rows"}
+{"offset": "0x541e8", "text": "getLogger"}
+{"offset": "0x541f8", "text": "date_from"}
+{"offset": "0x54208", "text": "date | None"}
+{"offset": "0x54218", "text": "dataclass"}
+{"offset": "0x54228", "text": "_PY_PREFIX"}
+{"offset": "0x54238", "text": "DataFrame"}
+{"offset": "0x54248", "text": "_AF_PREFIX"}
+{"offset": "0x54258", "text": "_year_for"}
+{"offset": "0x54268", "text": "vis_rows"}
+{"offset": "0x54278", "text": "to_excel"}
+{"offset": "0x54288", "text": "timezone"}
+{"offset": "0x54298", "text": "strptime"}
+{"offset": "0x542a8", "text": "strftime"}
+{"offset": "0x542b8", "text": "__set_name__"}
+{"offset": "0x542c8", "text": "__qualname__"}
+{"offset": "0x542d8", "text": "osm_sync"}
+{"offset": "0x542e8", "text": "osm_date"}
+{"offset": "0x542f8", "text": "openpyxl"}
+{"offset": "0x54308", "text": "log_root"}
+{"offset": "0x54318", "text": "list[Obs]"}
+{"offset": "0x54328", "text": "int | None"}
+{"offset": "0x54338", "text": "fetchone"}
+{"offset": "0x54348", "text": "fetchall"}
+{"offset": "0x54358", "text": "exist_ok"}
+{"offset": "0x54368", "text": "encoding"}
+{"offset": "0x54378", "text": "datetime"}
+{"offset": "0x54388", "text": "argparse"}
+{"offset": "0x54398", "text": "YYYYMMDD"}
+{"offset": "0x543a8", "text": "BASE_DIR"}
+{"offset": "0x543b8", "text": "warning"}
+{"offset": "0x543c0", "text": "summary 없음(런 중단?)"}
+{"offset": "0x543e0", "text": "resolve"}
+{"offset": "0x543e8", "text": "replace"}
+{"offset": "0x543f0", "text": "__prepare__"}
+{"offset": "0x54400", "text": "pathlib"}
+{"offset": "0x54408", "text": "partial"}
+{"offset": "0x54410", "text": "parents"}
+{"offset": "0x54418", "text": "outcome"}
+{"offset": "0x54420", "text": "no_db"}
+{"offset": "0x54428", "text": "minutes"}
+{"offset": "0x54430", "text": "metavar"}
+{"offset": "0x54438", "text": "%m-%d %H:%M"}
+{"offset": "0x54448", "text": "logging"}
+{"offset": "0x54450", "text": "log_obs"}
+{"offset": "0x54458", "text": "load_db"}
+{"offset": "0x54460", "text": "isdigit"}
+{"offset": "0x54468", "text": "genexpr"}
+{"offset": "0x54470", "text": "execute"}
+{"offset": "0x54478", "text": "environ"}
+{"offset": "0x54480", "text": "[dry-run]"}
+{"offset": "0x54490", "text": "disable"}
+{"offset": "0x54498", "text": "default"}
+{"offset": "0x544a0", "text": "date_to"}
+{"offset": "0x544a8", "text": "core.db"}
+{"offset": "0x544b0", "text": "compile"}
+{"offset": "0x544b8", "text": "columns"}
+{"offset": "0x544c0", "text": "changes"}
+{"offset": "0x544c8", "text": "by_date"}
+{"offset": "0x544d0", "text": "%Y%m%d"}
+{"offset": "0x544d8", "text": "_SUMMARY"}
+{"offset": "0x544e1", "text": "window"}
+{"offset": "0x544e8", "text": "tzinfo"}
+{"offset": "0x544ef", "text": "status"}
+{"offset": "0x544f6", "text": "Δsrch"}
+{"offset": "0x544fd", "text": " srch "}
+{"offset": "0x54504", "text": "source"}
+{"offset": "0x5450b", "text": "sorted"}
+{"offset": "0x54512", "text": "second"}
+{"offset": "0x54519", "text": "search"}
+{"offset": "0x54520", "text": "run_at"}
+{"offset": "0x54527", "text": "rstrip"}
+{"offset": "0x5452e", "text": "return"}
+{"offset": "0x54535", "text": "prev_s"}
+{"offset": "0x5453c", "text": "prev_m"}
+{"offset": "0x54543", "text": "parent"}
+{"offset": "0x5454a", "text": "params"}
+{"offset": "0x54551", "text": "pandas"}
+{"offset": "0x54558", "text": "원장 note"}
+{"offset": "0x54568", "text": "__module__"}
+{"offset": "0x54573", "text": "Δmenu"}
+{"offset": "0x5457a", "text": " menu "}
+{"offset": "0x54588", "text": ") menu "}
+{"offset": "0x54590", "text": "matrix"}
+{"offset": "0x54597", "text": "main"}
+{"offset": "0x5459c", "text": "ledger"}
+{"offset": "0x545a3", "text": "is_dir"}
+{"offset": "0x545aa", "text": "insert"}
+{"offset": "0x545b8", "text": "__import__"}
+{"offset": "0x545c3", "text": "format"}
+{"offset": "0x545ca", "text": "failed"}
+{"offset": "0x545d1", "text": "exit"}
+{"offset": "0x545d6", "text": "errors"}
+{"offset": "0x545dd", "text": "engine"}
+{"offset": "0x545e4", "text": "enable"}
+{"offset": "0x545eb", "text": "db_obs"}
+{"offset": "0x545f2", "text": "d_from"}
+{"offset": "0x545f9", "text": "cursor"}
+{"offset": "0x54600", "text": "counts"}
+{"offset": "0x54607", "text": "config"}
+{"offset": "0x5460e", "text": "append"}
+{"offset": "0x54615", "text": "action"}
+{"offset": "0x54620", "text": "_WINDOW"}
+{"offset": "0x54628", "text": "FAILED"}
+{"offset": "0x5462f", "text": "width"}
+{"offset": "0x54635", "text": "where"}
+{"offset": "0x5463b", "text": " vis "}
+{"offset": "0x54641", "text": "value"}
+{"offset": "0x54647", "text": "utf-8"}
+{"offset": "0x5464d", "text": "tuple"}
+{"offset": "0x54653", "text": "throw"}
+{"offset": "0x54659", "text": "super"}
+{"offset": "0x5465f", "text": "strip"}
+{"offset": "0x54665", "text": "split"}
+{"offset": "0x5466b", "text": "rglob"}
+{"offset": "0x54671", "text": "retry"}
+{"offset": "0x54677", "text": "range"}
+{"offset": "0x5467d", "text": "print"}
+{"offset": "0x54683", "text": "[out] "}
+{"offset": "0x54690", "text": "--no-db"}
+{"offset": "0x54698", "text": "month"}
+{"offset": "0x5469e", "text": "mkdir"}
+{"offset": "0x546a4", "text": "merge"}
+{"offset": "0x546aa", "text": "match"}
+{"offset": "0x546b0", "text": "[log] "}
+{"offset": "0x546b7", "text": "*.log"}
+{"offset": "0x546bd", "text": "level"}
+{"offset": "0x546c3", "text": "items"}
+{"offset": "0x546c9", "text": "index"}
+{"offset": "0x546cf", "text": "hours"}
+{"offset": "0x546d5", "text": "group"}
+{"offset": "0x546db", "text": "force"}
+{"offset": "0x546e1", "text": "flags"}
+{"offset": "0x546e7", "text": "files"}
+{"offset": "0x546ed", "text": "field"}
+{"offset": "0x546f8", "text": "__enter__"}
+{"offset": "0x54702", "text": "empty"}
+{"offset": "0x54708", "text": "_delta"}
+{"offset": "0x5470f", "text": "dates"}
+{"offset": "0x54715", "text": "cur_s"}
+{"offset": "0x5471b", "text": "cur_m"}
+{"offset": "0x54728", "text": "cnx 재생성"}
+{"offset": "0x54736", "text": "close"}
+{"offset": "0x54740", "text": "%Y-%m-%d"}
+{"offset": "0x54750", "text": " WHERE "}
+{"offset": "0x54760", "text": "미적재(OSM 데이터 없음)"}
+{"offset": "0x54780", "text": "마지막 확인(KST)"}
+{"offset": "0x547a0", "text": "마지막 적재(KST)"}
+{"offset": "0x547c0", "text": "최초 적재(KST)"}
+{"offset": "0x547e0", "text": "최초 조회(KST)"}
+{"offset": "0x547f3", "text": ".xlsx"}
+{"offset": "0x547f9", "text": "text"}
+{"offset": "0x54800", "text": "__test__"}
+{"offset": "0x54809", "text": "sync"}
+{"offset": "0x5480e", "text": "srch"}
+{"offset": "0x54818", "text": "__spec__"}
+{"offset": "0x54821", "text": "sort"}
+{"offset": "0x54826", "text": "sign"}
+{"offset": "0x5482b", "text": "send"}
+{"offset": "0x54830", "text": "seen"}
+{"offset": "0x54835", "text": "[seed]"}
+{"offset": "0x5483c", "text": "same"}
+{"offset": "0x54841", "text": "runs"}
+{"offset": "0x54846", "text": "root"}
+{"offset": "0x5484b", "text": "path"}
+{"offset": "0x54850", "text": "note"}
+{"offset": "0x54858", "text": "__name__"}
+{"offset": "0x54861", "text": "menu"}
+{"offset": "0x54868", "text": "__main__"}
+{"offset": "0x54871", "text": "line"}
+{"offset": "0x54876", "text": "item"}
+{"offset": "0x5487b", "text": "info"}
+{"offset": "0x54880", "text": "help"}
+{"offset": "0x54885", "text": "--from"}
+{"offset": "0x54890", "text": "__file__"}
+{"offset": "0x548a0", "text": "__exit__"}
+{"offset": "0x548b0", "text": "__dict__"}
+{"offset": "0x548b9", "text": "dest"}
+{"offset": "0x548be", "text": "desc"}
+{"offset": "0x548c3", "text": "days"}
+{"offset": "0x548c8", "text": "date"}
+{"offset": "0x548cd", "text": "data"}
+{"offset": "0x548d2", "text": "d_to"}
+{"offset": "0x548d7", "text": "core"}
+{"offset": "0x548dc", "text": "conn"}
+{"offset": "0x548e1", "text": "cell"}
+{"offset": "0x548e6", "text": "cand"}
+{"offset": "0x548eb", "text": "book"}
+{"offset": "0x548f0", "text": "body"}
+{"offset": "0x548f5", "text": "args"}
+{"offset": "0x548fa", "text": "_SYNC"}
+{"offset": "0x54900", "text": "Path"}
+{"offset": "0x54905", "text": "None"}
+{"offset": "0x5490a", "text": "_ITEM"}
+{"offset": "0x54910", "text": "INFO"}
+{"offset": "0x54915", "text": "FAIL"}
+{"offset": "0x54936", "text": "--out"}
+{"offset": "0x54970", "text": "__doc__"}
+{"offset": "0x5498a", "text": "chg "}
+{"offset": "0x54990", "text": " / 런 "}
+{"offset": "0x54998", "text": "일 / 이력 "}
+{"offset": "0x549a8", "text": "  (요약 "}
+{"offset": "0x549c0", "text": "관측도 원장도 없음 — 산출 없음"}
+{"offset": "0x54a00", "text": "|---|---|---|---|---|---|---|---|---|---|"}
+{"offset": "0x54a30", "text": "매트릭스"}
+{"offset": "0x54a40", "text": "이력(런×일자)"}
+{"offset": "0x54a60", "text": "요약(일자별)"}
+{"offset": "0x54a78", "text": "현재 상태"}
+{"offset": "0x54a90", "text": "관측 없음(원장만)"}
+{"offset": "0x54ab0", "text": "변화 없음"}
+{"offset": "0x54ac8", "text": "변화 요약"}
+{"offset": "0x54ae0", "text": "조회 횟수"}
+{"offset": "0x54af0", "text": "적재 지연(일)"}
+{"offset": "0x54b18", "text": " / 원장 "}
+{"offset": "0x54b28", "text": " → 관측 "}
+{"offset": "0x54b38", "text": ": 파일 "}
+{"offset": "0x54b50", "text": "OSM 정정 재적재"}
+{"offset": "0x54b69", "text": " AND "}
+{"offset": "0x54b75", "text": "--to"}
+{"offset": "0x54bb0", "text": " 파싱 실패 — "}
+{"offset": "0x54bd0", "text": "DB 없이 로그만"}

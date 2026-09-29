@@ -1,0 +1,1879 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0045-boulanger",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+    "finalUrl": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+    "capturedAt": "2026-09-28T07:59:27.029236+09:00",
+    "collectionOk": true,
+    "title": "Sèche-linge Bosch - Livraison 24h Offerte* | Boulanger"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0045-boulanger/brand-category/raw.html",
+      "sha256": "484e0eb4d409aac2c7f315533c7dd74a67c391715af1e5e19a4c6ef08e2eba6a"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0045-boulanger/brand-category/capture-state.json",
+      "sha256": "e4c9cb435ac5fbdeb6c30be8b0e36e98c33ca888f3f1b860e84c63c0131276eb"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0045-boulanger/brand-category/response.json",
+      "sha256": "74e37a139e61a6479dc719fd17f62a4facf7627c4c558de3eec3aa539f583215"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div#product-list__header > h1.product-list__header-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche-linge Bosch",
+        "attributes": {
+          "class": "product-list__header-title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG1420DFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-1 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WTH8520BFR, SERENITY, Série 4",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-2 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WTH 85290FF Reconditionné",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-3 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WTW87490FF Reconditionné",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-4 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG133DBFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-5 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WTH8320DFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-6 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG233DYFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-7 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQJ2320BFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-8 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG24502FR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-9 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WTH8300DFR, Série 4, Express 40 min",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-10 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH BOS4242005517695",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-11 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG1450BFR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-12 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WRB247C0FR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-13 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Sèche linge pompe à chaleur BOSCH WQG13500FR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > section.slc > h2.slc__title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "À découvrir également",
+        "attributes": {
+          "class": "slc__title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 174,
+        "top10ByRenderedArea": [
+          {
+            "index": 11,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/Categpromo20_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 191,
+            "renderedArea": 237604,
+            "naturalWidth": 1244,
+            "naturalHeight": 191,
+            "naturalArea": 237604,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BIENVENUEjuillet_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/emsgenrentreebts26_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/EMS_LivraisonGAM_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 158,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotujd2_SKvvH0LhfzkwF0N0.jpg",
+            "alt": "",
+            "renderedWidth": 299,
+            "renderedHeight": 531.546875,
+            "renderedArea": 158932.515625,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 83,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 135,
+            "renderedArea": 125415,
+            "naturalWidth": 929,
+            "naturalHeight": 135,
+            "naturalArea": 125415,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 60,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotxqrr_dBUl22OV3ocX2zd3.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 104,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnjzo0_ktNotyUtQEpD0hsN.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 168,
+            "src": "https://www.boulanger.com/etc.clientlibs/boulanger-site/clientlibs/wpk.app/resources/assets/svg/qr-app-footer.svg",
+            "alt": "QR code pour télécharger l'application Boulanger",
+            "renderedWidth": 123,
+            "renderedHeight": 123,
+            "renderedArea": 15129,
+            "naturalWidth": 1126,
+            "naturalHeight": 1126,
+            "naturalArea": 1267876,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/Categpromo20_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 191,
+            "renderedArea": 237604,
+            "naturalWidth": 1244,
+            "naturalHeight": 191,
+            "naturalArea": 237604,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotujd2_SKvvH0LhfzkwF0N0.jpg",
+            "alt": "",
+            "renderedWidth": 299,
+            "renderedHeight": 531.546875,
+            "renderedArea": 158932.515625,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 60,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotxqrr_dBUl22OV3ocX2zd3.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 104,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnjzo0_ktNotyUtQEpD0hsN.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BIENVENUEjuillet_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/emsgenrentreebts26_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/EMS_LivraisonGAM_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 158,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Sèche-linge Bosch - Livraison 24h Offerte* | Boulanger"
+        ],
+        "metaDescription": [
+          "Sèche-linge Bosch au meilleur rapport qualité/prix ! Livraison 24h & Installation Offertes* - Retrait 1h en Magasin* - Retrait Drive* - Garantie 2 ans* - SAV 7j/7"
+        ],
+        "h1": [
+          "Sèche-linge Bosch"
+        ],
+        "robots": [
+          "NOODP"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.boulanger.com/c/cat-seche-linge/brand~bosch"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 11,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/Categpromo20_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 191,
+            "renderedArea": 237604,
+            "naturalWidth": 1244,
+            "naturalHeight": 191,
+            "naturalArea": 237604,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BIENVENUEjuillet_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/emsgenrentreebts26_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/EMS_LivraisonGAM_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 158,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotujd2_SKvvH0LhfzkwF0N0.jpg",
+            "alt": "",
+            "renderedWidth": 299,
+            "renderedHeight": 531.546875,
+            "renderedArea": 158932.515625,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 83,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 135,
+            "renderedArea": 125415,
+            "naturalWidth": 929,
+            "naturalHeight": 135,
+            "naturalArea": 125415,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 60,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/msotxqrr_dBUl22OV3ocX2zd3.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 104,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnjzo0_ktNotyUtQEpD0hsN.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Sèche-linge",
+            "href": "https://www.boulanger.com/c/cat-seche-linge",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge pompe à chaleur",
+            "href": "https://www.boulanger.com/c/seche-linge-pompe-a-chaleur",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge à condensation",
+            "href": "https://www.boulanger.com/sci/seche+linge+a+condensation",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge à évacuation",
+            "href": "https://www.boulanger.com/sci/seche+linge+a+evacuation",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge basse consommation",
+            "href": "https://www.boulanger.com/c/nav-filtre/cat-seche-linge?facettes_communes_____basse_consommation~basse20consommation",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge à louer",
+            "href": "https://www.boulanger.com/opeco/OP0180AUTK",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche-linge pro",
+            "href": "https://www.boulanger.com/c/seche-linge-pro",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge Bosch",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Accessoires lave linge - sèche linge",
+            "href": "https://www.boulanger.com/c/accessoire-lave-linge",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge Samsung",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "bosch",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH (14)",
+            "href": "https://www.boulanger.com/c/cat-seche-linge",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Bosch Serie 4 (3)",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch/facette_gammes_sl_____gamme~bosch20serie204",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Bosch Serie 6 (3)",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch/facette_gammes_sl_____gamme~bosch20serie206",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "BOSCH (1)",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch#",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge hublot ELECTROLUX EW6EE1041AB - 10,5 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235908",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot ELECTROLUX EW6EE1041AB - 10,5 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235908",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge hublot ELECTROLUX EW2F6812AA - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1188498",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot ELECTROLUX EW2F6812AA - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1188498",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge hublot ELECTROLUX EW6FI22914OV - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1204312",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot ELECTROLUX EW6FI22914OV - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1204312",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge hublot ELECTROLUX EW6FI22914DG - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235907",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot ELECTROLUX EW6FI22914DG - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235907",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge hublot ELECTROLUX EW7FI1411DG - 11 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235909",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot ELECTROLUX EW7FI1411DG - 11 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1235909",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "BOSCH",
+            "href": "https://www.boulanger.com/marque/bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG1420DFR",
+            "href": "https://www.boulanger.com/ref/9000911322",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WTH8520BFR, SERENITY, Série 4",
+            "href": "https://www.boulanger.com/ref/1221294",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WTH 85290FF Reconditionné",
+            "href": "https://www.boulanger.com/ref/1065309?offer=d19e7402-e162-44cc-bfd6-03e4b91f963a",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge hublot ELECTROLUX EW6EE1041AB - 10,5 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge hublot ELECTROLUX EW2F6812AA - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge hublot ELECTROLUX EW6FI22914OV - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge hublot ELECTROLUX EW6FI22914DG - 9 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge hublot ELECTROLUX EW7FI1411DG - 11 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WTW87490FF Reconditionné",
+            "href": "https://www.boulanger.com/ref/1036512?offer=b69f0048-1204-4eb4-97c6-a7e0f98a7777",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG133DBFR",
+            "href": "https://www.boulanger.com/ref/1221295",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WTH8320DFR",
+            "href": "https://www.boulanger.com/ref/1221291",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG233DYFR",
+            "href": "https://www.boulanger.com/ref/1221298",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Lave linge compact SAMSUNG WW80FG3M05AW - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1232460",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge compact SAMSUNG WW80FG3M05AW - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/ref/1232460",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Lave linge compact SAMSUNG WW80FG3M05AW - 8 kg - 1400 tr/min - Classe A - Moteur induction",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot SAMSUNG WW10FG5U34AEEF - 10 kg - 1400 tr/min - Classe A - Moteur induction - Connecté wifi",
+            "href": "https://www.boulanger.com/ref/1228188",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQJ2320BFR",
+            "href": "https://www.boulanger.com/ref/1238700",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG24502FR",
+            "href": "https://www.boulanger.com/ref/9000974295",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WTH8300DFR, Série 4, Express 40 min",
+            "href": "https://www.boulanger.com/ref/1231119",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH BOS4242005517695",
+            "href": "https://www.boulanger.com/ref/9000911651",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG1450BFR",
+            "href": "https://www.boulanger.com/ref/1221297",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WRB247C0FR",
+            "href": "https://www.boulanger.com/ref/1235597",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Sèche linge pompe à chaleur BOSCH WQG13500FR",
+            "href": "https://www.boulanger.com/ref/9000974292",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge, seche"
+            ]
+          },
+          {
+            "text": "Seche linge indesit",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~indesit",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Seche linge Miele",
+            "href": "https://www.boulanger.com/c/cat-seche-linge/brand~miele",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Lave linge beko",
+            "href": "https://www.boulanger.com/c/lave-linge/brand~beko",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge Bosch",
+            "href": "https://www.boulanger.com/c/lave-linge/brand~bosch",
+            "signals": [
+              "페이지 주제어와 일치: bosch, linge"
+            ]
+          },
+          {
+            "text": "Lave linge",
+            "href": "https://www.boulanger.com/c/lave-linge",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge whirlpool",
+            "href": "https://www.boulanger.com/c/lave-linge/brand~whirlpool",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Lave linge hublot les 9 kg",
+            "href": "https://www.boulanger.com/c/lave-linge-hublot/facetting_ll_lls_sl_____capacite_au_lavage~les20920kg",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Seche linge condensation",
+            "href": "https://www.boulanger.com/c/seche-linge-condensation",
+            "signals": [
+              "페이지 주제어와 일치: linge, seche"
+            ]
+          },
+          {
+            "text": "Lave linge sechant",
+            "href": "https://www.boulanger.com/c/tous-les-lave-linge-sechants",
+            "signals": [
+              "페이지 주제어와 일치: linge"
+            ]
+          },
+          {
+            "text": "Livraison offerte* Partout en France",
+            "href": "https://www.boulanger.com/evenement/livraison-domicile",
+            "signals": [
+              "페이지 주제어와 일치: livraison, offerte"
+            ]
+          },
+          {
+            "text": "Nos conditions de livraison",
+            "href": "https://www.boulanger.com/evenement/livraison-domicile",
+            "signals": [
+              "페이지 주제어와 일치: livraison"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "h1",
+            "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div#product-list__header > h1.product-list__header-title",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Sèche-linge Bosch",
+            "attributes": {
+              "class": "product-list__header-title"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div#product-list__header > span.product-list__header-product-count",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "(14 articles)",
+            "attributes": {
+              "class": "product-list__header-product-count"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div#product-list__header",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Sèche-linge Bosch (14 articles) .ems--PL_TOP_SEO, .ems--PM_TOP_SEO { font-size: 12px; line-height: 14px; color: #757575; } .ems__seo-wrapper { display: flex; flex-direction: column; } .ems__seo-trigger { position: absolute; left: -6.25rem; } .ems__seo-content { -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; display: -webkit-box; } .ems__seo-content p, .ems__seo-content div { display: inline; margin: 0; } .ems__seo-label { cursor: pointer; margin-top: 0.5rem; } .ems__seo-toggle { text-decoration: underline; display: flex; align-items: center; } .ems__seo-toggle svg { margin-left: 0.5rem; } .ems__seo-toggle--less { display: none; } .ems__seo-trigger:checked ~ .ems__seo-content { -webkit-line-clamp: unset; overflow: visible; display: block; } .ems__seo-trigger:checked ~ .ems__seo-content p, .ems__seo-trigger:checked ~ .ems__seo-content div { display: block; margin-bottom: 0.5rem; } .ems__seo-trigger:checked ~ .ems__seo-label .ems__seo-toggle--less { display: flex; } .ems__seo-trigger:checked ~ .ems__seo-label .ems__seo-toggle--more { display: none; } Vous cherchez le bon sèche-linge Bosch à évacuation, à condensation ou à pompe à chaleur ? Découvrez la qualité allemande pour simplifier l’entretien du linge. Le Sensitive Drying System offre un séchage tout en douceur grâce à la structure de son tambour en nid d’abeille. Pour le confort des peaux sensibles, la technologie Allergie + du sèche linge Bosch réduit les allergènes. Quant à l’AutoDry, elle détecte le taux d’humidité pour adapter automatiquement la durée de séchage ! Lire la suite Réduire *Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.",
+            "attributes": {
+              "class": "product-list__header",
+              "id": "product-list__header"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div.grid.product-list__content > div.g-col-8.g-col-sm-12.g-col-lg-3 > section#kamino-totem-left-gutter > div > span.product-list__product-sponsored > button.button.product-list__product-sponsored-btn.js-open-popin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "button product-list__product-sponsored-btn js-open-popin",
+              "aria-label": "Afficher les informations du produit sponsorisé : "
+            }
+          },
+          {
+            "tag": "span",
+            "path": "main#main > div.grid.product-list__content > div.g-col-8.g-col-sm-12.g-col-lg-3 > section#kamino-totem-left-gutter > div > span.product-list__product-sponsored",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Sponsorisé",
+            "attributes": {
+              "class": "product-list__product-sponsored "
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div.grid.product-list__content > div.g-col-8.g-col-sm-12.g-col-lg-3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "@keyframes loader_rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } @keyframes span_rotation { 0% { transform: rotate(0deg); } 40% { transform: rotate(220deg); } 100% { transform: rotate(220deg); } } @keyframes border_animation { 0% { transform: rotate(-140deg); } 40% { transform: rotate(-170deg); } 60% { transform: rotate(-170deg); } 100% { transform: rotate(140deg); } } .wrapper { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; } .wrapper.fullpage { position: fixed; top: 0px; left: 0px; z-index: 999; } .wrapper.restricted { position: absolute; z-index: 9; } .wrapper .loader { position: absolute; z-index: 2001; } .wrapper .loader__circle { position: relative; top: 50%; animation: 4.8s linear 0s infinite normal none running loader_rotation; } .wrapper .loader__circle-animated, .wrapper .loader__circle-animated2 { box-sizing: border-box; display: block; position: absolute; inset: 0px; margin: auto; } .wrapper .loader__circle-animated { animation: 1.2s linear 0s infinite normal none running span_rotation; } .wrapper .loader__circle-animated2 { border: 3px solid rgb(245, 106, 0); border-radius: 50%; animation: 1.2s linear 0s infinite normal none running border_animation; } .wrapper .loader__logo { position: relative; display: flex; justify-content: center; } .wrapper .loader__logo svg { width: 100%; } .prefix__cls-3{fill:#d14600} .icon { display: flex; fill: rgb(67, 72, 107); height: 24px; width: 24px; } .icon--current-color { fill: currentcolor; } .icon svg { width: inherit; height: inherit; } .icon { display: flex; fill: rgb(67, 72, 107); height: 24px; width: 24px; } .icon--current-color { fill: currentcolor; } .icon svg { width: inherit; height: inherit; } Filtrer 14 articles Filtrer (1) .button { appearance: none; border-radius: 0px; text-align: inherit; background: none; box-shadow: none; padding: 0px; cursor: pointer; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: inherit; font: inherit; } :host { display: block; } .button { box-sizing: border-box; } .button--outline.button--primary { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(27, 29, 41); font-weight: 500; background-color: transparent; color: rgb(27, 29, 41); } @media (hover: hover) { .button--outline.button--primary:hover { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; font-weight: 500; background-color: transparent; color: rgb(27, 29, 41); border: 2px solid !important; } } .button--outline.button--primary.button--disabled { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(128, 129, 133); font-weight: 500; background-color: rgb(240, 241, 246); color: rgb(128, 129, 133); pointer-events: none; } .button--outline.button--secondary { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(169, 162, 247); font-weight: 500; background-color: rgb(255, 255, 255); color: rgb(27, 29, 41); } @media (hover: hover) { .button--outline.button--secondary:hover { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(169, 162, 247); font-weight: 500; background-color: rgb(239, 238, 252); color: rgb(27, 29, 41); } } .button--outline.button--secondary.button--disabled { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(128, 129, 133); font-weight: 500; background-color: rgb(240, 241, 246); color: rgb(128, 129, 133); pointer-events: none; } .button--rachatOutline.button--primary { display: inline-flex; justify-content",
+            "attributes": {
+              "class": "g-col-8 g-col-sm-12 g-col-lg-3 product-list__facets"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list__filter-shortcuts > div.product-list__toggle > label.facets-items__toggle > div.product-list__toggle__wrapper > a.facets-items__link > div.product-list__toggle__slider",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__toggle__slider"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts > div.product-list__toggle > label.facets-items__toggle > div.product-list__toggle__wrapper",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__toggle__wrapper"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts > div.product-list__toggle",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produits reconditionnés",
+            "attributes": {
+              "class": "product-list__toggle"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html.fs-home-delivery-crossed-price > body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produits reconditionnés",
+            "attributes": {
+              "class": "product-list__filter-shortcuts",
+              "id": "product-list__filter-shortcuts"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-75a4da8e35d110958 > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-9000911322 > div#swiper-wrapper-75a4da8e35d110958 > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-75a4da8e35d110958 > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-9000911322 > div#swiper-wrapper-75a4da8e35d110958 > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-9000911322 > div.swiper-button-prev.product-list__swiper-navigation-prev",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-prev product-list__swiper-navigation-prev",
+              "role": "button",
+              "aria-label": "Diapositive précédente"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-9000911322 > div.swiper-button-next.product-list__swiper-navigation-next",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-next product-list__swiper-navigation-next",
+              "role": "button",
+              "aria-label": "Diapositive suivante"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-9000911322",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper swiper-initialized swiper-horizontal swiper-backface-hidden",
+              "id": "swiper-product-list-9000911322",
+              "aria-label": "Carrousel des pictogrammes des caractéristiques produits"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Comparer",
+            "attributes": {
+              "class": "product-options-slider product-list__product-area-1 product-list__product-image-comparator g-col-3 g-col-sm-5 g-col-md-3 g-col-lg-2 g-col-xl-2"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.product-list__product-brand",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "BOSCH",
+            "attributes": {
+              "class": "product-list__product-brand",
+              "aria-label": "Voir les produits de la marque BOSCH"
+            }
+          },
+          {
+            "tag": "h2",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Sèche linge pompe à chaleur BOSCH WQG1420DFR",
+            "attributes": {
+              "id": "productLabel",
+              "class": "product-list__product-label"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div#product-list__product-rating",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-rating",
+              "id": "product-list__product-rating"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a#product-list__product-keypoints",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Capacité XL (9kg), silencieux (63 db) Capteur d'humidité Condenseur autonettoyant",
+            "attributes": {
+              "class": "product-list__product-keypoints analytic-track-origin",
+              "id": "product-list__product-keypoints"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "BOSCH Sèche linge pompe à chaleur BOSCH WQG1420DFR Revendre votre appareil Capacité XL (9kg), silencieux (63 db) Capteur d'humidité Condenseur autonettoyant",
+            "attributes": {
+              "class": "product-list__product-area-2 g-col-5 g-col-sm-7 g-col-md-4 g-col-lg-3 g-col-xl-3"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div.product-list__product-price-main > div.product-list__product-energy-label > button.button.product-list__product-energy-arrow.js-open-popin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "button product-list__product-energy-arrow js-open-popin",
+              "aria-label": "Afficher la classe énergétique"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div.product-list__product-price-main > div.product-list__product-energy-label > button.button.product-list__product-energy-arrow.js-open-popin > img.product-list__product-energy-img",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-energy-img"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div.product-list__product-price-main > div.product-list__product-energy-label",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-energy-label"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div.product-list__product-price-main",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "538,05€",
+            "attributes": {
+              "class": "product-list__product-price-main"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div#product-list__product-price-installment > button#product__installment-button",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "31,54€ par mois en 20 fois",
+            "attributes": {
+              "class": "button js-open-popin installment-card product-list__installment-button installment-card--list ",
+              "aria-label": "Payer en plusieurs fois",
+              "id": "product__installment-button"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount > div#product-list__product-price-installment",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "31,54€ par mois en 20 fois",
+            "attributes": {
+              "class": "product-list__product-price-installment ",
+              "id": "product-list__product-price-installment"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price.product-list__product-price-without-discount",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "538,05€ 31,54€ par mois en 20 fois",
+            "attributes": {
+              "class": "product-list__product-price product-list__product-price-without-discount"
+            }
+          },
+          {
+            "tag": "p",
+            "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-multi-offers > p.product-list__product-multi-offers__info",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Dès 538,05€",
+            "attributes": {
+              "class": "product-list__product-multi-offers__info"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-multi-offers",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "5 autres offres Dès 538,05€",
+            "attributes": {
+              "class": "product-list__product-multi-offers"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-3.g-col-5.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "538,05€ 31,54€ par mois en 20 fois 5 autres offres Dès 538,05€",
+            "attributes": {
+              "class": "product-list__product-area-3 g-col-5 g-col-sm-7 g-col-md-4 g-start-md-9 g-col-lg-3 g-start-lg-7 g-col-xl-3 g-start-xl-7"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-4.g-col-8.g-col-sm-7 > button.button.from_bl_button.js_add_to_cart_button",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Ajouter au panier",
+            "attributes": {
+              "class": "button from_bl_button js_add_to_cart_button button--primary js-open-popin button--full  product-list__product-add-to-cart",
+              "aria-label": "Ajouter au panier Sèche linge pompe à chaleur BOSCH WQG1420DFR"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-4.g-col-8.g-col-sm-7 > div.product-list__product-merchant",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Vendu et expédié par Icoza",
+            "attributes": {
+              "class": "product-list__product-merchant"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-4.g-col-8.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Ajouter au panier Vendu et expédié par Icoza Retrait en magasin indisponible Livraison à domicile offerte dès mardi 06 octobre",
+            "attributes": {
+              "class": "product-list__product-area-4 g-col-8 g-col-sm-7 g-start-sm-6 g-col-md-4 g-start-md-9 g-col-lg-3 g-start-lg-7 g-col-xl-3 g-start-xl-7"
+            }
+          },
+          {
+            "tag": "article",
+            "path": "main#main > div.grid.product-list__content > div#product-list > ul > li#product-list__item-0 > article.grid.product-list__product",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Meilleure vente Comparer BOSCH Sèche linge pompe à chaleur BOSCH WQG1420DFR Revendre votre appareil Capacité XL (9kg), silencieux (63 db) Capteur d'humidité Condenseur autonettoyant 538,05€ 31,54€ par mois en 20 fois 5 autres offres Dès 538,05€ Ajouter au panier Vendu et expédié par Icoza Retrait en magasin indisponible Livraison à domicile offerte dès mardi 06 octobre",
+            "attributes": {
+              "class": "grid product-list__product"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > ul > li#product-list__item-0",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Meilleure vente Comparer BOSCH Sèche linge pompe à chaleur BOSCH WQG1420DFR Revendre votre appareil Capacité XL (9kg), silencieux (63 db) Capteur d'humidité Condenseur autonettoyant 538,05€ 31,54€ par mois en 20 fois 5 autres offres Dès 538,05€ Ajouter au panier Vendu et expédié par Icoza Retrait en magasin indisponible Livraison à domicile offerte dès mardi 06 octobre",
+            "attributes": {
+              "class": " product-list__item product-list__item-original",
+              "role": "listitem",
+              "id": "product-list__item-0"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294 > div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294 > div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294 > div#swiper-wrapper-22ca5a3af5b453e3 > div.swiper-slide > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-1 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294 > div.swiper-button-prev.product-list__swiper-navigation-prev",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-prev product-list__swiper-navigation-prev",
+              "role": "button",
+              "aria-label": "Diapositive précédente"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#product-list__item-1 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294 > div.swiper-button-next.product-list__swiper-navigation-next",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-next product-list__swiper-navigation-next",
+              "role": "button",
+              "aria-label": "Diapositive suivante"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#product-list__item-1 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221294",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper swiper-initialized swiper-horizontal swiper-backface-hidden",
+              "id": "swiper-product-list-1221294",
+              "aria-label": "Carrousel des pictogrammes des caractéristiques produits"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#product-list__item-1 > article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Comparer",
+            "attributes": {
+              "class": "product-options-slider product-list__product-area-1 product-list__product-image-comparator g-col-3 g-col-sm-5 g-col-md-3 g-col-lg-2 g-col-xl-2"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div#product-list > ul > li#product-list__item-1 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.product-list__product-brand",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "BOSCH",
+            "attributes": {
+              "class": "product-list__product-brand",
+              "aria-label": "Voir les produits de la marque BOSCH"
+            }
+          },
+          {
+            "tag": "h2",
+            "path": "ul > li#product-list__item-1 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Sèche linge pompe à chaleur BOSCH WTH8520BFR, SERENITY, Série 4",
+            "attributes": {
+              "id": "productLabel",
+              "class": "product-list__product-label"
+            }
+          }
+        ],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

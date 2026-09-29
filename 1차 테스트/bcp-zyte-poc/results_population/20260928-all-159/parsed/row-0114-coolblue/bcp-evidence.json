@@ -1,0 +1,647 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0114-coolblue",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.coolblue.nl/wasmachines/lg",
+    "finalUrl": "https://www.coolblue.nl/wasmachines/lg",
+    "capturedAt": "2026-09-28T06:46:50.621698+09:00",
+    "collectionOk": true,
+    "title": "LG wasmachine kopen? | Coolblue - Voor 23.59u, morgen in huis"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0114-coolblue/brand-category/raw.html",
+      "sha256": "52e0677fc03322c15f6a70cece2f627a43b600d23081aa9073a45f26eebea07f"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0114-coolblue/brand-category/capture-state.json",
+      "sha256": "f75012df3f74b41c36244d49803b0985eec78dd0f3f93c1d0e4776c27e66c1df"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0114-coolblue/brand-category/response.json",
+      "sha256": "3283ca4be50674128080e8a6ea6949423692793857caa121ef5d557855c9ec2e"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div.css-1spg3na > div.css-tcx3lv > div.css-19mtnxi > div.css-chrijs > div.css-a7bh8i > h1.css-vwbrr6",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "LG wasmachines",
+        "attributes": {
+          "class": "css-vwbrr6"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.css-1u8qly9 > div > div.css-6lkbn4 > div.css-cej860 > div.css-x4n4mc > h3.css-1jf6dhe",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Advies over lg wasmachines",
+        "attributes": {
+          "class": "css-1jf6dhe"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div#main-content > div.css-s1u4uj > div > div.hb-99xk1h > div.hb-f0egaa > h3#l",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "L",
+        "attributes": {
+          "id": "l",
+          "class": "hb-y2am0n"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div#main-content > div.css-s1u4uj > div > div.hb-99xk1h > div.hb-f0egaa > h3#advies",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Advies",
+        "attributes": {
+          "id": "advies",
+          "class": "hb-y2am0n"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1u8qly9 > div.css-um1hfr > div.css-18bivaf > div.css-155dxmt > div > h2.css-v8gf6i",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Eerder bekeken door jou",
+        "attributes": {
+          "class": "css-v8gf6i"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "body > div.css-1u8qly9 > div.css-um1hfr > div.css-18bivaf > div.css-9vf5x0 > h3.css-nz9uv6",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jouw producten overal beschikbaar",
+        "attributes": {
+          "class": "css-nz9uv6"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-1cld8ww > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Heb je een vraag?",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-184ivgm > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Meld je aan voor onze nieuwsbrief",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "body > div > footer.css-awgckc > div.css-9z5sqr > section.shop-ratings-d1sr2r > h2#shop-ratings-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Beoordeling door klanten:",
+        "attributes": {
+          "id": "shop-ratings-heading",
+          "class": "shop-ratings-9wn4e9"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 4,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1939520",
+            "alt": "LG GC3R709S1 Turbowash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1820,
+            "naturalArea": 2329600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1501276",
+            "alt": "LG GC3V708S2 TurboWash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1786,
+            "naturalArea": 2286080,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/360xauto/content/555066",
+            "alt": "LG wasmachines",
+            "renderedWidth": 180,
+            "renderedHeight": 180,
+            "renderedArea": 32400,
+            "naturalWidth": 1280,
+            "naturalHeight": 1671,
+            "naturalArea": 2138880,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1939520",
+            "alt": "LG GC3R709S1 Turbowash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1820,
+            "naturalArea": 2329600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1501276",
+            "alt": "LG GC3V708S2 TurboWash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1786,
+            "naturalArea": 2286080,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/360xauto/content/555066",
+            "alt": "LG wasmachines",
+            "renderedWidth": 180,
+            "renderedHeight": 180,
+            "renderedArea": 32400,
+            "naturalWidth": 1280,
+            "naturalHeight": 1671,
+            "naturalArea": 2138880,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "LG wasmachine kopen? | Coolblue - Voor 23.59u, morgen in huis"
+        ],
+        "metaDescription": [
+          "LG wasmachine kopen? Ook op zondag en in de avond geleverd. LG wasmachines bij Coolblue: gratis bezorging & retour."
+        ],
+        "h1": [
+          "LG wasmachines"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.coolblue.nl/wasmachines/lg"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+            "alt": "Product specialist bij Coolblue",
+            "renderedWidth": 233,
+            "renderedHeight": 350,
+            "renderedArea": 81550,
+            "naturalWidth": 233,
+            "naturalHeight": 349,
+            "naturalArea": 81317,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1939520",
+            "alt": "LG GC3R709S1 Turbowash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1820,
+            "naturalArea": 2329600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 1,
+            "src": "https://image.coolblue.nl/transparent/max/640xauto/products/1501276",
+            "alt": "LG GC3V708S2 TurboWash 39",
+            "renderedWidth": 304,
+            "renderedHeight": 170,
+            "renderedArea": 51680,
+            "naturalWidth": 1280,
+            "naturalHeight": 1786,
+            "naturalArea": 2286080,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.coolblue.nl/transparent/max/360xauto/content/555066",
+            "alt": "LG wasmachines",
+            "renderedWidth": 180,
+            "renderedHeight": 180,
+            "renderedArea": 32400,
+            "naturalWidth": 1280,
+            "naturalHeight": 1671,
+            "naturalArea": 2138880,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Alle wasmachines",
+            "href": "https://www.coolblue.nl/wasmachines",
+            "signals": [
+              "페이지 주제어와 일치: wasmachines"
+            ]
+          },
+          {
+            "text": "LG wasmachine aanbiedingen",
+            "href": "https://www.coolblue.nl/wasmachines/lg/aanbieding",
+            "signals": [
+              "페이지 주제어와 일치: wasmachine"
+            ]
+          },
+          {
+            "text": "LG Thinq wasmachines",
+            "href": "https://www.coolblue.nl/wasmachines/lg/lg-think",
+            "signals": [
+              "페이지 주제어와 일치: wasmachines"
+            ]
+          },
+          {
+            "text": "Wasmachines",
+            "href": "https://www.coolblue.nl/wasmachines",
+            "signals": [
+              "페이지 주제어와 일치: wasmachines"
+            ]
+          },
+          {
+            "text": "LG wasmachines",
+            "href": "https://www.coolblue.nl/wasmachines/lg",
+            "signals": [
+              "페이지 주제어와 일치: wasmachines"
+            ]
+          },
+          {
+            "text": "Wasmachine huren",
+            "href": "https://www.coolblue.nl/wasmachines/abonnementen",
+            "signals": [
+              "페이지 주제어와 일치: wasmachine"
+            ]
+          },
+          {
+            "text": "De meest voorkomende storingen van LG wasmachines",
+            "href": "https://www.coolblue.nl/advies/lg-wasmachines-storingen.html",
+            "signals": [
+              "페이지 주제어와 일치: wasmachines"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.css-131nz3o > div.css-tla4rv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hygiënisch stomen | Vulgewicht 9 kg | Energiebesparing 245 euro",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.css-109vin4 > div.css-sxsk8l > div.product-card.product-card-with-border-top.css-131nz3o > div.css-19b2fvv > div.css-1u8qly9 > div.product-grid-dynamic-highlights.css-gkhv9z",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Hygiënisch stomen, Strijkwerk verminderen | Vulgewicht 8 kg | Energiebesparing 220 euro",
+            "attributes": {
+              "class": "product-grid-dynamic-highlights css-gkhv9z"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "LG GC3R709S1 Turbowash 39",
+            "href": "https://www.coolblue.nl/product/933102/lg-gc3r709s1-turbowash-39.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GC3V708S2 TurboWash 39",
+            "href": "https://www.coolblue.nl/product/872696/lg-gc3v708s2-turbowash-39.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

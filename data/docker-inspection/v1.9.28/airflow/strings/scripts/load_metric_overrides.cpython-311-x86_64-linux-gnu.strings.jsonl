@@ -1,0 +1,309 @@
+{"offset": "0x2c000", "text": "%.200s() needs an argument"}
+{"offset": "0x2c01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x2c039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2c04f", "text": "__loader__"}
+{"offset": "0x2c05a", "text": "loader"}
+{"offset": "0x2c061", "text": "__file__"}
+{"offset": "0x2c06a", "text": "origin"}
+{"offset": "0x2c071", "text": "__package__"}
+{"offset": "0x2c07d", "text": "parent"}
+{"offset": "0x2c084", "text": "__path__"}
+{"offset": "0x2c08d", "text": "submodule_search_locations"}
+{"offset": "0x2c0a8", "text": "keywords must be strings"}
+{"offset": "0x2c0c1", "text": "_cython_coroutine_type"}
+{"offset": "0x2c0d8", "text": "_cython_generator_type"}
+{"offset": "0x2c0ef", "text": "_module"}
+{"offset": "0x2c0f7", "text": "__builtins__"}
+{"offset": "0x2c104", "text": "_cython_3_0_12"}
+{"offset": "0x2c113", "text": "cannot import name %S"}
+{"offset": "0x2c129", "text": "%s (%s:%d)"}
+{"offset": "0x2c134", "text": "_sql_quote"}
+{"offset": "0x2c13f", "text": "exactly"}
+{"offset": "0x2c147", "text": "generator already executing"}
+{"offset": "0x2c163", "text": "emit_sql"}
+{"offset": "0x2c16c", "text": "name '%U' is not defined"}
+{"offset": "0x2c185", "text": "_flag"}
+{"offset": "0x2c18e", "text": "source"}
+{"offset": "0x2c195", "text": "genexpr"}
+{"offset": "0x2c19d", "text": "builtins"}
+{"offset": "0x2c1a6", "text": "cython_runtime"}
+{"offset": "0x2c1b5", "text": "scripts.load_metric_overrides"}
+{"offset": "0x2c1d3", "text": "does not match"}
+{"offset": "0x2c1e2", "text": "collections.abc"}
+{"offset": "0x2c1f2", "text": "backports_abc"}
+{"offset": "0x2c200", "text": "_find_header"}
+{"offset": "0x2c20d", "text": "throw"}
+{"offset": "0x2c213", "text": "items"}
+{"offset": "0x2c219", "text": "at least"}
+{"offset": "0x2c222", "text": "at most"}
+{"offset": "0x2c22a", "text": "parse_sheet"}
+{"offset": "0x2c236", "text": "deactivated"}
+{"offset": "0x2c242", "text": "total"}
+{"offset": "0x2c248", "text": "upsert"}
+{"offset": "0x2c24f", "text": "_cython_3_0_12.generator"}
+{"offset": "0x2c268", "text": "__name__"}
+{"offset": "0x2c271", "text": "name of the generator"}
+{"offset": "0x2c287", "text": "__qualname__"}
+{"offset": "0x2c294", "text": "gi_frame"}
+{"offset": "0x2c29d", "text": "Frame of the generator"}
+{"offset": "0x2c2b4", "text": "gi_running"}
+{"offset": "0x2c2bf", "text": "gi_yieldfrom"}
+{"offset": "0x2c2cc", "text": "gi_code"}
+{"offset": "0x2c2d4", "text": "__module__"}
+{"offset": "0x2c2df", "text": "send"}
+{"offset": "0x2c2e4", "text": "close"}
+{"offset": "0x2c2ea", "text": "__reduce__"}
+{"offset": "0x2c2f5", "text": "func_doc"}
+{"offset": "0x2c2fe", "text": "__doc__"}
+{"offset": "0x2c306", "text": "func_name"}
+{"offset": "0x2c310", "text": "func_dict"}
+{"offset": "0x2c31a", "text": "__dict__"}
+{"offset": "0x2c323", "text": "func_globals"}
+{"offset": "0x2c330", "text": "__globals__"}
+{"offset": "0x2c33c", "text": "func_closure"}
+{"offset": "0x2c349", "text": "__closure__"}
+{"offset": "0x2c355", "text": "func_code"}
+{"offset": "0x2c35f", "text": "__code__"}
+{"offset": "0x2c368", "text": "func_defaults"}
+{"offset": "0x2c376", "text": "__defaults__"}
+{"offset": "0x2c383", "text": "__kwdefaults__"}
+{"offset": "0x2c392", "text": "__annotations__"}
+{"offset": "0x2c3a2", "text": "_is_coroutine"}
+{"offset": "0x2c3b0", "text": "CythonUnboundCMethod"}
+{"offset": "0x2c3c5", "text": "main"}
+{"offset": "0x2c3d0", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x2c3f8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x2c428", "text": " while calling a Python object"}
+{"offset": "0x2c448", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x2c478", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x2c4a0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x2c4c8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x2c578", "text": "function's dictionary may not be deleted"}
+{"offset": "0x2c5a8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x2c5d8", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x2c638", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x2c668", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x2c698", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x2c6c8", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2c730", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x2c760", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2c7c0", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x2c7f0", "text": "__name__ must be set to a string object"}
+{"offset": "0x2c818", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x2c848", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x2c990", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x2c9c8", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x2c9f8", "text": "instance exception may not have a separate value"}
+{"offset": "0x2ca30", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x2ca78", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x2cab8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x2caf0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x2cb18", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x2cb48", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x2cb80", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x2cbb0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x2cbf0", "text": "join() result is too long for a Python string"}
+{"offset": "0x2cc20", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x2cc48", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/load_metric_overrides.c"}
+{"offset": "0x2cc90", "text": "scripts/load_metric_overrides.py"}
+{"offset": "0x2ccb8", "text": "scripts.load_metric_overrides._sql_quote"}
+{"offset": "0x2cce8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x2cd28", "text": "scripts.load_metric_overrides.emit_sql"}
+{"offset": "0x2cd50", "text": "scripts.load_metric_overrides.emit_sql.genexpr"}
+{"offset": "0x2cd80", "text": "strings are too large to concat"}
+{"offset": "0x2cda0", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x2cdd0", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x2cdf8", "text": "scripts.load_metric_overrides._flag"}
+{"offset": "0x2ce20", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x2ce58", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x2cea0", "text": "generator raised StopIteration"}
+{"offset": "0x2cec0", "text": "Module 'load_metric_overrides' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x2cf20", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x2cf70", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x2cfb0", "text": "init scripts.load_metric_overrides"}
+{"offset": "0x2cfd8", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x2d000", "text": "scripts.load_metric_overrides._find_header"}
+{"offset": "0x2d030", "text": "generator ignored GeneratorExit"}
+{"offset": "0x2d050", "text": "scripts.load_metric_overrides.parse_sheet"}
+{"offset": "0x2d080", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x2d0a0", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x2d0d0", "text": "dictionary changed size during iteration"}
+{"offset": "0x2d100", "text": "'NoneType' object is not iterable"}
+{"offset": "0x2d128", "text": "scripts.load_metric_overrides.upsert"}
+{"offset": "0x2d150", "text": "scripts.load_metric_overrides.main"}
+{"offset": "0x2d178", "text": "qualified name of the generator"}
+{"offset": "0x2d198", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x2d1c8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2d228", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2d298", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x2d2d0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x2d300", "text": "scripts.load_metric_overrides.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x2d340", "text": "scripts.load_metric_overrides.__pyx_scope_struct__emit_sql"}
+{"offset": "0x2d380", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x2d460", "text": "INSERT INTO pdp_metric_overrides (rtlr_name, cntry_cd, sku_key, metric_id, forced_value, src_url, source, active) VALUES (%s, %s, %s, %s, %s, %s, %s, 1) ON DUPLICATE KEY UPDATE forced_value = VALUES(forced_value), src_url = VALUES(src_url), source = VALUES(source), active = 1"}
+{"offset": "0x2d580", "text": "scripts/load_metric_overrides.py"}
+{"offset": "0x2d5c0", "text": "SELECT id, rtlr_name, cntry_cd, sku_key, metric_id FROM pdp_metric_overrides WHERE source = %s AND active = 1"}
+{"offset": "0x2d640", "text": "SELECT COUNT(*) AS n FROM pdp_metric_overrides WHERE active = 1"}
+{"offset": "0x2d680", "text": "INSERT INTO pdp_metric_overrides (rtlr_name, cntry_cd, sku_key, metric_id, forced_value, src_url, source) VALUES\n"}
+{"offset": "0x2d700", "text": "%(asctime)s [%(levelname)s] %(message)s"}
+{"offset": "0x2d740", "text": "UPDATE pdp_metric_overrides SET active = 0 WHERE id = %s"}
+{"offset": "0x2d780", "text": "\nON DUPLICATE KEY UPDATE forced_value = VALUES(forced_value), src_url = VALUES(src_url),\n                        source = VALUES(source), active = 1;\n"}
+{"offset": "0x2d820", "text": "scripts.load_metric_overrides"}
+{"offset": "0x2d840", "text": "EY 예외처리 URL 리스트 → pdp_metric_overrides 적재"}
+{"offset": "0x2d880", "text": "emit_sql.<locals>.genexpr"}
+{"offset": "0x2d8a0", "text": "헤더를 찾지 못했다 — 'URL for Assessment' 열과 '(ID24)' 류 지표 열이 같은 행에 있어야 한다"}
+{"offset": "0x2d920", "text": "load_metric_overrides"}
+{"offset": "0x2d940", "text": "--deactivate-missing"}
+{"offset": "0x2d960", "text": "url for assessment"}
+{"offset": "0x2d980", "text": "deactivate_missing"}
+{"offset": "0x2d9a0", "text": "cline_in_traceback"}
+{"offset": "0x2d9c0", "text": "asyncio.coroutines"}
+{"offset": "0x2d9e0", "text": "retailer_from_url"}
+{"offset": "0x2da00", "text": "같은 source 의 기존 행 중 이번 파일에 없는 것은 active=0"}
+{"offset": "0x2da50", "text": "get_connection"}
+{"offset": "0x2da60", "text": "core.retailers"}
+{"offset": "0x2da70", "text": "ArgumentParser"}
+{"offset": "0x2da80", "text": "load_workbook"}
+{"offset": "0x2da90", "text": " · deactivated "}
+{"offset": "0x2dab0", "text": "__class_getitem__"}
+{"offset": "0x2dac8", "text": "_is_coroutine"}
+{"offset": "0x2dad8", "text": "_initializing"}
+{"offset": "0x2dae8", "text": "forced_value"}
+{"offset": "0x2daf8", "text": "add_argument"}
+{"offset": "0x2db08", "text": "active_total"}
+{"offset": "0x2db18", "text": "CLINIC_ENTRY"}
+{"offset": "0x2db28", "text": "values_only"}
+{"offset": "0x2db38", "text": "parse_sheet"}
+{"offset": "0x2db48", "text": "metric_cols"}
+{"offset": "0x2db58", "text": "_find_header"}
+{"offset": "0x2db68", "text": "description"}
+{"offset": "0x2db78", "text": "deactivated"}
+{"offset": "0x2db88", "text": "basicConfig"}
+{"offset": "0x2db98", "text": "worksheets"}
+{"offset": "0x2dba8", "text": "store_true"}
+{"offset": "0x2dbb8", "text": "startswith"}
+{"offset": "0x2dbc8", "text": "product_id"}
+{"offset": "0x2dbd8", "text": "parse_args"}
+{"offset": "0x2dbe8", "text": "emit_sql"}
+{"offset": "0x2dbf8", "text": "ValueError"}
+{"offset": "0x2dc08", "text": "_URL_HEADER"}
+{"offset": "0x2dc18", "text": "SystemExit"}
+{"offset": "0x2dc28", "text": "IGNORECASE"}
+{"offset": "0x2dc38", "text": "translate"}
+{"offset": "0x2dc48", "text": "_sql_quote"}
+{"offset": "0x2dc58", "text": "split_key"}
+{"offset": "0x2dc68", "text": "rtlr_name"}
+{"offset": "0x2dc78", "text": "read_only"}
+{"offset": "0x2dc88", "text": "metric_id"}
+{"offset": "0x2dc98", "text": "maketrans"}
+{"offset": "0x2dca8", "text": "list[dict]"}
+{"offset": "0x2dcb8", "text": "iter_rows"}
+{"offset": "0x2dcc8", "text": "isenabled"}
+{"offset": "0x2dcd8", "text": "getLogger"}
+{"offset": "0x2dce8", "text": "enumerate"}
+{"offset": "0x2dcf8", "text": "dry_run"}
+{"offset": "0x2dd00", "text": "data_only"}
+{"offset": "0x2dd10", "text": "core.repo"}
+{"offset": "0x2dd20", "text": "by_metric"}
+{"offset": "0x2dd30", "text": "RETAILERS"}
+{"offset": "0x2dd40", "text": "_ID_COL_RE"}
+{"offset": "0x2dd50", "text": "_FULLWIDTH"}
+{"offset": "0x2dd60", "text": "upserted"}
+{"offset": "0x2dd70", "text": "적재 완료: upsert "}
+{"offset": "0x2dd88", "text": "str | Path"}
+{"offset": "0x2dd98", "text": "str | None"}
+{"offset": "0x2dda8", "text": " | source="}
+{"offset": "0x2ddb8", "text": "--source"}
+{"offset": "0x2ddc8", "text": "openpyxl"}
+{"offset": "0x2ddd8", "text": "fetchone"}
+{"offset": "0x2dde8", "text": "fetchall"}
+{"offset": "0x2ddf8", "text": "--emit-sql"}
+{"offset": "0x2de08", "text": "cntry_cd"}
+{"offset": "0x2de18", "text": "argparse"}
+{"offset": "0x2de28", "text": "warning"}
+{"offset": "0x2de30", "text": "url_col"}
+{"offset": "0x2de38", "text": "src_url"}
+{"offset": "0x2de40", "text": "sku_key"}
+{"offset": "0x2de48", "text": "skipped"}
+{"offset": "0x2de50", "text": "--sheet"}
+{"offset": "0x2de58", "text": "resolve"}
+{"offset": "0x2de60", "text": "pathlib"}
+{"offset": "0x2de68", "text": "min_row"}
+{"offset": "0x2de70", "text": "max_row"}
+{"offset": "0x2de78", "text": "logging"}
+{"offset": "0x2de80", "text": "genexpr"}
+{"offset": "0x2de88", "text": "extract"}
+{"offset": "0x2de90", "text": "execute"}
+{"offset": "0x2de98", "text": "environ"}
+{"offset": "0x2dea0", "text": "--dry-run"}
+{"offset": "0x2deb0", "text": "disable"}
+{"offset": "0x2deb8", "text": "default"}
+{"offset": "0x2dec0", "text": "country"}
+{"offset": "0x2dec8", "text": "core.db"}
+{"offset": "0x2ded0", "text": "compile"}
+{"offset": "0x2ded8", "text": "upsert"}
+{"offset": "0x2dedf", "text": "source"}
+{"offset": "0x2dee6", "text": "search"}
+{"offset": "0x2deed", "text": "return"}
+{"offset": "0x2def4", "text": "parent"}
+{"offset": "0x2defb", "text": "main"}
+{"offset": "0x2df00", "text": "insert"}
+{"offset": "0x2df08", "text": "__import__"}
+{"offset": "0x2df13", "text": "format"}
+{"offset": "0x2df1a", "text": "flag"}
+{"offset": "0x2df1f", "text": "enable"}
+{"offset": "0x2df26", "text": "cursor"}
+{"offset": "0x2df2d", "text": "commit"}
+{"offset": "0x2df40", "text": " · active 총 "}
+{"offset": "0x2df50", "text": "action"}
+{"offset": "0x2df58", "text": "\\(ID\\s*(\\d+)\\)"}
+{"offset": "0x2df67", "text": "upper"}
+{"offset": "0x2df6d", "text": "total"}
+{"offset": "0x2df73", "text": "throw"}
+{"offset": "0x2df79", "text": "strip"}
+{"offset": "0x2df7f", "text": "start"}
+{"offset": "0x2df85", "text": "sheet"}
+{"offset": "0x2df8b", "text": "print"}
+{"offset": "0x2df91", "text": "lower"}
+{"offset": "0x2df97", "text": "level"}
+{"offset": "0x2df9d", "text": "items"}
+{"offset": "0x2dfa3", "text": "hdr_i"}
+{"offset": "0x2dfa9", "text": "group"}
+{"offset": "0x2dfb0", "text": "__enter__"}
+{"offset": "0x2dfba", "text": "cntry"}
+{"offset": "0x2dfc0", "text": "close"}
+{"offset": "0x2dfc6", "text": "xlsx"}
+{"offset": "0x2dfcb", "text": "vals"}
+{"offset": "0x2dfd0", "text": "text"}
+{"offset": "0x2dfd8", "text": "__test__"}
+{"offset": "0x2dfe1", "text": "stem"}
+{"offset": "0x2dfe8", "text": "__spec__"}
+{"offset": "0x2dff1", "text": "send"}
+{"offset": "0x2dff6", "text": "seen"}
+{"offset": "0x2dffb", "text": "rows"}
+{"offset": "0x2e000", "text": "path"}
+{"offset": "0x2e008", "text": "__name__"}
+{"offset": "0x2e018", "text": "__main__"}
+{"offset": "0x2e021", "text": "keys"}
+{"offset": "0x2e026", "text": "info"}
+{"offset": "0x2e02b", "text": "http"}
+{"offset": "0x2e030", "text": "help"}
+{"offset": "0x2e035", "text": "_flag"}
+{"offset": "0x2e040", "text": "__file__"}
+{"offset": "0x2e050", "text": "__exit__"}
+{"offset": "0x2e059", "text": "dict"}
+{"offset": "0x2e05e", "text": "core"}
+{"offset": "0x2e063", "text": "conn"}
+{"offset": "0x2e068", "text": "bool"}
+{"offset": "0x2e06d", "text": "base"}
+{"offset": "0x2e072", "text": "args"}
+{"offset": "0x2e077", "text": "Path"}
+{"offset": "0x2e07c", "text": "None"}
+{"offset": "0x2e081", "text": "INFO"}
+{"offset": "0x2e0e0", "text": "행 — 지표별 "}
+{"offset": "0x2e100", "text": "출처 표기 (기본: 파일명)"}
+{"offset": "0x2e130", "text": "시트명 (기본: 첫 시트)"}
+{"offset": "0x2e157", "text": "    ("}
+{"offset": "0x2e170", "text": "파싱: 강제(Y) "}
+{"offset": "0x2e190", "text": "SKU 추출 실패: "}
+{"offset": "0x2e1d0", "text": "미등록 도메인: "}

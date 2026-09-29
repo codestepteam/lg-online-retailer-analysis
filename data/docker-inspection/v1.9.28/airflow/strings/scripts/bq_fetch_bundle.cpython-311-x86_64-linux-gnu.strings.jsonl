@@ -1,0 +1,310 @@
+{"offset": "0x2b000", "text": "%.200s() needs an argument"}
+{"offset": "0x2b01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x2b039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2b04f", "text": "__loader__"}
+{"offset": "0x2b05a", "text": "loader"}
+{"offset": "0x2b061", "text": "__file__"}
+{"offset": "0x2b06a", "text": "origin"}
+{"offset": "0x2b071", "text": "__package__"}
+{"offset": "0x2b07d", "text": "parent"}
+{"offset": "0x2b084", "text": "__path__"}
+{"offset": "0x2b08d", "text": "submodule_search_locations"}
+{"offset": "0x2b0a8", "text": "keywords must be strings"}
+{"offset": "0x2b0c1", "text": "_cython_coroutine_type"}
+{"offset": "0x2b0d8", "text": "_cython_generator_type"}
+{"offset": "0x2b0ef", "text": "_module"}
+{"offset": "0x2b0f7", "text": "__builtins__"}
+{"offset": "0x2b104", "text": "_cython_3_0_12"}
+{"offset": "0x2b113", "text": "cannot import name %S"}
+{"offset": "0x2b129", "text": "%s (%s:%d)"}
+{"offset": "0x2b137", "text": "scripts/bq_fetch_bundle.py"}
+{"offset": "0x2b152", "text": "genexpr"}
+{"offset": "0x2b15a", "text": "generator already executing"}
+{"offset": "0x2b176", "text": "name '%U' is not defined"}
+{"offset": "0x2b18f", "text": "builtins"}
+{"offset": "0x2b198", "text": "cython_runtime"}
+{"offset": "0x2b1a7", "text": "does not match"}
+{"offset": "0x2b1b6", "text": "collections.abc"}
+{"offset": "0x2b1c6", "text": "backports_abc"}
+{"offset": "0x2b1d4", "text": "init scripts.bq_fetch_bundle"}
+{"offset": "0x2b1f1", "text": "function"}
+{"offset": "0x2b1fa", "text": "scripts.bq_fetch_bundle._cfg"}
+{"offset": "0x2b217", "text": "exactly"}
+{"offset": "0x2b21f", "text": "scripts.bq_fetch_bundle.run"}
+{"offset": "0x2b23b", "text": "month_range"}
+{"offset": "0x2b247", "text": "write_csv"}
+{"offset": "0x2b251", "text": "throw"}
+{"offset": "0x2b257", "text": "scripts.bq_fetch_bundle.main"}
+{"offset": "0x2b274", "text": "_cython_3_0_12.generator"}
+{"offset": "0x2b28d", "text": "__name__"}
+{"offset": "0x2b296", "text": "name of the generator"}
+{"offset": "0x2b2ac", "text": "__qualname__"}
+{"offset": "0x2b2b9", "text": "gi_frame"}
+{"offset": "0x2b2c2", "text": "Frame of the generator"}
+{"offset": "0x2b2d9", "text": "gi_running"}
+{"offset": "0x2b2e4", "text": "gi_yieldfrom"}
+{"offset": "0x2b2f1", "text": "gi_code"}
+{"offset": "0x2b2f9", "text": "__module__"}
+{"offset": "0x2b304", "text": "send"}
+{"offset": "0x2b309", "text": "close"}
+{"offset": "0x2b30f", "text": "__reduce__"}
+{"offset": "0x2b31a", "text": "func_doc"}
+{"offset": "0x2b323", "text": "__doc__"}
+{"offset": "0x2b32b", "text": "func_name"}
+{"offset": "0x2b335", "text": "func_dict"}
+{"offset": "0x2b33f", "text": "__dict__"}
+{"offset": "0x2b348", "text": "func_globals"}
+{"offset": "0x2b355", "text": "__globals__"}
+{"offset": "0x2b361", "text": "func_closure"}
+{"offset": "0x2b36e", "text": "__closure__"}
+{"offset": "0x2b37a", "text": "func_code"}
+{"offset": "0x2b384", "text": "__code__"}
+{"offset": "0x2b38d", "text": "func_defaults"}
+{"offset": "0x2b39b", "text": "__defaults__"}
+{"offset": "0x2b3a8", "text": "__kwdefaults__"}
+{"offset": "0x2b3b7", "text": "__annotations__"}
+{"offset": "0x2b3c7", "text": "_is_coroutine"}
+{"offset": "0x2b3d5", "text": "client"}
+{"offset": "0x2b3e0", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x2b408", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x2b438", "text": "strings are too large to concat"}
+{"offset": "0x2b458", "text": " while calling a Python object"}
+{"offset": "0x2b478", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x2b4a8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x2b4d0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x2b500", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x2b530", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x2b590", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x2b5c0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x2b5f0", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x2b620", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2b688", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x2b6b8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x2b718", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x2b748", "text": "__name__ must be set to a string object"}
+{"offset": "0x2b770", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x2b8b8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x2b8f0", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x2b928", "text": "%.200s() keywords must be strings"}
+{"offset": "0x2b950", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x2b980", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x2b9b0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x2b9e8", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x2ba18", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x2ba58", "text": "join() result is too long for a Python string"}
+{"offset": "0x2ba88", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x2bab0", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/bq_fetch_bundle.c"}
+{"offset": "0x2baf0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x2bb28", "text": "generator raised StopIteration"}
+{"offset": "0x2bb48", "text": "Module 'bq_fetch_bundle' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x2bba0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x2bbf0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x2bc18", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x2bcc8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x2bd08", "text": "dictionary changed size during iteration"}
+{"offset": "0x2bd38", "text": "'NoneType' object is not iterable"}
+{"offset": "0x2bd60", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x2bd88", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x2bdc8", "text": "generator ignored GeneratorExit"}
+{"offset": "0x2bde8", "text": "scripts.bq_fetch_bundle.client"}
+{"offset": "0x2be08", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x2be28", "text": "scripts.bq_fetch_bundle.month_range"}
+{"offset": "0x2be50", "text": "scripts.bq_fetch_bundle.write_csv"}
+{"offset": "0x2be78", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x2bea8", "text": "instance exception may not have a separate value"}
+{"offset": "0x2bee0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x2bf28", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x2bf68", "text": "scripts.bq_fetch_bundle.main.genexpr"}
+{"offset": "0x2bf90", "text": "qualified name of the generator"}
+{"offset": "0x2bfb0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x2bfe0", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2c040", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2c0b0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x2c0e8", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x2c118", "text": "scripts.bq_fetch_bundle.__pyx_scope_struct__genexpr"}
+{"offset": "0x2c180", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x2c260", "text": "pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_BANR_VSBLT_D"}
+{"offset": "0x2c2a0", "text": "pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_SALE_RK_D"}
+{"offset": "0x2c2e0", "text": "FastAPI 주입 URL (예: http://devtools:8100) — 지정 시 scp 대신 POST /bq/inbox 로 전송 (httpx 필요: pip install httpx)"}
+{"offset": "0x2c380", "text": " devtools:~/projects/lge-hs-clinic-monitoring/data/bq_inbox/\n  (또는 --push http://devtools:8100 으로 FastAPI 주입)"}
+{"offset": "0x2c400", "text": "SELECT MIN(d) mn, MAX(d) mx FROM ("}
+{"offset": "0x2c440", "text": "httpx 미설치 — pip install httpx 후 재실행 (또는 scp 사용)"}
+{"offset": "0x2c490", "text": "scripts/bq_fetch_bundle.py"}
+{"offset": "0x2c4b0", "text": "` WHERE DATE BETWEEN @s AND @e"}
+{"offset": "0x2c4d0", "text": "scripts.bq_fetch_bundle"}
+{"offset": "0x2c4f0", "text": "osm_target_extract.sql"}
+{"offset": "0x2c520", "text": "daily/monthly 조회 일자 YYYYMMDD"}
+{"offset": "0x2c550", "text": "total_bytes_processed"}
+{"offset": "0x2c570", "text": "osm_daily_product.sql"}
+{"offset": "0x2c590", "text": "SELECT DATE AS d FROM `"}
+{"offset": "0x2c5b0", "text": "maximum_bytes_billed"}
+{"offset": "0x2c5d0", "text": "ScalarQueryParameter"}
+{"offset": "0x2c5f0", "text": "main.<locals>.genexpr"}
+{"offset": "0x2c610", "text": "BQ_MAX_BYTES_BILLED"}
+{"offset": "0x2c630", "text": "osm_target_extract_"}
+{"offset": "0x2c650", "text": "osm_daily_srch.sql"}
+{"offset": "0x2c670", "text": "osm_daily_menu.sql"}
+{"offset": "0x2c690", "text": "cline_in_traceback"}
+{"offset": "0x2c6b0", "text": "asyncio.coroutines"}
+{"offset": "0x2c6d0", "text": "BQ_BILLING_PROJECT"}
+{"offset": "0x2c6f0", "text": "query_parameters"}
+{"offset": "0x2c710", "text": "application/json"}
+{"offset": "0x2c730", "text": "tuple[date, date]"}
+{"offset": "0x2c750", "text": "asia-northeast3"}
+{"offset": "0x2c760", "text": "targets 대상 월 YYYYMM"}
+{"offset": "0x2c780", "text": "QueryJobConfig"}
+{"offset": "0x2c790", "text": "ArgumentParser"}
+{"offset": "0x2c7a0", "text": "manifest.json"}
+{"offset": "0x2c7b0", "text": "TARGET_TABLES"}
+{"offset": "0x2c7c0", "text": "pjt-lge-oned"}
+{"offset": "0x2c7d0", "text": "_is_coroutine"}
+{"offset": "0x2c7e0", "text": "_initializing"}
+{"offset": "0x2c7f0", "text": "google.cloud"}
+{"offset": "0x2c800", "text": "ensure_ascii"}
+{"offset": "0x2c810", "text": "core.sqltext"}
+{"offset": "0x2c820", "text": "add_argument"}
+{"offset": "0x2c830", "text": "CLINIC_ENTRY"}
+{"offset": "0x2c840", "text": "writeheader"}
+{"offset": "0x2c850", "text": "target_date"}
+{"offset": "0x2c860", "text": "status_code"}
+{"offset": "0x2c870", "text": "month_range"}
+{"offset": "0x2c880", "text": "bq_bundle"}
+{"offset": "0x2c890", "text": "ImportError"}
+{"offset": "0x2c8a0", "text": "BQ_LOCATION"}
+{"offset": "0x2c8b0", "text": "write_text"}
+{"offset": "0x2c8c0", "text": "start_date"}
+{"offset": "0x2c8d0", "text": "read_bytes"}
+{"offset": "0x2c8e0", "text": "parse_args"}
+{"offset": "0x2c8f0", "text": "[manifest] "}
+{"offset": "0x2c900", "text": "job_config"}
+{"offset": "0x2c910", "text": "fieldnames"}
+{"offset": "0x2c920", "text": "TARGET_SQL"}
+{"offset": "0x2c930", "text": "DictWriter"}
+{"offset": "0x2c940", "text": "DAILY_SQLS"}
+{"offset": "0x2c950", "text": "writerows"}
+{"offset": "0x2c960", "text": "write_csv"}
+{"offset": "0x2c970", "text": "utf-8-sig"}
+{"offset": "0x2c980", "text": "timedelta"}
+{"offset": "0x2c990", "text": "targets_"}
+{"offset": "0x2c9a0", "text": "list[dict]"}
+{"offset": "0x2c9b0", "text": "isenabled"}
+{"offset": "0x2c9c0", "text": "hexdigest"}
+{"offset": "0x2c9e0", "text": "출력 상위 디렉터리 (기본 ./bq_bundle)"}
+{"offset": "0x2ca10", "text": " UNION ALL "}
+{"offset": "0x2ca1c", "text": "window"}
+{"offset": "0x2ca28", "text": "text/csv"}
+{"offset": "0x2ca38", "text": "strptime"}
+{"offset": "0x2ca48", "text": "strftime"}
+{"offset": "0x2ca58", "text": "sql_name"}
+{"offset": "0x2ca68", "text": "required"}
+{"offset": "0x2ca78", "text": "read_sql"}
+{"offset": "0x2ca88", "text": "manifest"}
+{"offset": "0x2ca98", "text": "location"}
+{"offset": "0x2caa8", "text": "exist_ok"}
+{"offset": "0x2cab8", "text": "end_date"}
+{"offset": "0x2cac8", "text": "encoding"}
+{"offset": "0x2cad8", "text": "datetime"}
+{"offset": "0x2cae8", "text": "/bq/inbox"}
+{"offset": "0x2caf8", "text": "bigquery"}
+{"offset": "0x2cb08", "text": "argparse"}
+{"offset": "0x2cb18", "text": "timeout"}
+{"offset": "0x2cb20", "text": "targets"}
+{"offset": "0x2cb28", "text": "resolve"}
+{"offset": "0x2cb30", "text": "replace"}
+{"offset": "0x2cb38", "text": "project"}
+{"offset": "0x2cb40", "text": "payload"}
+{"offset": "0x2cb48", "text": "pathlib"}
+{"offset": "0x2cb50", "text": "parents"}
+{"offset": "0x2cb58", "text": "newline"}
+{"offset": "0x2cb60", "text": "monthly"}
+{"offset": "0x2cb68", "text": "--month"}
+{"offset": "0x2cb70", "text": "iterdir"}
+{"offset": "0x2cb78", "text": "hashlib"}
+{"offset": "0x2cb80", "text": "genexpr"}
+{"offset": "0x2cb88", "text": "[extract] "}
+{"offset": "0x2cb98", "text": "environ"}
+{"offset": "0x2cba0", "text": "disable"}
+{"offset": "0x2cba8", "text": "default"}
+{"offset": "0x2cbb0", "text": "choices"}
+{"offset": "0x2cbb8", "text": "SQL_DIR"}
+{"offset": "0x2cbc0", "text": "[window] 월 "}
+{"offset": "0x2cbce", "text": "target"}
+{"offset": "0x2cbd5", "text": "suffix"}
+{"offset": "0x2cbdc", "text": "subdir"}
+{"offset": "0x2cbe3", "text": "sha256"}
+{"offset": "0x2cbea", "text": "rstrip"}
+{"offset": "0x2cbf1", "text": "return"}
+{"offset": "0x2cbf8", "text": "result"}
+{"offset": "0x2cc00", "text": "[push] "}
+{"offset": "0x2cc08", "text": "push"}
+{"offset": "0x2cc0d", "text": "params"}
+{"offset": "0x2cc18", "text": "__name__"}
+{"offset": "0x2cc21", "text": "mode"}
+{"offset": "0x2cc26", "text": "main"}
+{"offset": "0x2cc2b", "text": ".json"}
+{"offset": "0x2cc31", "text": "insert"}
+{"offset": "0x2cc38", "text": "indent"}
+{"offset": "0x2cc40", "text": "__import__"}
+{"offset": "0x2cc4b", "text": "exit"}
+{"offset": "0x2cc50", "text": "enable"}
+{"offset": "0x2cc57", "text": "--date"}
+{"offset": "0x2cc5e", "text": "client"}
+{"offset": "0x2cc65", "text": "Client"}
+{"offset": "0x2cc70", "text": "[write] "}
+{"offset": "0x2cc79", "text": "utf-8"}
+{"offset": "0x2cc7f", "text": "union"}
+{"offset": "0x2cc85", "text": "today"}
+{"offset": "0x2cc8b", "text": "throw"}
+{"offset": "0x2cc91", "text": "start"}
+{"offset": "0x2cca0", "text": "\n전송:\n  scp -r "}
+{"offset": "0x2ccb3", "text": "query"}
+{"offset": "0x2ccb9", "text": "print"}
+{"offset": "0x2ccbf", "text": "--out"}
+{"offset": "0x2ccc5", "text": "month"}
+{"offset": "0x2cccb", "text": "mkdir"}
+{"offset": "0x2ccd1", "text": "items"}
+{"offset": "0x2ccd7", "text": "httpx"}
+{"offset": "0x2ccdd", "text": "fname"}
+{"offset": "0x2cce3", "text": "first"}
+{"offset": "0x2cce9", "text": "files"}
+{"offset": "0x2ccf0", "text": "__enter__"}
+{"offset": "0x2ccfa", "text": "dumps"}
+{"offset": "0x2cd00", "text": "daily"}
+{"offset": "0x2cd06", "text": ".csv"}
+{"offset": "0x2cd0b", "text": "close"}
+{"offset": "0x2cd11", "text": "%Y%m%d"}
+{"offset": "0x2cd18", "text": "text"}
+{"offset": "0x2cd20", "text": "__test__"}
+{"offset": "0x2cd30", "text": "__spec__"}
+{"offset": "0x2cd39", "text": "send"}
+{"offset": "0x2cd3e", "text": "rows"}
+{"offset": "0x2cd43", "text": "resp"}
+{"offset": "0x2cd48", "text": "--push"}
+{"offset": "0x2cd4f", "text": "post"}
+{"offset": "0x2cd54", "text": "path"}
+{"offset": "0x2cd59", "text": "open"}
+{"offset": "0x2cd5e", "text": "name"}
+{"offset": "0x2cd63", "text": "--mode"}
+{"offset": "0x2cd70", "text": "__main__"}
+{"offset": "0x2cd79", "text": "list"}
+{"offset": "0x2cd7e", "text": "last"}
+{"offset": "0x2cd83", "text": "keys"}
+{"offset": "0x2cd88", "text": "json"}
+{"offset": "0x2cd8d", "text": "help"}
+{"offset": "0x2cd98", "text": "__file__"}
+{"offset": "0x2cda8", "text": "__exit__"}
+{"offset": "0x2cdb1", "text": "dict"}
+{"offset": "0x2cdb6", "text": "days"}
+{"offset": "0x2cdbb", "text": "date"}
+{"offset": "0x2cdc0", "text": "data"}
+{"offset": "0x2cdc5", "text": "dags"}
+{"offset": "0x2cdca", "text": "base"}
+{"offset": "0x2cdcf", "text": "args"}
+{"offset": "0x2cdd4", "text": "Path"}
+{"offset": "0x2cdd9", "text": "None"}
+{"offset": "0x2cdde", "text": "DATE"}
+{"offset": "0x2cdeb", "text": ".sql"}
+{"offset": "0x2ce14", "text": "_cfg"}
+{"offset": "0x2ce30", "text": " 실데이터 "}
+{"offset": "0x2ce43", "text": "%Y%m"}
+{"offset": "0x2ce70", "text": "행 (스캔 "}

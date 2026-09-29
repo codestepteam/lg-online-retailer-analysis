@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "retailer": "elgiganten",
+  "page_type": "brand-category",
+  "requested_url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+  "entry_url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+  "final_url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+  "status_code": 200,
+  "captured_at": "2026-09-26T02:57:55.234852+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.003,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.501,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 1.619,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.017,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.026,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "cebd809879bc27302d77c0dee5b05baad9c4eadfcb90a98d0329d96559557b35",
+  "bytes": {
+    "raw_html": 686131,
+    "screenshot": 310274
+  }
+}

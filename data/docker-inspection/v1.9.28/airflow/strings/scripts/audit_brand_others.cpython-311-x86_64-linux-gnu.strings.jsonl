@@ -1,0 +1,418 @@
+{"offset": "0x5d000", "text": "%.200s() needs an argument"}
+{"offset": "0x5d01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x5d039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x5d04f", "text": "cannot import name %S"}
+{"offset": "0x5d065", "text": "__loader__"}
+{"offset": "0x5d070", "text": "loader"}
+{"offset": "0x5d077", "text": "__file__"}
+{"offset": "0x5d080", "text": "origin"}
+{"offset": "0x5d087", "text": "__package__"}
+{"offset": "0x5d093", "text": "parent"}
+{"offset": "0x5d09a", "text": "__path__"}
+{"offset": "0x5d0a3", "text": "submodule_search_locations"}
+{"offset": "0x5d0be", "text": "keywords must be strings"}
+{"offset": "0x5d0d7", "text": "_cython_coroutine_type"}
+{"offset": "0x5d0ee", "text": "_cython_generator_type"}
+{"offset": "0x5d105", "text": "_module"}
+{"offset": "0x5d10d", "text": "__builtins__"}
+{"offset": "0x5d11a", "text": "_cython_3_0_12"}
+{"offset": "0x5d129", "text": "%s (%s:%d)"}
+{"offset": "0x5d134", "text": "_lg_stats"}
+{"offset": "0x5d13e", "text": "scripts/audit_brand_others.py"}
+{"offset": "0x5d15c", "text": "exactly"}
+{"offset": "0x5d164", "text": "row_key"}
+{"offset": "0x5d16c", "text": "generator already executing"}
+{"offset": "0x5d18e", "text": "genexpr"}
+{"offset": "0x5d196", "text": "values"}
+{"offset": "0x5d19d", "text": "load_rows"}
+{"offset": "0x5d1a7", "text": "brands_by_url"}
+{"offset": "0x5d1b9", "text": "throw"}
+{"offset": "0x5d1bf", "text": "name '%U' is not defined"}
+{"offset": "0x5d1d8", "text": "builtins"}
+{"offset": "0x5d1e1", "text": "cython_runtime"}
+{"offset": "0x5d1f0", "text": "scripts.audit_brand_others"}
+{"offset": "0x5d20b", "text": "does not match"}
+{"offset": "0x5d21a", "text": "collections.abc"}
+{"offset": "0x5d22a", "text": "backports_abc"}
+{"offset": "0x5d238", "text": "items"}
+{"offset": "0x5d23e", "text": "scripts.audit_brand_others.v1"}
+{"offset": "0x5d25c", "text": "float division"}
+{"offset": "0x5d26b", "text": "scripts.audit_brand_others.g3"}
+{"offset": "0x5d289", "text": "parsed_brand_map"}
+{"offset": "0x5d29a", "text": "item_rows"}
+{"offset": "0x5d2a4", "text": "g1_g2"}
+{"offset": "0x5d2aa", "text": "product_rows"}
+{"offset": "0x5d2b7", "text": "_evidence"}
+{"offset": "0x5d2c1", "text": "scripts.audit_brand_others.g4"}
+{"offset": "0x5d2df", "text": "_cython_3_0_12.generator"}
+{"offset": "0x5d2f8", "text": "__name__"}
+{"offset": "0x5d301", "text": "name of the generator"}
+{"offset": "0x5d317", "text": "__qualname__"}
+{"offset": "0x5d324", "text": "gi_frame"}
+{"offset": "0x5d32d", "text": "Frame of the generator"}
+{"offset": "0x5d344", "text": "gi_running"}
+{"offset": "0x5d34f", "text": "gi_yieldfrom"}
+{"offset": "0x5d35c", "text": "gi_code"}
+{"offset": "0x5d364", "text": "__module__"}
+{"offset": "0x5d36f", "text": "send"}
+{"offset": "0x5d374", "text": "close"}
+{"offset": "0x5d37a", "text": "__reduce__"}
+{"offset": "0x5d385", "text": "func_doc"}
+{"offset": "0x5d38e", "text": "__doc__"}
+{"offset": "0x5d396", "text": "func_name"}
+{"offset": "0x5d3a0", "text": "func_dict"}
+{"offset": "0x5d3aa", "text": "__dict__"}
+{"offset": "0x5d3b3", "text": "func_globals"}
+{"offset": "0x5d3c0", "text": "__globals__"}
+{"offset": "0x5d3cc", "text": "func_closure"}
+{"offset": "0x5d3d9", "text": "__closure__"}
+{"offset": "0x5d3e5", "text": "func_code"}
+{"offset": "0x5d3ef", "text": "__code__"}
+{"offset": "0x5d3f8", "text": "func_defaults"}
+{"offset": "0x5d406", "text": "__defaults__"}
+{"offset": "0x5d413", "text": "__kwdefaults__"}
+{"offset": "0x5d422", "text": "__annotations__"}
+{"offset": "0x5d432", "text": "_is_coroutine"}
+{"offset": "0x5d440", "text": "CythonUnboundCMethod"}
+{"offset": "0x5d455", "text": "main"}
+{"offset": "0x5d460", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x5d488", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x5d4b8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x5d4e0", "text": "strings are too large to concat"}
+{"offset": "0x5d500", "text": " while calling a Python object"}
+{"offset": "0x5d520", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x5d550", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x5d578", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x5d628", "text": "function's dictionary may not be deleted"}
+{"offset": "0x5d658", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x5d688", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x5d6e8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x5d718", "text": "generator raised StopIteration"}
+{"offset": "0x5d738", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x5d768", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x5d798", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5d800", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x5d830", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5d890", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x5d8c0", "text": "__name__ must be set to a string object"}
+{"offset": "0x5d8e8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x5d918", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x5da60", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x5da98", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x5dac8", "text": "instance exception may not have a separate value"}
+{"offset": "0x5db00", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x5db48", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x5db88", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x5dba8", "text": "dictionary changed size during iteration"}
+{"offset": "0x5dbd8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x5dc10", "text": "%.200s() keywords must be strings"}
+{"offset": "0x5dc38", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x5dc68", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x5dca0", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x5dcd0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x5dd10", "text": "join() result is too long for a Python string"}
+{"offset": "0x5dd40", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x5dd70", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x5dd98", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/audit_brand_others.c"}
+{"offset": "0x5ddd8", "text": "scripts.audit_brand_others._lg_stats.genexpr"}
+{"offset": "0x5de08", "text": "scripts.audit_brand_others._lg_stats"}
+{"offset": "0x5de30", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x5de70", "text": "scripts.audit_brand_others.row_key.genexpr"}
+{"offset": "0x5dea0", "text": "scripts.audit_brand_others.row_key"}
+{"offset": "0x5dec8", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x5def0", "text": "'NoneType' object is not iterable"}
+{"offset": "0x5df18", "text": "%.200s object is not an iterator"}
+{"offset": "0x5df40", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x5df78", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0x5dfc0", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x5dfe8", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x5e018", "text": "scripts.audit_brand_others.load_rows"}
+{"offset": "0x5e040", "text": "generator ignored GeneratorExit"}
+{"offset": "0x5e060", "text": "Module 'audit_brand_others' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x5e0c0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x5e110", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x5e150", "text": "init scripts.audit_brand_others"}
+{"offset": "0x5e170", "text": "scripts.audit_brand_others.main.genexpr"}
+{"offset": "0x5e198", "text": "scripts.audit_brand_others.main"}
+{"offset": "0x5e1b8", "text": "scripts.audit_brand_others.v1.genexpr"}
+{"offset": "0x5e1e0", "text": "scripts.audit_brand_others.g3.genexpr"}
+{"offset": "0x5e208", "text": "scripts.audit_brand_others.parsed_brand_map"}
+{"offset": "0x5e238", "text": "scripts.audit_brand_others.item_rows"}
+{"offset": "0x5e260", "text": "set changed size during iteration"}
+{"offset": "0x5e288", "text": "scripts.audit_brand_others.g1_g2"}
+{"offset": "0x5e2b0", "text": "scripts.audit_brand_others.product_rows"}
+{"offset": "0x5e2d8", "text": "scripts.audit_brand_others._evidence"}
+{"offset": "0x5e300", "text": "argument after ** must be a mapping, not NoneType"}
+{"offset": "0x5e338", "text": "'%.200s' object is not a mapping"}
+{"offset": "0x5e360", "text": "scripts.audit_brand_others.g4.genexpr"}
+{"offset": "0x5e388", "text": "qualified name of the generator"}
+{"offset": "0x5e3a8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x5e3d8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5e438", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5e4a8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x5e4e0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x5e510", "text": "scripts.audit_brand_others.__pyx_scope_struct_13_genexpr"}
+{"offset": "0x5e550", "text": "scripts.audit_brand_others.__pyx_scope_struct_12_genexpr"}
+{"offset": "0x5e590", "text": "scripts.audit_brand_others.__pyx_scope_struct_11_genexpr"}
+{"offset": "0x5e5d0", "text": "scripts.audit_brand_others.__pyx_scope_struct_10_v1"}
+{"offset": "0x5e608", "text": "scripts.audit_brand_others.__pyx_scope_struct_9_genexpr"}
+{"offset": "0x5e640", "text": "scripts.audit_brand_others.__pyx_scope_struct_8_genexpr"}
+{"offset": "0x5e678", "text": "scripts.audit_brand_others.__pyx_scope_struct_7_genexpr"}
+{"offset": "0x5e6b0", "text": "scripts.audit_brand_others.__pyx_scope_struct_6_g4"}
+{"offset": "0x5e6e8", "text": "scripts.audit_brand_others.__pyx_scope_struct_5_genexpr"}
+{"offset": "0x5e720", "text": "scripts.audit_brand_others.__pyx_scope_struct_4_genexpr"}
+{"offset": "0x5e758", "text": "scripts.audit_brand_others.__pyx_scope_struct_3_genexpr"}
+{"offset": "0x5e790", "text": "scripts.audit_brand_others.__pyx_scope_struct_2_g3"}
+{"offset": "0x5e7c8", "text": "scripts.audit_brand_others.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x5e800", "text": "scripts.audit_brand_others.__pyx_scope_struct__row_key"}
+{"offset": "0x5e860", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x5e930", "text": "scripts/audit_brand_others.py"}
+{"offset": "0x5e950", "text": "scripts.audit_brand_others"}
+{"offset": "0x5e980", "text": "data/{batch}/home/parse — A/B군 분리·매칭필드 판정용"}
+{"offset": "0x5e9e0", "text": "  (A/B 군 분리는 --parse-dir 로 parsed.json 을 함께 지정해야 나온다)"}
+{"offset": "0x5ea40", "text": "^top(\\d+)_(product_name|url)$"}
+{"offset": "0x5ea60", "text": "_lg_stats.<locals>.genexpr"}
+{"offset": "0x5ea80", "text": "row_key.<locals>.genexpr"}
+{"offset": "0x5eaa0", "text": "main.<locals>.genexpr"}
+{"offset": "0x5eac0", "text": "cline_in_traceback"}
+{"offset": "0x5eae0", "text": "asyncio.coroutines"}
+{"offset": "0x5eb00", "text": "V1 전수 대조 (§2.3·§3.1) — baseline 불필요, 표본 아님"}
+{"offset": "0x5eb60", "text": "  변경 0건 — 사전이 비었거나(3단계 no-op) baseline 이 동일 코드다."}
+{"offset": "0x5ebc0", "text": "v1.<locals>.genexpr"}
+{"offset": "0x5ebe0", "text": "g4.<locals>.genexpr"}
+{"offset": "0x5ec00", "text": "g3.<locals>.genexpr"}
+{"offset": "0x5ec20", "text": "  (baseline 없음 — 절대값만. 차이 판정은 --baseline 필요)"}
+{"offset": "0x5ec70", "text": ") · top20_lg_count 합 "}
+{"offset": "0x5ec90", "text": "행 · top20_lg_count 합 "}
+{"offset": "0x5ecb0", "text": "parsed_brand_map"}
+{"offset": "0x5ece0", "text": "건 (canon 교정분은 match_key 동일이라 제외됨)"}
+{"offset": "0x5ed20", "text": "\n== G3. OTHERS 비중 (목표 ID1 5% 이하) =="}
+{"offset": "0x5ed50", "text": "top20_lg_count"}
+{"offset": "0x5ed60", "text": "sample_product"}
+{"offset": "0x5ed70", "text": "kinds_by_sheet"}
+{"offset": "0x5ed80", "text": "--eyecheck-out"}
+{"offset": "0x5eda0", "text": "\n== G2. ID4 불변 (tracked 전용 시트) =="}
+{"offset": "0x5edd0", "text": "ArgumentParser"}
+{"offset": "0x5ede0", "text": "load_workbook"}
+{"offset": "0x5edf0", "text": "__class_getitem__"}
+{"offset": "0x5ee08", "text": "brands_by_url"}
+{"offset": "0x5ee18", "text": "SearchKeyword"}
+{"offset": "0x5ee28", "text": "Elcorteingles"}
+{"offset": "0x5ee40", "text": "  [기준3] 표기 분열 (같은 match_key, 표기 2벌 이상) — "}
+{"offset": "0x5eea0", "text": "--v1 과 함께: 종류별 대표 제품 CSV (눈검사 워크시트 §4.3-2)"}
+{"offset": "0x5eef0", "text": "product_rows"}
+{"offset": "0x5ef00", "text": "product_name"}
+{"offset": "0x5ef10", "text": "_is_coroutine"}
+{"offset": "0x5ef20", "text": "_initializing"}
+{"offset": "0x5ef30", "text": "eyecheck_out"}
+{"offset": "0x5ef40", "text": "add_argument"}
+{"offset": "0x5ef50", "text": "CLINIC_ENTRY"}
+{"offset": "0x5ef60", "text": "values_only"}
+{"offset": "0x5ef70", "text": "parsed.json"}
+{"offset": "0x5ef80", "text": "--parse-dir"}
+{"offset": "0x5ef90", "text": "most_common"}
+{"offset": "0x5efa0", "text": "description"}
+{"offset": "0x5efb0", "text": "defaultdict"}
+{"offset": "0x5efc0", "text": "core.brands"}
+{"offset": "0x5efd0", "text": "collections"}
+{"offset": "0x5efe0", "text": "store_true"}
+{"offset": "0x5eff0", "text": "startswith"}
+{"offset": "0x5f000", "text": "splitlines"}
+{"offset": "0x5f010", "text": "sheetnames"}
+{"offset": "0x5f020", "text": "setdefault"}
+{"offset": "0x5f030", "text": "sample_url"}
+{"offset": "0x5f040", "text": "parse_args"}
+{"offset": "0x5f050", "text": "evidence"}
+{"offset": "0x5f060", "text": "baseline : "}
+{"offset": "0x5f070", "text": "baseline"}
+{"offset": "0x5f080", "text": "--baseline"}
+{"offset": "0x5f090", "text": "SystemExit"}
+{"offset": "0x5f0a0", "text": "Mediaworld"}
+{"offset": "0x5f0b0", "text": "utf-8-sig"}
+{"offset": "0x5f0c0", "text": "read_text"}
+{"offset": "0x5f0d0", "text": "read_only"}
+{"offset": "0x5f0e0", "text": "parse_dir"}
+{"offset": "0x5f0f0", "text": "match_key"}
+{"offset": "0x5f100", "text": "load_rows"}
+{"offset": "0x5f110", "text": "iter_rows"}
+{"offset": "0x5f120", "text": "item_rows"}
+{"offset": "0x5f130", "text": "isenabled"}
+{"offset": "0x5f140", "text": "data_only"}
+{"offset": "0x5f150", "text": "Path | None"}
+{"offset": "0x5f160", "text": "ITEM_ATTR"}
+{"offset": "0x5f170", "text": "Attribute"}
+{"offset": "0x5f180", "text": "  [기준1] 근거없음 — 0 이어야 한다 (선언값·canon 교정분 포함 판정)"}
+{"offset": "0x5f1e0", "text": "writerow"}
+{"offset": "0x5f1e9", "text": "sample"}
+{"offset": "0x5f1f0", "text": "retailer"}
+{"offset": "0x5f200", "text": "report   : "}
+{"offset": "0x5f210", "text": "products"}
+{"offset": "0x5f220", "text": "openpyxl"}
+{"offset": "0x5f230", "text": "mismatch"}
+{"offset": "0x5f240", "text": "_lg_stats"}
+{"offset": "0x5f260", "text": "  눈검사(eyecheck) 워크시트 → "}
+{"offset": "0x5f288", "text": "_evidence"}
+{"offset": "0x5f298", "text": "encoding"}
+{"offset": "0x5f2c0", "text": "  눈검사 모집단 — 시트 합집합 distinct "}
+{"offset": "0x5f2f8", "text": "declared"}
+{"offset": "0x5f308", "text": "by_field"}
+{"offset": "0x5f320", "text": "  (baseline 없음 — 새로 채워진 항목을 특정할 수 없다)"}
+{"offset": "0x5f368", "text": "argparse"}
+{"offset": "0x5f378", "text": "(?![a-z0-9])"}
+{"offset": "0x5f388", "text": "WEIGHTED"}
+{"offset": "0x5f398", "text": "Retailer"}
+{"offset": "0x5f3a8", "text": " · OTHERS "}
+{"offset": "0x5f3b8", "text": "Category"}
+{"offset": "0x5f3c8", "text": ": Brand=LG "}
+{"offset": "0x5f3d8", "text": "urlonly"}
+{"offset": "0x5f3e0", "text": "shuffle"}
+{"offset": "0x5f3e8", "text": "row_key"}
+{"offset": "0x5f3f0", "text": "results"}
+{"offset": "0x5f3f8", "text": "resolve"}
+{"offset": "0x5f400", "text": "pathlib"}
+{"offset": "0x5f408", "text": "parents"}
+{"offset": "0x5f410", "text": "newline"}
+{"offset": "0x5f418", "text": "genexpr"}
+{"offset": "0x5f420", "text": "environ"}
+{"offset": "0x5f428", "text": "disable"}
+{"offset": "0x5f430", "text": "default"}
+{"offset": "0x5f438", "text": "compile"}
+{"offset": "0x5f440", "text": "changed"}
+{"offset": "0x5f448", "text": "by_rtlr"}
+{"offset": "0x5f450", "text": "buckets"}
+{"offset": "0x5f460", "text": "건 · brand 채움 "}
+{"offset": "0x5f480", "text": "건 (ID3 는 브랜드 패싯 PLP 아티팩트 — 제품 판정 아님)"}
+{"offset": "0x5f4e0", "text": "\n== G1. LG 불변 (차이 0 이어야 한다) =="}
+{"offset": "0x5f518", "text": "Country"}
+{"offset": "0x5f520", "text": "Counter"}
+{"offset": "0x5f528", "text": "B군(brand無)"}
+{"offset": "0x5f540", "text": "  A군(brand有)"}
+{"offset": "0x5f560", "text": "  [기준2] 선언 brand 와 판정 불일치 — "}
+{"offset": "0x5f593", "text": "writer"}
+{"offset": "0x5f59a", "text": "values"}
+{"offset": "0x5f5a1", "text": "stderr"}
+{"offset": "0x5f5a8", "text": "--seed"}
+{"offset": "0x5f5af", "text": "search"}
+{"offset": "0x5f5b8", "text": "--sample"}
+{"offset": "0x5f5c1", "text": "return"}
+{"offset": "0x5f5c8", "text": "rest"}
+{"offset": "0x5f5cd", "text": "report"}
+{"offset": "0x5f5d4", "text": "random"}
+{"offset": "0x5f5db", "text": "others"}
+{"offset": "0x5f5e2", "text": "none_n"}
+{"offset": "0x5f5f0", "text": "__name__"}
+{"offset": "0x5f5f9", "text": "main"}
+{"offset": "0x5f5fe", "text": "judged"}
+{"offset": "0x5f605", "text": "insert"}
+{"offset": "0x5f610", "text": "__import__"}
+{"offset": "0x5f61b", "text": "filled"}
+{"offset": "0x5f628", "text": "__file__"}
+{"offset": "0x5f631", "text": "escape"}
+{"offset": "0x5f638", "text": "enable"}
+{"offset": "0x5f63f", "text": "append"}
+{"offset": "0x5f646", "text": "action"}
+{"offset": "0x5f650", "text": "(?<![a-z0-9])"}
+{"offset": "0x5f660", "text": "== V1. 방출값 전수 대조 (회귀 감시 — §3.1) =="}
+{"offset": "0x5f69c", "text": "SHEETS"}
+{"offset": "0x5f6a3", "text": "Random"}
+{"offset": "0x5f6aa", "text": "OTHERS"}
+{"offset": "0x5f6b1", "text": "Amazon"}
+{"offset": "0x5f6b8", "text": "where"}
+{"offset": "0x5f6be", "text": "utf-8"}
+{"offset": "0x5f6c4", "text": "union"}
+{"offset": "0x5f6ca", "text": "tuple"}
+{"offset": "0x5f6d0", "text": "throw"}
+{"offset": "0x5f6d6", "text": "strip"}
+{"offset": "0x5f6dc", "text": "split"}
+{"offset": "0x5f6e2", "text": "spell"}
+{"offset": "0x5f6e8", "text": "slots"}
+{"offset": "0x5f6ee", "text": "sheet"}
+{"offset": "0x5f6f4", "text": "risky"}
+{"offset": "0x5f6fa", "text": "rglob"}
+{"offset": "0x5f700", "text": "quota"}
+{"offset": "0x5f706", "text": "prods"}
+{"offset": "0x5f70c", "text": "print"}
+{"offset": "0x5f720", "text": "parse    : 제품 "}
+{"offset": "0x5f733", "text": "pairs"}
+{"offset": "0x5f739", "text": "match"}
+{"offset": "0x5f73f", "text": "lower"}
+{"offset": "0x5f745", "text": "loads"}
+{"offset": "0x5f74b", "text": "label"}
+{"offset": "0x5f751", "text": "kinds"}
+{"offset": "0x5f757", "text": "items"}
+{"offset": "0x5f75d", "text": "group"}
+{"offset": "0x5f763", "text": "g1_g2"}
+{"offset": "0x5f769", "text": "field"}
+{"offset": "0x5f770", "text": "__enter__"}
+{"offset": "0x5f77a", "text": "close"}
+{"offset": "0x5f780", "text": "brand"}
+{"offset": "0x5f786", "text": "basep"}
+{"offset": "0x5f78c", "text": "base4"}
+{"offset": "0x5f792", "text": "Value"}
+{"offset": "0x5f7a0", "text": "  [부가] 근거가 URL 에만 있는 건 — "}
+{"offset": "0x5f7d0", "text": "URL 만"}
+{"offset": "0x5f7e0", "text": "제품명 / URL"}
+{"offset": "0x5f7f0", "text": "Top20항목"}
+{"offset": "0x5f800", "text": "\n판정: G1/G2 "}
+{"offset": "0x5f810", "text": "Brand"}
+{"offset": "0x5f820", "text": "코드 수정 전 리포트 xlsx"}
+{"offset": "0x5f844", "text": "type"}
+{"offset": "0x5f849", "text": "text"}
+{"offset": "0x5f850", "text": "__test__"}
+{"offset": "0x5f860", "text": "__spec__"}
+{"offset": "0x5f869", "text": "send"}
+{"offset": "0x5f86e", "text": "seed"}
+{"offset": "0x5f873", "text": "safe"}
+{"offset": "0x5f878", "text": "rows"}
+{"offset": "0x5f87d", "text": "_rest"}
+{"offset": "0x5f883", "text": "pick"}
+{"offset": "0x5f888", "text": "path"}
+{"offset": "0x5f88d", "text": "open"}
+{"offset": "0x5f892", "text": "none"}
+{"offset": "0x5f897", "text": "name"}
+{"offset": "0x5f8a0", "text": "__main__"}
+{"offset": "0x5f8a9", "text": "list"}
+{"offset": "0x5f8ae", "text": "kind"}
+{"offset": "0x5f8b3", "text": "json"}
+{"offset": "0x5f8b8", "text": "help"}
+{"offset": "0x5f8bd", "text": "file"}
+{"offset": "0x5f8c8", "text": "__exit__"}
+{"offset": "0x5f8d1", "text": "diff"}
+{"offset": "0x5f8d6", "text": "dict"}
+{"offset": "0x5f8db", "text": "decl"}
+{"offset": "0x5f8e0", "text": "curp"}
+{"offset": "0x5f8e5", "text": "cur4"}
+{"offset": "0x5f8ea", "text": "bool"}
+{"offset": "0x5f8ef", "text": "bcnt"}
+{"offset": "0x5f8f4", "text": "base"}
+{"offset": "0x5f8f9", "text": "args"}
+{"offset": "0x5f8fe", "text": "REPO"}
+{"offset": "0x5f903", "text": "Path"}
+{"offset": "0x5f908", "text": "None"}
+{"offset": "0x5f958", "text": "__doc__"}
+{"offset": "0x5f980", "text": "위반 — 중단하고 판정 순서를 확인하라"}
+{"offset": "0x5f9c0", "text": "(없음)"}
+{"offset": "0x5f9d0", "text": "  시트 "}
+{"offset": "0x5f9e0", "text": "표본 재현용"}
+{"offset": "0x5f9f1", "text": "  <-  "}
+{"offset": "0x5fa20", "text": "   <- 확인 필요"}
+{"offset": "0x5fa38", "text": "      "}
+{"offset": "0x5fa40", "text": "근거없음"}
+{"offset": "0x5fa50", "text": "선언값만"}
+{"offset": "0x5fa70", "text": " · 종류 "}
+{"offset": "0x5fa80", "text": " · 브랜드 확정 "}
+{"offset": "0x5faa0", "text": ": 판정 건수 "}
+{"offset": "0x5fad0", "text": "리테일러"}
+{"offset": "0x5fae0", "text": "  리테일러 상위: "}
+{"offset": "0x5fb00", "text": "건 · 매칭필드 "}
+{"offset": "0x5fb18", "text": "  회수 "}
+{"offset": "0x5fb24", "text": "    "}
+{"offset": "0x5fb30", "text": " · 불일치 "}
+{"offset": "0x5fb45", "text": "  행 "}
+{"offset": "0x5fb50", "text": "   ← 위반"}
+{"offset": "0x5fba0", "text": "   ← 위반 (§4-1 판정 순서 확인)"}
+{"offset": "0x5fbd1", "text": "--v1"}
+{"offset": "0x5fc18", "text": "  ! "}
+{"offset": "0x5fc40", "text": "\n== G4. 새로 채워진 브랜드 표본 "}
+{"offset": "0x5fcc0", "text": "  [기준4] 접두어 쌍 (짧은 쪽이 긴 쪽을 잠식할 수 있는 조합) — "}
+{"offset": "0x5fd20", "text": "건 (오탐 0 이어야 한다) =="}

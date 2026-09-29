@@ -1,0 +1,1028 @@
+{"offset": "0xe3000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0xe3038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0xe3060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0xe3090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0xe30b8", "text": " while calling a Python object"}
+{"offset": "0xe30d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0xe3108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0xe3130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0xe31e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0xe3210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0xe3240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0xe32a0", "text": "invalid input, expected coroutine"}
+{"offset": "0xe32c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0xe32f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0xe3328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0xe3358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0xe33c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0xe33f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0xe3450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0xe3480", "text": "__name__ must be set to a string object"}
+{"offset": "0xe34a8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0xe34d8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0xe3620", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0xe3658", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0xe3688", "text": "instance exception may not have a separate value"}
+{"offset": "0xe36c0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0xe3708", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0xe3748", "text": "'%.200s' object is unsliceable"}
+{"offset": "0xe3768", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0xe37a0", "text": "%.200s() keywords must be strings"}
+{"offset": "0xe37c8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0xe37f8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0xe3830", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0xe3868", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0xe3890", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0xe38c0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0xe3900", "text": "join() result is too long for a Python string"}
+{"offset": "0xe3930", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0xe3958", "text": "generator raised StopIteration"}
+{"offset": "0xe3978", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl.c"}
+{"offset": "0xe39a8", "text": "crawl.run_gnb_depth._run_group"}
+{"offset": "0xe39c8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0xe3a08", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0xe3a40", "text": "free variable '%s' referenced before assignment in enclosing scope"}
+{"offset": "0xe3a88", "text": "crawl._capture_flix_delivery_blocks"}
+{"offset": "0xe3ab0", "text": "argument after ** must be a mapping, not NoneType"}
+{"offset": "0xe3ae8", "text": "'%.200s' object is not a mapping"}
+{"offset": "0xe3b10", "text": "crawl._fetch_once._brand_enrich"}
+{"offset": "0xe3b30", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0xe3b60", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0xe3b88", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0xe3bb0", "text": "dictionary changed size during iteration"}
+{"offset": "0xe3be0", "text": "generator ignored GeneratorExit"}
+{"offset": "0xe3c00", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0xe3c20", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0xe3c48", "text": "set changed size during iteration"}
+{"offset": "0xe3c70", "text": "coroutine is being awaited already"}
+{"offset": "0xe3c98", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0xe3cd0", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0xe3d10", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0xe3d48", "text": "__await__() returned a coroutine"}
+{"offset": "0xe3d70", "text": "crawl.load_page_targets.genexpr"}
+{"offset": "0xe3d90", "text": "Module 'crawl' has already been imported. Re-initialisation is not supported."}
+{"offset": "0xe3de0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0xe3e30", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0xe3e70", "text": "strings are too large to concat"}
+{"offset": "0xe3e90", "text": "'NoneType' object is not iterable"}
+{"offset": "0xe3eb8", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0xe3ee8", "text": "crawl.filter_brand_track.genexpr"}
+{"offset": "0xe3f10", "text": "crawl._normalize_config_rows.genexpr"}
+{"offset": "0xe3f38", "text": "crawl.audit_saved_status.genexpr"}
+{"offset": "0xe3f60", "text": "'NoneType' object is not subscriptable"}
+{"offset": "0xe3f88", "text": "qualified name of the generator"}
+{"offset": "0xe3fa8", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0xe3fd8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xe4038", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xe40a8", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0xe40e0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0xe4110", "text": "qualified name of the coroutine"}
+{"offset": "0xe4130", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xe4190", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xe4200", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0xe4238", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0xe4260", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0xe4298", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xe42f8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xe4368", "text": "crawl.__pyx_scope_struct_23__run_group"}
+{"offset": "0xe4390", "text": "crawl.__pyx_scope_struct_22_run_gnb_depth"}
+{"offset": "0xe43c0", "text": "crawl.__pyx_scope_struct_21_genexpr"}
+{"offset": "0xe43e8", "text": "crawl.__pyx_scope_struct_20_genexpr"}
+{"offset": "0xe4410", "text": "crawl.__pyx_scope_struct_19_genexpr"}
+{"offset": "0xe4438", "text": "crawl.__pyx_scope_struct_18_genexpr"}
+{"offset": "0xe4460", "text": "crawl.__pyx_scope_struct_17_genexpr"}
+{"offset": "0xe4488", "text": "crawl.__pyx_scope_struct_16_genexpr"}
+{"offset": "0xe44b0", "text": "crawl.__pyx_scope_struct_15_genexpr"}
+{"offset": "0xe44d8", "text": "crawl.__pyx_scope_struct_14_genexpr"}
+{"offset": "0xe4500", "text": "crawl.__pyx_scope_struct_13_genexpr"}
+{"offset": "0xe4528", "text": "crawl.__pyx_scope_struct_12_dispatch"}
+{"offset": "0xe4550", "text": "crawl.__pyx_scope_struct_11_genexpr"}
+{"offset": "0xe4578", "text": "crawl.__pyx_scope_struct_10_genexpr"}
+{"offset": "0xe45a0", "text": "crawl.__pyx_scope_struct_9_main"}
+{"offset": "0xe45c0", "text": "crawl.__pyx_scope_struct_8_genexpr"}
+{"offset": "0xe45e8", "text": "crawl.__pyx_scope_struct_7__check_ip_blocked"}
+{"offset": "0xe4618", "text": "crawl.__pyx_scope_struct_6_genexpr"}
+{"offset": "0xe4640", "text": "crawl.__pyx_scope_struct_5_genexpr"}
+{"offset": "0xe4668", "text": "crawl.__pyx_scope_struct_4_genexpr"}
+{"offset": "0xe4690", "text": "crawl.__pyx_scope_struct_3_crawl_one"}
+{"offset": "0xe46b8", "text": "crawl.__pyx_scope_struct_2__brand_enrich"}
+{"offset": "0xe46e8", "text": "crawl.__pyx_scope_struct_1__fetch_once"}
+{"offset": "0xe4710", "text": "crawl.__pyx_scope_struct___capture_flix_delivery_blocks"}
+{"offset": "0xe4748", "text": "cannot pickle '%.200s' object"}
+{"offset": "0xe4766", "text": "%.200s() needs an argument"}
+{"offset": "0xe4781", "text": "Bad call flags for CyFunction"}
+{"offset": "0xe479f", "text": "<cyfunction %U at %p>"}
+{"offset": "0xe47b5", "text": "__loader__"}
+{"offset": "0xe47c0", "text": "loader"}
+{"offset": "0xe47c7", "text": "__file__"}
+{"offset": "0xe47d0", "text": "origin"}
+{"offset": "0xe47d7", "text": "__package__"}
+{"offset": "0xe47e3", "text": "parent"}
+{"offset": "0xe47ea", "text": "__path__"}
+{"offset": "0xe47f3", "text": "submodule_search_locations"}
+{"offset": "0xe480e", "text": "keywords must be strings"}
+{"offset": "0xe4827", "text": "_cython_coroutine_type"}
+{"offset": "0xe483e", "text": "_cython_generator_type"}
+{"offset": "0xe4855", "text": "_module"}
+{"offset": "0xe485d", "text": "__builtins__"}
+{"offset": "0xe486a", "text": "_cython_3_0_12"}
+{"offset": "0xe4879", "text": "cannot import name %S"}
+{"offset": "0xe488f", "text": "name '%U' is not defined"}
+{"offset": "0xe48a8", "text": "coroutine already executing"}
+{"offset": "0xe48c4", "text": "generator already executing"}
+{"offset": "0xe48e0", "text": "%s (%s:%d)"}
+{"offset": "0xe48eb", "text": "crawl.py"}
+{"offset": "0xe48f4", "text": "crawl.__defaults__"}
+{"offset": "0xe4907", "text": "exactly"}
+{"offset": "0xe490f", "text": "_run_group"}
+{"offset": "0xe491d", "text": "crawl.main.dispatch"}
+{"offset": "0xe4931", "text": "ocr_pool"}
+{"offset": "0xe493a", "text": "instance"}
+{"offset": "0xe4943", "text": "batch_id"}
+{"offset": "0xe494c", "text": "product_id"}
+{"offset": "0xe4957", "text": "retailer"}
+{"offset": "0xe4960", "text": "crawl.crawl_one.lambda"}
+{"offset": "0xe4977", "text": "at least"}
+{"offset": "0xe4980", "text": "at most"}
+{"offset": "0xe4988", "text": "crawl.run_gnb_depth"}
+{"offset": "0xe499c", "text": "crawl._check_ip_blocked"}
+{"offset": "0xe49b4", "text": "_capture_flix_delivery_blocks"}
+{"offset": "0xe49d2", "text": "crawl._strip_q"}
+{"offset": "0xe49e1", "text": "crawl._render_js_for"}
+{"offset": "0xe49f6", "text": "crawl._sb_policy"}
+{"offset": "0xe4a07", "text": "crawl._sb_use_stealth"}
+{"offset": "0xe4a1d", "text": "_brand_enrich"}
+{"offset": "0xe4a2b", "text": "retailer_workers"}
+{"offset": "0xe4a3c", "text": "crawl.crawl_one"}
+{"offset": "0xe4a4c", "text": "crawl._fetch_once"}
+{"offset": "0xe4a5e", "text": "crawl.main"}
+{"offset": "0xe4a69", "text": "throw"}
+{"offset": "0xe4a6f", "text": "retailer_sems"}
+{"offset": "0xe4a7d", "text": "sb_sem"}
+{"offset": "0xe4a84", "text": "local_browser"}
+{"offset": "0xe4a92", "text": "page_type"}
+{"offset": "0xe4a9c", "text": "local_only"}
+{"offset": "0xe4aa7", "text": "reverify_notfound"}
+{"offset": "0xe4ab9", "text": "crawl.load_page_targets"}
+{"offset": "0xe4ad1", "text": "crawl._parse_args"}
+{"offset": "0xe4ae3", "text": "crawl._flix_live"}
+{"offset": "0xe4af4", "text": "No module named '%U'"}
+{"offset": "0xe4b0b", "text": "builtins"}
+{"offset": "0xe4b14", "text": "cython_runtime"}
+{"offset": "0xe4b23", "text": "does not match"}
+{"offset": "0xe4b32", "text": "collections.abc"}
+{"offset": "0xe4b42", "text": "backports_abc"}
+{"offset": "0xe4b50", "text": "init crawl"}
+{"offset": "0xe4b5b", "text": "crawl.load_pagetype_targets"}
+{"offset": "0xe4b77", "text": "items"}
+{"offset": "0xe4b7d", "text": "crawl.filter_brand_track"}
+{"offset": "0xe4b96", "text": "crawl._asset_block_image_urls"}
+{"offset": "0xe4bb4", "text": "crawl._has_flix_images"}
+{"offset": "0xe4bcb", "text": "crawl._drop_unonboarded"}
+{"offset": "0xe4be3", "text": "crawl._inject_block_dhash"}
+{"offset": "0xe4bfd", "text": "collect_paginated_html"}
+{"offset": "0xe4c14", "text": "sess"}
+{"offset": "0xe4c1d", "text": "crawl._note_progress"}
+{"offset": "0xe4c32", "text": "crawl._normalize_config_rows"}
+{"offset": "0xe4c4f", "text": "crawl.write_failed_ledger"}
+{"offset": "0xe4c69", "text": "crawl.audit_saved_status"}
+{"offset": "0xe4c82", "text": "record_dir"}
+{"offset": "0xe4c8d", "text": "stats"}
+{"offset": "0xe4c93", "text": "save_html"}
+{"offset": "0xe4c9d", "text": "save_meta"}
+{"offset": "0xe4ca7", "text": "selectors_for"}
+{"offset": "0xe4cb8", "text": "result"}
+{"offset": "0xe4cbf", "text": "title"}
+{"offset": "0xe4cc5", "text": "step"}
+{"offset": "0xe4cca", "text": "reason"}
+{"offset": "0xe4cd1", "text": "credits"}
+{"offset": "0xe4cd9", "text": "crawl.main.genexpr"}
+{"offset": "0xe4cec", "text": "results"}
+{"offset": "0xe4cf4", "text": "_cython_3_0_12.generator"}
+{"offset": "0xe4d0d", "text": "__name__"}
+{"offset": "0xe4d16", "text": "name of the generator"}
+{"offset": "0xe4d2c", "text": "__qualname__"}
+{"offset": "0xe4d39", "text": "gi_frame"}
+{"offset": "0xe4d42", "text": "Frame of the generator"}
+{"offset": "0xe4d59", "text": "gi_running"}
+{"offset": "0xe4d64", "text": "gi_yieldfrom"}
+{"offset": "0xe4d71", "text": "gi_code"}
+{"offset": "0xe4d79", "text": "__module__"}
+{"offset": "0xe4d84", "text": "send"}
+{"offset": "0xe4d89", "text": "close"}
+{"offset": "0xe4d8f", "text": "__reduce__"}
+{"offset": "0xe4d9a", "text": "func_doc"}
+{"offset": "0xe4da3", "text": "__doc__"}
+{"offset": "0xe4dab", "text": "func_name"}
+{"offset": "0xe4db5", "text": "func_dict"}
+{"offset": "0xe4dbf", "text": "__dict__"}
+{"offset": "0xe4dc8", "text": "func_globals"}
+{"offset": "0xe4dd5", "text": "__globals__"}
+{"offset": "0xe4de1", "text": "func_closure"}
+{"offset": "0xe4dee", "text": "__closure__"}
+{"offset": "0xe4dfa", "text": "func_code"}
+{"offset": "0xe4e04", "text": "__code__"}
+{"offset": "0xe4e0d", "text": "func_defaults"}
+{"offset": "0xe4e1b", "text": "__kwdefaults__"}
+{"offset": "0xe4e2a", "text": "__annotations__"}
+{"offset": "0xe4e3a", "text": "_is_coroutine"}
+{"offset": "0xe4e48", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0xe4e61", "text": "name of the coroutine"}
+{"offset": "0xe4e77", "text": "cr_frame"}
+{"offset": "0xe4e80", "text": "Frame of the coroutine"}
+{"offset": "0xe4e97", "text": "cr_running"}
+{"offset": "0xe4ea2", "text": "cr_await"}
+{"offset": "0xe4eab", "text": "object being awaited, or None"}
+{"offset": "0xe4ec9", "text": "cr_code"}
+{"offset": "0xe4ed1", "text": "__reduce_ex__"}
+{"offset": "0xe4edf", "text": "CythonUnboundCMethod"}
+{"offset": "0xe52a0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0xe5380", "text": "rel=\"canonical\" href=\"[^\"]*-pid[A-Za-z0-9]"}
+{"offset": "0xe53c0", "text": "products\\?q=|search\\.html\\?query=|/category/"}
+{"offset": "0xe5400", "text": "load_page_targets.<locals>.genexpr"}
+{"offset": "0xe5440", "text": "https://www.amazon.it/dp/B09FK2QVD6"}
+{"offset": "0xe5480", "text": "home 트랙에서 홈 랜딩·검색 SERP 없이 GNB 카테고리 페이지(gnb_keyword_map)만 크롤. daily 의 OSM 리테일러 ID3 보강용 (2026-09-14)."}
+{"offset": "0xe5520", "text": "gnb-depth: 대상 0행 — gnb_depth_list 에 Brand Category Page(brand_url 有) 행이 없거나 필터 불일치"}
+{"offset": "0xe55a0", "text": "filter_brand_track.<locals>.genexpr"}
+{"offset": "0xe55e0", "text": "audit_saved_status.<locals>.genexpr"}
+{"offset": "0xe5620", "text": "ID7 GNB depth 측정 (--page-type home 전용). brand_target_list 의 Brand Category Page(URL 有) 대상 — 일반 크롤 대신 core/gnb_depth 측정 플로우 실행."}
+{"offset": "0xe56e0", "text": "   조치: validation 규칙(core/validation.validate)에 해당 코드를 추가하고 레코드 삭제 후 재수집 — 리포트를 그대로 내보내지 말 것"}
+{"offset": "0xe57a0", "text": "(s) => s.reduce((n, x) => n + document.querySelectorAll(x).length, 0)"}
+{"offset": "0xe5800", "text": "run_gnb_depth.<locals>._run_group"}
+{"offset": "0xe5840", "text": "not_found 마커를 무시하고 재크롤 — 지역 가짜-not_found 재검증용. --force-sb 와 조합해 본토 IP(SB)로 확인 (2026-07-18, geo-false-notfound). 살아있으면 수집, 진짜 단종이면 마커 재기록."}
+{"offset": "0xe5940", "text": "_normalize_config_rows.<locals>.genexpr"}
+{"offset": "0xe5980", "text": "전 리테일러를 light(스냅샷) 모드로 강제 — 미디어·에셋캡처·OCR·flix 스크롤 생략, 가격·평점 축만. daily ID37/38 런 용 (리테일러별 SNAPSHOT_ONLY 와 동일 의미론의 전역판)."}
+{"offset": "0xe5a60", "text": "_fetch_once.<locals>._brand_enrich"}
+{"offset": "0xe5aa0", "text": "() => !!document.querySelector('form[action*=\"validateCaptcha\"]')"}
+{"offset": "0xe5b00", "text": "--disable-blink-features=AutomationControlled"}
+{"offset": "0xe5b40", "text": "실행할 batch_id (예: 20260630). repo.new_batch_id() 로 발급한 값."}
+{"offset": "0xe5ba0", "text": "%(asctime)s [%(levelname)s] %(message)s"}
+{"offset": "0xe5be0", "text": "). WAF·IP 차단 방어. 리테일러별 개별값은 config.RETAILER_WORKER_OVERRIDES."}
+{"offset": "0xe5c40", "text": "PDP 외 페이지타겟(홈/브랜드/PLP — 코드 정의)도 크롤. --retailer 필수. 검색 SERP 는 --page-type home(DB home 트랙)이 정본이라 여기 없음."}
+{"offset": "0xe5cf0", "text": "crawl_retailers.asset_capture"}
+{"offset": "0xe5d20", "text": "class=\"product-link-title[^\"]*\"[^>]*href=\"/"}
+{"offset": "0xe5d50", "text": "fetch_official_blocks_via_sb"}
+{"offset": "0xe5d70", "text": "_capture_flix_delivery_blocks"}
+{"offset": "0xe5da0", "text": "pdp 타깃을 브랜드로 한정 (예: LG). --limit 과 조합해 브랜드 편중 샘플 보정 — LG 한정 지표(ID31/41/45) 검증용."}
+{"offset": "0xe5e40", "text": "). SB 플랜 한도(Freelance 10 / Startup 50) 이하로."}
+{"offset": "0xe5e80", "text": "get_brand_pagn_product_re"}
+{"offset": "0xe5ea0", "text": "flixcar\\.com|flixfacts\\.com"}
+{"offset": "0xe5ec0", "text": "RETAILER_WORKER_OVERRIDES"}
+{"offset": "0xe5ee0", "text": "Elcorteingles_electronica"}
+{"offset": "0xe5f00", "text": "rerun 시 blocked_pattern 급증이면 IP 차단으로 보고, 해제 확인까지 대기 후 재시도."}
+{"offset": "0xe5f80", "text": "\n<!-- pagination-merge(partial) -->\n"}
+{"offset": "0xe5fc0", "text": "--gnb-depth 는 --page-type home 전용"}
+{"offset": "0xe5ff0", "text": "load_pagetype_targets"}
+{"offset": "0xe6010", "text": "get_brand_main_pagn_cap"}
+{"offset": "0xe6030", "text": "crawl_one.<locals>.<lambda>"}
+{"offset": "0xe6050", "text": "acapture_render_defects"}
+{"offset": "0xe6070", "text": "acapture_from_flix_html"}
+{"offset": "0xe6090", "text": "parse_retailers.common"}
+{"offset": "0xe60c0", "text": "] marker_missing 지속 → stealth 승급 스킵 (단종 추정)"}
+{"offset": "0xe6120", "text": ") — --local-only 라 SB 미escalate"}
+{"offset": "0xe6150", "text": "load_gnb_depth_targets"}
+{"offset": "0xe6180", "text": "data-flix-ean=[\"\\']([0-9]{8,14})[\"\\']"}
+{"offset": "0xe61b0", "text": "collect_paginated_html"}
+{"offset": "0xe61d0", "text": "_asset_block_image_urls"}
+{"offset": "0xe6200", "text": "ScrapingBee escalate 금지 — 로컬만 사용, 크레딧 0 보장."}
+{"offset": "0xe6250", "text": "serp_underfill_reason"}
+{"offset": "0xe6270", "text": "retailer_fetch_status"}
+{"offset": "0xe62a0", "text": "] 로컬 not_found 판정 → SB escalate 스킵 (크레딧 절약)"}
+{"offset": "0xe62f0", "text": "_normalize_config_rows"}
+{"offset": "0xe6310", "text": "load_pagetype_targets("}
+{"offset": "0xe6330", "text": "load_home_gnb_targets"}
+{"offset": "0xe6350", "text": "get_sb_fetch_override"}
+{"offset": "0xe6370", "text": "--disable-dev-shm-usage"}
+{"offset": "0xe6390", "text": "acapture_video_status"}
+{"offset": "0xe63b0", "text": "acapture_asset_blocks"}
+{"offset": "0xe63e0", "text": "Waterfall: 로컬 → ScrapingBee"}
+{"offset": "0xe6410", "text": "_BRAND_TRACK_CAT_ALIAS"}
+{"offset": "0xe6430", "text": "set_default_executor"}
+{"offset": "0xe6450", "text": "playwright.async_api"}
+{"offset": "0xe6470", "text": "main.<locals>.dispatch"}
+{"offset": "0xe6490", "text": "get_brand_facet_urls"}
+{"offset": "0xe64c0", "text": "] --force-sb → ScrapingBee 직접 실행"}
+{"offset": "0xe64f0", "text": "apromote_lazy_images"}
+{"offset": "0xe6510", "text": ") → ScrapingBee escalate"}
+{"offset": "0xe6530", "text": "SPB_PRICE_PER_CREDIT"}
+{"offset": "0xe6550", "text": "RETAILER_MAX_WORKERS"}
+{"offset": "0xe6570", "text": "PAGE_TARGET_BUILDERS"}
+{"offset": "0xe65a0", "text": "LG HS Clinic — Phase 1 크롤러"}
+{"offset": "0xe65d0", "text": "write_failed_ledger"}
+{"offset": "0xe65f0", "text": "serp_hydration_miss"}
+{"offset": "0xe6610", "text": "reverify_notfound"}
+{"offset": "0xe6630", "text": "plp_title_h1__total"}
+{"offset": "0xe6660", "text": "--pages 는 --page-type pdp 실행에서만 동작 — 무시"}
+{"offset": "0xe66a0", "text": "main.<locals>.genexpr"}
+{"offset": "0xe66c0", "text": "ip_check_interval"}
+{"offset": "0xe66e0", "text": "core.object_storage"}
+{"offset": "0xe6700", "text": "_config 테이블 없음 → 코드 정의 page_targets() 폴백"}
+{"offset": "0xe6750", "text": "apply_stealth_async"}
+{"offset": "0xe6770", "text": "acapture_asset_text"}
+{"offset": "0xe6790", "text": "Brand Category Page"}
+{"offset": "0xe67b0", "text": "to_thread 기본 executor: "}
+{"offset": "0xe67d0", "text": "thread_name_prefix"}
+{"offset": "0xe67f0", "text": "retailer_workers"}
+{"offset": "0xe6810", "text": "playwright_stealth"}
+{"offset": "0xe6830", "text": "pdp_soft_not_found"}
+{"offset": "0xe6850", "text": "load_brand_targets"}
+{"offset": "0xe6870", "text": "_inject_block_dhash"}
+{"offset": "0xe6890", "text": "heuristic_fallback"}
+{"offset": "0xe68b0", "text": "get_home_fetch_url"}
+{"offset": "0xe68d0", "text": "get_extra_ocr_urls"}
+{"offset": "0xe68f0", "text": "get_brand_pagn_cap"}
+{"offset": "0xe6910", "text": "filter_brand_track"}
+{"offset": "0xe6930", "text": "concurrent.futures"}
+{"offset": "0xe6950", "text": "collect_image_meta"}
+{"offset": "0xe6970", "text": "cline_in_traceback"}
+{"offset": "0xe6990", "text": "build_page_targets"}
+{"offset": "0xe69c0", "text": "brand_track_list 미등재 조합 "}
+{"offset": "0xe69f0", "text": "brand_pagn_timeout"}
+{"offset": "0xe6a10", "text": "audit_saved_status"}
+{"offset": "0xe6a30", "text": "asyncio.coroutines"}
+{"offset": "0xe6a50", "text": "asset_capture_mode"}
+{"offset": "0xe6a70", "text": "argparse.Namespace"}
+{"offset": "0xe6a90", "text": "ThreadPoolExecutor"}
+{"offset": "0xe6ab0", "text": "PROG_SUMMARY_EVERY"}
+{"offset": "0xe6ae0", "text": "[IP-MONITOR] 봇 차단 의심 (blocked "}
+{"offset": "0xe6b10", "text": "IP_BLOCK_THRESHOLD"}
+{"offset": "0xe6b30", "text": "_FLIX_IMG_DOMAIN_RE"}
+{"offset": "0xe6b50", "text": "BRAND_PAGN_TIMEOUT"}
+{"offset": "0xe6b70", "text": "--reverify-notfound"}
+{"offset": "0xe6ba0", "text": ") — no_sb 정책이라 SB 미escalate (크레딧 보호)"}
+{"offset": "0xe6be0", "text": "load_page_targets"}
+{"offset": "0xe6c00", "text": "load_home_targets"}
+{"offset": "0xe6c20", "text": "--ip-check-interval"}
+{"offset": "0xe6c40", "text": "get_gnb_fetch_url"}
+{"offset": "0xe6c60", "text": "fetch_inpage_html"}
+{"offset": "0xe6c80", "text": "_SB_POLICY_DEFAULT"}
+{"offset": "0xe6ca0", "text": "RETAILER_CONFIG 미등록: "}
+{"offset": "0xe6cc0", "text": "unique_retailers"}
+{"offset": "0xe6ce0", "text": "scroll_to_bottom"}
+{"offset": "0xe6d00", "text": "--retailer-workers"}
+{"offset": "0xe6d20", "text": "] render_defects 캡처 실패: "}
+{"offset": "0xe6d50", "text": "raw_media_images"}
+{"offset": "0xe6d70", "text": "model_from_title"}
+{"offset": "0xe6d90", "text": "mms-product-card"}
+{"offset": "0xe6db0", "text": "load_plp_targets"}
+{"offset": "0xe6dd0", "text": "is_snapshot_only"}
+{"offset": "0xe6df0", "text": "get_running_loop"}
+{"offset": "0xe6e10", "text": "get_retry_config"}
+{"offset": "0xe6e30", "text": "get_gallery_urls"}
+{"offset": "0xe6e50", "text": "_drop_unonboarded"}
+{"offset": "0xe6e70", "text": "domcontentloaded"}
+{"offset": "0xe6e90", "text": "core.scrapingbee"}
+{"offset": "0xe6eb0", "text": "_check_ip_blocked"}
+{"offset": "0xe6ee0", "text": "brand_track_list 비어 있음 — 브랜드 필터 미적용"}
+{"offset": "0xe6f20", "text": "async_playwright"}
+{"offset": "0xe6f40", "text": "asset_image_urls"}
+{"offset": "0xe6f60", "text": "SB_ASSET_CAPTURE"}
+{"offset": "0xe6f80", "text": "ProgrammingError"}
+{"offset": "0xe6fa0", "text": "MODE_SCRAPINGBEE"}
+{"offset": "0xe6fc0", "text": "_FLIX_EAN_ATTR_RE"}
+{"offset": "0xe6fe0", "text": "CRAWL_IO_WORKERS"}
+{"offset": "0xe7000", "text": "total_local_cap"}
+{"offset": "0xe7010", "text": "snapshot_only"}
+{"offset": "0xe7020", "text": "scroll_scenario"}
+{"offset": "0xe7030", "text": "scroll_for_lazy"}
+{"offset": "0xe7040", "text": "sb_max_attempts"}
+{"offset": "0xe7050", "text": "pagn_product_re"}
+{"offset": "0xe7060", "text": "model_from_slug"}
+{"offset": "0xe7070", "text": "_has_flix_images"}
+{"offset": "0xe7090", "text": "get_sb_scenario"}
+{"offset": "0xe70a0", "text": "] flix delivery 블록 재구성 실패: "}
+{"offset": "0xe70d0", "text": "extract_dynamic"}
+{"offset": "0xe70e0", "text": "distributor_for"}
+{"offset": "0xe70f0", "text": "crawl_retailers"}
+{"offset": "0xe7100", "text": "core.validation"}
+{"offset": "0xe7110", "text": "brand_track_map"}
+{"offset": "0xe7120", "text": "brand_page_type"}
+{"offset": "0xe7130", "text": "blocked_pattern"}
+{"offset": "0xe7140", "text": "block_resources"}
+{"offset": "0xe7160", "text": "] SB asset_blocks 캡처 실패: "}
+{"offset": "0xe7190", "text": "RETAILER_CONFIG"}
+{"offset": "0xe71a0", "text": "__PRELOADED_STATE__"}
+{"offset": "0xe71c0", "text": "] video_status 캡처 실패: "}
+{"offset": "0xe71e0", "text": "\"@type\":\\s*\"Product\""}
+{"offset": "0xe71f8", "text": "search_keyword"}
+{"offset": "0xe7210", "text": "_sb_use_stealth"}
+{"offset": "0xe7220", "text": "rerun_rounds"}
+{"offset": "0xe7230", "text": "require_marker"}
+{"offset": "0xe7240", "text": "render_defects"}
+{"offset": "0xe7250", "text": "query_selector"}
+{"offset": "0xe7260", "text": "--pages 는 --retailer 지정 시에만 동작 — 무시"}
+{"offset": "0xe72a0", "text": "official_style"}
+{"offset": "0xe72b0", "text": "object_storage"}
+{"offset": "0xe72c0", "text": "not_found.json"}
+{"offset": "0xe72d0", "text": "measure_target"}
+{"offset": "0xe72e0", "text": "marker_missing"}
+{"offset": "0xe72f0", "text": "inject_dhashes"}
+{"offset": "0xe7300", "text": "flixmedia_live"}
+{"offset": "0xe7310", "text": "core.retailers"}
+{"offset": "0xe7320", "text": "brand_sub_code"}
+{"offset": "0xe7330", "text": "] asset_blocks 캡처 실패: "}
+{"offset": "0xe7350", "text": "] SKIP (skip.json 마커): "}
+{"offset": "0xe7370", "text": "] SKIP (not_found 확정): "}
+{"offset": "0xe7390", "text": "SB_MAX_WORKERS"}
+{"offset": "0xe73a0", "text": "MediaExpert_PL"}
+{"offset": "0xe73b0", "text": "FORCE_SNAPSHOT"}
+{"offset": "0xe73c0", "text": "ArgumentParser"}
+{"offset": "0xe73d0", "text": "valid_targets"}
+{"offset": "0xe73e0", "text": "total_credits"}
+{"offset": "0xe73f0", "text": "status_reason"}
+{"offset": "0xe7400", "text": "--snapshot-only"}
+{"offset": "0xe7410", "text": "selectors_for"}
+{"offset": "0xe7420", "text": "run_gnb_depth"}
+{"offset": "0xe7430", "text": "retailer_sems"}
+{"offset": "0xe7440", "text": "rerun_delay"}
+{"offset": "0xe7450", "text": "request_delay"}
+{"offset": "0xe7460", "text": "_render_js_for"}
+{"offset": "0xe7470", "text": "_note_progress"}
+{"offset": "0xe7480", "text": "local_browser"}
+{"offset": "0xe7490", "text": "is_mobile_url"}
+{"offset": "0xe74a0", "text": "include_pages"}
+{"offset": "0xe74b0", "text": "has_extractor"}
+{"offset": "0xe74c0", "text": "force_stealth"}
+{"offset": "0xe74d0", "text": "force_sb_flag"}
+{"offset": "0xe74e0", "text": "flix_delivery"}
+{"offset": "0xe7500", "text": "_failed.json 파싱 실패 — 원장을 새로 작성"}
+{"offset": "0xe7538", "text": "ean_for_model"}
+{"offset": "0xe7548", "text": "collect_media"}
+{"offset": "0xe7560", "text": "__class_getitem__"}
+{"offset": "0xe7578", "text": "blocked_ratio"}
+{"offset": "0xe7588", "text": "asyncio.tasks"}
+{"offset": "0xe75a0", "text": "[TEST MODE] 리테일러별 1개"}
+{"offset": "0xe75c8", "text": "StreamHandler"}
+{"offset": "0xe75e0", "text": "ScrapingBee 크레딧: "}
+{"offset": "0xe7600", "text": "ScrapingBee 강제"}
+{"offset": "0xe7620", "text": "ScrapingBee 전역 동시 호출 수 (기본 "}
+{"offset": "0xe7650", "text": "RtvEuroAgd_PL"}
+{"offset": "0xe7660", "text": "리테일러별 최대 N개만 크롤 (--all 과 함께 사용, 0=무제한). pdp 타깃이 많을 때 부분 실행용 — 타깃 리스트 상위 N개."}
+{"offset": "0xe7700", "text": "MediaMarkt_PL"}
+{"offset": "0xe7710", "text": "MediaMarkt_NL"}
+{"offset": "0xe7720", "text": "MediaMarkt_ES"}
+{"offset": "0xe7730", "text": "MediaMarkt_DE"}
+{"offset": "0xe7740", "text": "[IP-MONITOR] ✅ IP 해제 확인 — 재시도 시작"}
+{"offset": "0xe7778", "text": "video_status"}
+{"offset": "0xe7788", "text": "sub_category"}
+{"offset": "0xe7798", "text": "sb_workers"}
+{"offset": "0xe77a8", "text": "review_count"}
+{"offset": "0xe77b8", "text": "retailer_sem"}
+{"offset": "0xe77c8", "text": "retailer_key"}
+{"offset": "0xe77d8", "text": "--rerun-rounds"}
+{"offset": "0xe77e8", "text": "#productTitle"}
+{"offset": "0xe77f8", "text": "_parse_args"}
+{"offset": "0xe7808", "text": "media_viewer"}
+{"offset": "0xe7818", "text": "max_attempts"}
+{"offset": "0xe7828", "text": "local_only"}
+{"offset": "0xe7838", "text": "load_targets"}
+{"offset": "0xe7848", "text": "last_attempt"}
+{"offset": "0xe7858", "text": "_is_coroutine"}
+{"offset": "0xe7868", "text": "ip_monitor"}
+{"offset": "0xe7878", "text": "_initializing"}
+{"offset": "0xe7888", "text": "gallery_urls"}
+{"offset": "0xe7898", "text": "] _fetch_once("}
+{"offset": "0xe78a8", "text": "failed_count"}
+{"offset": "0xe78b8", "text": "ensure_ascii"}
+{"offset": "0xe78c8", "text": "empty_result"}
+{"offset": "0xe78d8", "text": "depth_status"}
+{"offset": "0xe78e8", "text": "credits_used"}
+{"offset": "0xe78f8", "text": "core.storage"}
+{"offset": "0xe7908", "text": "core.crawler"}
+{"offset": "0xe7918", "text": "brand_search"}
+{"offset": "0xe7928", "text": "brand_scroll"}
+{"offset": "0xe7938", "text": "_brand_enrich"}
+{"offset": "0xe7948", "text": "\\b88060\\d{8}\\b"}
+{"offset": "0xe7958", "text": "asset_blocks"}
+{"offset": "0xe7968", "text": "add_argument"}
+{"offset": "0xe7978", "text": "%Y%m%d_%H%M%S"}
+{"offset": "0xe79a0", "text": "] SB not_found 응답 → 재시도 중단 (크레딧 절약)"}
+{"offset": "0xe79e0", "text": "IP_CHECK_URL"}
+{"offset": "0xe79f0", "text": "CrawlSession"}
+{"offset": "0xe7a00", "text": "CLINIC_ENTRY"}
+{"offset": "0xe7a10", "text": "video_count"}
+{"offset": "0xe7a20", "text": "use_stealth"}
+{"offset": "0xe7a30", "text": " (target_id="}
+{"offset": "0xe7a40", "text": "skip_marker"}
+{"offset": "0xe7a50", "text": "scrapingbee"}
+{"offset": "0xe7a60", "text": "return_meta"}
+{"offset": "0xe7a70", "text": "retry_delay"}
+{"offset": "0xe7a80", "text": ", resume-skip "}
+{"offset": "0xe7a90", "text": "--rerun-delay"}
+{"offset": "0xe7aa0", "text": "relative_to"}
+{"offset": "0xe7ab0", "text": "reached_url"}
+{"offset": "0xe7ac0", "text": "prev_reason"}
+{"offset": "0xe7ad0", "text": "  page_type="}
+{"offset": "0xe7ae0", "text": ", page_type="}
+{"offset": "0xe7af0", "text": "page_type"}
+{"offset": "0xe7b00", "text": "  🚫not_found "}
+{"offset": "0xe7b20", "text": "] not_found 마커 저장 — 이후 실행에서 자동 스킵"}
+{"offset": "0xe7b60", "text": "new_context"}
+{"offset": "0xe7b70", "text": "most_common"}
+{"offset": "0xe7b80", "text": "*/*/meta.json"}
+{"offset": "0xe7b90", "text": "max_workers"}
+{"offset": "0xe7ba0", "text": "local_count"}
+{"offset": "0xe7bb0", "text": "images_meta"}
+{"offset": "0xe7bc0", "text": "image_count"}
+{"offset": "0xe7bd0", "text": "http_status"}
+{"offset": "0xe7be0", "text": "hs_category"}
+{"offset": "0xe7bf0", "text": "gnb-depth 완료: 측정 "}
+{"offset": "0xe7c10", "text": "gnb-depth: 대상 "}
+{"offset": "0xe7c28", "text": "gnb_depth"}
+{"offset": "0xe7c38", "text": "[gnb-depth] "}
+{"offset": "0xe7c48", "text": "flix_scroll"}
+{"offset": "0xe7c58", "text": "_failed.json"}
+{"offset": "0xe7c70", "text": "\n<!-- facet-merge -->\n"}
+{"offset": "0xe7c88", "text": "expect_flix"}
+{"offset": "0xe7c98", "text": "description"}
+{"offset": "0xe7ca8", "text": "core.config"}
+{"offset": "0xe7cb8", "text": "collections"}
+{"offset": "0xe7cc8", "text": "blocked_cnt"}
+{"offset": "0xe7cd8", "text": "basicConfig"}
+{"offset": "0xe7ce8", "text": "allow_cache"}
+{"offset": "0xe7cf8", "text": "about:blank"}
+{"offset": "0xe7d20", "text": "전체 실행. 생략 시 TEST MODE (리테일러별 1개)"}
+{"offset": "0xe7d60", "text": "로컬 브라우저 스킵, ScrapingBee 직접 실행."}
+{"offset": "0xe7d98", "text": "RETRY_DELAY"}
+{"offset": "0xe7da8", "text": "MAX_WORKERS"}
+{"offset": "0xe7db8", "text": "MAX_RETRIES"}
+{"offset": "0xe7dc8", "text": "FileHandler"}
+{"offset": "0xe7dd8", "text": "write_text"}
+{"offset": "0xe7de8", "text": "wait_until"}
+{"offset": "0xe7df8", "text": "validation"}
+{"offset": "0xe7e08", "text": "total_cost"}
+{"offset": "0xe7e18", "text": "store_true"}
+{"offset": "0xe7e28", "text": "startswith"}
+{"offset": "0xe7e38", "text": "skip_local"}
+{"offset": "0xe7e48", "text": "skip_count"}
+{"offset": "0xe7e58", "text": "setdefault"}
+{"offset": "0xe7e68", "text": "--sb-workers"}
+{"offset": "0xe7e78", "text": ", retailer="}
+{"offset": "0xe7e88", "text": "retailer"}
+{"offset": "0xe7e98", "text": "record_dir"}
+{"offset": "0xe7ea8", "text": "product_re"}
+{"offset": "0xe7eb8", "text": "product_id"}
+{"offset": "0xe7ec8", "text": "playwright"}
+{"offset": "0xe7ed8", "text": "parse_args"}
+{"offset": "0xe7ee8", "text": "page_ean_m"}
+{"offset": "0xe7ef8", "text": "--no-sandbox"}
+{"offset": "0xe7f08", "text": "mode_label"}
+{"offset": "0xe7f18", "text": "marker_cfg"}
+{"offset": "0xe7f28", "text": "main_cap"}
+{"offset": "0xe7f38", "text": "--local-only"}
+{"offset": "0xe7f48", "text": "--ip-monitor"}
+{"offset": "0xe7f58", "text": "io_workers"}
+{"offset": "0xe7f68", "text": ", instance="}
+{"offset": "0xe7f78", "text": "instance"}
+{"offset": "0xe7f88", "text": "gnb_only"}
+{"offset": "0xe7f98", "text": "force_sb"}
+{"offset": "0xe7fa8", "text": "fetch_step"}
+{"offset": "0xe7fb8", "text": "_fetch_once"}
+{"offset": "0xe7fc8", "text": "failed_ids"}
+{"offset": "0xe7fd8", "text": "fail_count"}
+{"offset": "0xe7fe8", "text": "extra_urls"}
+{"offset": "0xe7ff8", "text": "extra_meta"}
+{"offset": "0xe8008", "text": "crawled_at"}
+{"offset": "0xe8018", "text": "concurrent"}
+{"offset": "0xe8028", "text": "batch_id="}
+{"offset": "0xe8040", "text": "타깃 없음 (batch_id="}
+{"offset": "0xe8060", "text": "batch_id"}
+{"offset": "0xe8070", "text": "asset_text"}
+{"offset": "0xe8080", "text": "ValueError"}
+{"offset": "0xe8090", "text": "SystemExit"}
+{"offset": "0xe80a0", "text": "Mediaworld"}
+{"offset": "0xe80b0", "text": "MODE_LOCAL"}
+{"offset": "0xe80c0", "text": "[IP-MONITOR] 아직 차단 중 — "}
+{"offset": "0xe8100", "text": "IP 차단 재확인 주기(초, 기본 1800=30분)."}
+{"offset": "0xe8138", "text": "FetchCache"}
+{"offset": "0xe8148", "text": "Elgiganten"}
+{"offset": "0xe8158", "text": "Darty_FR"}
+{"offset": "0xe8168", "text": "Brand Page"}
+{"offset": "0xe8178", "text": "to_thread"}
+{"offset": "0xe8188", "text": "test_mode"}
+{"offset": "0xe8198", "text": "target_id"}
+{"offset": "0xe81a8", "text": "split_key"}
+{"offset": "0xe81b8", "text": "skip.json"}
+{"offset": "0xe81c8", "text": "selectors"}
+{"offset": "0xe81d8", "text": "_sb_policy"}
+{"offset": "0xe81e8", "text": "save_meta"}
+{"offset": "0xe81f8", "text": "save_html"}
+{"offset": "0xe8208", "text": "_run_group"}
+{"offset": "0xe8218", "text": "rtlr_name"}
+{"offset": "0xe8228", "text": "retryable"}
+{"offset": "0xe8238", "text": "retry_cfg"}
+{"offset": "0xe8248", "text": "retargets"}
+{"offset": "0xe8260", "text": "실패 재시도 라운드 수 (기본: --rerun 시 2, 아니면 0)."}
+{"offset": "0xe82a8", "text": "reresults"}
+{"offset": "0xe82b8", "text": "render_js"}
+{"offset": "0xe82c8", "text": "read_text"}
+{"offset": "0xe82d8", "text": "pagn_sink"}
+{"offset": "0xe82e8", "text": "--page-type"}
+{"offset": "0xe82f8", "text": "not_found"}
+{"offset": "0xe8308", "text": "model_mpc"}
+{"offset": "0xe8318", "text": "meta_path"}
+{"offset": "0xe8328", "text": "meta.json"}
+{"offset": "0xe8338", "text": "max_pages"}
+{"offset": "0xe8348", "text": "marked_at"}
+{"offset": "0xe8358", "text": "list[dict]"}
+{"offset": "0xe8368", "text": "isoformat"}
+{"offset": "0xe8378", "text": "isenabled"}
+{"offset": "0xe8388", "text": "inventory"}
+{"offset": "0xe8398", "text": "imagemeta"}
+{"offset": "0xe83a8", "text": "gnb_label"}
+{"offset": "0xe83b8", "text": "--gnb-depth"}
+{"offset": "0xe83c8", "text": "getLogger"}
+{"offset": "0xe83d8", "text": "_flix_live"}
+{"offset": "0xe83e8", "text": "final_url"}
+{"offset": "0xe83f8", "text": "fetch_url"}
+{"offset": "0xe8408", "text": "facet_url"}
+{"offset": "0xe8420", "text": " extractor 미등록(미온보딩) 리테일러: "}
+{"offset": "0xe8458", "text": "exception"}
+{"offset": "0xe8468", "text": "crawl_one"}
+{"offset": "0xe8478", "text": "crawl_dir"}
+{"offset": "0xe8488", "text": "cpu_count"}
+{"offset": "0xe8498", "text": "core.repo"}
+{"offset": "0xe84a8", "text": "container"}
+{"offset": "0xe84b8", "text": "category2"}
+{"offset": "0xe84c8", "text": "category1"}
+{"offset": "0xe84d8", "text": "base_html"}
+{"offset": "0xe84e8", "text": "TypeError"}
+{"offset": "0xe84f8", "text": "Semaphore"}
+{"offset": "0xe8510", "text": "] SB-inject 에셋 블록 "}
+{"offset": "0xe8530", "text": "SB_POLICY"}
+{"offset": "0xe8540", "text": "Boulanger"}
+{"offset": "0xe8550", "text": "Amazon_IT"}
+{"offset": "0xe8560", "text": "Amazon_DE"}
+{"offset": "0xe8570", "text": "wait_for"}
+{"offset": "0xe8580", "text": "validate"}
+{"offset": "0xe8590", "text": "timespec"}
+{"offset": "0xe85a0", "text": "sub_code"}
+{"offset": "0xe85b0", "text": "strftime"}
+{"offset": "0xe85c0", "text": "str | None"}
+{"offset": "0xe85d0", "text": "search_"}
+{"offset": "0xe85d8", "text": "scrolled"}
+{"offset": "0xe85e8", "text": "scenario"}
+{"offset": "0xe85f8", "text": "sb_count"}
+{"offset": "0xe8608", "text": "--retailer"}
+{"offset": "0xe8618", "text": "required"}
+{"offset": "0xe8628", "text": "pdp_uuid"}
+{"offset": "0xe8638", "text": "pause_ms"}
+{"offset": "0xe8648", "text": "pagn_cap"}
+{"offset": "0xe8658", "text": "ok_count"}
+{"offset": "0xe8668", "text": "ocr_pool"}
+{"offset": "0xe8678", "text": "no_track"}
+{"offset": "0xe8688", "text": "nf_count"}
+{"offset": "0xe8698", "text": "new_page"}
+{"offset": "0xe86a8", "text": "new_html"}
+{"offset": "0xe86b8", "text": "ncredits"}
+{"offset": "0xe86c8", "text": "n_mobile"}
+{"offset": "0xe86d8", "text": "_main_cap"}
+{"offset": "0xe86e8", "text": "--instance"}
+{"offset": "0xe86f8", "text": "headless"}
+{"offset": "0xe8708", "text": "has_item"}
+{"offset": "0xe8718", "text": "handlers"}
+{"offset": "0xe8728", "text": "gnb_uuid"}
+{"offset": "0xe8738", "text": "--gnb-only"}
+{"offset": "0xe8748", "text": "fromkeys"}
+{"offset": "0xe8758", "text": "--force-sb"}
+{"offset": "0xe8768", "text": "filtered"}
+{"offset": "0xe8778", "text": "fallback"}
+{"offset": "0xe8788", "text": "f_status"}
+{"offset": "0xe8798", "text": "f_merged"}
+{"offset": "0xe87a8", "text": "existing"}
+{"offset": "0xe87b8", "text": "exist_ok"}
+{"offset": "0xe87c8", "text": "exc_info"}
+{"offset": "0xe87d8", "text": "evaluate"}
+{"offset": "0xe87e8", "text": "encoding"}
+{"offset": "0xe87f8", "text": "dispatch"}
+{"offset": "0xe8808", "text": "datetime"}
+{"offset": "0xe8818", "text": "crawl.py"}
+{"offset": "0xe8828", "text": "crawl-io"}
+{"offset": "0xe8838", "text": "core.uid"}
+{"offset": "0xe8848", "text": "chromium"}
+{"offset": "0xe8858", "text": "category"}
+{"offset": "0xe8868", "text": "--batch-id"}
+{"offset": "0xe8878", "text": "\\b\\d{13}\\b"}
+{"offset": "0xe8888", "text": "attempts"}
+{"offset": "0xe8898", "text": "argparse"}
+{"offset": "0xe88a8", "text": "_EAN13_RE"}
+{"offset": "0xe88c0", "text": "특정 리테일러만 실행 (예: Darty_FR). 생략 시 전체."}
+{"offset": "0xe8908", "text": "BASE_DIR"}
+{"offset": "0xe8918", "text": "_ANY13_RE"}
+{"offset": "0xe8928", "text": "warning"}
+{"offset": "0xe8930", "text": "wait_ms"}
+{"offset": "0xe8938", "text": "uniform"}
+{"offset": "0xe8940", "text": "timeout"}
+{"offset": "0xe8948", "text": "targets"}
+{"offset": "0xe8950", "text": "_strip_q"}
+{"offset": "0xe8960", "text": "storage"}
+{"offset": "0xe8968", "text": "step_px"}
+{"offset": "0xe8970", "text": "stealth"}
+{"offset": "0xe8978", "text": "skipped"}
+{"offset": "0xe8980", "text": "seconds"}
+{"offset": "0xe8988", "text": "sb_wait"}
+{"offset": "0xe8990", "text": "row_out"}
+{"offset": "0xe8998", "text": "retries"}
+{"offset": "0xe89a0", "text": "results"}
+{"offset": "0xe89a8", "text": "rerun"}
+{"offset": "0xe89c0", "text": "재시도할 실패 항목 없음 — rerun 종료"}
+{"offset": "0xe89f8", "text": "refdata"}
+{"offset": "0xe8a00", "text": "pymysql"}
+{"offset": "0xe8a08", "text": ") product="}
+{"offset": "0xe8a18", "text": "parents"}
+{"offset": "0xe8a20", "text": "pages"}
+{"offset": "0xe8a28", "text": "--pages: "}
+{"offset": "0xe8a38", "text": "logging"}
+{"offset": "0xe8a40", "text": "limit"}
+{"offset": "0xe8a48", "text": "kw_safe"}
+{"offset": "0xe8a50", "text": "keyword"}
+{"offset": "0xe8a58", "text": "isalnum"}
+{"offset": "0xe8a60", "text": "inspect"}
+{"offset": "0xe8a68", "text": "gnb_url"}
+{"offset": "0xe8a70", "text": "genexpr"}
+{"offset": "0xe8a78", "text": "futures"}
+{"offset": "0xe8a80", "text": "fetches"}
+{"offset": "0xe8a88", "text": "f_local"}
+{"offset": "0xe8a90", "text": "environ"}
+{"offset": "0xe8a98", "text": "dynamic"}
+{"offset": "0xe8aa0", "text": "dropped"}
+{"offset": "0xe8aa8", "text": "disable"}
+{"offset": "0xe8ab0", "text": " depth="}
+{"offset": "0xe8ab8", "text": "depth"}
+{"offset": "0xe8ac0", "text": "default"}
+{"offset": "0xe8ac8", "text": "credits"}
+{"offset": "0xe8ad0", "text": "crawl_"}
+{"offset": "0xe8ad8", "text": "country"}
+{"offset": "0xe8ae0", "text": "content"}
+{"offset": "0xe8ae8", "text": "compile"}
+{"offset": "0xe8af0", "text": "choices"}
+{"offset": "0xe8af8", "text": "captcha"}
+{"offset": "0xe8b00", "text": "browser"}
+{"offset": "0xe8b08", "text": "brand_"}
+{"offset": "0xe8b20", "text": "] brand 페이지네이션 보강 실패/초과 ("}
+{"offset": "0xe8b60", "text": "] brand 페이지네이션 보강 "}
+{"offset": "0xe8b90", "text": "] brand 파셋 체인 "}
+{"offset": "0xe8bc0", "text": "] brand 파셋 로드 실패 스킵: "}
+{"offset": "0xe8be8", "text": "--brand"}
+{"offset": "0xe8bf0", "text": "행 (batch="}
+{"offset": "0xe8c00", "text": "attempt"}
+{"offset": "0xe8c08", "text": "asyncio"}
+{"offset": "0xe8c10", "text": "Unieuro"}
+{"offset": "0xe8c18", "text": "Stealth"}
+{"offset": "0xe8c20", "text": "OSError"}
+{"offset": "0xe8c28", "text": "LOG_DIR"}
+{"offset": "0xe8c30", "text": "Counter"}
+{"offset": "0xe8c40", "text": "⚠️ 상태코드 감사: 4xx/5xx 인데 정상 저장된 레코드 "}
+{"offset": "0xe8ca0", "text": "🎉 최종 실패 0건 (batch 전체 수집 완료) → "}
+{"offset": "0xe8cda", "text": "videos"}
+{"offset": "0xe8ce1", "text": "values"}
+{"offset": "0xe8ce8", "text": "upload"}
+{"offset": "0xe8cef", "text": "update"}
+{"offset": "0xe8cf6", "text": "status"}
+{"offset": "0xe8cfd", "text": "source"}
+{"offset": "0xe8d08", "text": ") — skip"}
+{"offset": "0xe8d20", "text": " 타깃 skip — "}
+{"offset": "0xe8d32", "text": "skip"}
+{"offset": "0xe8d37", "text": "sink"}
+{"offset": "0xe8d3c", "text": "search"}
+{"offset": "0xe8d43", "text": "sb_sem"}
+{"offset": "0xe8d4a", "text": "row_pt"}
+{"offset": "0xe8d51", "text": "rounds"}
+{"offset": "0xe8d58", "text": "return"}
+{"offset": "0xe8d5f", "text": "result"}
+{"offset": "0xe8d66", "text": "req_lo"}
+{"offset": "0xe8d6d", "text": "req_hi"}
+{"offset": "0xe8d74", "text": "rec_id"}
+{"offset": "0xe8d7b", "text": "reason"}
+{"offset": "0xe8d82", "text": "rating"}
+{"offset": "0xe8d89", "text": "random"}
+{"offset": "0xe8d90", "text": "policy"}
+{"offset": "0xe8d97", "text": "parent"}
+{"offset": "0xe8d9e", "text": "naming"}
+{"offset": "0xe8da5", "text": "name"}
+{"offset": "0xe8daa", "text": "marker"}
+{"offset": "0xe8db8", "text": "__main__"}
+{"offset": "0xe8dc1", "text": "locale"}
+{"offset": "0xe8dc8", "text": "launch"}
+{"offset": "0xe8dcf", "text": "_json"}
+{"offset": "0xe8dd5", "text": "inpage"}
+{"offset": "0xe8ddc", "text": "indent"}
+{"offset": "0xe8de8", "text": "__import__"}
+{"offset": "0xe8df3", "text": "images"}
+{"offset": "0xe8dfa", "text": " http="}
+{"offset": "0xe8e01", "text": "_html"}
+{"offset": "0xe8e07", "text": "groups"}
+{"offset": "0xe8e0e", "text": "gather"}
+{"offset": "0xe8e15", "text": "format"}
+{"offset": "0xe8e1c", "text": "folder"}
+{"offset": "0xe8e23", "text": "failed"}
+{"offset": "0xe8e2a", "text": "f_html"}
+{"offset": "0xe8e31", "text": "extend"}
+{"offset": "0xe8e38", "text": "exists"}
+{"offset": "0xe8e3f", "text": "enable"}
+{"offset": "0xe8e46", "text": "config"}
+{"offset": "0xe8e4d", "text": "cat_cd"}
+{"offset": "0xe8e54", "text": "by_url"}
+{"offset": "0xe8e5b", "text": "blocks"}
+{"offset": "0xe8e62", "text": "append"}
+{"offset": "0xe8e70", "text": "__aenter__"}
+{"offset": "0xe8e7b", "text": "action"}
+{"offset": "0xe8e82", "text": "Datart"}
+{"offset": "0xe8e89", "text": "But_FR"}
+{"offset": "0xe8e90", "text": "utf-8"}
+{"offset": "0xe8e96", "text": "upper"}
+{"offset": "0xe8e9c", "text": "under"}
+{"offset": "0xe8ea2", "text": "track"}
+{"offset": "0xe8ea8", "text": "total"}
+{"offset": "0xe8eae", "text": "title"}
+{"offset": "0xe8eb4", "text": "throw"}
+{"offset": "0xe8eba", "text": "tasks"}
+{"offset": "0xe8ec0", "text": "strip"}
+{"offset": "0xe8ec6", "text": "stats"}
+{"offset": "0xe8ecc", "text": "split"}
+{"offset": "0xe8ed2", "text": "sleep"}
+{"offset": "0xe8ed8", "text": "roots"}
+{"offset": "0xe8ee0", "text": "--rerun"}
+{"offset": "0xe8ee8", "text": "range"}
+{"offset": "0xe8eee", "text": "price"}
+{"offset": "0xe8ef4", "text": "plp_"}
+{"offset": "0xe8f00", "text": "크롤 대상 페이지 타입 (기본: pdp)"}
+{"offset": "0xe8f30", "text": "--pages"}
+{"offset": "0xe8f38", "text": "no_sb"}
+{"offset": "0xe8f3e", "text": "model"}
+{"offset": "0xe8f44", "text": "mkdir"}
+{"offset": "0xe8f4a", "text": "lower"}
+{"offset": "0xe8f50", "text": ".log"}
+{"offset": "0xe8f55", "text": "local"}
+{"offset": "0xe8f5b", "text": "loads"}
+{"offset": "0xe8f68", "text": "--limit"}
+{"offset": "0xe8f70", "text": "light"}
+{"offset": "0xe8f76", "text": "level"}
+{"offset": "0xe8f7c", "text": "label"}
+{"offset": "0xe8f82", "text": "items"}
+{"offset": "0xe8f88", "text": "it-IT"}
+{"offset": "0xe8f8e", "text": "insts"}
+{"offset": "0xe8f94", "text": "image"}
+{"offset": "0xe8f9a", "text": "group"}
+{"offset": "0xe8fa4", "text": "final"}
+{"offset": "0xe8faa", "text": "fetch"}
+{"offset": "0xe8fb0", "text": "error"}
+{"offset": "0xe8fb6", "text": "dumps"}
+{"offset": "0xe8fbc", "text": "dhash"}
+{"offset": "0xe8fc2", "text": "depth_"}
+{"offset": "0xe8fc9", "text": "debug"}
+{"offset": "0xe8fcf", "text": "crawl"}
+{"offset": "0xe8fd5", "text": "close"}
+{"offset": "0xe8fdb", "text": "chain"}
+{"offset": "0xe8fe5", "text": "cache"}
+{"offset": "0xe8feb", "text": "bytes"}
+{"offset": "0xe8ff1", "text": "by_id"}
+{"offset": "0xe8ff7", "text": "brand"}
+{"offset": "0xe9000", "text": "건 (batch 누적) → "}
+{"offset": "0xe9018", "text": "badge"}
+{"offset": "0xe9020", "text": "__await__"}
+{"offset": "0xe902a", "text": "allow"}
+{"offset": "0xe9038", "text": "__aexit__"}
+{"offset": "0xe9050", "text": "개 URL 크롤 시작"}
+{"offset": "0xe9068", "text": "[RERUN "}
+{"offset": "0xe9080", "text": "[LIMIT] 리테일러별 최대 "}
+{"offset": "0xe90a0", "text": "특정 국가만 실행 (예: IT, FR). 생략 시 전체."}
+{"offset": "0xe90da", "text": "want"}
+{"offset": "0xe90df", "text": "wait"}
+{"offset": "0xe90e4", "text": "vids"}
+{"offset": "0xe90e9", "text": "urls"}
+{"offset": "0xe90ee", "text": "type"}
+{"offset": "0xe90f3", "text": "text"}
+{"offset": "0xe90f8", "text": "__test__"}
+{"offset": "0xe9101", "text": "step"}
+{"offset": "0xe9108", "text": "__spec__"}
+{"offset": "0xe9118", "text": "  skip "}
+{"offset": "0xe9120", "text": "size"}
+{"offset": "0xe9125", "text": "_sink"}
+{"offset": "0xe912b", "text": "sess"}
+{"offset": "0xe9130", "text": "send"}
+{"offset": "0xe9135", "text": "sels"}
+{"offset": "0xe913a", "text": "seen"}
+{"offset": "0xe913f", "text": "rows"}
+{"offset": "0xe9144", "text": "root"}
+{"offset": "0xe9149", "text": "resp"}
+{"offset": "0xe914e", "text": "repo"}
+{"offset": "0xe9153", "text": "recs"}
+{"offset": "0xe9158", "text": "prev"}
+{"offset": "0xe915d", "text": "path"}
+{"offset": "0xe9162", "text": "page"}
+{"offset": "0xe9168", "text": "__name__"}
+{"offset": "0xe9171", "text": "mode"}
+{"offset": "0xe9176", "text": "meta"}
+{"offset": "0xe917b", "text": "main"}
+{"offset": "0xe9180", "text": "load"}
+{"offset": "0xe9185", "text": "list"}
+{"offset": "0xe918a", "text": "kind"}
+{"offset": "0xe918f", "text": "keys"}
+{"offset": "0xe9194", "text": "kept"}
+{"offset": "0xe9199", "text": "json"}
+{"offset": "0xe919e", "text": "item"}
+{"offset": "0xe91a3", "text": "info"}
+{"offset": "0xe91a8", "text": "icon"}
+{"offset": "0xe91ad", "text": "http"}
+{"offset": "0xe91b2", "text": "html"}
+{"offset": "0xe91b7", "text": "home"}
+{"offset": "0xe91bc", "text": "help"}
+{"offset": "0xe91c1", "text": "goto"}
+{"offset": "0xe91c6", "text": "glob"}
+{"offset": "0xe91cb", "text": "fail"}
+{"offset": "0xe91d0", "text": "done"}
+{"offset": "0xe91d5", "text": "dist"}
+{"offset": "0xe91da", "text": "dict"}
+{"offset": "0xe91df", "text": "core"}
+{"offset": "0xe91e4", "text": "code"}
+{"offset": "0xe91e9", "text": "caps"}
+{"offset": "0xe91ee", "text": "bool"}
+{"offset": "0xe91f3", "text": "args"}
+{"offset": "0xe9200", "text": " 측정 예외 — 미저장(재실행 시 재시도): "}
+{"offset": "0xe9240", "text": "%) — 이만큼 무료로 처리됨"}
+{"offset": "0xe9270", "text": "로컬 처리율: "}
+{"offset": "0xe9288", "text": "/크레딧)"}
+{"offset": "0xe9294", "text": " (@ $"}
+{"offset": "0xe92a0", "text": " | 비용: $"}
+{"offset": "0xe92d0", "text": "리테일러"}
+{"offset": "0xe92e0", "text": "----------------------------------------------------------------------------------------"}
+{"offset": "0xe9340", "text": "  ❌실패 "}
+{"offset": "0xe9350", "text": "  ⏭️스킵 "}
+{"offset": "0xe9360", "text": "  |  🆓로컬 "}
+{"offset": "0xe9378", "text": "성공: "}
+{"offset": "0xe93a0", "text": "\n========================================================================================"}
+{"offset": "0xe9400", "text": "초 대기 후 재시도"}
+{"offset": "0xe9420", "text": "건 — "}
+{"offset": "0xe9430", "text": "] 실패 "}
+{"offset": "0xe9440", "text": "분 후 재확인"}
+{"offset": "0xe9460", "text": "병렬 실행 시작 (로컬 총 "}
+{"offset": "0xe9490", "text": "리테일러별 워커: "}
+{"offset": "0xe94a9", "text": "  총 "}
+{"offset": "0xe94b0", "text": "개 실행"}
+{"offset": "0xe94e0", "text": "건 제외 (수집 대상 아님) → "}
+{"offset": "0xe9520", "text": " 스레드 (후처리 팬아웃)"}
+{"offset": "0xe9548", "text": "건  예: "}
+{"offset": "0xe9560", "text": "건 — 파서가 빈 페이지를 채점해 거짓값이 나갈 수 있다"}
+{"offset": "0xe95c0", "text": "========================================================================================"}
+{"offset": "0xe9620", "text": "❌ 최종 실패 "}
+{"offset": "0xe9640", "text": "건 (리테일러 "}
+{"offset": "0xe9658", "text": "): 폴백 → "}
+{"offset": "0xe9670", "text": "] SKIP (이미 수집됨): "}
+{"offset": "0xe9690", "text": ", SB 크레딧 "}
+{"offset": "0xe96a0", "text": "  💰SB "}
+{"offset": "0xe96aa", "text": " / SB "}
+{"offset": "0xe96c0", "text": "로컬 전용(SB 미사용)"}
+{"offset": "0xe96e0", "text": "SB 전역 워커: "}
+{"offset": "0xe9700", "text": " 스냅샷 | SB크레딧 "}
+{"offset": "0xe9730", "text": "] SB 재시도 "}
+{"offset": "0xe9740", "text": "PROG"}
+{"offset": "0xe9745", "text": "Otto"}
+{"offset": "0xe974a", "text": "None"}
+{"offset": "0xe9760", "text": "%) — IP 해제 확인까지 대기"}
+{"offset": "0xe9785", "text": "INFO"}
+{"offset": "0xe978a", "text": "Alza"}
+{"offset": "0xe97a0", "text": "실패 항목 라운드 재시도 활성화 (기본 2라운드/60초)."}
+{"offset": "0xe97e7", "text": ">10,"}
+{"offset": "0xe97ec", "text": "_why"}
+{"offset": "0xe97f9", "text": "_try"}
+{"offset": "0xe9822", "text": "_pre"}
+{"offset": "0xe983b", "text": "_ovr"}
+{"offset": "0xe9860", "text": "gnb_"}
+{"offset": "0xe9875", "text": " (crd "}
+{"offset": "0xe9884", "text": "_cap"}
+{"offset": "0xe988d", "text": "--all"}
+{"offset": "0xe98a0", "text": " 페이지타겟 "}
+{"offset": "0xe98c0", "text": " 페이지타겟 정의 없음"}
+{"offset": "0xe98e3", "text": ") → "}
+{"offset": "0xe98f0", "text": "건 제외 ("}
+{"offset": "0xe9900", "text": "브랜드 트랙 필터: "}
+{"offset": "0xe9920", "text": " — 해당 타깃은 필터 없이 통과"}
+{"offset": "0xe994b", "text": "] ❌ "}
+{"offset": "0xe9958", "text": "] 저장 → "}
+{"offset": "0xe9968", "text": " | 동영상 "}
+{"offset": "0xe9976", "text": ") | "}
+{"offset": "0xe9980", "text": " | 평점 "}
+{"offset": "0xe9990", "text": " | 재고 "}
+{"offset": "0xe99a0", "text": " | 가격 "}
+{"offset": "0xe99ab", "text": "] ✅ "}
+{"offset": "0xe99d0", "text": "] 로컬 실패("}
+{"offset": "0xe99e8", "text": "초 대기"}
+{"offset": "0xe99f3", "text": ") — "}
+{"offset": "0xe9a00", "text": "] 로컬 재시도 "}
+{"offset": "0xe9a30", "text": ") 예외: "}
+{"offset": "0xe9a40", "text": "개 취득"}
+{"offset": "0xe9a50", "text": "페이지로 진행"}
+{"offset": "0xe9a70", "text": " → 부분 병합 "}
+{"offset": "0xe9a90", "text": "페이지 회수: "}
+{"offset": "0xe9aa8", "text": " → 부분 "}
+{"offset": "0xe9ae0", "text": "리테일러당 동시 요청 수 (기본 "}
+{"offset": "0xe9b20", "text": "모바일 URL 타깃 "}
+{"offset": "0xe9b70", "text": "  동영상 "}
+{"offset": "0xe9b80", "text": " | 이미지 "}
+{"offset": "0xe9b8e", "text": "  ❌ "}
+{"offset": "0xe9b98", "text": "%) | ✅ "}
+{"offset": "0xe9bb0", "text": " | SB크레딧 "}
+{"offset": "0xe9bd0", "text": "IP 확인 중 오류: "}
+{"offset": "0xe9c00", "text": "재시도 라운드 간 대기 초 (기본 60)."}
+{"offset": "0xe9c80", "text": ") → 1페이지 기준 진행"}

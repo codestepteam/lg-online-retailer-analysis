@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0111-coolblue",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.coolblue.nl/koelkasten/etna",
+    "finalUrl": "https://www.coolblue.nl/koelkasten/etna",
+    "capturedAt": "2026-09-28T08:06:48.124192+09:00",
+    "collectionOk": true,
+    "title": "Etna koelkast | Coolblue - Voor 23.59u, morgen in huis"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0111-coolblue/brand-category/raw.html",
+      "sha256": "273ed46d6e0d17bcc0c764eef32a0fb0d1c5b82592e83918ea3a7a0b5339471e"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0111-coolblue/brand-category/capture-state.json",
+      "sha256": "fb904497bd930650d6cad126a199c67ade8abaae8e2185aa3d8c9a664d6e81ca"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0111-coolblue/brand-category/response.json",
+      "sha256": "da720e23a9d8727d240a819ca4b205e578144d5fa6a785f16ba1e7e0a218b24f"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div > div#main-content > main.css-18bivaf > div.css-12apzos > h1.css-s353ky",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "ETNA koelkasten",
+        "attributes": {
+          "class": "css-s353ky"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "ul.hb-1ue6mgd > li.hb-ro6g5j > div.hb-tqwi16 > div.hb-1pa0fk7 > a.hb-1dtiqm5 > h3.hb-18uq3fj",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Alle ETNA koelkasten",
+        "attributes": {
+          "class": "hb-18uq3fj"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "ul.hb-1ue6mgd > li.hb-ro6g5j > div.hb-tqwi16 > div.hb-1pa0fk7 > a.hb-1dtiqm5 > h3.hb-18uq3fj",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "ETNA koelkast aanbiedingen",
+        "attributes": {
+          "class": "hb-18uq3fj"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main.css-18bivaf > div.css-2moqnu > div > div > div.hb-1u8qly9 > h2.hb-1bj00wy",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Vind de beste ETNA koelkast voor jou",
+        "attributes": {
+          "class": "hb-1bj00wy"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "ul.hb-1ue6mgd > li.hb-ro6g5j > div.hb-tqwi16 > div.hb-1h8mndc > a.hb-1dtiqm5 > h3.hb-qb5t6a",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "ETNA koel-vriescombinaties",
+        "attributes": {
+          "class": "hb-qb5t6a"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "ul.hb-1ue6mgd > li.hb-ro6g5j > div.hb-tqwi16 > div.hb-1h8mndc > a.hb-1dtiqm5 > h3.hb-qb5t6a",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "ETNA Amerikaanse koelkasten",
+        "attributes": {
+          "class": "hb-qb5t6a"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "ul.hb-1ue6mgd > li.hb-ro6g5j > div.hb-tqwi16 > div.hb-1h8mndc > a.hb-1dtiqm5 > h3.hb-qb5t6a",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "ETNA inbouw koelkasten",
+        "attributes": {
+          "class": "hb-qb5t6a"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#main-content > main.css-18bivaf > div.css-2moqnu > div > div > h2.hb-1tgxpp5",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bewaar extra veel boodschappen",
+        "attributes": {
+          "class": "hb-1tgxpp5"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.hb-9van0e > div.hb-zils0q > div.hb-19mtnxi > div.hb-7gicvy > h3.hb-xfywgc",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bespaar gemiddeld tot € 950,-",
+        "attributes": {
+          "class": "hb-xfywgc"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main.css-18bivaf > div.css-2moqnu > div > div > section#block-slimme-organisatie-van-je-gezinsleven > h2.hb-v8gf6i",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Voordelen van een ETNA koelkast",
+        "attributes": {
+          "class": "hb-v8gf6i"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > section#block-slimme-organisatie-van-je-gezinsleven > div.hb-13meuwn > div.hb-14clj8k > div.hb-1tcnpzv > h3.hb-13f1kyi",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Convert FreshZone",
+        "attributes": {
+          "class": "hb-13f1kyi"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > section#block-slimme-organisatie-van-je-gezinsleven > div.hb-13meuwn > div.hb-14clj8k > div.hb-1tcnpzv > h3.hb-13f1kyi",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "No Frost Plus",
+        "attributes": {
+          "class": "hb-13f1kyi"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > section#block-slimme-organisatie-van-je-gezinsleven > div.hb-13meuwn > div.hb-14clj8k > div.hb-1tcnpzv > h3.hb-13f1kyi",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "SuperCool en FastFreeze",
+        "attributes": {
+          "class": "hb-13f1kyi"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div#main-content > main.css-18bivaf > div.css-2moqnu > div > div > h2.hb-1bj00wy",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Bezorging en installatie van je ETNA koelkast",
+        "attributes": {
+          "class": "hb-1bj00wy"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div > div.hb-kn9mze > ul.hb-1ue6mgd > li.hb-ro6g5j > h3.hb-fjue4",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "We bezorgen jouw ETNA koelkast gratis thuis",
+        "attributes": {
+          "class": "hb-fjue4"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div > div.hb-kn9mze > ul.hb-1ue6mgd > li.hb-ro6g5j > h3.hb-fjue4",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "We installeren de koelkast",
+        "attributes": {
+          "class": "hb-fjue4"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div > div.hb-kn9mze > ul.hb-1ue6mgd > li.hb-ro6g5j > h3.hb-fjue4",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "We nemen je oude product mee terug",
+        "attributes": {
+          "class": "hb-fjue4"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.css-2moqnu > div > div > div.hb-1g69dgv > div.hb-f0egaa > h3#e",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "E",
+        "attributes": {
+          "id": "e",
+          "class": "hb-y2am0n"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1u8qly9 > div.css-1xlrb07 > div.css-18bivaf > div.css-155dxmt > div > h2.css-v8gf6i",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Eerder bekeken door jou",
+        "attributes": {
+          "class": "css-v8gf6i"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.css-1u8qly9 > div.css-1xlrb07 > div.css-18bivaf > div.css-9vf5x0 > h3.css-nz9uv6",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Jouw producten overal beschikbaar",
+        "attributes": {
+          "class": "css-nz9uv6"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-1cld8ww > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Heb je een vraag?",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-1nj5m1z > div.css-1rpktpv > div.css-vrko8f > div.css-uoe0ie > div.css-184ivgm > h2.css-zmh1qr",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Meld je aan voor onze nieuwsbrief",
+        "attributes": {
+          "class": "css-zmh1qr"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.css-198nwta > div > footer.css-awgckc > div.css-9z5sqr > section.shop-ratings-d1sr2r > h2#shop-ratings-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Beoordeling door klanten:",
+        "attributes": {
+          "id": "shop-ratings-heading",
+          "class": "shop-ratings-9wn4e9"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 16,
+        "top10ByRenderedArea": [
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/max/800xauto/content/29532da8aa0b164074c12d7ff18004eb",
+            "alt": "Bewaar extra veel boodschappen",
+            "renderedWidth": 632,
+            "renderedHeight": 350,
+            "renderedArea": 221200,
+            "naturalWidth": 632,
+            "naturalHeight": 351,
+            "naturalArea": 221832,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/max/624xauto/content/6960faf7b3d10a67efab7d3e9ec37b35",
+            "alt": "ETNA koelkasten",
+            "renderedWidth": 624,
+            "renderedHeight": 351,
+            "renderedArea": 219024,
+            "naturalWidth": 624,
+            "naturalHeight": 351,
+            "naturalArea": 219024,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://image.coolblue.nl/max/512xauto/content/e62cbd591d919e740aea6bcd1ef6ff98",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://image.coolblue.nl/max/512xauto/content/847e126b6f33bb178e58d16908b0a877",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://image.coolblue.nl/max/512xauto/content/961093049359edda03ab63f8f17311fd",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/5ed05eeeebc9132193f2d3042b833fe0",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/04c10d5449d4037a0660b9aa75818a53",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 276,
+            "naturalArea": 114264,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/50e190228b1e149dd7da553ddc4e7dd9",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://image.coolblue.nl/max/480xauto/content/28293e945d4dc098f4033519d88b962f",
+            "alt": "SuperCool en FastFreeze",
+            "renderedWidth": 405.34375,
+            "renderedHeight": 228,
+            "renderedArea": 92418.375,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://image.coolblue.nl/max/480xauto/content/0a2a070a00c8c109300e53340c5c218c",
+            "alt": "Convert FreshZone",
+            "renderedWidth": 405.328125,
+            "renderedHeight": 227.984375,
+            "renderedArea": 92408.47924804688,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/max/800xauto/content/29532da8aa0b164074c12d7ff18004eb",
+            "alt": "Bewaar extra veel boodschappen",
+            "renderedWidth": 632,
+            "renderedHeight": 350,
+            "renderedArea": 221200,
+            "naturalWidth": 632,
+            "naturalHeight": 351,
+            "naturalArea": 221832,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/max/624xauto/content/6960faf7b3d10a67efab7d3e9ec37b35",
+            "alt": "ETNA koelkasten",
+            "renderedWidth": 624,
+            "renderedHeight": 351,
+            "renderedArea": 219024,
+            "naturalWidth": 624,
+            "naturalHeight": 351,
+            "naturalArea": 219024,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/04c10d5449d4037a0660b9aa75818a53",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 276,
+            "naturalArea": 114264,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://image.coolblue.nl/max/512xauto/content/e62cbd591d919e740aea6bcd1ef6ff98",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://image.coolblue.nl/max/512xauto/content/847e126b6f33bb178e58d16908b0a877",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://image.coolblue.nl/max/512xauto/content/961093049359edda03ab63f8f17311fd",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/5ed05eeeebc9132193f2d3042b833fe0",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/50e190228b1e149dd7da553ddc4e7dd9",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://image.coolblue.nl/max/480xauto/content/0a2a070a00c8c109300e53340c5c218c",
+            "alt": "Convert FreshZone",
+            "renderedWidth": 405.328125,
+            "renderedHeight": 227.984375,
+            "renderedArea": 92408.47924804688,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://image.coolblue.nl/max/480xauto/content/d1ccad34dd27992fd440d1126a5b6131",
+            "alt": "No Frost Plus",
+            "renderedWidth": 405.328125,
+            "renderedHeight": 227.984375,
+            "renderedArea": 92408.47924804688,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Etna koelkast | Coolblue - Voor 23.59u, morgen in huis"
+        ],
+        "metaDescription": [
+          "ETNA koelkasten kopen? Coolblue levert en installeert wanneer het je uitkomt, ook op zondag en in de avond. Gratis bezorging & retour."
+        ],
+        "h1": [
+          "ETNA koelkasten"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.coolblue.nl/koelkasten/etna"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 6,
+            "src": "https://image.coolblue.nl/max/800xauto/content/29532da8aa0b164074c12d7ff18004eb",
+            "alt": "Bewaar extra veel boodschappen",
+            "renderedWidth": 632,
+            "renderedHeight": 350,
+            "renderedArea": 221200,
+            "naturalWidth": 632,
+            "naturalHeight": 351,
+            "naturalArea": 221832,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://image.coolblue.nl/max/624xauto/content/6960faf7b3d10a67efab7d3e9ec37b35",
+            "alt": "ETNA koelkasten",
+            "renderedWidth": 624,
+            "renderedHeight": 351,
+            "renderedArea": 219024,
+            "naturalWidth": 624,
+            "naturalHeight": 351,
+            "naturalArea": 219024,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://image.coolblue.nl/max/512xauto/content/e62cbd591d919e740aea6bcd1ef6ff98",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://image.coolblue.nl/max/512xauto/content/847e126b6f33bb178e58d16908b0a877",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://image.coolblue.nl/max/512xauto/content/961093049359edda03ab63f8f17311fd",
+            "alt": "Bezorging en installatie van je ETNA koelkast",
+            "renderedWidth": 416,
+            "renderedHeight": 233.734375,
+            "renderedArea": 97233.5,
+            "naturalWidth": 415,
+            "naturalHeight": 233,
+            "naturalArea": 96695,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/5ed05eeeebc9132193f2d3042b833fe0",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 4,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/04c10d5449d4037a0660b9aa75818a53",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 276,
+            "naturalArea": 114264,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://image.coolblue.nl/transparent/max/480xauto/content/50e190228b1e149dd7da553ddc4e7dd9",
+            "alt": "",
+            "renderedWidth": 414,
+            "renderedHeight": 232.875,
+            "renderedArea": 96410.25,
+            "naturalWidth": 414,
+            "naturalHeight": 232,
+            "naturalArea": 96048,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://image.coolblue.nl/max/480xauto/content/28293e945d4dc098f4033519d88b962f",
+            "alt": "SuperCool en FastFreeze",
+            "renderedWidth": 405.34375,
+            "renderedHeight": 228,
+            "renderedArea": 92418.375,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://image.coolblue.nl/max/480xauto/content/0a2a070a00c8c109300e53340c5c218c",
+            "alt": "Convert FreshZone",
+            "renderedWidth": 405.328125,
+            "renderedHeight": 227.984375,
+            "renderedArea": 92408.47924804688,
+            "naturalWidth": 405,
+            "naturalHeight": 227,
+            "naturalArea": 91935,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h2",
+            "path": "main.css-18bivaf > div.css-2moqnu > div > div > section#block-slimme-organisatie-van-je-gezinsleven > h2.hb-v8gf6i",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Voordelen van een ETNA koelkast",
+            "attributes": {
+              "class": "hb-v8gf6i"
+            },
+            "matchedTerms": [
+              "voordelen"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Alle koelkasten",
+            "href": "https://www.coolblue.nl/koelkasten",
+            "signals": [
+              "페이지 주제어와 일치: koelkasten"
+            ]
+          },
+          {
+            "text": "ETNA koelkast abonnementen",
+            "href": "https://www.coolblue.nl/koelkasten/etna/abonnementen",
+            "signals": [
+              "페이지 주제어와 일치: etna, koelkast"
+            ]
+          },
+          {
+            "text": "Koelkasten",
+            "href": "https://www.coolblue.nl/koelkasten",
+            "signals": [
+              "페이지 주제어와 일치: koelkasten"
+            ]
+          },
+          {
+            "text": "Alle ETNA koelkasten",
+            "href": "https://www.coolblue.nl/koelkasten/etna/filter",
+            "signals": [
+              "페이지 주제어와 일치: etna, koelkasten"
+            ]
+          },
+          {
+            "text": "ETNA koelkast aanbiedingen",
+            "href": "https://www.coolblue.nl/koelkasten/etna/aanbieding",
+            "signals": [
+              "페이지 주제어와 일치: etna, koelkast"
+            ]
+          },
+          {
+            "text": "ETNA koel-vriescombinaties",
+            "href": "https://www.coolblue.nl/koelkasten/vrijstaand/koel-vriescombinaties/etna",
+            "signals": [
+              "페이지 주제어와 일치: etna"
+            ]
+          },
+          {
+            "text": "ETNA Amerikaanse koelkasten",
+            "href": "https://www.coolblue.nl/koelkasten/vrijstaand/amerikaanse-koelkasten/etna",
+            "signals": [
+              "페이지 주제어와 일치: etna, koelkasten"
+            ]
+          },
+          {
+            "text": "ETNA inbouw koelkasten",
+            "href": "https://www.coolblue.nl/koelkasten/inbouw/etna",
+            "signals": [
+              "페이지 주제어와 일치: etna, koelkasten"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": [
+          {
+            "text": "ETNA AKV6178ZWA",
+            "href": "https://www.coolblue.nl/product/975850/etna-akv6178zwa.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Beoordeling is 9,5 van de 10, gebaseerd op 8 reviews. 8 reviews",
+            "href": "https://www.coolblue.nl/product/975850/etna-akv6178zwa.html#product-reviews",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

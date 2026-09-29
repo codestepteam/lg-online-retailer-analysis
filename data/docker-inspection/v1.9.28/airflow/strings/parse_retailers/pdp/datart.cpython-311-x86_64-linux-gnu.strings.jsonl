@@ -1,0 +1,261 @@
+{"offset": "0x27000", "text": "%.200s() needs an argument"}
+{"offset": "0x2701b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x27039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2704f", "text": "cannot import name %S"}
+{"offset": "0x27065", "text": "__loader__"}
+{"offset": "0x27070", "text": "loader"}
+{"offset": "0x27077", "text": "__file__"}
+{"offset": "0x27080", "text": "origin"}
+{"offset": "0x27087", "text": "__package__"}
+{"offset": "0x27093", "text": "parent"}
+{"offset": "0x2709a", "text": "__path__"}
+{"offset": "0x270a3", "text": "submodule_search_locations"}
+{"offset": "0x270be", "text": "keywords must be strings"}
+{"offset": "0x270d7", "text": "_cython_coroutine_type"}
+{"offset": "0x270ee", "text": "_cython_generator_type"}
+{"offset": "0x27105", "text": "_module"}
+{"offset": "0x2710d", "text": "__builtins__"}
+{"offset": "0x2711a", "text": "_cython_3_0_12"}
+{"offset": "0x27129", "text": "%s (%s:%d)"}
+{"offset": "0x27134", "text": "name '%U' is not defined"}
+{"offset": "0x2714d", "text": "builtins"}
+{"offset": "0x27156", "text": "cython_runtime"}
+{"offset": "0x27165", "text": "parse_retailers.pdp.datart"}
+{"offset": "0x27180", "text": "does not match"}
+{"offset": "0x2718f", "text": "collections.abc"}
+{"offset": "0x2719f", "text": "backports_abc"}
+{"offset": "0x271ad", "text": "parse_retailers/pdp/datart.py"}
+{"offset": "0x271cb", "text": "generator already executing"}
+{"offset": "0x271ea", "text": "genexpr"}
+{"offset": "0x271f2", "text": "exactly"}
+{"offset": "0x271fa", "text": "_gallery"}
+{"offset": "0x27203", "text": "_internal_links"}
+{"offset": "0x27213", "text": "_videos_in"}
+{"offset": "0x2721e", "text": "throw"}
+{"offset": "0x27224", "text": "_imgs_in"}
+{"offset": "0x2722d", "text": "parse"}
+{"offset": "0x27233", "text": "_cython_3_0_12.generator"}
+{"offset": "0x2724c", "text": "__name__"}
+{"offset": "0x27255", "text": "name of the generator"}
+{"offset": "0x2726b", "text": "__qualname__"}
+{"offset": "0x27278", "text": "gi_frame"}
+{"offset": "0x27281", "text": "Frame of the generator"}
+{"offset": "0x27298", "text": "gi_running"}
+{"offset": "0x272a3", "text": "gi_yieldfrom"}
+{"offset": "0x272b0", "text": "gi_code"}
+{"offset": "0x272b8", "text": "__module__"}
+{"offset": "0x272c3", "text": "send"}
+{"offset": "0x272c8", "text": "close"}
+{"offset": "0x272ce", "text": "__reduce__"}
+{"offset": "0x272d9", "text": "func_doc"}
+{"offset": "0x272e2", "text": "__doc__"}
+{"offset": "0x272ea", "text": "func_name"}
+{"offset": "0x272f4", "text": "func_dict"}
+{"offset": "0x272fe", "text": "__dict__"}
+{"offset": "0x27307", "text": "func_globals"}
+{"offset": "0x27314", "text": "__globals__"}
+{"offset": "0x27320", "text": "func_closure"}
+{"offset": "0x2732d", "text": "__closure__"}
+{"offset": "0x27339", "text": "func_code"}
+{"offset": "0x27343", "text": "__code__"}
+{"offset": "0x2734c", "text": "func_defaults"}
+{"offset": "0x2735a", "text": "__defaults__"}
+{"offset": "0x27367", "text": "__kwdefaults__"}
+{"offset": "0x27376", "text": "__annotations__"}
+{"offset": "0x27386", "text": "_is_coroutine"}
+{"offset": "0x27398", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x273c0", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x273f0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x27418", "text": " while calling a Python object"}
+{"offset": "0x27438", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x27468", "text": "function's dictionary may not be deleted"}
+{"offset": "0x27498", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x274c8", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x27528", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x27558", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x27588", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x275b8", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x27620", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x27650", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x276b0", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x276e0", "text": "__name__ must be set to a string object"}
+{"offset": "0x27708", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x27850", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x27888", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x278c0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x278e8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x27918", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x27950", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x27980", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x279c0", "text": "/tmp/clinic_build_y1xih54e/cbuild/parse_retailers/pdp/datart.c"}
+{"offset": "0x27a00", "text": "Module 'datart' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x27a50", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x27aa0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x27ac8", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x27b78", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x27bb8", "text": "init parse_retailers.pdp.datart"}
+{"offset": "0x27bd8", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x27c00", "text": "generator ignored GeneratorExit"}
+{"offset": "0x27c20", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x27c58", "text": "generator raised StopIteration"}
+{"offset": "0x27c78", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x27cb8", "text": "parse_retailers.pdp.datart._gallery"}
+{"offset": "0x27ce0", "text": "join() result is too long for a Python string"}
+{"offset": "0x27d10", "text": "parse_retailers.pdp.datart._internal_links"}
+{"offset": "0x27d40", "text": "parse_retailers.pdp.datart._videos_in"}
+{"offset": "0x27d68", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x27d98", "text": "instance exception may not have a separate value"}
+{"offset": "0x27dd0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x27e18", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x27e58", "text": "parse_retailers.pdp.datart._imgs_in"}
+{"offset": "0x27e80", "text": "parse_retailers.pdp.datart.parse.genexpr"}
+{"offset": "0x27eb0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x27ee0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x27f08", "text": "parse_retailers.pdp.datart.parse"}
+{"offset": "0x27f30", "text": "qualified name of the generator"}
+{"offset": "0x27f50", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x27f80", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x27fe0", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x28050", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x28088", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x280b8", "text": "parse_retailers.pdp.datart.__pyx_scope_struct__genexpr"}
+{"offset": "0x28120", "text": "youtube\\.com/(?:embed|watch)|youtu\\.be/|\\.mp4(?:\\?|$)"}
+{"offset": "0x28160", "text": "parse_retailers/pdp/datart.py"}
+{"offset": "0x28180", "text": "parse_retailers.pdp.datart"}
+{"offset": "0x281a0", "text": "parse_retailers.common"}
+{"offset": "0x281c0", "text": "parse.<locals>.genexpr"}
+{"offset": "0x281e0", "text": ".product-description"}
+{"offset": "0x28200", "text": "jsonld_availability"}
+{"offset": "0x28220", "text": "https://www.datart.cz"}
+{"offset": "0x28240", "text": "cline_in_traceback"}
+{"offset": "0x28260", "text": "asyncio.coroutines"}
+{"offset": "0x28280", "text": "asset_capture_mode"}
+{"offset": "0x282a0", "text": "model_from_title"}
+{"offset": "0x282b8", "text": "internal_links"}
+{"offset": "0x282d0", "text": "/foto/(?:ilustrace/)?(\\d+)/"}
+{"offset": "0x282f0", "text": ".product-gallery"}
+{"offset": "0x28310", "text": "model_from_slug"}
+{"offset": "0x28320", "text": "image\\.datart\\.cz/"}
+{"offset": "0x28340", "text": "flix_body_media"}
+{"offset": "0x28350", "text": "jsonld_product"}
+{"offset": "0x28360", "text": "_internal_links"}
+{"offset": "0x28370", "text": "gallery_videos"}
+{"offset": "0x28380", "text": "gallery_images"}
+{"offset": "0x28390", "text": "container-text"}
+{"offset": "0x283a0", "text": "www.datart.cz"}
+{"offset": "0x283b0", "text": "jsonld_rating"}
+{"offset": "0x283c0", "text": "canonical_url"}
+{"offset": "0x283d0", "text": "BeautifulSoup"}
+{"offset": "0x283e0", "text": "urllib.parse"}
+{"offset": "0x283f0", "text": "removesuffix"}
+{"offset": "0x28400", "text": "manufacturer"}
+{"offset": "0x28410", "text": "jsonld_brand"}
+{"offset": "0x28420", "text": "_is_coroutine"}
+{"offset": "0x28430", "text": "_initializing"}
+{"offset": "0x28440", "text": "creator_type"}
+{"offset": "0x28450", "text": "availability"}
+{"offset": "0x28460", "text": "PDP_TEMPLATE"}
+{"offset": "0x28470", "text": "x_flixmedia"}
+{"offset": "0x28480", "text": "x_canonical"}
+{"offset": "0x28490", "text": "related_pdp"}
+{"offset": "0x284a0", "text": "http_status"}
+{"offset": "0x284b0", "text": "html.parser"}
+{"offset": "0x284c0", "text": "#flix-inpage"}
+{"offset": "0x284d0", "text": "_brand_token"}
+{"offset": "0x284e0", "text": "body_videos"}
+{"offset": "0x284f0", "text": "body_images"}
+{"offset": "0x28500", "text": "-[a-z0-9-]+(?:\\.html)?$"}
+{"offset": "0x28518", "text": "startswith"}
+{"offset": "0x28528", "text": "self_token"}
+{"offset": "0x28538", "text": "select_one"}
+{"offset": "0x28548", "text": "image_item"}
+{"offset": "0x28558", "text": "brand_page"}
+{"offset": "0x28568", "text": "asset_text"}
+{"offset": "0x28578", "text": "_videos_in"}
+{"offset": "0x28588", "text": "isenabled"}
+{"offset": "0x28598", "text": "gallery"}
+{"offset": "0x285a0", "text": "flixmedia"}
+{"offset": "0x285b0", "text": "flix_vids"}
+{"offset": "0x285c0", "text": "flix_text"}
+{"offset": "0x285d0", "text": "flix_imgs"}
+{"offset": "0x285e0", "text": "desc_text"}
+{"offset": "0x285f0", "text": "datart.cz"}
+{"offset": "0x28600", "text": "container"}
+{"offset": "0x28610", "text": "_VIDEO_SRC"}
+{"offset": "0x28620", "text": "_FOTO_SIZE"}
+{"offset": "0x28630", "text": "urlsplit"}
+{"offset": "0x28640", "text": "seen_vid"}
+{"offset": "0x28650", "text": "seen_src"}
+{"offset": "0x28660", "text": "page_url"}
+{"offset": "0x28670", "text": "get_text"}
+{"offset": "0x28680", "text": "find_all"}
+{"offset": "0x28690", "text": "deepcopy"}
+{"offset": "0x286a0", "text": "data-src"}
+{"offset": "0x286b0", "text": "^/[a-z0-9-]+-"}
+{"offset": "0x286c0", "text": "urljoin"}
+{"offset": "0x286c8", "text": "related"}
+{"offset": "0x286d0", "text": "prod_re"}
+{"offset": "0x286d8", "text": "_imgs_in"}
+{"offset": "0x286e8", "text": "genexpr"}
+{"offset": "0x286f0", "text": "_gallery"}
+{"offset": "0x28700", "text": "flix_el"}
+{"offset": "0x28708", "text": "disable"}
+{"offset": "0x28710", "text": "compile"}
+{"offset": "0x28718", "text": "_IMG_CDN"}
+{"offset": "0x28721", "text": "source"}
+{"offset": "0x28728", "text": "self_t"}
+{"offset": "0x2872f", "text": "search"}
+{"offset": "0x28736", "text": "rstrip"}
+{"offset": "0x2873d", "text": "rsplit"}
+{"offset": "0x28744", "text": "return"}
+{"offset": "0x2874b", "text": "result"}
+{"offset": "0x28752", "text": "rating"}
+{"offset": "0x28759", "text": "netloc"}
+{"offset": "0x28760", "text": "__name__"}
+{"offset": "0x28770", "text": "__import__"}
+{"offset": "0x2877b", "text": "iframe"}
+{"offset": "0x28782", "text": "hub_re"}
+{"offset": "0x28789", "text": ".html"}
+{"offset": "0x2878f", "text": "html"}
+{"offset": "0x28794", "text": "escape"}
+{"offset": "0x2879b", "text": "enable"}
+{"offset": "0x287b0", "text": "$|^/[a-z0-9-]+(?:-"}
+{"offset": "0x287c3", "text": "video"}
+{"offset": "0x287c9", "text": "title"}
+{"offset": "0x287cf", "text": "throw"}
+{"offset": "0x287d5", "text": "strip"}
+{"offset": "0x287db", "text": "split"}
+{"offset": "0x287e1", "text": "parts"}
+{"offset": "0x287e7", "text": "parse"}
+{"offset": "0x287ed", "text": "model"}
+{"offset": "0x287f3", "text": "match"}
+{"offset": "0x287f9", "text": "m_old"}
+{"offset": "0x287ff", "text": "m_new"}
+{"offset": "0x28805", "text": "lower"}
+{"offset": "0x2880b", "text": "image"}
+{"offset": "0x28811", "text": "https:"}
+{"offset": "0x28818", "text": "group"}
+{"offset": "0x2881e", "text": "close"}
+{"offset": "0x28824", "text": "by_bn"}
+{"offset": "0x2882a", "text": "brand"}
+{"offset": "0x28830", "text": "__test__"}
+{"offset": "0x28840", "text": "__spec__"}
+{"offset": "0x28849", "text": "soup"}
+{"offset": "0x28850", "text": "$|^/shop/"}
+{"offset": "0x2885a", "text": "send"}
+{"offset": "0x2885f", "text": "seen"}
+{"offset": "0x28864", "text": "prod"}
+{"offset": "0x28869", "text": "prev"}
+{"offset": "0x2886e", "text": "path"}
+{"offset": "0x28873", "text": "name"}
+{"offset": "0x28878", "text": "meta"}
+{"offset": "0x28880", "text": "__main__"}
+{"offset": "0x28889", "text": "list"}
+{"offset": "0x2888e", "text": "item"}
+{"offset": "0x28898", "text": "\\.html|/"}
+{"offset": "0x288a1", "text": "href"}
+{"offset": "0x288a6", "text": "find"}
+{"offset": "0x288ab", "text": "dict"}
+{"offset": "0x288b0", "text": "desc"}
+{"offset": "0x288b5", "text": "copy"}
+{"offset": "0x288ba", "text": "args"}

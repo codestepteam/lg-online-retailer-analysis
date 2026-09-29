@@ -1,0 +1,231 @@
+{"offset": "0x1c000", "text": "%.200s() needs an argument"}
+{"offset": "0x1c01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1c039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1c04f", "text": "cannot import name %S"}
+{"offset": "0x1c065", "text": "__loader__"}
+{"offset": "0x1c070", "text": "loader"}
+{"offset": "0x1c077", "text": "__file__"}
+{"offset": "0x1c080", "text": "origin"}
+{"offset": "0x1c087", "text": "__package__"}
+{"offset": "0x1c093", "text": "parent"}
+{"offset": "0x1c09a", "text": "__path__"}
+{"offset": "0x1c0a3", "text": "submodule_search_locations"}
+{"offset": "0x1c0be", "text": "keywords must be strings"}
+{"offset": "0x1c0d7", "text": "_cython_coroutine_type"}
+{"offset": "0x1c0ee", "text": "_cython_generator_type"}
+{"offset": "0x1c105", "text": "_module"}
+{"offset": "0x1c10d", "text": "__builtins__"}
+{"offset": "0x1c11a", "text": "_cython_3_0_12"}
+{"offset": "0x1c129", "text": "%s (%s:%d)"}
+{"offset": "0x1c134", "text": "_jsonld_items"}
+{"offset": "0x1c142", "text": "exactly"}
+{"offset": "0x1c14a", "text": "lambda1"}
+{"offset": "0x1c155", "text": "genexpr"}
+{"offset": "0x1c15d", "text": "name '%U' is not defined"}
+{"offset": "0x1c176", "text": "builtins"}
+{"offset": "0x1c17f", "text": "cython_runtime"}
+{"offset": "0x1c18e", "text": "does not match"}
+{"offset": "0x1c19d", "text": "collections.abc"}
+{"offset": "0x1c1ad", "text": "backports_abc"}
+{"offset": "0x1c1bb", "text": "_brand_is_not_lg"}
+{"offset": "0x1c1cc", "text": "generator already executing"}
+{"offset": "0x1c1e8", "text": "_norm"}
+{"offset": "0x1c1ee", "text": "throw"}
+{"offset": "0x1c1f4", "text": "_category_navigator"}
+{"offset": "0x1c208", "text": "parse"}
+{"offset": "0x1c20e", "text": "_product_list"}
+{"offset": "0x1c21c", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1c235", "text": "__name__"}
+{"offset": "0x1c23e", "text": "name of the generator"}
+{"offset": "0x1c254", "text": "__qualname__"}
+{"offset": "0x1c261", "text": "gi_frame"}
+{"offset": "0x1c26a", "text": "Frame of the generator"}
+{"offset": "0x1c281", "text": "gi_running"}
+{"offset": "0x1c28c", "text": "gi_yieldfrom"}
+{"offset": "0x1c299", "text": "gi_code"}
+{"offset": "0x1c2a1", "text": "__module__"}
+{"offset": "0x1c2ac", "text": "send"}
+{"offset": "0x1c2b1", "text": "close"}
+{"offset": "0x1c2b7", "text": "__reduce__"}
+{"offset": "0x1c2c2", "text": "func_doc"}
+{"offset": "0x1c2cb", "text": "__doc__"}
+{"offset": "0x1c2d3", "text": "func_name"}
+{"offset": "0x1c2dd", "text": "func_dict"}
+{"offset": "0x1c2e7", "text": "__dict__"}
+{"offset": "0x1c2f0", "text": "func_globals"}
+{"offset": "0x1c2fd", "text": "__globals__"}
+{"offset": "0x1c309", "text": "func_closure"}
+{"offset": "0x1c316", "text": "__closure__"}
+{"offset": "0x1c322", "text": "func_code"}
+{"offset": "0x1c32c", "text": "__code__"}
+{"offset": "0x1c335", "text": "func_defaults"}
+{"offset": "0x1c343", "text": "__defaults__"}
+{"offset": "0x1c350", "text": "__kwdefaults__"}
+{"offset": "0x1c35f", "text": "__annotations__"}
+{"offset": "0x1c36f", "text": "_is_coroutine"}
+{"offset": "0x1c37d", "text": "rtveuroadd"}
+{"offset": "0x1c388", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1c3b0", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1c3e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1c408", "text": " while calling a Python object"}
+{"offset": "0x1c428", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1c458", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1c480", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1c530", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1c560", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1c590", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1c5f0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1c620", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1c650", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1c680", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1c6e8", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1c718", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1c778", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1c7a8", "text": "__name__ must be set to a string object"}
+{"offset": "0x1c7d0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x1c918", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x1c950", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1c988", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1c9b0", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1c9e0", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x1ca18", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1ca48", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1ca88", "text": "/tmp/clinic_build_y1xih54e/cbuild/parse_retailers/brand/rtveuroadd.c"}
+{"offset": "0x1cad0", "text": "parse_retailers/brand/rtveuroadd.py"}
+{"offset": "0x1caf8", "text": "parse_retailers.brand.rtveuroadd._jsonld_items"}
+{"offset": "0x1cb28", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1cb68", "text": "parse_retailers.brand.rtveuroadd._product_list.lambda1"}
+{"offset": "0x1cba0", "text": "generator raised StopIteration"}
+{"offset": "0x1cbc0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x1cbf8", "text": "dictionary changed size during iteration"}
+{"offset": "0x1cc28", "text": "Module 'rtveuroadd' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1cc80", "text": "parse_retailers.brand.rtveuroadd"}
+{"offset": "0x1cca8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1ccf8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x1cd38", "text": "init parse_retailers.brand.rtveuroadd"}
+{"offset": "0x1cd60", "text": "parse_retailers.brand.rtveuroadd._brand_is_not_lg"}
+{"offset": "0x1cd98", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1cdc0", "text": "parse_retailers.brand.rtveuroadd._norm"}
+{"offset": "0x1cde8", "text": "generator ignored GeneratorExit"}
+{"offset": "0x1ce08", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x1ce38", "text": "instance exception may not have a separate value"}
+{"offset": "0x1ce70", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x1ceb8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x1cef8", "text": "parse_retailers.brand.rtveuroadd._category_navigator.genexpr"}
+{"offset": "0x1cf38", "text": "parse_retailers.brand.rtveuroadd._category_navigator"}
+{"offset": "0x1cf70", "text": "parse_retailers.brand.rtveuroadd.parse"}
+{"offset": "0x1cf98", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x1cfb8", "text": "parse_retailers.brand.rtveuroadd._product_list"}
+{"offset": "0x1cfe8", "text": "qualified name of the generator"}
+{"offset": "0x1d008", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x1d038", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1d098", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1d108", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x1d140", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1d170", "text": "parse_retailers.brand.rtveuroadd.__pyx_scope_struct_1__jsonld_items"}
+{"offset": "0x1d1b8", "text": "parse_retailers.brand.rtveuroadd.__pyx_scope_struct__genexpr"}
+{"offset": "0x1d200", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x1d2e0", "text": "parse_retailers/brand/rtveuroadd.py"}
+{"offset": "0x1d320", "text": "parse_retailers.brand.rtveuroadd"}
+{"offset": "0x1d360", "text": "ems-filters-category-tree-v1 a[href], div.brand-list__categories a[href]"}
+{"offset": "0x1d3c0", "text": "_category_navigator.<locals>.genexpr"}
+{"offset": "0x1d400", "text": "실UI 트리 미렌더(SSR 본) — SEO 숨김 링크는 미채택. brand render_js=True 재크롤 필요"}
+{"offset": "0x1d480", "text": "_product_list.<locals>.<lambda>"}
+{"offset": "0x1d4a0", "text": "filters-category-tree(실UI)"}
+{"offset": "0x1d4c0", "text": "ems-seo-navigation-links"}
+{"offset": "0x1d4e0", "text": "_x_hero_banner_strict"}
+{"offset": "0x1d500", "text": "_category_navigator"}
+{"offset": "0x1d520", "text": "\"productsCount\"\\s*:\\s*(\\d+)"}
+{"offset": "0x1d540", "text": "application/ld+json"}
+{"offset": "0x1d560", "text": "rel=\"canonical\"[^>]*href=\"([^\"]+)\""}
+{"offset": "0x1d590", "text": "cline_in_traceback"}
+{"offset": "0x1d5b0", "text": "category_navigator"}
+{"offset": "0x1d5d0", "text": "asyncio.coroutines"}
+{"offset": "0x1d5f0", "text": "itemListElement"}
+{"offset": "0x1d600", "text": "div.product-box"}
+{"offset": "0x1d610", "text": "clickable_count"}
+{"offset": "0x1d620", "text": "_brand_is_not_lg"}
+{"offset": "0x1d638", "text": "_product_list"}
+{"offset": "0x1d648", "text": "declared_total"}
+{"offset": "0x1d658", "text": "category_count"}
+{"offset": "0x1d668", "text": "parse_generic"}
+{"offset": "0x1d678", "text": "product_list"}
+{"offset": "0x1d688", "text": "_jsonld_items"}
+{"offset": "0x1d698", "text": "_is_coroutine"}
+{"offset": "0x1d6a8", "text": "_initializing"}
+{"offset": "0x1d6b8", "text": "_CANONICAL_RE"}
+{"offset": "0x1d6c8", "text": "hero_banner"}
+{"offset": "0x1d6d8", "text": "clickable_n"}
+{"offset": "0x1d6e8", "text": "tree_links"}
+{"offset": "0x1d6f8", "text": "startswith"}
+{"offset": "0x1d708", "text": "javascript"}
+{"offset": "0x1d718", "text": "categories"}
+{"offset": "0x1d728", "text": "ValueError"}
+{"offset": "0x1d738", "text": "isenabled"}
+{"offset": "0x1d748", "text": "(?i)<!DOCTYPE"}
+{"offset": "0x1d758", "text": "clickable"}
+{"offset": "0x1d768", "text": "TypeError"}
+{"offset": "0x1d778", "text": ",strona-\\d+"}
+{"offset": "0x1d788", "text": "ssr-only"}
+{"offset": "0x1d798", "text": "get_text"}
+{"offset": "0x1d7a8", "text": "find_all"}
+{"offset": "0x1d7b8", "text": "ItemList"}
+{"offset": "0x1d7c8", "text": "_COUNT_RE"}
+{"offset": "0x1d7d8", "text": "genexpr"}
+{"offset": "0x1d7e0", "text": "disable"}
+{"offset": "0x1d7e8", "text": "compile"}
+{"offset": "0x1d7f0", "text": "values"}
+{"offset": "0x1d7f7", "text": "@type"}
+{"offset": "0x1d7fd", "text": "string"}
+{"offset": "0x1d804", "text": "select"}
+{"offset": "0x1d80b", "text": "search"}
+{"offset": "0x1d812", "text": "script"}
+{"offset": "0x1d819", "text": "sample"}
+{"offset": "0x1d820", "text": "return"}
+{"offset": "0x1d828", "text": "__name__"}
+{"offset": "0x1d838", "text": "__import__"}
+{"offset": "0x1d843", "text": "enable"}
+{"offset": "0x1d850", "text": "_common"}
+{"offset": "0x1d858", "text": "upper"}
+{"offset": "0x1d85e", "text": "total"}
+{"offset": "0x1d864", "text": "throw"}
+{"offset": "0x1d86a", "text": "strip"}
+{"offset": "0x1d870", "text": "split"}
+{"offset": "0x1d876", "text": "scope"}
+{"offset": "0x1d880", "text": "\\s*\\(\\d+\\)\\s*$"}
+{"offset": "0x1d88f", "text": "parse"}
+{"offset": "0x1d895", "text": "names"}
+{"offset": "0x1d89b", "text": "loads"}
+{"offset": "0x1d8b0", "text": "^https?://[^/]+"}
+{"offset": "0x1d8c0", "text": "group"}
+{"offset": "0x1d8c6", "text": "found"}
+{"offset": "0x1d8d0", "text": "count"}
+{"offset": "0x1d8d6", "text": "close"}
+{"offset": "0x1d8dc", "text": "brand"}
+{"offset": "0x1d8e2", "text": ".bhtml"}
+{"offset": "0x1d8e9", "text": "urls"}
+{"offset": "0x1d8ee", "text": "type"}
+{"offset": "0x1d8f3", "text": "text"}
+{"offset": "0x1d8f8", "text": "__test__"}
+{"offset": "0x1d908", "text": "__spec__"}
+{"offset": "0x1d911", "text": "soup"}
+{"offset": "0x1d916", "text": "send"}
+{"offset": "0x1d91b", "text": "seen"}
+{"offset": "0x1d920", "text": "prod"}
+{"offset": "0x1d925", "text": "note"}
+{"offset": "0x1d92a", "text": "_norm"}
+{"offset": "0x1d930", "text": "name"}
+{"offset": "0x1d935", "text": "meta"}
+{"offset": "0x1d940", "text": "__main__"}
+{"offset": "0x1d949", "text": "json"}
+{"offset": "0x1d94e", "text": "item"}
+{"offset": "0x1d953", "text": "html"}
+{"offset": "0x1d958", "text": "href"}
+{"offset": "0x1d95d", "text": "find"}
+{"offset": "0x1d962", "text": "dict"}
+{"offset": "0x1d967", "text": "data"}
+{"offset": "0x1d96c", "text": "cats"}
+{"offset": "0x1d971", "text": "bool"}
+{"offset": "0x1d976", "text": "args"}
+{"offset": "0x1d99b", "text": "_doc"}
+{"offset": "0x1d9c0", "text": "카테고리 트리·SEO 블록 모두 부재 — 페이지 확인 필요"}

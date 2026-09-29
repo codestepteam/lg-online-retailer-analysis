@@ -1,0 +1,75 @@
+# Elgiganten robots.txt
+# source: https://www.elgiganten.se/robots.txt (via Bright Data, country=se)
+# HTTP 200
+#
+# '*'(일반 크롤러) 전면금지: 아니오 (홈/제품 허용)
+# Brightbot 전면금지: 아니오
+======================================================================
+
+User-Agent: AdsBot-Google
+Allow: /*?utm_*
+Allow: /*.css*
+Allow: /*.js*
+Disallow: /api/
+Disallow: /_vercel/
+Disallow: /login/
+Disallow: /account
+Disallow: /*/extra$
+Disallow: /authorizationserver/
+Disallow: /checkout/
+Disallow: /my-company/
+Disallow: /preferred-products/
+Disallow: /import/
+Disallow: /store-finder
+Disallow: /quickOrder
+Disallow: /my-account/
+Disallow: /search/
+Disallow: /wishlist/
+Disallow: /cart/
+Disallow: /*?_rsc=*
+
+User-Agent: AdsBot-Google-Mobile
+Allow: /*?utm_*
+Allow: /*.css*
+Allow: /*.js*
+Disallow: /api/
+Disallow: /_vercel/
+Disallow: /login/
+Disallow: /account
+Disallow: /*/extra$
+Disallow: /authorizationserver/
+Disallow: /checkout/
+Disallow: /my-company/
+Disallow: /preferred-products/
+Disallow: /import/
+Disallow: /store-finder
+Disallow: /quickOrder
+Disallow: /my-account/
+Disallow: /search/
+Disallow: /wishlist/
+Disallow: /cart/
+Disallow: /*?_rsc=*
+
+User-Agent: *
+Allow: /*.css*
+Allow: /*.js*
+Disallow: /api/
+Disallow: /_vercel/
+Disallow: /login/
+Disallow: /account
+Disallow: /*/extra$
+Disallow: /authorizationserver/
+Disallow: /checkout/
+Disallow: /my-company/
+Disallow: /preferred-products/
+Disallow: /import/
+Disallow: /store-finder
+Disallow: /quickOrder
+Disallow: /my-account/
+Disallow: /search/
+Disallow: /wishlist/
+Disallow: /cart/
+Disallow: /*?_rsc=*
+
+Sitemap: https://www.elgiganten.se/sitemaps/OCSEELG.pdp.index.sitemap.xml
+Sitemap: https://www.elgiganten.se/service-sitemap-site-elgiganten-se-sv-sitemap_index.xml

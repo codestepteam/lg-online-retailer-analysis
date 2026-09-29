@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Zyte + Temporal 기반 BCP 진단 구조",
+    "subtitle": "컨센트릭스의 역할 분리는 유지하되 수집은 Zyte, 작업 지휘는 Temporal로 교체하는 권장 구조",
+    "animation": "none",
+    "visual_preset": "editorial",
+    "quality_profile": "showcase",
+    "viewBox": [1500, 860]
+  },
+  "layout": {
+    "mode": "grid",
+    "origin": [80, 120],
+    "cols": 5,
+    "gapX": 64,
+    "gapY": 96,
+    "cellW": 220,
+    "cellH": 116
+  },
+  "components": [
+    {
+      "id": "targets",
+      "type": "database",
+      "label": "URL·수집 프로필",
+      "sublabel": "retailer + page type + actions",
+      "tag": "확정 + 제안",
+      "row": 0,
+      "col": 0
+    },
+    {
+      "id": "temporal",
+      "type": "backend",
+      "label": "Temporal 워크플로",
+      "sublabel": "작업 생성 · 재시도 · 상태 추적",
+      "tag": "사용자 계획",
+      "row": 0,
+      "col": 1
+    },
+    {
+      "id": "zyte",
+      "type": "cloud",
+      "label": "Zyte Extract API",
+      "sublabel": "HTML · 화면 · actions",
+      "tag": "확정",
+      "row": 0,
+      "col": 2
+    },
+    {
+      "id": "capture_gate",
+      "type": "security",
+      "label": "수집 완료 검사",
+      "sublabel": "쿠키 · 차단 · 완료 조건",
+      "tag": "권장",
+      "row": 0,
+      "col": 3
+    },
+    {
+      "id": "evidence_store",
+      "type": "database",
+      "label": "원본 근거 저장소",
+      "sublabel": "요청 · HTML · 화면 · 로그",
+      "tag": "권장",
+      "row": 0,
+      "col": 4
+    },
+    {
+      "id": "parser",
+      "type": "backend",
+      "label": "리테일러별 파서",
+      "sublabel": "HTML → 진단용 구조화 데이터",
+      "tag": "새로 구현",
+      "row": 1,
+      "col": 4
+    },
+    {
+      "id": "evaluator",
+      "type": "backend",
+      "label": "BCP 판정 엔진",
+      "sublabel": "ID 08–10 · 18–23 + 근거",
+      "tag": "새로 검증",
+      "row": 1,
+      "col": 3
+    },
+    {
+      "id": "result_store",
+      "type": "database",
+      "label": "진단 결과 저장소",
+      "sublabel": "점수 · 판정 · 근거 · 실행 버전",
+      "tag": "권장",
+      "row": 1,
+      "col": 2
+    },
+    {
+      "id": "dashboard",
+      "type": "frontend",
+      "label": "대시보드·보고서",
+      "sublabel": "필터 · 비교 · 원본 근거 확인",
+      "tag": "프로젝트 목표",
+      "row": 1,
+      "col": 1
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "CodeStep 진단 플랫폼",
+      "wraps": ["targets", "temporal", "capture_gate", "evidence_store", "parser", "evaluator", "result_store", "dashboard"],
+      "pad": 28
+    }
+  ],
+  "connections": [
+    {
+      "id": "targets_to_temporal",
+      "from": "targets",
+      "to": "temporal",
+      "label": "수집 작업 생성",
+      "route": "auto"
+    },
+    {
+      "id": "temporal_to_zyte",
+      "from": "temporal",
+      "to": "zyte",
+      "variant": "emphasis",
+      "route": "auto"
+    },
+    {
+      "id": "zyte_to_gate",
+      "from": "zyte",
+      "to": "capture_gate",
+      "label": "응답",
+      "route": "auto"
+    },
+    {
+      "id": "gate_to_evidence",
+      "from": "capture_gate",
+      "to": "evidence_store",
+      "label": "통과한 수집물",
+      "route": "auto"
+    },
+    {
+      "id": "evidence_to_parser",
+      "from": "evidence_store",
+      "to": "parser",
+      "route": "auto"
+    },
+    {
+      "id": "parser_to_evaluator",
+      "from": "parser",
+      "to": "evaluator",
+      "label": "구조화 데이터",
+      "variant": "emphasis",
+      "route": "auto"
+    },
+    {
+      "id": "evaluator_to_results",
+      "from": "evaluator",
+      "to": "result_store",
+      "label": "판정 + 근거",
+      "route": "auto"
+    },
+    {
+      "id": "results_to_dashboard",
+      "from": "result_store",
+      "to": "dashboard",
+      "route": "auto"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "orange",
+      "title": "그대로 유지할 역할",
+      "items": [
+        "수집 → 파싱 → 판정 → 보고서라는 단계 구분",
+        "리테일러·페이지 유형별 처리",
+        "실패 재시도와 실행 상태 추적"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "교체할 구현",
+      "items": [
+        "ScrapingBee 수집을 Zyte Extract API로 교체",
+        "Airflow DAG를 Temporal Workflow·Activity로 교체",
+        "수정 어려운 .so 파서·판정기는 검증 가능한 새 코드로 작성"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "먼저 확정할 운영 규칙",
+      "items": [
+        "성공·부분 성공·실패의 구분",
+        "재시도 횟수와 API 비용 상한",
+        "판정 근거와 사람 검토가 필요한 조건"
+      ]
+    }
+  ]
+}

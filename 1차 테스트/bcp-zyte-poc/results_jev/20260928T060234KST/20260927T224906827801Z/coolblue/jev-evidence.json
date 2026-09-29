@@ -1,0 +1,2741 @@
+{
+  "schema_version": "bcp-jev-input-v2",
+  "page": {
+    "retailer": "coolblue",
+    "page_type": "brand-category",
+    "requested_url": "https://www.coolblue.nl/koelkasten/lg",
+    "final_url": "https://www.coolblue.nl/koelkasten/lg",
+    "captured_at": "2026-09-26T02:57:57.230338+00:00",
+    "brand": "LG",
+    "category": "refrigerators",
+    "brand_category_source": "CLI arguments",
+    "title": "LG koelkast kopen? | Coolblue - Voor 23.59u, morgen in huis"
+  },
+  "rules": {
+    "ID8": {
+      "rule": "본문 img·제품 카드 포함. CSS 배경·순수 장식 제외. 실제 alt 속성만 인정. 주변 문구 대체 불가.",
+      "remaining": "중복 요소·대상 0개 처리. 실제 대상 선별은 이 파서에서 미구현"
+    },
+    "ID9": {
+      "rule": "Title, description, H1, robots 원문 보존. 기존 판정기 담당."
+    },
+    "ID10": {
+      "rule": "Canonical 태그 존재 기준. 기존 판정기 담당."
+    },
+    "ID18": {
+      "rule": "상단 위치 필수. 텍스트 전용 불인정.",
+      "remaining": "실제 위치·배너 구조·영상/슬라이드 인정 범위"
+    },
+    "ID19": {
+      "rule": "브랜드 선택 이유·차별성 필요. 단순 브랜드 소개 불인정."
+    },
+    "ID20": {
+      "rule": "USP 여부가 애매하면 N. 수집 실패는 별도.",
+      "remaining": "승인된 핵심 USP 자료"
+    },
+    "ID21": {
+      "rule": "대상 Navigator 링크 모두 정상 이동해야 Y. 일부 실제 실패는 N."
+    },
+    "ID22": {
+      "rule": "추천 한 개 인정. 대상 상품 상세 이동 링크 모두 정상이어야 Y. 일부 실제 실패는 N."
+    },
+    "ID23": {
+      "rule": "본문의 관련 텍스트 질문·답변 한 쌍 인정. 질문형 제품 설명도 대응 답변이 있으면 인정."
+    }
+  },
+  "sources": {
+    "raw.html": {
+      "path": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/1차 테스트/bcp-zyte-poc/results/20260928T060234KST/pages/coolblue/brand-category/raw.html",
+      "sha256": "48f0ac39493909334945d936d6f5893709a0007fe2a94cabffade792027b753e"
+    },
+    "capture-state.json": {
+      "path": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/1차 테스트/bcp-zyte-poc/results/20260928T060234KST/pages/coolblue/brand-category/capture-state.json",
+      "sha256": "987b86e93dba8b709842cd74527d6e4ed649455219ef25fe2a226113444b1567"
+    },
+    "response.json": {
+      "path": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/1차 테스트/bcp-zyte-poc/results/20260928T060234KST/pages/coolblue/brand-category/response.json",
+      "sha256": "55b30b141f4b76b96ada67d8232f5a57693a20c98f7704407341b2c8b027f6c2"
+    }
+  },
+  "metadata": {
+    "selected": {
+      "title": "LG koelkast kopen? | Coolblue - Voor 23.59u, morgen in huis",
+      "metaDescription": [
+        "LG koelkasten kopen? Coolblue levert en installeert wanneer het je uitkomt, ook op zondag en in de avond. Gratis bezorging & retour."
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.coolblue.nl/koelkasten/lg"
+      ],
+      "h1": [
+        "LG koelkasten"
+      ]
+    },
+    "source": "capture-state.json:metadata",
+    "requested_url_verified": true,
+    "final_snapshot": {
+      "title": "LG koelkast kopen? | Coolblue - Voor 23.59u, morgen in huis",
+      "metaDescription": [
+        "LG koelkasten kopen? Coolblue levert en installeert wanneer het je uitkomt, ook op zondag en in de avond. Gratis bezorging & retour."
+      ],
+      "robots": [
+        "index, follow"
+      ],
+      "canonical": [
+        "https://www.coolblue.nl/koelkasten/lg"
+      ],
+      "h1": [
+        "LG koelkasten"
+      ]
+    }
+  },
+  "image_evidence": {
+    "captured_images": [
+      {
+        "index": 0,
+        "src": "https://image.coolblue.nl/max/624xauto/content/69f70ead5a41e95528f82ca113c6eb08",
+        "alt": "LG koelkast",
+        "renderedWidth": 624,
+        "renderedHeight": 351,
+        "renderedArea": 219024,
+        "naturalWidth": 624,
+        "naturalHeight": 351,
+        "naturalArea": 219024,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 0
+      },
+      {
+        "index": 1,
+        "src": "https://image.coolblue.nl/transparent/max/240xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac",
+        "alt": "",
+        "renderedWidth": 195.328125,
+        "renderedHeight": 109.859375,
+        "renderedArea": 21458.625732421875,
+        "naturalWidth": 194,
+        "naturalHeight": 109,
+        "naturalArea": 21146,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 1
+      },
+      {
+        "index": 2,
+        "src": "https://image.coolblue.nl/transparent/max/240xauto/content/2bd38a7b2ac34b6221562ed089f9e572",
+        "alt": "",
+        "renderedWidth": 195.328125,
+        "renderedHeight": 109.859375,
+        "renderedArea": 21458.625732421875,
+        "naturalWidth": 194,
+        "naturalHeight": 109,
+        "naturalArea": 21146,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 2
+      },
+      {
+        "index": 3,
+        "src": "https://image.coolblue.nl/transparent/max/240xauto/content/e4cef2c3374f70ac0268a0834caeee86",
+        "alt": "",
+        "renderedWidth": 195.328125,
+        "renderedHeight": 109.859375,
+        "renderedArea": 21458.625732421875,
+        "naturalWidth": 194,
+        "naturalHeight": 109,
+        "naturalArea": 21146,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 3
+      },
+      {
+        "index": 4,
+        "src": "https://image.coolblue.nl/max/800xauto/content/fd8931201add9a63648f9d68a38bf7d5",
+        "alt": "Uitgelicht product",
+        "renderedWidth": 632,
+        "renderedHeight": 350,
+        "renderedArea": 221200,
+        "naturalWidth": 632,
+        "naturalHeight": 351,
+        "naturalArea": 221832,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 4
+      },
+      {
+        "index": 5,
+        "src": "https://image.coolblue.nl/transparent/max/190xauto/products/576267531",
+        "alt": "LG GBBS312AEV",
+        "renderedWidth": 186,
+        "renderedHeight": 100,
+        "renderedArea": 18600,
+        "naturalWidth": 154,
+        "naturalHeight": 479,
+        "naturalArea": 73766,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 5
+      },
+      {
+        "index": 6,
+        "src": "https://image.coolblue.nl/max/800xauto/content/bddbe2693506181c09419c33c456ba8d",
+        "alt": "Uitgelicht product",
+        "renderedWidth": 632,
+        "renderedHeight": 350,
+        "renderedArea": 221200,
+        "naturalWidth": 632,
+        "naturalHeight": 355,
+        "naturalArea": 224360,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 6
+      },
+      {
+        "index": 7,
+        "src": "https://image.coolblue.nl/transparent/max/190xauto/products/287290039",
+        "alt": "LG GSLE91EVAB",
+        "renderedWidth": 186,
+        "renderedHeight": 100,
+        "renderedArea": 18600,
+        "naturalWidth": 154,
+        "naturalHeight": 298,
+        "naturalArea": 45892,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 7
+      },
+      {
+        "index": 8,
+        "src": "https://image.coolblue.nl/max/480xauto/content/139cb4573e7d3802eb04a77cd5740f30",
+        "alt": "LG koelkast",
+        "renderedWidth": 405.328125,
+        "renderedHeight": 227.984375,
+        "renderedArea": 92408.47924804688,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 8
+      },
+      {
+        "index": 9,
+        "src": "https://image.coolblue.nl/max/480xauto/content/1d24eddccf27410c2e3e2756d4950eb1",
+        "alt": "DoorCooling",
+        "renderedWidth": 405.328125,
+        "renderedHeight": 227.984375,
+        "renderedArea": 92408.47924804688,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 9
+      },
+      {
+        "index": 10,
+        "src": "https://image.coolblue.nl/max/480xauto/content/b4728c7463b969b4eb13291405a7eaaf",
+        "alt": "Vershoudlades",
+        "renderedWidth": 405.34375,
+        "renderedHeight": 228,
+        "renderedArea": 92418.375,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 10
+      },
+      {
+        "index": 11,
+        "src": "https://image.coolblue.nl/max/512xauto/content/00fcca2303a151899029d331634b66ba",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 11
+      },
+      {
+        "index": 12,
+        "src": "https://image.coolblue.nl/max/512xauto/content/864d77008538cf5e9dc9614bcf6d9e58",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 12
+      },
+      {
+        "index": 13,
+        "src": "https://image.coolblue.nl/max/512xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 13
+      },
+      {
+        "index": 14,
+        "src": "https://image.coolblue.nl/transparent/max/360xauto/content/555069",
+        "alt": "LG koelkasten",
+        "renderedWidth": 180,
+        "renderedHeight": 180,
+        "renderedArea": 32400,
+        "naturalWidth": 1280,
+        "naturalHeight": 1959,
+        "naturalArea": 2507520,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 14
+      },
+      {
+        "index": 15,
+        "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+        "alt": "Product specialist bij Coolblue",
+        "renderedWidth": 233,
+        "renderedHeight": 350,
+        "renderedArea": 81550,
+        "naturalWidth": 233,
+        "naturalHeight": 349,
+        "naturalArea": 81317,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 15
+      }
+    ],
+    "top10_visible_loaded_by_area": [
+      {
+        "index": 4,
+        "src": "https://image.coolblue.nl/max/800xauto/content/fd8931201add9a63648f9d68a38bf7d5",
+        "alt": "Uitgelicht product",
+        "renderedWidth": 632,
+        "renderedHeight": 350,
+        "renderedArea": 221200,
+        "naturalWidth": 632,
+        "naturalHeight": 351,
+        "naturalArea": 221832,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 4
+      },
+      {
+        "index": 6,
+        "src": "https://image.coolblue.nl/max/800xauto/content/bddbe2693506181c09419c33c456ba8d",
+        "alt": "Uitgelicht product",
+        "renderedWidth": 632,
+        "renderedHeight": 350,
+        "renderedArea": 221200,
+        "naturalWidth": 632,
+        "naturalHeight": 355,
+        "naturalArea": 224360,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 6
+      },
+      {
+        "index": 0,
+        "src": "https://image.coolblue.nl/max/624xauto/content/69f70ead5a41e95528f82ca113c6eb08",
+        "alt": "LG koelkast",
+        "renderedWidth": 624,
+        "renderedHeight": 351,
+        "renderedArea": 219024,
+        "naturalWidth": 624,
+        "naturalHeight": 351,
+        "naturalArea": 219024,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 0
+      },
+      {
+        "index": 11,
+        "src": "https://image.coolblue.nl/max/512xauto/content/00fcca2303a151899029d331634b66ba",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 11
+      },
+      {
+        "index": 12,
+        "src": "https://image.coolblue.nl/max/512xauto/content/864d77008538cf5e9dc9614bcf6d9e58",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 12
+      },
+      {
+        "index": 13,
+        "src": "https://image.coolblue.nl/max/512xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5",
+        "alt": "Bezorging en installatie van je LG koelkast",
+        "renderedWidth": 416,
+        "renderedHeight": 233.734375,
+        "renderedArea": 97233.5,
+        "naturalWidth": 415,
+        "naturalHeight": 233,
+        "naturalArea": 96695,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 13
+      },
+      {
+        "index": 10,
+        "src": "https://image.coolblue.nl/max/480xauto/content/b4728c7463b969b4eb13291405a7eaaf",
+        "alt": "Vershoudlades",
+        "renderedWidth": 405.34375,
+        "renderedHeight": 228,
+        "renderedArea": 92418.375,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 10
+      },
+      {
+        "index": 8,
+        "src": "https://image.coolblue.nl/max/480xauto/content/139cb4573e7d3802eb04a77cd5740f30",
+        "alt": "LG koelkast",
+        "renderedWidth": 405.328125,
+        "renderedHeight": 227.984375,
+        "renderedArea": 92408.47924804688,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 8
+      },
+      {
+        "index": 9,
+        "src": "https://image.coolblue.nl/max/480xauto/content/1d24eddccf27410c2e3e2756d4950eb1",
+        "alt": "DoorCooling",
+        "renderedWidth": 405.328125,
+        "renderedHeight": 227.984375,
+        "renderedArea": 92408.47924804688,
+        "naturalWidth": 405,
+        "naturalHeight": 227,
+        "naturalArea": 91935,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 9
+      },
+      {
+        "index": 15,
+        "src": "https://image.coolblue.nl/transparent/max/250xauto/content/555142",
+        "alt": "Product specialist bij Coolblue",
+        "renderedWidth": 233,
+        "renderedHeight": 350,
+        "renderedArea": 81550,
+        "naturalWidth": 233,
+        "naturalHeight": 349,
+        "naturalArea": 81317,
+        "loaded": true,
+        "visible": true,
+        "capture_array_index": 15
+      }
+    ],
+    "alt_source": "image.getAttribute(alt); surrounding text never substituted",
+    "selection_status": "provisional: body/decorative filtering not implemented; not the final ID8 selection"
+  },
+  "clickable_evidence": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Ga naar hoofdinhoud",
+      "href": "https://www.coolblue.nl/koelkasten/lg#main-content",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.coolblue.nl/",
+      "ariaLabel": "Terug naar de Coolblue homepage",
+      "expanded": null
+    },
+    {
+      "index": 2,
+      "tag": "a",
+      "text": "Bekijk alle categorieën",
+      "href": "https://www.coolblue.nl/ons-assortiment",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 3,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Annuleren",
+      "expanded": null
+    },
+    {
+      "index": 4,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Zoeken",
+      "expanded": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "English",
+      "href": "https://www.coolblue.nl/en/fridges/lg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 6,
+      "tag": "button",
+      "text": "Account",
+      "href": "",
+      "ariaLabel": "Account",
+      "expanded": "false"
+    },
+    {
+      "index": 7,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.coolblue.nl/verlanglijstje",
+      "ariaLabel": "Verlanglijstje",
+      "expanded": null
+    },
+    {
+      "index": 8,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Bekijk je winkelwagen",
+      "expanded": "false"
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Gratis bezorgd wanneer het jou uitkomt",
+      "href": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Gratis ruilen",
+      "href": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "22 échte winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Onze app",
+      "href": "https://www.coolblue.nl/c/app.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Zakelijk",
+      "href": "https://www.coolblue.nl/zakelijk",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "Winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "Klantenservice",
+      "href": "https://www.coolblue.nl/klantenservice",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.coolblue.nl/",
+      "ariaLabel": "Coolblue homepage",
+      "expanded": null
+    },
+    {
+      "index": 17,
+      "tag": "a",
+      "text": "Alle koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Vrijstaande koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "Inbouw koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/inbouw",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Amerikaanse koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand/amerikaanse-koelkasten",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "Koel-vriescombinaties",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand/koel-vriescombinaties",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "Tafelmodel koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand/tafelmodel-koelkasten",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 23,
+      "tag": "a",
+      "text": "Coolblue.nl",
+      "href": "https://www.coolblue.nl/",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 24,
+      "tag": "a",
+      "text": "Grote keukenapparatuur",
+      "href": "https://www.coolblue.nl/grote-keukenapparatuur",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 25,
+      "tag": "a",
+      "text": "Koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 26,
+      "tag": "a",
+      "text": "Alle LG koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/lg/filter",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 27,
+      "tag": "a",
+      "text": "LG Amerikaanse koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand/amerikaanse-koelkasten/lg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 28,
+      "tag": "a",
+      "text": "LG koel-vriescombinaties",
+      "href": "https://www.coolblue.nl/koelkasten/vrijstaand/koel-vriescombinaties/lg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 29,
+      "tag": "a",
+      "text": "Gratis bezorgd wanneer het jou uitkomt",
+      "href": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 30,
+      "tag": "a",
+      "text": "Gratis ruilen",
+      "href": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 31,
+      "tag": "a",
+      "text": "22 échte winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 32,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 33,
+      "tag": "a",
+      "text": "LG GBBS312AEV",
+      "href": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 34,
+      "tag": "a",
+      "text": "Beoordeling is 9,1 van de 10, gebaseerd op 42 reviews. 42 reviews",
+      "href": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html#product-reviews",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 35,
+      "tag": "button",
+      "text": "In mijn winkelwagen",
+      "href": "",
+      "ariaLabel": "In mijn winkelwagen",
+      "expanded": null
+    },
+    {
+      "index": 36,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 37,
+      "tag": "a",
+      "text": "LG GSLE91EVAB",
+      "href": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 38,
+      "tag": "a",
+      "text": "Beoordeling is 9,9 van de 10, gebaseerd op 4 reviews. 4 reviews",
+      "href": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html#product-reviews",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 39,
+      "tag": "a",
+      "text": "Houd mij op de hoogte",
+      "href": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 40,
+      "tag": "a",
+      "text": "Meer informatie over onze bezorging en installatie",
+      "href": "https://www.coolblue.nl/advies/wat-is-onze-installatieservice-voor-koelkasten-en-vriezers.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 41,
+      "tag": "a",
+      "text": "Gratis bezorgd wanneer het jou uitkomt",
+      "href": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 42,
+      "tag": "a",
+      "text": "Gratis ruilen",
+      "href": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 43,
+      "tag": "a",
+      "text": "22 échte winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 44,
+      "tag": "a",
+      "text": "Wat is LG Door Cooling?",
+      "href": "https://www.coolblue.nl/advies/wat-is-lg-door-cooling.html",
+      "ariaLabel": "Ga naar pagina Wat is LG Door Cooling?",
+      "expanded": null
+    },
+    {
+      "index": 45,
+      "tag": "a",
+      "text": "Hoe kies je een LG Amerikaanse koelkast?",
+      "href": "https://www.coolblue.nl/advies/lg-amerikaanse-koelkast-kiezen.html",
+      "ariaLabel": "Ga naar pagina Hoe kies je een LG Amerikaanse koelkast?",
+      "expanded": null
+    },
+    {
+      "index": 46,
+      "tag": "a",
+      "text": "Wat zijn de technieken van een LG Amerikaanse koelkast?",
+      "href": "https://www.coolblue.nl/advies/wat-zijn-de-technieken-van-een-lg-amerikaanse-koelkast.html",
+      "ariaLabel": "Ga naar pagina Wat zijn de technieken van een LG Amerikaanse koelkast?",
+      "expanded": null
+    },
+    {
+      "index": 47,
+      "tag": "a",
+      "text": "LG Door Cooling koelkasten",
+      "href": "https://www.coolblue.nl/koelkasten/met-deurkoeling/lg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 48,
+      "tag": "a",
+      "text": "LG koelkast aanbiedingen",
+      "href": "https://www.coolblue.nl/koelkasten/lg/aanbieding",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 49,
+      "tag": "a",
+      "text": "Wat is LG Door Cooling?",
+      "href": "https://www.coolblue.nl/advies/wat-is-lg-door-cooling.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 50,
+      "tag": "a",
+      "text": "Inloggen",
+      "href": "https://www.coolblue.nl/inloggen?returnUrl=https%3A%2F%2Fwww.coolblue.nl%2Fkoelkasten%2Flg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 51,
+      "tag": "a",
+      "text": "Gratis bezorgd wanneer het jou uitkomt",
+      "href": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 52,
+      "tag": "a",
+      "text": "22 échte winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 53,
+      "tag": "a",
+      "text": "Onze app",
+      "href": "https://www.coolblue.nl/c/app.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 54,
+      "tag": "a",
+      "text": "onze klantenservice pagina",
+      "href": "https://www.coolblue.nl/klantenservice",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 55,
+      "tag": "button",
+      "text": "Aanmelden",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 56,
+      "tag": "a",
+      "text": "Klantenservice",
+      "href": "https://www.coolblue.nl/klantenservice",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 57,
+      "tag": "a",
+      "text": "Bezorgen en installeren",
+      "href": "https://www.coolblue.nl/klantenservice/bezorgen-en-ophalen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 58,
+      "tag": "a",
+      "text": "Betalen",
+      "href": "https://www.coolblue.nl/klantenservice/betalen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 59,
+      "tag": "a",
+      "text": "Ruilen en retourneren",
+      "href": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 60,
+      "tag": "a",
+      "text": "Garantie, reparatie en verzekeringen",
+      "href": "https://www.coolblue.nl/klantenservice/garantie-en-reparatie",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 61,
+      "tag": "a",
+      "text": "Bestellen",
+      "href": "https://www.coolblue.nl/klantenservice/bestellen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 62,
+      "tag": "a",
+      "text": "Winkels",
+      "href": "https://www.coolblue.nl/klantenservice/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 63,
+      "tag": "a",
+      "text": "Status van mijn bestelling",
+      "href": "https://www.coolblue.nl/mijn-coolblue-account/orderoverzicht",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 64,
+      "tag": "a",
+      "text": "Retour of reparatie aanmelden",
+      "href": "https://www.coolblue.nl/retouraanvraag",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 65,
+      "tag": "a",
+      "text": "Al mijn bestellingen en facturen",
+      "href": "https://www.coolblue.nl/mijn-coolblue-account/orderoverzicht",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 66,
+      "tag": "a",
+      "text": "Mijn Coolblue-account",
+      "href": "https://www.coolblue.nl/mijn-coolblue-account",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 67,
+      "tag": "a",
+      "text": "Inloggen",
+      "href": "https://www.coolblue.nl/inloggen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 68,
+      "tag": "a",
+      "text": "Naar de klantenservice",
+      "href": "https://www.coolblue.nl/klantenservice",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 69,
+      "tag": "a",
+      "text": "Zakelijk",
+      "href": "https://www.coolblue.nl/c/zakelijk.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 70,
+      "tag": "a",
+      "text": "Online op rekening bestellen",
+      "href": "https://www.coolblue.nl/advies/wat-is-op-rekening-betalen-bij-coolblue.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 71,
+      "tag": "a",
+      "text": "Bedrijfswinkels",
+      "href": "https://www.coolblue.nl/c/bedrijfswinkel.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 72,
+      "tag": "a",
+      "text": "Thuiswerkwinkel",
+      "href": "https://www.coolblue.nl/c/de-coolblue-thuiswerkwinkel-v2.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 73,
+      "tag": "a",
+      "text": "Zakelijke cadeaubonnen",
+      "href": "https://www.coolblue.nl/c/wat-is-de-coolblue-cadeaubon-als-zakelijk-geschenk.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 74,
+      "tag": "a",
+      "text": "Bestellen met een inkoopsysteem",
+      "href": "https://www.coolblue.nl/c/zakelijk-bestellen-vanuit-je-inkoopsysteem.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 75,
+      "tag": "a",
+      "text": "Affiliate programma",
+      "href": "https://www.coolblue.nl/c/affiliate.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 76,
+      "tag": "a",
+      "text": "Alles over zakelijk",
+      "href": "https://www.coolblue.nl/c/zakelijk.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 77,
+      "tag": "a",
+      "text": "Onze winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 78,
+      "tag": "a",
+      "text": "Alkmaar",
+      "href": "https://www.coolblue.nl/winkels/alkmaar",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 79,
+      "tag": "a",
+      "text": "Almere",
+      "href": "https://www.coolblue.nl/winkels/almere",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 80,
+      "tag": "a",
+      "text": "Amsterdam West",
+      "href": "https://www.coolblue.nl/winkels/amsterdam-west",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 81,
+      "tag": "a",
+      "text": "Amsterdam Zuidas",
+      "href": "https://www.coolblue.nl/winkels/amsterdam-zuidas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 82,
+      "tag": "a",
+      "text": "Arnhem",
+      "href": "https://www.coolblue.nl/winkels/arnhem",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 83,
+      "tag": "a",
+      "text": "Breda",
+      "href": "https://www.coolblue.nl/winkels/breda",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 84,
+      "tag": "a",
+      "text": "Cruquius",
+      "href": "https://www.coolblue.nl/winkels/cruquius",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 85,
+      "tag": "a",
+      "text": "Den Bosch",
+      "href": "https://www.coolblue.nl/winkels/den-bosch",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 86,
+      "tag": "a",
+      "text": "Den Haag",
+      "href": "https://www.coolblue.nl/winkels/den-haag",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 87,
+      "tag": "a",
+      "text": "Eindhoven",
+      "href": "https://www.coolblue.nl/winkels/eindhoven",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 88,
+      "tag": "a",
+      "text": "Bekijk al onze 22 winkels",
+      "href": "https://www.coolblue.nl/winkels",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 89,
+      "tag": "a",
+      "text": "Over Coolblue",
+      "href": "https://www.coolblue.nl/c/over-coolblue.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 90,
+      "tag": "a",
+      "text": "Ons assortiment",
+      "href": "https://www.coolblue.nl/ons-assortiment",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 91,
+      "tag": "a",
+      "text": "Bedrijfswebsite",
+      "href": "https://aboutcoolblue.com/nl/",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 92,
+      "tag": "a",
+      "text": "Nieuws",
+      "href": "https://aboutcoolblue.com/news/nl",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 93,
+      "tag": "a",
+      "text": "Cadeaubonnen",
+      "href": "https://www.coolblue.nl/cadeaubonnen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 94,
+      "tag": "a",
+      "text": "Werken bij Coolblue Vacatures genoeg!",
+      "href": "https://www.coolblue.nl/vacatures",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 95,
+      "tag": "a",
+      "text": "De Coolblue-App",
+      "href": "https://www.coolblue.nl/c/app.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 96,
+      "tag": "a",
+      "text": "Coolblue België",
+      "href": "https://www.coolblue.be/nl",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 97,
+      "tag": "a",
+      "text": "Coolblue Duitsland",
+      "href": "https://www.coolblue.de/",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 98,
+      "tag": "a",
+      "text": "Privacy",
+      "href": "https://www.coolblue.nl/c/veiligheid-privacy.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 99,
+      "tag": "a",
+      "text": "Toegankelijkheidsverklaring",
+      "href": "https://www.coolblue.nl/c/toegankelijkheidsverklaring.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 100,
+      "tag": "a",
+      "text": "Alles over Coolblue",
+      "href": "https://www.coolblue.nl/c/over-coolblue.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 101,
+      "tag": "a",
+      "text": "Betalen met iDEAL | Wero",
+      "href": "https://www.coolblue.nl/klantenservice/betaalmogelijkheden",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 102,
+      "tag": "a",
+      "text": "Betalen met MasterCard en Visa via ClickToPay",
+      "href": "https://www.coolblue.nl/klantenservice/betaalmogelijkheden",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 103,
+      "tag": "a",
+      "text": "Betalen met ApplePay",
+      "href": "https://www.coolblue.nl/klantenservice/betaalmogelijkheden",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 104,
+      "tag": "a",
+      "text": "Thuiswinkel waarborg",
+      "href": "https://www.thuiswinkel.org/leden/coolblue/certificaat",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 105,
+      "tag": "a",
+      "text": "Thuiswinkel waarborg zakelijk",
+      "href": "https://www.thuiswinkel.org/leden-zakelijk/coolblue/certificaat",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 106,
+      "tag": "a",
+      "text": "Verzending en bezorging met PostNL",
+      "href": "https://www.coolblue.nl/klantenservice/bezorgen-en-ophalen",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 107,
+      "tag": "a",
+      "text": "Beste webwinkel 2022",
+      "href": "https://www.coolblue.nl/c/tweakers-awards.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 108,
+      "tag": "a",
+      "text": "Algemene voorwaarden",
+      "href": "https://www.coolblue.nl/c/algemene-voorwaarden.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 109,
+      "tag": "a",
+      "text": "Overeenkomst ontbinden",
+      "href": "https://www.coolblue.nl/retouraanvraag",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 110,
+      "tag": "a",
+      "text": "Privacy",
+      "href": "https://www.coolblue.nl/privacy",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 111,
+      "tag": "a",
+      "text": "Cookies",
+      "href": "https://www.coolblue.nl/cookies",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 112,
+      "tag": "a",
+      "text": "English (EN)",
+      "href": "https://www.coolblue.nl/en/fridges/lg",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 113,
+      "tag": "a",
+      "text": "158.390 beoordelingen",
+      "href": "https://nl.trustpilot.com/review/www.coolblue.nl",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 114,
+      "tag": "a",
+      "text": "135.950 beoordelingen",
+      "href": "https://www.kiyoh.com/reviews/1041005/coolblue?lang=nl",
+      "ariaLabel": "",
+      "expanded": null
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "block-00001",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 243,
+      "text": "Ga naar hoofdinhoud",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-lnc8ja"
+      },
+      "ancestor_context": [],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Ga naar hoofdinhoud",
+          "aria_label": null,
+          "href_raw": "#main-content",
+          "url": "https://www.coolblue.nl/koelkasten/lg#main-content",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": null
+    },
+    {
+      "block_id": "block-00002",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 384,
+      "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Onze app",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-1gdqfwa"
+      },
+      "ancestor_context": [],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Onze app",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/c/app.html",
+          "url": "https://www.coolblue.nl/c/app.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": null
+    },
+    {
+      "block_id": "block-00003",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)",
+      "source_line": 70,
+      "source_order": 451,
+      "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Onze app Zakelijk Winkels Klantenservice",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-mnaal3"
+      },
+      "ancestor_context": [],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Onze app",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/c/app.html",
+          "url": "https://www.coolblue.nl/c/app.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Zakelijk",
+          "aria_label": null,
+          "href_raw": "/zakelijk",
+          "url": "https://www.coolblue.nl/zakelijk",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+          "source_line": 70,
+          "text": "Winkels",
+          "aria_label": null,
+          "href_raw": "/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3)",
+          "source_line": 70,
+          "text": "Klantenservice",
+          "aria_label": null,
+          "href_raw": "/klantenservice",
+          "url": "https://www.coolblue.nl/klantenservice",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": null
+    },
+    {
+      "block_id": "block-00004",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 558,
+      "text": "LG koelkasten",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-12apzos"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [],
+      "heading_texts": [
+        "LG koelkasten"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": null
+    },
+    {
+      "block_id": "block-00005",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 562,
+      "text": "Houd je eten langer vers met een LG koelkast. In de Fresh Converter lade pas je de temperatuur aan om je verse vis en vlees of groente en fruit langer te bewaren. Wil je ook minder energie verbruiken? Kies dan voor een koel-vriescombinatie met energieklasse A. Hiermee bespaar je gemiddeld € 750,- aan energiekosten over 15 jaar vergeleken met energieklasse F. Alle LG koelkasten LG Amerikaanse koelkasten LG koel-vriescombinaties",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/624xauto/content/69f70ead5a41e95528f82ca113c6eb08",
+          "srcset": "https://image.coolblue.nl/max/156xauto/content/69f70ead5a41e95528f82ca113c6eb08 156w, https://image.coolblue.nl/max/315xauto/content/69f70ead5a41e95528f82ca113c6eb08 315w, https://image.coolblue.nl/max/480xauto/content/69f70ead5a41e95528f82ca113c6eb08 480w, https://image.coolblue.nl/max/624xauto/content/69f70ead5a41e95528f82ca113c6eb08 624w, https://image.coolblue.nl/max/788xauto/content/69f70ead5a41e95528f82ca113c6eb08 788w, https://image.coolblue.nl/max/960xauto/content/69f70ead5a41e95528f82ca113c6eb08 960w, https://image.coolblue.nl/max/1120xauto/content/69f70ead5a41e95528f82ca113c6eb08 1120w, https://image.coolblue.nl/max/1248xauto/content/69f70ead5a41e95528f82ca113c6eb08 1248w",
+          "alt_present": true,
+          "alt_raw": "LG koelkast"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/240xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac",
+          "srcset": "https://image.coolblue.nl/transparent/max/120xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 120w, https://image.coolblue.nl/transparent/max/240xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 240w, https://image.coolblue.nl/transparent/max/360xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 360w, https://image.coolblue.nl/transparent/max/480xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 480w, https://image.coolblue.nl/transparent/max/600xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 600w, https://image.coolblue.nl/transparent/max/736xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 736w, https://image.coolblue.nl/transparent/max/840xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 840w, https://image.coolblue.nl/transparent/max/960xauto/content/875cb31452ed42fa1a5cc7fa1dbe9aac 960w",
+          "alt_present": true,
+          "alt_raw": ""
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/240xauto/content/2bd38a7b2ac34b6221562ed089f9e572",
+          "srcset": "https://image.coolblue.nl/transparent/max/120xauto/content/2bd38a7b2ac34b6221562ed089f9e572 120w, https://image.coolblue.nl/transparent/max/240xauto/content/2bd38a7b2ac34b6221562ed089f9e572 240w, https://image.coolblue.nl/transparent/max/360xauto/content/2bd38a7b2ac34b6221562ed089f9e572 360w, https://image.coolblue.nl/transparent/max/480xauto/content/2bd38a7b2ac34b6221562ed089f9e572 480w, https://image.coolblue.nl/transparent/max/600xauto/content/2bd38a7b2ac34b6221562ed089f9e572 600w, https://image.coolblue.nl/transparent/max/736xauto/content/2bd38a7b2ac34b6221562ed089f9e572 736w, https://image.coolblue.nl/transparent/max/840xauto/content/2bd38a7b2ac34b6221562ed089f9e572 840w, https://image.coolblue.nl/transparent/max/960xauto/content/2bd38a7b2ac34b6221562ed089f9e572 960w",
+          "alt_present": true,
+          "alt_raw": ""
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/240xauto/content/e4cef2c3374f70ac0268a0834caeee86",
+          "srcset": "https://image.coolblue.nl/transparent/max/120xauto/content/e4cef2c3374f70ac0268a0834caeee86 120w, https://image.coolblue.nl/transparent/max/240xauto/content/e4cef2c3374f70ac0268a0834caeee86 240w, https://image.coolblue.nl/transparent/max/360xauto/content/e4cef2c3374f70ac0268a0834caeee86 360w, https://image.coolblue.nl/transparent/max/480xauto/content/e4cef2c3374f70ac0268a0834caeee86 480w, https://image.coolblue.nl/transparent/max/600xauto/content/e4cef2c3374f70ac0268a0834caeee86 600w, https://image.coolblue.nl/transparent/max/736xauto/content/e4cef2c3374f70ac0268a0834caeee86 736w, https://image.coolblue.nl/transparent/max/840xauto/content/e4cef2c3374f70ac0268a0834caeee86 840w, https://image.coolblue.nl/transparent/max/960xauto/content/e4cef2c3374f70ac0268a0834caeee86 960w",
+          "alt_present": true,
+          "alt_raw": ""
+        }
+      ],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Alle LG koelkasten",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/koelkasten/lg/filter",
+          "url": "https://www.coolblue.nl/koelkasten/lg/filter",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG Amerikaanse koelkasten",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/koelkasten/vrijstaand/amerikaanse-koelkasten/lg",
+          "url": "https://www.coolblue.nl/koelkasten/vrijstaand/amerikaanse-koelkasten/lg",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG koel-vriescombinaties",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/koelkasten/vrijstaand/koel-vriescombinaties/lg",
+          "url": "https://www.coolblue.nl/koelkasten/vrijstaand/koel-vriescombinaties/lg",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "Alle LG koelkasten",
+        "LG Amerikaanse koelkasten",
+        "LG koel-vriescombinaties"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG koelkasten"
+    },
+    {
+      "block_id": "block-00006",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "source_line": 70,
+      "source_order": 607,
+      "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Gratis bezorgd wanneer het jou uitkomt",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG koel-vriescombinaties"
+    },
+    {
+      "block_id": "block-00007",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+      "source_line": 70,
+      "source_order": 651,
+      "text": "Uitgelicht product LG GBBS312AEV Koel en vries je boodschappen met de LG GBBS312AEV koel-vriescombinatie. Met energieklasse A bespaar je gemiddeld € 750,- aan energiekosten over 15 jaar vergeleken met energieklasse F. Dankzij het lage geluidsniveau van 29 decibel zet je deze ook in een open keuken. LG GBBS312AEV Beoordeling is 9,1 van de 10, gebaseerd op 42 reviews. 857 ,- Op voorraad In mijn winkelwagen",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/800xauto/content/fd8931201add9a63648f9d68a38bf7d5",
+          "srcset": "https://image.coolblue.nl/max/400xauto/content/fd8931201add9a63648f9d68a38bf7d5 400w, https://image.coolblue.nl/max/800xauto/content/fd8931201add9a63648f9d68a38bf7d5 800w, https://image.coolblue.nl/max/1200xauto/content/fd8931201add9a63648f9d68a38bf7d5 1200w, https://image.coolblue.nl/max/1600xauto/content/fd8931201add9a63648f9d68a38bf7d5 1600w, https://image.coolblue.nl/max/2046xauto/content/fd8931201add9a63648f9d68a38bf7d5 2046w, https://image.coolblue.nl/max/2472xauto/content/fd8931201add9a63648f9d68a38bf7d5 2472w, https://image.coolblue.nl/max/3200xauto/content/fd8931201add9a63648f9d68a38bf7d5 3200w, https://image.coolblue.nl/max/3200xauto/content/fd8931201add9a63648f9d68a38bf7d5 3200w",
+          "alt_present": true,
+          "alt_raw": "Uitgelicht product"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/190xauto/products/576267531",
+          "srcset": "https://image.coolblue.nl/transparent/max/50xauto/products/576267531 50w, https://image.coolblue.nl/transparent/max/100xauto/products/576267531 100w, https://image.coolblue.nl/transparent/max/148xauto/products/576267531 148w, https://image.coolblue.nl/transparent/max/190xauto/products/576267531 190w, https://image.coolblue.nl/transparent/max/240xauto/products/576267531 240w, https://image.coolblue.nl/transparent/max/296xauto/products/576267531 296w, https://image.coolblue.nl/transparent/max/340xauto/products/576267531 340w, https://image.coolblue.nl/transparent/max/380xauto/products/576267531 380w",
+          "alt_present": true,
+          "alt_raw": "LG GBBS312AEV"
+        }
+      ],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+          "url": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG GBBS312AEV",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+          "url": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Beoordeling is 9,1 van de 10, gebaseerd op 42 reviews. 42 reviews",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html#product-reviews",
+          "url": "https://www.coolblue.nl/product/973550/lg-gbbs312aev.html#product-reviews",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > button:nth-of-type(1)",
+          "source_line": 70,
+          "text": "In mijn winkelwagen",
+          "aria_label": "In mijn winkelwagen",
+          "href_raw": null,
+          "url": null,
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "Uitgelicht product",
+        "LG GBBS312AEV"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG koel-vriescombinaties"
+    },
+    {
+      "block_id": "block-00008",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)",
+      "source_line": 70,
+      "source_order": 695,
+      "text": "42 reviews",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-oc6k3q"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-1x87nld"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-1wfyahn"
+          }
+        },
+        {
+          "tag": "a",
+          "attributes": {
+            "class": "hb-bfw612"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-10v34pi"
+          }
+        }
+      ],
+      "hidden_hint": true,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG GBBS312AEV"
+    },
+    {
+      "block_id": "block-00009",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4)",
+      "source_line": 70,
+      "source_order": 723,
+      "text": "Uitgelicht product LG GSLE91EVAB Geniet van een glas koud water en ijsblokjes met de LG GSLE91EVAB Amerikaanse koelkast. Met energieklasse B bespaar je gemiddeld € 1.100,- aan energiekosten over 15 jaar vergeleken met energieklasse F. Dankzij DoorCooling blijven je producten ook nog eens langer vers. LG GSLE91EVAB Beoordeling is 9,9 van de 10, gebaseerd op 4 reviews. 1.749 ,- Tijdelijk uitverkocht Houd mij op de hoogte",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/800xauto/content/bddbe2693506181c09419c33c456ba8d",
+          "srcset": "https://image.coolblue.nl/max/400xauto/content/bddbe2693506181c09419c33c456ba8d 400w, https://image.coolblue.nl/max/800xauto/content/bddbe2693506181c09419c33c456ba8d 800w, https://image.coolblue.nl/max/1200xauto/content/bddbe2693506181c09419c33c456ba8d 1200w, https://image.coolblue.nl/max/1600xauto/content/bddbe2693506181c09419c33c456ba8d 1600w, https://image.coolblue.nl/max/2046xauto/content/bddbe2693506181c09419c33c456ba8d 2046w, https://image.coolblue.nl/max/2472xauto/content/bddbe2693506181c09419c33c456ba8d 2472w, https://image.coolblue.nl/max/3200xauto/content/bddbe2693506181c09419c33c456ba8d 3200w, https://image.coolblue.nl/max/3200xauto/content/bddbe2693506181c09419c33c456ba8d 3200w",
+          "alt_present": true,
+          "alt_raw": "Uitgelicht product"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/190xauto/products/287290039",
+          "srcset": "https://image.coolblue.nl/transparent/max/50xauto/products/287290039 50w, https://image.coolblue.nl/transparent/max/100xauto/products/287290039 100w, https://image.coolblue.nl/transparent/max/148xauto/products/287290039 148w, https://image.coolblue.nl/transparent/max/190xauto/products/287290039 190w, https://image.coolblue.nl/transparent/max/240xauto/products/287290039 240w, https://image.coolblue.nl/transparent/max/296xauto/products/287290039 296w, https://image.coolblue.nl/transparent/max/340xauto/products/287290039 340w, https://image.coolblue.nl/transparent/max/380xauto/products/287290039 380w",
+          "alt_present": true,
+          "alt_raw": "LG GSLE91EVAB"
+        }
+      ],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "url": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG GSLE91EVAB",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "url": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Beoordeling is 9,9 van de 10, gebaseerd op 4 reviews. 4 reviews",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html#product-reviews",
+          "url": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html#product-reviews",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Houd mij op de hoogte",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "url": "https://www.coolblue.nl/product/973552/lg-gsle91evab.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "Uitgelicht product",
+        "LG GSLE91EVAB"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG GBBS312AEV"
+    },
+    {
+      "block_id": "block-00010",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3)",
+      "source_line": 70,
+      "source_order": 766,
+      "text": "4 reviews",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-oc6k3q"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-1x87nld"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-1wfyahn"
+          }
+        },
+        {
+          "tag": "a",
+          "attributes": {
+            "class": "hb-bfw612"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "hb-10v34pi"
+          }
+        }
+      ],
+      "hidden_hint": true,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG GSLE91EVAB"
+    },
+    {
+      "block_id": "block-00011",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5)",
+      "source_line": 70,
+      "source_order": 789,
+      "text": "Verbruik minder energie Wil je minder energie verbruiken? Kies dan voor een LG koelkast met een hogere energieklasse. Met een koel-vriescombinatie met energieklasse A bespaar je gemiddeld € 750,- aan energiekosten over 15 jaar vergeleken met energieklasse F. Alle koel-vriescombinaties hebben No Frost, waardoor je het vriesgedeelte nooit ontdooit. Zo ben je minder tijd kwijt aan onderhoud. Bewaar je boodschappen langer LG koelkasten met DoorCooling hebben extra luchtopeningen boven in de koelkast. Deze blazen koude lucht naar de voorkant en de deur. Zo worden ook je boodschappen in de deur snel gekoeld. De koude lucht verspreidt zich beter door de koelkast, waardoor de temperatuur minder verandert. Zo blijven je boodschappen langer vers. Houd vlees, vis en groente langer vers In LG koelkasten vind je verschillende soorten vershoudlades, waarmee je verse etenswaren langer bewaart. In een Fresh Converter lade stel je zelf de temperatuur in. Voor vlees en vis zet je deze rond 0 graden Celsius en voor groente en fruit kies je voor 2 graden Celsius. In de Moist Balance Crisper is de luchtvochtigheid hoger, zodat je groente en fruit niet uitdrogen.",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/480xauto/content/139cb4573e7d3802eb04a77cd5740f30",
+          "srcset": "https://image.coolblue.nl/max/156xauto/content/139cb4573e7d3802eb04a77cd5740f30 156w, https://image.coolblue.nl/max/315xauto/content/139cb4573e7d3802eb04a77cd5740f30 315w, https://image.coolblue.nl/max/480xauto/content/139cb4573e7d3802eb04a77cd5740f30 480w, https://image.coolblue.nl/max/624xauto/content/139cb4573e7d3802eb04a77cd5740f30 624w, https://image.coolblue.nl/max/788xauto/content/139cb4573e7d3802eb04a77cd5740f30 788w, https://image.coolblue.nl/max/960xauto/content/139cb4573e7d3802eb04a77cd5740f30 960w, https://image.coolblue.nl/max/1120xauto/content/139cb4573e7d3802eb04a77cd5740f30 1120w, https://image.coolblue.nl/max/1248xauto/content/139cb4573e7d3802eb04a77cd5740f30 1248w",
+          "alt_present": true,
+          "alt_raw": "LG koelkast"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/480xauto/content/1d24eddccf27410c2e3e2756d4950eb1",
+          "srcset": "https://image.coolblue.nl/max/156xauto/content/1d24eddccf27410c2e3e2756d4950eb1 156w, https://image.coolblue.nl/max/315xauto/content/1d24eddccf27410c2e3e2756d4950eb1 315w, https://image.coolblue.nl/max/480xauto/content/1d24eddccf27410c2e3e2756d4950eb1 480w, https://image.coolblue.nl/max/624xauto/content/1d24eddccf27410c2e3e2756d4950eb1 624w, https://image.coolblue.nl/max/788xauto/content/1d24eddccf27410c2e3e2756d4950eb1 788w, https://image.coolblue.nl/max/960xauto/content/1d24eddccf27410c2e3e2756d4950eb1 960w, https://image.coolblue.nl/max/1120xauto/content/1d24eddccf27410c2e3e2756d4950eb1 1120w, https://image.coolblue.nl/max/1248xauto/content/1d24eddccf27410c2e3e2756d4950eb1 1248w",
+          "alt_present": true,
+          "alt_raw": "DoorCooling"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/480xauto/content/b4728c7463b969b4eb13291405a7eaaf",
+          "srcset": "https://image.coolblue.nl/max/156xauto/content/b4728c7463b969b4eb13291405a7eaaf 156w, https://image.coolblue.nl/max/315xauto/content/b4728c7463b969b4eb13291405a7eaaf 315w, https://image.coolblue.nl/max/480xauto/content/b4728c7463b969b4eb13291405a7eaaf 480w, https://image.coolblue.nl/max/624xauto/content/b4728c7463b969b4eb13291405a7eaaf 624w, https://image.coolblue.nl/max/788xauto/content/b4728c7463b969b4eb13291405a7eaaf 788w, https://image.coolblue.nl/max/960xauto/content/b4728c7463b969b4eb13291405a7eaaf 960w, https://image.coolblue.nl/max/1120xauto/content/b4728c7463b969b4eb13291405a7eaaf 1120w, https://image.coolblue.nl/max/1248xauto/content/b4728c7463b969b4eb13291405a7eaaf 1248w",
+          "alt_present": true,
+          "alt_raw": "Vershoudlades"
+        }
+      ],
+      "links": [],
+      "heading_texts": [
+        "Verbruik minder energie",
+        "Bewaar je boodschappen langer",
+        "Houd vlees, vis en groente langer vers"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "LG GSLE91EVAB"
+    },
+    {
+      "block_id": "block-00012",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > h2:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 826,
+      "text": "Bezorging en installatie van je LG koelkast",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-1bj00wy"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [],
+      "heading_texts": [
+        "Bezorging en installatie van je LG koelkast"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Bezorging en installatie van je LG koelkast"
+    },
+    {
+      "block_id": "block-00013",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 827,
+      "text": "1 Gratis bezorging Voor 23.59 uur besteld, morgen in huis. 2 Koelkast installatie Kou d'r van. 3 Je oude toestel Mooi meegenomen.",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-kn9mze"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/512xauto/content/00fcca2303a151899029d331634b66ba",
+          "srcset": "https://image.coolblue.nl/max/103xauto/content/00fcca2303a151899029d331634b66ba 103w, https://image.coolblue.nl/max/206xauto/content/00fcca2303a151899029d331634b66ba 206w, https://image.coolblue.nl/max/310xauto/content/00fcca2303a151899029d331634b66ba 310w, https://image.coolblue.nl/max/404xauto/content/00fcca2303a151899029d331634b66ba 404w, https://image.coolblue.nl/max/512xauto/content/00fcca2303a151899029d331634b66ba 512w, https://image.coolblue.nl/max/618xauto/content/00fcca2303a151899029d331634b66ba 618w, https://image.coolblue.nl/max/736xauto/content/00fcca2303a151899029d331634b66ba 736w, https://image.coolblue.nl/max/808xauto/content/00fcca2303a151899029d331634b66ba 808w",
+          "alt_present": true,
+          "alt_raw": "Bezorging en installatie van je LG koelkast"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/512xauto/content/864d77008538cf5e9dc9614bcf6d9e58",
+          "srcset": "https://image.coolblue.nl/max/103xauto/content/864d77008538cf5e9dc9614bcf6d9e58 103w, https://image.coolblue.nl/max/206xauto/content/864d77008538cf5e9dc9614bcf6d9e58 206w, https://image.coolblue.nl/max/310xauto/content/864d77008538cf5e9dc9614bcf6d9e58 310w, https://image.coolblue.nl/max/404xauto/content/864d77008538cf5e9dc9614bcf6d9e58 404w, https://image.coolblue.nl/max/512xauto/content/864d77008538cf5e9dc9614bcf6d9e58 512w, https://image.coolblue.nl/max/618xauto/content/864d77008538cf5e9dc9614bcf6d9e58 618w, https://image.coolblue.nl/max/736xauto/content/864d77008538cf5e9dc9614bcf6d9e58 736w, https://image.coolblue.nl/max/808xauto/content/864d77008538cf5e9dc9614bcf6d9e58 808w",
+          "alt_present": true,
+          "alt_raw": "Bezorging en installatie van je LG koelkast"
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/max/512xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5",
+          "srcset": "https://image.coolblue.nl/max/103xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 103w, https://image.coolblue.nl/max/206xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 206w, https://image.coolblue.nl/max/310xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 310w, https://image.coolblue.nl/max/404xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 404w, https://image.coolblue.nl/max/512xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 512w, https://image.coolblue.nl/max/618xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 618w, https://image.coolblue.nl/max/736xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 736w, https://image.coolblue.nl/max/808xauto/content/da4a2e287a5888ccdb09f2ce77de8cd5 808w",
+          "alt_present": true,
+          "alt_raw": "Bezorging en installatie van je LG koelkast"
+        }
+      ],
+      "links": [],
+      "heading_texts": [
+        "Gratis bezorging",
+        "Koelkast installatie",
+        "Je oude toestel"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Bezorging en installatie van je LG koelkast"
+    },
+    {
+      "block_id": "block-00014",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > a:nth-of-type(1)",
+      "source_line": 70,
+      "source_order": 847,
+      "text": "Meer informatie over onze bezorging en installatie",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-crv9qx"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Meer informatie over onze bezorging en installatie",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/advies/wat-is-onze-installatieservice-voor-koelkasten-en-vriezers.html",
+          "url": "https://www.coolblue.nl/advies/wat-is-onze-installatieservice-voor-koelkasten-en-vriezers.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Je oude toestel"
+    },
+    {
+      "block_id": "block-00015",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7)",
+      "source_line": 70,
+      "source_order": 852,
+      "text": "Gratis bezorgd wanneer het jou uitkomt Gratis ruilen 22 échte winkels Gratis bezorgd wanneer het jou uitkomt",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis ruilen",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "url": "https://www.coolblue.nl/klantenservice/retourneren-en-ruilen",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Je oude toestel"
+    },
+    {
+      "block_id": "block-00016",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8)",
+      "source_line": 70,
+      "source_order": 896,
+      "text": "Advies over LG koelkasten Kan je nog niet kiezen? Bekijk het advies van onze specialist. Wat is LG Door Cooling? Hoe kies je een LG Amerikaanse koelkast? Wat zijn de technieken van een LG Amerikaanse koelkast?",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "hb-1u8qly9"
+      },
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+          "source_line": 70,
+          "src": "https://image.coolblue.nl/transparent/max/360xauto/content/555069",
+          "srcset": "https://image.coolblue.nl/transparent/max/50xauto/content/555069 50w, https://image.coolblue.nl/transparent/max/94xauto/content/555069 94w, https://image.coolblue.nl/transparent/max/138xauto/content/555069 138w, https://image.coolblue.nl/transparent/max/180xauto/content/555069 180w, https://image.coolblue.nl/transparent/max/240xauto/content/555069 240w, https://image.coolblue.nl/transparent/max/270xauto/content/555069 270w, https://image.coolblue.nl/transparent/max/315xauto/content/555069 315w, https://image.coolblue.nl/transparent/max/360xauto/content/555069 360w",
+          "alt_present": true,
+          "alt_raw": "LG koelkasten"
+        }
+      ],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Wat is LG Door Cooling?",
+          "aria_label": "Ga naar pagina Wat is LG Door Cooling?",
+          "href_raw": "https://www.coolblue.nl/advies/wat-is-lg-door-cooling.html",
+          "url": "https://www.coolblue.nl/advies/wat-is-lg-door-cooling.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Hoe kies je een LG Amerikaanse koelkast?",
+          "aria_label": "Ga naar pagina Hoe kies je een LG Amerikaanse koelkast?",
+          "href_raw": "https://www.coolblue.nl/advies/lg-amerikaanse-koelkast-kiezen.html",
+          "url": "https://www.coolblue.nl/advies/lg-amerikaanse-koelkast-kiezen.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Wat zijn de technieken van een LG Amerikaanse koelkast?",
+          "aria_label": "Ga naar pagina Wat zijn de technieken van een LG Amerikaanse koelkast?",
+          "href_raw": "https://www.coolblue.nl/advies/wat-zijn-de-technieken-van-een-lg-amerikaanse-koelkast.html",
+          "url": "https://www.coolblue.nl/advies/wat-zijn-de-technieken-van-een-lg-amerikaanse-koelkast.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "Advies over LG koelkasten"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Je oude toestel"
+    },
+    {
+      "block_id": "block-00017",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(9)",
+      "source_line": 70,
+      "source_order": 913,
+      "text": "L LG Door Cooling koelkasten LG koelkast aanbiedingen Advies Wat is LG Door Cooling?",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {},
+      "ancestor_context": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": "main-content",
+            "class": "css-b5aqdv"
+          }
+        },
+        {
+          "tag": "main",
+          "attributes": {
+            "class": "css-18bivaf"
+          }
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": "css-2moqnu"
+          }
+        }
+      ],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG Door Cooling koelkasten",
+          "aria_label": null,
+          "href_raw": "/koelkasten/met-deurkoeling/lg",
+          "url": "https://www.coolblue.nl/koelkasten/met-deurkoeling/lg",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "LG koelkast aanbiedingen",
+          "aria_label": null,
+          "href_raw": "/koelkasten/lg/aanbieding",
+          "url": "https://www.coolblue.nl/koelkasten/lg/aanbieding",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Wat is LG Door Cooling?",
+          "aria_label": null,
+          "href_raw": "/advies/wat-is-lg-door-cooling.html",
+          "url": "https://www.coolblue.nl/advies/wat-is-lg-door-cooling.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "L",
+        "Advies"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Advies over LG koelkasten"
+    },
+    {
+      "block_id": "block-00018",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6)",
+      "source_line": 70,
+      "source_order": 930,
+      "text": "Eerder bekeken door jou Jouw producten overal beschikbaar Log in om jouw eerder bekeken producten te zien. Inloggen",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-1u8qly9"
+      },
+      "ancestor_context": [],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Inloggen",
+          "aria_label": null,
+          "href_raw": "/inloggen?returnUrl=https%3A%2F%2Fwww.coolblue.nl%2Fkoelkasten%2Flg",
+          "url": "https://www.coolblue.nl/inloggen?returnUrl=https%3A%2F%2Fwww.coolblue.nl%2Fkoelkasten%2Flg",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [
+        "Eerder bekeken door jou",
+        "Jouw producten overal beschikbaar"
+      ],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Advies"
+    },
+    {
+      "block_id": "block-00019",
+      "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7)",
+      "source_line": 70,
+      "source_order": 941,
+      "text": "alles voor een glimlach Gratis bezorgd wanneer het jou uitkomt 22 échte winkels Onze app Gratis bezorgd wanneer het jou uitkomt 22 échte winkels Onze app",
+      "text_offset": 0,
+      "direct_text_only": false,
+      "attributes": {
+        "class": "css-198nwta"
+      },
+      "ancestor_context": [],
+      "hidden_hint": false,
+      "rendered_visibility": "not_measured",
+      "rendered_top": null,
+      "images": [],
+      "links": [
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Onze app",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/c/app.html",
+          "url": "https://www.coolblue.nl/c/app.html",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Gratis bezorgd wanneer het jou uitkomt",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "url": "https://www.coolblue.nl/klantenservice/bezorg-en-ophaalopties",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "22 échte winkels",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/winkels",
+          "url": "https://www.coolblue.nl/winkels",
+          "destination_verified": false
+        },
+        {
+          "source_path": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "source_line": 70,
+          "text": "Onze app",
+          "aria_label": null,
+          "href_raw": "https://www.coolblue.nl/c/app.html",
+          "url": "https://www.coolblue.nl/c/app.html",
+          "destination_verified": false
+        }
+      ],
+      "heading_texts": [],
+      "semantic_status": "not_assessed",
+      "preceding_heading_hint": "Jouw producten overal beschikbaar"
+    }
+  ],
+  "quality": {
+    "capture_issues": [],
+    "warnings": [
+      "본문 영역의 실제 표시 상태·상단 위치는 미측정",
+      "CSS·iframe·shadow DOM·이미지 안의 문구는 완전 추출을 보장하지 않음",
+      "이미지 크기·표시 여부는 capture-state 원문이며 본문 블록과의 정확한 매핑은 미검증",
+      "본문에서 상품 카드·로컬 탐색 메뉴도 보존함. 추출 영역 수는 진단 블록 개수가 아님"
+    ],
+    "exclusions": {
+      "non_content": 25,
+      "global_chrome": 4
+    },
+    "absence_verdict_allowed": false,
+    "destination_checks_performed": false,
+    "jev_called": false
+  },
+  "assessment": {
+    "ID8": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID9": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID10": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID18": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID19": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID20": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID21": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID22": {
+      "status": "not_assessed",
+      "value": null
+    },
+    "ID23": {
+      "status": "not_assessed",
+      "value": null
+    }
+  }
+}

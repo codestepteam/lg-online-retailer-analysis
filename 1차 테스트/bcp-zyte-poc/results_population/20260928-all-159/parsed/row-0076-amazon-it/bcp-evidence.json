@@ -1,0 +1,1221 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0076-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/19248ADC-0AFB-4232-AB14-35EE45ABB5A5",
+    "finalUrl": "https://www.amazon.it/stores/page/19248ADC-0AFB-4232-AB14-35EE45ABB5A5",
+    "capturedAt": "2026-09-28T06:43:40.494673+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: LG: ASCIUGATRICI"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0076-amazon-it/brand-category/raw.html",
+      "sha256": "0f83940a93e9755b1a4c3dbd1fba6855e79fa1681782e2316c2afdc3cbcf80f6"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0076-amazon-it/brand-category/capture-state.json",
+      "sha256": "06539c7267883705090d2a5d6fb2102df73c7e8486045c234713716fb97d74f7"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0076-amazon-it/brand-category/response.json",
+      "sha256": "6a39c617e625e9895792874fe50ad273bb2a90bb53d21bbaade1e300c6676955"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 18,
+        "top10ByRenderedArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/acef68db-430e-47e8-881a-c63e9e401049._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "LG branded washer and dryer pair shown in stainless steel finish, with 'Asciugatrici' text overlay.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/716tVOws6HL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009NWWB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Essence White",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009TWBB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Direct Drive, Allergy Care, Essence White Black Panel e Knob",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/I/61PDv5eS5gL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNA1008NWK Asciugatrice Pompa di Calore 8 kg, Classe D, Asciugatura Delicata a Bassa Temperatura con Sensore, Serie A1, 8 Programmi, Cestello in Acciaio Galvanizzato, Bianco",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5008TWBB Asciugatrice 8 Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Ivory White Pannello Nero",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5010TKB AI Dry Asciugatrice 10 kg Intelligente a Pompa di Calore | Asciugatura con Intelligenza Artificiale, TurboDry 81 min, Allergy Care, Wi-Fi, Condensatore Autopulente, Classe C",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/I/71KfDT8Lh8L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX1009NWK Asciugatrice 9 kg a Pompa di Calore, Connessione Wi-Fi | Condensatore Autopulente, Wi-Fi ThinQ, Allergy Care, Smart Pairing con Lavatrici LG, Classe C, Smart Diagnosis",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 8 kg, Classe B - RNX5008TKB",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/I/71x1Io7S28L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 9 kg, Classe B - RNX59TLBAI",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71ce6d0k1WL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RH80V9AVHN Asciugatrice Smart a Carica Frontale 8 Kg, Classe C, Condensazione con Pompa di Calore, Wi-Fi con SmartThinQ, Eco Hybrid, Allergy Care, 60 x 69 x 85 cm - Bianco",
+            "renderedWidth": 213.21875,
+            "renderedHeight": 302,
+            "renderedArea": 64392.0625,
+            "naturalWidth": 233,
+            "naturalHeight": 330,
+            "naturalArea": 76890,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/acef68db-430e-47e8-881a-c63e9e401049._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "LG branded washer and dryer pair shown in stainless steel finish, with 'Asciugatrici' text overlay.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/716tVOws6HL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009NWWB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Essence White",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009TWBB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Direct Drive, Allergy Care, Essence White Black Panel e Knob",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/I/61PDv5eS5gL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNA1008NWK Asciugatrice Pompa di Calore 8 kg, Classe D, Asciugatura Delicata a Bassa Temperatura con Sensore, Serie A1, 8 Programmi, Cestello in Acciaio Galvanizzato, Bianco",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5008TWBB Asciugatrice 8 Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Ivory White Pannello Nero",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5010TKB AI Dry Asciugatrice 10 kg Intelligente a Pompa di Calore | Asciugatura con Intelligenza Artificiale, TurboDry 81 min, Allergy Care, Wi-Fi, Condensatore Autopulente, Classe C",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/I/71KfDT8Lh8L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX1009NWK Asciugatrice 9 kg a Pompa di Calore, Connessione Wi-Fi | Condensatore Autopulente, Wi-Fi ThinQ, Allergy Care, Smart Pairing con Lavatrici LG, Classe C, Smart Diagnosis",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 8 kg, Classe B - RNX5008TKB",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/I/71x1Io7S28L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 9 kg, Classe B - RNX59TLBAI",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71ce6d0k1WL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RH80V9AVHN Asciugatrice Smart a Carica Frontale 8 Kg, Classe C, Condensazione con Pompa di Calore, Wi-Fi con SmartThinQ, Eco Hybrid, Allergy Care, 60 x 69 x 85 cm - Bianco",
+            "renderedWidth": 213.21875,
+            "renderedHeight": 302,
+            "renderedArea": 64392.0625,
+            "naturalWidth": 233,
+            "naturalHeight": 330,
+            "naturalArea": 76890,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: LG: ASCIUGATRICI"
+        ],
+        "metaDescription": [
+          "Asciugatrici"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/LG/page/19248ADC-0AFB-4232-AB14-35EE45ABB5A5"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-9j6ftljrr0 > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-9j6ftljrr0 > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/acef68db-430e-47e8-881a-c63e9e401049._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "LG branded washer and dryer pair shown in stainless steel finish, with 'Asciugatrici' text overlay.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/I/716tVOws6HL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009NWWB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Essence White",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5009TWBB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Direct Drive, Allergy Care, Essence White Black Panel e Knob",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://m.media-amazon.com/images/I/61PDv5eS5gL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNA1008NWK Asciugatrice Pompa di Calore 8 kg, Classe D, Asciugatura Delicata a Bassa Temperatura con Sensore, Serie A1, 8 Programmi, Cestello in Acciaio Galvanizzato, Bianco",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://m.media-amazon.com/images/I/711EjTv7QJL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5008TWBB Asciugatrice 8 Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Ivory White Pannello Nero",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX5010TKB AI Dry Asciugatrice 10 kg Intelligente a Pompa di Calore | Asciugatura con Intelligenza Artificiale, TurboDry 81 min, Allergy Care, Wi-Fi, Condensatore Autopulente, Classe C",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://m.media-amazon.com/images/I/71KfDT8Lh8L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RNX1009NWK Asciugatrice 9 kg a Pompa di Calore, Connessione Wi-Fi | Condensatore Autopulente, Wi-Fi ThinQ, Allergy Care, Smart Pairing con Lavatrici LG, Classe C, Smart Diagnosis",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://m.media-amazon.com/images/I/71pXiB+Mm7L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 8 kg, Classe B - RNX5008TKB",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://m.media-amazon.com/images/I/71x1Io7S28L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG Asciugatrice Intelligente AI Dry 9 kg, Classe B - RNX59TLBAI",
+            "renderedWidth": 215.046875,
+            "renderedHeight": 302,
+            "renderedArea": 64944.15625,
+            "naturalWidth": 235,
+            "naturalHeight": 330,
+            "naturalArea": 77550,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71ce6d0k1WL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of LG RH80V9AVHN Asciugatrice Smart a Carica Frontale 8 Kg, Classe C, Condensazione con Pompa di Calore, Wi-Fi con SmartThinQ, Eco Hybrid, Allergy Care, 60 x 69 x 85 cm - Bianco",
+            "renderedWidth": 213.21875,
+            "renderedHeight": 302,
+            "renderedArea": 64392.0625,
+            "naturalWidth": 233,
+            "naturalHeight": 330,
+            "naturalArea": 76890,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "ASCIUGATRICI",
+            "href": "https://www.amazon.it/stores/page/19248ADC-0AFB-4232-AB14-35EE45ABB5A5#",
+            "signals": [
+              "페이지 주제어와 일치: asciugatrici"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNX5009NWWB Asciugatrice 9Kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX5009NWWB Asciugatrice 9Kg... 4,8 4,8 su 5 stelle 16 4,8 su 5 stelle. 16 recensioni dei clienti 849 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RH80V9AVHN Asciugatrice Smart a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RH80V9AVHN Asciugatrice Smart a... 4,6 4,6 su 5 stelle 1.610 4,6 su 5 stelle. 1.610 recensioni dei clienti 549 , 90 € Ricevilo entro il giorno giovedì 1 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RH10V9AV4W Asciugatrice Smart a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RH10V9AV4W Asciugatrice Smart a... 4,6 4,6 su 5 stelle 1.610 4,6 su 5 stelle. 1.610 recensioni dei clienti 785 , 00 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNX5009TWBB Asciugatrice 9Kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX5009TWBB Asciugatrice 9Kg... 5,0 5,0 su 5 stelle 7 5,0 su 5 stelle. 7 recensioni dei clienti 659 , 00 € Ricevilo entro 1 ottobre - 2 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNA1008NWK Asciugatrice Pompa di...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNA1008NWK Asciugatrice Pompa di... 4,7 4,7 su 5 stelle 38 4,7 su 5 stelle. 38 recensioni dei clienti 399 , 96 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RH18U8AVCW Asciugatrice Smart 18kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RH18U8AVCW Asciugatrice Smart 18kg,... 4,7 4,7 su 5 stelle 38 4,7 su 5 stelle. 38 recensioni dei clienti - 18% 1.181 , 70 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.449 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNX5008TWBB Asciugatrice 8 Kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX5008TWBB Asciugatrice 8 Kg... 4,8 4,8 su 5 stelle 16 4,8 su 5 stelle. 16 recensioni dei clienti 799 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNX5010TKB AI Dry Asciugatrice 10 kg...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX5010TKB AI Dry Asciugatrice 10 kg... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti - 22% 779 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 999 , 00 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG RNX1009NWK Asciugatrice 9 kg a...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX1009NWK Asciugatrice 9 kg a... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 530 , 16 € Ricevilo entro 1 ottobre - 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG Asciugatrice Intelligente AI Dry 8 kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG Asciugatrice Intelligente AI Dry 8 kg,... 575 , 92 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LG Asciugatrice Intelligente AI Dry 9 kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG Asciugatrice Intelligente AI Dry 9 kg,... 675 , 93 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#ProductGrid-xkfu0d1s0w > div > div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida LG RNX5009NWWB Asciugatrice 9Kg... 4,8 4,8 su 5 stelle 16 4,8 su 5 stelle. 16 recensioni dei clienti 849 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida LG RH80V9AVHN Asciugatrice Smart a... 4,6 4,6 su 5 stelle 1.610 4,6 su 5 stelle. 1.610 recensioni dei clienti 549 , 90 € Ricevilo entro il giorno giovedì 1 ottobre Aggiungi al carrello Visualizzazione rapida LG RH10V9AV4W Asciugatrice Smart a... 4,6 4,6 su 5 stelle 1.610 4,6 su 5 stelle. 1.610 recensioni dei clienti 785 , 00 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida LG RNX5009TWBB Asciugatrice 9Kg... 5,0 5,0 su 5 stelle 7 5,0 su 5 stelle. 7 recensioni dei clienti 659 , 00 € Ricevilo entro 1 ottobre - 2 ottobre Aggiungi al carrello Visualizzazione rapida LG RNA1008NWK Asciugatrice Pompa di... 4,7 4,7 su 5 stelle 38 4,7 su 5 stelle. 38 recensioni dei clienti 399 , 96 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida LG RH18U8AVCW Asciugatrice Smart 18kg,... 4,7 4,7 su 5 stelle 38 4,7 su 5 stelle. 38 recensioni dei clienti - 18% 1.181 , 70 € Prezzo consigliato: Barrato - Prezzo consigliato: 1.449 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida LG RNX5008TWBB Asciugatrice 8 Kg... 4,8 4,8 su 5 stelle 16 4,8 su 5 stelle. 16 recensioni dei clienti 799 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello Visualizzazione rapida LG RNX5010TKB AI Dry Asciugatrice 10 kg... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti - 22% 779 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 999 , 00 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida LG RNX1009NWK Asciugatrice 9 kg a... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 530 , 16 € Ricevilo entro 1 ottobre - 5 ottobre Aggiungi al carrello Visualizzazione rapida LG Asciugatrice Intelligente AI Dry 8 kg,... 575 , 92 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello Visualizzazione rapida LG Asciugatrice Intelligente AI Dry 9 kg,... 675 , 93 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGrid__gridContainer__bRK6J ProductGrid__centerGridItems__wIvqP ProductGrid__grid-tapestry__iHaC3 ProductGrid__asin-face-out__kKLj0",
+              "data-testid": "product-grid-container"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "LG RNX5009NWWB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Essence White",
+            "href": "https://www.amazon.it/RNX5009NWWB-Asciugatrice-Asciugatura-Intelligenza-Artificiale/dp/B0G59QKM5F?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RH80V9AVHN Asciugatrice Smart a Carica Frontale 8 Kg, Classe C, Condensazione con Pompa di Calore, Wi-Fi con SmartThinQ, Eco Hybrid, Allergy Care, 60 x 69 x 85 cm - Bianco",
+            "href": "https://www.amazon.it/LG-RH80V9AVHN-Asciugatrice-Condensazione-SmartThinQ/dp/B09FK2J1VL?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RH10V9AV4W Asciugatrice Smart a Carica Frontale 10kg, Serie V9, Classe C, Condensazione con Pompa di calore DUAL Inverter, Eco Hybrid, Condensatore autopulente, Allergy Care, Wi-Fi, Bianca",
+            "href": "https://www.amazon.it/RH10V9AV4W-Asciugatrice-Condensazione-Condensatore-autopulente/dp/B0B8JXC517?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RNX5009TWBB Asciugatrice 9Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Direct Drive, Allergy Care, Essence White Black Panel e Knob",
+            "href": "https://www.amazon.it/RNX5009TWBB-Asciugatrice-Asciugatura-Intelligenza-Artificiale/dp/B0G4S1SBDM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RNA1008NWK Asciugatrice Pompa di Calore 8 kg, Classe D, Asciugatura Delicata a Bassa Temperatura con Sensore, Serie A1, 8 Programmi, Cestello in Acciaio Galvanizzato, Bianco",
+            "href": "https://www.amazon.it/RNA1008NWK-Asciugatrice-Asciugatura-Temperatura-Galvanizzato/dp/B0FW5T6CHR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RH18U8AVCW Asciugatrice Smart 18kg, Classe A+++, Pompa di Calore DUAL Inverter, Motore Direct Drive, Intelligenza Artificiale AI Dry, Condensatore Autopulente, Wi-Fi, Serie U8, Bianca",
+            "href": "https://www.amazon.it/Asciugatrice-Intelligenza-Artificiale-Condensatore-Autopulente/dp/B0F5X621FC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RNX5008TWBB Asciugatrice 8 Kg Pompa di Calore DUAL Inverter, Classe B, Asciugatura AI Dry con Intelligenza Artificiale, Wi-Fi, Serie X5, Motore Direct Drive, Allergy Care, Ivory White Pannello Nero",
+            "href": "https://www.amazon.it/RNX5008TWBB-Asciugatrice-Asciugatura-Intelligenza-Artificiale/dp/B0GVZFH66H?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RNX5010TKB AI Dry Asciugatrice 10 kg Intelligente a Pompa di Calore | Asciugatura con Intelligenza Artificiale, TurboDry 81 min, Allergy Care, Wi-Fi, Condensatore Autopulente, Classe C",
+            "href": "https://www.amazon.it/LG-RNX5010TKB-Asciugatrice-Intelligente-Calore/dp/B0H3WC7583?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG RNX1009NWK Asciugatrice 9 kg a Pompa di Calore, Connessione Wi-Fi | Condensatore Autopulente, Wi-Fi ThinQ, Allergy Care, Smart Pairing con Lavatrici LG, Classe C, Smart Diagnosis",
+            "href": "https://www.amazon.it/LG-RNX1009NWK-Asciugatrice-Calore-Connessione/dp/B0H1XJFX58?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG Asciugatrice Intelligente AI Dry 8 kg, Classe B - RNX5008TKB",
+            "href": "https://www.amazon.it/LG-Asciugatrice-Intelligente-Dry-Classe/dp/B0HCBXRVK3?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG Asciugatrice Intelligente AI Dry 9 kg, Classe B - RNX59TLBAI",
+            "href": "https://www.amazon.it/LG-Asciugatrice-Intelligente-Dry-Classe/dp/B0HD7G87ZC?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

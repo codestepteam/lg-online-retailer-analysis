@@ -1,0 +1,166 @@
+{"offset": "0xf000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0xf038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0xf060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0xf090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0xf0b8", "text": "function's dictionary may not be deleted"}
+{"offset": "0xf0e8", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0xf118", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0xf178", "text": "invalid input, expected coroutine"}
+{"offset": "0xf1a0", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0xf1d0", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0xf200", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0xf230", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0xf298", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0xf2c8", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0xf328", "text": "__qualname__ must be set to a string object"}
+{"offset": "0xf358", "text": "__name__ must be set to a string object"}
+{"offset": "0xf380", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0xf4c8", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0xf500", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0xf538", "text": "%.200s() keywords must be strings"}
+{"offset": "0xf560", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0xf590", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0xf5c8", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0xf600", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0xf628", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0xf658", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0xf698", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0xf6c0", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/plp/darty.c"}
+{"offset": "0xf700", "text": "crawl_retailers.plp.darty.extract"}
+{"offset": "0xf728", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0xf768", "text": "generator raised StopIteration"}
+{"offset": "0xf788", "text": " while calling a Python object"}
+{"offset": "0xf7a8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0xf7d8", "text": "generator ignored GeneratorExit"}
+{"offset": "0xf7f8", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0xf818", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0xf840", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0xf870", "text": "dictionary changed size during iteration"}
+{"offset": "0xf8a0", "text": "'NoneType' object is not iterable"}
+{"offset": "0xf8c8", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0xf8f0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0xf920", "text": "join() result is too long for a Python string"}
+{"offset": "0xf950", "text": "crawl_retailers.plp.darty.page_targets"}
+{"offset": "0xf978", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0xf9a8", "text": "instance exception may not have a separate value"}
+{"offset": "0xf9e0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0xfa28", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0xfa68", "text": "Module 'darty' has already been imported. Re-initialisation is not supported."}
+{"offset": "0xfab8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0xfb08", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0xfb30", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0xfbe0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0xfc20", "text": "init crawl_retailers.plp.darty"}
+{"offset": "0xfc40", "text": "qualified name of the coroutine"}
+{"offset": "0xfc60", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xfcc0", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0xfd30", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0xfd68", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0xfd90", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0xfdc8", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xfe28", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0xfe98", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0xfec8", "text": "crawl_retailers.plp.darty.__pyx_scope_struct__extract"}
+{"offset": "0xfefe", "text": "cannot pickle '%.200s' object"}
+{"offset": "0xff1c", "text": "%.200s() needs an argument"}
+{"offset": "0xff37", "text": "Bad call flags for CyFunction"}
+{"offset": "0xff55", "text": "<cyfunction %U at %p>"}
+{"offset": "0xff6b", "text": "__loader__"}
+{"offset": "0xff76", "text": "loader"}
+{"offset": "0xff7d", "text": "__file__"}
+{"offset": "0xff86", "text": "origin"}
+{"offset": "0xff8d", "text": "__package__"}
+{"offset": "0xff99", "text": "parent"}
+{"offset": "0xffa0", "text": "__path__"}
+{"offset": "0xffa9", "text": "submodule_search_locations"}
+{"offset": "0xffc4", "text": "keywords must be strings"}
+{"offset": "0xffdd", "text": "_cython_coroutine_type"}
+{"offset": "0xfff4", "text": "_cython_generator_type"}
+{"offset": "0x1000b", "text": "_module"}
+{"offset": "0x10013", "text": "__builtins__"}
+{"offset": "0x10020", "text": "_cython_3_0_12"}
+{"offset": "0x1002f", "text": "%s (%s:%d)"}
+{"offset": "0x1003a", "text": "extract"}
+{"offset": "0x10042", "text": "crawl_retailers/plp/darty.py"}
+{"offset": "0x1005f", "text": "exactly"}
+{"offset": "0x10067", "text": "name '%U' is not defined"}
+{"offset": "0x10080", "text": "coroutine already executing"}
+{"offset": "0x1009c", "text": "generator already executing"}
+{"offset": "0x100b8", "text": "page_targets"}
+{"offset": "0x100c5", "text": "items"}
+{"offset": "0x100cb", "text": "throw"}
+{"offset": "0x100d1", "text": "builtins"}
+{"offset": "0x100da", "text": "cython_runtime"}
+{"offset": "0x100e9", "text": "crawl_retailers.plp.darty"}
+{"offset": "0x10103", "text": "does not match"}
+{"offset": "0x10112", "text": "collections.abc"}
+{"offset": "0x10122", "text": "backports_abc"}
+{"offset": "0x10130", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x10149", "text": "__name__"}
+{"offset": "0x10152", "text": "name of the coroutine"}
+{"offset": "0x10168", "text": "__qualname__"}
+{"offset": "0x10175", "text": "cr_frame"}
+{"offset": "0x1017e", "text": "Frame of the coroutine"}
+{"offset": "0x10195", "text": "cr_running"}
+{"offset": "0x101a0", "text": "cr_await"}
+{"offset": "0x101a9", "text": "object being awaited, or None"}
+{"offset": "0x101c7", "text": "cr_code"}
+{"offset": "0x101cf", "text": "__module__"}
+{"offset": "0x101da", "text": "send"}
+{"offset": "0x101df", "text": "close"}
+{"offset": "0x101e5", "text": "__reduce_ex__"}
+{"offset": "0x101f3", "text": "__reduce__"}
+{"offset": "0x101fe", "text": "func_doc"}
+{"offset": "0x10207", "text": "__doc__"}
+{"offset": "0x1020f", "text": "func_name"}
+{"offset": "0x10219", "text": "func_dict"}
+{"offset": "0x10223", "text": "__dict__"}
+{"offset": "0x1022c", "text": "func_globals"}
+{"offset": "0x10239", "text": "__globals__"}
+{"offset": "0x10245", "text": "func_closure"}
+{"offset": "0x10252", "text": "__closure__"}
+{"offset": "0x1025e", "text": "func_code"}
+{"offset": "0x10268", "text": "__code__"}
+{"offset": "0x10271", "text": "func_defaults"}
+{"offset": "0x1027f", "text": "__defaults__"}
+{"offset": "0x1028c", "text": "__kwdefaults__"}
+{"offset": "0x1029b", "text": "__annotations__"}
+{"offset": "0x102ab", "text": "_is_coroutine"}
+{"offset": "0x102c0", "text": "/nav/achat/gros_electromenager/"}
+{"offset": "0x102e0", "text": "crawl_retailers/plp/darty.py"}
+{"offset": "0x10300", "text": "crawl_retailers.plp.darty"}
+{"offset": "0x10320", "text": "https://www.darty.com"}
+{"offset": "0x10340", "text": "cline_in_traceback"}
+{"offset": "0x10360", "text": "asyncio.coroutines"}
+{"offset": "0x10378", "text": "refrigerateurs"}
+{"offset": "0x10388", "text": "lave-vaisselle"}
+{"offset": "0x10398", "text": "page_targets"}
+{"offset": "0x103a8", "text": "_is_coroutine"}
+{"offset": "0x103b8", "text": "_CATEGORY_PLP"}
+{"offset": "0x103c8", "text": "lave-linge"}
+{"offset": "0x103d8", "text": "/index.html"}
+{"offset": "0x103e8", "text": "page_type"}
+{"offset": "0x103f8", "text": "list[dict]"}
+{"offset": "0x10408", "text": "isenabled"}
+{"offset": "0x10418", "text": "category"}
+{"offset": "0x10428", "text": "extract"}
+{"offset": "0x10430", "text": "disable"}
+{"offset": "0x10438", "text": "country"}
+{"offset": "0x10440", "text": "return"}
+{"offset": "0x10447", "text": "result"}
+{"offset": "0x1044e", "text": "enable"}
+{"offset": "0x10455", "text": "throw"}
+{"offset": "0x1045f", "text": "items"}
+{"offset": "0x10465", "text": "close"}
+{"offset": "0x10470", "text": "__test__"}
+{"offset": "0x10479", "text": "slug"}
+{"offset": "0x1047e", "text": "sess"}
+{"offset": "0x10483", "text": "send"}
+{"offset": "0x10488", "text": "page"}
+{"offset": "0x10490", "text": "__name__"}
+{"offset": "0x104a0", "text": "__main__"}
+{"offset": "0x104a9", "text": "dict"}
+{"offset": "0x104ae", "text": "code"}
+{"offset": "0x104b3", "text": "args"}
+{"offset": "0x104b8", "text": "_BASE"}
+{"offset": "0x104c6", "text": "plp_"}

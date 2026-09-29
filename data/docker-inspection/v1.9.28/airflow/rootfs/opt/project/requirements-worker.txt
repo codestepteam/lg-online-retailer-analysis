@@ -1,0 +1,18 @@
+# Airflow worker 의존성 (FastAPI API deps + Playwright + 파서)
+-r requirements-api.txt
+playwright>=1.44
+playwright-stealth>=1.0
+beautifulsoup4>=4.15.0   # parse_retailers (Phase 2) — 누락 시 워커에서 parse 즉사
+pillow>=12.3.0           # core/imagesize — PDP 갤러리 이미지 실측 크기
+pytesseract==0.3.13
+rapidocr>=3.0            # OCR 주엔진 — PP-OCR 최신 모델(onnxruntime), scene text 인식률↑
+onnxruntime>=1.20        # rapidocr 백엔드 (CPU)
+google-cloud-bigquery>=3.4   # BQ 모수 자동화 (scripts/bq_* 직접 import) — base 프리인스톨(3.20.1)이 충족, 재설치 없음
+google-cloud-storage>=2.7    # GCS 리포트 미러 (core/object_storage) — base 프리인스톨(2.17.0)이 충족, 재설치 없음
+# ⚠️ apache-airflow 본체·airflow provider 는 여기 절대 넣지 말 것 (0825 GCP 신규빌드 실사고 2건):
+#   - providers-google>=10.0 미고정 → resolver 가 최신 provider 를 받으며 airflow 본체를
+#     갈아치워 'airflow: command not found' 로 이미지 사망.
+#   - ==10.21.0 고정 → provider 의 pandas<2.2 상한이 요청 그래프에 강제 편입돼
+#     pandas>=2.2(api)와 충돌, 빌드 자체가 실패. (프리인스톨은 요청에 없어야 안 건드린다.
+#     코드가 쓰는 건 provider 가 아니라 google-cloud-bigquery 클라이언트뿐 — 위 줄로 충분.)
+#   본체/BQ import 소실은 Dockerfile.airflow 의 가드 RUN 이 빌드에서 잡는다.

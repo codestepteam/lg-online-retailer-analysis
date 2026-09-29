@@ -1,0 +1,463 @@
+{"offset": "0x52000", "text": "%.200s() needs an argument"}
+{"offset": "0x5201b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x52039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x5204f", "text": "__loader__"}
+{"offset": "0x5205a", "text": "loader"}
+{"offset": "0x52061", "text": "__file__"}
+{"offset": "0x5206a", "text": "origin"}
+{"offset": "0x52071", "text": "__package__"}
+{"offset": "0x5207d", "text": "parent"}
+{"offset": "0x52084", "text": "__path__"}
+{"offset": "0x5208d", "text": "submodule_search_locations"}
+{"offset": "0x520a8", "text": "keywords must be strings"}
+{"offset": "0x520c1", "text": "_cython_coroutine_type"}
+{"offset": "0x520d8", "text": "_cython_generator_type"}
+{"offset": "0x520ef", "text": "_module"}
+{"offset": "0x520f7", "text": "__builtins__"}
+{"offset": "0x52104", "text": "_cython_3_0_12"}
+{"offset": "0x52113", "text": "cannot import name %S"}
+{"offset": "0x52129", "text": "%s (%s:%d)"}
+{"offset": "0x52134", "text": "lambda1"}
+{"offset": "0x5213c", "text": "scripts/bq_target_ingest.py"}
+{"offset": "0x52158", "text": "exactly"}
+{"offset": "0x52160", "text": "generator already executing"}
+{"offset": "0x5217f", "text": "genexpr"}
+{"offset": "0x52187", "text": "throw"}
+{"offset": "0x5218d", "text": "name '%U' is not defined"}
+{"offset": "0x521a6", "text": "builtins"}
+{"offset": "0x521af", "text": "cython_runtime"}
+{"offset": "0x521be", "text": "does not match"}
+{"offset": "0x521cd", "text": "collections.abc"}
+{"offset": "0x521dd", "text": "backports_abc"}
+{"offset": "0x521eb", "text": "init scripts.bq_target_ingest"}
+{"offset": "0x52209", "text": "gate_batch_occupied"}
+{"offset": "0x5221d", "text": "at least"}
+{"offset": "0x52226", "text": "at most"}
+{"offset": "0x5222e", "text": "gate_refurb"}
+{"offset": "0x5223a", "text": "to_target_rows"}
+{"offset": "0x52249", "text": "run_query"}
+{"offset": "0x52253", "text": "target_month_end"}
+{"offset": "0x52264", "text": "gate_url_encoding"}
+{"offset": "0x52276", "text": "prev_month_range"}
+{"offset": "0x52287", "text": "derive_window"}
+{"offset": "0x52295", "text": "_job_config"}
+{"offset": "0x522a1", "text": "function"}
+{"offset": "0x522aa", "text": "old_cnt"}
+{"offset": "0x522b2", "text": "append"}
+{"offset": "0x522b9", "text": "gate_count_drift"}
+{"offset": "0x522ca", "text": "scripts.bq_target_ingest.main"}
+{"offset": "0x522e8", "text": "_validate_and_load"}
+{"offset": "0x522fb", "text": "_cython_3_0_12.generator"}
+{"offset": "0x52314", "text": "__name__"}
+{"offset": "0x5231d", "text": "name of the generator"}
+{"offset": "0x52333", "text": "__qualname__"}
+{"offset": "0x52340", "text": "gi_frame"}
+{"offset": "0x52349", "text": "Frame of the generator"}
+{"offset": "0x52360", "text": "gi_running"}
+{"offset": "0x5236b", "text": "gi_yieldfrom"}
+{"offset": "0x52378", "text": "gi_code"}
+{"offset": "0x52380", "text": "__module__"}
+{"offset": "0x5238b", "text": "send"}
+{"offset": "0x52390", "text": "close"}
+{"offset": "0x52396", "text": "__reduce__"}
+{"offset": "0x523a1", "text": "func_doc"}
+{"offset": "0x523aa", "text": "__doc__"}
+{"offset": "0x523b2", "text": "func_name"}
+{"offset": "0x523bc", "text": "func_dict"}
+{"offset": "0x523c6", "text": "__dict__"}
+{"offset": "0x523cf", "text": "func_globals"}
+{"offset": "0x523dc", "text": "__globals__"}
+{"offset": "0x523e8", "text": "func_closure"}
+{"offset": "0x523f5", "text": "__closure__"}
+{"offset": "0x52401", "text": "func_code"}
+{"offset": "0x5240b", "text": "__code__"}
+{"offset": "0x52414", "text": "func_defaults"}
+{"offset": "0x52422", "text": "__defaults__"}
+{"offset": "0x5242f", "text": "__kwdefaults__"}
+{"offset": "0x5243e", "text": "__annotations__"}
+{"offset": "0x5244e", "text": "_is_coroutine"}
+{"offset": "0x5245c", "text": "CythonUnboundCMethod"}
+{"offset": "0x52471", "text": "_client"}
+{"offset": "0x52480", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x524a8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x524d8", "text": " while calling a Python object"}
+{"offset": "0x524f8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x52528", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x52550", "text": "function's dictionary may not be deleted"}
+{"offset": "0x52580", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x525b0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x52610", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x52640", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x52670", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x526a0", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x52708", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x52738", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x52798", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x527c8", "text": "__name__ must be set to a string object"}
+{"offset": "0x527f0", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x52938", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x52970", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x529a0", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x529d8", "text": "%.200s() keywords must be strings"}
+{"offset": "0x52a00", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x52a30", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x52a68", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x52a98", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x52ad8", "text": "join() result is too long for a Python string"}
+{"offset": "0x52b08", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x52b30", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/bq_target_ingest.c"}
+{"offset": "0x52b70", "text": "scripts.bq_target_ingest.gate_refurb.lambda1"}
+{"offset": "0x52ba0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x52be0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x52c18", "text": "generator raised StopIteration"}
+{"offset": "0x52c38", "text": "generator ignored GeneratorExit"}
+{"offset": "0x52c58", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x52c88", "text": "instance exception may not have a separate value"}
+{"offset": "0x52cc0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x52d08", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x52d48", "text": "Module 'bq_target_ingest' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x52da8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x52df8", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x52e20", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x52ed0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x52f10", "text": "scripts.bq_target_ingest.gate_batch_occupied"}
+{"offset": "0x52f40", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x52f60", "text": "scripts.bq_target_ingest.gate_refurb"}
+{"offset": "0x52f88", "text": "scripts.bq_target_ingest.to_target_rows"}
+{"offset": "0x52fb0", "text": "scripts.bq_target_ingest.run_query"}
+{"offset": "0x52fd8", "text": "scripts.bq_target_ingest.target_month_end"}
+{"offset": "0x53008", "text": "scripts.bq_target_ingest.gate_url_encoding"}
+{"offset": "0x53038", "text": "scripts.bq_target_ingest.prev_month_range"}
+{"offset": "0x53068", "text": "scripts.bq_target_ingest.month_range"}
+{"offset": "0x53090", "text": "scripts.bq_target_ingest._client"}
+{"offset": "0x530b8", "text": "scripts.bq_target_ingest.derive_window.genexpr"}
+{"offset": "0x530e8", "text": "scripts.bq_target_ingest.derive_window"}
+{"offset": "0x53110", "text": "dictionary changed size during iteration"}
+{"offset": "0x53140", "text": "'NoneType' object is not iterable"}
+{"offset": "0x53168", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x53190", "text": "scripts.bq_target_ingest._job_config"}
+{"offset": "0x531b8", "text": "scripts.bq_target_ingest.gate_count_drift"}
+{"offset": "0x531e8", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x53218", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x53240", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x53270", "text": "strings are too large to concat"}
+{"offset": "0x53290", "text": "scripts.bq_target_ingest._validate_and_load"}
+{"offset": "0x532c0", "text": "qualified name of the generator"}
+{"offset": "0x532e0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x53310", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x53370", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x533e0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x53418", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x53448", "text": "scripts.bq_target_ingest.__pyx_scope_struct__genexpr"}
+{"offset": "0x534c0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x535a0", "text": "pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_BANR_VSBLT_D"}
+{"offset": "0x535e0", "text": "pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_SALE_RK_D"}
+{"offset": "0x53620", "text": "file = 인바운드 번들(§10 파일 브릿지 — 창 파생 생략, osm_target_extract_{YYYYMM}.csv 를 읽음)"}
+{"offset": "0x536a0", "text": "SELECT COUNT(*) n FROM pdp_target_list WHERE batch_id=%s"}
+{"offset": "0x536e0", "text": "%(asctime)s %(levelname)s %(message)s"}
+{"offset": "0x53720", "text": "` WHERE DATE BETWEEN @start_date AND @end_date"}
+{"offset": "0x53760", "text": "추출 SQL 파일 경로 override (기본 dags/sql/osm_target_extract.sql — 구판과 A/B 측정용, 원장 CSV 이름은 동일)"}
+{"offset": "0x53800", "text": "SELECT cntry_cd, rtlr_name, COUNT(*) n FROM pdp_target_list\n                   WHERE batch_id=%s AND cntry_cd IN %s\n                   GROUP BY cntry_cd, rtlr_name"}
+{"offset": "0x538c0", "text": "SELECT batch_id FROM pdp_target_list\n                   WHERE batch_id REGEXP '^[0-9]{8}$' AND batch_id < %s\n                   ORDER BY batch_id DESC LIMIT 1"}
+{"offset": "0x53960", "text": "번들 디렉터리 (기본 data/bq_inbox/targets_{YYYYMM})"}
+{"offset": "0x539a0", "text": "SELECT MIN(d) mn, MAX(d) mx FROM ("}
+{"offset": "0x539d0", "text": "derive_window.<locals>.genexpr"}
+{"offset": "0x539f0", "text": "scripts/bq_target_ingest.py"}
+{"offset": "0x53a10", "text": "tuple[list[dict], list[dict]]"}
+{"offset": "0x53a30", "text": "gate_refurb.<locals>.<lambda>"}
+{"offset": "0x53a50", "text": "tuple[list[dict], list[str]]"}
+{"offset": "0x53a70", "text": "scripts.bq_target_ingest"}
+{"offset": "0x53a90", "text": "tuple[list[str], list[str]]"}
+{"offset": "0x53ab0", "text": "osm_target_extract.sql"}
+{"offset": "0x53ad0", "text": "osm_target_extract.csv"}
+{"offset": "0x53af0", "text": "total_bytes_processed"}
+{"offset": "0x53b10", "text": "SELECT DATE AS d FROM `"}
+{"offset": "0x53b30", "text": "maximum_bytes_billed"}
+{"offset": "0x53b50", "text": "ScalarQueryParameter"}
+{"offset": "0x53b80", "text": "--start-date/--end-date 는 함께 지정"}
+{"offset": "0x53bb0", "text": "refurb_excluded.csv"}
+{"offset": "0x53bd0", "text": "is_excluded_product"}
+{"offset": "0x53bf0", "text": "gate_batch_occupied"}
+{"offset": "0x53c20", "text": "적재 대상 base batch (YYYYMMDD)"}
+{"offset": "0x53c50", "text": "BQ_MAX_BYTES_BILLED"}
+{"offset": "0x53c70", "text": "upsert_pdp_targets"}
+{"offset": "0x53ca0", "text": "행 존재 — upsert 시 전량 삭제됨 (CZ·PL append 분 포함 가능)"}
+{"offset": "0x53cf0", "text": "osm_target_extract_"}
+{"offset": "0x53d20", "text": "[load] upsert 완료 — INSERT "}
+{"offset": "0x53d50", "text": "cline_in_traceback"}
+{"offset": "0x53d70", "text": "asyncio.coroutines"}
+{"offset": "0x53d90", "text": "BQ_BILLING_PROJECT"}
+{"offset": "0x53db0", "text": "_validate_and_load"}
+{"offset": "0x53dd0", "text": "retailer_from_url"}
+{"offset": "0x53df0", "text": "gate_url_encoding"}
+{"offset": "0x53e10", "text": "[G1 FAIL] 비ASCII URL "}
+{"offset": "0x53e30", "text": "target_month_end"}
+{"offset": "0x53e50", "text": "query_parameters"}
+{"offset": "0x53e70", "text": "prev_month_range"}
+{"offset": "0x53e90", "text": "[load] report_date="}
+{"offset": "0x53eb0", "text": "load_bundle_file"}
+{"offset": "0x53ed0", "text": "gate_count_drift"}
+{"offset": "0x53f00", "text": "YYYY-MM-DD (명시 시 month 무시)"}
+{"offset": "0x53f30", "text": "tuple[date, date]"}
+{"offset": "0x53f50", "text": "asia-northeast3"}
+{"offset": "0x53f60", "text": "to_target_rows"}
+{"offset": "0x53f70", "text": "get_connection"}
+{"offset": "0x53f80", "text": "core.retailers"}
+{"offset": "0x53fa0", "text": "대상 월 YYYYMM (생략 시 전월) — 창은 월 내 실데이터 MIN/MAX"}
+{"offset": "0x53ff0", "text": "UNITED KINGDOM"}
+{"offset": "0x54000", "text": "QueryJobConfig"}
+{"offset": "0x54020", "text": "경고 전용(BQ_G2_STRICT 미설정) → 계속"}
+{"offset": "0x54058", "text": "ArgumentParser"}
+{"offset": "0x54068", "text": "fromisoformat"}
+{"offset": "0x54078", "text": "derive_window"}
+{"offset": "0x54090", "text": "__class_getitem__"}
+{"offset": "0x540a8", "text": "bq_osm_common"}
+{"offset": "0x540b8", "text": "SOURCE_TABLES"}
+{"offset": "0x540c8", "text": "--start-date"}
+{"offset": "0x540d8", "text": "pjt-lge-oned"}
+{"offset": "0x540e8", "text": "_job_config"}
+{"offset": "0x540f8", "text": "_is_coroutine"}
+{"offset": "0x54108", "text": "_initializing"}
+{"offset": "0x54118", "text": "google.cloud"}
+{"offset": "0x54128", "text": "core.sqltext"}
+{"offset": "0x54138", "text": "add_argument"}
+{"offset": "0x54148", "text": "PRODUCT_DESC"}
+{"offset": "0x54158", "text": "CLINIC_ENTRY"}
+{"offset": "0x54168", "text": "CAT_URL_ADDR"}
+{"offset": "0x54178", "text": "BQ_G2_STRICT"}
+{"offset": "0x54188", "text": "writeheader"}
+{"offset": "0x541a0", "text": "[window] file 번들 "}
+{"offset": "0x541b8", "text": "report_date"}
+{"offset": "0x541c8", "text": "month_range"}
+{"offset": "0x541d8", "text": "gate_refurb"}
+{"offset": "0x541e8", "text": "collections"}
+{"offset": "0x541f8", "text": "basicConfig"}
+{"offset": "0x54208", "text": "NETHERLANDS"}
+{"offset": "0x54218", "text": "_MOJIBAKE_RE"}
+{"offset": "0x54228", "text": "BQ_LOCATION"}
+{"offset": "0x54238", "text": "store_true"}
+{"offset": "0x54248", "text": "start_date"}
+{"offset": "0x54258", "text": "prev_batch"}
+{"offset": "0x54268", "text": "parse_args"}
+{"offset": "0x54278", "text": "job_config"}
+{"offset": "0x54288", "text": "first_this"}
+{"offset": "0x54298", "text": "fieldnames"}
+{"offset": "0x542a8", "text": "--end-date"}
+{"offset": "0x542b8", "text": "bq_extract"}
+{"offset": "0x542c8", "text": "--batch-id"}
+{"offset": "0x542e0", "text": "직전 base batch 없음 — 행수 비교 생략"}
+{"offset": "0x54318", "text": "ValueError"}
+{"offset": "0x54328", "text": "FIRST_TIER"}
+{"offset": "0x54338", "text": "DictWriter"}
+{"offset": "0x54348", "text": "writerows"}
+{"offset": "0x54358", "text": "utf-8-sig"}
+{"offset": "0x54368", "text": "tolerance"}
+{"offset": "0x54378", "text": "timedelta"}
+{"offset": "0x54388", "text": "sql_label"}
+{"offset": "0x54398", "text": "split_key"}
+{"offset": "0x543a8", "text": "run_query"}
+{"offset": "0x543b8", "text": "rtlr_name"}
+{"offset": "0x543c8", "text": "read_text"}
+{"offset": "0x543d8", "text": "model_mpc"}
+{"offset": "0x543e8", "text": "list[dict]"}
+{"offset": "0x543f8", "text": "last_prev"}
+{"offset": "0x54408", "text": "isoformat"}
+{"offset": "0x54418", "text": "isenabled"}
+{"offset": "0x54428", "text": "getLogger"}
+{"offset": "0x54438", "text": "enumerate"}
+{"offset": "0x54460", "text": "[dry-run] 적재 생략 — 후보 "}
+{"offset": "0x54488", "text": "dry_run"}
+{"offset": "0x54490", "text": "date | None"}
+{"offset": "0x544a0", "text": "core.repo"}
+{"offset": "0x544b0", "text": "core.eval"}
+{"offset": "0x544c0", "text": "category1"}
+{"offset": "0x544d0", "text": "bq_ingest"}
+{"offset": "0x544e0", "text": " UNION ALL "}
+{"offset": "0x544f0", "text": "RTLR_NAME"}
+{"offset": "0x54500", "text": "Path | None"}
+{"offset": "0x54510", "text": "[G1 OK] URL 인코딩"}
+{"offset": "0x54528", "text": "[window] 월 "}
+{"offset": "0x54540", "text": "[window] 명시 "}
+{"offset": "0x54560", "text": "[window] 월말 미적재 — 실데이터 종료 "}
+{"offset": "0x54598", "text": "strftime"}
+{"offset": "0x545a8", "text": "str | None"}
+{"offset": "0x545b8", "text": "sql_path"}
+{"offset": "0x545c1", "text": "source"}
+{"offset": "0x545c8", "text": "required"}
+{"offset": "0x545d8", "text": "read_sql"}
+{"offset": "0x545e8", "text": "map_errs"}
+{"offset": "0x545f8", "text": "location"}
+{"offset": "0x54608", "text": "list[str]"}
+{"offset": "0x54618", "text": "instance"}
+{"offset": "0x54628", "text": "inserted"}
+{"offset": "0x54638", "text": "fromkeys"}
+{"offset": "0x54648", "text": "fetchone"}
+{"offset": "0x54658", "text": "fetchall"}
+{"offset": "0x54668", "text": "exist_ok"}
+{"offset": "0x54678", "text": "end_date"}
+{"offset": "0x54688", "text": "encoding"}
+{"offset": "0x54698", "text": "datetime"}
+{"offset": "0x546a8", "text": "_config"}
+{"offset": "0x546b0", "text": "cntry_cd"}
+{"offset": "0x546c0", "text": "_client"}
+{"offset": "0x546c8", "text": "bq_inbox"}
+{"offset": "0x546d8", "text": "bigquery"}
+{"offset": "0x546e8", "text": "batch_id"}
+{"offset": "0x546f8", "text": "argparse"}
+{"offset": "0x54708", "text": "SQL_FILE"}
+{"offset": "0x54720", "text": "[G3] --force 로 계속 (기존 행 삭제 후 재적재)"}
+{"offset": "0x54760", "text": "[G3] batch "}
+{"offset": "0x54780", "text": "G2 행수 급변·G3 기존 행 게이트 무시 (G1 은 불가)"}
+{"offset": "0x547c8", "text": "DATA_DIR"}
+{"offset": "0x547d8", "text": "CNTRY_CD"}
+{"offset": "0x547e8", "text": "warning"}
+{"offset": "0x547f0", "text": "targets_"}
+{"offset": "0x54800", "text": "scripts"}
+{"offset": "0x54808", "text": "resolve"}
+{"offset": "0x54810", "text": "replace"}
+{"offset": "0x54818", "text": "project"}
+{"offset": "0x54820", "text": "pathlib"}
+{"offset": "0x54828", "text": "parents"}
+{"offset": "0x54830", "text": "out_dir"}
+{"offset": "0x54838", "text": "old_cnt"}
+{"offset": "0x54840", "text": "newline"}
+{"offset": "0x54848", "text": "new_cnt"}
+{"offset": "0x54850", "text": "n_exist"}
+{"offset": "0x54858", "text": "--month"}
+{"offset": "0x54860", "text": "logging"}
+{"offset": "0x54868", "text": "inbox"}
+{"offset": "0x54870", "text": "genexpr"}
+{"offset": "0x54880", "text": "--force 로 계속"}
+{"offset": "0x54893", "text": "force"}
+{"offset": "0x548a0", "text": "[extract] "}
+{"offset": "0x548b0", "text": "execute"}
+{"offset": "0x548b8", "text": "environ"}
+{"offset": "0x548c0", "text": "--dry-run"}
+{"offset": "0x548d0", "text": "dropped"}
+{"offset": "0x548d8", "text": "disable"}
+{"offset": "0x548e0", "text": "default"}
+{"offset": "0x548e8", "text": "core.db"}
+{"offset": "0x548f0", "text": "compile"}
+{"offset": "0x548f8", "text": "choices"}
+{"offset": "0x54900", "text": "건 (batch "}
+{"offset": "0x54910", "text": "  batch="}
+{"offset": "0x54920", "text": "SQL_DIR"}
+{"offset": "0x54928", "text": "GERMANY"}
+{"offset": "0x54930", "text": "[G2 warn] "}
+{"offset": "0x54940", "text": "Counter"}
+{"offset": "0x54950", "text": ": 매핑 불가 CNTRY="}
+{"offset": "0x54968", "text": "[window] "}
+{"offset": "0x54972", "text": "values"}
+{"offset": "0x54979", "text": "strict"}
+{"offset": "0x54980", "text": "--source"}
+{"offset": "0x54989", "text": "sorted"}
+{"offset": "0x54990", "text": "search"}
+{"offset": "0x54997", "text": "return"}
+{"offset": "0x5499e", "text": "result"}
+{"offset": "0x549a8", "text": "__name__"}
+{"offset": "0x549b1", "text": "main"}
+{"offset": "0x549b6", "text": "insert"}
+{"offset": "0x549c0", "text": "__import__"}
+{"offset": "0x549cb", "text": "format"}
+{"offset": "0x549d8", "text": "__file__"}
+{"offset": "0x549e1", "text": "exit"}
+{"offset": "0x549e6", "text": "enable"}
+{"offset": "0x549f0", "text": "행, 합집합 dedupe 전)"}
+{"offset": "0x54a0b", "text": "cursor"}
+{"offset": "0x54a12", "text": "config"}
+{"offset": "0x54a19", "text": "client"}
+{"offset": "0x54a20", "text": "action"}
+{"offset": "0x54a27", "text": "SWEDEN"}
+{"offset": "0x54a2e", "text": "FRANCE"}
+{"offset": "0x54a35", "text": "DIV_CD"}
+{"offset": "0x54a3c", "text": "Client"}
+{"offset": "0x54a43", "text": "warns"}
+{"offset": "0x54a49", "text": "utf-8"}
+{"offset": "0x54a53", "text": "upper"}
+{"offset": "0x54a59", "text": "union"}
+{"offset": "0x54a5f", "text": "today"}
+{"offset": "0x54a65", "text": "throw"}
+{"offset": "0x54a6b", "text": "strip"}
+{"offset": "0x54a71", "text": "start"}
+{"offset": "0x54a7b", "text": "--sql"}
+{"offset": "0x54a81", "text": "query"}
+{"offset": "0x54a87", "text": "month"}
+{"offset": "0x54a8d", "text": "mkdir"}
+{"offset": "0x54aa0", "text": "[map] 타깃 후보 "}
+{"offset": "0x54ab5", "text": "lower"}
+{"offset": "0x54abb", "text": "level"}
+{"offset": "0x54ac1", "text": "items"}
+{"offset": "0x54ac8", "text": "--inbox"}
+{"offset": "0x54ad0", "text": "--force"}
+{"offset": "0x54ad8", "text": "float"}
+{"offset": "0x54ade", "text": "first"}
+{"offset": "0x54ae4", "text": "fails"}
+{"offset": "0x54aea", "text": "error"}
+{"offset": "0x54af0", "text": "__enter__"}
+{"offset": "0x54afa", "text": "drift"}
+{"offset": "0x54b04", "text": "cntry"}
+{"offset": "0x54b0a", "text": "close"}
+{"offset": "0x54b10", "text": "by_rt"}
+{"offset": "0x54b16", "text": "brand"}
+{"offset": "0x54b20", "text": ")  batch="}
+{"offset": "0x54b2a", "text": "SPAIN"}
+{"offset": "0x54b30", "text": "ITALY"}
+{"offset": "0x54b40", "text": "[G2 OK] 행수 드리프트"}
+{"offset": "0x54b5c", "text": " DIV="}
+{"offset": "0x54b62", "text": "CNTRY"}
+{"offset": "0x54b68", "text": "BRAND"}
+{"offset": "0x54b6e", "text": "true"}
+{"offset": "0x54b78", "text": "__test__"}
+{"offset": "0x54b88", "text": "__spec__"}
+{"offset": "0x54b91", "text": "send"}
+{"offset": "0x54b96", "text": "rows"}
+{"offset": "0x54b9b", "text": "repo"}
+{"offset": "0x54ba0", "text": "prev"}
+{"offset": "0x54ba5", "text": "path"}
+{"offset": "0x54baa", "text": "open"}
+{"offset": "0x54baf", "text": "name"}
+{"offset": "0x54bb8", "text": "__main__"}
+{"offset": "0x54bc1", "text": "line"}
+{"offset": "0x54bc6", "text": "last"}
+{"offset": "0x54bcb", "text": "keys"}
+{"offset": "0x54bd0", "text": "kept"}
+{"offset": "0x54bd5", "text": "info"}
+{"offset": "0x54bda", "text": "help"}
+{"offset": "0x54bdf", "text": "file"}
+{"offset": "0x54be8", "text": "__exit__"}
+{"offset": "0x54bf1", "text": "errs"}
+{"offset": "0x54bf6", "text": "days"}
+{"offset": "0x54bfb", "text": "date"}
+{"offset": "0x54c00", "text": "data"}
+{"offset": "0x54c05", "text": "dags"}
+{"offset": "0x54c0a", "text": "core"}
+{"offset": "0x54c0f", "text": "conn"}
+{"offset": "0x54c14", "text": "args"}
+{"offset": "0x54c19", "text": "Path"}
+{"offset": "0x54c1e", "text": "None"}
+{"offset": "0x54c23", "text": "INFO"}
+{"offset": "0x54c40", "text": "[G4] 리퍼비시/리셀 모수 제외 0건"}
+{"offset": "0x54c70", "text": "[G2] 드리프트 "}
+{"offset": "0x54c83", "text": "FAIL"}
+{"offset": "0x54c88", "text": "DATE"}
+{"offset": "0x54c91", "text": " url="}
+{"offset": "0x54c9f", "text": ".sql"}
+{"offset": "0x54cc0", "text": "[map] 매핑 제외 "}
+{"offset": "0x54cfc", "text": ".csv"}
+{"offset": "0x54d60", "text": " (타깃 월 말일)"}
+{"offset": "0x54d78", "text": "건, 원장 "}
+{"offset": "0x54d88", "text": " 에 기존 "}
+{"offset": "0x54d98", "text": "건 (원천 "}
+{"offset": "0x54da8", "text": " 실데이터 "}
+{"offset": "0x54dbb", "text": " (월 "}
+{"offset": "0x54de0", "text": "검증까지만 (적재 생략)"}
+{"offset": "0x54e10", "text": "건 — "}
+{"offset": "0x54e28", "text": "행 (스캔 "}
+{"offset": "0x54e35", "text": "%Y%m"}
+{"offset": "0x54e60", "text": "타깃 0건 — 원천/기간 확인"}
+{"offset": "0x54e85", "text": "+.0%"}
+{"offset": "0x54ea0", "text": " (전회 또는 금회 0 — 경고)"}
+{"offset": "0x54ee8", "text": " (달력 "}
+{"offset": "0x54f20", "text": "[G4] 리퍼비시/리셀 모수 제외 "}
+{"offset": "0x54f48", "text": "[G2 "}
+{"offset": "0x54f80", "text": " 원천 데이터 0건 — 달력 경계 그대로 사용"}

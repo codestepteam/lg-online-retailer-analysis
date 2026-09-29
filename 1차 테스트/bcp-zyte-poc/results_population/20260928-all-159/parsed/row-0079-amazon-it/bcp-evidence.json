@@ -1,0 +1,1826 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0079-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/958908B3-3DF8-46F3-BB1C-3EC93E36F55F",
+    "finalUrl": "https://www.amazon.it/stores/page/958908B3-3DF8-46F3-BB1C-3EC93E36F55F",
+    "capturedAt": "2026-09-28T08:03:44.940088+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Samsung: Lavatrici e lavasciuga"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0079-amazon-it/brand-category/raw.html",
+      "sha256": "9e5977216696556334e7e2b881e3fbe3c2f79c726d83ac42b168d6eb13107de5"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0079-amazon-it/brand-category/capture-state.json",
+      "sha256": "ec61332f251454b1ffa92b66adabf987d8757ef635bfe296a797439fcae726ba"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0079-amazon-it/brand-category/response.json",
+      "sha256": "151106e5dcf888b3b4c9f9e526f9ac59425d7395b299af262a2c98ff89e44a6f"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.VariationHandler__container__dyo50 > div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > h2#asin-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Samsung Lavatrice AI Control WW90DG6U85LB/U3 Libera installazione, 9 Kg, 1400 RPM, Wifi, Ecodosatore, Vapore, Carica...",
+        "attributes": {
+          "id": "asin-title"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div > div.VariationHandler__showcaseRoot__DgkEa > div.ProductShowcase__showcase__vGSAb > div.ProductShowcase__item-info__O4ir1.ProductShowcase__right__EVFT0.ProductShowcase__has-magnifier__TAs58 > div.ProductShowcase__product-details__Fr79l > h3.ProductShowcase__product-details-title__PqQXz",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Informazioni su questo articolo",
+        "attributes": {
+          "class": "ProductShowcase__product-details-title__PqQXz"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 84,
+        "top10ByRenderedArea": [
+          {
+            "index": 31,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e742b635-a248-4cf8-9ee4-45203dac7a49._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing energy efficiency of Samsung laundry appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3f43e46e-d78c-4213-909e-31093aef5484._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Circular green and white promotional badge displaying '40% Extra Efficienza' text overlaid on forest background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e1c16193-c0d5-4631-a84e-6595867ad400._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Italian text document describing artificial intelligence features for appliance water and detergent management, with emphasis on AI Energy Mode.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/91c70d3e-f5da-4daa-8991-9a445444e50a._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Infographic about microfiber reduction in laundry, mentioning collaboration between Samsung, Ocean Wise Plastics Lab, and Patagonia to reduce microfiber release by 54%.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/36571585-214b-4c1d-8ad2-92a8b80d4809._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/334d8691-1317-49da-bcc4-6f89f918cd2a._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "Text reads 'Energy', 'AI Energy mode', 'Maximum saving', 'Energy usage rest this month', 'Used today: $22.62', 'Saved $1.40 with AI Energy mode', 'Full month projected cost', 'Last month's cost', 'Energy usage'. Smartphone displaying energy management app with usage graph. Adult and child with piggy bank visible in background on left side.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/8e0bb20c-2d5c-401c-bdd5-cb4f7914ec31._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/eb0818c1-b019-4df2-aa29-ffec61d641b9._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Lavatrici e lavasciuga'. Gray background with black text displaying Italian product category for washing machines and washer-dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/71zU4kky2VL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71e1SraHtKL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 31,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e742b635-a248-4cf8-9ee4-45203dac7a49._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing energy efficiency of Samsung laundry appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3f43e46e-d78c-4213-909e-31093aef5484._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Circular green and white promotional badge displaying '40% Extra Efficienza' text overlaid on forest background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e1c16193-c0d5-4631-a84e-6595867ad400._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Italian text document describing artificial intelligence features for appliance water and detergent management, with emphasis on AI Energy Mode.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/91c70d3e-f5da-4daa-8991-9a445444e50a._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Infographic about microfiber reduction in laundry, mentioning collaboration between Samsung, Ocean Wise Plastics Lab, and Patagonia to reduce microfiber release by 54%.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/36571585-214b-4c1d-8ad2-92a8b80d4809._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/eb0818c1-b019-4df2-aa29-ffec61d641b9._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Lavatrici e lavasciuga'. Gray background with black text displaying Italian product category for washing machines and washer-dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/334d8691-1317-49da-bcc4-6f89f918cd2a._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "Text reads 'Energy', 'AI Energy mode', 'Maximum saving', 'Energy usage rest this month', 'Used today: $22.62', 'Saved $1.40 with AI Energy mode', 'Full month projected cost', 'Last month's cost', 'Energy usage'. Smartphone displaying energy management app with usage graph. Adult and child with piggy bank visible in background on left side.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/8e0bb20c-2d5c-401c-bdd5-cb4f7914ec31._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/71zU4kky2VL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71e1SraHtKL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Samsung: Lavatrici e lavasciuga"
+        ],
+        "metaDescription": [
+          "Lavatrici e lavasciuga"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Samsung/page/958908B3-3DF8-46F3-BB1C-3EC93E36F55F"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-1t2s3o979d > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 31,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e742b635-a248-4cf8-9ee4-45203dac7a49._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Text in Italian describing energy efficiency of Samsung laundry appliances.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 32,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/3f43e46e-d78c-4213-909e-31093aef5484._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Circular green and white promotional badge displaying '40% Extra Efficienza' text overlaid on forest background.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 33,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e1c16193-c0d5-4631-a84e-6595867ad400._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Italian text document describing artificial intelligence features for appliance water and detergent management, with emphasis on AI Energy Mode.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 34,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/91c70d3e-f5da-4daa-8991-9a445444e50a._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "Infographic about microfiber reduction in laundry, mentioning collaboration between Samsung, Ocean Wise Plastics Lab, and Patagonia to reduce microfiber release by 54%.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 35,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/36571585-214b-4c1d-8ad2-92a8b80d4809._CR0%2C0%2C1500%2C1500_SX750_SY750_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 750,
+            "naturalHeight": 750,
+            "naturalArea": 562500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 36,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/334d8691-1317-49da-bcc4-6f89f918cd2a._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "Text reads 'Energy', 'AI Energy mode', 'Maximum saving', 'Energy usage rest this month', 'Used today: $22.62', 'Saved $1.40 with AI Energy mode', 'Full month projected cost', 'Last month's cost', 'Energy usage'. Smartphone displaying energy management app with usage graph. Adult and child with piggy bank visible in background on left side.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 37,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/8e0bb20c-2d5c-401c-bdd5-cb4f7914ec31._CR0%2C0%2C640%2C640_SX640_SY640_.jpg",
+            "alt": "",
+            "renderedWidth": 727.5,
+            "renderedHeight": 727.5,
+            "renderedArea": 529256.25,
+            "naturalWidth": 640,
+            "naturalHeight": 640,
+            "naturalArea": 409600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/eb0818c1-b019-4df2-aa29-ffec61d641b9._CR0%2C0%2C3000%2C600_SX1500_.jpg",
+            "alt": "Text reads 'Lavatrici e lavasciuga'. Gray background with black text displaying Italian product category for washing machines and washer-dryers.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/I/71zU4kky2VL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71e1SraHtKL._AC_CR0%2C0%2C0%2C0_SX480_SY360_.jpg",
+            "alt": "",
+            "renderedWidth": 360,
+            "renderedHeight": 360,
+            "renderedArea": 129600,
+            "naturalWidth": 360,
+            "naturalHeight": 360,
+            "naturalArea": 129600,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__videoTile__Yi8Im.EditorialTileVideo__medium__Kx3hC.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_3 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - Samsung presents its advanced washing machine featuring AI Wash technology with 5 intelligent sensors that recognize different fabric types. The advertisement showcases how this smart appliance identifies stains and customizes washing cycles, giving users hope for perfectly clean clothes while taking special care of delicate fabrics. - Samsung presents its advanced washing machine featuring AI Wash technology with 5 intelligent sensors that recognize different fabric types. The advertisement showcases how this smart appliance identifies stains and customizes washing cycles, giving users hope for perfectly clean clothes while taking special care of delicate fabrics."
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div.EditorialTile__innerContent__n92i8 > div.EditorialTileVideo__videoTile__Yi8Im.EditorialTileVideo__large___CJ34.EditorialTileVideo__cover__JMsG_ > div.EditorialTileVideo__video__Qw1sU.Video__video__nzarK.video-js > div.Video__player__y3zxY > div#vjs_video_8528 > button.vjs-big-play-button",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Play Video",
+            "attributes": {
+              "class": "vjs-big-play-button",
+              "aria-label": "Play Video - Samsung showcases its 11kg washing machine with AI Energy Mode, emphasizing energy savings and consumption control. The ad highlights the appliance's smart features, allowing users to monitor and reduce electricity usage through a mobile app, promoting both convenience and eco-friendliness in modern laundry care. - Samsung showcases its 11kg washing machine with AI Energy Mode, emphasizing energy savings and consumption control. The ad highlights the appliance's smart features, allowing users to monitor and reduce electricity usage through a mobile app, promoting both convenience and eco-friendliness in modern laundry care."
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Samsung",
+            "href": "https://www.amazon.it/stores/page/37219BDE-81D7-45BE-8C88-E2143A37718D?ingress=0&visitId=851f2fa1-5d74-4ef5-8fce-fb350baea968",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Lavatrici e lavasciuga",
+            "href": "https://www.amazon.it/stores/page/958908B3-3DF8-46F3-BB1C-3EC93E36F55F#",
+            "signals": [
+              "페이지 주제어와 일치: lavasciuga, lavatrici"
+            ]
+          },
+          {
+            "text": "SAMSUNG HEALTH",
+            "href": "https://www.amazon.it/stores/page/85BF3E57-4174-4206-9EF2-16DD3A6FAEC0?ingress=0&visitId=851f2fa1-5d74-4ef5-8fce-fb350baea968",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice AI Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice AI Control... 4,2 4,2 su 5 stelle 248 4,2 su 5 stelle. 248 recensioni dei clienti - 37% 494 , 99 € Prezzo consigliato: Barrato - Prezzo consigliato: 782 , 58 € Ricevilo entro 16 ottobre - 20 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice AI Control... 4,4 4,4 su 5 stelle 29 4,4 su 5 stelle. 29 recensioni dei clienti 534 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice BESPOKE AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice BESPOKE AI... 4,3 4,3 su 5 stelle 27 4,3 su 5 stelle. 27 recensioni dei clienti 566 , 75 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Crystal Clean...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Crystal Clean... 4,3 4,3 su 5 stelle 613 4,3 su 5 stelle. 613 recensioni dei clienti 334 , 20 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Crystal Clean... 4,3 4,3 su 5 stelle 613 4,3 su 5 stelle. 613 recensioni dei clienti - 25% 385 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 511 , 59 € Ricevilo entro il giorno giovedì 1 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Crystal Clean Wifi...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Crystal Clean Wifi... 4,2 4,2 su 5 stelle 107 4,2 su 5 stelle. 107 recensioni dei clienti 549 , 00 € Ricevilo entro 21 ottobre - 18 novembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice AI Control... 4,6 4,6 su 5 stelle 62 4,6 su 5 stelle. 62 recensioni dei clienti 951 , 25 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice AI Control... 4,6 4,6 su 5 stelle 62 4,6 su 5 stelle. 62 recensioni dei clienti 1.100 , 30 € Ricevilo entro 6 ottobre - 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice BESPOKE AI Laundry...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice BESPOKE AI Laundry... 4,3 4,3 su 5 stelle 34 4,3 su 5 stelle. 34 recensioni dei clienti 936 , 74 € Ricevilo entro 6 ottobre - 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice AI Control... 4,3 4,3 su 5 stelle 5 4,3 su 5 stelle. 5 recensioni dei clienti 529 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Front Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Front Slim... 4,4 4,4 su 5 stelle 774 4,4 su 5 stelle. 774 recensioni dei clienti 399 , 00 € Ricevilo entro 29 ottobre - 16 dicembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Bespoke AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Bespoke AI... 4,4 4,4 su 5 stelle 186 4,4 su 5 stelle. 186 recensioni dei clienti 508 , 10 € Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice BESPOKE AI... 4,8 4,8 su 5 stelle 25 4,8 su 5 stelle. 25 recensioni dei clienti 539 , 88 € Ricevilo entro 2 ottobre - 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga AI Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga AI Control... 546 , 59 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Bespoke AI...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Bespoke AI... 4,3 4,3 su 5 stelle 424 4,3 su 5 stelle. 424 recensioni dei clienti 889 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Bespoke AI Laundry...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Bespoke AI Laundry... 4,1 4,1 su 5 stelle 11 4,1 su 5 stelle. 11 recensioni dei clienti 2.225 , 82 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Crystal WiFi...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Crystal WiFi... 4,1 4,1 su 5 stelle 109 4,1 su 5 stelle. 109 recensioni dei clienti -29% 494 , 28 € Prezzo consigliato: Barrato - Prezzo consigliato: 699 , 00 € Ricevilo entro il giorno mercoledì 7 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Crystal Clean Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Crystal Clean Slim... 4,1 4,1 su 5 stelle 474 4,1 su 5 stelle. 474 recensioni dei clienti 569 , 90 € Paghi 549 , 00 € con coupon Ricevilo entro il giorno mercoledì 7 ottobre Vedi le opzioni",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga AI Control... 579 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Crystal Clean... 541 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Ai Control EcoDosatore...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Ai Control EcoDosatore... 649 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Bespoke AI... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 734 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Bespoke AI... 734 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Slim...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Slim... 4,0 4,0 su 5 stelle 2 4,0 su 5 stelle. 2 recensioni dei clienti 407 , 99 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Slim Crystal Clean...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Slim Crystal Clean... 579 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavatrice Slim AI Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Slim AI Control... 633 , 99 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavatrice Ai Control EcoDosatore... 563 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga AI Control... 729 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Crystal WiFi... 726 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Slim AI Control...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Slim AI Control... 824 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Samsung Lavasciuga Crystal Clean...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Crystal Clean... 625 , 99 € Ricevilo entro 21 ottobre - 27 novembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Samsung Lavasciuga Crystal Clean... 625 , 99 € Ricevilo entro il giorno lunedì 12 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Samsung Lavatrice AI Control WW90DG6U85LB/U3 Libera installazione, 9 Kg, 1400 RPM, Wifi, Ecodosatore, Vapore, Carica...",
+            "href": "https://www.amazon.it/Lavatrice-WW90DG6U85LB-installazione-Ecodosatore-Frontale/dp/B0CSDNDST1?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "4.2 4,2 su 5 stelle 248",
+            "href": "https://www.amazon.it/Lavatrice-WW90DG6U85LB-installazione-Ecodosatore-Frontale/dp/B0CSDNDST1?ref_=ast_sto_dp&th=1&psc=1#customerReviews",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Visualizza tutti i dettagli",
+            "href": "https://www.amazon.it/Lavatrice-WW90DG6U85LB-installazione-Ecodosatore-Frontale/dp/B0CSDNDST1?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice AI Control WW90DG6U85LB/U3 Libera installazione, 9 Kg, 1400 RPM, Wifi, Ecodosatore, Vapore, Carica Frontale, Corpo: Nero, Oblò: Nero, 60l x 85h x 60p cm, Normal",
+            "href": "https://www.amazon.it/Lavatrice-WW90DG6U85LB-installazione-Ecodosatore-Frontale/dp/B0CSDNDST1?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice AI Control WW10FG6U34LK/U3, 10 Kg, AI Energy Mode, Carica Frontale, Corpo: Bianco, Oblò e Display: Nero, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WW10FG6U34LK-Ecobubble-Frontale/dp/B0FL7TSBJX?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice BESPOKE AI WW90DB7U94GE/U3 Libera installazione, 9 Kg, Wifi, Ecodosatore, Super Speed, AI Wash, Corpo: Bianco, Oblò: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-Bespoke-Ecodosatore-9Kg/dp/B0CSDWTM56?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Crystal Clean WW80CGC04DAHET, Libera installazione, 8 Kg, 1400 RPM, Wifi, Ecobubble, Vapore Igienizzante, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-Crystal-Clean-WW80CGC04DAHET/dp/B0CMHPHFTP?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Crystal Clean WW90CGC04DTEET Libera installazione, 9 Kg, Wifi, Ecobubble, Vapore, Carica Frontale, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WW90CGC04DTEET-installazione-Ecobubble/dp/B0CCS7S9D9?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Crystal Clean Wifi WW11DG5B25TE/ET Libera installazione, 11 Kg, 1400 RPM, Ecobubble, Vapore, Carica Frontale, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Lavatrice-WW11DG5B25TE-installazione-Ecobubble-Frontale/dp/B0CW1NJBR3?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice AI Control WF20DG8650BV/U3 Libera installazione, 20 Kg, Wifi, Ecobubble, AI Wash, Vapore Igienizzante, Carica Frontale, Corpo: Bianco, Oblò: Nero, 68,6l x 98,4h x 87,5p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WF20DG8650BV-installazione-Igienizzante/dp/B0DW4HLBTM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice AI Control WF20DG8650BW/U3 Libera installazione, 20 Kg, Wifi, Ecobubble, AI Wash, Vapore Igienizzante, Carica Frontale, Corpo: Bianco, Oblò: Nero, 68,6l x 98,4h x 87,5p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WF20DG8650BW-installazione-Igienizzante/dp/B0DW4GYD3N?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice BESPOKE AI Laundry WF90F09C4S/U3 Libera installazione, 9 Kg, Wifi, Ecodosatore, Display AI Home, Classe Energetica A-55%, Corpo: Dark Silver Steel, Oblò: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-WF90F09C4S-installazione-Ecodosatore-Energetica/dp/B0DWT6X2FQ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice AI Control WW11DG6B85LH/U3 Libera installazione, 11 Kg, Wifi, Ecodosatore, Super Speed, Vapore, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-WW11DG6B85LH-LAVATRICE-11-KG/dp/B0D45JZYCC?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Front Slim WW80FG3M05AW/ET, 8 Kg, Display LED, Vapore Igienizzante, Carica Frontale, Corpo: Bianco, Oblò e Display: Nero, 59,5l x 85h x 48p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WW80FG3M05AW-Igienizzante-Frontale/dp/B0DWTB1CJ4?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Bespoke AI WW90DB7U34GW/U3, Libera Installazione, 9 Kg, 1400 RPM, Wifi, AI Control, Ecolavaggio Rapido 39', Vapore, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Lavatrice-WW90DB7U34GW-Installazione-Ecolavaggio-Frontale/dp/B0CW1RP9RB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Lavatrice-WW90DB7U34GW-Installazione-Ecolavaggio-Frontale/dp/B0CW1RP9RB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice BESPOKE AI WW90DB7U94GB/U3 Libera installazione, 9 Kg, Ecodosatore, Super Speed, AI Wash, Corpo: Nero, Oblò: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-Bespoke-Ecodosatore-9Kg/dp/B0D96Q8F5R?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga AI Control WD10HG6U34BE/U3 Libera installazione, 10/6 Kg, Wifi, AI Energy Mode, Super Speed, Vapore, Carica Frontale, 60l x 85h x 69p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-WD10HG6U34BE-installazione-Frontale/dp/B0G2Y4ZSQW?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Bespoke AI WD11DB7B85GBU3, 11+6 kg, Ecodosatore, Vapore Igienizzante, AI Wash, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Lavasciuga-WD11DB7B85GBU3-Ecodosatore-Igienizzante-Frontale/dp/B0D22XBH4D?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Bespoke AI Laundry Combo WD18DB8995BZT2, 18+11 kg, Wifi, Pompa di Calore, Super Speed, Display AI home, AI Wash & Dry, Carica Frontale, 68.6l x 11h x 87.5p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-Bespoke-WD18DB8995BZT2-Frontale/dp/B0DKY2LL65?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal WiFi WD90DG5B15BEET, 9+6 kg, Wifi, AI Ecobubble, Vapore Igienizzante, AI Energy Mode, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Lavasciuga-WD90DG5B15BEET-Ecobubble-Igienizzante-Frontale/dp/B0D7HYKVJZ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal Clean Slim WD90DG5G34BE, 9+5 kg, Wifi, Ecobubble, Vapore Igienizzante, AI Energy Mode, Carica Frontale, 60L x 85H x 48P cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-WD90DG5G34BE-Ecobubble-Igienizzante/dp/B0DT9RQBYF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Paghi 549 € con coupon",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-WD90DG5G34BE-Ecobubble-Igienizzante/dp/B0DT9RQBYF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Vedi le opzioni",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-WD90DG5G34BE-Ecobubble-Igienizzante/dp/B0DT9RQBYF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga AI Control EcoDosatore WD90HG6U94BE/U3 Libera installazione, 9/6 Kg, Wifi, Ecodosatore, Super Speed, Vapore, Carica Frontale, 60l x 85h x 69p cm",
+            "href": "https://www.amazon.it/Samsung-EcoDosatore-WD90HG6U94BE-installazione-Ecodosatore/dp/B0G2Y3M977?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Crystal Clean F-WM105U34AE3M Libera installazione, 10 Kg, Wifi, Super Speed, AquaSave, 3 Mesi Garanzia Extra, Corpo: Bianco, Oblò: Nero, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-F-WM105U34AE3M-installazione-AquaSave/dp/B0GN1N9M3T?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Ai Control EcoDosatore F-WM106U94LB3M Libera installazione, 10 Kg, Wifi, Ecodosatore, Vapore, Carica Frontale, 3 Mesi Garanzia Extra, Corpo: Nero, Oblò: Nero, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Samsung-EcoDosatore-F-WM106U94LB3M-installazione-Ecodosatore/dp/B0GN25ZHSD?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Bespoke AI EcoDosatore F-WM117B94GB3M Libera installazione, 10 Kg, Wifi, Vapore, Carica Frontale, 3 Mesi Garanzia Extra, Corpo: Nero, Oblò: Nero, 60l x 85h x 55p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-EcoDosatore-F-WM117B94GB3M-installazione/dp/B0GN281KMQ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Bespoke AI EcoDosatore F-WM117B94GE3M, Libera installazione, 11 Kg, Wifi, AI Wash, Carica Frontale, 3 Mesi Garanzia Extra, Corpo: Bianco, Oblò: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-EcoDosatore-F-WM117B94GE3M-installazione/dp/B0GN2MCN41?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Slim F-WM703M05TW3M Libera installazione, 7 Kg, Vapore Igienizzante, Carica Frontale, 3 Mesi Garanzia Extra, Corpo e oblò: Bianco, Display: Nero, 59,5l x 85h x 44p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-F-WM703M05TW3M-installazione-Igienizzante/dp/B0GKH9CV7P?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Slim Crystal Clean F-WM905G34AE3M Libera installazione, 9 Kg, Wifi, Vapore, Carica Frontale, 3 Mesi Garanzia Extra, 60l x 85h x 48p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-F-WM905G34AE3M-installazione-Ecobubble/dp/B0GKHCXDM1?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Slim AI Control F-WM906G94LK3M, 9 Kg, Wifi, Ecodosatore, AI Energy Mode, Carica Frontale, 3 Mesi Garanzia Extra, Corpo: Bianco, Oblò e Pannello: Nero, 59,5l x 85h x 46,5p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-F-WM906G94LK3M-Ecodosatore-Frontale/dp/B0GKH33NR5?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Ai Control EcoDosatore F-WM906U85LK3M Libera installazione, 9 Kg, Wifi, Vapore, Carica Frontale, 3 Mesi Garanzia Extra Corpo: Bianco, Oblò: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-EcoDosatore-F-WM906U85LK3M-installazione/dp/B0GN2TKT5F?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga AI Control F-WT106U94BE3M Libera Installazione, 10/6 Kg, Wifi, Cassetto Ecodosatore, AI Energy Mode, AcquaSave, Vapore, Carica Frontale, 60l x 85h x 59p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-F-WT106U94BE3M-Installazione-Ecodosatore/dp/B0GQHL24M5?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal WiFi F-WT115B15BE3M, 11+6 kg, Ecobubble, Vapore Igienizzante, AI Energy Mode, Carica Frontale, 3 Mesi Garanzia Extra 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-F-WT115B15BE3M-Ecobubble-Igienizzante/dp/B0GKHRRMR9?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Slim AI Control EcoDosatore F-WT906G94BB3M, 9+5 kg, Wifi, Ecodosatore, AI Wash, Carica Frontale, 60L x 85H x 48P cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-EcoDosatore-F-WT906G94BB3M-Ecodosatore/dp/B0GMKGS779?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal Clean F-WT905U34BE3M Libera Installazione, 9/6 Kg, Wifi, AI Energy Mode, Super Speed, Vapore, Carica Frontale, 60l x 85h x 59p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-F-WT905U34BE3M-Installazione-Frontale/dp/B0GQJ5Y69W?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal Clean F-WT905U34BX3M Libera Installazione, 9/6 Kg, Wifi, AcquaSave, Super Speed, AI Energy Mode, Vapore, Carica Frontale, 60l x 85h x 59p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-F-WT905U34BX3M-Installazione-AcquaSave/dp/B0GQHQK1JQ?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga AI Control F-WT906U94BB3M Libera Installazione, 9/6 Kg, Wifi, Cassetto Ecodosatore, AI Energy Mode, AcquaSave, Vapore, Carica Frontale, 60l x 85h x 59p cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-F-WT906U94BB3M-Installazione-Ecodosatore/dp/B0GQHVZ647?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Slim WW70FG3M05TW/ET Libera installazione, 7 Kg, Vapore Igienizzante, Carica Frontale, Corpo e oblò: Bianco, Display: Nero, 59,5l x 85h x 45,5p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WW70FG3M05TW-installazione-Igienizzante/dp/B0DWTBTVFR?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Crystal WiFi WD11DG5B15BEET, 11+6 kg, Ecobubble, Vapore Igienizzante, AI Energy Mode, Carica Frontale, 60L x 85H x 60P cm",
+            "href": "https://www.amazon.it/Lavasciuga-WD11DG5B15BEET-Ecobubble-Igienizzante-Frontale/dp/B0D22W9KBM?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavasciuga Slim AI Control EcoDosatore WD90DG6G94BB, 9+5 kg, Wifi, Ecodosatore, AI Wash, Carica Frontale, 60L x 85H x 48P cm",
+            "href": "https://www.amazon.it/Samsung-Lavasciuga-EcoDosatore-WD90DG6G94BB-Ecodosatore/dp/B0DZD5X94C?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Bespoke AI WW11DB7B94GE/U3, Libera installazione, 11 Kg, Wifi, Ecodosatore, AI Energy Mode, Carica Frontale, Corpo: Bianco, Oblò e Pannello: Nero, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Samsung-Lavatrice-WW11DB7B94GE-installazione-Ecodosatore/dp/B0CSKHKF7S?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Samsung Lavatrice Bespoke AI Quickdrive WW11DB8B95GB/U3, Libera installazione, 11 Kg, 1400 RPM, Wi-Fi, AI Control, Vapore, Carica Frontale, 60l x 85h x 60p cm",
+            "href": "https://www.amazon.it/Lavatrice-Quickdrive-WW11DB8B95GB-installazione-Frontale/dp/B0CW1NWMVX?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

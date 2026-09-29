@@ -1,0 +1,118 @@
+{
+  "ruleVersion": "bcp-first-assessment-2026-09-28",
+  "sourceEvidence": "parsed/amazon-it/bcp-evidence.json",
+  "retailer": "amazon-it",
+  "requestedUrl": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+  "capturedFinalUrl": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+  "results": {
+    "ID8": {
+      "status": "REVIEW",
+      "reason": "상위 이미지의 화면 크기는 수집했으나 제품 카드·배경·장식 이미지의 포함 범위가 미확정",
+      "evidence": {
+        "candidateCounts": {
+          "top10ByRenderedArea": 10
+        }
+      },
+      "warnings": []
+    },
+    "ID9": {
+      "status": "N",
+      "reason": "누락 또는 빈값: H1, Robots Meta",
+      "evidence": {
+        "Title": [
+          "Amazon.it: LG: FRIGORIFERI"
+        ],
+        "Meta Description": [
+          "FRIGORIFERI"
+        ],
+        "H1": [],
+        "Robots Meta": [],
+        "missing": [
+          "H1",
+          "Robots Meta"
+        ],
+        "invalidRobots": [],
+        "conflictingFields": [],
+        "metadataMoment": "captured_final_page"
+      },
+      "warnings": []
+    },
+    "ID10": {
+      "status": "Y",
+      "reason": "Canonical 태그가 있음",
+      "evidence": {
+        "tagCount": 1,
+        "hrefs": [
+          "https://www.amazon.it/stores/LG/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5"
+        ],
+        "metadataMoment": "captured_final_page"
+      },
+      "warnings": []
+    },
+    "ID18": {
+      "status": "REVIEW",
+      "reason": "상단 대표 배너의 브랜드·제품군 관련성과 화면 배치를 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 2,
+          "largeVisibleImages": 10
+        }
+      },
+      "warnings": []
+    },
+    "ID19": {
+      "status": "REVIEW",
+      "reason": "브랜드 선택 이유를 설명하는 독립된 본문 영역인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 0
+        }
+      },
+      "warnings": []
+    },
+    "ID20": {
+      "status": "REVIEW",
+      "reason": "제품군 기술·기능·효익을 설명하는 영역인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 0
+        }
+      },
+      "warnings": []
+    },
+    "ID21": {
+      "status": "REVIEW",
+      "reason": "카테고리 탐색 블록의 전체 링크를 클릭하고 도착 페이지를 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 0,
+          "linkCandidates": 1
+        }
+      },
+      "warnings": []
+    },
+    "ID22": {
+      "status": "REVIEW",
+      "reason": "제품 카드와 같은 제품의 상세 페이지로 실제 이동하는지 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "attributeCandidates": 50,
+          "productLinkCandidates": 65
+        }
+      },
+      "warnings": []
+    },
+    "ID23": {
+      "status": "REVIEW",
+      "reason": "화면에 보이는 브랜드·제품군 질문과 답변인지 사람 확인해야 함",
+      "evidence": {
+        "candidateCounts": {
+          "headingOrAttributeCandidates": 0,
+          "detailsElements": 0,
+          "faqPageJsonLd": 0
+        }
+      },
+      "warnings": []
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "retailer": "coolblue",
+  "page_type": "brand-category",
+  "requested_url": "https://www.coolblue.nl/koelkasten/lg",
+  "entry_url": "https://www.coolblue.nl/koelkasten/lg",
+  "final_url": "https://www.coolblue.nl/koelkasten/lg",
+  "status_code": 200,
+  "captured_at": "2026-09-26T02:57:57.230338+00:00",
+  "response_keys": [
+    "actions",
+    "browserHtml",
+    "screenshot",
+    "statusCode",
+    "url"
+  ],
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.003,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.501,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.001,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 1.891,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.009,
+      "status": "success"
+    },
+    {
+      "action": "evaluate",
+      "elapsedTime": 0.006,
+      "status": "success"
+    }
+  ],
+  "request_sha256": "68c5549bb85ca4fc2a1031d7d05e5a864c2df26c32bffe8cb9624a0fc51ab9ac",
+  "bytes": {
+    "raw_html": 899040,
+    "screenshot": 516559
+  }
+}

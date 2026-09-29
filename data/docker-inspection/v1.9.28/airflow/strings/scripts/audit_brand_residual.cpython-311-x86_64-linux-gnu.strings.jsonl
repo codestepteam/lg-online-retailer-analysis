@@ -1,0 +1,284 @@
+{"offset": "0x30000", "text": "%.200s() needs an argument"}
+{"offset": "0x3001b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x30039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x3004f", "text": "cannot import name %S"}
+{"offset": "0x30065", "text": "__loader__"}
+{"offset": "0x30070", "text": "loader"}
+{"offset": "0x30077", "text": "__file__"}
+{"offset": "0x30080", "text": "origin"}
+{"offset": "0x30087", "text": "__package__"}
+{"offset": "0x30093", "text": "parent"}
+{"offset": "0x3009a", "text": "__path__"}
+{"offset": "0x300a3", "text": "submodule_search_locations"}
+{"offset": "0x300be", "text": "keywords must be strings"}
+{"offset": "0x300d7", "text": "_cython_coroutine_type"}
+{"offset": "0x300ee", "text": "_cython_generator_type"}
+{"offset": "0x30105", "text": "_module"}
+{"offset": "0x3010d", "text": "__builtins__"}
+{"offset": "0x3011a", "text": "_cython_3_0_12"}
+{"offset": "0x30129", "text": "%s (%s:%d)"}
+{"offset": "0x30134", "text": "lambda5"}
+{"offset": "0x3013c", "text": "exactly"}
+{"offset": "0x30144", "text": "name '%U' is not defined"}
+{"offset": "0x3015d", "text": "generator already executing"}
+{"offset": "0x30179", "text": "builtins"}
+{"offset": "0x30182", "text": "cython_runtime"}
+{"offset": "0x30191", "text": "scripts.audit_brand_residual"}
+{"offset": "0x301ae", "text": "does not match"}
+{"offset": "0x301bd", "text": "collections.abc"}
+{"offset": "0x301cd", "text": "backports_abc"}
+{"offset": "0x301db", "text": "product_index"}
+{"offset": "0x301e9", "text": "slots"}
+{"offset": "0x301ef", "text": "tracked_map"}
+{"offset": "0x301fe", "text": "genexpr"}
+{"offset": "0x30206", "text": "items"}
+{"offset": "0x3020c", "text": "values"}
+{"offset": "0x30213", "text": "load_sheets"}
+{"offset": "0x3021f", "text": "load_records"}
+{"offset": "0x3022c", "text": "throw"}
+{"offset": "0x30232", "text": "float division"}
+{"offset": "0x30241", "text": "_cython_3_0_12.generator"}
+{"offset": "0x3025a", "text": "__name__"}
+{"offset": "0x30263", "text": "name of the generator"}
+{"offset": "0x30279", "text": "__qualname__"}
+{"offset": "0x30286", "text": "gi_frame"}
+{"offset": "0x3028f", "text": "Frame of the generator"}
+{"offset": "0x302a6", "text": "gi_running"}
+{"offset": "0x302b1", "text": "gi_yieldfrom"}
+{"offset": "0x302be", "text": "gi_code"}
+{"offset": "0x302c6", "text": "__module__"}
+{"offset": "0x302d1", "text": "send"}
+{"offset": "0x302d6", "text": "close"}
+{"offset": "0x302dc", "text": "__reduce__"}
+{"offset": "0x302e7", "text": "func_doc"}
+{"offset": "0x302f0", "text": "__doc__"}
+{"offset": "0x302f8", "text": "func_name"}
+{"offset": "0x30302", "text": "func_dict"}
+{"offset": "0x3030c", "text": "__dict__"}
+{"offset": "0x30315", "text": "func_globals"}
+{"offset": "0x30322", "text": "__globals__"}
+{"offset": "0x3032e", "text": "func_closure"}
+{"offset": "0x3033b", "text": "__closure__"}
+{"offset": "0x30347", "text": "func_code"}
+{"offset": "0x30351", "text": "__code__"}
+{"offset": "0x3035a", "text": "func_defaults"}
+{"offset": "0x30368", "text": "__defaults__"}
+{"offset": "0x30375", "text": "__kwdefaults__"}
+{"offset": "0x30384", "text": "__annotations__"}
+{"offset": "0x30394", "text": "_is_coroutine"}
+{"offset": "0x303a2", "text": "main"}
+{"offset": "0x303a8", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x303d0", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x30400", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x30428", "text": " while calling a Python object"}
+{"offset": "0x30448", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x30478", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x304a0", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x30550", "text": "function's dictionary may not be deleted"}
+{"offset": "0x30580", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x305b0", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x30610", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x30640", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x30670", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x306a0", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x30708", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x30738", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x30798", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x307c8", "text": "__name__ must be set to a string object"}
+{"offset": "0x307f0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x30820", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x30968", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x309a0", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x309d8", "text": "%.200s() keywords must be strings"}
+{"offset": "0x30a00", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x30a30", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x30a68", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x30a98", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x30ad8", "text": "generator raised StopIteration"}
+{"offset": "0x30af8", "text": "join() result is too long for a Python string"}
+{"offset": "0x30b28", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x30b58", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x30b80", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/audit_brand_residual.c"}
+{"offset": "0x30bc8", "text": "scripts/audit_brand_residual.py"}
+{"offset": "0x30be8", "text": "scripts.audit_brand_residual.main.genexpr"}
+{"offset": "0x30c18", "text": "scripts.audit_brand_residual.main.lambda5"}
+{"offset": "0x30c48", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x30c88", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x30cb0", "text": "dictionary changed size during iteration"}
+{"offset": "0x30ce0", "text": "'NoneType' object is not iterable"}
+{"offset": "0x30d08", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x30d30", "text": "Module 'audit_brand_residual' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x30d90", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x30de0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x30e20", "text": "init scripts.audit_brand_residual"}
+{"offset": "0x30e48", "text": "generator ignored GeneratorExit"}
+{"offset": "0x30e68", "text": "scripts.audit_brand_residual.product_index"}
+{"offset": "0x30e98", "text": "scripts.audit_brand_residual.slots"}
+{"offset": "0x30ec0", "text": "scripts.audit_brand_residual.tracked_map"}
+{"offset": "0x30ef0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x30f28", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x30f58", "text": "%.200s object is not an iterator"}
+{"offset": "0x30f80", "text": "scripts.audit_brand_residual.load_sheets"}
+{"offset": "0x30fb0", "text": "scripts.audit_brand_residual.load_records"}
+{"offset": "0x30fe0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x31010", "text": "instance exception may not have a separate value"}
+{"offset": "0x31048", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x31090", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x310d0", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x310f0", "text": "scripts.audit_brand_residual.main"}
+{"offset": "0x31118", "text": "qualified name of the generator"}
+{"offset": "0x31138", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x31168", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x311c8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x31238", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x31270", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x312a0", "text": "scripts.audit_brand_residual.__pyx_scope_struct_4_genexpr"}
+{"offset": "0x312e0", "text": "scripts.audit_brand_residual.__pyx_scope_struct_3_genexpr"}
+{"offset": "0x31320", "text": "scripts.audit_brand_residual.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x31360", "text": "scripts.audit_brand_residual.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x313a0", "text": "scripts.audit_brand_residual.__pyx_scope_struct__genexpr"}
+{"offset": "0x313e0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x314c0", "text": "scripts/audit_brand_residual.py"}
+{"offset": "0x314e0", "text": "scripts.audit_brand_residual"}
+{"offset": "0x31500", "text": "^top(\\d+)_(product_name|url)$"}
+{"offset": "0x31520", "text": "data/20260818/home/parse"}
+{"offset": "0x31540", "text": "main.<locals>.genexpr"}
+{"offset": "0x31560", "text": "main.<locals>.<lambda>"}
+{"offset": "0x31580", "text": "cline_in_traceback"}
+{"offset": "0x315a0", "text": "asyncio.coroutines"}
+{"offset": "0x315c0", "text": "tuple[dict, dict]"}
+{"offset": "0x315d8", "text": "Czech Republic"}
+{"offset": "0x315e8", "text": "ArgumentParser"}
+{"offset": "0x315f8", "text": "product_index"}
+{"offset": "0x31608", "text": "load_workbook"}
+{"offset": "0x31620", "text": "__class_getitem__"}
+{"offset": "0x31638", "text": "SearchKeyword"}
+{"offset": "0x31648", "text": "product_name"}
+{"offset": "0x31658", "text": "load_records"}
+{"offset": "0x31668", "text": "_is_coroutine"}
+{"offset": "0x31678", "text": "_initializing"}
+{"offset": "0x31688", "text": "brand_corpus"}
+{"offset": "0x31698", "text": "add_argument"}
+{"offset": "0x316a8", "text": "CLINIC_ENTRY"}
+{"offset": "0x316b8", "text": "values_only"}
+{"offset": "0x316c8", "text": "tracked_map"}
+{"offset": "0x316d8", "text": "rows_others"}
+{"offset": "0x316f0", "text": "*/*/parsed.json"}
+{"offset": "0x31700", "text": "--parse-dir"}
+{"offset": "0x31710", "text": "most_common"}
+{"offset": "0x31720", "text": "load_sheets"}
+{"offset": "0x31730", "text": "defaultdict"}
+{"offset": "0x31740", "text": "collections"}
+{"offset": "0x31750", "text": "brand_match"}
+{"offset": "0x31760", "text": "Netherlands"}
+{"offset": "0x31770", "text": "sheetnames"}
+{"offset": "0x31780", "text": "setdefault"}
+{"offset": "0x31790", "text": "parse_args"}
+{"offset": "0x317a0", "text": "read_text"}
+{"offset": "0x317b0", "text": "read_only"}
+{"offset": "0x317c0", "text": "parse_dir"}
+{"offset": "0x317d0", "text": "known_map"}
+{"offset": "0x317e0", "text": "iter_rows"}
+{"offset": "0x317f0", "text": "isenabled"}
+{"offset": "0x31800", "text": "data_only"}
+{"offset": "0x31810", "text": "Attribute"}
+{"offset": "0x31820", "text": "rows_all"}
+{"offset": "0x31830", "text": "report      : "}
+{"offset": "0x31840", "text": "products"}
+{"offset": "0x31850", "text": "openpyxl"}
+{"offset": "0x31860", "text": "id4_rows"}
+{"offset": "0x31870", "text": "encoding"}
+{"offset": "0x31880", "text": "argparse"}
+{"offset": "0x31890", "text": "Retailer"}
+{"offset": "0x318a0", "text": "건 (OTHERS 신규 "}
+{"offset": "0x318c0", "text": "잔여 OTHERS : "}
+{"offset": "0x318d8", "text": "Category"}
+{"offset": "0x318e8", "text": "tracked"}
+{"offset": "0x318f0", "text": "results"}
+{"offset": "0x318f8", "text": "resolve"}
+{"offset": "0x31900", "text": "records"}
+{"offset": "0x31908", "text": "pathlib"}
+{"offset": "0x31910", "text": "parents"}
+{"offset": "0x31918", "text": "genexpr"}
+{"offset": "0x31920", "text": "environ"}
+{"offset": "0x31928", "text": "disable"}
+{"offset": "0x31930", "text": "default"}
+{"offset": "0x31938", "text": "compile"}
+{"offset": "0x31940", "text": "changed"}
+{"offset": "0x31948", "text": "by_name"}
+{"offset": "0x31950", "text": " brand="}
+{"offset": "0x31958", "text": "Country"}
+{"offset": "0x31960", "text": "Counter"}
+{"offset": "0x31968", "text": "values"}
+{"offset": "0x3196f", "text": "sorted"}
+{"offset": "0x31976", "text": "sheets"}
+{"offset": "0x3197d", "text": "return"}
+{"offset": "0x31984", "text": "report"}
+{"offset": "0x3198b", "text": "parsed"}
+{"offset": "0x31992", "text": "others"}
+{"offset": "0x319a0", "text": "__name__"}
+{"offset": "0x319a9", "text": "main"}
+{"offset": "0x319ae", "text": "insert"}
+{"offset": "0x319b8", "text": "__import__"}
+{"offset": "0x319c3", "text": "enable"}
+{"offset": "0x319ca", "text": "detect"}
+{"offset": "0x319d1", "text": "by_url"}
+{"offset": "0x319d8", "text": "before"}
+{"offset": "0x319df", "text": "append"}
+{"offset": "0x319e6", "text": "Sweden"}
+{"offset": "0x319ed", "text": "Poland"}
+{"offset": "0x319f4", "text": "OTHERS"}
+{"offset": "0x319fb", "text": "France"}
+{"offset": "0x31a02", "text": "utf-8"}
+{"offset": "0x31a08", "text": "throw"}
+{"offset": "0x31a0e", "text": "strip"}
+{"offset": "0x31a14", "text": "slots"}
+{"offset": "0x31a1a", "text": "print"}
+{"offset": "0x31a20", "text": "\nparse 미매칭 : "}
+{"offset": "0x31a38", "text": "match"}
+{"offset": "0x31a3e", "text": "loads"}
+{"offset": "0x31a44", "text": "items"}
+{"offset": "0x31a4a", "text": "group"}
+{"offset": "0x31a50", "text": "close"}
+{"offset": "0x31a56", "text": "build"}
+{"offset": "0x31a5c", "text": "brand"}
+{"offset": "0x31a62", "text": "after"}
+{"offset": "0x31a68", "text": "Value"}
+{"offset": "0x31a6e", "text": "Spain"}
+{"offset": "0x31a74", "text": "Italy"}
+{"offset": "0x31a7a", "text": "Brand"}
+{"offset": "0x31a80", "text": "uniq"}
+{"offset": "0x31a85", "text": "type"}
+{"offset": "0x31a90", "text": "__test__"}
+{"offset": "0x31aa0", "text": "__spec__"}
+{"offset": "0x31aa9", "text": "slot"}
+{"offset": "0x31aae", "text": "send"}
+{"offset": "0x31ab3", "text": "path"}
+{"offset": "0x31ab8", "text": "name"}
+{"offset": "0x31abd", "text": "miss"}
+{"offset": "0x31ac8", "text": "__main__"}
+{"offset": "0x31ad1", "text": "list"}
+{"offset": "0x31ad6", "text": "json"}
+{"offset": "0x31adb", "text": "grp1"}
+{"offset": "0x31ae0", "text": "glob"}
+{"offset": "0x31ae8", "text": "__file__"}
+{"offset": "0x31af1", "text": "dict"}
+{"offset": "0x31af6", "text": "core"}
+{"offset": "0x31afb", "text": "args"}
+{"offset": "0x31b00", "text": "REPO"}
+{"offset": "0x31b05", "text": "Path"}
+{"offset": "0x31b0a", "text": "None"}
+{"offset": "0x31b0f", "text": "ITEM"}
+{"offset": "0x31b2c", "text": " now="}
+{"offset": "0x31b48", "text": "       "}
+{"offset": "0x31b5c", "text": " -> "}
+{"offset": "0x31b80", "text": "현행 코드 재판정 차이: "}
+{"offset": "0x31bb0", "text": ") | 고유 제품 "}
+{"offset": "0x31bd0", "text": ") | 판정 건수 "}
+{"offset": "0x31c00", "text": " · B군 "}
+{"offset": "0x31c10", "text": "\n잔여 A군 "}
+{"offset": "0x31c20", "text": " — 라벨은 문서 §5.2 가 정본"}
+{"offset": "0x31c56", "text": " kw="}
+{"offset": "0x31c70", "text": "행 | 판정 건수 "}
+{"offset": "0x31c90", "text": "분모        : 시트 전체 "}
+{"offset": "0x31cb0", "text": "  시트 "}

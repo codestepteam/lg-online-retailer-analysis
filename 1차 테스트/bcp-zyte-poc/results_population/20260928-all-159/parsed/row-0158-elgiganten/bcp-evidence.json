@@ -1,0 +1,908 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0158-elgiganten",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tvatt-och-tork",
+    "finalUrl": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tvatt-och-tork",
+    "capturedAt": "2026-09-28T08:14:41.741348+09:00",
+    "collectionOk": true,
+    "title": "Samsung tvätt och tork - Elgiganten"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0158-elgiganten/brand-category/raw.html",
+      "sha256": "895c9c5e772e31e3870197cf14147763fbd6406229bf9be015cdb87fb0185895"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0158-elgiganten/brand-category/capture-state.json",
+      "sha256": "cb1b37cd3bd75b20423fb15a33c16ee293af51feee42ecc0af007d897ddb4592"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0158-elgiganten/brand-category/response.json",
+      "sha256": "bf2b9ad6d93add191a13f92eca5bf5f3caf0471a8e0bd98be79b13dcb09a49b1"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "body.flex.min-h-screen.flex-col > main#main-content > div > section.plp-module-container.wrapper.bg-background > div.cms-module-container.module-spacing-x.flex > h1.text-foreground.font-headline.text-3xl/none",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Samsung tvätt och tork",
+        "attributes": {
+          "class": "text-foreground font-headline text-3xl/none lg:text-5xl/none"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x.has-bg > div.flex.flex-1.flex-col > h2.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AI Wash",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x.has-bg > div.flex.flex-1.flex-col > h2.mb-4.text-balance.break-words",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AI EcoBubble™",
+        "attributes": {
+          "class": "mb-4 text-balance break-words font-bold font-regular text-foreground text-xl lg:text-2xl"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.module-spacing-x > div.cms-block > h2.p--heading-2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Läs mer om AI-teknik i Samsungs apparater",
+        "attributes": {
+          "class": "p--heading-2"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "dialog.cc-modal-dialog > div.cc-modal.cc-modal-has-top-image > div.cc-modal-content > div.cc-scrollable-body > div.cc-header > h2#cc-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Cookies: för en mer relevant upplevelse",
+        "attributes": {
+          "id": "cc-title",
+          "class": "cc-title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 15,
+        "top10ByRenderedArea": [
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5948210/hero-medium/tablet/2/1536/256/samsung-wash-and-dry-top-image-desktop.png?w=3840&q=75",
+            "alt": "Samsung - Wash and dry top image - desktop",
+            "renderedWidth": 1440,
+            "renderedHeight": 240,
+            "renderedArea": 345600,
+            "naturalWidth": 1920,
+            "naturalHeight": 320,
+            "naturalArea": 614400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://www.elgiganten.se/assets_spa/images/logo_b2c_header_se.svg?dpl=dpl_6MTqjCC1zHT3Z8qnyMjFLUxA2Bq3",
+            "alt": "Elgigantens privatkunder",
+            "renderedWidth": 204.5625,
+            "renderedHeight": 48,
+            "renderedArea": 9819,
+            "naturalWidth": 300,
+            "naturalHeight": 70,
+            "naturalArea": 21000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1908472/category/tablet/5/240/240/samsung-washing-machine-product-image.jpg?w=640&q=75",
+            "alt": "Samsung tvättmaskin - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1909348/category/tablet/4/240/240/samsung-dryer-product-image.jpg?w=640&q=75",
+            "alt": "Samsung torktumlare - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654250/category/tablet/2/240/240/samsung-washing-machine-product-image.png?w=640&q=75",
+            "alt": "Samsung washing machine - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654138/category/tablet/2/240/240/samsung-steam-wardrobe-product-image.png?w=640&q=75",
+            "alt": "Samsung steam wardrobe - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654142/category/tablet/2/240/240/samsung-stacking-frame-product-image.png?w=640&q=75",
+            "alt": "Samsung stacking frame - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/crblob/11736/e880eea548f1b3fa8c8977df540f0e0a/footer-click-collect-svg-data.svg",
+            "alt": "Boka & Hämta inom 30 min",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 100,
+            "naturalHeight": 150,
+            "naturalArea": 15000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/crblob/11734/b5dfc32d7eebb497dc77bd71c93f6e12/footer-buy-and-try-svg-data.svg",
+            "alt": "50 dagars öppet köp för klubbmedlemmar",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 102,
+            "naturalHeight": 150,
+            "naturalArea": 15300,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/crblob/11740/5721ba9686b7484772725ed11f986fb6/footer-price-match-svg-data.svg",
+            "alt": "Prismatch",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 150,
+            "naturalHeight": 150,
+            "naturalArea": 22500,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1908472/category/tablet/5/240/240/samsung-washing-machine-product-image.jpg?w=640&q=75",
+            "alt": "Samsung tvättmaskin - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1909348/category/tablet/4/240/240/samsung-dryer-product-image.jpg?w=640&q=75",
+            "alt": "Samsung torktumlare - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654250/category/tablet/2/240/240/samsung-washing-machine-product-image.png?w=640&q=75",
+            "alt": "Samsung washing machine - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654138/category/tablet/2/240/240/samsung-steam-wardrobe-product-image.png?w=640&q=75",
+            "alt": "Samsung steam wardrobe - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654142/category/tablet/2/240/240/samsung-stacking-frame-product-image.png?w=640&q=75",
+            "alt": "Samsung stacking frame - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5948210/hero-medium/tablet/2/1536/256/samsung-wash-and-dry-top-image-desktop.png?w=3840&q=75",
+            "alt": "Samsung - Wash and dry top image - desktop",
+            "renderedWidth": 1440,
+            "renderedHeight": 240,
+            "renderedArea": 345600,
+            "naturalWidth": 1920,
+            "naturalHeight": 320,
+            "naturalArea": 614400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/crblob/11740/5721ba9686b7484772725ed11f986fb6/footer-price-match-svg-data.svg",
+            "alt": "Prismatch",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 150,
+            "naturalHeight": 150,
+            "naturalArea": 22500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://www.elgiganten.se/assets_spa/images/logo_b2c_header_se.svg?dpl=dpl_6MTqjCC1zHT3Z8qnyMjFLUxA2Bq3",
+            "alt": "Elgigantens privatkunder",
+            "renderedWidth": 204.5625,
+            "renderedHeight": 48,
+            "renderedArea": 9819,
+            "naturalWidth": 300,
+            "naturalHeight": 70,
+            "naturalArea": 21000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/crblob/11734/b5dfc32d7eebb497dc77bd71c93f6e12/footer-buy-and-try-svg-data.svg",
+            "alt": "50 dagars öppet köp för klubbmedlemmar",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 102,
+            "naturalHeight": 150,
+            "naturalArea": 15300,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/crblob/11736/e880eea548f1b3fa8c8977df540f0e0a/footer-click-collect-svg-data.svg",
+            "alt": "Boka & Hämta inom 30 min",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 100,
+            "naturalHeight": 150,
+            "naturalArea": 15000,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Samsung tvätt och tork - Elgiganten"
+        ],
+        "metaDescription": [
+          "Utforska Samsungs breda utbud av tvättmaskiner, torktumlare och ånggarderober med smarta funktioner som kan göra din tvättrutin enklare."
+        ],
+        "h1": [
+          "Samsung tvätt och tork"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tvatt-och-tork"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "img",
+            "path": "div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.relative > a#5948234 > picture > img#contentbean:5948210",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "heromedia flex flex-col items-center gap-4",
+              "id": "contentbean:5948210"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "body.flex.min-h-screen.flex-col > main#main-content > div > section.plp-module-container.wrapper.bg-background > article.cms-module-container.has-bg > div.aspect-video.heromedia.flex",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "aspect-video heromedia flex flex-col items-center gap-4"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 16,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5948210/hero-medium/tablet/2/1536/256/samsung-wash-and-dry-top-image-desktop.png?w=3840&q=75",
+            "alt": "Samsung - Wash and dry top image - desktop",
+            "renderedWidth": 1440,
+            "renderedHeight": 240,
+            "renderedArea": 345600,
+            "naturalWidth": 1920,
+            "naturalHeight": 320,
+            "naturalArea": 614400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 0,
+            "src": "https://www.elgiganten.se/assets_spa/images/logo_b2c_header_se.svg?dpl=dpl_6MTqjCC1zHT3Z8qnyMjFLUxA2Bq3",
+            "alt": "Elgigantens privatkunder",
+            "renderedWidth": 204.5625,
+            "renderedHeight": 48,
+            "renderedArea": 9819,
+            "naturalWidth": 300,
+            "naturalHeight": 70,
+            "naturalArea": 21000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 17,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1908472/category/tablet/5/240/240/samsung-washing-machine-product-image.jpg?w=640&q=75",
+            "alt": "Samsung tvättmaskin - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 18,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/1909348/category/tablet/4/240/240/samsung-dryer-product-image.jpg?w=640&q=75",
+            "alt": "Samsung torktumlare - produktbild.",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 19,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654250/category/tablet/2/240/240/samsung-washing-machine-product-image.png?w=640&q=75",
+            "alt": "Samsung washing machine - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 20,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654138/category/tablet/2/240/240/samsung-steam-wardrobe-product-image.png?w=640&q=75",
+            "alt": "Samsung steam wardrobe - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 21,
+            "src": "https://next-media.elkjop.com/resource/responsive-image/5654142/category/tablet/2/240/240/samsung-stacking-frame-product-image.png?w=640&q=75",
+            "alt": "Samsung stacking frame - product image",
+            "renderedWidth": 80,
+            "renderedHeight": 80,
+            "renderedArea": 6400,
+            "naturalWidth": 1920,
+            "naturalHeight": 1920,
+            "naturalArea": 3686400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 22,
+            "src": "https://next-media.elkjop.com/resource/crblob/11736/e880eea548f1b3fa8c8977df540f0e0a/footer-click-collect-svg-data.svg",
+            "alt": "Boka & Hämta inom 30 min",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 100,
+            "naturalHeight": 150,
+            "naturalArea": 15000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 23,
+            "src": "https://next-media.elkjop.com/resource/crblob/11734/b5dfc32d7eebb497dc77bd71c93f6e12/footer-buy-and-try-svg-data.svg",
+            "alt": "50 dagars öppet köp för klubbmedlemmar",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 102,
+            "naturalHeight": 150,
+            "naturalArea": 15300,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 24,
+            "src": "https://next-media.elkjop.com/resource/crblob/11740/5721ba9686b7484772725ed11f986fb6/footer-price-match-svg-data.svg",
+            "alt": "Prismatch",
+            "renderedWidth": 40,
+            "renderedHeight": 40,
+            "renderedArea": 1600,
+            "naturalWidth": 150,
+            "naturalHeight": 150,
+            "naturalArea": 22500,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Samsung",
+            "href": "https://www.elgiganten.se/brand/samsung",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Samsung vitvaror",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "TVÄTTMASKIN FRÅN SAMSUNG",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tvattmaskin",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "TORKTUMLARE FRÅN SAMSUNG",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "KOMBINERAD TVÄTTMASKIN OCH TORKTUMLARE FRÅN SAMSUNG",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tvattmaskin-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG ÅNGSKÅP",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-angskap",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG TILLBEHÖR FÖR TVÄTTMASKIN OCH TORKTUMLARE",
+            "href": "https://www.elgiganten.se/brand/samsung/samsung-vitvaror/samsung-tillbehor-tvattmaskin-torktumlare",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kundtjänst Hitta butik/varuhus Spåra din leverans Support via fjärrhjälp Bluffmail m.m. Kontakta oss",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kundtjänst Kundtjänst Hitta butik/varuhus Spåra din leverans Support via fjärrhjälp Bluffmail m.m. Kontakta oss",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Leverans- och installationsavtal Cookies på Elgiganten Marketplace Personuppgiftspolicy Visselblåsning",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Information Leverans- och installationsavtal Cookies på Elgiganten Marketplace Personuppgiftspolicy Visselblåsning",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Kampanjer Guider & inspiration Julklappstips 2026 Black Friday / Black Week 2026 Mellandagsrea 2026",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Inspiration Kampanjer Guider & inspiration Julklappstips 2026 Black Friday / Black Week 2026 Mellandagsrea 2026",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20 > div.accordion-body.grid.grid-rows-[0fr]",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Om oss Om Elkjøp Nordic Ledningsgrupp Jobba hos oss Elgigantenfonden Elgiganten Företag Kundklubb Pressrum Hållbarhet",
+            "attributes": {
+              "class": "accordion-body grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out lg:grid-rows-[1fr]"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.flex.min-h-screen.flex-col > footer.footer.mt-auto.overflow-auto > nav.flex.flex-col > div.lg:border-white/20.lg:border-b > ul.mx-auto.flex.max-w-[1440px] > li.flex.flex-col.border-white/20",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "Om Elgiganten Om oss Om Elkjøp Nordic Ledningsgrupp Jobba hos oss Elgigantenfonden Elgiganten Företag Kundklubb Pressrum Hållbarhet",
+            "attributes": {
+              "class": "flex flex-col border-white/20 border-b px-10 py-4 has-[:checked]:gap-5 lg:flex-1 lg:items-start lg:gap-4 lg:border-none lg:p-0 has-[:checked]:[&>div.accordion-body]:grid-rows-[1fr] has-[:checked]:[&>label>div]:rotate-[225deg]"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

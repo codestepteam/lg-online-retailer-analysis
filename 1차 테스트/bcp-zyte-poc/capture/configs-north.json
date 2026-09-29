@@ -1,0 +1,511 @@
+{
+  "coolblue": {
+    "home": {
+      "ready": "#search",
+      "required": [
+        "#search"
+      ],
+      "cookies": [
+        {
+          "selector": "button[name='accept_cookie'][value='all_categories']",
+          "text": "Alles accepteren"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand": {
+      "ready": "#search",
+      "required": [
+        "#search"
+      ],
+      "cookies": [
+        {
+          "selector": "button[name='accept_cookie'][value='all_categories']",
+          "text": "Alles accepteren"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand-category": {
+      "url": "https://www.coolblue.nl/koelkasten/lg",
+      "ready": "#search",
+      "required": [
+        "#search"
+      ],
+      "cookies": [
+        {
+          "selector": "button[name='accept_cookie'][value='all_categories']",
+          "text": "Alles accepteren"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "전체 스크롤한다. 질문 링크는 외부 도움말 페이지로 이동하므로 BCP 안의 구조화된 질문-답변 블록으로 간주하지 않으며 클릭하지 않는다.",
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "ready": "#search",
+      "required": [
+        "#search"
+      ],
+      "cookies": [
+        {
+          "selector": "button[name='accept_cookie'][value='all_categories']",
+          "text": "Alles accepteren"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button",
+          "text": "Meer weergeven",
+          "expand": true
+        },
+        {
+          "selector": "button",
+          "text": "13 meer",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "pdp": {
+      "ready": "#search",
+      "required": [
+        "#search",
+        "#product-specifications"
+      ],
+      "cookies": [
+        {
+          "selector": "button[name='accept_cookie'][value='all_categories']",
+          "text": "Alles accepteren"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [
+        {
+          "label": "specifications",
+          "open": {
+            "selector": "a[href$='#product-specifications']",
+            "text": "Specificaties"
+          },
+          "content": "#product-specifications"
+        }
+      ],
+      "scroll_steps": 24
+    }
+  },
+  "elgiganten": {
+    "home": {
+      "ready": "#header-logo",
+      "required": [
+        "#header-logo",
+        "#autocomplete-0-input"
+      ],
+      "cookies": [
+        {
+          "selector": "button",
+          "text": "Avvisa alla"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "geolocation": null
+    },
+    "brand": {
+      "ready": "#header-logo",
+      "required": [
+        "#header-logo",
+        "#autocomplete-0-input"
+      ],
+      "cookies": [
+        {
+          "selector": "button",
+          "text": "Avvisa alla"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "geolocation": null
+    },
+    "brand-category": {
+      "url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+      "ready": "#result-top",
+      "required": [
+        "#result-top",
+        "#autocomplete-0-input"
+      ],
+      "cookies": [
+        {
+          "selector": "button",
+          "text": "Avvisa alla"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "geolocation": null,
+      "evidence": {
+        "notes": "선택 쿠키 창이 있을 때 닫고 전체 스크롤한다. Energiklass 필터는 9개 진단 근거를 펼치는 동작이 아니므로 클릭하지 않는다.",
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "ready": "#result-top",
+      "required": [
+        "#result-top",
+        "#autocomplete-0-input"
+      ],
+      "cookies": [
+        {
+          "selector": "button",
+          "text": "Avvisa alla"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button",
+          "text": "Energiklass"
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24,
+      "geolocation": null
+    },
+    "pdp": {
+      "ready": "#description",
+      "required": [
+        "#description",
+        "#specifications",
+        "#reviews",
+        "#autocomplete-0-input",
+        "#reviews > h2 > button[aria-expanded=\"true\"]",
+        "#reviews > section[aria-hidden=\"false\"] > div:not(.hidden)"
+      ],
+      "cookies": [
+        {
+          "selector": "button",
+          "text": "Avvisa alla"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button",
+          "text": "Teknisk specifikation",
+          "expand": true
+        },
+        {
+          "selector": "#reviews > h2 > button",
+          "expand": true,
+          "wait_ms": 1200
+        }
+      ],
+      "after_scroll": [],
+      "panels": [
+        {
+          "label": "description",
+          "open": {
+            "selector": "button",
+            "text": "Produktbeskrivning",
+            "expand": true
+          },
+          "content": "#description"
+        },
+        {
+          "label": "specifications",
+          "open": {
+            "selector": "button",
+            "text": "Teknisk specifikation",
+            "expand": true
+          },
+          "content": "#specifications"
+        },
+        {
+          "label": "reviews",
+          "open": {
+            "selector": "#reviews > h2 > button",
+            "expand": true,
+            "wait_ms": 1200
+          },
+          "content": "#reviews > section[aria-hidden=\"false\"]"
+        }
+      ],
+      "scroll_steps": 24,
+      "geolocation": null
+    }
+  },
+  "datart": {
+    "home": {
+      "ready": "#head-login-sign-up",
+      "required": [
+        "#head-login-sign-up",
+        "input[placeholder='Napište, co chcete hledat...']"
+      ],
+      "cookies": [
+        {
+          "selector": "#c-t-bn",
+          "text": "Odmítnout volitelné cookies"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand": {
+      "ready": "#head-login-sign-up",
+      "required": [
+        "#head-login-sign-up",
+        "input[placeholder='Napište, co chcete hledat...']"
+      ],
+      "cookies": [
+        {
+          "selector": "#c-t-bn",
+          "text": "Odmítnout volitelné cookies"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand-category": {
+      "url": "https://www.datart.cz/lednice-lg.html",
+      "ready": "#head-login-sign-up",
+      "required": [
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": "#c-t-bn",
+          "text": "Odmítnout volitelné cookies"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "Nastavení soukromí 쿠키 창에서 선택 쿠키를 거부하고 전체 스크롤한다. Načíst další는 page=2로 이동하는 링크이므로 현재 BCP 본문을 보존하기 위해 클릭하지 않는다.",
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "ready": "#head-login-sign-up",
+      "required": [
+        "#head-login-sign-up",
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": "#c-t-bn",
+          "text": "Odmítnout volitelné cookies"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "button.filter-show-more[data-text='Další parametry']",
+          "text": "Další parametry",
+          "expand": true
+        },
+        {
+          "selector": "button",
+          "text": "+ dalších 17",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "pdp": {
+      "ready": "#product-gallery-main-zoom",
+      "required": [
+        "#product-gallery-main-zoom",
+        "#popis-parametry",
+        "#recenze",
+        "#head-login-sign-up"
+      ],
+      "cookies": [
+        {
+          "selector": "#c-t-bn",
+          "text": "Odmítnout volitelné cookies"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [
+        {
+          "label": "description and parameters",
+          "open": {
+            "selector": "a[href='#popis-parametry']",
+            "text": "Popis a parametry"
+          },
+          "content": "#popis-parametry"
+        },
+        {
+          "label": "reviews",
+          "open": {
+            "selector": "a[href='#recenze']",
+            "text": "Recenze"
+          },
+          "content": "#recenze"
+        }
+      ],
+      "scroll_steps": 24
+    }
+  },
+  "alza": {
+    "home": {
+      "ready": "[data-testid='searchInput']",
+      "required": [
+        "[data-testid='searchInput']"
+      ],
+      "cookies": [
+        {
+          "selector": ".js-cookies-info-reject",
+          "text": "Odmítnout vše"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand": {
+      "ready": "[data-testid='searchInput']",
+      "required": [
+        "[data-testid='searchInput']"
+      ],
+      "cookies": [
+        {
+          "selector": ".js-cookies-info-reject",
+          "text": "Odmítnout vše"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "a",
+          "text": "Zobrazit více",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "brand-category": {
+      "url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+      "ready": "[data-testid='searchInput']",
+      "required": [
+        "h1"
+      ],
+      "cookies": [
+        {
+          "selector": ".js-cookies-info-reject",
+          "text": "Odmítnout vše"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "a",
+          "text": "Zobrazit více",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 40,
+      "require_scroll_bottom": true,
+      "evidence": {
+        "notes": "전체 스크롤 후 LG 설명을 여는 Zobrazit více를 클릭한다. '24 dalších…'는 2페이지로 이동하는 페이지 나누기 링크이므로 현재 BCP 본문을 보존하기 위해 클릭하지 않는다.",
+        "forbidden_text": []
+      }
+    },
+    "plp": {
+      "ready": "[data-testid='searchInput']",
+      "required": [
+        "[data-testid='searchInput']",
+        "#showAdvancedParametrization"
+      ],
+      "cookies": [
+        {
+          "selector": ".js-cookies-info-reject",
+          "text": "Odmítnout vše"
+        }
+      ],
+      "steps": [],
+      "after_scroll": [],
+      "panels": [],
+      "scroll_steps": 24
+    },
+    "pdp": {
+      "ready": "#description",
+      "required": [
+        "[data-testid=\"searchInput\"]",
+        "#description[aria-hidden=\"false\"]",
+        "#lg-captured-panels [data-testid=\"component-descriptionTab\"]"
+      ],
+      "cookies": [
+        {
+          "selector": ".js-cookies-info-reject",
+          "text": "Odmítnout vše"
+        }
+      ],
+      "steps": [
+        {
+          "selector": "div.nameext-description-link[role=\"link\"]",
+          "text": "Zobrazit celý popis",
+          "expand": true
+        }
+      ],
+      "after_scroll": [],
+      "panels": [
+        {
+          "label": "description",
+          "open": {
+            "selector": "a#popisx[href=\"#description\"]",
+            "wait_ms": 800
+          },
+          "content": "#description[aria-hidden=\"false\"]"
+        },
+        {
+          "label": "parameters",
+          "open": {
+            "selector": "a#hlTabParameters[href='#parameters']",
+            "text": "Parametry"
+          },
+          "content": "#parameters[aria-hidden=\"false\"]"
+        }
+      ],
+      "scroll_steps": 24,
+      "final_steps": [
+        {
+          "selector": "a#popisx[href=\"#description\"]",
+          "wait_ms": 800
+        }
+      ]
+    }
+  }
+}

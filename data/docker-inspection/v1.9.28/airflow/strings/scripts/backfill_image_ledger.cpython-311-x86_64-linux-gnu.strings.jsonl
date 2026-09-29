@@ -1,0 +1,211 @@
+{"offset": "0x1a000", "text": "%.200s() needs an argument"}
+{"offset": "0x1a01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x1a039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x1a04f", "text": "cannot import name %S"}
+{"offset": "0x1a065", "text": "__loader__"}
+{"offset": "0x1a070", "text": "loader"}
+{"offset": "0x1a077", "text": "__file__"}
+{"offset": "0x1a080", "text": "origin"}
+{"offset": "0x1a087", "text": "__package__"}
+{"offset": "0x1a093", "text": "parent"}
+{"offset": "0x1a09a", "text": "__path__"}
+{"offset": "0x1a0a3", "text": "submodule_search_locations"}
+{"offset": "0x1a0be", "text": "keywords must be strings"}
+{"offset": "0x1a0d7", "text": "_cython_coroutine_type"}
+{"offset": "0x1a0ee", "text": "_cython_generator_type"}
+{"offset": "0x1a105", "text": "_module"}
+{"offset": "0x1a10d", "text": "__builtins__"}
+{"offset": "0x1a11a", "text": "_cython_3_0_12"}
+{"offset": "0x1a129", "text": "%s (%s:%d)"}
+{"offset": "0x1a134", "text": "generator already executing"}
+{"offset": "0x1a150", "text": "name '%U' is not defined"}
+{"offset": "0x1a169", "text": "throw"}
+{"offset": "0x1a172", "text": "genexpr"}
+{"offset": "0x1a17a", "text": "No module named '%U'"}
+{"offset": "0x1a191", "text": "builtins"}
+{"offset": "0x1a19a", "text": "cython_runtime"}
+{"offset": "0x1a1a9", "text": "scripts.backfill_image_ledger"}
+{"offset": "0x1a1c7", "text": "does not match"}
+{"offset": "0x1a1d6", "text": "collections.abc"}
+{"offset": "0x1a1e6", "text": "backports_abc"}
+{"offset": "0x1a1f4", "text": "rows"}
+{"offset": "0x1a1f9", "text": "main"}
+{"offset": "0x1a1fe", "text": "exactly"}
+{"offset": "0x1a206", "text": "_cython_3_0_12.generator"}
+{"offset": "0x1a21f", "text": "__name__"}
+{"offset": "0x1a228", "text": "name of the generator"}
+{"offset": "0x1a23e", "text": "__qualname__"}
+{"offset": "0x1a24b", "text": "gi_frame"}
+{"offset": "0x1a254", "text": "Frame of the generator"}
+{"offset": "0x1a26b", "text": "gi_running"}
+{"offset": "0x1a276", "text": "gi_yieldfrom"}
+{"offset": "0x1a283", "text": "gi_code"}
+{"offset": "0x1a28b", "text": "__module__"}
+{"offset": "0x1a296", "text": "send"}
+{"offset": "0x1a29b", "text": "close"}
+{"offset": "0x1a2a1", "text": "__reduce__"}
+{"offset": "0x1a2ac", "text": "func_doc"}
+{"offset": "0x1a2b5", "text": "__doc__"}
+{"offset": "0x1a2bd", "text": "func_name"}
+{"offset": "0x1a2c7", "text": "func_dict"}
+{"offset": "0x1a2d1", "text": "__dict__"}
+{"offset": "0x1a2da", "text": "func_globals"}
+{"offset": "0x1a2e7", "text": "__globals__"}
+{"offset": "0x1a2f3", "text": "func_closure"}
+{"offset": "0x1a300", "text": "__closure__"}
+{"offset": "0x1a30c", "text": "func_code"}
+{"offset": "0x1a316", "text": "__code__"}
+{"offset": "0x1a31f", "text": "func_defaults"}
+{"offset": "0x1a32d", "text": "__defaults__"}
+{"offset": "0x1a33a", "text": "__kwdefaults__"}
+{"offset": "0x1a349", "text": "__annotations__"}
+{"offset": "0x1a359", "text": "_is_coroutine"}
+{"offset": "0x1a368", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x1a390", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x1a3c0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x1a3e8", "text": " while calling a Python object"}
+{"offset": "0x1a408", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x1a438", "text": "function's dictionary may not be deleted"}
+{"offset": "0x1a468", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x1a498", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x1a4f8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x1a528", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x1a558", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x1a588", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1a5f0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x1a620", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x1a680", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x1a6b0", "text": "__name__ must be set to a string object"}
+{"offset": "0x1a6d8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x1a820", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x1a858", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x1a890", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x1a8c0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x1a900", "text": "join() result is too long for a Python string"}
+{"offset": "0x1a930", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/backfill_image_ledger.c"}
+{"offset": "0x1a978", "text": "generator ignored GeneratorExit"}
+{"offset": "0x1a998", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x1a9c0", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x1a9f0", "text": "instance exception may not have a separate value"}
+{"offset": "0x1aa28", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x1aa70", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x1aab0", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x1aae8", "text": "generator raised StopIteration"}
+{"offset": "0x1ab08", "text": "scripts/backfill_image_ledger.py"}
+{"offset": "0x1ab30", "text": "Module 'backfill_image_ledger' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x1ab90", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x1abe0", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x1ac08", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x1acb8", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x1acf8", "text": "init scripts.backfill_image_ledger"}
+{"offset": "0x1ad20", "text": "scripts.backfill_image_ledger.main"}
+{"offset": "0x1ad48", "text": "scripts.backfill_image_ledger.main.genexpr"}
+{"offset": "0x1ad78", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x1adb0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x1add8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x1ae08", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x1ae48", "text": "qualified name of the generator"}
+{"offset": "0x1ae68", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x1ae98", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1aef8", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x1af68", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x1afa0", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x1afd0", "text": "scripts.backfill_image_ledger.__pyx_scope_struct__genexpr"}
+{"offset": "0x1b020", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x1b100", "text": "scripts/backfill_image_ledger.py"}
+{"offset": "0x1b130", "text": "scripts.backfill_image_ledger"}
+{"offset": "0x1b150", "text": "image_fail_ledger_*.csv"}
+{"offset": "0x1b170", "text": "[image-backfill] chunk "}
+{"offset": "0x1b190", "text": "main.<locals>.genexpr"}
+{"offset": "0x1b1b0", "text": "collect_image_meta"}
+{"offset": "0x1b1d0", "text": "cline_in_traceback"}
+{"offset": "0x1b1f0", "text": "asyncio.coroutines"}
+{"offset": "0x1b210", "text": "PARSE_IMAGE_RETRY"}
+{"offset": "0x1b230", "text": "reparsed_records"}
+{"offset": "0x1b250", "text": "[image-backfill] 완료 → "}
+{"offset": "0x1b280", "text": "[image-backfill] 표적 재파싱: "}
+{"offset": "0x1b2c0", "text": "[image-backfill] 백필: 용량 확보 "}
+{"offset": "0x1b2f0", "text": "[image-backfill] 대상 "}
+{"offset": "0x1b310", "text": "recovered_bytes"}
+{"offset": "0x1b320", "text": "[image-backfill] 원장 없음 ("}
+{"offset": "0x1b348", "text": "ArgumentParser"}
+{"offset": "0x1b358", "text": "scan_records"}
+{"offset": "0x1b368", "text": "_is_coroutine"}
+{"offset": "0x1b378", "text": "_initializing"}
+{"offset": "0x1b388", "text": "add_argument"}
+{"offset": "0x1b398", "text": "CLINIC_ENTRY"}
+{"offset": "0x1b3a8", "text": "_run_records"}
+{"offset": "0x1b3b8", "text": "_retried.csv"}
+{"offset": "0x1b3c8", "text": "load_dotenv"}
+{"offset": "0x1b3d8", "text": "core.config"}
+{"offset": "0x1b3e8", "text": "report_dir"}
+{"offset": "0x1b3f8", "text": "product_id"}
+{"offset": "0x1b408", "text": "parse_args"}
+{"offset": "0x1b418", "text": "--batch-id"}
+{"offset": "0x1b428", "text": "utf-8-sig"}
+{"offset": "0x1b438", "text": "parse_mod"}
+{"offset": "0x1b448", "text": "page_type"}
+{"offset": "0x1b458", "text": "isenabled"}
+{"offset": "0x1b468", "text": "imagemeta"}
+{"offset": "0x1b478", "text": "attempted"}
+{"offset": "0x1b488", "text": "writerow"}
+{"offset": "0x1b498", "text": "retailer"}
+{"offset": "0x1b4a8", "text": "required"}
+{"offset": "0x1b4b8", "text": "endswith"}
+{"offset": "0x1b4c8", "text": "encoding"}
+{"offset": "0x1b4d8", "text": "batch_id"}
+{"offset": "0x1b4e8", "text": "basename"}
+{"offset": "0x1b4f8", "text": "argparse"}
+{"offset": "0x1b508", "text": "workers"}
+{"offset": "0x1b510", "text": "resolve"}
+{"offset": "0x1b518", "text": "replace"}
+{"offset": "0x1b520", "text": "pathlib"}
+{"offset": "0x1b528", "text": "newline"}
+{"offset": "0x1b530", "text": "led_dir"}
+{"offset": "0x1b538", "text": "genexpr"}
+{"offset": "0x1b540", "text": "environ"}
+{"offset": "0x1b548", "text": "disable"}
+{"offset": "0x1b550", "text": "writer"}
+{"offset": "0x1b557", "text": "return"}
+{"offset": "0x1b55e", "text": "reader"}
+{"offset": "0x1b565", "text": "parent"}
+{"offset": "0x1b56c", "text": "main"}
+{"offset": "0x1b571", "text": "insert"}
+{"offset": "0x1b578", "text": "__import__"}
+{"offset": "0x1b583", "text": "enable"}
+{"offset": "0x1b58a", "text": "dotenv"}
+{"offset": "0x1b591", "text": "config"}
+{"offset": "0x1b598", "text": "throw"}
+{"offset": "0x1b59e", "text": "range"}
+{"offset": "0x1b5a4", "text": "print"}
+{"offset": "0x1b5aa", "text": "parse"}
+{"offset": "0x1b5b0", "text": "__enter__"}
+{"offset": "0x1b5ba", "text": ".csv"}
+{"offset": "0x1b5bf", "text": "close"}
+{"offset": "0x1b5c5", "text": "chunk"}
+{"offset": "0x1b5cb", "text": "bytes"}
+{"offset": "0x1b5d1", "text": "_CHUNK"}
+{"offset": "0x1b5d8", "text": "urls"}
+{"offset": "0x1b5e0", "text": "__test__"}
+{"offset": "0x1b5f0", "text": "__spec__"}
+{"offset": "0x1b5f9", "text": "send"}
+{"offset": "0x1b5fe", "text": "rows"}
+{"offset": "0x1b603", "text": "recs"}
+{"offset": "0x1b608", "text": "path"}
+{"offset": "0x1b60d", "text": "open"}
+{"offset": "0x1b618", "text": "__name__"}
+{"offset": "0x1b628", "text": "__main__"}
+{"offset": "0x1b631", "text": "leds"}
+{"offset": "0x1b636", "text": "keys"}
+{"offset": "0x1b63b", "text": "glob"}
+{"offset": "0x1b640", "text": "__file__"}
+{"offset": "0x1b650", "text": "__exit__"}
+{"offset": "0x1b659", "text": "core"}
+{"offset": "0x1b65e", "text": "args"}
+{"offset": "0x1b663", "text": "Path"}
+{"offset": "0x1b668", "text": "None"}
+{"offset": "0x1b68d", "text": ".env"}
+{"offset": "0x1b6a0", "text": "개 레코드"}
+{"offset": "0x1b6d0", "text": " 실패 (계속): "}
+{"offset": "0x1b6f0", "text": "장 / 영향 레코드 "}
+{"offset": "0x1b718", "text": ") — 종료"}

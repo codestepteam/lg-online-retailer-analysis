@@ -1,0 +1,398 @@
+{"offset": "0x39000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x39038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x39060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x39090", "text": " while calling a Python object"}
+{"offset": "0x390b0", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x390e0", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x39108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x39130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x391e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x39210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x39240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x392a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x392c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x392f8", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x39328", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x39358", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x393c0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x393f0", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x39450", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x39480", "text": "__name__ must be set to a string object"}
+{"offset": "0x394a8", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x394d8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x39620", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x39658", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x39690", "text": "%.200s() keywords must be strings"}
+{"offset": "0x396b8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x396e8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x39720", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x39758", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x39780", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x397b0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x397f0", "text": "join() result is too long for a Python string"}
+{"offset": "0x39820", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x39848", "text": "generator raised StopIteration"}
+{"offset": "0x39868", "text": "/tmp/clinic_build_y1xih54e/cbuild/scripts/discover_nlmm_pdp.c"}
+{"offset": "0x398a8", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x398e8", "text": "scripts.discover_nlmm_pdp.harvest"}
+{"offset": "0x39910", "text": "scripts.discover_nlmm_pdp._products.lambda1"}
+{"offset": "0x39940", "text": "scripts.discover_nlmm_pdp.amain"}
+{"offset": "0x39960", "text": "scripts.discover_nlmm_pdp._unesc"}
+{"offset": "0x39988", "text": "Module 'discover_nlmm_pdp' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x399e8", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x39a38", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x39a78", "text": "init scripts.discover_nlmm_pdp"}
+{"offset": "0x39a98", "text": "scripts.discover_nlmm_pdp._norm_brand"}
+{"offset": "0x39ac0", "text": "scripts.discover_nlmm_pdp.declared_total"}
+{"offset": "0x39af0", "text": "generator ignored GeneratorExit"}
+{"offset": "0x39b10", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x39b30", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x39b58", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x39b90", "text": "'NoneType' object has no attribute '%.30s'"}
+{"offset": "0x39bc0", "text": "dictionary changed size during iteration"}
+{"offset": "0x39bf0", "text": "cannot fit '%.200s' into an index-sized integer"}
+{"offset": "0x39c20", "text": "'%.200s' object is not subscriptable"}
+{"offset": "0x39c48", "text": "scripts.discover_nlmm_pdp.main"}
+{"offset": "0x39c68", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x39c88", "text": "scripts.discover_nlmm_pdp._manufacturer_map"}
+{"offset": "0x39cb8", "text": "scripts.discover_nlmm_pdp._products"}
+{"offset": "0x39ce0", "text": "scripts.discover_nlmm_pdp._ld_items"}
+{"offset": "0x39d08", "text": "scripts.discover_nlmm_pdp._ld_items.genexpr"}
+{"offset": "0x39d38", "text": "coroutine is being awaited already"}
+{"offset": "0x39d60", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x39d98", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x39dd8", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x39e10", "text": "__await__() returned a coroutine"}
+{"offset": "0x39e38", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x39e60", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x39e90", "text": "instance exception may not have a separate value"}
+{"offset": "0x39ec8", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x39f10", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x39f50", "text": "scripts.discover_nlmm_pdp.load_sources"}
+{"offset": "0x39f78", "text": "qualified name of the generator"}
+{"offset": "0x39f98", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x39fc8", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x3a028", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x3a098", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x3a0d0", "text": "qualified name of the coroutine"}
+{"offset": "0x3a0f0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x3a150", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x3a1c0", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x3a1f8", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x3a220", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x3a258", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x3a2b8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x3a328", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x3a358", "text": "scripts.discover_nlmm_pdp.__pyx_scope_struct_2_amain"}
+{"offset": "0x3a390", "text": "scripts.discover_nlmm_pdp.__pyx_scope_struct_1_harvest"}
+{"offset": "0x3a3c8", "text": "scripts.discover_nlmm_pdp.__pyx_scope_struct__genexpr"}
+{"offset": "0x3a3fe", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x3a41c", "text": "%.200s() needs an argument"}
+{"offset": "0x3a437", "text": "Bad call flags for CyFunction"}
+{"offset": "0x3a455", "text": "<cyfunction %U at %p>"}
+{"offset": "0x3a46b", "text": "__loader__"}
+{"offset": "0x3a476", "text": "loader"}
+{"offset": "0x3a47d", "text": "__file__"}
+{"offset": "0x3a486", "text": "origin"}
+{"offset": "0x3a48d", "text": "__package__"}
+{"offset": "0x3a499", "text": "parent"}
+{"offset": "0x3a4a0", "text": "__path__"}
+{"offset": "0x3a4a9", "text": "submodule_search_locations"}
+{"offset": "0x3a4c4", "text": "keywords must be strings"}
+{"offset": "0x3a4dd", "text": "_cython_coroutine_type"}
+{"offset": "0x3a4f4", "text": "_cython_generator_type"}
+{"offset": "0x3a50b", "text": "_module"}
+{"offset": "0x3a513", "text": "__builtins__"}
+{"offset": "0x3a520", "text": "_cython_3_0_12"}
+{"offset": "0x3a52f", "text": "cannot import name %S"}
+{"offset": "0x3a545", "text": "%s (%s:%d)"}
+{"offset": "0x3a550", "text": "exactly"}
+{"offset": "0x3a558", "text": "harvest"}
+{"offset": "0x3a560", "text": "scripts/discover_nlmm_pdp.py"}
+{"offset": "0x3a57d", "text": "lambda1"}
+{"offset": "0x3a585", "text": "amain"}
+{"offset": "0x3a58b", "text": "_unesc"}
+{"offset": "0x3a592", "text": "name '%U' is not defined"}
+{"offset": "0x3a5ab", "text": "builtins"}
+{"offset": "0x3a5b4", "text": "cython_runtime"}
+{"offset": "0x3a5c3", "text": "scripts.discover_nlmm_pdp"}
+{"offset": "0x3a5dd", "text": "does not match"}
+{"offset": "0x3a5ec", "text": "collections.abc"}
+{"offset": "0x3a5fc", "text": "backports_abc"}
+{"offset": "0x3a60a", "text": "_norm_brand"}
+{"offset": "0x3a616", "text": "declared_total"}
+{"offset": "0x3a625", "text": "coroutine already executing"}
+{"offset": "0x3a641", "text": "generator already executing"}
+{"offset": "0x3a660", "text": "values"}
+{"offset": "0x3a667", "text": "genexpr"}
+{"offset": "0x3a66f", "text": "_manufacturer_map"}
+{"offset": "0x3a681", "text": "_products"}
+{"offset": "0x3a68b", "text": "_ld_items"}
+{"offset": "0x3a695", "text": "throw"}
+{"offset": "0x3a69b", "text": "_cython_3_0_12.generator"}
+{"offset": "0x3a6b4", "text": "__name__"}
+{"offset": "0x3a6bd", "text": "name of the generator"}
+{"offset": "0x3a6d3", "text": "__qualname__"}
+{"offset": "0x3a6e0", "text": "gi_frame"}
+{"offset": "0x3a6e9", "text": "Frame of the generator"}
+{"offset": "0x3a700", "text": "gi_running"}
+{"offset": "0x3a70b", "text": "gi_yieldfrom"}
+{"offset": "0x3a718", "text": "gi_code"}
+{"offset": "0x3a720", "text": "__module__"}
+{"offset": "0x3a72b", "text": "send"}
+{"offset": "0x3a730", "text": "close"}
+{"offset": "0x3a736", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x3a74f", "text": "name of the coroutine"}
+{"offset": "0x3a765", "text": "cr_frame"}
+{"offset": "0x3a76e", "text": "Frame of the coroutine"}
+{"offset": "0x3a785", "text": "cr_running"}
+{"offset": "0x3a790", "text": "cr_await"}
+{"offset": "0x3a799", "text": "object being awaited, or None"}
+{"offset": "0x3a7b7", "text": "cr_code"}
+{"offset": "0x3a7bf", "text": "__reduce_ex__"}
+{"offset": "0x3a7cd", "text": "__reduce__"}
+{"offset": "0x3a7d8", "text": "func_doc"}
+{"offset": "0x3a7e1", "text": "__doc__"}
+{"offset": "0x3a7e9", "text": "func_name"}
+{"offset": "0x3a7f3", "text": "func_dict"}
+{"offset": "0x3a7fd", "text": "__dict__"}
+{"offset": "0x3a806", "text": "func_globals"}
+{"offset": "0x3a813", "text": "__globals__"}
+{"offset": "0x3a81f", "text": "func_closure"}
+{"offset": "0x3a82c", "text": "__closure__"}
+{"offset": "0x3a838", "text": "func_code"}
+{"offset": "0x3a842", "text": "__code__"}
+{"offset": "0x3a84b", "text": "func_defaults"}
+{"offset": "0x3a859", "text": "__defaults__"}
+{"offset": "0x3a866", "text": "__kwdefaults__"}
+{"offset": "0x3a875", "text": "__annotations__"}
+{"offset": "0x3a885", "text": "_is_coroutine"}
+{"offset": "0x3a893", "text": "CythonUnboundCMethod"}
+{"offset": "0x3a8a8", "text": "load_sources"}
+{"offset": "0x3a8c0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x3a9a0", "text": "<script[^>]+type=\"application/ld\\+json\"[^>]*>(.*?)</script>"}
+{"offset": "0x3a9e0", "text": "(\\d{1,4})\\s*(?:artikelen|resultaten|producten)"}
+{"offset": "0x3aa20", "text": "%(asctime)s %(levelname)s %(message)s"}
+{"offset": "0x3aa60", "text": "\n                SELECT brand, category, sub_category, brand_url\n                FROM brand_target_list\n                WHERE rtlr_name='MediaMarkt' AND cntry_cd='NL'\n                  AND brand_url IS NOT NULL AND brand_url <> ''\n                  AND brand_url NOT LIKE '%filter=%'\n            "}
+{"offset": "0x3aba0", "text": "\"url\"\\s*:\\s*\"((?:\\\\u002F|/)nl(?:\\\\u002F|/)product[^\"]+)\""}
+{"offset": "0x3abe0", "text": "scripts/discover_nlmm_pdp.py"}
+{"offset": "0x3ac00", "text": "scripts.discover_nlmm_pdp"}
+{"offset": "0x3ac20", "text": "_ld_items.<locals>.genexpr"}
+{"offset": "0x3ac40", "text": "https://www.mediamarkt.nl"}
+{"offset": "0x3ac60", "text": "_products.<locals>.<lambda>"}
+{"offset": "0x3ac80", "text": "\"manufacturer\"\\s*:\\s*\"([^\"]{1,40})\""}
+{"offset": "0x3acb0", "text": "tuple[list[dict], dict]"}
+{"offset": "0x3acd0", "text": "parse_retailers.plp"}
+{"offset": "0x3acf0", "text": "/nl/product/_([a-z0-9]+)"}
+{"offset": "0x3ad20", "text": "카테고리당 최대 페이지 (12/쪽 × 20 = 240 상한. 기존 5는 60건 상한이라 대형 카테고리 절단 — 0813 상향)"}
+{"offset": "0x3adb0", "text": "cline_in_traceback"}
+{"offset": "0x3add0", "text": "asyncio.coroutines"}
+{"offset": "0x3adf0", "text": "append_pdp_targets"}
+{"offset": "0x3ae10", "text": "/nl/product/[^\"\\'\\\\\\s]+\\.html"}
+{"offset": "0x3ae30", "text": "_manufacturer_map"}
+{"offset": "0x3ae50", "text": "CATEGORY_BRANDS"}
+{"offset": "0x3ae60", "text": "get_connection"}
+{"offset": "0x3ae70", "text": "declared_total"}
+{"offset": "0x3ae80", "text": "ArgumentParser"}
+{"offset": "0x3ae90", "text": "discover_nlmm"}
+{"offset": "0x3aea0", "text": "__class_getitem__"}
+{"offset": "0x3aeb8", "text": "asyncio.tasks"}
+{"offset": "0x3aec8", "text": "sub_category"}
+{"offset": "0x3aed8", "text": "nlmm_harvest_"}
+{"offset": "0x3aee8", "text": "manufacturer"}
+{"offset": "0x3aef8", "text": "load_targets"}
+{"offset": "0x3af08", "text": "load_sources"}
+{"offset": "0x3af18", "text": "_is_coroutine"}
+{"offset": "0x3af28", "text": "_initializing"}
+{"offset": "0x3af38", "text": "empty_rounds"}
+{"offset": "0x3af48", "text": "add_argument"}
+{"offset": "0x3af58", "text": "CLINIC_ENTRY"}
+{"offset": "0x3af68", "text": "scrapingbee"}
+{"offset": "0x3af78", "text": "most_common"}
+{"offset": "0x3af88", "text": "--max-pages"}
+{"offset": "0x3af98", "text": "collections"}
+{"offset": "0x3afa8", "text": "basicConfig"}
+{"offset": "0x3afb8", "text": "write_text"}
+{"offset": "0x3afc8", "text": "store_true"}
+{"offset": "0x3afd8", "text": "startswith"}
+{"offset": "0x3afe8", "text": "setdefault"}
+{"offset": "0x3aff8", "text": "_products"}
+{"offset": "0x3b008", "text": "parse_args"}
+{"offset": "0x3b018", "text": "_norm_brand"}
+{"offset": "0x3b028", "text": "/nl/product/"}
+{"offset": "0x3b038", "text": "mediamarkt"}
+{"offset": "0x3b048", "text": "fetch_fail"}
+{"offset": "0x3b058", "text": "drop_scope"}
+{"offset": "0x3b068", "text": "drop_brand"}
+{"offset": "0x3b078", "text": "--batch-id"}
+{"offset": "0x3b088", "text": "render_js"}
+{"offset": "0x3b098", "text": "name_head"}
+{"offset": "0x3b0a8", "text": "model_mpc"}
+{"offset": "0x3b0b8", "text": "max_pages"}
+{"offset": "0x3b0c8", "text": "list[dict]"}
+{"offset": "0x3b0d8", "text": "isenabled"}
+{"offset": "0x3b0e8", "text": "getLogger"}
+{"offset": "0x3b0f8", "text": "final_url"}
+{"offset": "0x3b108", "text": "--dry-run"}
+{"offset": "0x3b120", "text": "dry-run — 적재 생략"}
+{"offset": "0x3b140", "text": "category1"}
+{"offset": "0x3b150", "text": "brand_url"}
+{"offset": "0x3b160", "text": "_URL_AFTER"}
+{"offset": "0x3b170", "text": "_PROD_HREF"}
+{"offset": "0x3b17b", "text": "status"}
+{"offset": "0x3b188", "text": "required"}
+{"offset": "0x3b198", "text": "products"}
+{"offset": "0x3b1a8", "text": "page_url"}
+{"offset": "0x3b1b8", "text": "_ld_items"}
+{"offset": "0x3b1c8", "text": "kept_now"}
+{"offset": "0x3b1d8", "text": "int | None"}
+{"offset": "0x3b1e8", "text": "instance"}
+{"offset": "0x3b1f8", "text": "finditer"}
+{"offset": "0x3b208", "text": "fetchall"}
+{"offset": "0x3b218", "text": "exist_ok"}
+{"offset": "0x3b228", "text": "encoding"}
+{"offset": "0x3b238", "text": "declared"}
+{"offset": "0x3b248", "text": "cntry_cd"}
+{"offset": "0x3b258", "text": "category"}
+{"offset": "0x3b268", "text": "by_brand"}
+{"offset": "0x3b278", "text": "batch_id"}
+{"offset": "0x3b288", "text": "argparse"}
+{"offset": "0x3b298", "text": "_DECLARED"}
+{"offset": "0x3b2a8", "text": "BASE_DIR"}
+{"offset": "0x3b2b8", "text": "warning"}
+{"offset": "0x3b2c0", "text": "sources"}
+{"offset": "0x3b2c8", "text": "resolve"}
+{"offset": "0x3b2d0", "text": "replace"}
+{"offset": "0x3b2d8", "text": "rejects"}
+{"offset": "0x3b2e0", "text": "premium"}
+{"offset": "0x3b2e8", "text": "pathlib"}
+{"offset": "0x3b2f0", "text": "parents"}
+{"offset": "0x3b2f8", "text": "logging"}
+{"offset": "0x3b300", "text": "inspect"}
+{"offset": "0x3b308", "text": "harvest"}
+{"offset": "0x3b310", "text": "genexpr"}
+{"offset": "0x3b318", "text": "findall"}
+{"offset": "0x3b320", "text": "    fetch 실패("}
+{"offset": "0x3b338", "text": "execute"}
+{"offset": "0x3b340", "text": "environ"}
+{"offset": "0x3b348", "text": "dry_run"}
+{"offset": "0x3b350", "text": "disable"}
+{"offset": "0x3b358", "text": "default"}
+{"offset": "0x3b360", "text": "credits"}
+{"offset": "0x3b368", "text": "country"}
+{"offset": "0x3b370", "text": "core.db"}
+{"offset": "0x3b378", "text": "compile"}
+{"offset": "0x3b380", "text": "by_slug"}
+{"offset": "0x3b388", "text": "attempt"}
+{"offset": "0x3b390", "text": "asyncio"}
+{"offset": "0x3b398", "text": "SAMSUNG"}
+{"offset": "0x3b3a0", "text": "Counter"}
+{"offset": "0x3b3a8", "text": "values"}
+{"offset": "0x3b3b0", "text": " status="}
+{"offset": "0x3b3b9", "text": "sorted"}
+{"offset": "0x3b3c0", "text": "search"}
+{"offset": "0x3b3c7", "text": "return"}
+{"offset": "0x3b3e0", "text": "    plp 파서 실패(링크·LD 수확은 유지): "}
+{"offset": "0x3b415", "text": "parsed"}
+{"offset": "0x3b41c", "text": "parent"}
+{"offset": "0x3b423", "text": "page"}
+{"offset": "0x3b428", "text": "__name__"}
+{"offset": "0x3b431", "text": "main"}
+{"offset": "0x3b436", "text": "insert"}
+{"offset": "0x3b440", "text": "__import__"}
+{"offset": "0x3b44b", "text": "format"}
+{"offset": "0x3b452", "text": "enable"}
+{"offset": "0x3b459", "text": "cursor"}
+{"offset": "0x3b460", "text": "config"}
+{"offset": "0x3b468", "text": "append → "}
+{"offset": "0x3b474", "text": "action"}
+{"offset": "0x3b480", "text": "_LDJSON"}
+{"offset": "0x3b488", "text": "[^A-Z0-9]"}
+{"offset": "0x3b492", "text": "utf-8"}
+{"offset": "0x3b498", "text": "upper"}
+{"offset": "0x3b49e", "text": "_unesc"}
+{"offset": "0x3b4a5", "text": "\\u002F"}
+{"offset": "0x3b4ac", "text": "title"}
+{"offset": "0x3b4b2", "text": "throw"}
+{"offset": "0x3b4b8", "text": "strip"}
+{"offset": "0x3b4be", "text": "stats"}
+{"offset": "0x3b4c4", "text": "stack"}
+{"offset": "0x3b4ca", "text": "split"}
+{"offset": "0x3b4d0", "text": "sleep"}
+{"offset": "0x3b4d6", "text": "range"}
+{"offset": "0x3b4dc", "text": "prods"}
+{"offset": "0x3b4e2", "text": "parse"}
+{"offset": "0x3b4e8", "text": "pages"}
+{"offset": "0x3b4ee", "text": "mmplp"}
+{"offset": "0x3b4f4", "text": "mkdir"}
+{"offset": "0x3b4fa", "text": "loads"}
+{"offset": "0x3b500", "text": "level"}
+{"offset": "0x3b506", "text": "items"}
+{"offset": "0x3b50c", "text": "group"}
+{"offset": "0x3b512", "text": "fresh"}
+{"offset": "0x3b518", "text": "fetch"}
+{"offset": "0x3b51e", "text": "error"}
+{"offset": "0x3b528", "text": "__enter__"}
+{"offset": "0x3b532", "text": "count"}
+{"offset": "0x3b538", "text": "close"}
+{"offset": "0x3b53e", "text": "brand"}
+{"offset": "0x3b544", "text": "block"}
+{"offset": "0x3b550", "text": "__await__"}
+{"offset": "0x3b55a", "text": "amain"}
+{"offset": "0x3b560", "text": "allow"}
+{"offset": "0x3b566", "text": "BOSCH"}
+{"offset": "0x3b56c", "text": "want"}
+{"offset": "0x3b571", "text": "vals"}
+{"offset": "0x3b576", "text": "uniq"}
+{"offset": "0x3b57b", "text": "type"}
+{"offset": "0x3b580", "text": "__test__"}
+{"offset": "0x3b589", "text": "tail"}
+{"offset": "0x3b58e", "text": "stat"}
+{"offset": "0x3b598", "text": "__spec__"}
+{"offset": "0x3b5a1", "text": "send"}
+{"offset": "0x3b5a6", "text": "seen"}
+{"offset": "0x3b5ab", "text": "rows"}
+{"offset": "0x3b5b0", "text": "repo"}
+{"offset": "0x3b5b5", "text": "path"}
+{"offset": "0x3b5ba", "text": "page="}
+{"offset": "0x3b5c0", "text": "node"}
+{"offset": "0x3b5c5", "text": "name"}
+{"offset": "0x3b5ca", "text": "manu"}
+{"offset": "0x3b5d0", "text": "__main__"}
+{"offset": "0x3b5d9", "text": "kept"}
+{"offset": "0x3b5de", "text": "json"}
+{"offset": "0x3b5e3", "text": "info"}
+{"offset": "0x3b5e8", "text": "http"}
+{"offset": "0x3b5ed", "text": "html"}
+{"offset": "0x3b5f2", "text": "help"}
+{"offset": "0x3b5f8", "text": "__file__"}
+{"offset": "0x3b608", "text": "__exit__"}
+{"offset": "0x3b611", "text": "dict"}
+{"offset": "0x3b616", "text": "data"}
+{"offset": "0x3b61b", "text": "core"}
+{"offset": "0x3b620", "text": "conn"}
+{"offset": "0x3b625", "text": "btxt"}
+{"offset": "0x3b62a", "text": "args"}
+{"offset": "0x3b62f", "text": "Path"}
+{"offset": "0x3b634", "text": "None"}
+{"offset": "0x3b639", "text": "_MANU"}
+{"offset": "0x3b63f", "text": "INFO"}
+{"offset": "0x3b644", "text": "ETNA"}
+{"offset": "0x3b64d", "text": ".txt"}
+{"offset": "0x3b6a0", "text": " (배치 총 "}
+{"offset": "0x3b6c0", "text": "수확 원장 → "}
+{"offset": "0x3b6e0", "text": "수확 합계(고유): "}
+{"offset": "0x3b700", "text": "    제외 브랜드: "}
+{"offset": "0x3b720", "text": "슬러그폴백"}
+{"offset": "0x3b730", "text": "타브랜드"}
+{"offset": "0x3b768", "text": "브랜드관"}
+{"offset": "0x3b780", "text": "──────────────────────────────────────────────────────────────────────────────"}
+{"offset": "0x3b880", "text": " 브랜드×카테고리 페이지"}
+{"offset": "0x3b8b0", "text": "수확 소스: "}
+{"offset": "0x3b8c0", "text": " 채택 "}
+{"offset": "0x3b8d0", "text": " 신규 "}
+{"offset": "0x3b8e0", "text": " 상품 "}
+{"offset": "0x3b8ef", "text": "    ["}
+{"offset": "0x3b900", "text": " 3회 실패 — 이 브랜드관 중단"}
+{"offset": "0x3b93b", "text": " cr="}
+{"offset": "0x3b979", "text": "/3) "}

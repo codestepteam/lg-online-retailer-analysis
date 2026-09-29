@@ -1,0 +1,3453 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "mediamarkt-es",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+    "finalUrl": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+    "capturedAt": "2026-09-27T21:01:01.925189+00:00",
+    "collectionOk": true,
+    "title": "Frigoríficos LG al mejor precio | MediaMarkt"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928T060234KST/pages/mediamarkt-es/brand-category/raw.html",
+      "sha256": "ee1cdd76788c06ccd42369f27ae648e56f4055e7cd7e7e5b7a50410ab086cd1b"
+    },
+    "captureState": {
+      "path": "20260928T060234KST/pages/mediamarkt-es/brand-category/capture-state.json",
+      "sha256": "724f1f78b36f9d98f4086c026d326cfe4f15f6454aaf227aa3d252dd536ee66f"
+    },
+    "response": {
+      "path": "20260928T060234KST/pages/mediamarkt-es/brand-category/response.json",
+      "sha256": "0a0d56446f813dccc5e9df59437e6b3f34025fc2148dbbde8642426d10564ce1"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-fPSBzf.mms-ui-ZWNVL.mms-ui-iRgpoQ > div.mms-ui-kWtMNC.mms-ui-zFjCb.mms-ui-fPSBzf > h1.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-jYztle",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "LG Frigoríficos en MediaMarkt",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-jYztle mms-ui-fmxJSc mms-ui-gPXpFk"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > aside.mms-ui-oBxKw > h3#brandCategories",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Categorías",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gGmMvB mms-ui-fiQpwM",
+          "id": "brandCategories"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS514AMB, No Frost, 186 cm, 333 l, DoorCooling+™, FRESHBalancer™, Acero texturizado antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBG5160CEV, No Frost, 186 cm, 352 l, DoorCooling+™, Instaview™, ThinQ™, Acero negro grafito",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - LG GLM71MBCSF, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG GSLC41PYPE, No Frost, 179 cm, 638 l, LinearCooling™, SpacePlus™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBSJ10DPY, No Frost, 186 cm, 375 l, DoorCooling+™, Multi Air Flow™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico dos puertas - LG GTBV22PYNJ, No Frost, 144.5 cm, 217 l, Multi Air Flow™, Inox Antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG GML960PYBE, No Frost, 179.2 cm, 641 l, DoorCooling+™,SpacePlus™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG GSBC40SWPE, No Frost, 179 cm, 662 l, LinearCooling™, MetalFresh™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GTFN256SER, No Frost, 177 cm, 233 l, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBG5160CPY, Total No Frost, 186 cm, 349 l, Instaview™, DoorCooling+, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi integrable - LG GTFN256SET, No Frost, 177 cm, 233 l, Metal Fresh, Sin panelar",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLE81PYBC, No Frost, 179 cm, 628 l, DoorCooling+™, SpacePlus™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico combi - LG GBBS726BPY, Total No Frost, 203 cm, 375 l, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG InstaView Door-In-Door™ GMG861MBAE, No Frost, 178.7 cm, 508 l, Acero texturizado antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - LG GMB860PYDE, No Frost, 178.7 cm, 530 l, LINEARCooling™, ThinQ™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBV3100CPY, No Frost, 186 cm, 344 L, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico americano - LG GSLV91MBAD, No Frost, Sí, Altura 1790 mm, Capacidad 635 l, Inox",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - LG GSLC41PYPE, No Frost, 179 cm, 638 l, LinearCooling™, SpacePlus™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - LG GBBSJ20ESW, No Frost, 203 cm, 375 l, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLC41PYPE, No Frost, 179 cm, 638 l, LinearCooling™, SpacePlus™, Inox antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBV3100ESW, No Frost, 186 cm, 344 l, DoorCooling+™, FRESHBalancer™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Frigorífico una puerta - LG GLM71MCCSX, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Acero negro mate antihuellas",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "REACONDICIONADO Seminuevo Excelente Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 dhStGl"
+        }
+      },
+      {
+        "tag": "h4",
+        "path": "div > div.mms-ui-dlUvRw.mms-ui-dMMuNs.mms-ui-xNKOC > div.sc-8a9804ee-1.cVFAvL.mms-ui-fCjxXV > section.sc-11cfe61b-0.bGSaHX > div.sc-11cfe61b-3.fLxBrq > h4#id-tambin-puede-interesarte",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "También puede interesarte",
+        "attributes": {
+          "id": "id-tambin-puede-interesarte",
+          "class": "sc-59b6826e-0 gwenfU"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 EA SPORTS FC™ 27",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-ade6543-0.ebAIXF > div.sc-ade6543-1.kXoOnq > article.mms-ui-diIxfU.mms-ui-ddgODC.mms-ui-kFYpae > div.mms-ui-haSGNB.mms-ui-jTWvec.mms-ui-cGFOJB > div.mms-ui-HzqAx.mms-ui-kFYpjY.mms-ui-dJhuAD > h3.sc-59b6826e-0.ixTLGf",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Permitir recomendaciones de productos",
+        "attributes": {
+          "class": "sc-59b6826e-0 ixTLGf"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "PS5 Marvel: Lobezno",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lavadora carga frontal - Samsung WW90CGC04DAEEC, 9 kg, 1400 rpm, EcoBubble™, Función WiFi con SmartThings, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.gAUnxO.sc-904cc06d-0 > div.sc-a332ac2c-0.cCWFPp > a.sc-66506eb5-1.cevLqa > h3.sc-59b6826e-0.hPDBSY",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+        "attributes": {
+          "class": "sc-59b6826e-0 hPDBSY"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > div#¿Qué debo tomar en cuenta a la hora de elegir un frigorífico?  > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué debo tomar en cuenta a la hora de elegir un frigorífico?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1 > span.sc-59b6826e-0.lhMCIm.sc-703b2898-2 > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "¿Qué es Door Cooling?",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-jBPiIj.mms-ui-hfJkUq > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Contacto",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:Rp6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Nuestra empresa",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":Rp6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R196lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Servicios",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R196lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > button.mms-ui-dDWCpe.mms-ui-bYPztT.mms-ui-fPSBzf > h3#:R1p6lbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Ofertas y campañas",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R1p6lbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-kJMRPu.mms-ui-eAZrpM > h3#:R5mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Envío seguro con",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R5mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > h3#:R9mlbajct:",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Métodos de pago",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw",
+          "id": ":R9mlbajct:"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "footer > div.mms-ui-feTLPQ.mms-ui-dOmClD.mms-ui-wzeab > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > h3.mms-ui-kMHEba.mms-ui-ezkBTa.mms-ui-gRFqDK",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Descárgate nuestra APP",
+        "attributes": {
+          "class": "mms-ui-kMHEba mms-ui-ezkBTa mms-ui-gRFqDK mms-ui-cAsDZa mms-ui-AMuIw"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "visible=true와 loaded=true인 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 선정",
+        "eligibleImageCount": 97,
+        "top10ByRenderedArea": [
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_168633728?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_170734962?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162852263?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149516843?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_164232361?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149774892?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146847447?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_164232368?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_174795269?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_168633718?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 81,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 82,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+            "alt": "",
+            "renderedWidth": 24,
+            "renderedHeight": 24,
+            "renderedArea": 576,
+            "naturalWidth": 800,
+            "naturalHeight": 800,
+            "naturalArea": 640000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 68,
+            "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+            "alt": "Betterway",
+            "renderedWidth": 216.8125,
+            "renderedHeight": 80,
+            "renderedArea": 17345,
+            "naturalWidth": 1225,
+            "naturalHeight": 452,
+            "naturalArea": 553700,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_168633728?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_170734962?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162852263?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149516843?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_164232361?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149774892?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146847447?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "2026-09-28 사용자 결정에 따라 화면 표시 면적으로 정렬; 제품 카드·CSS 배경·장식 이미지의 포함 범위는 미확정"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Frigoríficos LG al mejor precio | MediaMarkt"
+        ],
+        "metaDescription": [
+          "Descubre la amplia gama de frigoríficos LG de todos los estilos y tamaños para que elijas el que mejor se adapta a tu hogar."
+        ],
+        "h1": [
+          "LG Frigoríficos en MediaMarkt"
+        ],
+        "robots": [
+          "noindex,follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 5,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_168633728?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_170734962?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 8,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_162852263?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149516843?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 10,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_164232361?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 11,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_149774892?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 12,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_146847447?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 13,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_164232368?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 14,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_174795269?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_168633718?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+            "alt": "",
+            "renderedWidth": 322.65625,
+            "renderedHeight": 215.09375,
+            "renderedArea": 69401.3427734375,
+            "naturalWidth": 416,
+            "naturalHeight": 416,
+            "naturalArea": 173056,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBS514AMB, No Frost, 186 cm, 333 l, DoorCooling+™, FRESHBalancer™, Acero texturizado antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBG5160CEV, No Frost, 186 cm, 352 l, DoorCooling+™, Instaview™, ThinQ™, Acero negro grafito",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "instaview",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico una puerta - LG GLM71MBCSF, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Inox",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBBSJ10DPY, No Frost, 186 cm, 375 l, DoorCooling+™, Multi Air Flow™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico americano - LG GML960PYBE, No Frost, 179.2 cm, 641 l, DoorCooling+™,SpacePlus™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico combi - LG GBG5160CPY, Total No Frost, 186 cm, 349 l, Instaview™, DoorCooling+, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "instaview"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLE81PYBC, No Frost, 179 cm, 628 l, DoorCooling+™, SpacePlus™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico americano - LG InstaView Door-In-Door™ GMG861MBAE, No Frost, 178.7 cm, 508 l, Acero texturizado antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "instaview"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - LG GMB860PYDE, No Frost, 178.7 cm, 530 l, LINEARCooling™, ThinQ™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBV3100CPY, No Frost, 186 cm, 344 L, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "freshconverter"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBV3100ESW, No Frost, 186 cm, 344 l, DoorCooling+™, FRESHBalancer™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "Frigorífico una puerta - LG GLM71MCCSX, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Acero negro mate antihuellas",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling",
+              "thinq"
+            ]
+          },
+          {
+            "tag": "h3",
+            "path": "div.mms-ui-kdFIjO.mms-ui-dDWCpe.mms-ui-fPSBzf > div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.fnobFr > a.mms-ui-cJiGkM.mms-ui-eTbxZq.mms-ui-bYPztT > div.sc-a332ac2c-0.hDcNlA > h3.sc-59b6826e-0.dhStGl",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+            "attributes": {
+              "class": "sc-59b6826e-0 dhStGl"
+            },
+            "matchedTerms": [
+              "doorcooling"
+            ]
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "679,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "849,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "899,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "549,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1099,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "999,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "799,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "699,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1199,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1158,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "690,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "494,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "989,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "521,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "441,35€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2055,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "719,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "809,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "674,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "919,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "434,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1169,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1069,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1259,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1049,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1924,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "871,28€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "594,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "462,40€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "899,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "492,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "2098,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "611,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "524,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "509,25€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "577,15€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "938,73€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1217,13€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "629,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "495,03€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "629,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1203,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.kMDfTj > div.sc-23d2d48d-0.dtollO > div.sc-e2b2c965-0.ldLxww > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "431,10€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "69,99€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "449,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "479,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1179,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "219,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "1469,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "56,90€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "364,65€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.sc-bbc5085d-0.fsNTcH > div.sc-23d2d48d-0.iFcxaT.sc-904cc06d-0 > div.sc-e2b2c965-0.heMGGD > div.mms-ui-gEYBWy.mms-ui-gEYBVn.mms-ui-fPSBzf > div.mms-ui-jciMSz.mms-ui-gEYBVn.mms-ui-fPSBzf > span.mms-ui-eZrDh.mms-ui-diFcAJ.mms-ui-dYniYx",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "649,00€",
+            "attributes": {
+              "class": "mms-ui-eZrDh mms-ui-diFcAJ mms-ui-dYniYx mms-ui-cOYWQO mms-ui-jXSfKH mms-ui-gnlqYH mms-ui-RVUSp mms-ui-cbkwRf mms-ui-kFYoVQ"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Frigoríficos americanos",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos/frigorificos-americanos",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Frigoríficos combinados",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos/frigorificos-combinados",
+            "signals": [
+              "페이지 주제어와 일치: frigorificos"
+            ]
+          },
+          {
+            "text": "Mejor precio garantizado",
+            "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+            "signals": [
+              "페이지 주제어와 일치: mejor, precio"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div > div.mms-ui-cYzMIk.mms-ui-hmWpeQ.mms-ui-dlUvRw > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-faCUCc.mms-ui-eAZrpM > div#mms-search-productlist",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Garantía de por vida Vuelta al cole Ficha técnica Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas 919 Basado en 919 valoraciones Medidas (An x Al x F) 59.7 cm x 203 cm x 67.5 cm No Frost Sí Almacenamiento en caso de avería 0 h Iluminación interior Sí -24% 899,– € 899,00€ 679,– € 679,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Frigorífico combi - LG GBBS514AMB, No Frost, 186 cm, 333 l, DoorCooling+™, FRESHBalancer™, Acero texturizado antihuellas 701 Basado en 701 valoraciones Medidas (An x Al x F) 59.7 cm x 186 cm x 67.4 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -19% 1049,– € 1049,00€ 849,– € 849,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Especial hogar Regalo recipientes Ficha técnica Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox antihuellas 553 Basado en 553 valoraciones Medidas (An x Al x F) 69.7 cm x 203 cm x 70.4 cm No Frost Sí Almacenamiento en caso de avería 15 h Iluminación interior Sí -18% 1099,– € 1099,00€ 899,– € 899,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Especial hogar Ficha técnica Frigorífico combi - LG GBG5160CEV, No Frost, 186 cm, 352 l, DoorCooling+™, Instaview™, ThinQ™, Acero negro grafito 200 Basado en 200 valoraciones Medidas (An x Al x F) 59.5 cm x 186 cm x 67.6 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -21% 1149,– € 1149,00€ 899,– € 899,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco 255 Basado en 255 valoraciones Medidas (An x Al x F) 59.7 cm x 186 cm x 67.5 cm No Frost Sí Almacenamiento en caso de avería 9 h Iluminación interior Sí -21% 699,– € 699,00€ 549,– € 549,00€ IVA incl., envío no incl. Simula tu financiación* Disponible online Entrega 30/09/2026 - 01/10/2026 Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Vuelta al cole Ficha técnica Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas 174 Basado en 174 valoraciones Medidas (An x Al x F) 91.3 cm x 179 cm x 73.5 cm Conexión de toma de agua No Dispensador de Hielo Sí Dispensador de Agua Sí -31% 1599,– € 1599,00€ 1099,– € 1099,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Comparar Añadir al carrito Añadir al carrito Garantía de por vida Regalo recipientes Ficha técnica Frigorífico una puerta - LG GLM71MBCSF, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Inox 152 Basado en 152 valoraciones Tipo de dispositivo Frigorífico una puerta Medidas (An x Al x F) 59.5 cm x 186 cm x 70.7 cm No Frost Sí Color (por fabricante) Inox -15% 1179,– € 1179,00€ 999,– € 999,00€ IVA incl., envío no incl. Simula tu financiación* Comprueba disponibilidad en tu código postal Introduzca su código postal Introduzca el código postal Recogida en tienda Consultar disponibilidad Seleccionar tienda Compa",
+            "attributes": {
+              "id": "mms-search-productlist",
+              "class": "mms-ui-bWMjgP mms-ui-huLDqj mms-ui-fPSBzf mms-ui-ZWNVL mms-ui-iRgpoQ mms-ui-dOOQSO"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Un refrigerador plateado LG con etiqueta de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726cpy-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-inox-antihuellas-1604739.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726cpy-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-inox-antihuellas-1604739.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS726CPY, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con etiqueta de garantía de por vida en la puerta superior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs514amb-no-frost-186-cm-333-l-doorcoolingtm-freshbalancertm-acero-texturizado-antihuellas-1604737.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS514AMB, No Frost, 186 cm, 333 l, DoorCooling+™, FRESHBalancer™, Acero texturizado antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs514amb-no-frost-186-cm-333-l-doorcoolingtm-freshbalancertm-acero-texturizado-antihuellas-1604737.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS514AMB, No Frost, 186 cm, 333 l, DoorCooling+™, FRESHBalancer™, Acero texturizado antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado. Tiene congelador inferior y una pegatina de garantía dorada en la puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ai-invertertm-doorcoolingtm-thinq-aitm-inox-antihuellas-1603940.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ai-invertertm-doorcoolingtm-thinq-aitm-inox-antihuellas-1603940.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG negro con puerta de vidrio y varios compartimentos.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbg5160cev-no-frost-186-cm-352-l-doorcoolingtm-instaviewtm-thinqtm-acero-negro-grafito-1591642.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBG5160CEV, No Frost, 186 cm, 352 l, DoorCooling+™, Instaview™, ThinQ™, Acero negro grafito",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbg5160cev-no-frost-186-cm-352-l-doorcoolingtm-instaviewtm-thinqtm-acero-negro-grafito-1591642.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBG5160CEV, No Frost, 186 cm, 352 l, DoorCooling+™, Instaview™, ThinQ™, Acero negro grafito",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG blanco. Tiene la parte superior e inferior negras, con una pegatina de garantía en el medio.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbsj10dsw-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-blanco-1604742.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbsj10dsw-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-blanco-1604742.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG de acero inoxidable con cuatro puertas y dispensador de agua. Pegatina de garantía dorada.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gslv71pztd-no-frost-179-cm-inoxidable-antihuellas-1551479.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gslv71pztd-no-frost-179-cm-inoxidable-antihuellas-1551479.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado con una pegatina de garantía dorada en la puerta, fondo negro.",
+            "href": "https://www.mediamarkt.es/es/product/_lg-electronics-glm71mbcsf-1508080.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico una puerta - LG GLM71MBCSF, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_lg-electronics-glm71mbcsf-1508080.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico una puerta - LG GLM71MBCSF, No Frost, 186 cm, 386 l, DoorCooling+™, ThinQ™, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador blanco con congelador superior. Tiene una etiqueta dorada de garantía y un mango negro.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-lg-gtbv20swzjd-no-frost-168-cm-266-l-doorcoolingtm-multi-air-flowtm-blanco-1604743.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-lg-gtbv20swzjd-no-frost-168-cm-266-l-doorcoolingtm-multi-air-flowtm-blanco-1604743.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico dos puertas - LG GTBV20SWZJD, No Frost, 168 cm, 266 l, DoorCOoling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con etiqueta de garantía de por vida y panel digital.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs313cpy-no-frost-186-cm-333-l-inox-antihuellas-1618629.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs313cpy-no-frost-186-cm-333-l-inox-antihuellas-1618629.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG blanco con una pegatina de garantía y un panel de pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs525csw-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-blanco-1604740.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs525csw-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-blanco-1604740.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con etiqueta de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726apy-no-frost-203-cm-375-l-doorcoolingtm-freshbalancertm-inox-antihuellas-1618628.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726apy-no-frost-203-cm-375-l-doorcoolingtm-freshbalancertm-inox-antihuellas-1618628.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS726APY, No Frost, 203 cm, 375 l, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador plateado LG con dispensador de agua. Pegatina dorada de garantía en la puerta izquierda.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gslc41pype-no-frost-179-cm-638-l-linearcoolingtm-spaceplustm-inox-antihuellas-1569331.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - LG GSLC41PYPE, No Frost, 179 cm, 638 l, LinearCooling™, SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gslc41pype-no-frost-179-cm-638-l-linearcoolingtm-spaceplustm-inox-antihuellas-1569331.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico americano - LG GSLC41PYPE, No Frost, 179 cm, 638 l, LinearCooling™, SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado con un sello de \"Garantía de por vida\".",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbsj10dpy-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-inox-antihuellas-1607162.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBSJ10DPY, No Frost, 186 cm, 375 l, DoorCooling+™, Multi Air Flow™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbsj10dpy-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-inox-antihuellas-1607162.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBSJ10DPY, No Frost, 186 cm, 375 l, DoorCooling+™, Multi Air Flow™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG blanco. Tiene la parte superior e inferior negras, con una pegatina de garantía en el medio.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbsj10dsw-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-blanco-1618249.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbsj10dsw-no-frost-186-cm-375-l-doorcoolingtm-multi-air-flowtm-blanco-1618249.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ10DSW, No Frost, 186 cm, 333 l, DoorCooling+™, Multi Air Flow™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador de acero inoxidable con cuatro puertas, dispensador de agua visible.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-lg-gslv71pztd-no-frost-179-cm-635-l-doorcoolingtm-thinqtm-inox-antihuellas-1586240.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-lg-gslv71pztd-no-frost-179-cm-635-l-doorcoolingtm-thinqtm-inox-antihuellas-1586240.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLV71PZTD, No Frost, 179 cm, 635 l, DoorCooling+™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado con congelador inferior. Tiene una etiqueta de garantía y un panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbsj21dpy-no-frost-203-cm-375-l-doorcoolingtm-multi-air-flow-plata-1617230.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbsj21dpy-no-frost-203-cm-375-l-doorcoolingtm-multi-air-flow-plata-1617230.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado. Tiene congelador superior y refrigerador inferior. Tiene una etiqueta dorada de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-lg-gtbv22pynj-no-frost-1445-cm-217-l-multi-air-flowtm-inox-antihuellas-1604744.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico dos puertas - LG GTBV22PYNJ, No Frost, 144.5 cm, 217 l, Multi Air Flow™, Inox Antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-dos-puertas-lg-gtbv22pynj-no-frost-1445-cm-217-l-multi-air-flowtm-inox-antihuellas-1604744.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico dos puertas - LG GTBV22PYNJ, No Frost, 144.5 cm, 217 l, Multi Air Flow™, Inox Antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador plateado LG con etiqueta de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-lg-gbbs726cpy-nofrost-203cm-375l-doorcoolingtm-digital-freshconvertertm-inox-antihuellas-1624070.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Funcional Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-funcional-frigorifico-combi-lg-gbbs726cpy-nofrost-203cm-375l-doorcoolingtm-digital-freshconvertertm-inox-antihuellas-1624070.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Funcional Frigorífico combi - LG GBBS726CPY, NoFrost, 203cm, 375l, DoorCooling+™, Digital FRESHConverter+™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con cuatro puertas y dispensador de agua.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gml960pybe-no-frost-1792-cm-641-l-doorcoolingtmspaceplustm-inox-antihuellas-1564395.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - LG GML960PYBE, No Frost, 179.2 cm, 641 l, DoorCooling+™,SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gml960pybe-no-frost-1792-cm-641-l-doorcoolingtmspaceplustm-inox-antihuellas-1564395.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico americano - LG GML960PYBE, No Frost, 179.2 cm, 641 l, DoorCooling+™,SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con etiqueta de garantía de por vida y panel digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbs313cpy-no-frost-186-cm-333-l-doorcoolingtm-digital-freshconvertertm-inox-1669793.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbs313cpy-no-frost-186-cm-333-l-doorcoolingtm-digital-freshconvertertm-inox-1669793.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBS313CPY, No Frost, 186 cm, 333 l, DoorCooling+™, Digital FRESHConverter+™, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado. Tiene congelador inferior y una pegatina de garantía dorada en la puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ancho-especial-70-cm-doorcoolingtm-thinq-aitm-inox-1612031.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ancho-especial-70-cm-doorcoolingtm-thinq-aitm-inox-1612031.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado. Tiene congelador inferior y una pegatina de garantía dorada en la puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ancho-especial-70-cm-doorcoolingtm-thinq-aitm-inox-1618537.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-lg-gbbw322cpy-no-frost-203-cm-465-l-ancho-especial-70-cm-doorcoolingtm-thinq-aitm-inox-1618537.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBW322CPY, No Frost, 203 cm, 465 l, Ancho especial 70 cm, DoorCooling+™, ThinQ AI™, Inox",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Frigorífico LG blanco de dos puertas. Con dos puertas, una manija y una pegatina de garantía.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gsbc40swpe-no-frost-179-cm-662-l-linearcoolingtm-metalfreshtm-blanco-1569332.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - LG GSBC40SWPE, No Frost, 179 cm, 662 l, LinearCooling™, MetalFresh™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gsbc40swpe-no-frost-179-cm-662-l-linearcoolingtm-metalfreshtm-blanco-1569332.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico americano - LG GSBC40SWPE, No Frost, 179 cm, 662 l, LinearCooling™, MetalFresh™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG blanco con congelador inferior, visible una pegatina roja 'Nuevo 2025'.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gtfn256ser-no-frost-177-cm-233-l-sin-panelar-1592848.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GTFN256SER, No Frost, 177 cm, 233 l, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gtfn256ser-no-frost-177-cm-233-l-sin-panelar-1592848.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GTFN256SER, No Frost, 177 cm, 233 l, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG plateado con congelador inferior. Tiene una etiqueta de garantía y un panel de control.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-lg-gbbsj21dpy-no-frost-203-cm-375-l-doorcoolingtm-multi-air-flow-plata-1618066.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-lg-gbbsj21dpy-no-frost-203-cm-375-l-doorcoolingtm-multi-air-flow-plata-1618066.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Bueno Frigorífico combi - LG GBBSJ21DPY, No Frost, 203 cm, 375 l, DoorCooling+™, Multi Air Flow, Plata",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG negro y plateado con puerta de cristal muestra estantes iluminados con frascos y botellas.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbg5160cpy-total-no-frost-186-cm-349-l-instaviewtm-doorcooling-inox-antihuellas-1667760.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBG5160CPY, Total No Frost, 186 cm, 349 l, Instaview™, DoorCooling+, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbg5160cpy-total-no-frost-186-cm-349-l-instaviewtm-doorcooling-inox-antihuellas-1667760.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBG5160CPY, Total No Frost, 186 cm, 349 l, Instaview™, DoorCooling+, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG blanco con una pegatina roja 'Nuevo 2025' en la parte inferior.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-integrable-lg-gtfn256set-no-frost-177-cm-233-l-metal-fresh-sin-panelar-1592849.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi integrable - LG GTFN256SET, No Frost, 177 cm, 233 l, Metal Fresh, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-integrable-lg-gtfn256set-no-frost-177-cm-233-l-metal-fresh-sin-panelar-1592849.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi integrable - LG GTFN256SET, No Frost, 177 cm, 233 l, Metal Fresh, Sin panelar",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un gran refrigerador LG de acero inoxidable con cuatro puertas.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-lg-gsle81pybc-no-frost-179-cm-628-l-doorcoolingtm-spaceplustm-inox-antihuellas-1588067.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLE81PYBC, No Frost, 179 cm, 628 l, DoorCooling+™, SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-frigorifico-americano-lg-gsle81pybc-no-frost-179-cm-628-l-doorcoolingtm-spaceplustm-inox-antihuellas-1588067.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Frigorífico americano - LG GSLE81PYBC, No Frost, 179 cm, 628 l, DoorCooling+™, SpacePlus™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con insignia dorada de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726bpy-total-no-frost-2030-cm-375-l-inox-antihuellas-1604738.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico combi - LG GBBS726BPY, Total No Frost, 203 cm, 375 l, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-combi-lg-gbbs726bpy-total-no-frost-2030-cm-375-l-inox-antihuellas-1604738.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico combi - LG GBBS726BPY, Total No Frost, 203 cm, 375 l, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG, acero inoxidable, con dispensador de agua y diseño puerta-en-puerta.",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gmg861mbae-no-frost-1787-cm-508-l-acero-texturizado-antihuellas-1569335.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Frigorífico americano - LG InstaView Door-In-Door™ GMG861MBAE, No Frost, 178.7 cm, 508 l, Acero texturizado antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_frigorifico-americano-lg-gmg861mbae-no-frost-1787-cm-508-l-acero-texturizado-antihuellas-1569335.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos Frigorífico americano - LG InstaView Door-In-Door™ GMG861MBAE, No Frost, 178.7 cm, 508 l, Acero texturizado antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG de acero inoxidable con cuatro puertas y una pegatina roja 2024.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-lg-gmb860pyde-no-frost-1787-cm-530-l-linearcoolingtm-thinqtm-inox-antihuellas-1585545.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Bueno Frigorífico americano - LG GMB860PYDE, No Frost, 178.7 cm, 530 l, LINEARCooling™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-americano-lg-gmb860pyde-no-frost-1787-cm-530-l-linearcoolingtm-thinqtm-inox-antihuellas-1585545.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Bueno Frigorífico americano - LG GMB860PYDE, No Frost, 178.7 cm, 530 l, LINEARCooling™, ThinQ™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Un refrigerador LG blanco con una pegatina de garantía y un panel de pantalla digital.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-lg-gbbs525csw-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-blanco-1619994.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-lg-gbbs525csw-no-frost-203-cm-375-l-doorcoolingtm-digital-freshconvertertm-blanco-1619994.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBBS525CSW, No Frost, 203 cm, 375 l, DoorCooling+™, Digital FRESHConverter+™, Blanco",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Frigorífico LG de acero inoxidable, dos puertas, fondo blanco.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-lg-gbv3100cpy-no-frost-186-cm-344-l-doorcoolingtm-freshbalancertm-inox-antihuellas-1581081.html",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBV3100CPY, No Frost, 186 cm, 344 L, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-frigorifico-combi-lg-gbv3100cpy-no-frost-186-cm-344-l-doorcoolingtm-freshbalancertm-inox-antihuellas-1581081.html",
+            "signals": [
+              "product-like URL",
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Muy bueno Frigorífico combi - LG GBV3100CPY, No Frost, 186 cm, 344 L, DoorCooling+™, FRESHBalancer™, Inox antihuellas",
+            "href": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos?page=4",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "Refrigerador LG plateado con etiqueta de garantía de por vida.",
+            "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-bueno-frigorifico-combi-lg-gbbs726apy-no-frost-203-cm-375-l-doorcoolingtm-freshbalancertm-inox-antihuellas-1670957.html",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.dyVa-du > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#0 > span#acc-header-0",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué debo tomar en cuenta a la hora de elegir un frigorífico?",
+            "attributes": {
+              "id": "acc-header-0",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-closed"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "ul.sc-3db98a6e-0.lieRsK.sc-878f4188-0 > li.sc-703b2898-0.kOVhJX > div.mms-ui-bYPztT.mms-ui-fPSBzf.mms-ui-ZWNVL > div.sc-59b6826e-0.eFQtzO.sc-703b2898-6 > button#1 > span#acc-header-1",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué es Door Cooling?",
+            "attributes": {
+              "id": "acc-header-1",
+              "class": "sc-703b2898-1 dIDjFs mms-accordion-open"
+            }
+          },
+          {
+            "tag": "section",
+            "path": "section.mms-ui-xNKZo.mms-ui-xNKOC > div.mms-ui-icHxVl.mms-ui-kFYpbG.mms-ui-coifUy > div.mms-ui-cYdhWw.mms-ui-kkmdjD.mms-ui-iRzFt > div.mms-ui-fzgLcb.mms-ui-eAZrpM.mms-ui-ddgOEf > div > section.mms-ui-dMMuNs",
+            "matchedBy": [
+              "faq"
+            ],
+            "text": "¿Qué debo tomar en cuenta a la hora de elegir un frigorífico? LG es conocido por ofrecer una gran variedad de frigoríficos con diferentes características y diseños para adaptarse a las necesidades de cada cliente. Los frigoríficos combi, también conocidos como frigoríficos combinados, tienen una parte superior para congelador y una inferior para refrigeración, lo que los hace ideales para familias o personas que necesitan almacenar grandes cantidades de alimentos. Los frigoríficos americanos son grandes y tienen un gran espacio de almacenamiento, con un congelador en la parte inferior y un refrigerador en la parte superior. Los frigoríficos de 2 puertas son similares a los frigoríficos combi, pero tienen dos puertas separadas para el refrigerador y el congelador, lo que facilita el acceso a los alimentos y puede ser una opción más estética para algunas cocinas. Es importante investigar bien antes de tomar una decisión sobre qué frigorífico comprar y elegir el que mejor se adapte a tus necesidades y preferencias. ¿Qué es Door Cooling? DoorCooling+™ se trata de un sistema de enfriamiento que mantiene una temperatura constante en todo el compartimento del refrigerador mediante el uso de ventiladores y conductos de aire. El sistema DoorCooling+™ de LG utiliza ventiladores en la puerta del refrigerador para mantener el aire frío y estable dentro de la nevera, lo que ayuda a evitar las fluctuaciones de temperatura y la acumulación de humedad. Esto también ayuda a mantener los alimentos frescos durante más tiempo, especialmente en las estanterías cerca de la puerta, donde la temperatura puede fluctuar con mayor frecuencia debido al aire caliente que entra y sale del refrigerador cuando se abre y cierra la puerta. Además, esta tecnología ayuda en la distribución del aire frío a todas las zonas del refrigerador, garantizando que todos los alimentos estén a la misma temperatura y conservando la frescura por igual.",
+            "attributes": {
+              "class": "mms-ui-dMMuNs",
+              "itemtype": "https://schema.org/FAQPage"
+            }
+          }
+        ],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

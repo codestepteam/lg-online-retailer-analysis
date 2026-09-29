@@ -1,0 +1,303 @@
+{"offset": "0x29000", "text": "cannot instantiate type, use 'await coroutine' instead"}
+{"offset": "0x29038", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x29060", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x29090", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x290b8", "text": " while calling a Python object"}
+{"offset": "0x290d8", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x29108", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x29130", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x291e0", "text": "function's dictionary may not be deleted"}
+{"offset": "0x29210", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x29240", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x292a0", "text": "invalid input, expected coroutine"}
+{"offset": "0x292c8", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x292f8", "text": "generator raised StopIteration"}
+{"offset": "0x29318", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x29348", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x29378", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x293e0", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x29410", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x29470", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x294a0", "text": "__name__ must be set to a string object"}
+{"offset": "0x294c8", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x29610", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x29648", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x29680", "text": "%.200s() keywords must be strings"}
+{"offset": "0x296a8", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x296d8", "text": "can't send non-None value to a just-started coroutine"}
+{"offset": "0x29710", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x29748", "text": "cannot reuse already awaited coroutine"}
+{"offset": "0x29770", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x297a0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x297e0", "text": "join() result is too long for a Python string"}
+{"offset": "0x29810", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x29838", "text": "/tmp/clinic_build_y1xih54e/cbuild/crawl_retailers/plp/_search_resolve.c"}
+{"offset": "0x29880", "text": "generator ignored GeneratorExit"}
+{"offset": "0x298a0", "text": "coroutine ignored GeneratorExit"}
+{"offset": "0x298c0", "text": "coroutine '%.50S' was never awaited"}
+{"offset": "0x298e8", "text": "crawl_retailers/plp/_search_resolve.py"}
+{"offset": "0x29910", "text": "crawl_retailers.plp._search_resolve.fetch_stealth"}
+{"offset": "0x29948", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x29988", "text": "crawl_retailers.plp._search_resolve.fetch_ssr"}
+{"offset": "0x299b8", "text": "crawl_retailers.plp._search_resolve.rtv_search2_has_tiles"}
+{"offset": "0x299f8", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x29a18", "text": "crawl_retailers.plp._search_resolve._covers"}
+{"offset": "0x29a48", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x29a78", "text": "instance exception may not have a separate value"}
+{"offset": "0x29ab0", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x29af8", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x29b38", "text": "crawl_retailers.plp._search_resolve._pluralize_pl"}
+{"offset": "0x29b70", "text": "Module '_search_resolve' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x29bc8", "text": "crawl_retailers.plp._search_resolve"}
+{"offset": "0x29bf0", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x29c40", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x29c80", "text": "init crawl_retailers.plp._search_resolve"}
+{"offset": "0x29cb0", "text": "coroutine is being awaited already"}
+{"offset": "0x29cd8", "text": "object %.200s can't be used in 'await' expression"}
+{"offset": "0x29d10", "text": "'async for' received an invalid object from __anext__: %.200s"}
+{"offset": "0x29d50", "text": "__await__() returned non-iterator of type '%.200s'"}
+{"offset": "0x29d88", "text": "__await__() returned a coroutine"}
+{"offset": "0x29db0", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x29de0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x29e08", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x29e40", "text": "crawl_retailers.plp._search_resolve.me_lg_slug_valid"}
+{"offset": "0x29e78", "text": "crawl_retailers.plp._search_resolve.me_lg_slug_url"}
+{"offset": "0x29eb0", "text": "crawl_retailers.plp._search_resolve.lg_option_visible"}
+{"offset": "0x29ee8", "text": "crawl_retailers.plp._search_resolve.rtv_is_category_page"}
+{"offset": "0x29f28", "text": "crawl_retailers.plp._search_resolve.rtv_has_marka_state"}
+{"offset": "0x29f60", "text": "crawl_retailers.plp._search_resolve.rtv_canonical"}
+{"offset": "0x29f98", "text": "crawl_retailers.plp._search_resolve.me_is_category_page"}
+{"offset": "0x29fd0", "text": "crawl_retailers.plp._search_resolve.me_has_marka"}
+{"offset": "0x2a008", "text": "crawl_retailers.plp._search_resolve._slug"}
+{"offset": "0x2a038", "text": "crawl_retailers.plp._search_resolve.me_candidates.genexpr"}
+{"offset": "0x2a078", "text": "crawl_retailers.plp._search_resolve.me_candidates"}
+{"offset": "0x2a0b0", "text": "qualified name of the generator"}
+{"offset": "0x2a0d0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x2a100", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2a160", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2a1d0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x2a208", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x2a238", "text": "qualified name of the coroutine"}
+{"offset": "0x2a258", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x2a2b8", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next iterated value or raise StopIteration."}
+{"offset": "0x2a328", "text": "close() -> raise GeneratorExit inside coroutine."}
+{"offset": "0x2a360", "text": "_cython_3_0_12.coroutine_wrapper"}
+{"offset": "0x2a388", "text": "A wrapper object implementing __await__ for coroutines."}
+{"offset": "0x2a3c0", "text": "send(arg) -> send 'arg' into coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2a420", "text": "throw(typ[,val[,tb]]) -> raise exception in coroutine,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x2a490", "text": "crawl_retailers.plp._search_resolve.__pyx_scope_struct_3_fetch_stealth"}
+{"offset": "0x2a4d8", "text": "crawl_retailers.plp._search_resolve.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x2a520", "text": "crawl_retailers.plp._search_resolve.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x2a568", "text": "crawl_retailers.plp._search_resolve.__pyx_scope_struct__fetch_ssr"}
+{"offset": "0x2a5aa", "text": "cannot pickle '%.200s' object"}
+{"offset": "0x2a5c8", "text": "%.200s() needs an argument"}
+{"offset": "0x2a5e3", "text": "Bad call flags for CyFunction"}
+{"offset": "0x2a601", "text": "<cyfunction %U at %p>"}
+{"offset": "0x2a617", "text": "__loader__"}
+{"offset": "0x2a622", "text": "loader"}
+{"offset": "0x2a629", "text": "__file__"}
+{"offset": "0x2a632", "text": "origin"}
+{"offset": "0x2a639", "text": "__package__"}
+{"offset": "0x2a645", "text": "parent"}
+{"offset": "0x2a64c", "text": "__path__"}
+{"offset": "0x2a655", "text": "submodule_search_locations"}
+{"offset": "0x2a670", "text": "keywords must be strings"}
+{"offset": "0x2a689", "text": "_cython_coroutine_type"}
+{"offset": "0x2a6a0", "text": "_cython_generator_type"}
+{"offset": "0x2a6b7", "text": "_module"}
+{"offset": "0x2a6bf", "text": "__builtins__"}
+{"offset": "0x2a6cc", "text": "_cython_3_0_12"}
+{"offset": "0x2a6db", "text": "cannot import name %S"}
+{"offset": "0x2a6f1", "text": "%s (%s:%d)"}
+{"offset": "0x2a6fc", "text": "coroutine already executing"}
+{"offset": "0x2a718", "text": "generator already executing"}
+{"offset": "0x2a734", "text": "at least"}
+{"offset": "0x2a73d", "text": "at most"}
+{"offset": "0x2a745", "text": "fetch_stealth"}
+{"offset": "0x2a753", "text": "fetch_ssr"}
+{"offset": "0x2a75d", "text": "rtv_search2_has_tiles"}
+{"offset": "0x2a773", "text": "exactly"}
+{"offset": "0x2a77b", "text": "_covers"}
+{"offset": "0x2a783", "text": "throw"}
+{"offset": "0x2a789", "text": "_pluralize_pl"}
+{"offset": "0x2a797", "text": "name '%U' is not defined"}
+{"offset": "0x2a7b0", "text": "builtins"}
+{"offset": "0x2a7b9", "text": "cython_runtime"}
+{"offset": "0x2a7c8", "text": "does not match"}
+{"offset": "0x2a7d7", "text": "collections.abc"}
+{"offset": "0x2a7e7", "text": "backports_abc"}
+{"offset": "0x2a7f8", "text": "genexpr"}
+{"offset": "0x2a800", "text": "me_lg_slug_valid"}
+{"offset": "0x2a811", "text": "me_lg_slug_url"}
+{"offset": "0x2a820", "text": "lg_option_visible"}
+{"offset": "0x2a832", "text": "rtv_is_category_page"}
+{"offset": "0x2a847", "text": "rtv_has_marka_state"}
+{"offset": "0x2a85b", "text": "rtv_canonical"}
+{"offset": "0x2a869", "text": "me_is_category_page"}
+{"offset": "0x2a87d", "text": "me_has_marka"}
+{"offset": "0x2a88a", "text": "_slug"}
+{"offset": "0x2a890", "text": "me_candidates"}
+{"offset": "0x2a89e", "text": "_cython_3_0_12.generator"}
+{"offset": "0x2a8b7", "text": "__name__"}
+{"offset": "0x2a8c0", "text": "name of the generator"}
+{"offset": "0x2a8d6", "text": "__qualname__"}
+{"offset": "0x2a8e3", "text": "gi_frame"}
+{"offset": "0x2a8ec", "text": "Frame of the generator"}
+{"offset": "0x2a903", "text": "gi_running"}
+{"offset": "0x2a90e", "text": "gi_yieldfrom"}
+{"offset": "0x2a91b", "text": "gi_code"}
+{"offset": "0x2a923", "text": "__module__"}
+{"offset": "0x2a92e", "text": "send"}
+{"offset": "0x2a933", "text": "close"}
+{"offset": "0x2a939", "text": "__reduce__"}
+{"offset": "0x2a944", "text": "func_doc"}
+{"offset": "0x2a94d", "text": "__doc__"}
+{"offset": "0x2a955", "text": "func_name"}
+{"offset": "0x2a95f", "text": "func_dict"}
+{"offset": "0x2a969", "text": "__dict__"}
+{"offset": "0x2a972", "text": "func_globals"}
+{"offset": "0x2a97f", "text": "__globals__"}
+{"offset": "0x2a98b", "text": "func_closure"}
+{"offset": "0x2a998", "text": "__closure__"}
+{"offset": "0x2a9a4", "text": "func_code"}
+{"offset": "0x2a9ae", "text": "__code__"}
+{"offset": "0x2a9b7", "text": "func_defaults"}
+{"offset": "0x2a9c5", "text": "__defaults__"}
+{"offset": "0x2a9d2", "text": "__kwdefaults__"}
+{"offset": "0x2a9e1", "text": "__annotations__"}
+{"offset": "0x2a9f1", "text": "_is_coroutine"}
+{"offset": "0x2a9ff", "text": "_cython_3_0_12.coroutine"}
+{"offset": "0x2aa18", "text": "name of the coroutine"}
+{"offset": "0x2aa2e", "text": "cr_frame"}
+{"offset": "0x2aa37", "text": "Frame of the coroutine"}
+{"offset": "0x2aa4e", "text": "cr_running"}
+{"offset": "0x2aa59", "text": "cr_await"}
+{"offset": "0x2aa62", "text": "object being awaited, or None"}
+{"offset": "0x2aa80", "text": "cr_code"}
+{"offset": "0x2aa88", "text": "__reduce_ex__"}
+{"offset": "0x2aa96", "text": "_search_resolve"}
+{"offset": "0x2aac0", "text": "crawl_retailers/plp/_search_resolve.py"}
+{"offset": "0x2ab00", "text": "ner-other-categories[\\s\\S]{0,400}?href=\"([^\"]+)\""}
+{"offset": "0x2ab40", "text": "data-automation-id=\"listing-price\""}
+{"offset": "0x2ab80", "text": "crawl_retailers.plp._search_resolve"}
+{"offset": "0x2abc0", "text": "<link rel=\"canonical\" href=\"(https://www\\.mediaexpert\\.pl/agd[^\"]+)\""}
+{"offset": "0x2ac20", "text": "<ems-filters-seo[\\s\\S]*?</ems-filters-seo>"}
+{"offset": "0x2ac50", "text": "me_candidates.<locals>.genexpr"}
+{"offset": "0x2ac80", "text": "\"name\":\"Marka\"[\\s\\S]{0,120}?\"values\":\\["}
+{"offset": "0x2acc0", "text": "href=\"(/agd[a-z-]*/[a-z0-9-]+/[a-z0-9-]+)/"}
+{"offset": "0x2acf0", "text": "https://www.mediaexpert.pl"}
+{"offset": "0x2ad20", "text": "<link rel=\"canonical\" href=\"([^\"]+)\""}
+{"offset": "0x2ad50", "text": "query%5Bquerystring%5D=([^&]+)"}
+{"offset": "0x2ad70", "text": "rtv_search2_has_tiles"}
+{"offset": "0x2ad90", "text": "rtv_is_category_page"}
+{"offset": "0x2adb0", "text": "grupaMARKA|>\\s*MARKA\\s*<"}
+{"offset": "0x2add0", "text": "rtv_has_marka_state"}
+{"offset": "0x2adf0", "text": "me_is_category_page"}
+{"offset": "0x2ae10", "text": "cline_in_traceback"}
+{"offset": "0x2ae30", "text": "class=\"filter-group\""}
+{"offset": "0x2ae50", "text": "asyncio.coroutines"}
+{"offset": "0x2ae70", "text": "lg_option_visible"}
+{"offset": "0x2ae90", "text": "me_lg_slug_valid"}
+{"offset": "0x2aea8", "text": "fetch_stealth("}
+{"offset": "0x2aeb8", "text": "me_lg_slug_url"}
+{"offset": "0x2aec8", "text": "rtv_canonical"}
+{"offset": "0x2aed8", "text": "me_candidates"}
+{"offset": "0x2aee8", "text": "fetch_stealth"}
+{"offset": "0x2aef8", "text": "urllib.parse"}
+{"offset": "0x2af08", "text": "unquote_plus"}
+{"offset": "0x2af18", "text": "resolved_url"}
+{"offset": "0x2af28", "text": "_pluralize_pl"}
+{"offset": "0x2af38", "text": "me_has_marka"}
+{"offset": "0x2af48", "text": "_is_coroutine"}
+{"offset": "0x2af58", "text": "_initializing"}
+{"offset": "0x2af68", "text": "unicodedata"}
+{"offset": "0x2af80", "text": "<title>([^<]{0,120})"}
+{"offset": "0x2af98", "text": "scrapingbee"}
+{"offset": "0x2afa8", "text": "most_common"}
+{"offset": "0x2afb8", "text": "fetch_ssr("}
+{"offset": "0x2afc8", "text": "dept_prefix"}
+{"offset": "0x2afd8", "text": "collections"}
+{"offset": "0x2afe8", "text": "startswith"}
+{"offset": "0x2aff8", "text": "translate"}
+{"offset": "0x2b008", "text": "render_js"}
+{"offset": "0x2b018", "text": "normalize"}
+{"offset": "0x2b028", "text": "maketrans"}
+{"offset": "0x2b038", "text": "isenabled"}
+{"offset": "0x2b048", "text": "has_marka"}
+{"offset": "0x2b058", "text": "getLogger"}
+{"offset": "0x2b068", "text": "fetch_ssr"}
+{"offset": "0x2b078", "text": "base_slug"}
+{"offset": "0x2b088", "text": "acelnoszz"}
+{"offset": "0x2b098", "text": "urlsplit"}
+{"offset": "0x2b0a8", "text": "top_path"}
+{"offset": "0x2b0b8", "text": "str | None"}
+{"offset": "0x2b0c8", "text": "list[str]"}
+{"offset": "0x2b0d8", "text": "leftover"}
+{"offset": "0x2b0e8", "text": "endswith"}
+{"offset": "0x2b0f8", "text": "urljoin"}
+{"offset": "0x2b100", "text": "stealth"}
+{"offset": "0x2b108", "text": "premium"}
+{"offset": "0x2b110", "text": "logging"}
+{"offset": "0x2b118", "text": "genexpr"}
+{"offset": "0x2b120", "text": "findall"}
+{"offset": "0x2b128", "text": "disable"}
+{"offset": "0x2b130", "text": "deptseg"}
+{"offset": "0x2b138", "text": "crawler"}
+{"offset": "0x2b140", "text": "covered"}
+{"offset": "0x2b148", "text": "country"}
+{"offset": "0x2b150", "text": "Counter"}
+{"offset": "0x2b158", "text": "tokens"}
+{"offset": "0x2b15f", "text": "status"}
+{"offset": "0x2b166", "text": "search"}
+{"offset": "0x2b170", "text": ">\\s*LG\\s*\\("}
+{"offset": "0x2b17c", "text": "rstrip"}
+{"offset": "0x2b183", "text": "rsplit"}
+{"offset": "0x2b18a", "text": "return"}
+{"offset": "0x2b191", "text": "render"}
+{"offset": "0x2b198", "text": "__import__"}
+{"offset": "0x2b1a3", "text": "groups"}
+{"offset": "0x2b1aa", "text": "enable"}
+{"offset": "0x2b1b8", "text": "_covers"}
+{"offset": "0x2b1c0", "text": "aeiouy"}
+{"offset": "0x2b1c8", "text": "[^a-z0-9]+"}
+{"offset": "0x2b1d8", "text": "_PL_MAP"}
+{"offset": "0x2b1e0", "text": "token"}
+{"offset": "0x2b1e6", "text": "throw"}
+{"offset": "0x2b1ec", "text": "strip"}
+{"offset": "0x2b1f2", "text": "split"}
+{"offset": "0x2b1f8", "text": "quote"}
+{"offset": "0x2b1fe", "text": "ptail"}
+{"offset": "0x2b204", "text": "paths"}
+{"offset": "0x2b20a", "text": "lower"}
+{"offset": "0x2b210", "text": "group"}
+{"offset": "0x2b216", "text": "fetch"}
+{"offset": "0x2b21c", "text": "debug"}
+{"offset": "0x2b222", "text": "count"}
+{"offset": "0x2b228", "text": "close"}
+{"offset": "0x2b22e", "text": "canon"}
+{"offset": "0x2b234", "text": "bslug"}
+{"offset": "0x2b23a", "text": "\\bLG\\b"}
+{"offset": "0x2b248", "text": "__await__"}
+{"offset": "0x2b252", "text": "uniq"}
+{"offset": "0x2b257", "text": "text"}
+{"offset": "0x2b260", "text": "__test__"}
+{"offset": "0x2b269", "text": "tail"}
+{"offset": "0x2b270", "text": "__spec__"}
+{"offset": "0x2b279", "text": "_slug"}
+{"offset": "0x2b27f", "text": "send"}
+{"offset": "0x2b284", "text": "seen"}
+{"offset": "0x2b289", "text": "safe"}
+{"offset": "0x2b28e", "text": "path"}
+{"offset": "0x2b298", "text": "__name__"}
+{"offset": "0x2b2a8", "text": "__main__"}
+{"offset": "0x2b2b1", "text": "html"}
+{"offset": "0x2b2b6", "text": "_cost"}
+{"offset": "0x2b2bc", "text": "core"}
+{"offset": "0x2b2c1", "text": "bool"}
+{"offset": "0x2b2c6", "text": "base"}
+{"offset": "0x2b2cb", "text": "args"}
+{"offset": "0x2b2d0", "text": "None"}
+{"offset": "0x2b300", "text": "ąćęłńóśżź"}
+{"offset": "0x2b338", "text": ") 실패: "}
+{"offset": "0x2b343", "text": ":/?&=%"}
+{"offset": "0x2b350", "text": ",_LG(?=[.,])"}

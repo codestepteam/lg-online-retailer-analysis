@@ -1,0 +1,1710 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0064-amazon-it",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.amazon.it/stores/page/BE105E08-9382-4237-A680-117A656096C3?lp_context_asin=B0CWS3GC7P",
+    "finalUrl": "https://www.amazon.it/stores/page/BE105E08-9382-4237-A680-117A656096C3?lp_context_asin=B0CWS3GC7P",
+    "capturedAt": "2026-09-28T08:01:37.772221+09:00",
+    "collectionOk": true,
+    "title": "Amazon.it: Candy: LAVATRICI"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0064-amazon-it/brand-category/raw.html",
+      "sha256": "60cafef5ae98a3b6423537c5d7b552477e32370968cce4b30b35a874169fada3"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0064-amazon-it/brand-category/capture-state.json",
+      "sha256": "adaa778820cf7250497551e4abf45196257d749b2689c8b289763cf8a71e1714"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0064-amazon-it/brand-category/response.json",
+      "sha256": "28aea64b9849b233e33df2ed1c4fb3ba376880c4b877e6623a1edf07bfc4c3d1"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assistant-links-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Passa a",
+        "attributes": {
+          "id": "nav-assistant-links-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html.a-ws.a-js.a-audio > body.a-m-it.a-aui_72554-c.a-aui_template_weblab_cache_333406-c > div#a-page > nav#shortcut-menu > h2#nav-assist-shortcuts-heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Tasti di scelta rapida",
+        "attributes": {
+          "id": "nav-assist-shortcuts-heading",
+          "class": "nav-assistant-heading nav-assistant-headers-font font-color"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h2.EditorialTileProduct__title__rodF5",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Candy Smart Slim",
+        "attributes": {
+          "class": "EditorialTileProduct__title__rodF5"
+        }
+      },
+      {
+        "tag": "h3",
+        "path": "div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > div.EditorialTileProduct__productTile__efD1R.EditorialTileProduct__small__Hj1Od.default > div.EditorialTileProduct__inner__Px1QT.EditorialTileProduct__rectangular__MqxNA > div.EditorialTileProduct__textColumn__f7ZQO > h3.EditorialTileProduct__text__Ggktv",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Candy Rapidò, Lavatrice SLIM spazi ridotti, 9 KG, Classe A -40%",
+        "attributes": {
+          "class": "EditorialTileProduct__text__Ggktv"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Advertising",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Music",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "AbeBooks",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Audible",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Web Services",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Seconda mano",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kindle Direct Publishing",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Shopbop",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      },
+      {
+        "tag": "h5",
+        "path": "div.navFooterLine.navFooterLinkLine.navFooterDescLine > div.navFooterMoreOnAmazon.navFooterMoreOnAmazonWrapper > ul > li.navFooterDescItem > a.nav_a > h5.navFooterDescItem_heading",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Amazon Business",
+        "attributes": {
+          "class": "navFooterDescItem_heading"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 53,
+        "top10ByRenderedArea": [
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ff6ba61f-a214-4c00-8a15-3f709e804918._CR0%2C225%2C1500%2C300_SX1500_.jpg",
+            "alt": "Modern laundry room featuring built-in washer, wooden storage cabinet, and tiled walls in blue and white color scheme.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0cd7888c-f67d-4d5b-bee2-c3625f3a8204._CR0%2C21%2C1672%2C836_SX750_SY375_.png",
+            "alt": "Text reads \"CANDY\", \"Pronto a sporcarti?\", \"ProWash 550 Plus\". Young child with blonde hair in striped shirt holding blue object near mouth in kitchen setting. Dark circular product image (washing machine) shown in bottom right corner.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a5239a5e-6f77-4669-92bf-01d91aa4cdf9._CR0%2C0%2C1774%2C887_SX750_SY375_.png",
+            "alt": "Text reads 'CANDY PROWASH 550 PLUS RP 4.98L11UC-S LAVATRICE CARICA FRONTALE' with '10 ANNI' warranty badge. Front-load washing machine with black drum, white exterior. Six feature icons display: capacity, energy rating A+, noise level, AI silent motion, Wi-Fi app control, and proactive wash function.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16ffc625-bc4e-49c9-a902-9bf2018d4b5d._CR50%2C0%2C1400%2C700_SX750_SY375_.jpg",
+            "alt": "a child in a pink hat with a pink hat",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/712gm7e32CL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 700 Mini Lavatrice Slim 5 Kg, Classe A | Motore Inverter, Cicli Rapidi, Wi-Fi, Design Compatto, Smart Spray, Trattamento Antibatterico, Silenziosa, CW50-BP12307WU-S",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 330,
+            "naturalHeight": 330,
+            "naturalArea": 108900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://m.media-amazon.com/images/I/7101Kf6ZIZL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 550 PLUS Lavatrice 9 Kg, 1400 Giri, Classe A-45%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, 60 Programmi, 72 dB, LxPxA 60x51x85 cm, BP 49BL11UC-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/71ApQ3+v6oL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy Smart Pro Inverter, Lavatrice, Capacità: 10 KG, Classe A-10%, 1600 giri, 78 dB, Cicli Rapidi, 16 programmi, Bianco, AxLxP 85x60x58 cm - CSO 6106TWMC6/1-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61pNcVyn90L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Antracite | Motore Inverter BPM, AI Silent Motion, Vapore, Smart Spray, Wi-Fi, App hOn, 60 Programmi, 72 dB, 60x58x85 cm, BR 410BL8G-S",
+            "renderedWidth": 218.71875,
+            "renderedHeight": 302,
+            "renderedArea": 66053.0625,
+            "naturalWidth": 239,
+            "naturalHeight": 330,
+            "naturalArea": 78870,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://m.media-amazon.com/images/I/615gx6r+6-L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy RapidÓ PRO RP 4116BWMBC/1-S Lavatrice Caricamento Frontale 11 kg 1400 Giri/min Bianco, 15+1 programmi, Controllo remoto avanzato e contenuti extra (Wi-Fi + BLE), L x P x A (cm) 60x62x85",
+            "renderedWidth": 216.890625,
+            "renderedHeight": 302,
+            "renderedArea": 65500.96875,
+            "naturalWidth": 237,
+            "naturalHeight": 330,
+            "naturalArea": 78210,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/61nvwWoymIL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 300 Lavatrice Super Slim 6 Kg, 1000 Giri, Classe A | Motore Inverter BPM, Vapore, Cicli Rapidi, Partenza Ritardata, 16 Programmi, 70 dB, GD 06SS6-S",
+            "renderedWidth": 215.96875,
+            "renderedHeight": 302,
+            "renderedArea": 65222.5625,
+            "naturalWidth": 236,
+            "naturalHeight": 330,
+            "naturalArea": 77880,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 8,
+            "src": "https://m.media-amazon.com/images/I/71m+8oh-6cL._AC_CR0%2C0%2C0%2C0_SX750_.jpg",
+            "alt": "",
+            "renderedWidth": 170.390625,
+            "renderedHeight": 244,
+            "renderedArea": 41575.3125,
+            "naturalWidth": 750,
+            "naturalHeight": 1074,
+            "naturalArea": 805500,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ff6ba61f-a214-4c00-8a15-3f709e804918._CR0%2C225%2C1500%2C300_SX1500_.jpg",
+            "alt": "Modern laundry room featuring built-in washer, wooden storage cabinet, and tiled walls in blue and white color scheme.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0cd7888c-f67d-4d5b-bee2-c3625f3a8204._CR0%2C21%2C1672%2C836_SX750_SY375_.png",
+            "alt": "Text reads \"CANDY\", \"Pronto a sporcarti?\", \"ProWash 550 Plus\". Young child with blonde hair in striped shirt holding blue object near mouth in kitchen setting. Dark circular product image (washing machine) shown in bottom right corner.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a5239a5e-6f77-4669-92bf-01d91aa4cdf9._CR0%2C0%2C1774%2C887_SX750_SY375_.png",
+            "alt": "Text reads 'CANDY PROWASH 550 PLUS RP 4.98L11UC-S LAVATRICE CARICA FRONTALE' with '10 ANNI' warranty badge. Front-load washing machine with black drum, white exterior. Six feature icons display: capacity, energy rating A+, noise level, AI silent motion, Wi-Fi app control, and proactive wash function.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16ffc625-bc4e-49c9-a902-9bf2018d4b5d._CR50%2C0%2C1400%2C700_SX750_SY375_.jpg",
+            "alt": "a child in a pink hat with a pink hat",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/712gm7e32CL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 700 Mini Lavatrice Slim 5 Kg, Classe A | Motore Inverter, Cicli Rapidi, Wi-Fi, Design Compatto, Smart Spray, Trattamento Antibatterico, Silenziosa, CW50-BP12307WU-S",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 330,
+            "naturalHeight": 330,
+            "naturalArea": 108900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://m.media-amazon.com/images/I/7101Kf6ZIZL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 550 PLUS Lavatrice 9 Kg, 1400 Giri, Classe A-45%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, 60 Programmi, 72 dB, LxPxA 60x51x85 cm, BP 49BL11UC-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/71ApQ3+v6oL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy Smart Pro Inverter, Lavatrice, Capacità: 10 KG, Classe A-10%, 1600 giri, 78 dB, Cicli Rapidi, 16 programmi, Bianco, AxLxP 85x60x58 cm - CSO 6106TWMC6/1-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61pNcVyn90L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Antracite | Motore Inverter BPM, AI Silent Motion, Vapore, Smart Spray, Wi-Fi, App hOn, 60 Programmi, 72 dB, 60x58x85 cm, BR 410BL8G-S",
+            "renderedWidth": 218.71875,
+            "renderedHeight": 302,
+            "renderedArea": 66053.0625,
+            "naturalWidth": 239,
+            "naturalHeight": 330,
+            "naturalArea": 78870,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://m.media-amazon.com/images/I/615gx6r+6-L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy RapidÓ PRO RP 4116BWMBC/1-S Lavatrice Caricamento Frontale 11 kg 1400 Giri/min Bianco, 15+1 programmi, Controllo remoto avanzato e contenuti extra (Wi-Fi + BLE), L x P x A (cm) 60x62x85",
+            "renderedWidth": 216.890625,
+            "renderedHeight": 302,
+            "renderedArea": 65500.96875,
+            "naturalWidth": 237,
+            "naturalHeight": 330,
+            "naturalArea": 78210,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Amazon.it: Candy: LAVATRICI"
+        ],
+        "metaDescription": [
+          "Lavatrici"
+        ],
+        "h1": [],
+        "robots": []
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.amazon.it/stores/Candy/page/BE105E08-9382-4237-A680-117A656096C3"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div.a-column.a-span12.stores-column > div#Header-Co27dm2r5i > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__hero__Oz7Jk",
+              "data-testid": "hero-image"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#Header-Co27dm2r5i > div > div.Header__header__g41Bi.Header__left__WRNV4.Header__hasLogo___fSeE > div > div.Hero__hero__Oz7Jk > img.Hero__heroImage__rxHb5.Image__cover__CuIOR",
+            "matchedBy": [
+              "hero"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "Hero__heroImage__rxHb5 Image__cover__CuIOR",
+              "data-testid": "image"
+            }
+          }
+        ],
+        "largeVisibleImages": [
+          {
+            "index": 2,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ff6ba61f-a214-4c00-8a15-3f709e804918._CR0%2C225%2C1500%2C300_SX1500_.jpg",
+            "alt": "Modern laundry room featuring built-in washer, wooden storage cabinet, and tiled walls in blue and white color scheme.",
+            "renderedWidth": 1500,
+            "renderedHeight": 300,
+            "renderedArea": 450000,
+            "naturalWidth": 1500,
+            "naturalHeight": 300,
+            "naturalArea": 450000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 5,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/0cd7888c-f67d-4d5b-bee2-c3625f3a8204._CR0%2C21%2C1672%2C836_SX750_SY375_.png",
+            "alt": "Text reads \"CANDY\", \"Pronto a sporcarti?\", \"ProWash 550 Plus\". Young child with blonde hair in striped shirt holding blue object near mouth in kitchen setting. Dark circular product image (washing machine) shown in bottom right corner.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 6,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/a5239a5e-6f77-4669-92bf-01d91aa4cdf9._CR0%2C0%2C1774%2C887_SX750_SY375_.png",
+            "alt": "Text reads 'CANDY PROWASH 550 PLUS RP 4.98L11UC-S LAVATRICE CARICA FRONTALE' with '10 ANNI' warranty badge. Front-load washing machine with black drum, white exterior. Six feature icons display: capacity, energy rating A+, noise level, AI silent motion, Wi-Fi app control, and proactive wash function.",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 7,
+            "src": "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/16ffc625-bc4e-49c9-a902-9bf2018d4b5d._CR50%2C0%2C1400%2C700_SX750_SY375_.jpg",
+            "alt": "a child in a pink hat with a pink hat",
+            "renderedWidth": 727.5,
+            "renderedHeight": 356.25,
+            "renderedArea": 259171.875,
+            "naturalWidth": 750,
+            "naturalHeight": 375,
+            "naturalArea": 281250,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://m.media-amazon.com/images/I/712gm7e32CL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 700 Mini Lavatrice Slim 5 Kg, Classe A | Motore Inverter, Cicli Rapidi, Wi-Fi, Design Compatto, Smart Spray, Trattamento Antibatterico, Silenziosa, CW50-BP12307WU-S",
+            "renderedWidth": 260,
+            "renderedHeight": 302,
+            "renderedArea": 78520,
+            "naturalWidth": 330,
+            "naturalHeight": 330,
+            "naturalArea": 108900,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://m.media-amazon.com/images/I/7101Kf6ZIZL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 550 PLUS Lavatrice 9 Kg, 1400 Giri, Classe A-45%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, 60 Programmi, 72 dB, LxPxA 60x51x85 cm, BP 49BL11UC-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 51,
+            "src": "https://m.media-amazon.com/images/I/71ApQ3+v6oL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy Smart Pro Inverter, Lavatrice, Capacità: 10 KG, Classe A-10%, 1600 giri, 78 dB, Cicli Rapidi, 16 programmi, Bianco, AxLxP 85x60x58 cm - CSO 6106TWMC6/1-S",
+            "renderedWidth": 220.546875,
+            "renderedHeight": 302,
+            "renderedArea": 66605.15625,
+            "naturalWidth": 241,
+            "naturalHeight": 330,
+            "naturalArea": 79530,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 9,
+            "src": "https://m.media-amazon.com/images/I/61pNcVyn90L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Antracite | Motore Inverter BPM, AI Silent Motion, Vapore, Smart Spray, Wi-Fi, App hOn, 60 Programmi, 72 dB, 60x58x85 cm, BR 410BL8G-S",
+            "renderedWidth": 218.71875,
+            "renderedHeight": 302,
+            "renderedArea": 66053.0625,
+            "naturalWidth": 239,
+            "naturalHeight": 330,
+            "naturalArea": 78870,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://m.media-amazon.com/images/I/615gx6r+6-L._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy RapidÓ PRO RP 4116BWMBC/1-S Lavatrice Caricamento Frontale 11 kg 1400 Giri/min Bianco, 15+1 programmi, Controllo remoto avanzato e contenuti extra (Wi-Fi + BLE), L x P x A (cm) 60x62x85",
+            "renderedWidth": 216.890625,
+            "renderedHeight": 302,
+            "renderedArea": 65500.96875,
+            "naturalWidth": 237,
+            "naturalHeight": 330,
+            "naturalArea": 78210,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 15,
+            "src": "https://m.media-amazon.com/images/I/61nvwWoymIL._AC_CR0%2C0%2C0%2C0_SX352_SY330_.jpg",
+            "alt": "Image of Candy ProWash 300 Lavatrice Super Slim 6 Kg, 1000 Giri, Classe A | Motore Inverter BPM, Vapore, Cicli Rapidi, Partenza Ritardata, 16 Programmi, 70 dB, GD 06SS6-S",
+            "renderedWidth": 215.96875,
+            "renderedHeight": 302,
+            "renderedArea": 65222.5625,
+            "naturalWidth": 236,
+            "naturalHeight": 330,
+            "naturalArea": 77880,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "a",
+            "path": "div.EditorialRow__row__W3W3h.EditorialRow__double__CSn3h.EditorialRow__noText__JEo76 > div#G197otj8k8 > div.EditorialTile__container__MuV7R > div.EditorialTile__content__Ey9JH > div.EditorialTile__innerContent__n92i8 > a.Overlay__overlay__LloCU.EditorialTile__overlay__RMD1L",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "aria-label": "Text reads 'CANDY PROWASH 550 PLUS RP 4.98L11UC-S LAVATRICE CARICA FRONTALE' with '10 ANNI' warranty badge. Front-load washing machine with black drum, white exterior. Six feature icons display: capacity, energy rating A+, noise level, AI silent motion, Wi-Fi app control, and proactive wash function.",
+              "role": "link",
+              "class": "Overlay__overlay__LloCU EditorialTile__overlay__RMD1L"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Candy",
+            "href": "https://www.amazon.it/stores/page/363DB808-BFEB-4A34-B0DC-8FD7BA72C62C?ingress=0&lp_context_asin=B0CWS3GC7P&visitId=495c26cc-129b-4426-891f-4200c40f3ed9",
+            "signals": [
+              "페이지 주제어와 일치: candy"
+            ]
+          },
+          {
+            "text": "LAVATRICI",
+            "href": "https://www.amazon.it/stores/page/BE105E08-9382-4237-A680-117A656096C3?lp_context_asin=B0CWS3GC7P#",
+            "signals": [
+              "페이지 주제어와 일치: lavatrici"
+            ]
+          },
+          {
+            "text": "CANDY MULTIWASH",
+            "href": "https://www.amazon.it/stores/page/DD9C032A-1216-49D6-88AA-479E7ACA6AEC?ingress=0&lp_context_asin=B0CWS3GC7P&visitId=495c26cc-129b-4426-891f-4200c40f3ed9",
+            "signals": [
+              "페이지 주제어와 일치: candy"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice 10 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 10 Kg, 1400... 449 , 00 € Ricevilo entro 1 ottobre - 7 dicembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice a Carica...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice a Carica... 4,0 4,0 su 5 stelle 57 4,0 su 5 stelle. 57 recensioni dei clienti - 20% 359 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 449 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 550 Lavatrice 9 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 550 Lavatrice 9 Kg, 1400... - 15% 469 , 00 € Offerta a tempo Prezzo più basso ultimi 30gg: Barrato - Prezzo più basso ultimi 30gg: 549 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 300 Lavatrice Super Slim 6...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavatrici Visualizzazione rapida Candy ProWash 300 Lavatrice Super Slim 6... 4,3 4,3 su 5 stelle 215 4,3 su 5 stelle. 215 recensioni dei clienti 360 , 09 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy MultiWash Lavatrice 3 Oblò...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy MultiWash Lavatrice 3 Oblò... 3,3 3,3 su 5 stelle 8 3,3 su 5 stelle. 8 recensioni dei clienti 908 , 95 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Easy Pro Lavatrice Slim 7 Kg, Classe...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Easy Pro Lavatrice Slim 7 Kg, Classe... 4,4 4,4 su 5 stelle 52 4,4 su 5 stelle. 52 recensioni dei clienti 299 , 00 € Ricevilo entro 7 ottobre - 27 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Easy Pro Lavatrice 7 Kg, 1200 Giri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Easy Pro Lavatrice 7 Kg, 1200 Giri,... 3,7 3,7 su 5 stelle 4 3,7 su 5 stelle. 4 recensioni dei clienti 299 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Easy Pro Lavatrice 8 Kg, 1200 Giri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Easy Pro Lavatrice 8 Kg, 1200 Giri,... 3,7 3,7 su 5 stelle 4 3,7 su 5 stelle. 4 recensioni dei clienti 294 , 15 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Easy Pro Lavatrice 9 Kg, 1200 Giri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Easy Pro Lavatrice 9 Kg, 1200 Giri,... 3,7 3,7 su 5 stelle 4 3,7 su 5 stelle. 4 recensioni dei clienti 326 , 66 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 10 Kg, 1400... 4,3 4,3 su 5 stelle 56 4,3 su 5 stelle. 56 recensioni dei clienti 368 , 98 € Ricevilo entro il giorno martedì 27 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice 11 Kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 11 Kg,... 4,3 4,3 su 5 stelle 11 4,3 su 5 stelle. 11 recensioni dei clienti -40% 398 , 20 € Prezzo consigliato: Barrato - Prezzo consigliato: 661 , 20 € Ricevilo entro il giorno mercoledì 7 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 550 PLUS Lavatrice 9 Kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 550 PLUS Lavatrice 9 Kg,... 412 , 30 € Ricevilo entro il giorno lunedì 5 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice a Carica... 3,5 3,5 su 5 stelle 7 3,5 su 5 stelle. 7 recensioni dei clienti -6% 374 , 99 € Prezzo consigliato: Barrato - Prezzo consigliato: 399 , 00 € Ricevilo entro il giorno martedì 27 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 10 Kg, 1400... 4,2 4,2 su 5 stelle 81 4,2 su 5 stelle. 81 recensioni dei clienti 468 , 00 € Ricevilo entro il giorno martedì 27 ottobre 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 700 Lavatrice Slim a Carica...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 700 Lavatrice Slim a Carica... 1,0 1,0 su 5 stelle 4 1,0 su 5 stelle. 4 recensioni dei clienti 399 , 00 € Ricevilo entro il giorno martedì 27 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 300 Lavatrice Slim a Carica...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 300 Lavatrice Slim a Carica... 4,0 4,0 su 5 stelle 57 4,0 su 5 stelle. 57 recensioni dei clienti 322 , 38 € Ricevilo entro 1 ottobre - 9 novembre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 300 Lavatrice 10 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavatrici Visualizzazione rapida Candy ProWash 300 Lavatrice 10 Kg, 1400... 4,3 4,3 su 5 stelle 215 4,3 su 5 stelle. 215 recensioni dei clienti -16% 349 , 00 € Offerta a tempo Prezzo consigliato: Barrato - Prezzo consigliato: 414 , 00 € 50 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 300 Lavatrice 9 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavatrici Visualizzazione rapida Candy ProWash 300 Lavatrice 9 Kg, 1400... 4,3 4,3 su 5 stelle 215 4,3 su 5 stelle. 215 recensioni dei clienti -13% 303 , 47 € Prezzo consigliato: Barrato - Prezzo consigliato: 349 , 99 € Ricevilo entro 8 ottobre - 27 ottobre 500 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 700 Mini Lavatrice Slim 5...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 700 Mini Lavatrice Slim 5... 4,4 4,4 su 5 stelle 43 4,4 su 5 stelle. 43 recensioni dei clienti -6% 496 , 24 € Prezzo consigliato: Barrato - Prezzo consigliato: 527 , 75 € Ricevilo entro il giorno martedì 27 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice 9 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 9 Kg, 1400... 4,5 4,5 su 5 stelle 2 4,5 su 5 stelle. 2 recensioni dei clienti -13% 349 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 399 , 00 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Smart Lavatrice 9 Kg, 1200 Giri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Smart Lavatrice 9 Kg, 1200 Giri,... 5,0 5,0 su 5 stelle 1 5,0 su 5 stelle. 1 recensioni dei clienti 277 , 67 € Ricevilo entro il giorno martedì 6 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice 7 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 7 Kg, 1400... 4,2 4,2 su 5 stelle 81 4,2 su 5 stelle. 81 recensioni dei clienti 497 , 99 € Ricevilo entro il giorno martedì 27 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Smart Lavatrice 7 Kg, 1200 Giri,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Smart Lavatrice 7 Kg, 1200 Giri,... 4,2 4,2 su 5 stelle 52 4,2 su 5 stelle. 52 recensioni dei clienti -33% 269 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 404 , 10 € Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 300 Lavatrice Slim 7 Kg,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Best seller Lavatrici Visualizzazione rapida Candy ProWash 300 Lavatrice Slim 7 Kg,... 4,3 4,3 su 5 stelle 215 4,3 su 5 stelle. 215 recensioni dei clienti -27% 329 , 00 € Prezzo consigliato: Barrato - Prezzo consigliato: 449 , 00 € Ricevilo entro il giorno martedì 27 ottobre 100 + acquistati nel mese scorso Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy ProWash 500 Lavatrice 8 Kg, 1400...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy ProWash 500 Lavatrice 8 Kg, 1400... 4,2 4,2 su 5 stelle 81 4,2 su 5 stelle. 81 recensioni dei clienti 299 , 99 € Ricevilo entro 1 ottobre - 30 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy Smart Pro Inverter, Lavatrice,...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > div > div.columns > div.ProductGrid__gridContainer__bRK6J.ProductGrid__centerGridItems__wIvqP.ProductGrid__grid-tapestry__iHaC3 > ul.ProductGrid__grid__f5oba.ProductGrid__asin-face-out__kKLj0 > li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Visualizzazione rapida Candy Smart Pro Inverter, Lavatrice,... 4,6 4,6 su 5 stelle 170 4,6 su 5 stelle. 170 recensioni dei clienti 649 , 00 € Ricevilo entro il giorno giovedì 8 ottobre Aggiungi al carrello",
+            "attributes": {
+              "class": "ProductGridItem__itemOuter__KUtvv ProductGridItem__grid-tapestry__D0bpE ProductGridItem__fixed__DQzmO ProductGridItem__itemOuter-afo__c_oYc",
+              "data-testid": "product-grid-item"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "li.ProductGridItem__itemOuter__KUtvv.ProductGridItem__grid-tapestry__D0bpE.ProductGridItem__fixed__DQzmO > div.ProductGridItem__item__IkSDt.ProductGridItem__item-with-best-seller__JKmOp > div.ProductGridItem__itemInfo__wl2YN > div.ProductGridItem__itemInfoChild__hUHB0 > div.ProductGridItem__truncate-afo__oW22E.Title__truncateTitle__DGaow > a.Title__title__z5HRm.ProductGridItem__title-afo__ynHbV",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Candy RapidÓ PRO RP 4116BWMBC/1-S...",
+            "attributes": {
+              "class": "Title__title__z5HRm ProductGridItem__title-afo__ynHbV",
+              "data-testid": "product-grid-title"
+            }
+          }
+        ],
+        "productLinkCandidates": [
+          {
+            "text": "Text reads 'CANDY PROWASH 550 PLUS RP 4.98L11UC-S LAVATRICE CARICA FRONTALE' with '10 ANNI' warranty badge. Front-load washing machine with black drum, white exterior. Six feature icons display: capacity, energy rating A+, noise level, AI silent motion, Wi-Fi app control, and proactive wash function.",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Bianca/dp/B0H41WMDRS?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy RapidÓ PRO Lavatrice 9 kg 1400 Giri/min Bianco, 15+1 programmi, Controllo remoto avanzato e contenuti extra (Wi-Fi + BLE), L x P x A (cm) 60x51x85 RP496DWMB12/1-S",
+            "href": "https://www.amazon.it/Lavatrice-programmi-Controllo-RP496DWMB12-1-S/dp/B0H1J98FKB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Antracite | Motore Inverter BPM, AI Silent Motion, Vapore, Smart Spray, Wi-Fi, App hOn, 60 Programmi, 72 dB, 60x58x85 cm, BR 410BL8G-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Antracite/dp/B0H7N75LLM?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice a Carica dall'Alto 7 Kg, 1200 Giri, Classe A | Motore Inverter, Wi-Fi, App hOn, 9 Programmi, Bianca, Cicli Rapidi, AI Weight Sense, Smart AI, Design Compatto, TCA274TM5-S",
+            "href": "https://www.amazon.it/Lavatrice-dallAlto-Inverter-Programmi-TCA274TM5-S/dp/B0G1TKHFWZ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 550 Lavatrice 9 Kg, 1400 Giri, Classe A-20%, Grigio | Motore Inverter BPM, Vapore, Mix Power System, Partenza Ritardata, Wi-Fi, App hOn, 16 Programmi, BP 49SBL8G-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Grigio/dp/B0H7JTRZVR?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 300 Lavatrice Super Slim 6 Kg, 1000 Giri, Classe A | Motore Inverter BPM, Vapore, Cicli Rapidi, Partenza Ritardata, 16 Programmi, 70 dB, GD 06SS6-S",
+            "href": "https://www.amazon.it/Lavatrice-Profondit%C3%A0-Inverter-Programmi-Ritardata/dp/B0FV3815H2?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy MultiWash Lavatrice 3 Oblò Indipendenti 10+1+1 Kg, 1400 Giri, Bianco | Classe A, Smart AI, Autodose, Igiene UV, Smart Spray, Silenziosa, MQD 410CBL9-11",
+            "href": "https://www.amazon.it/Candy-MultiWash-Lavatrice-Indipendenti-Bianco/dp/B0GPG752RY?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Easy Pro Lavatrice Slim 7 Kg, Classe A-15%, Bianca | Motore Inverter, Cicli Rapidi, 72 dB, AI Silent Motion, Smart Spray, Silenziosa, LxPxA 60x44x85 cm, EY 07SB7-S",
+            "href": "https://www.amazon.it/Candy-Easy-Lavatrice-Classe-Bianca/dp/B0H1ML65WK?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Easy Pro Lavatrice 7 Kg, 1200 Giri, Classe A-30%, Bianca | Motore Inverter, Cicli Rapidi, 70 dB, AI Silent Motion, Smart Spray, Silenziosa, LxPxA 55x60x85 cm, EY 27BW9-S",
+            "href": "https://www.amazon.it/Candy-Easy-Lavatrice-Classe-Bianca/dp/B0H1N1LJKF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Easy Pro Lavatrice 8 Kg, 1200 Giri, Classe A-20%, Bianca | Motore Inverter, Cicli Rapidi, 72 dB, AI Silent Motion, Smart Spray, Silenziosa, LxPxA 60x53x85 cm, EY 28SG8-S",
+            "href": "https://www.amazon.it/Candy-Easy-Lavatrice-Classe-Bianca/dp/B0H1MQZ9PD?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Easy Pro Lavatrice 9 Kg, 1200 Giri, Classe A-20%, Bianca | Motore Inverter, Cicli Rapidi, 70 dB, AI Silent Motion, Smart Spray, Silenziosa, LxPxA 60x55x85 cm, EY 29GG8-S",
+            "href": "https://www.amazon.it/Candy-Easy-Lavatrice-Classe-Bianca/dp/B0H1MY1CQC?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, AI Silent Motion, Smart Spray, Silenziosa, LxPxA 60x52x85 cm, BR 410BL8-S",
+            "href": "https://www.amazon.it/ProWash-Lavatrice-Frontale-Inverter-Connessione/dp/B0FQPL1VTQ?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 11 Kg, Libera Installazione, Carica Frontale, Classe A-30%, 1400 Giri, 16 Programmi, 72 dB, Connessa, Cicli speciali, AxLxP 85x60x68,1 cm, Bianca - BR 411BL9-S",
+            "href": "https://www.amazon.it/Candy-Lavatrice-Installazione-Frontale-Programmi/dp/B0DQ5THHLW?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 550 PLUS Lavatrice 9 Kg, 1400 Giri, Classe A-45%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, 60 Programmi, 72 dB, LxPxA 60x51x85 cm, BP 49BL11UC-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Bianca/dp/B0H41WMDRS?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice a Carica dall'Alto 6 Kg | 9 Programmi, Motore Inverter, Cicli Rapidi, AI Weight Sense, Smart AI, Compressore Anti-Vibrazione, Wi-Fi, TCA264TM5-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Carica-dallAlto/dp/B0GQRCVGMR?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Antracite | App hOn, 16 Programmi, 72 dB, Cicli Rapidi, Smart Spray, AxLxP 85x60x60,1 cm, BR 410B8G-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Antracite/dp/B0DK9LC5TS?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 700 Lavatrice Slim a Carica Frontale, 8 kg, 1400 Giri, Motore Inverter, Classe A -10%, Connessione Wi-Fi, App hOn, Touch LCD, 60 x 43 x 85cm (LxPxA) Bianca - BS 48SB6-S",
+            "href": "https://www.amazon.it/Candy-Lavatrice-Installazione-Programmi-ritardata/dp/B0DQ5GDFK3?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 300 Lavatrice Slim a Carica dall'Alto 6 Kg, 1000 Giri | Classe C, Cicli Rapidi, AI Weight Sense, Partenza Ritardata, App hOn, 17 Programmi, AxLxP 86x40,5x60 cm, TCA063D3-S",
+            "href": "https://www.amazon.it/Candy-TCA063D3-S-Lavatrice-Controllo-Connettivit%C3%A0/dp/B0DXQ82QJG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 300 Lavatrice 10 Kg, 1400 Giri, Classe A-20%, Bianca | Motore Inverter BPM, Vapore, Cicli Rapidi, 69 dB, Smart Spray, Acciaio Inox, Design Compatto, Silenziosa, GD 4108-S",
+            "href": "https://www.amazon.it/Lavatrice-Frontale-Programmi-Trattamento-Inverter/dp/B0FVLQF1WF?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 300 Lavatrice 9 Kg, 1400 Giri, Classe A-20%, Bianca | Motore Inverter BPM, Vapore, Cicli Rapidi, 69 dB, Smart Spray, Acciaio Inox, Silenziosa, AxLxP 85x59,5x60,1 cm, GD 498-S",
+            "href": "https://www.amazon.it/Candy-Lavatrice-Frontale-Programmi-Trattamento/dp/B0FJ8X54GW?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 700 Mini Lavatrice Slim 5 Kg, Classe A | Motore Inverter, Cicli Rapidi, Wi-Fi, Design Compatto, Smart Spray, Trattamento Antibatterico, Silenziosa, CW50-BP12307WU-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Mini-Lavatrice-Classe/dp/B0G2YVRPVS?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 9 Kg, 1400 Giri, Classe A-20%, Bianca | Motore Inverter, Cicli Rapidi, Wi-Fi, App hOn, 72 dB, AI Silent Motion, Smart Spray, Silenziosa, 60x60x85 cm, BR 49B8-S",
+            "href": "https://www.amazon.it/ProWash-Lavatrice-Frontale-Inverter-Connessione/dp/B0FJ284136?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Smart Lavatrice 9 Kg, 1200 Giri, Classe B, Bianca | Cicli Rapidi, NFC, Connessa, 16 Programmi, Partenza Ritardata, App hOn, 60x52x85 cm, CSS 129TW4-11",
+            "href": "https://www.amazon.it/Candy-Smart-Lavatrice-Classe-Bianca/dp/B0FH2VVMBD?ref_=ast_sto_dp",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 7 Kg, 1400 Giri, Classe A-20% | Motore Inverter, Wi-Fi, App hOn, 72 dB, Grigio Notte Polare, AI Silent Motion, Cicli Rapidi, Smart Spray, BR 47SBL8G-S",
+            "href": "https://www.amazon.it/ProWash-Lavatrice-Frontale-Inverter-Connessione/dp/B0G1TDF3ZG?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Smart Lavatrice 7 Kg, 1200 Giri, Classe C, Bianco | Partenza Ritardata, 16 + 1 Programmi, 79 dB, Cicli Rapidi, NFC, Connessa, AxLxP 85x60x45 cm, CSS4127TWR3/1-11",
+            "href": "https://www.amazon.it/Candy-Smart-Lavatrice-Classe-Bianco/dp/B0CYQCPBX9?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 300 Lavatrice Slim 7 Kg, 1200 Giri, Classe A-15%, Bianca | Motore Inverter, Cicli Rapidi, Display LED, Illuminazione LED, 60 Programmi, LxPxA 60x42,4x85 cm, GD 27SB7-S",
+            "href": "https://www.amazon.it/Candy-ProWash-Lavatrice-Classe-Bianca/dp/B0GZPD6BKB?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy ProWash 500 Lavatrice 8 Kg, 1400 Giri, Classe A-10%, Bianco | Cicli Rapidi, Connessa, 16 Programmi, 72 dB, Motore Speed-Drive Inverter, App hOn, Silenziosa, AxLxP 85x60x53 cm, BR 48B6-S",
+            "href": "https://www.amazon.it/Lavatrice-frontale-Connessa-programmi-85x60x53cm/dp/B0DJBTZ3ZH?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy Smart Pro Inverter, Lavatrice, Capacità: 10 KG, Classe A-10%, 1600 giri, 78 dB, Cicli Rapidi, 16 programmi, Bianco, AxLxP 85x60x58 cm - CSO 6106TWMC6/1-S",
+            "href": "https://www.amazon.it/Candy-Smart-Inverter-Lavatrice-Capacit%C3%A0/dp/B0CYQD7Y6G?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Candy RapidÓ PRO RP 4116BWMBC/1-S Lavatrice Caricamento Frontale 11 kg 1400 Giri/min Bianco, 15+1 programmi, Controllo remoto avanzato e contenuti extra (Wi-Fi + BLE), L x P x A (cm) 60x62x85",
+            "href": "https://www.amazon.it/Candy-RP-4116BWMBC-1-S-Caricamento/dp/B0CH57KYQM?ref_=ast_sto_dp&th=1&psc=1",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Informazioni su Amazon",
+            "href": "https://www.amazon.it/p/feature/u2eov7zkabqn3n2",
+            "signals": [
+              "product-like URL"
+            ]
+          },
+          {
+            "text": "Carta Amazon Business Amex",
+            "href": "https://www.amazon.it/dp/B0B1VKXVYW?plattr=ACOMFO&ie=UTF-8&ref_=b2b_sow_sbcc_it_acom_omp_na_footer_nca_202210",
+            "signals": [
+              "product-like URL"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

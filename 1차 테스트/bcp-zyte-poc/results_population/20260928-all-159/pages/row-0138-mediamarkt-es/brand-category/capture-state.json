@@ -1,0 +1,4016 @@
+{
+  "retailer": "mediamarkt-es",
+  "pageType": "brand-category",
+  "steps": [
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "clicked",
+      "expanded": null
+    },
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "not-present"
+    },
+    {
+      "selector": "button",
+      "text_pattern": "^Mostrar \\d+ productos más$",
+      "wait_for_ms": 1500,
+      "wait_ms": 900,
+      "status": "not-present"
+    },
+    {
+      "selector": "button,[role='button']",
+      "text_pattern": "^¿Qué debo tomar en cuenta a la hora de elegir un frigorífico\\?$",
+      "expand": true,
+      "wait_for_ms": 1500,
+      "status": "not-present"
+    },
+    {
+      "selector": "button,[role='button']",
+      "text_pattern": "^¿Qué es Door Cooling\\?$",
+      "expand": true,
+      "wait_for_ms": 1500,
+      "status": "not-present"
+    }
+  ],
+  "startedAt": "2026-09-27T23:09:05.249Z",
+  "ready": true,
+  "initialMetadata": {
+    "url": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas",
+    "title": [
+      "Compra lavavajillas Hisense a los mejores precios"
+    ],
+    "metaDescription": [
+      "Descubre lo mejor en lavavajillas de la marca Hisense a los mejores precios en MediaMarkt"
+    ],
+    "robots": [
+      "index, follow"
+    ],
+    "canonical": [
+      "https://www.mediamarkt.es/es/brand/hisense/lavavajillas"
+    ],
+    "h1": [
+      "HISENSE Lavavajillas en MediaMarkt"
+    ]
+  },
+  "scroll": {
+    "selector": "document",
+    "y": 12475,
+    "height": 13420,
+    "reachedBottom": true
+  },
+  "viewport": {
+    "width": 1920,
+    "height": 945
+  },
+  "url": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2",
+  "title": "Compra lavavajillas Hisense a los mejores precios",
+  "textLength": 20468,
+  "images": [
+    {
+      "index": 0,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/44h8niXHULqXsrJQIX29AZ/56e82d73704471511e9484f373b39f39/MM_logo_white.svg?q=80",
+      "alt": "Mediamarkt Logo",
+      "renderedWidth": 210,
+      "renderedHeight": 28.4375,
+      "renderedArea": 5971.875,
+      "naturalWidth": 288,
+      "naturalHeight": 39,
+      "naturalArea": 11232,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 1,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-65843058/mobilecms_x_72_png",
+      "alt": "hisense Logo",
+      "renderedWidth": 0,
+      "renderedHeight": 0,
+      "renderedArea": 0,
+      "naturalWidth": 434,
+      "naturalHeight": 72,
+      "naturalArea": 31248,
+      "loaded": true,
+      "visible": false
+    },
+    {
+      "index": 2,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-65843058/mobilecms_x_72_png",
+      "alt": "hisense Logo",
+      "renderedWidth": 326,
+      "renderedHeight": 54.078125,
+      "renderedArea": 17629.46875,
+      "naturalWidth": 434,
+      "naturalHeight": 72,
+      "naturalArea": 31248,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 3,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6yR6HTZuZoMbchxZG83Jmv/77c8e4b982a0d85229dd99e2f18c1806/Lavavajillas_-_Libre_Instalaci%C3%83_n.png?q=80",
+      "alt": "",
+      "renderedWidth": 256.5,
+      "renderedHeight": 256.5,
+      "renderedArea": 65792.25,
+      "naturalWidth": 300,
+      "naturalHeight": 300,
+      "naturalArea": 90000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 4,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6m51Lzf9j455dodxvep5x0/e4d8f1deab8339554e8b265480c1ca1b/Lavavajillas_Encastre.png?q=80",
+      "alt": "",
+      "renderedWidth": 256.5,
+      "renderedHeight": 256.5,
+      "renderedArea": 65792.25,
+      "naturalWidth": 300,
+      "naturalHeight": 300,
+      "naturalArea": 90000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 5,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200095?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 6,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200123?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 7,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200109?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 8,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200099?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 9,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200122?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 10,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 11,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181796038?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 12,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 13,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182200092?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 14,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_179593567/isr//c1/-/fee_194_131_png?y=80&format=webp&quality=60&sp=yes&strip=yes&trim=true",
+      "alt": "Texto 'Better Way' con icono de información.",
+      "renderedWidth": 40,
+      "renderedHeight": 40,
+      "renderedArea": 1600,
+      "naturalWidth": 116,
+      "naturalHeight": 80,
+      "naturalArea": 9280,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 15,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_139817065?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 16,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181796540?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 17,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_106081789?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 18,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_173252887?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 19,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_144342198?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 20,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_149003164?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 21,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_140527851?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 22,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_161525130?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 23,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_146026953?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 24,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_159493298?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 25,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_144593581?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 26,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_164608207?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 27,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_145187841?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 322.65625,
+      "renderedHeight": 215.09375,
+      "renderedArea": 69401.3427734375,
+      "naturalWidth": 416,
+      "naturalHeight": 416,
+      "naturalArea": 173056,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 28,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_180724471?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 236,
+      "renderedHeight": 157.328125,
+      "renderedArea": 37129.4375,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 29,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183450979?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 30,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_161493696?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 31,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_181216018?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 32,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151021058?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 33,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_165231042?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 34,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_183531621?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 35,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_177512609?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 36,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_182777746?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 37,
+      "src": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_134330137?x=364&y=247&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=364&ey=247&align=center&resizesource&unsharp=0.5x0.5",
+      "alt": "",
+      "renderedWidth": 224,
+      "renderedHeight": 149.328125,
+      "renderedArea": 33449.5,
+      "naturalWidth": 364,
+      "naturalHeight": 247,
+      "naturalArea": 89908,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 38,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1k0qXcrvOHbLpkwaZM8T9X/eda4645be9e2e12a3d58d0c5fac6b0d4/Proyecto_nuevo__3_.png?q=80",
+      "alt": "Confianza online",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 39,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1Jrm2dPKKUFgidbo8QN6lY/2ad02a3188a34875975903e26be92390/Frame_56.png?q=80",
+      "alt": "Betterway",
+      "renderedWidth": 216.8125,
+      "renderedHeight": 80,
+      "renderedArea": 17345,
+      "naturalWidth": 1225,
+      "naturalHeight": 452,
+      "naturalArea": 553700,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 40,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3qk7ctvjQwCvAjGEf3DFVZ/80bf10c0323583eb3423fe94e64e0c9b/225x80.png?q=80",
+      "alt": "MediaMarkt VISA",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 41,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2piTFyrRIMwNnLiP8DNsIX/b5a683e26f26d2630bda7f6c4d7bc424/Proyecto_nuevo__5_.png?q=80",
+      "alt": "Mejor precio garantizado",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 42,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/53pBGpuH5mo1pVYszqqkAq/74fba21baf28542d9203d997f134ecb6/Proyecto_nuevo__7_.png?q=80",
+      "alt": "Glovo",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 43,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1iqlFUDBYPAyZS4pvnqh0p/dfa254af16695505d1026bde5638108c/60-dias-devolucion__5_.png?q=80",
+      "alt": "Devoluciones hasta en 60 días",
+      "renderedWidth": 225,
+      "renderedHeight": 80,
+      "renderedArea": 18000,
+      "naturalWidth": 225,
+      "naturalHeight": 80,
+      "naturalArea": 18000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 44,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2mEZWLG7ACVj10iZjCojSa/9f67b6c0eba4667b0fb07c3ca7e50760/StyleGuideContact.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 32,
+      "naturalHeight": 32,
+      "naturalArea": 1024,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 45,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/5GdczDo1DaBPvWHEy0sboH/d83c4537d31abfc5139e1ebb28fa48d8/StyleGuideChat.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 32,
+      "naturalHeight": 32,
+      "naturalArea": 1024,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 46,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2Q3fwMiK80VdnbdK2KbY4i/d351649352eada61c1268b5f08205ff6/assistant.svg?q=80",
+      "alt": "",
+      "renderedWidth": 32,
+      "renderedHeight": 32,
+      "renderedArea": 1024,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 47,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/5aYGSBeVkel4APhFhwU1ae/3329da65f70199ff112d5d315d19b54d/youtube.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 48,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2AIjdlWxtQbdiNw6q2sagh/edadd47d1310e97f17561560d6df4815/instagram.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 49,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/34T0xkLw9LrFjXzB0depu7/686ce98b2fa2e962a0ce540d452c32c0/logo-tiktok.png?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 50,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6nywNxd6oYzRqAROliQSCj/2f1656a6fe7790d9a77a89b2d9d4b6d3/facebook.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 51,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4tjPAs20z3gwC2QddDcfu5/b373dad82f2ab85037fccbc1603e100e/X__twitter_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 24,
+      "naturalHeight": 24,
+      "naturalArea": 576,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 52,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4JtEiVZcbqNfCbhByXRFr1/06bbc766b6fa39cfa38493672114f6d4/whatsapp-128-svgrepo-com.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 800,
+      "naturalHeight": 800,
+      "naturalArea": 640000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 53,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/3hz4HWLT1xu0tx2HXMZWEd/0f5eee00815fab716d85026d9145ac40/Google-discover__2___1_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 24,
+      "renderedHeight": 24,
+      "renderedArea": 576,
+      "naturalWidth": 800,
+      "naturalHeight": 800,
+      "naturalArea": 640000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 54,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4RffOharq0MRzN2DVzeSVg/5c5ef265b0d2212ead191e4290a663b0/logo-paack-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 84,
+      "naturalArea": 25200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 55,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/CifHaqY0nB1mFHaZSmafy/7439747b2286cde358bbf778f4d44442/Sin_t%C3%83_tulo__8_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 56,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1mdkNqHKt3lKCCE7rR61yo/2d72e97397119e8160cf666784dac865/Sin_t%C3%83_tulo__7_.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 57,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/4FZVeWZSz1QhRUNHrVClCA/9b56d3e01c9946ce2523de9fb5bca81a/logo-visa-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 97,
+      "naturalArea": 29100,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 58,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/2HPA7qmTSe99dRxvNe3TS3/e2159bd0dbe493911cc421488d0e7385/logo-mastercard-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 188,
+      "naturalHeight": 150,
+      "naturalArea": 28200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 59,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1KA72nDkxX7ch8W3nnFY06/9f99aec634ec0075c6c2b37812435bfd/logo-paypal-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 78,
+      "naturalArea": 23400,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 60,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/7EyaxFLmiPpzIbDjt4wZsJ/9aeb1ef898ff5030c307644456dfb147/logo-bizum-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 93,
+      "naturalArea": 27900,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 61,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/7sdsIOTTkQRn6Q0gMpz78m/3cb6031fcd7d4664a486fa85438e45de/apple_pay.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 276,
+      "naturalHeight": 133,
+      "naturalArea": 36708,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 62,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6Y2UJ1yYzT7scIVnWwzBRi/3712df421f7cce9f7bd85f91df62e8a8/Logo-g-pay.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 259,
+      "naturalHeight": 84,
+      "naturalArea": 21756,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 63,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1nlpTrcWJkuSWfJuOJMmBp/31b9183bfd72e60b08bfe32cbef088d0/logo-amex-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 150,
+      "naturalHeight": 150,
+      "naturalArea": 22500,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 64,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/6ngImmBxYKpQN1t77VBxy5/b5faa5389882c3aae82b0f8f3e860edf/51x18px_1.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 33,
+      "naturalHeight": 21,
+      "naturalArea": 693,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 65,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/47iIiPWDpItSZN7BAeSLxU/33b80f48c8d20d695d2491da8b883e10/logo-gift-card-es-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 240,
+      "naturalHeight": 150,
+      "naturalArea": 36000,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 66,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/hV8YqBK9dtRwMaJ9VAoRP/d8141de09eaa2688314d7f46a91b2af6/logo-payment-in-store-es-bw.svg?q=80",
+      "alt": "",
+      "renderedWidth": 64,
+      "renderedHeight": 32,
+      "renderedArea": 2048,
+      "naturalWidth": 300,
+      "naturalHeight": 84,
+      "naturalArea": 25200,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 67,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/1JaoV0kwc3zdyqMonGd50x/b15eb7f21b793efe8974acf1ac7bb1b3/ES-APP-STORE-2.svg?q=80",
+      "alt": "Apple AppStore",
+      "renderedWidth": 140,
+      "renderedHeight": 40,
+      "renderedArea": 5600,
+      "naturalWidth": 140,
+      "naturalHeight": 40,
+      "naturalArea": 5600,
+      "loaded": true,
+      "visible": true
+    },
+    {
+      "index": 68,
+      "src": "https://cms-images.mmst.eu/osyynfyvlyjc/337HIdnUKTMk59iGFR4RFC/91922d499b574a07ca860825ace463e0/ES-GOOGLE_PAY__8_.svg?q=80",
+      "alt": "Google AppStore Link",
+      "renderedWidth": 140,
+      "renderedHeight": 40,
+      "renderedArea": 5600,
+      "naturalWidth": 140,
+      "naturalHeight": 40,
+      "naturalArea": 5600,
+      "loaded": true,
+      "visible": true
+    }
+  ],
+  "required": [
+    {
+      "selector": "h1",
+      "expected": "present",
+      "present": true
+    }
+  ],
+  "cookieRemaining": [],
+  "finishedAt": "2026-09-27T23:09:22.229Z",
+  "faqExpansion": [
+    {
+      "label": "¿Cuánta agua consume un lavavajillas Hisense?",
+      "expanded": true
+    },
+    {
+      "label": "¿Qué ventajas tiene la conexión Wi Fi?",
+      "expanded": true
+    },
+    {
+      "label": "¿Para qué sirve la tercera bandeja?",
+      "expanded": true
+    },
+    {
+      "label": "¿Cómo se adapta la cesta superior?",
+      "expanded": true
+    },
+    {
+      "label": "¿Cómo es la instalación de un lavavajillas Hisense?",
+      "expanded": true
+    }
+  ],
+  "evidenceVersion": "bcp-v1",
+  "requireScrollBottom": true,
+  "metadata": {
+    "title": "Compra lavavajillas Hisense a los mejores precios",
+    "metaDescription": [
+      "Descubre lo mejor en lavavajillas de la marca Hisense a los mejores precios en MediaMarkt"
+    ],
+    "robots": [
+      "noindex,follow"
+    ],
+    "canonical": [
+      "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2"
+    ],
+    "h1": [
+      "HISENSE Lavavajillas en MediaMarkt"
+    ]
+  },
+  "clickables": [
+    {
+      "index": 0,
+      "tag": "a",
+      "text": "Ir al contenido",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2#main-content",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 1,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/",
+      "ariaLabel": "Ir a la página principal",
+      "expanded": null
+    },
+    {
+      "index": 2,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Busca en",
+      "expanded": null
+    },
+    {
+      "index": 3,
+      "tag": "button",
+      "text": "Mi tienda No has seleccionado una tienda",
+      "href": "",
+      "ariaLabel": "Mi tienda, No has seleccionado una tienda",
+      "expanded": null
+    },
+    {
+      "index": 4,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mi cuenta",
+      "expanded": null
+    },
+    {
+      "index": 5,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/myaccount/wishlist",
+      "ariaLabel": "Ir a Mis favoritos",
+      "expanded": null
+    },
+    {
+      "index": 6,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/checkout",
+      "ariaLabel": "Mi carrito",
+      "expanded": null
+    },
+    {
+      "index": 7,
+      "tag": "button",
+      "text": "Todas las categorías",
+      "href": "",
+      "ariaLabel": "Todas las categorías",
+      "expanded": "false"
+    },
+    {
+      "index": 8,
+      "tag": "a",
+      "text": "Electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/category/electrodom%C3%A9sticos-553.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 9,
+      "tag": "a",
+      "text": "Informática",
+      "href": "https://www.mediamarkt.es/es/category/inform%C3%A1tica-9.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 10,
+      "tag": "a",
+      "text": "Telefonía",
+      "href": "https://www.mediamarkt.es/es/category/telefon%C3%ADa-262.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 11,
+      "tag": "a",
+      "text": "Televisión",
+      "href": "https://www.mediamarkt.es/es/category/televisi%C3%B3n-398.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 12,
+      "tag": "a",
+      "text": "Pequeños electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/category/peque%C3%B1os-electrodom%C3%A9sticos-6201.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 13,
+      "tag": "a",
+      "text": "Consolas y videojuegos",
+      "href": "https://www.mediamarkt.es/es/specials/consolas-y-videojuegos",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 14,
+      "tag": "a",
+      "text": "Ofertas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 15,
+      "tag": "a",
+      "text": "¿Te ayudamos?",
+      "href": "https://te-ayudamos.mediamarkt.es/",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 16,
+      "tag": "a",
+      "text": "Servicios",
+      "href": "https://www.mediamarkt.es/es/service",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 17,
+      "tag": "a",
+      "text": "miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/myaccount/loyalty-benefits",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 18,
+      "tag": "a",
+      "text": "Empresas",
+      "href": "https://www.mediamarkt.es/es/specials/empresas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 19,
+      "tag": "a",
+      "text": "Marketplace",
+      "href": "https://www.mediamarkt.es/es/campaign/mejores-ofertas-marketplace",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 20,
+      "tag": "a",
+      "text": "Top ofertas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 21,
+      "tag": "a",
+      "text": "Ventajas exclusivas en APP",
+      "href": "https://www.mediamarkt.es/es/specials/app-mediamarkt",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 22,
+      "tag": "a",
+      "text": "Reserva tu cita",
+      "href": "https://www.mediamarkt.es/es/service/reserva-tu-cita",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 23,
+      "tag": "a",
+      "text": "Saltar a productos",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2#mms-search-productlist",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 24,
+      "tag": "a",
+      "text": "Pasar a filtros",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2#mms-search-filter",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 25,
+      "tag": "a",
+      "text": "Pasar a clasificar",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas?page=2#mms-search-sort",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 26,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/",
+      "ariaLabel": "Inicio",
+      "expanded": null
+    },
+    {
+      "index": 27,
+      "tag": "a",
+      "text": "Marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 28,
+      "tag": "a",
+      "text": "HISENSE",
+      "href": "https://www.mediamarkt.es/es/brand/hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 29,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/brand/hisense",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 30,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 31,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Especificaciones",
+      "expanded": "false"
+    },
+    {
+      "index": 32,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Eficiencia energética",
+      "expanded": "false"
+    },
+    {
+      "index": 33,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 34,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 35,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 36,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 37,
+      "tag": "button",
+      "text": "Aplicar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 38,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Categoría BetterWay",
+      "expanded": "false"
+    },
+    {
+      "index": 39,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Más información sobre el filtro Valoración de los clientes",
+      "expanded": "false"
+    },
+    {
+      "index": 40,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas/libre-instalacion",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 41,
+      "tag": "a",
+      "text": "Lavavajillas encastre",
+      "href": "https://www.mediamarkt.es/es/brand/hisense/lavavajillas/encastre",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 42,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs623d10x-encastrable-7-programas-60-cm-inox-1553368.html",
+      "ariaLabel": "Vista frontal de un lavavajillas Hisense plateado sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 43,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 44,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_143939237/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 45,
+      "tag": "a",
+      "text": "Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Tercera bandeja, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs623d10x-encastrable-7-programas-60-cm-inox-1553368.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 46,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 47,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 48,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 49,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 50,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 51,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 52,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv16d5-16-servicios-6-programas-598-cm-cestas-flexibles-tres-programas-blanco-1588529.html",
+      "ariaLabel": "Lavavajillas integrable Hisense abierto con interior de acero inoxidable y panel de control negro.",
+      "expanded": null
+    },
+    {
+      "index": 53,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 54,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_149913171/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 55,
+      "tag": "a",
+      "text": "Lavavajillas integrable - Hisense HV16D5, 16 servicios, 6 programas, 59.8 cm, Cestas flexibles, Tres programas, Sin Panelar",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv16d5-16-servicios-6-programas-598-cm-cestas-flexibles-tres-programas-blanco-1588529.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 56,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 57,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 58,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 59,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 60,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas integrable - Hisense HV16D5, 16 servicios, 6 programas, 59.8 cm, Cestas flexibles, Tres programas, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 61,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas integrable - Hisense HV16D5, 16 servicios, 6 programas, 59.8 cm, Cestas flexibles, Tres programas, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 62,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs543d10x-11-servicios-8-programas-448-cm-motor-inverter-tercera-bandeja-inox-1572480.html",
+      "ariaLabel": "Vista frontal de un lavavajillas plateado Hisense con pantalla digital sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 63,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 64,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_143933936/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 65,
+      "tag": "a",
+      "text": "Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs543d10x-11-servicios-8-programas-448-cm-motor-inverter-tercera-bandeja-inox-1572480.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 66,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 67,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 68,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 69,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 70,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 71,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 72,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv543d10-11-servicios-7-programas-448-cm-tercera-bandeja-inverter-integrable-1565948.html",
+      "ariaLabel": "Un lavavajillas blanco Hisense con la puerta abierta y panel de control digital sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 73,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 74,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_145938767/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 75,
+      "tag": "a",
+      "text": "Lavavajillas integrable - Hisense HV543D10, 11 servicios, 7 programas, 44.8 cm, Tercera bandeja, Inverter, Sin Panelar",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv543d10-11-servicios-7-programas-448-cm-tercera-bandeja-inverter-integrable-1565948.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 76,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 77,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 78,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 79,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 80,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas integrable - Hisense HV543D10, 11 servicios, 7 programas, 44.8 cm, Tercera bandeja, Inverter, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 81,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas integrable - Hisense HV543D10, 11 servicios, 7 programas, 44.8 cm, Tercera bandeja, Inverter, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 82,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv673a65-16-servicios-7-programas-598-cm-tercera-bandejea-wi-fi-blanco-1588528.html",
+      "ariaLabel": "Lavavajillas integrable blanco abierto con interior de acero inoxidable y bandeja superior.",
+      "expanded": null
+    },
+    {
+      "index": 83,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 84,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_150317920/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 85,
+      "tag": "a",
+      "text": "Lavavajillas integrable - Hisense HV673A65, 16 servicios, 7 programas, 59.8 cm, Tercera Bandeja, Wi Fi, Sin Panelar",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-hisense-hv673a65-16-servicios-7-programas-598-cm-tercera-bandejea-wi-fi-blanco-1588528.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 86,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 87,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 88,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 89,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 90,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas integrable - Hisense HV673A65, 16 servicios, 7 programas, 59.8 cm, Tercera Bandeja, Wi Fi, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 91,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas integrable - Hisense HV673A65, 16 servicios, 7 programas, 59.8 cm, Tercera Bandeja, Wi Fi, Sin Panelar",
+      "expanded": null
+    },
+    {
+      "index": 92,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs663a90xuk-16-servicios-8-programas-60-cm-tecnologia-inverter-secado-extra-tercera-bandeja-acero-inoxidable-1669838.html",
+      "ariaLabel": "Vista frontal de un lavavajillas gris Hisense con la puerta abierta y rejillas interiores visibles sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 93,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 94,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_181796043/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 95,
+      "tag": "a",
+      "text": "Lavavajillas - Hisense HS663A90XUK, 16 servicios, 8 programas, 60 cm, Tecnología Inverter, Secado Extra, Tercera Bandeja, Acero inoxidable",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs663a90xuk-16-servicios-8-programas-60-cm-tecnologia-inverter-secado-extra-tercera-bandeja-acero-inoxidable-1669838.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 96,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 97,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 98,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 99,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 100,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas - Hisense HS663A90XUK, 16 servicios, 8 programas, 60 cm, Tecnología Inverter, Secado Extra, Tercera Bandeja, Acero inoxidable",
+      "expanded": null
+    },
+    {
+      "index": 101,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas - Hisense HS663A90XUK, 16 servicios, 8 programas, 60 cm, Tecnología Inverter, Secado Extra, Tercera Bandeja, Acero inoxidable",
+      "expanded": null
+    },
+    {
+      "index": 102,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs673a90x-16-servicios-7-programas-599-cm-conectividad-wi-fi-tercera-bandeja-inox-1601558.html",
+      "ariaLabel": "Vista frontal de un lavavajillas Hisense de acero inoxidable con pantalla LED y panel táctil.",
+      "expanded": null
+    },
+    {
+      "index": 103,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 104,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_158964979/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 105,
+      "tag": "a",
+      "text": "Lavavajillas - Hisense HS673A90X, 16 servicios, 7 programas, 59.9 cm, Conectividad Wi Fi, Tercera bandeja, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs673a90x-16-servicios-7-programas-599-cm-conectividad-wi-fi-tercera-bandeja-inox-1601558.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 106,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 107,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 108,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 109,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 110,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas - Hisense HS673A90X, 16 servicios, 7 programas, 59.9 cm, Conectividad Wi Fi, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 111,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas - Hisense HS673A90X, 16 servicios, 7 programas, 59.9 cm, Conectividad Wi Fi, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 112,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-hisense-hs543d10x-11-servicios-8-programas-448-cm-motor-inverter-tercera-bandeja-inox-1592674.html",
+      "ariaLabel": "Lavavajillas Hisense de acero inoxidable con panel de control blanco y pantalla digital.",
+      "expanded": null
+    },
+    {
+      "index": 113,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 114,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Excelente Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-excelente-lavavajillas-hisense-hs543d10x-11-servicios-8-programas-448-cm-motor-inverter-tercera-bandeja-inox-1592674.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 115,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 116,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 117,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 118,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 119,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Excelente Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 120,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Excelente Lavavajillas - Hisense HS543D10X, 11 servicios, 8 programas , 44.8 cm, Motor Inverter, Tercera bandeja, Inox",
+      "expanded": null
+    },
+    {
+      "index": 121,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs643b90w-15-servicios-6-programas-60-cm-tecnologia-inverter-tercera-bandeja-blanco-1666980.html",
+      "ariaLabel": "Lavavajillas blanco Hisense con la puerta abierta, mostrando rejillas internas y panel de control sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 122,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética B",
+      "expanded": null
+    },
+    {
+      "index": 123,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MMS_181796251/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 124,
+      "tag": "a",
+      "text": "Lavavajillas - Hisense HS643B90W, 15 servicios, 6 programas, 60 cm, Tecnología Inverter, Tercera Bandeja, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-hisense-hs643b90w-15-servicios-6-programas-60-cm-tecnologia-inverter-tercera-bandeja-blanco-1666980.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 125,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 126,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 127,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 128,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 129,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas - Hisense HS643B90W, 15 servicios, 6 programas, 60 cm, Tecnología Inverter, Tercera Bandeja, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 130,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas - Hisense HS643B90W, 15 servicios, 6 programas, 60 cm, Tecnología Inverter, Tercera Bandeja, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 131,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-hisense-hs623d10x-14-servicios-7-programas-60-cm-media-carga-apertura-automatica-inox-1585524.html",
+      "ariaLabel": "Un lavavajillas Hisense plateado. El panel de control está en la parte superior. Es una toma de cerca.",
+      "expanded": null
+    },
+    {
+      "index": 132,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 133,
+      "tag": "a",
+      "text": "REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Apertura Automática, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_reacondicionado-seminuevo-muy-bueno-lavavajillas-hisense-hs623d10x-14-servicios-7-programas-60-cm-media-carga-apertura-automatica-inox-1585524.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 134,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 135,
+      "tag": "button",
+      "text": "IVA incl., envío no incl.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 136,
+      "tag": "button",
+      "text": "Simula tu financiación*",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 137,
+      "tag": "button",
+      "text": "Seleccionar tienda",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 138,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Apertura Automática, Inox",
+      "expanded": null
+    },
+    {
+      "index": 139,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito REACONDICIONADO Seminuevo Muy bueno Lavavajillas - Hisense HS623D10X, 14 servicios, 7 programas, 60 cm, Media Carga, Apertura Automática, Inox",
+      "expanded": null
+    },
+    {
+      "index": 140,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643c90x-16-servicios-6-programas-599-mm-plata-168655893.html",
+      "ariaLabel": "Un lavavajillas Hisense plateado con la puerta abierta, mostrando el interior.",
+      "expanded": null
+    },
+    {
+      "index": 141,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética C",
+      "expanded": null
+    },
+    {
+      "index": 142,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_175573362/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 143,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS643C90X, 16 servicios, 6 programas, 599 mm, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643c90x-16-servicios-6-programas-599-mm-plata-168655893.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 144,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 145,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 146,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 147,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS643C90X, 16 servicios, 6 programas, 599 mm, Inox",
+      "expanded": null
+    },
+    {
+      "index": 148,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS643C90X, 16 servicios, 6 programas, 599 mm, Inox",
+      "expanded": null
+    },
+    {
+      "index": 149,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs622e10w-13-servicios-7-programas-598-cm-blanco-143468049.html",
+      "ariaLabel": "Lavavajillas Hisense blanco. Pantalla digital sobre la puerta. Panel frontal liso.",
+      "expanded": null
+    },
+    {
+      "index": 150,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética E",
+      "expanded": null
+    },
+    {
+      "index": 151,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_144342211/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 152,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS622E10W, 13 servicios, 7 programas, 60,0 cm, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs622e10w-13-servicios-7-programas-598-cm-blanco-143468049.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 153,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 154,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 155,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 156,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS622E10W, 13 servicios, 7 programas, 60,0 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 157,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS622E10W, 13 servicios, 7 programas, 60,0 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 158,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-45-cm-hisense-hs522e10w-7-programas-45-cm-not-available-146026949.html",
+      "ariaLabel": "Un lavavajillas Hisense blanco con pantalla digital y panel de control.",
+      "expanded": null
+    },
+    {
+      "index": 159,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética E",
+      "expanded": null
+    },
+    {
+      "index": 160,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_154665309/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 161,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 45 cm - HISENSE HS522E10W, 9 servicios, 6 programas, 448 mm, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-45-cm-hisense-hs522e10w-7-programas-45-cm-not-available-146026949.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 162,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 163,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 164,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 165,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 45 cm - HISENSE HS522E10W, 9 servicios, 6 programas, 448 mm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 166,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 45 cm - HISENSE HS522E10W, 9 servicios, 6 programas, 448 mm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 167,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-hisense-hs622e10x-13-servicios-7-programas-598-cm-inox-140527844.html",
+      "ariaLabel": "Un lavavajillas blanco con panel de control en la parte superior y una pantalla.",
+      "expanded": null
+    },
+    {
+      "index": 168,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética E",
+      "expanded": null
+    },
+    {
+      "index": 169,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_140527873/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 170,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS622E10X, 13 servicios, 7 programas, 60,0 cm, Inox",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-compacto-hisense-hs622e10x-13-servicios-7-programas-598-cm-inox-140527844.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 171,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 172,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 173,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 174,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS622E10X, 13 servicios, 7 programas, 60,0 cm, Inox",
+      "expanded": null
+    },
+    {
+      "index": 175,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS622E10X, 13 servicios, 7 programas, 60,0 cm, Inox",
+      "expanded": null
+    },
+    {
+      "index": 176,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs663a90wuk-16-servicios-8-programas-599-mm-blanco-161525126.html",
+      "ariaLabel": "Un lavavajillas Hisense blanco con la puerta abierta. Tiene puntos táctiles y una pantalla táctil.",
+      "expanded": null
+    },
+    {
+      "index": 177,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 178,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS663A90WUK, 16 servicios, 8 programas, 60 cm, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs663a90wuk-16-servicios-8-programas-599-mm-blanco-161525126.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 179,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 180,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 181,
+      "tag": "a",
+      "text": "CiberElectro(entrega voluminosos a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/5765",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 182,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS663A90WUK, 16 servicios, 8 programas, 60 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 183,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS663A90WUK, 16 servicios, 8 programas, 60 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 184,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs623d10w-7-programas-60-cm-blanco-146026947.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 185,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 186,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_146728656/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 187,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS623D10W, 14 servicios, 7 programas, 60,0 cm, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs623d10w-7-programas-60-cm-blanco-146026947.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 188,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 189,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 190,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 191,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS623D10W, 14 servicios, 7 programas, 60,0 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 192,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS623D10W, 14 servicios, 7 programas, 60,0 cm, Blanco",
+      "expanded": null
+    },
+    {
+      "index": 193,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643c90w-16-servicios-6-programas-599-cm-blanco-159493280.html",
+      "ariaLabel": "Un lavavajillas Hisense blanco con un panel de control y una etiqueta de capacidad '16' prominente.",
+      "expanded": null
+    },
+    {
+      "index": 194,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética C",
+      "expanded": null
+    },
+    {
+      "index": 195,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_159493325/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 196,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS643C90W, 16 servicios, 6 programas, 59,9 cm, White",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643c90w-16-servicios-6-programas-599-cm-blanco-159493280.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 197,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 198,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 199,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 200,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS643C90W, 16 servicios, 6 programas, 59,9 cm, White",
+      "expanded": null
+    },
+    {
+      "index": 201,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS643C90W, 16 servicios, 6 programas, 59,9 cm, White",
+      "expanded": null
+    },
+    {
+      "index": 202,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643d10w-7-programas-598-cm-blanca-144593579.html",
+      "ariaLabel": "Un lavavajillas Hisense blanco, vista frontal, con pantalla digital y botones de control.",
+      "expanded": null
+    },
+    {
+      "index": 203,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética D",
+      "expanded": null
+    },
+    {
+      "index": 204,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_149235684/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 205,
+      "tag": "a",
+      "text": "Lavavajillas libre instalación 60 cm - HISENSE HS643D10W, 14 servicios, 7 programas, 598 mm, Blanca",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-libre-instalacion-60-cm-hisense-hs643d10w-7-programas-598-cm-blanca-144593579.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 206,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 207,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 208,
+      "tag": "a",
+      "text": "DROITEK",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3449",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 209,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas libre instalación 60 cm - HISENSE HS643D10W, 14 servicios, 7 programas, 598 mm, Blanca",
+      "expanded": null
+    },
+    {
+      "index": 210,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas libre instalación 60 cm - HISENSE HS643D10W, 14 servicios, 7 programas, 598 mm, Blanca",
+      "expanded": null
+    },
+    {
+      "index": 211,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-hisense-746058-16-servicios-598-mm-no-aplicable-161523824.html",
+      "ariaLabel": "Un lavavajillas Hisense con la puerta abierta. Tiene un panel frontal negro. La pantalla muestra la hora.",
+      "expanded": null
+    },
+    {
+      "index": 212,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 213,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_167176717/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 214,
+      "tag": "a",
+      "text": "Lavavajillas integrable 60 cm - HISENSE 746058, 16 servicios, 6 programas, 598 mm, No aplicable",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-hisense-746058-16-servicios-598-mm-no-aplicable-161523824.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 215,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 216,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3671",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 217,
+      "tag": "a",
+      "text": "mihogardigital (entrega a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3671",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 218,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - HISENSE 746058, 16 servicios, 6 programas, 598 mm, No aplicable",
+      "expanded": null
+    },
+    {
+      "index": 219,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas integrable 60 cm - HISENSE 746058, 16 servicios, 6 programas, 598 mm, No aplicable",
+      "expanded": null
+    },
+    {
+      "index": 220,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-hisense-hv673c61-16-servicios-7-programas-598-mm-integrable-145187838.html",
+      "ariaLabel": "Vista trasera de un lavavajillas. Es de color gris claro. La parte superior es negra.",
+      "expanded": null
+    },
+    {
+      "index": 221,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética C",
+      "expanded": null
+    },
+    {
+      "index": 222,
+      "tag": "a",
+      "text": "Ficha técnica",
+      "href": "https://assets.mmsrg.com/ada/166325/c1/-/-/ASSET_MP_149225967/?direct",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 223,
+      "tag": "a",
+      "text": "Lavavajillas integrable 60 cm - HISENSE HV673C61, 16 servicios, 7 programas, 59,80 cm, Integrable",
+      "href": "https://www.mediamarkt.es/es/product/_lavavajillas-integrable-60-cm-hisense-hv673c61-16-servicios-7-programas-598-mm-integrable-145187838.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 224,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Mostrar más información sobre las valoraciones de productos",
+      "expanded": "false"
+    },
+    {
+      "index": 225,
+      "tag": "a",
+      "text": "IVA incl. Con envío gratis",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3671",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 226,
+      "tag": "a",
+      "text": "mihogardigital (entrega a pie de calle)",
+      "href": "https://www.mediamarkt.es/es/marketplace/seller/3671",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 227,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Añadir a la lista de favoritos Lavavajillas integrable 60 cm - HISENSE HV673C61, 16 servicios, 7 programas, 59,80 cm, Integrable",
+      "expanded": null
+    },
+    {
+      "index": 228,
+      "tag": "button",
+      "text": "Añadir al carrito",
+      "href": "",
+      "ariaLabel": "Añadir al carrito Lavavajillas integrable 60 cm - HISENSE HV673C61, 16 servicios, 7 programas, 59,80 cm, Integrable",
+      "expanded": null
+    },
+    {
+      "index": 229,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Artículo anterior",
+      "expanded": null
+    },
+    {
+      "index": 230,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Siguiente elemento",
+      "expanded": null
+    },
+    {
+      "index": 231,
+      "tag": "a",
+      "text": "PS5 EA SPORTS FC™ 27",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 232,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-ea-sports-fctm-27-1671139.html",
+      "ariaLabel": "Mbappé ante un horizonte urbano con estadios y globos aerostáticos. Logos PS5 y EA FC 27.",
+      "expanded": null
+    },
+    {
+      "index": 233,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 234,
+      "tag": "button",
+      "text": "Más información.",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 235,
+      "tag": "button",
+      "text": "Activar",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 236,
+      "tag": "a",
+      "text": "Nintendo Switch 2 The Legend of Zelda: Ocarina of Time",
+      "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 237,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_nintendo-switch-2-the-legend-of-zelda-ocarina-of-time-1674232.html",
+      "ariaLabel": "Link se encuentra en un sendero forestal con un escudo y una espada, bajo el logo de The Legend of Zelda: Ocarina of Time.",
+      "expanded": null
+    },
+    {
+      "index": 238,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 239,
+      "tag": "a",
+      "text": "Apple iPhone 17 Pro, Azul oscuro, 256 GB, 5G, 6.3\" OLED Super Retina XDR, Chip A19 Pro, iOS",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 240,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-17-pro-azul-oscuro-256-gb-5g-63-oled-super-retina-xdr-chip-a19-pro-ios-1606137.html",
+      "ariaLabel": "Un smartphone azul oscuro muestra su parte delantera y trasera. La parte trasera tiene tres cámaras, flash y el logo de Apple. La pantalla tiene líneas brillantes.",
+      "expanded": null
+    },
+    {
+      "index": 241,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 242,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 243,
+      "tag": "a",
+      "text": "Consola - Nintendo Switch 2, 7.9” Full HD HDR 120 Hz, 256 GB, Magnetic Joy-Con 2 con modo ratón, Batería extraíble, Azul y Rojo Neón",
+      "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 244,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_consola-nintendo-switch-2-79-full-hd-hdr-120-hz-256-gb-magnetic-joy-con-2-con-modo-raton-azul-y-rojo-neon-1671189.html",
+      "ariaLabel": "Una consola negra Nintendo Switch 2 con mandos Joy-Con sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 245,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 246,
+      "tag": "a",
+      "text": "Apple iPad (11ªgen), 128GB, Plata, WiFi, 11\", Retina, Chip A16 Bionic, iPadOS 18, Cable de carga USB‑C, Sin Adaptador de corriente",
+      "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 247,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-ipad-11agen-128gb-plata-wifi-109-retina-chip-a16-bionic-ipados-18-cable-de-carga-usbc-sin-adaptador-de-corriente-1595893.html",
+      "ariaLabel": "Tableta blanca con marco negro, con un fondo de pantalla abstracto y colorido en la pantalla.",
+      "expanded": null
+    },
+    {
+      "index": 248,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 249,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética G",
+      "expanded": null
+    },
+    {
+      "index": 250,
+      "tag": "a",
+      "text": "Apple AirPods Pro 3 (2025 3ª gen), Inalámbricos, Cancelación de ruido, Medición frecuencia cardíaca, Live Translation, Chip H2, USB-C, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 251,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-airpods-pro-3-2025-3a-gen-inalambricos-cancelacion-de-ruido-medicion-frecuencia-cardiaca-live-translation-chip-h2-usb-c-blanco-1606182.html",
+      "ariaLabel": "Dos AirPods Pro blancos sobre fondo gris. Cada uno tiene una malla negra arriba y abajo. Las puntas son negras.",
+      "expanded": null
+    },
+    {
+      "index": 252,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 253,
+      "tag": "a",
+      "text": "Apple iPhone 18 Pro, Plata, 256 GB, 6.3\" OLED Super Retina XDR, 5G, Chip A20 Pro, Siri AI, iOS",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 254,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_apple-iphone-18-pro-plata-256-gb-63-oled-super-retina-xdr-5g-chip-a20-pro-siri-ai-ios-1674334.html",
+      "ariaLabel": "Un iPhone plateado que muestra su parte trasera con tres cámaras y logotipo de Apple, junto a su pantalla con patrón.",
+      "expanded": null
+    },
+    {
+      "index": 255,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 256,
+      "tag": "button",
+      "text": "",
+      "href": "",
+      "ariaLabel": "Clase de eficiencia energética A",
+      "expanded": null
+    },
+    {
+      "index": 257,
+      "tag": "a",
+      "text": "PS5 Marvel: Lobezno",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 258,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_ps5-marvel-lobezno-1667795.html",
+      "ariaLabel": "Wolverine, personaje de Marvel Comics, con garras sobre fondo amarillo.",
+      "expanded": null
+    },
+    {
+      "index": 259,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 260,
+      "tag": "a",
+      "text": "Portátil - ASUS Vivobook 16 F1607CA-MB311, 16 \" WUXGA, Intel® Core™ Ultra 5 225H, 16GB RAM, 512GB SSD, Arc™ Onboard Graphics, SSO, Sin cargador",
+      "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 261,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_portatil-asus-vivobook-16-f1607ca-mb311-16-wuxga-intelr-coretm-ultra-5-225h-16gb-ram-512gb-ssd-arctm-onboard-graphics-sin-sistema-operativo-1669470.html",
+      "ariaLabel": "Vista frontal de un portátil ASUS Vivobook gris plateado con fondo de pantalla azul.",
+      "expanded": null
+    },
+    {
+      "index": 262,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 263,
+      "tag": "a",
+      "text": "Consola - Sony PS5 Slim Standard, 1 TB SSD, 4K, 1 mando, Chasis E, Blanco",
+      "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 264,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/product/_consola-sony-ps5-slim-standard-1-tb-ssd-4k-1-mando-chasis-e-blanco-1605665.html",
+      "ariaLabel": "Consola y mando PlayStation 5. Consola y mando blancos sobre fondo negro.",
+      "expanded": null
+    },
+    {
+      "index": 265,
+      "tag": "button",
+      "text": "IVA incl. Con envío gratis",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 266,
+      "tag": "button",
+      "text": "¿Cuánta agua consume un lavavajillas Hisense?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 267,
+      "tag": "button",
+      "text": "¿Qué ventajas tiene la conexión Wi Fi?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 268,
+      "tag": "button",
+      "text": "¿Para qué sirve la tercera bandeja?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 269,
+      "tag": "button",
+      "text": "¿Cómo se adapta la cesta superior?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "false"
+    },
+    {
+      "index": 270,
+      "tag": "button",
+      "text": "¿Cómo es la instalación de un lavavajillas Hisense?",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": "true"
+    },
+    {
+      "index": 271,
+      "tag": "a",
+      "text": "HONOR",
+      "href": "https://www.mediamarkt.es/es/brand/honor",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 272,
+      "tag": "a",
+      "text": "HOOVER",
+      "href": "https://www.mediamarkt.es/es/brand/hoover",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 273,
+      "tag": "a",
+      "text": "HOTPOINT",
+      "href": "https://www.mediamarkt.es/es/brand/hotpoint",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 274,
+      "tag": "a",
+      "text": "HP",
+      "href": "https://www.mediamarkt.es/es/brand/hp",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 275,
+      "tag": "a",
+      "text": "HUAWEI",
+      "href": "https://www.mediamarkt.es/es/brand/huawei",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 276,
+      "tag": "a",
+      "text": "INDESIT",
+      "href": "https://www.mediamarkt.es/es/brand/indesit",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 277,
+      "tag": "a",
+      "text": "INSTA360",
+      "href": "https://www.mediamarkt.es/es/brand/insta360",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 278,
+      "tag": "a",
+      "text": "INTEL",
+      "href": "https://www.mediamarkt.es/es/brand/intel",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 279,
+      "tag": "a",
+      "text": "IRIS",
+      "href": "https://www.mediamarkt.es/es/brand/iris",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 280,
+      "tag": "a",
+      "text": "IROBOT",
+      "href": "https://www.mediamarkt.es/es/brand/irobot",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 281,
+      "tag": "a",
+      "text": "ISY",
+      "href": "https://www.mediamarkt.es/es/brand/isy",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 282,
+      "tag": "a",
+      "text": "JABRA",
+      "href": "https://www.mediamarkt.es/es/brand/jabra",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 283,
+      "tag": "a",
+      "text": "Mostrar todas las marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 284,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.confianzaonline.es/como-reclamar/",
+      "ariaLabel": "Confianza online",
+      "expanded": null
+    },
+    {
+      "index": 285,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/sostenibilidad",
+      "ariaLabel": "Betterway",
+      "expanded": null
+    },
+    {
+      "index": 286,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/specials/financiacion",
+      "ariaLabel": "MediaMarkt VISA",
+      "expanded": null
+    },
+    {
+      "index": 287,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+      "ariaLabel": "Mejor precio garantizado",
+      "expanded": null
+    },
+    {
+      "index": 288,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Glovo",
+      "expanded": null
+    },
+    {
+      "index": 289,
+      "tag": "a",
+      "text": "",
+      "href": "https://te-ayudamos.mediamarkt.es/app/answers/detail/a_id/17124/~/%C2%BFc%C3%B3mo-puedo-hacer-una-devoluci%C3%B3n%3F",
+      "ariaLabel": "Devoluciones hasta en 60 días",
+      "expanded": null
+    },
+    {
+      "index": 290,
+      "tag": "a",
+      "text": "Formulario de contacto",
+      "href": "https://te-ayudamos.mediamarkt.es/app/contact_form/",
+      "ariaLabel": "Formulario de contacto",
+      "expanded": null
+    },
+    {
+      "index": 291,
+      "tag": "a",
+      "text": "Preguntas frecuentes",
+      "href": "https://te-ayudamos.mediamarkt.es/",
+      "ariaLabel": "Preguntas frecuentes",
+      "expanded": null
+    },
+    {
+      "index": 292,
+      "tag": "a",
+      "text": "Detalles encuesta de satisfacción",
+      "href": "https://www.mediamarkt.es/es/specials/encuesta-satisfaccion",
+      "ariaLabel": "Detalles encuesta de satisfacción",
+      "expanded": null
+    },
+    {
+      "index": 293,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.youtube.com/c/MediaMarktEspa%C3%B1a",
+      "ariaLabel": "YouTube",
+      "expanded": null
+    },
+    {
+      "index": 294,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.instagram.com/mediamarkt_es/?hl=es",
+      "ariaLabel": "Instagram",
+      "expanded": null
+    },
+    {
+      "index": 295,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.tiktok.com/@mediamarktes",
+      "ariaLabel": "TikTok",
+      "expanded": null
+    },
+    {
+      "index": 296,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.facebook.com/mediamarktes/",
+      "ariaLabel": "Facebook",
+      "expanded": null
+    },
+    {
+      "index": 297,
+      "tag": "a",
+      "text": "",
+      "href": "https://twitter.com/MediaMarkt_es",
+      "ariaLabel": "Twitter",
+      "expanded": null
+    },
+    {
+      "index": 298,
+      "tag": "a",
+      "text": "",
+      "href": "https://api.whatsapp.com/send/?phone=34628747689&text=Hola+MediaMarkt.+Una+consulta.",
+      "ariaLabel": "WhatsApp",
+      "expanded": null
+    },
+    {
+      "index": 299,
+      "tag": "a",
+      "text": "",
+      "href": "https://profile.google.com/cp/CgsvZy8xdGh2ZDF6cg",
+      "ariaLabel": "Google Discover",
+      "expanded": null
+    },
+    {
+      "index": 300,
+      "tag": "button",
+      "text": "Nuestra empresa",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 301,
+      "tag": "a",
+      "text": "¿Quiénes somos?",
+      "href": "https://www.mediamarkt.es/es/service/quienes-somos",
+      "ariaLabel": "¿Quiénes somos?",
+      "expanded": null
+    },
+    {
+      "index": 302,
+      "tag": "a",
+      "text": "Nuestros compromisos",
+      "href": "https://www.mediamarkt.es/es/specials/nuestros-compromisos",
+      "ariaLabel": "Nuestros compromisos",
+      "expanded": null
+    },
+    {
+      "index": 303,
+      "tag": "a",
+      "text": "El Blog de MediaMarkt",
+      "href": "https://www.mediamarkt.es/es/content",
+      "ariaLabel": "El Blog de MediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 304,
+      "tag": "a",
+      "text": "Sala de prensa",
+      "href": "https://www.mediamarkt.es/es/specials/sala-de-prensa",
+      "ariaLabel": "Sala de prensa",
+      "expanded": null
+    },
+    {
+      "index": 305,
+      "tag": "a",
+      "text": "Trabaja con nosotros",
+      "href": "https://careers.mediamarktsaturn.com/MediaMarktES/content/letsgo/?locale=es_ES",
+      "ariaLabel": "Trabaja con nosotros",
+      "expanded": null
+    },
+    {
+      "index": 306,
+      "tag": "a",
+      "text": "Vender en mediamarkt.es",
+      "href": "https://www.mediamarkt.es/es/about-us/marketplace",
+      "ariaLabel": "Vender en mediamarkt.es",
+      "expanded": null
+    },
+    {
+      "index": 307,
+      "tag": "a",
+      "text": "Encuentra tu tienda",
+      "href": "https://www.mediamarkt.es/es/store/store-finder",
+      "ariaLabel": "Encuentra tu tienda",
+      "expanded": null
+    },
+    {
+      "index": 308,
+      "tag": "a",
+      "text": "Seguridad informática",
+      "href": "https://www.mediamarkt.es/es/legal/seguridad-informatica",
+      "ariaLabel": "Seguridad informática",
+      "expanded": null
+    },
+    {
+      "index": 309,
+      "tag": "a",
+      "text": "BetterWay",
+      "href": "https://www.mediamarkt.es/es/service/sostenibilidad",
+      "ariaLabel": "BetterWay",
+      "expanded": null
+    },
+    {
+      "index": 310,
+      "tag": "a",
+      "text": "Valora y gana",
+      "href": "https://www.mediamarkt.es/es/specials/sorteo-valora-y-gana",
+      "ariaLabel": "Valora y gana",
+      "expanded": null
+    },
+    {
+      "index": 311,
+      "tag": "a",
+      "text": "Mapa Web",
+      "href": "https://www.mediamarkt.es/es/overview/categories",
+      "ariaLabel": "Mapa Web",
+      "expanded": null
+    },
+    {
+      "index": 312,
+      "tag": "a",
+      "text": "Programa de divulgación de vulnerabilidades",
+      "href": "https://www.mediamarkt.es/es/service/politica-divulgacion",
+      "ariaLabel": "Programa de divulgación de vulnerabilidades",
+      "expanded": null
+    },
+    {
+      "index": 313,
+      "tag": "a",
+      "text": "Marcas",
+      "href": "https://www.mediamarkt.es/es/brand",
+      "ariaLabel": "Marcas",
+      "expanded": null
+    },
+    {
+      "index": 314,
+      "tag": "a",
+      "text": "Marcas propias",
+      "href": "https://www.mediamarkt.es/es/specials/nuestras-marcas-propias",
+      "ariaLabel": "Marcas propias",
+      "expanded": null
+    },
+    {
+      "index": 315,
+      "tag": "a",
+      "text": "Retailmedia en Mediamarkt.es",
+      "href": "https://www.mms-retailmedia.com/",
+      "ariaLabel": "Retailmedia en Mediamarkt.es",
+      "expanded": null
+    },
+    {
+      "index": 316,
+      "tag": "a",
+      "text": "Procedimiento de denuncias de derechos humanos y protección del medioambiente",
+      "href": "https://www.mediamarkt.es/es/legal/procedimiento-de-denuncias",
+      "ariaLabel": "Procedimiento de denuncias de derechos humanos y protección del medioambiente",
+      "expanded": null
+    },
+    {
+      "index": 317,
+      "tag": "a",
+      "text": "Confianza online",
+      "href": "https://www.confianzaonline.es/como-reclamar/",
+      "ariaLabel": "Confianza online",
+      "expanded": null
+    },
+    {
+      "index": 318,
+      "tag": "button",
+      "text": "Servicios",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 319,
+      "tag": "a",
+      "text": "Financiación",
+      "href": "https://www.mediamarkt.es/es/specials/financiacion",
+      "ariaLabel": "Financiación",
+      "expanded": null
+    },
+    {
+      "index": 320,
+      "tag": "a",
+      "text": "Energía",
+      "href": "https://www.mediamarkt.es/es/service/energia",
+      "ariaLabel": "Energía",
+      "expanded": null
+    },
+    {
+      "index": 321,
+      "tag": "a",
+      "text": "Reparaciones",
+      "href": "https://www.mediamarkt.es/es/service/servicio-de-reparaciones",
+      "ariaLabel": "Reparaciones",
+      "expanded": null
+    },
+    {
+      "index": 322,
+      "tag": "a",
+      "text": "Impresión de fotos",
+      "href": "https://revelado.mediamarkt.es/",
+      "ariaLabel": "Impresión de fotos",
+      "expanded": null
+    },
+    {
+      "index": 323,
+      "tag": "a",
+      "text": "Instalación de electrodomésticos",
+      "href": "https://www.mediamarkt.es/es/service/instalaciones",
+      "ariaLabel": "Instalación de electrodomésticos",
+      "expanded": null
+    },
+    {
+      "index": 324,
+      "tag": "a",
+      "text": "Trade In: Vende tus dispositivos",
+      "href": "https://www.mediamarkt.es/es/service/trade-in#recompra",
+      "ariaLabel": "Trade In: Vende tus dispositivos",
+      "expanded": null
+    },
+    {
+      "index": 325,
+      "tag": "a",
+      "text": "Mejor precio garantizado",
+      "href": "https://www.mediamarkt.es/es/specials/mejor-precio-garantizado",
+      "ariaLabel": "Mejor precio garantizado",
+      "expanded": null
+    },
+    {
+      "index": 326,
+      "tag": "a",
+      "text": "Tipos de envíos",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Tipos de envíos",
+      "expanded": null
+    },
+    {
+      "index": 327,
+      "tag": "a",
+      "text": "Garantía plus",
+      "href": "https://www.mediamarkt.es/es/service/garantia-plus",
+      "ariaLabel": "Garantía plus",
+      "expanded": null
+    },
+    {
+      "index": 328,
+      "tag": "a",
+      "text": "MediaMarkt Empresas",
+      "href": "https://www.mediamarkt.es/es/specials/empresas",
+      "ariaLabel": "MediaMarkt Empresas",
+      "expanded": null
+    },
+    {
+      "index": 329,
+      "tag": "a",
+      "text": "Talleres y formaciones",
+      "href": "https://training.mediamarkt.es/online",
+      "ariaLabel": "Talleres y formaciones",
+      "expanded": null
+    },
+    {
+      "index": 330,
+      "tag": "a",
+      "text": "Tarjeta regalo",
+      "href": "https://www.mediamarkt.es/es/specials/tarjeta-regalo-mediamarkt",
+      "ariaLabel": "Tarjeta regalo",
+      "expanded": null
+    },
+    {
+      "index": 331,
+      "tag": "a",
+      "text": "Solicitar factura",
+      "href": "https://specials.mediamarkt.es/facturas/solicita",
+      "ariaLabel": "Solicitar factura",
+      "expanded": null
+    },
+    {
+      "index": 332,
+      "tag": "a",
+      "text": "Reservar cita previa en tienda",
+      "href": "https://dq.mediamarkt.com/customer/servicecategorymenu?scm=039e0e3d-4c36-400d-a1bd-bd3d058b6817",
+      "ariaLabel": "Reservar cita previa en tienda",
+      "expanded": null
+    },
+    {
+      "index": 333,
+      "tag": "a",
+      "text": "Reservar cita telefónica",
+      "href": "https://training.mediamarkt.es/personal-shopper?_gl=1*kmdikg*_gcl_au*MjEwODUxNjAwNS4xNzcxMzE4MTEy*FPAU*MjEwODUxNjAwNS4xNzcxMzE4MTEy*_ga*MTExNDQyNjMxNi4xNzYzMzcwODk4*_ga_7P4TSC4RJ1*czE3NzMxMzU2MDckbzUxJGcwJHQxNzczMTM1NjE3JGo1MCRsMCRoMTM2MTI3NzA2*_ga_6BGXKQDPRN*czE3NzMxMzU2MDUkbzE2NyRnMSR0MTc3MzEzNTYxNiRqNDkkbDAkaDA.",
+      "ariaLabel": "Reservar cita telefónica",
+      "expanded": null
+    },
+    {
+      "index": 334,
+      "tag": "a",
+      "text": "Chat con asesor de marca",
+      "href": "https://www.mediamarkt.es/es/service/asesoria-en-directo",
+      "ariaLabel": "Chat con asesor de marca",
+      "expanded": null
+    },
+    {
+      "index": 335,
+      "tag": "a",
+      "text": "Devoluciones hasta en 60 días",
+      "href": "https://te-ayudamos.mediamarkt.es/app/answers/detail/a_id/17124/~/%C2%BFc%C3%B3mo-puedo-hacer-una-devoluci%C3%B3n%3F",
+      "ariaLabel": "Devoluciones hasta en 60 días",
+      "expanded": null
+    },
+    {
+      "index": 336,
+      "tag": "button",
+      "text": "Ofertas y campañas",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 337,
+      "tag": "a",
+      "text": "Campañas activas",
+      "href": "https://www.mediamarkt.es/es/campaign/campanas-y-ofertas",
+      "ariaLabel": "Campañas activas",
+      "expanded": null
+    },
+    {
+      "index": 338,
+      "tag": "a",
+      "text": "Día sin IVA",
+      "href": "https://www.mediamarkt.es/es/campaign/dia-sin-iva",
+      "ariaLabel": "Día sin IVA",
+      "expanded": null
+    },
+    {
+      "index": 339,
+      "tag": "a",
+      "text": "-15% en APP",
+      "href": "https://www.mediamarkt.es/es/campaign/15-descuento",
+      "ariaLabel": "-15% en APP",
+      "expanded": null
+    },
+    {
+      "index": 340,
+      "tag": "a",
+      "text": "Semana Web",
+      "href": "https://www.mediamarkt.es/es/campaign/semana-web",
+      "ariaLabel": "Semana Web",
+      "expanded": null
+    },
+    {
+      "index": 341,
+      "tag": "a",
+      "text": "Ofertas Flash",
+      "href": "https://www.mediamarkt.es/es/campaign/ofertas-flash",
+      "ariaLabel": "Ofertas Flash",
+      "expanded": null
+    },
+    {
+      "index": 342,
+      "tag": "a",
+      "text": "Black Friday",
+      "href": "https://www.mediamarkt.es/es/campaign/black-friday",
+      "ariaLabel": "Black Friday",
+      "expanded": null
+    },
+    {
+      "index": 343,
+      "tag": "a",
+      "text": "Cyber Monday",
+      "href": "https://www.mediamarkt.es/es/campaign/cyber-monday",
+      "ariaLabel": "Cyber Monday",
+      "expanded": null
+    },
+    {
+      "index": 344,
+      "tag": "a",
+      "text": "Ofertas del día",
+      "href": "https://www.mediamarkt.es/es/campaign/ofertas-destacadas",
+      "ariaLabel": "Ofertas del día",
+      "expanded": null
+    },
+    {
+      "index": 345,
+      "tag": "a",
+      "text": "Cupones y descuentos MediaMarkt",
+      "href": "https://www.mediamarkt.es/es/campaign/cupones-descuentos-mediamarkt",
+      "ariaLabel": "Cupones y descuentos MediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 346,
+      "tag": "a",
+      "text": "Newsletter",
+      "href": "https://www.mediamarkt.es/es/myaccount/guest-newsletter",
+      "ariaLabel": "Newsletter",
+      "expanded": null
+    },
+    {
+      "index": 347,
+      "tag": "a",
+      "text": "Marketplace",
+      "href": "https://www.mediamarkt.es/es/campaign/mas-productos-mejores-precios-mp",
+      "ariaLabel": "Marketplace",
+      "expanded": null
+    },
+    {
+      "index": 348,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Paack",
+      "expanded": null
+    },
+    {
+      "index": 349,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Seur",
+      "expanded": null
+    },
+    {
+      "index": 350,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Correos",
+      "expanded": null
+    },
+    {
+      "index": 351,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/recogidas-y-env%C3%ADos",
+      "ariaLabel": "Tipsa",
+      "expanded": null
+    },
+    {
+      "index": 352,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "VISA",
+      "expanded": null
+    },
+    {
+      "index": 353,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "Mastercard",
+      "expanded": null
+    },
+    {
+      "index": 354,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#paypal",
+      "ariaLabel": "Paypal",
+      "expanded": null
+    },
+    {
+      "index": 355,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#bizum",
+      "ariaLabel": "Bizum",
+      "expanded": null
+    },
+    {
+      "index": 356,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#applepay",
+      "ariaLabel": "Apple Pay",
+      "expanded": null
+    },
+    {
+      "index": 357,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#googlepay",
+      "ariaLabel": "Google Pay",
+      "expanded": null
+    },
+    {
+      "index": 358,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta",
+      "ariaLabel": "Amex",
+      "expanded": null
+    },
+    {
+      "index": 359,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#financiar",
+      "ariaLabel": "Financiación",
+      "expanded": null
+    },
+    {
+      "index": 360,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#tarjeta-regalo",
+      "ariaLabel": "Tarjeta regalo",
+      "expanded": null
+    },
+    {
+      "index": 361,
+      "tag": "a",
+      "text": "",
+      "href": "https://www.mediamarkt.es/es/service/opciones-de-pago#pago-tienda",
+      "ariaLabel": "Pago en tienda",
+      "expanded": null
+    },
+    {
+      "index": 362,
+      "tag": "a",
+      "text": "",
+      "href": "https://apps.apple.com/es/app/mediamarkt/id1438532508",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 363,
+      "tag": "a",
+      "text": "",
+      "href": "https://play.google.com/store/apps/details?id=es.mediamarkt.app",
+      "ariaLabel": "",
+      "expanded": null
+    },
+    {
+      "index": 364,
+      "tag": "a",
+      "text": "Condiciones de contratación",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-contratacion",
+      "ariaLabel": "Condiciones de contratación",
+      "expanded": null
+    },
+    {
+      "index": 365,
+      "tag": "a",
+      "text": "Condiciones de contratación para clientes B2B",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-de-contratacion-para-clientes-b2b",
+      "ariaLabel": "Condiciones de contratación para clientes B2B",
+      "expanded": null
+    },
+    {
+      "index": 366,
+      "tag": "a",
+      "text": "Condiciones de uso web",
+      "href": "https://www.mediamarkt.es/es/legal/condiciones-de-uso-de-la-web",
+      "ariaLabel": "Condiciones de uso web",
+      "expanded": null
+    },
+    {
+      "index": 367,
+      "tag": "a",
+      "text": "Política de privacidad",
+      "href": "https://www.mediamarkt.es/es/legal/politica-de-privacidad",
+      "ariaLabel": "Política de privacidad",
+      "expanded": null
+    },
+    {
+      "index": 368,
+      "tag": "a",
+      "text": "Información sobre nuestros anunciantes",
+      "href": "https://www.mediamarkt.es/es/legal/anunciantes",
+      "ariaLabel": "Información sobre nuestros anunciantes",
+      "expanded": null
+    },
+    {
+      "index": 369,
+      "tag": "a",
+      "text": "Politica de privacidad miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/legal/politica-de-privacidad-mimediamarkt",
+      "ariaLabel": "Politica de privacidad miMediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 370,
+      "tag": "a",
+      "text": "Términos y condiciones miMediaMarkt",
+      "href": "https://www.mediamarkt.es/es/legal/terminos-condiciones-mimediamarkt",
+      "ariaLabel": "Términos y condiciones miMediaMarkt",
+      "expanded": null
+    },
+    {
+      "index": 371,
+      "tag": "a",
+      "text": "Integridad y cumplimiento",
+      "href": "https://www.mediamarkt.es/es/legal/integridad-y-cumplimiento",
+      "ariaLabel": "Integridad y cumplimiento",
+      "expanded": null
+    },
+    {
+      "index": 372,
+      "tag": "a",
+      "text": "Declaración de accesibilidad",
+      "href": "https://www.mediamarkt.es/es/legal/declaracion-de-accesibilidad",
+      "ariaLabel": "Declaración de accesibilidad",
+      "expanded": null
+    },
+    {
+      "index": 373,
+      "tag": "button",
+      "text": "Configurar cookies",
+      "href": "",
+      "ariaLabel": "",
+      "expanded": null
+    }
+  ]
+}

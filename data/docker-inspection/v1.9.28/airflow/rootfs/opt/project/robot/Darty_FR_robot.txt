@@ -1,0 +1,39 @@
+# Darty_FR robots.txt
+# source: https://www.darty.com/robots.txt (via Bright Data, country=fr)
+# HTTP 200
+#
+# '*'(일반 크롤러) 전면금지: 아니오 (홈/제품 허용)
+# Brightbot 전면금지: 아니오
+======================================================================
+
+User-agent: *
+Disallow: /ajax/
+
+Disallow: /m/achat/
+Disallow: /guide-achat/
+Disallow: /darty-et-vous/recherche/
+Disallow: /tunnel_achat/api/cart/
+# Disallow: /darty-et-vous/*?
+Disallow: /api/
+Disallow: /e_api/
+Disallow: /darty-et-vous/node
+Disallow: /nav/search/
+Disallow: /m/search/
+Disallow: /nav/recherche?
+Disallow: /nav/selection/*?
+Disallow: /*espace_client/
+Disallow: /tunnel_achat/
+# Disallow: /*fa$
+Disallow: /*extra/
+Disallow: /*basket_add
+Disallow: /*basket_update
+Disallow: /*site-search?title
+Disallow: /*?search_api_fulltext=
+Disallow: /res3/services/darty-max/pdf/darty-max-cgs.pdf
+
+User-agent: Googlebot-Image
+Disallow:
+User-agent: Mediapartners-Google
+Disallow:
+User-agent: Googlebot-Video
+Disallow:

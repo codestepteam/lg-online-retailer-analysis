@@ -1,0 +1,178 @@
+{
+  "ruleVersion": "D017+D018+D019 / 2026-09-28",
+  "reviewStatus": "AI 검수; 사용자 승인 결과 아님",
+  "reviewedAt": "2026-09-28",
+  "pages": {
+    "alza": {
+      "decision": "Y",
+      "reason": "상위 10개는 LG 냉장고 대표 이미지·제품 카드이며 alt가 LG 냉장고 종류 또는 제품 모델을 설명함",
+      "reviewMethod": "HTML 이미지 위치·alt 원문·전체 화면 이미지 확인",
+      "captureStateSha256": "a4be1fc4f2a2b6d362501f3266cda70fbd89baae0796a4bd10b3880974f96bae",
+      "rawHtmlSha256": "3f40f006c5d6907f8395c67a96a0f36577c79b872577da68928ed3da50986552",
+      "selectedImageIndices": [
+        28,
+        30,
+        31,
+        29,
+        46,
+        50,
+        54,
+        57,
+        62,
+        65
+      ]
+    },
+    "amazon-it": {
+      "decision": "Y",
+      "reason": "상위 10개는 LG 냉장고 대표 이미지·제품 카드이며 alt가 냉장고와 제품 모델을 구체적으로 설명함",
+      "reviewMethod": "HTML 이미지 위치·alt 원문·전체 화면 이미지 확인",
+      "captureStateSha256": "12995b422c079e9b02c4e1cc50aa1bf99385c7fbdd4778e469575de41ffb240e",
+      "rawHtmlSha256": "70b942faeec460c9fd77949ac4ea239be6c308d613ffbe622d765b7ab3682550",
+      "selectedImageIndices": [
+        2,
+        9,
+        40,
+        14,
+        41,
+        45,
+        82,
+        12,
+        5,
+        20
+      ]
+    },
+    "boulanger": {
+      "decision": "N",
+      "reason": "상위 10개 제품 카드 이미지의 alt가 모두 빈 문자열임. aria-hidden 표시만으로 제품 카드를 순수 장식으로 제외하지 않음",
+      "reviewMethod": "HTML 이미지 위치·alt 원문 확인",
+      "captureStateSha256": "26ab72c40753191f809736e5e8b5b4ffc4195afa61ea14b21f8c5608325a3820",
+      "rawHtmlSha256": "8189dad62d749ff44b67480bedd29d2ce9e2b910d560f11cc32cce074daf663b",
+      "selectedImageIndices": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    "coolblue": {
+      "decision": "N",
+      "reason": "상위 이미지 2개의 alt가 Uitgelicht product(추천 상품)로만 적혀 있어 사진 속 LG 냉장고나 제품을 설명하지 않음",
+      "reviewMethod": "HTML 이미지 위치·alt 원문·전체 화면 이미지 확인",
+      "captureStateSha256": "987b86e93dba8b709842cd74527d6e4ed649455219ef25fe2a226113444b1567",
+      "rawHtmlSha256": "48f0ac39493909334945d936d6f5893709a0007fe2a94cabffade792027b753e",
+      "selectedImageIndices": [
+        4,
+        6,
+        0,
+        11,
+        12,
+        13,
+        10,
+        8,
+        9,
+        14
+      ]
+    },
+    "datart": {
+      "decision": "Y",
+      "reason": "광고 배너를 제외한 상위 10개는 LG 냉장고 제품 카드이며 alt가 냉장고 종류·LG·모델명을 설명함",
+      "reviewMethod": "HTML 이미지 위치·alt 원문·전체 화면 이미지 확인",
+      "captureStateSha256": "cee2eb432764e72ee99303623f43ad6ecb36f03ace7b6fa088e3aa052d45951b",
+      "rawHtmlSha256": "8bf691fe57d7a10d89e38ae76526eb3a2e2edb03c01359b5d88454da19461bdd",
+      "selectedImageIndices": [
+        64,
+        68,
+        72,
+        76,
+        80,
+        89,
+        93,
+        97,
+        100,
+        104
+      ]
+    },
+    "elgiganten": {
+      "decision": "N",
+      "reason": "상위 10개는 냉장고 제품 카드 이미지이며 alt가 모두 빈 문자열임",
+      "reviewMethod": "HTML 이미지 위치·alt 원문 확인",
+      "captureStateSha256": "00f026eca2dde86f46d564869800e2d565e317be871afe8cb43ace68d540c339",
+      "rawHtmlSha256": "1cdff2786dd80a0d62cbf139665da8f08fe05c9e5a616a4ea44fc92f95c8120f",
+      "selectedImageIndices": [
+        20,
+        23,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36,
+        38,
+        40
+      ]
+    },
+    "mediamarkt-es": {
+      "decision": "N",
+      "reason": "상위 10개는 제품 카드 이미지이며 alt가 모두 빈 문자열임",
+      "reviewMethod": "HTML 이미지 위치·alt 원문 확인",
+      "captureStateSha256": "724f1f78b36f9d98f4086c026d326cfe4f15f6454aaf227aa3d252dd536ee66f",
+      "rawHtmlSha256": "ee1cdd76788c06ccd42369f27ae648e56f4055e7cd7e7e5b7a50410ab086cd1b",
+      "selectedImageIndices": [
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "mediamarkt-nl": {
+      "decision": "N",
+      "reason": "상위 10개는 제품 카드 이미지이며 alt가 모두 빈 문자열임. 외부 광고와 로딩용 임시 이미지는 제외함",
+      "reviewMethod": "HTML 이미지 위치·alt 원문 확인",
+      "captureStateSha256": "d52095e1223b3fda5b9553bd77962de4b35eab657805e3e739513eb46b41c09a",
+      "rawHtmlSha256": "320b18aa3a92751afd14908f45d9d5b5c715412c59abaa8e457d4c5c6e4e3b14",
+      "selectedImageIndices": [
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        27
+      ]
+    },
+    "mediaworld": {
+      "decision": "N",
+      "reason": "상위 10개는 제품 카드 이미지이며 alt가 모두 빈 문자열임",
+      "reviewMethod": "HTML 이미지 위치·alt 원문 확인",
+      "captureStateSha256": "375d1da9f821ef04bf29171182ffb51a55268c259ce34e7efbc3ddd5662a9b91",
+      "rawHtmlSha256": "26dae4b19c7e0bf12fd50eb006fed6c88dc5fa51364d4940fee1a48521adacd7",
+      "selectedImageIndices": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ]
+    }
+  }
+}

@@ -1,0 +1,2412 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0052-boulanger",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+    "finalUrl": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+    "capturedAt": "2026-09-28T07:59:58.100873+09:00",
+    "collectionOk": true,
+    "title": "Réfrigérateur Samsung - Livraison 24h Offerte* | Boulanger"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260928-all-159/pages/row-0052-boulanger/brand-category/raw.html",
+      "sha256": "4be55a8eec20295b84235a70e41b89fd0b15f0e146fe9c03c4b47c962677798e"
+    },
+    "captureState": {
+      "path": "20260928-all-159/pages/row-0052-boulanger/brand-category/capture-state.json",
+      "sha256": "47a0846677ece491ba2014ea7b9b75144261c3851f2f2abb066efac14a6f6b43"
+    },
+    "response": {
+      "path": "20260928-all-159/pages/row-0052-boulanger/brand-category/response.json",
+      "sha256": "c85274f1dbf2fd60b034fa02430cafd2f51108a20281b02c60464263a9e22874"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h1",
+        "path": "html > body.didomi-popup-open > main#main > div#product-list__header > h1.product-list__header-title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Samsung",
+        "attributes": {
+          "class": "product-list__header-title"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-0 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-1 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38T607BB1",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "li.product-list__item.product-list__item-sponsored > div > article.grid.product-list__product.sponsored-product-4fed39b9-a553-49db-a614-9b8c0367c082 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-2 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38C655DS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-3 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-4 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38C600DSA",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "li.product-list__item.product-list__item-sponsored > div > article.grid.product-list__product.sponsored-product-d078471a-1177-4bbd-b259-038784a1d1af > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS70F64KDT",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-5 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF24BB620EB1",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "li.product-list__item.product-list__item-sponsored > div > article.grid.product-list__product.sponsored-product-2a861220-cc96-41fb-89c7-53c256de0ee4 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné encastrable SAMSUNG BRB80F26ADS0",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-6 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF48A401EB4",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-7 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB34C605CS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-8 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38T607BS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-9 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS70F64KDT",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-10 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF65DG960ESR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-11 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS80F66KBT Bespoke AI",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-12 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB50DG602ES9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-13 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB34C600EBN",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-14 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RL38C776ASR",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-15 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RM90F67CECEF Bespoke AI",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-16 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur 2 portes SAMSUNG RT31CG5624S9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-17 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS90F64EDF",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-18 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS70F64KEF",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-19 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB34C600EWW",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-20 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF65DG9H0EB1 family hub avec AI vision",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-21 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur 1 porte SAMSUNG RR70H39CDT",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-22 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF65DG9H0ESR family hub",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-23 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur 2 portes SAMSUNG RT47CG6726S9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-24 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS90F66BEFEF Bespoke AI Family",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-25 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38C603CS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-26 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS70F66KCT",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-27 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RF48A400EM9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-28 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB38C7B5DS9 Bespoke",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-29 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur 1 porte SAMSUNG D-RR70H39FDV",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-30 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG BRB38G705EWW",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-31 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB50DG601EB1",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-32 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur 1 porte SAMSUNG BRR29703EWW/EF Metal Cooling",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-33 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB53DG703DS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-34 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS80F64KEF",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-35 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS70F64KDF",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-36 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur combiné SAMSUNG RB53DG706AS9",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-37 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS90F64EDT",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-38 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur Américain SAMSUNG RS90F66BET Bespoke AI Family",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "ul > li#product-list__item-39 > article.grid.product-list__product > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Réfrigérateur multi portes SAMSUNG RM70F63NER",
+        "attributes": {
+          "id": "productLabel",
+          "class": "product-list__product-label"
+        }
+      },
+      {
+        "tag": "h2",
+        "path": "html > body.didomi-popup-open > main#main > section.slc > h2.slc__title",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "À découvrir également",
+        "attributes": {
+          "class": "slc__title"
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 387,
+        "top10ByRenderedArea": [
+          {
+            "index": 373,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 94,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 135,
+            "renderedArea": 125415,
+            "naturalWidth": 929,
+            "naturalHeight": 135,
+            "naturalArea": 125415,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 77,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnmle2_G8lq88qfzG38rcdy.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 95,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/bienvenueinter_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 80,
+            "renderedArea": 74320,
+            "naturalWidth": 929,
+            "naturalHeight": 80,
+            "naturalArea": 74320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_0?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_1?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_2?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_3?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 44,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_5?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 47,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_0?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 383,
+            "src": "https://www.boulanger.com/etc.clientlibs/boulanger-site/clientlibs/wpk.app/resources/assets/svg/qr-app-footer.svg",
+            "alt": "QR code pour télécharger l'application Boulanger",
+            "renderedWidth": 123,
+            "renderedHeight": 123,
+            "renderedArea": 15129,
+            "naturalWidth": 1126,
+            "naturalHeight": 1126,
+            "naturalArea": 1267876,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 77,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnmle2_G8lq88qfzG38rcdy.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 373,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 94,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 135,
+            "renderedArea": 125415,
+            "naturalWidth": 929,
+            "naturalHeight": 135,
+            "naturalArea": 125415,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 95,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/bienvenueinter_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 80,
+            "renderedArea": 74320,
+            "naturalWidth": 929,
+            "naturalHeight": 80,
+            "naturalArea": 74320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_0?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_1?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_2?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_3?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 44,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_5?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Réfrigérateur Samsung - Livraison 24h Offerte* | Boulanger"
+        ],
+        "metaDescription": [
+          "Réfrigérateur Samsung au meilleur rapport qualité/prix ! Livraison 24h & Installation Offertes* - Retrait 1h en Magasin* - Retrait Drive* - Garantie 2 ans* - SAV 7j/7"
+        ],
+        "h1": [
+          "Réfrigérateur Samsung"
+        ],
+        "robots": [
+          "NOODP"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.boulanger.com/c/refrigerateur/brand~samsung"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 373,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/BCBULL_d?wid=1244&fmt=png-alpha",
+            "alt": "Image liée à un emplacement marketing",
+            "renderedWidth": 1244,
+            "renderedHeight": 180,
+            "renderedArea": 223920,
+            "naturalWidth": 1244,
+            "naturalHeight": 180,
+            "naturalArea": 223920,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 94,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/infinity092026_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 135,
+            "renderedArea": 125415,
+            "naturalWidth": 929,
+            "naturalHeight": 135,
+            "naturalArea": 125415,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 77,
+            "src": "https://rmp-cdn.moloco.com/platform/BOULANGER/images/signed/mtwnmle2_G8lq88qfzG38rcdy.jpg",
+            "alt": "",
+            "renderedWidth": 207,
+            "renderedHeight": 368,
+            "renderedArea": 76176,
+            "naturalWidth": 360,
+            "naturalHeight": 640,
+            "naturalArea": 230400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 95,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/bienvenueinter_d?wid=929&fmt=png-alpha",
+            "alt": null,
+            "renderedWidth": 929,
+            "renderedHeight": 80,
+            "renderedArea": 74320,
+            "naturalWidth": 929,
+            "naturalHeight": 80,
+            "naturalArea": 74320,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 40,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_0?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 41,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_1?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 42,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_2?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 43,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_3?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 44,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_5?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 47,
+            "src": "https://boulanger.scene7.com/is/image/Boulanger/8806094767865_h_f_l_0?wid=194&hei=194&resMode=sharp2&op_usm=1.75,0.3,2,0&fmt=png-alpha",
+            "alt": "",
+            "renderedWidth": 192,
+            "renderedHeight": 192,
+            "renderedArea": 36864,
+            "naturalWidth": 194,
+            "naturalHeight": 194,
+            "naturalArea": 37636,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "linkCandidates": [
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné encastrable WHIRLPOOL WHK25294B7E",
+            "href": "https://www.boulanger.com/ref/1238798",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné encastrable WHIRLPOOL WHK25294B7E",
+            "href": "https://www.boulanger.com/ref/1238798",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné encastrable WHIRLPOOL WHK25294B6E",
+            "href": "https://www.boulanger.com/ref/1239414",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné encastrable WHIRLPOOL WHK25294B6E",
+            "href": "https://www.boulanger.com/ref/1239414",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné WHIRLPOOL WHK26372X5EA3",
+            "href": "https://www.boulanger.com/ref/1235754",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné WHIRLPOOL WHK26372X5EA3",
+            "href": "https://www.boulanger.com/ref/1235754",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné WHIRLPOOL WHK26413X6EE",
+            "href": "https://www.boulanger.com/ref/1235792",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné WHIRLPOOL WHK26413X6EE",
+            "href": "https://www.boulanger.com/ref/1235792",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné WHIRLPOOL WHK22374X7EA",
+            "href": "https://www.boulanger.com/ref/1237191",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné WHIRLPOOL WHK22374X7EA",
+            "href": "https://www.boulanger.com/ref/1237191",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné WHIRLPOOL WHK26414XBR7EA",
+            "href": "https://www.boulanger.com/ref/1237192",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné WHIRLPOOL WHK26414XBR7EA",
+            "href": "https://www.boulanger.com/ref/1237192",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur",
+            "href": "https://www.boulanger.com/c/refrigerateur",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "réfrigérateur",
+            "href": "https://www.boulanger.com/c/refrigerateur",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "réfrigérateur américain",
+            "href": "https://www.boulanger.com/c/refrigerateur-americain",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Petit réfrigérateur",
+            "href": "https://www.boulanger.com/c/petit-refrigerateur",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur congélateur",
+            "href": "https://www.boulanger.com/c/refrigerateur-avec-congelateur",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 1 porte",
+            "href": "https://www.boulanger.com/c/refrigerateur-1-porte",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné",
+            "href": "https://www.boulanger.com/c/nav-filtre/refrigerateur?_usage~re9frige9rateur20combine9",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur américain",
+            "href": "https://www.boulanger.com/c/refrigerateur-americain",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi-portes",
+            "href": "https://www.boulanger.com/c/refrigerateur-multi-portes",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur encastrable",
+            "href": "https://www.boulanger.com/c/refrigerateur-encastrable",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur basse consommation",
+            "href": "https://www.boulanger.com/c/nav-filtre/refrigerateur?facettes_communes_____basse_consommation~basse20consommation",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Samsung",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Pro",
+            "href": "https://www.boulanger.com/c/refrigerateur-pro",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "samsung",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Zone congélateur réversible en réfrigérateur (15)",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung#",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Réfrigérateur basse consommation (11)",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung#",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur"
+            ]
+          },
+          {
+            "text": "Afficher les informations du produit sponsorisé : Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "href": "https://www.boulanger.com/ref/1221082",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.boulanger.com/ref/1221082",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "href": "https://www.boulanger.com/ref/1221082",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.boulanger.com/marque/samsung",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38T607BB1",
+            "href": "https://www.boulanger.com/ref/1190375",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Afficher les informations du produit sponsorisé : Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+            "href": "https://www.boulanger.com/ref/1201966",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.boulanger.com/ref/1201966",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+            "href": "https://www.boulanger.com/ref/1201966",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38C655DS9",
+            "href": "https://www.boulanger.com/ref/1239606",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Réfrigérateur multi portes SAMSUNG RF24BB620ES9",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur Américain SAMSUNG RS70F64KDT",
+            "href": "https://www.boulanger.com/ref/1223240",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS70F64KDT",
+            "href": "https://www.boulanger.com/ref/1223240",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Réfrigérateur Américain SAMSUNG RS70F64KDT",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Lien vers le produit Réfrigérateur combiné encastrable SAMSUNG BRB80F26ADS0",
+            "href": "https://www.boulanger.com/ref/1223173",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné encastrable SAMSUNG BRB80F26ADS0",
+            "href": "https://www.boulanger.com/ref/1223173",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Ajouter au panier Réfrigérateur combiné encastrable SAMSUNG BRB80F26ADS0",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38C600DSA",
+            "href": "https://www.boulanger.com/ref/1198651",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Afficher les informations du produit sponsorisé : Réfrigérateur Américain SAMSUNG RS70F64KDT",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.boulanger.com/ref/1223240",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF24BB620EB1",
+            "href": "https://www.boulanger.com/ref/1201967",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Afficher les informations du produit sponsorisé : Réfrigérateur combiné encastrable SAMSUNG BRB80F26ADS0",
+            "href": "https://www.boulanger.com/c/refrigerateur/brand~samsung",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "SAMSUNG",
+            "href": "https://www.boulanger.com/ref/1223173",
+            "signals": [
+              "페이지 주제어와 일치: samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF48A401EB4",
+            "href": "https://www.boulanger.com/ref/1192965",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB34C605CS9",
+            "href": "https://www.boulanger.com/ref/1191015",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38T607BS9",
+            "href": "https://www.boulanger.com/ref/1190374",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF65DG960ESR",
+            "href": "https://www.boulanger.com/ref/1202582",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS80F66KBT Bespoke AI",
+            "href": "https://www.boulanger.com/ref/1220570",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB50DG602ES9",
+            "href": "https://www.boulanger.com/ref/1202551",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB34C600EBN",
+            "href": "https://www.boulanger.com/ref/1200661",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RL38C776ASR",
+            "href": "https://www.boulanger.com/ref/1190215",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RM90F67CECEF Bespoke AI",
+            "href": "https://www.boulanger.com/ref/1220604",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 2 portes SAMSUNG RT31CG5624S9",
+            "href": "https://www.boulanger.com/ref/1203547",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS90F64EDF",
+            "href": "https://www.boulanger.com/ref/1223238",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS70F64KEF",
+            "href": "https://www.boulanger.com/ref/1224430",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB34C600EWW",
+            "href": "https://www.boulanger.com/ref/1200590",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF65DG9H0EB1 family hub avec AI vision",
+            "href": "https://www.boulanger.com/ref/1202584",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 1 porte SAMSUNG RR70H39CDT",
+            "href": "https://www.boulanger.com/ref/1240266",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF65DG9H0ESR family hub",
+            "href": "https://www.boulanger.com/ref/1202583",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 2 portes SAMSUNG RT47CG6726S9",
+            "href": "https://www.boulanger.com/ref/1195893",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS90F66BEFEF Bespoke AI Family",
+            "href": "https://www.boulanger.com/ref/1220603",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38C603CS9",
+            "href": "https://www.boulanger.com/ref/1239607",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS70F66KCT",
+            "href": "https://www.boulanger.com/ref/1224427",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur multi portes SAMSUNG RF48A400EM9",
+            "href": "https://www.boulanger.com/ref/1220197",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB38C7B5DS9 Bespoke",
+            "href": "https://www.boulanger.com/ref/1190382",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 1 porte SAMSUNG D-RR70H39FDV",
+            "href": "https://www.boulanger.com/ref/1242887",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG BRB38G705EWW",
+            "href": "https://www.boulanger.com/ref/1215052",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB50DG601EB1",
+            "href": "https://www.boulanger.com/ref/1221885",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur 1 porte SAMSUNG BRR29703EWW/EF Metal Cooling",
+            "href": "https://www.boulanger.com/ref/1189628",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB53DG703DS9",
+            "href": "https://www.boulanger.com/ref/1202554",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS80F64KEF",
+            "href": "https://www.boulanger.com/ref/1225900",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS70F64KDF",
+            "href": "https://www.boulanger.com/ref/1223273",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur combiné SAMSUNG RB53DG706AS9",
+            "href": "https://www.boulanger.com/ref/1202557",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS90F64EDT",
+            "href": "https://www.boulanger.com/ref/1224429",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          },
+          {
+            "text": "Réfrigérateur Américain SAMSUNG RS90F66BET Bespoke AI Family",
+            "href": "https://www.boulanger.com/ref/1220602",
+            "signals": [
+              "페이지 주제어와 일치: refrigerateur, samsung"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "h1",
+            "path": "html > body.didomi-popup-open > main#main > div#product-list__header > h1.product-list__header-title",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Réfrigérateur Samsung",
+            "attributes": {
+              "class": "product-list__header-title"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "html > body.didomi-popup-open > main#main > div#product-list__header > span.product-list__header-product-count",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "(57 articles)",
+            "attributes": {
+              "class": "product-list__header-product-count"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html > body.didomi-popup-open > main#main > div#product-list__header",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Réfrigérateur Samsung (57 articles) .ems--PL_TOP_SEO, .ems--PM_TOP_SEO { font-size: 12px; line-height: 14px; color: #757575; } .ems__seo-wrapper { display: flex; flex-direction: column; } .ems__seo-trigger { position: absolute; left: -6.25rem; } .ems__seo-content { -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; display: -webkit-box; } .ems__seo-content p, .ems__seo-content div { display: inline; margin: 0; } .ems__seo-label { cursor: pointer; margin-top: 0.5rem; } .ems__seo-toggle { text-decoration: underline; display: flex; align-items: center; } .ems__seo-toggle svg { margin-left: 0.5rem; } .ems__seo-toggle--less { display: none; } .ems__seo-trigger:checked ~ .ems__seo-content { -webkit-line-clamp: unset; overflow: visible; display: block; } .ems__seo-trigger:checked ~ .ems__seo-content p, .ems__seo-trigger:checked ~ .ems__seo-content div { display: block; margin-bottom: 0.5rem; } .ems__seo-trigger:checked ~ .ems__seo-label .ems__seo-toggle--less { display: flex; } .ems__seo-trigger:checked ~ .ems__seo-label .ems__seo-toggle--more { display: none; } Besoin d'un nouveau réfrigérateur à la fois performant et durable ? Le réfrigérateur Samsung se décline en de multiples modèles. Optez pour un combiné congélateur, pour un réfrigérateur américain ou encore pour un appareil encastrable et alliez efficacité et design. Le frigo Samsung propose de multiples options avec notamment le twin cooling pour maintenir un taux d'humidité adéquat et le mode chef qui vérifie et ajuste régulièrement la température pour une meilleure conservation. Certains appareils sont même connectés au Wi-Fi pour une meilleure gestion au quotidien. Lire la suite Réduire *Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.",
+            "attributes": {
+              "class": "product-list__header",
+              "id": "product-list__header"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html > body.didomi-popup-open > main#main > div.grid.product-list__content > div.g-col-8.g-col-sm-12.g-col-lg-3",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "@keyframes loader_rotation { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } @keyframes span_rotation { 0% { transform: rotate(0deg); } 40% { transform: rotate(220deg); } 100% { transform: rotate(220deg); } } @keyframes border_animation { 0% { transform: rotate(-140deg); } 40% { transform: rotate(-170deg); } 60% { transform: rotate(-170deg); } 100% { transform: rotate(140deg); } } .wrapper { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; } .wrapper.fullpage { position: fixed; top: 0px; left: 0px; z-index: 999; } .wrapper.restricted { position: absolute; z-index: 9; } .wrapper .loader { position: absolute; z-index: 2001; } .wrapper .loader__circle { position: relative; top: 50%; animation: 4.8s linear 0s infinite normal none running loader_rotation; } .wrapper .loader__circle-animated, .wrapper .loader__circle-animated2 { box-sizing: border-box; display: block; position: absolute; inset: 0px; margin: auto; } .wrapper .loader__circle-animated { animation: 1.2s linear 0s infinite normal none running span_rotation; } .wrapper .loader__circle-animated2 { border: 3px solid rgb(245, 106, 0); border-radius: 50%; animation: 1.2s linear 0s infinite normal none running border_animation; } .wrapper .loader__logo { position: relative; display: flex; justify-content: center; } .wrapper .loader__logo svg { width: 100%; } .prefix__cls-3{fill:#d14600} .icon { display: flex; fill: rgb(67, 72, 107); height: 24px; width: 24px; } .icon--current-color { fill: currentcolor; } .icon svg { width: inherit; height: inherit; } .icon { display: flex; fill: rgb(67, 72, 107); height: 24px; width: 24px; } .icon--current-color { fill: currentcolor; } .icon svg { width: inherit; height: inherit; } Filtrer 57 articles Filtrer (1) .button { appearance: none; border-radius: 0px; text-align: inherit; background: none; box-shadow: none; padding: 0px; cursor: pointer; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: inherit; font: inherit; } :host { display: block; } .button { box-sizing: border-box; } .button--outline.button--primary { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(27, 29, 41); font-weight: 500; background-color: transparent; color: rgb(27, 29, 41); } @media (hover: hover) { .button--outline.button--primary:hover { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; font-weight: 500; background-color: transparent; color: rgb(27, 29, 41); border: 2px solid !important; } } .button--outline.button--primary.button--disabled { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(128, 129, 133); font-weight: 500; background-color: rgb(240, 241, 246); color: rgb(128, 129, 133); pointer-events: none; } .button--outline.button--secondary { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(169, 162, 247); font-weight: 500; background-color: rgb(255, 255, 255); color: rgb(27, 29, 41); } @media (hover: hover) { .button--outline.button--secondary:hover { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(169, 162, 247); font-weight: 500; background-color: rgb(239, 238, 252); color: rgb(27, 29, 41); } } .button--outline.button--secondary.button--disabled { display: inline-flex; justify-content: center; align-items: center; flex-shrink: 0; cursor: pointer; border-radius: 9999px; border: 1.5px solid rgb(128, 129, 133); font-weight: 500; background-color: rgb(240, 241, 246); color: rgb(128, 129, 133); pointer-events: none; } .button--rachatOutline.button--primary { display: inline-flex; justify-content",
+            "attributes": {
+              "class": "g-col-8 g-col-sm-12 g-col-lg-3 product-list__facets"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list__filter-shortcuts > div.product-list__toggle > label.facets-items__toggle > div.product-list__toggle__wrapper > a.facets-items__link > div.product-list__toggle__slider",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__toggle__slider"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts > div.product-list__toggle > label.facets-items__toggle > div.product-list__toggle__wrapper",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__toggle__wrapper"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts > div.product-list__toggle",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produits reconditionnés",
+            "attributes": {
+              "class": "product-list__toggle"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "html > body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > div#product-list__filter-shortcuts",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produits reconditionnés",
+            "attributes": {
+              "class": "product-list__filter-shortcuts",
+              "id": "product-list__filter-shortcuts"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > span.product-list__product-sponsored.product-list__product > button.button.product-list__product-sponsored-btn.js-open-popin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "button product-list__product-sponsored-btn js-open-popin",
+              "aria-label": "Afficher les informations du produit sponsorisé : Réfrigérateur combiné SAMSUNG RB34C600DSA"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#rm-topnatif-container > div > span.product-list__product-sponsored.product-list__product",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produit sponsorisé",
+            "attributes": {
+              "class": "product-list__product-sponsored product-list__product"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28 > div#swiper-wrapper-5415fb88d7103eec7 > div#product-list__product-image-container > a.product-list__product-image-link > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5 > div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28 > div#swiper-wrapper-5415fb88d7103eec7 > div#product-list__product-image-container > a.product-list__product-image-link",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link",
+              "aria-label": "Lien vers le produit Réfrigérateur combiné SAMSUNG RB34C600DSA"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5 > div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28 > div#swiper-wrapper-5415fb88d7103eec7 > div#product-list__product-image-container",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-slide product-list__product-image-container swiper-slide-active",
+              "id": "product-list__product-image-container",
+              "role": "group",
+              "aria-label": "1 / 5"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5 > div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28 > div.swiper-button-prev.product-list__swiper-navigation-prev",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-prev product-list__swiper-navigation-prev",
+              "role": "button",
+              "aria-label": "Previous slide"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5 > div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28 > div.swiper-button-next.product-list__swiper-navigation-next",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper-button-next product-list__swiper-navigation-next",
+              "role": "button",
+              "aria-label": "Next slide"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5 > div#swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "swiper swiper-initialized swiper-horizontal swiper-backface-hidden",
+              "id": "swiper-product-list-398f7926-db8f-4e13-861c-afe10f87bd28"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-1.g-col-3.g-col-sm-5",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Comparer",
+            "attributes": {
+              "class": "product-list__product-area-1 g-col-3 g-col-sm-5 g-col-md-3 g-col-lg-2 g-col-xl-2"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin.product-list__product-brand",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "SAMSUNG",
+            "attributes": {
+              "class": "analytic-track-origin product-list__product-brand",
+              "aria-label": "Lien vers le produit Réfrigérateur combiné SAMSUNG RB34C600DSA"
+            }
+          },
+          {
+            "tag": "h2",
+            "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.analytic-track-origin > h2#productLabel",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Réfrigérateur combiné SAMSUNG RB34C600DSA",
+            "attributes": {
+              "id": "productLabel",
+              "class": "product-list__product-label"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div#product-list__product-rating",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": ".rating { display: flex; flex-direction: row; align-items: center; font-size: 0.875rem; line-height: 1.0625rem; } .rating--extraExtraSmall { width: 50px; height: 10px; } .rating--extraSmall { width: 70px; height: 14px; } .rating--small { width: 80px; height: 18px; } .rating--medium { width: 100px; height: 20px; } .rating--large { width: 120px; height: 24px; } .stars { position: relative; width: 100%; height: 100%; } .stars--extraExtraSmall .stars__top, .stars--extraExtraSmall .stars__bottom, .stars--extraExtraSmall .stars__topBlue { background-size: 10px auto; } .stars--extraSmall .stars__top, .stars--extraSmall .stars__bottom { background-size: 14px 14px; } .stars--extraSmall .stars__topBlue { background-size: 14px 14px; } .stars--small .stars__top, .stars--small .stars__bottom { background-size: 16px 16px; } .stars--small .stars__topBlue { background-size: 16px 16px; } .stars--medium .stars__top, .stars--medium .stars__bottom { background-size: 20px 20px; } .stars--medium .stars__topBlue { background-size: 20px 20px; } .stars--large .stars__top, .stars--large .stars__bottom { background-size: 24px 24px; } .stars--large .stars__topBlue { background-size: 24px 24px; } .stars__top, .stars__bottom { position: absolute; top: 0px; left: 0px; overflow: hidden; background-repeat: repeat-x; width: 100%; height: 100%; } .stars__top { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3755L16.3236 15.9536V15.9546L16.3656 16.1558C16.5556 17.1575 16.4401 18.124 15.7318 18.645C14.9732 19.2026 13.9362 18.9559 12.9945 18.395H12.9935L10.5033 16.9077H10.5023C10.3977 16.8453 10.2179 16.7945 10.0013 16.7944C9.7853 16.7945 9.60091 16.8455 9.48961 16.9106L7.00231 18.394V18.395C6.06186 18.9576 5.02645 19.1999 4.26793 18.6421C3.5126 18.0862 3.42642 17.0246 3.67223 15.9536L4.26402 13.3755C4.28933 13.257 4.28459 13.0743 4.22789 12.8745C4.18474 12.7226 4.12197 12.5973 4.05895 12.5093L3.99645 12.4341L1.93004 10.3511C1.24407 9.65941 0.863481 8.80832 1.12242 7.99072C1.38227 7.1712 2.18457 6.70007 3.14488 6.53857L5.80406 6.09326C5.9015 6.07592 6.05407 6.01158 6.21129 5.89404C6.36951 5.77569 6.47431 5.64595 6.51891 5.5542L6.52184 5.54932L7.98863 2.59326V2.59131L8.07555 2.42822C8.52027 1.62224 9.17789 1.04182 9.99645 1.0415Z' fill='%23F56A00'/%3E%3C/svg%3E\"); } .stars__topBlue { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 50' style='color: %23008196'%3E%3Cg transform='translate(-227.844 -279.496)'%3E%3Cpath fill='currentColor' d='M26.009,0l7.944,16.41L51.91,19.054,38.96,31.94,42.007,50l-16-8.591L9.9,50,12.95,31.94,0,19.054,17.956,16.41Z' transform='translate(227.844 279.496)'/%3E%3C/g%3E%3C/svg%3E\"); } .stars__bottom { position: relative; z-index: 0; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3755L16.3236 15.9536V15.9546L16.3656 16.1558C16.555",
+            "attributes": {
+              "class": "product-list__product-rating",
+              "id": "product-list__product-rating"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.product-list__sustainability-index",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__sustainability-index"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link > div.product-list-stickers__item-content__block > div.product-list-stickers__item-content__block-first-line",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ dès 200€",
+            "attributes": {
+              "class": "product-list-stickers__item-content__block-first-line"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link > div.product-list-stickers__item-content__block",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ dès 200€ avec PROMO20",
+            "attributes": {
+              "class": "product-list-stickers__item-content__block"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link > span.product-list-stickers__item-icon",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list-stickers__item-icon"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ dès 200€ avec PROMO20",
+            "attributes": {
+              "class": "product-list-stickers__item-link",
+              "aria-label": "Naviguer vers \n\t\n        \n             20€ dès 200€\n         \n        \n            avec PROMO20\n        \n\t\n\t"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ dès 200€ avec PROMO20",
+            "attributes": {
+              "class": "product-list-stickers__item-content",
+              "role": "listitem"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link > div.product-list-stickers__item-content__block > div.product-list-stickers__item-content__block-first-line",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Jusqu'à 65€ cagnottés",
+            "attributes": {
+              "class": "product-list-stickers__item-content__block-first-line"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link > div.product-list-stickers__item-content__block",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Jusqu'à 65€ cagnottés nouveaux adhérents",
+            "attributes": {
+              "class": "product-list-stickers__item-content__block"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content > a.product-list-stickers__item-link",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Jusqu'à 65€ cagnottés nouveaux adhérents",
+            "attributes": {
+              "class": "product-list-stickers__item-link",
+              "aria-label": "Naviguer vers \n\t\n        \n             Jusqu'à 65€ cagnottés\n         \n        \n            nouveaux adhérents\n        \n\t\n\t"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers > ul > li.product-list-stickers__item-content",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Jusqu'à 65€ cagnottés nouveaux adhérents",
+            "attributes": {
+              "class": "product-list-stickers__item-content",
+              "role": "listitem"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > div.stickers.product-list-stickers",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ dès 200€ avec PROMO20 Jusqu'à 65€ cagnottés nouveaux adhérents",
+            "attributes": {
+              "class": "stickers product-list-stickers"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7 > a.product-list__product-keypoints",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "LxHxP : 59.5 x 185.3 x 65.8 cm très silencieux (35dB) Volume total : 344 L Dégivrage automatique du congélateur On adore : Le Mode AI Energy optimise le compresseur et le dégivrage pour économiser jusqu'à 15% d'énergie.",
+            "attributes": {
+              "class": "product-list__product-keypoints"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-2.g-col-5.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "SAMSUNG Réfrigérateur combiné SAMSUNG RB34C600DSA .rating { display: flex; flex-direction: row; align-items: center; font-size: 0.875rem; line-height: 1.0625rem; } .rating--extraExtraSmall { width: 50px; height: 10px; } .rating--extraSmall { width: 70px; height: 14px; } .rating--small { width: 80px; height: 18px; } .rating--medium { width: 100px; height: 20px; } .rating--large { width: 120px; height: 24px; } .stars { position: relative; width: 100%; height: 100%; } .stars--extraExtraSmall .stars__top, .stars--extraExtraSmall .stars__bottom, .stars--extraExtraSmall .stars__topBlue { background-size: 10px auto; } .stars--extraSmall .stars__top, .stars--extraSmall .stars__bottom { background-size: 14px 14px; } .stars--extraSmall .stars__topBlue { background-size: 14px 14px; } .stars--small .stars__top, .stars--small .stars__bottom { background-size: 16px 16px; } .stars--small .stars__topBlue { background-size: 16px 16px; } .stars--medium .stars__top, .stars--medium .stars__bottom { background-size: 20px 20px; } .stars--medium .stars__topBlue { background-size: 20px 20px; } .stars--large .stars__top, .stars--large .stars__bottom { background-size: 24px 24px; } .stars--large .stars__topBlue { background-size: 24px 24px; } .stars__top, .stars__bottom { position: absolute; top: 0px; left: 0px; overflow: hidden; background-repeat: repeat-x; width: 100%; height: 100%; } .stars__top { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3755L16.3236 15.9536V15.9546L16.3656 16.1558C16.5556 17.1575 16.4401 18.124 15.7318 18.645C14.9732 19.2026 13.9362 18.9559 12.9945 18.395H12.9935L10.5033 16.9077H10.5023C10.3977 16.8453 10.2179 16.7945 10.0013 16.7944C9.7853 16.7945 9.60091 16.8455 9.48961 16.9106L7.00231 18.394V18.395C6.06186 18.9576 5.02645 19.1999 4.26793 18.6421C3.5126 18.0862 3.42642 17.0246 3.67223 15.9536L4.26402 13.3755C4.28933 13.257 4.28459 13.0743 4.22789 12.8745C4.18474 12.7226 4.12197 12.5973 4.05895 12.5093L3.99645 12.4341L1.93004 10.3511C1.24407 9.65941 0.863481 8.80832 1.12242 7.99072C1.38227 7.1712 2.18457 6.70007 3.14488 6.53857L5.80406 6.09326C5.9015 6.07592 6.05407 6.01158 6.21129 5.89404C6.36951 5.77569 6.47431 5.64595 6.51891 5.5542L6.52184 5.54932L7.98863 2.59326V2.59131L8.07555 2.42822C8.52027 1.62224 9.17789 1.04182 9.99645 1.0415Z' fill='%23F56A00'/%3E%3C/svg%3E\"); } .stars__topBlue { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 50' style='color: %23008196'%3E%3Cg transform='translate(-227.844 -279.496)'%3E%3Cpath fill='currentColor' d='M26.009,0l7.944,16.41L51.91,19.054,38.96,31.94,42.007,50l-16-8.591L9.9,50,12.95,31.94,0,19.054,17.956,16.41Z' transform='translate(227.844 279.496)'/%3E%3C/g%3E%3C/svg%3E\"); } .stars__bottom { position: relative; z-index: 0; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3",
+            "attributes": {
+              "class": "product-list__product-area-2 g-col-5 g-col-sm-7 g-col-md-4 g-col-lg-3 g-col-xl-3"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div.product-list__product-price-main > div.product-list__product-energy-label > button.button.product-list__product-energy-arrow.js-open-popin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "button product-list__product-energy-arrow js-open-popin",
+              "aria-label": "Afficher la classe énergétique"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div.product-list__product-price-main > div.product-list__product-energy-label > button.button.product-list__product-energy-arrow.js-open-popin > img.product-list__product-energy-img",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-energy-img"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div.product-list__product-price-main > div.product-list__product-energy-label",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-energy-label"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div.product-list__product-price-main",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "599,00€",
+            "attributes": {
+              "class": "product-list__product-price-main"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div#product-list__product-price-installment > button#product__installment-button",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "35.12€ par mois en 20 fois",
+            "attributes": {
+              "class": "button js-open-popin installment-card installment-card--list product-list__installment-button button-installment-abTest",
+              "aria-label": "Payer en plusieurs fois",
+              "id": "product__installment-button"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price > div#product-list__product-price-installment",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "35.12€ par mois en 20 fois",
+            "attributes": {
+              "class": "product-list__product-price-installment",
+              "id": "product-list__product-price-installment"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7 > div.product-list__product-price",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "599,00€ 35.12€ par mois en 20 fois",
+            "attributes": {
+              "class": "product-list__product-price "
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-3.g-col-5.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Prix de référence .icon { display: flex; fill: rgb(67, 72, 107); height: 24px; width: 24px; } .icon--current-color { fill: currentcolor; } .icon svg { width: inherit; height: inherit; } oldPrice 699,00€ -14% 599,00€ 35.12€ par mois en 20 fois",
+            "attributes": {
+              "class": "product-list__product-area-3 g-col-5 g-col-sm-7 g-col-md-4 g-start-md-9 g-col-lg-3 g-start-lg-7 g-col-xl-3 g-start-xl-7"
+            }
+          },
+          {
+            "tag": "button",
+            "path": "ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-4.g-col-8.g-col-sm-7 > button.button.from_bl_button.js_add_to_cart_button",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Ajouter au panier",
+            "attributes": {
+              "class": "button from_bl_button js_add_to_cart_button button--primary js-open-popin button--full js-add-to-cart-rm-native-product product-list__product-add-to-cart",
+              "aria-label": "Ajouter au panier Réfrigérateur combiné SAMSUNG RB34C600DSA"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-4.g-col-8.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Ajouter au panier Retrait en magasin disponible Livraison à domicile - 39,00 € offerte dès demain",
+            "attributes": {
+              "class": "product-list__product-area-4 g-col-8 g-col-sm-7 g-start-sm-6 g-col-md-4 g-start-md-9 g-col-lg-3 g-start-lg-7 g-col-xl-3 g-start-xl-7"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28 > div.product-list__product-area-6.g-col-8.g-col-sm-7",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-area-6 g-col-8 g-col-sm-7 g-start-sm-6 g-col-md-4 g-start-md-9 g-col-lg-3 g-start-lg-7 g-col-xl-3 g-start-xl-7"
+            }
+          },
+          {
+            "tag": "article",
+            "path": "div.grid.product-list__content > div#product-list > ul > li#rm-topnatif-container > div > article.grid.product-list__product.sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "20€ avec PROMO20* BON PLAN Comparer SAMSUNG Réfrigérateur combiné SAMSUNG RB34C600DSA .rating { display: flex; flex-direction: row; align-items: center; font-size: 0.875rem; line-height: 1.0625rem; } .rating--extraExtraSmall { width: 50px; height: 10px; } .rating--extraSmall { width: 70px; height: 14px; } .rating--small { width: 80px; height: 18px; } .rating--medium { width: 100px; height: 20px; } .rating--large { width: 120px; height: 24px; } .stars { position: relative; width: 100%; height: 100%; } .stars--extraExtraSmall .stars__top, .stars--extraExtraSmall .stars__bottom, .stars--extraExtraSmall .stars__topBlue { background-size: 10px auto; } .stars--extraSmall .stars__top, .stars--extraSmall .stars__bottom { background-size: 14px 14px; } .stars--extraSmall .stars__topBlue { background-size: 14px 14px; } .stars--small .stars__top, .stars--small .stars__bottom { background-size: 16px 16px; } .stars--small .stars__topBlue { background-size: 16px 16px; } .stars--medium .stars__top, .stars--medium .stars__bottom { background-size: 20px 20px; } .stars--medium .stars__topBlue { background-size: 20px 20px; } .stars--large .stars__top, .stars--large .stars__bottom { background-size: 24px 24px; } .stars--large .stars__topBlue { background-size: 24px 24px; } .stars__top, .stars__bottom { position: absolute; top: 0px; left: 0px; overflow: hidden; background-repeat: repeat-x; width: 100%; height: 100%; } .stars__top { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3755L16.3236 15.9536V15.9546L16.3656 16.1558C16.5556 17.1575 16.4401 18.124 15.7318 18.645C14.9732 19.2026 13.9362 18.9559 12.9945 18.395H12.9935L10.5033 16.9077H10.5023C10.3977 16.8453 10.2179 16.7945 10.0013 16.7944C9.7853 16.7945 9.60091 16.8455 9.48961 16.9106L7.00231 18.394V18.395C6.06186 18.9576 5.02645 19.1999 4.26793 18.6421C3.5126 18.0862 3.42642 17.0246 3.67223 15.9536L4.26402 13.3755C4.28933 13.257 4.28459 13.0743 4.22789 12.8745C4.18474 12.7226 4.12197 12.5973 4.05895 12.5093L3.99645 12.4341L1.93004 10.3511C1.24407 9.65941 0.863481 8.80832 1.12242 7.99072C1.38227 7.1712 2.18457 6.70007 3.14488 6.53857L5.80406 6.09326C5.9015 6.07592 6.05407 6.01158 6.21129 5.89404C6.36951 5.77569 6.47431 5.64595 6.51891 5.5542L6.52184 5.54932L7.98863 2.59326V2.59131L8.07555 2.42822C8.52027 1.62224 9.17789 1.04182 9.99645 1.0415Z' fill='%23F56A00'/%3E%3C/svg%3E\"); } .stars__topBlue { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 50' style='color: %23008196'%3E%3Cg transform='translate(-227.844 -279.496)'%3E%3Cpath fill='currentColor' d='M26.009,0l7.944,16.41L51.91,19.054,38.96,31.94,42.007,50l-16-8.591L9.9,50,12.95,31.94,0,19.054,17.956,16.41Z' transform='translate(227.844 279.496)'/%3E%3C/g%3E%3C/svg%3E\"); } .stars__bottom { position: relative; z-index: 0; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 ",
+            "attributes": {
+              "class": "grid product-list__product sponsored-product-398f7926-db8f-4e13-861c-afe10f87bd28"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "body.didomi-popup-open > main#main > div.grid.product-list__content > div#product-list > ul > li#rm-topnatif-container",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "Produit sponsorisé 20€ avec PROMO20* BON PLAN Comparer SAMSUNG Réfrigérateur combiné SAMSUNG RB34C600DSA .rating { display: flex; flex-direction: row; align-items: center; font-size: 0.875rem; line-height: 1.0625rem; } .rating--extraExtraSmall { width: 50px; height: 10px; } .rating--extraSmall { width: 70px; height: 14px; } .rating--small { width: 80px; height: 18px; } .rating--medium { width: 100px; height: 20px; } .rating--large { width: 120px; height: 24px; } .stars { position: relative; width: 100%; height: 100%; } .stars--extraExtraSmall .stars__top, .stars--extraExtraSmall .stars__bottom, .stars--extraExtraSmall .stars__topBlue { background-size: 10px auto; } .stars--extraSmall .stars__top, .stars--extraSmall .stars__bottom { background-size: 14px 14px; } .stars--extraSmall .stars__topBlue { background-size: 14px 14px; } .stars--small .stars__top, .stars--small .stars__bottom { background-size: 16px 16px; } .stars--small .stars__topBlue { background-size: 16px 16px; } .stars--medium .stars__top, .stars--medium .stars__bottom { background-size: 20px 20px; } .stars--medium .stars__topBlue { background-size: 20px 20px; } .stars--large .stars__top, .stars--large .stars__bottom { background-size: 24px 24px; } .stars--large .stars__topBlue { background-size: 24px 24px; } .stars__top, .stars__bottom { position: absolute; top: 0px; left: 0px; overflow: hidden; background-repeat: repeat-x; width: 100%; height: 100%; } .stars__top { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.7689 12.8745C15.7122 13.0742 15.7065 13.2569 15.7318 13.3755L16.3236 15.9536V15.9546L16.3656 16.1558C16.5556 17.1575 16.4401 18.124 15.7318 18.645C14.9732 19.2026 13.9362 18.9559 12.9945 18.395H12.9935L10.5033 16.9077H10.5023C10.3977 16.8453 10.2179 16.7945 10.0013 16.7944C9.7853 16.7945 9.60091 16.8455 9.48961 16.9106L7.00231 18.394V18.395C6.06186 18.9576 5.02645 19.1999 4.26793 18.6421C3.5126 18.0862 3.42642 17.0246 3.67223 15.9536L4.26402 13.3755C4.28933 13.257 4.28459 13.0743 4.22789 12.8745C4.18474 12.7226 4.12197 12.5973 4.05895 12.5093L3.99645 12.4341L1.93004 10.3511C1.24407 9.65941 0.863481 8.80832 1.12242 7.99072C1.38227 7.1712 2.18457 6.70007 3.14488 6.53857L5.80406 6.09326C5.9015 6.07592 6.05407 6.01158 6.21129 5.89404C6.36951 5.77569 6.47431 5.64595 6.51891 5.5542L6.52184 5.54932L7.98863 2.59326V2.59131L8.07555 2.42822C8.52027 1.62224 9.17789 1.04182 9.99645 1.0415Z' fill='%23F56A00'/%3E%3C/svg%3E\"); } .stars__topBlue { position: absolute; z-index: 1; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 55 50' style='color: %23008196'%3E%3Cg transform='translate(-227.844 -279.496)'%3E%3Cpath fill='currentColor' d='M26.009,0l7.944,16.41L51.91,19.054,38.96,31.94,42.007,50l-16-8.591L9.9,50,12.95,31.94,0,19.054,17.956,16.41Z' transform='translate(227.844 279.496)'/%3E%3C/g%3E%3C/svg%3E\"); } .stars__bottom { position: relative; z-index: 0; background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M9.99645 1.0415C10.871 1.0415 11.5597 1.7029 11.9994 2.59424L13.4662 5.55029L13.4681 5.5542L13.513 5.62939C13.5689 5.70983 13.6579 5.80459 13.7767 5.89307C13.9351 6.01087 14.0906 6.07602 14.1927 6.09326L16.8509 6.53857L17.0287 6.57275C17.9092 6.76034 18.6323 7.22152 18.8773 7.98975C19.1382 8.80819 18.7556 9.65858 18.0658 10.3501L18.0668 10.3511L15.9994 12.4341C15.9176 12.5166 15.8264 12.6722 15.76",
+            "attributes": {
+              "role": "list",
+              "id": "rm-topnatif-container",
+              "class": "product-list__item"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-512124d89610fab0f > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221082 > div#swiper-wrapper-512124d89610fab0f > div.swiper-slide.swiper-slide-active > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          },
+          {
+            "tag": "img",
+            "path": "div#swiper-wrapper-512124d89610fab0f > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin > div.product-card__image-wrapper > picture > img.product-list__product-image",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "article.grid.product-list__product > div.product-options-slider.product-list__product-area-1.product-list__product-image-comparator > div#swiper-product-list-1221082 > div#swiper-wrapper-512124d89610fab0f > div.swiper-slide.swiper-slide-next > a.product-list__product-image-link.analytic-track-origin",
+            "matchedBy": [
+              "product_list"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "product-list__product-image-link analytic-track-origin"
+            }
+          }
+        ],
+        "productLinkCandidates": []
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}

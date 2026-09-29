@@ -1,0 +1,463 @@
+{"offset": "0x5b000", "text": "%.200s() needs an argument"}
+{"offset": "0x5b01b", "text": "Bad call flags for CyFunction"}
+{"offset": "0x5b039", "text": "<cyfunction %U at %p>"}
+{"offset": "0x5b04f", "text": "__loader__"}
+{"offset": "0x5b05a", "text": "loader"}
+{"offset": "0x5b061", "text": "__file__"}
+{"offset": "0x5b06a", "text": "origin"}
+{"offset": "0x5b071", "text": "__package__"}
+{"offset": "0x5b07d", "text": "parent"}
+{"offset": "0x5b084", "text": "__path__"}
+{"offset": "0x5b08d", "text": "submodule_search_locations"}
+{"offset": "0x5b0a8", "text": "keywords must be strings"}
+{"offset": "0x5b0c1", "text": "_cython_coroutine_type"}
+{"offset": "0x5b0d8", "text": "_cython_generator_type"}
+{"offset": "0x5b0ef", "text": "_module"}
+{"offset": "0x5b0f7", "text": "__builtins__"}
+{"offset": "0x5b104", "text": "_cython_3_0_12"}
+{"offset": "0x5b113", "text": "cannot import name %S"}
+{"offset": "0x5b129", "text": "name '%U' is not defined"}
+{"offset": "0x5b142", "text": "generator already executing"}
+{"offset": "0x5b15e", "text": "%s (%s:%d)"}
+{"offset": "0x5b16c", "text": "parse.py"}
+{"offset": "0x5b175", "text": "parse._worker_init"}
+{"offset": "0x5b188", "text": "parse._parse_args"}
+{"offset": "0x5b19a", "text": "throw"}
+{"offset": "0x5b1a0", "text": "exactly"}
+{"offset": "0x5b1a8", "text": "parse._parse_osm_record"}
+{"offset": "0x5b1c0", "text": "No module named '%U'"}
+{"offset": "0x5b1d7", "text": "builtins"}
+{"offset": "0x5b1e0", "text": "cython_runtime"}
+{"offset": "0x5b1ef", "text": "does not match"}
+{"offset": "0x5b1fe", "text": "collections.abc"}
+{"offset": "0x5b20e", "text": "backports_abc"}
+{"offset": "0x5b21c", "text": "init parse"}
+{"offset": "0x5b227", "text": "parse._image_retry_pass"}
+{"offset": "0x5b23f", "text": "parse._apply_bq_sidecars"}
+{"offset": "0x5b258", "text": "parse.parse_one"}
+{"offset": "0x5b268", "text": "parse._scan_image_failures"}
+{"offset": "0x5b283", "text": "parse._progress"}
+{"offset": "0x5b293", "text": "parse._run_records"}
+{"offset": "0x5b2a6", "text": "parse._run_records.genexpr"}
+{"offset": "0x5b2c1", "text": "parse.scan_records"}
+{"offset": "0x5b2d4", "text": "at least"}
+{"offset": "0x5b2dd", "text": "at most"}
+{"offset": "0x5b2e5", "text": "parse._extract_all_links"}
+{"offset": "0x5b2fe", "text": "parse.main.genexpr"}
+{"offset": "0x5b311", "text": "parse.main"}
+{"offset": "0x5b31c", "text": "_cython_3_0_12.generator"}
+{"offset": "0x5b335", "text": "__name__"}
+{"offset": "0x5b33e", "text": "name of the generator"}
+{"offset": "0x5b354", "text": "__qualname__"}
+{"offset": "0x5b361", "text": "gi_frame"}
+{"offset": "0x5b36a", "text": "Frame of the generator"}
+{"offset": "0x5b381", "text": "gi_running"}
+{"offset": "0x5b38c", "text": "gi_yieldfrom"}
+{"offset": "0x5b399", "text": "gi_code"}
+{"offset": "0x5b3a1", "text": "__module__"}
+{"offset": "0x5b3ac", "text": "send"}
+{"offset": "0x5b3b1", "text": "close"}
+{"offset": "0x5b3b7", "text": "__reduce__"}
+{"offset": "0x5b3c2", "text": "func_doc"}
+{"offset": "0x5b3cb", "text": "__doc__"}
+{"offset": "0x5b3d3", "text": "func_name"}
+{"offset": "0x5b3dd", "text": "func_dict"}
+{"offset": "0x5b3e7", "text": "__dict__"}
+{"offset": "0x5b3f0", "text": "func_globals"}
+{"offset": "0x5b3fd", "text": "__globals__"}
+{"offset": "0x5b409", "text": "func_closure"}
+{"offset": "0x5b416", "text": "__closure__"}
+{"offset": "0x5b422", "text": "func_code"}
+{"offset": "0x5b42c", "text": "__code__"}
+{"offset": "0x5b435", "text": "func_defaults"}
+{"offset": "0x5b443", "text": "__defaults__"}
+{"offset": "0x5b450", "text": "__kwdefaults__"}
+{"offset": "0x5b45f", "text": "__annotations__"}
+{"offset": "0x5b46f", "text": "_is_coroutine"}
+{"offset": "0x5b480", "text": "%.200s() takes no keyword arguments"}
+{"offset": "0x5b4a8", "text": "%.200s() takes exactly one argument (%zd given)"}
+{"offset": "0x5b4d8", "text": "strings are too large to concat"}
+{"offset": "0x5b4f8", "text": "%.200s() takes no arguments (%zd given)"}
+{"offset": "0x5b520", "text": " while calling a Python object"}
+{"offset": "0x5b540", "text": "NULL result without error in PyObject_Call"}
+{"offset": "0x5b570", "text": "base class '%.200s' is not a heap type"}
+{"offset": "0x5b598", "text": "extension type '%.200s' has no __dict__ slot, but base type '%.200s' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"}
+{"offset": "0x5b648", "text": "function's dictionary may not be deleted"}
+{"offset": "0x5b678", "text": "setting function's dictionary to a non-dict"}
+{"offset": "0x5b6a8", "text": "Interpreter change detected - this module can only be loaded into one interpreter per process."}
+{"offset": "0x5b708", "text": "unbound method %.200S() needs an argument"}
+{"offset": "0x5b738", "text": "generator raised StopIteration"}
+{"offset": "0x5b758", "text": "__annotations__ must be set to a dict object"}
+{"offset": "0x5b788", "text": "__kwdefaults__ must be set to a dict object"}
+{"offset": "0x5b7b8", "text": "changes to cyfunction.__kwdefaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5b820", "text": "__defaults__ must be set to a tuple object"}
+{"offset": "0x5b850", "text": "changes to cyfunction.__defaults__ will not currently affect the values used in function calls"}
+{"offset": "0x5b8b0", "text": "__qualname__ must be set to a string object"}
+{"offset": "0x5b8e0", "text": "__name__ must be set to a string object"}
+{"offset": "0x5b908", "text": "if _cython_generator_type is not None:\n    try: Generator = _module.Generator\n    except AttributeError: pass\n    else: Generator.register(_cython_generator_type)\nif _cython_coroutine_type is not None:\n    try: Coroutine = _module.Coroutine\n    except AttributeError: pass\n    else: Coroutine.register(_cython_coroutine_type)\n"}
+{"offset": "0x5ba50", "text": "Cython module failed to patch module with custom type"}
+{"offset": "0x5ba88", "text": "too many values to unpack (expected %zd)"}
+{"offset": "0x5bab8", "text": "%s() got multiple values for keyword argument '%U'"}
+{"offset": "0x5baf0", "text": "%.200s() keywords must be strings"}
+{"offset": "0x5bb18", "text": "%s() got an unexpected keyword argument '%U'"}
+{"offset": "0x5bb48", "text": "can't send non-None value to a just-started generator"}
+{"offset": "0x5bb80", "text": "Shared Cython type %.200s is not a type object"}
+{"offset": "0x5bbb0", "text": "Shared Cython type %.200s has the wrong size, try recompiling"}
+{"offset": "0x5bbf0", "text": "join() result is too long for a Python string"}
+{"offset": "0x5bc20", "text": "/tmp/clinic_build_y1xih54e/cbuild/parse.c"}
+{"offset": "0x5bc50", "text": "local variable '%s' referenced before assignment"}
+{"offset": "0x5bc88", "text": "generator ignored GeneratorExit"}
+{"offset": "0x5bca8", "text": "raise: arg 3 must be a traceback or None"}
+{"offset": "0x5bcd8", "text": "instance exception may not have a separate value"}
+{"offset": "0x5bd10", "text": "calling %R should have returned an instance of BaseException, not %R"}
+{"offset": "0x5bd58", "text": "raise: exception class must be a subclass of BaseException"}
+{"offset": "0x5bd98", "text": "'%.200s' object has no attribute '%U'"}
+{"offset": "0x5bdc0", "text": "%.200s() takes %.8s %zd positional argument%.1s (%zd given)"}
+{"offset": "0x5be00", "text": "Module 'parse' has already been imported. Re-initialisation is not supported."}
+{"offset": "0x5be50", "text": "compile time Python version %d.%d of module '%.100s' %s runtime version %d.%d"}
+{"offset": "0x5bea0", "text": "Cython module failed to register with collections.abc module"}
+{"offset": "0x5bee0", "text": "need more than %zd value%.1s to unpack"}
+{"offset": "0x5bf08", "text": "'%.200s' object is unsliceable"}
+{"offset": "0x5bf28", "text": "argument after ** must be a mapping, not NoneType"}
+{"offset": "0x5bf60", "text": "'%.200s' object is not a mapping"}
+{"offset": "0x5bf88", "text": "'NoneType' object is not iterable"}
+{"offset": "0x5bfb0", "text": "qualified name of the generator"}
+{"offset": "0x5bfd0", "text": "object being iterated by 'yield from', or None"}
+{"offset": "0x5c000", "text": "send(arg) -> send 'arg' into generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5c060", "text": "throw(typ[,val[,tb]]) -> raise exception in generator,\nreturn next yielded value or raise StopIteration."}
+{"offset": "0x5c0d0", "text": "close() -> raise GeneratorExit inside generator."}
+{"offset": "0x5c108", "text": "_cython_3_0_12.cython_function_or_method"}
+{"offset": "0x5c138", "text": "parse.__pyx_scope_struct_3_genexpr"}
+{"offset": "0x5c160", "text": "parse.__pyx_scope_struct_2_genexpr"}
+{"offset": "0x5c188", "text": "parse.__pyx_scope_struct_1_genexpr"}
+{"offset": "0x5c1b0", "text": "parse.__pyx_scope_struct__genexpr"}
+{"offset": "0x5c2a0", "text": "00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"}
+{"offset": "0x5c380", "text": "scripts/backfill_image_ledger.py"}
+{"offset": "0x5c3c0", "text": "%(asctime)s [%(levelname)s] %(message)s"}
+{"offset": "0x5c400", "text": "특정 브랜드만 처리 — meta.brand 콤마 목록 (예: BOSCH,BALAY). loadbee 소급처럼 브랜드 한정 재파싱용. 생략 시 전체."}
+{"offset": "0x5c4a0", "text": "parse_retailers.home.osm_bq"}
+{"offset": "0x5c4c0", "text": "tuple[list[dict], list[tuple]]"}
+{"offset": "0x5c4e0", "text": "_run_records.<locals>.genexpr"}
+{"offset": "0x5c500", "text": "parse_retailers.pdp.osm_bq"}
+{"offset": "0x5c520", "text": "enrich_with_asset_blocks"}
+{"offset": "0x5c540", "text": "parse_retailers.common"}
+{"offset": "0x5c560", "text": "enrich_with_image_meta"}
+{"offset": "0x5c580", "text": "parse_retailers.home"}
+{"offset": "0x5c5a0", "text": "SRCH_KYWD_PRODUCT_RK"}
+{"offset": "0x5c5c0", "text": "LG HS Clinic — Phase 2 파서"}
+{"offset": "0x5c5e0", "text": "_scan_image_failures"}
+{"offset": "0x5c600", "text": "parse_retailers.pdp"}
+{"offset": "0x5c620", "text": "main.<locals>.genexpr"}
+{"offset": "0x5c640", "text": "core.object_storage"}
+{"offset": "0x5c660", "text": "ProcessPoolExecutor"}
+{"offset": "0x5c680", "text": "Brand Category Page"}
+{"offset": "0x5c6a0", "text": "concurrent.futures"}
+{"offset": "0x5c6c0", "text": "cline_in_traceback"}
+{"offset": "0x5c6e0", "text": "asyncio.coroutines"}
+{"offset": "0x5c700", "text": "argparse.Namespace"}
+{"offset": "0x5c720", "text": "results_from_rows"}
+{"offset": "0x5c740", "text": "image_fail_ledger_"}
+{"offset": "0x5c760", "text": "_extract_all_links"}
+{"offset": "0x5c780", "text": "처리할 batch_id (예: 20260630)"}
+{"offset": "0x5c7b0", "text": "automation_failed"}
+{"offset": "0x5c7d0", "text": "_apply_bq_sidecars"}
+{"offset": "0x5c7f0", "text": "PARSE_IMAGE_RETRY"}
+{"offset": "0x5c820", "text": "병렬 프로세스 수 (기본 4, 1 이면 순차 — BS4 파싱이 CPU-bound 라 프로세스 풀 사용)"}
+{"offset": "0x5c890", "text": "_parse_osm_record"}
+{"offset": "0x5c8b0", "text": "_image_retry_pass"}
+{"offset": "0x5c8d0", "text": "rating_from_row"}
+{"offset": "0x5c8e0", "text": "parse_retailers"}
+{"offset": "0x5c8f0", "text": "brand_page_type"}
+{"offset": "0x5c900", "text": "bq_results.json"}
+{"offset": "0x5c910", "text": "search_keyword"}
+{"offset": "0x5c920", "text": "osm_mart_rules"}
+{"offset": "0x5c930", "text": "object_storage"}
+{"offset": "0x5c940", "text": "meta.json 없음 → skip: "}
+{"offset": "0x5c960", "text": "gallery_images"}
+{"offset": "0x5c980", "text": "crawl 디렉토리 없음 → crawl.py 를 먼저 실행하세요. ("}
+{"offset": "0x5c9c8", "text": "capture_output"}
+{"offset": "0x5c9d8", "text": "bq_rating.json"}
+{"offset": "0x5c9e8", "text": "ArgumentParser"}
+{"offset": "0x5c9f8", "text": "status_reason"}
+{"offset": "0x5ca08", "text": "/parsed.json"}
+{"offset": "0x5ca20", "text": "list[str] | None"}
+{"offset": "0x5ca40", "text": "[TEST MODE] 트랙×리테일러별 1개 → "}
+{"offset": "0x5ca70", "text": "StreamHandler"}
+{"offset": "0x5ca80", "text": "BeautifulSoup"}
+{"offset": "0x5ca90", "text": "urllib.parse"}
+{"offset": "0x5caa0", "text": "scan_records"}
+{"offset": "0x5cab0", "text": "parse_static"}
+{"offset": "0x5cac0", "text": "parse_search"}
+{"offset": "0x5cad0", "text": "parse_folder"}
+{"offset": "0x5cae0", "text": "parse_failed"}
+{"offset": "0x5caf0", "text": "_parse_args"}
+{"offset": "0x5cb00", "text": "_is_coroutine"}
+{"offset": "0x5cb10", "text": "_initializing"}
+{"offset": "0x5cb20", "text": "home_landing"}
+{"offset": "0x5cb30", "text": "ensure_ascii"}
+{"offset": "0x5cb40", "text": "depth_status"}
+{"offset": "0x5cb50", "text": "crawl_folder"}
+{"offset": "0x5cb60", "text": "brand_search"}
+{"offset": "0x5cb70", "text": "bq_rows.json"}
+{"offset": "0x5cb80", "text": "as_completed"}
+{"offset": "0x5cb90", "text": "add_argument"}
+{"offset": "0x5cba0", "text": "%Y%m%d_%H%M%S"}
+{"offset": "0x5cbb0", "text": "CLINIC_ENTRY"}
+{"offset": "0x5cbc0", "text": "_worker_init"}
+{"offset": "0x5cbd0", "text": "search_term"}
+{"offset": "0x5cbe0", "text": "_run_records"}
+{"offset": "0x5cbf0", "text": "relative_to"}
+{"offset": "0x5cc00", "text": "reached_url"}
+{"offset": "0x5cc10", "text": "parsed.json"}
+{"offset": "0x5cc20", "text": "page_type"}
+{"offset": "0x5cc30", "text": "max_workers"}
+{"offset": "0x5cc40", "text": "initializer"}
+{"offset": "0x5cc50", "text": "html.parser"}
+{"offset": "0x5cc60", "text": "description"}
+{"offset": "0x5cc70", "text": "core.naming"}
+{"offset": "0x5cc80", "text": "core.config"}
+{"offset": "0x5cc90", "text": "bq_row.json"}
+{"offset": "0x5cca0", "text": "bq_override"}
+{"offset": "0x5ccb0", "text": "body_images"}
+{"offset": "0x5ccc0", "text": "basicConfig"}
+{"offset": "0x5cce0", "text": "전체 실행. 생략 시 TEST MODE (리테일러별 1개)"}
+{"offset": "0x5cd20", "text": "_ROUTE_ALIAS"}
+{"offset": "0x5cd30", "text": "FileHandler"}
+{"offset": "0x5cd40", "text": "write_text"}
+{"offset": "0x5cd50", "text": "subprocess"}
+{"offset": "0x5cd60", "text": "store_true"}
+{"offset": "0x5cd70", "text": "startswith"}
+{"offset": "0x5cd80", "text": "splitlines"}
+{"offset": "0x5cd90", "text": "returncode"}
+{"offset": "0x5cda0", "text": "  [retailer="}
+{"offset": "0x5cdb0", "text": "retailer"}
+{"offset": "0x5cdc0", "text": "report_dir"}
+{"offset": "0x5cdd0", "text": "product_id"}
+{"offset": "0x5cde0", "text": "parse_args"}
+{"offset": "0x5cdf0", "text": "page_types"}
+{"offset": "0x5ce00", "text": "javascript:"}
+{"offset": "0x5ce10", "text": "  [instance="}
+{"offset": "0x5ce20", "text": "instance"}
+{"offset": "0x5ce30", "text": "fail_count"}
+{"offset": "0x5ce40", "text": "executable"}
+{"offset": "0x5ce50", "text": "cat_sub_cd"}
+{"offset": "0x5ce60", "text": "batch_id="}
+{"offset": "0x5ce70", "text": "batch_id"}
+{"offset": "0x5ce80", "text": "Brand Page"}
+{"offset": "0x5ce90", "text": "writerows"}
+{"offset": "0x5cea0", "text": "workers"}
+{"offset": "0x5cea8", "text": "utf-8-sig"}
+{"offset": "0x5ceb8", "text": "test_mode"}
+{"offset": "0x5cec8", "text": "target_id"}
+{"offset": "0x5ced8", "text": "srch_gate"}
+{"offset": "0x5cee8", "text": "rtlr_name"}
+{"offset": "0x5cef8", "text": "read_text"}
+{"offset": "0x5cf08", "text": "product"}
+{"offset": "0x5cf20", "text": "파싱 대상 페이지 타입 (기본: pdp). all = 4개 트랙 일괄"}
+{"offset": "0x5cf68", "text": "parsed_at"}
+{"offset": "0x5cf78", "text": "parse_one"}
+{"offset": "0x5cf88", "text": "parse_gnb"}
+{"offset": "0x5cf98", "text": "parse_dir"}
+{"offset": "0x5cfa8", "text": "--page-type"}
+{"offset": "0x5cfb8", "text": "overrides"}
+{"offset": "0x5cfc8", "text": "nav_links"}
+{"offset": "0x5cfd8", "text": "monotonic"}
+{"offset": "0x5cfe8", "text": "model_mpc"}
+{"offset": "0x5cff8", "text": "meta_path"}
+{"offset": "0x5d008", "text": "meta.json"}
+{"offset": "0x5d018", "text": "list[dict]"}
+{"offset": "0x5d028", "text": "list | None"}
+{"offset": "0x5d038", "text": "isoformat"}
+{"offset": "0x5d048", "text": "isenabled"}
+{"offset": "0x5d058", "text": "html_path"}
+{"offset": "0x5d068", "text": "gnb_label"}
+{"offset": "0x5d078", "text": "gnb_depth"}
+{"offset": "0x5d088", "text": "getLogger"}
+{"offset": "0x5d098", "text": "final_url"}
+{"offset": "0x5d0a8", "text": "enumerate"}
+{"offset": "0x5d0b8", "text": "crawl_dir"}
+{"offset": "0x5d0c8", "text": "collector"}
+{"offset": "0x5d0d8", "text": "category2"}
+{"offset": "0x5d0e8", "text": "category1"}
+{"offset": "0x5d0f8", "text": "brand_url"}
+{"offset": "0x5d108", "text": "base.html"}
+{"offset": "0x5d118", "text": "all_links"}
+{"offset": "0x5d128", "text": "writerow"}
+{"offset": "0x5d138", "text": "timespec"}
+{"offset": "0x5d148", "text": "strftime"}
+{"offset": "0x5d158", "text": "--retailer"}
+{"offset": "0x5d168", "text": "required"}
+{"offset": "0x5d178", "text": "rem_urls"}
+{"offset": "0x5d188", "text": "_progress"}
+{"offset": "0x5d198", "text": "products"}
+{"offset": "0x5d1a8", "text": "parse.py"}
+{"offset": "0x5d1b8", "text": "page_url"}
+{"offset": "0x5d1c8", "text": "osm_home"}
+{"offset": "0x5d1d8", "text": "ok_count"}
+{"offset": "0x5d1e8", "text": "ocr_text"}
+{"offset": "0x5d1f8", "text": "list[str]"}
+{"offset": "0x5d208", "text": "--instance"}
+{"offset": "0x5d218", "text": "handlers"}
+{"offset": "0x5d228", "text": "find_all"}
+{"offset": "0x5d238", "text": "filtered"}
+{"offset": "0x5d248", "text": "exist_ok"}
+{"offset": "0x5d258", "text": "encoding"}
+{"offset": "0x5d268", "text": "datetime"}
+{"offset": "0x5d278", "text": "cntry_cd"}
+{"offset": "0x5d288", "text": "cat_code"}
+{"offset": "0x5d298", "text": "--batch-id"}
+{"offset": "0x5d2a8", "text": "argparse"}
+{"offset": "0x5d2b8", "text": "affected"}
+{"offset": "0x5d2e0", "text": "특정 리테일러만 처리 (예: Darty_FR). 생략 시 전체."}
+{"offset": "0x5d328", "text": "BASE_DIR"}
+{"offset": "0x5d338", "text": "--workers"}
+{"offset": "0x5d348", "text": "warning"}
+{"offset": "0x5d350", "text": "urljoin"}
+{"offset": "0x5d358", "text": "timeout"}
+{"offset": "0x5d360", "text": "started"}
+{"offset": "0x5d368", "text": "seconds"}
+{"offset": "0x5d370", "text": "results"}
+{"offset": "0x5d378", "text": "resolve"}
+{"offset": "0x5d380", "text": "records"}
+{"offset": "0x5d388", "text": ") product="}
+{"offset": "0x5d398", "text": "pathlib"}
+{"offset": "0x5d3a0", "text": "parse_"}
+{"offset": "0x5d3a8", "text": "parents"}
+{"offset": "0x5d3b0", "text": "osm_pdp"}
+{"offset": "0x5d3b8", "text": "newline"}
+{"offset": "0x5d3c0", "text": "logging"}
+{"offset": "0x5d3c8", "text": "gnb_url"}
+{"offset": "0x5d3d0", "text": "genexpr"}
+{"offset": "0x5d3d8", "text": "fut_rec"}
+{"offset": "0x5d3e0", "text": "eta_min"}
+{"offset": "0x5d3e8", "text": "environ"}
+{"offset": "0x5d3f0", "text": "elapsed"}
+{"offset": "0x5d3f8", "text": "disable"}
+{"offset": "0x5d400", "text": "default"}
+{"offset": "0x5d408", "text": "choices"}
+{"offset": "0x5d410", "text": "--brand"}
+{"offset": "0x5d418", "text": "LOG_DIR"}
+{"offset": "0x5d420", "text": "writer"}
+{"offset": "0x5d427", "text": "upload"}
+{"offset": "0x5d42e", "text": "submit"}
+{"offset": "0x5d435", "text": "stdout"}
+{"offset": "0x5d43c", "text": "stderr"}
+{"offset": "0x5d443", "text": "status"}
+{"offset": "0x5d44a", "text": "source"}
+{"offset": "0x5d451", "text": "search"}
+{"offset": "0x5d458", "text": "return"}
+{"offset": "0x5d45f", "text": "result"}
+{"offset": "0x5d466", "text": "record"}
+{"offset": "0x5d46d", "text": "rating"}
+{"offset": "0x5d474", "text": "parsed"}
+{"offset": "0x5d47b", "text": "parent"}
+{"offset": "0x5d482", "text": "osm_bq"}
+{"offset": "0x5d489", "text": "naming"}
+{"offset": "0x5d490", "text": "__name__"}
+{"offset": "0x5d499", "text": "main"}
+{"offset": "0x5d4a0", "text": "mailto:"}
+{"offset": "0x5d4a8", "text": "ledger"}
+{"offset": "0x5d4af", "text": "is_osm"}
+{"offset": "0x5d4b6", "text": "indent"}
+{"offset": "0x5d4c0", "text": "__import__"}
+{"offset": "0x5d4cb", "text": "getenv"}
+{"offset": "0x5d4d2", "text": "format"}
+{"offset": "0x5d4d9", "text": "folder"}
+{"offset": "0x5d4e0", "text": "exists"}
+{"offset": "0x5d4e7", "text": "enable"}
+{"offset": "0x5d4ee", "text": "config"}
+{"offset": "0x5d4f5", "text": "cat_cd"}
+{"offset": "0x5d4fc", "text": "action"}
+{"offset": "0x5d503", "text": "utf-8"}
+{"offset": "0x5d509", "text": "upper"}
+{"offset": "0x5d50f", "text": "total"}
+{"offset": "0x5d515", "text": "throw"}
+{"offset": "0x5d51b", "text": "strip"}
+{"offset": "0x5d521", "text": "split"}
+{"offset": "0x5d527", "text": "rglob"}
+{"offset": "0x5d52d", "text": "parts"}
+{"offset": "0x5d533", "text": "parse"}
+{"offset": "0x5d539", "text": "mkdir"}
+{"offset": "0x5d53f", "text": ".log"}
+{"offset": "0x5d544", "text": "loads"}
+{"offset": "0x5d54a", "text": "level"}
+{"offset": "0x5d550", "text": "float"}
+{"offset": "0x5d556", "text": "extra"}
+{"offset": "0x5d55c", "text": "error"}
+{"offset": "0x5d568", "text": "__enter__"}
+{"offset": "0x5d572", "text": "dumps"}
+{"offset": "0x5d578", "text": "depth"}
+{"offset": "0x5d57e", "text": ".csv"}
+{"offset": "0x5d583", "text": "close"}
+{"offset": "0x5d589", "text": "chain"}
+{"offset": "0x5d58f", "text": "bytes"}
+{"offset": "0x5d595", "text": "brand"}
+{"offset": "0x5d59b", "text": "--all"}
+{"offset": "0x5d5c0", "text": "특정 국가만 처리 (예: IT, FR). 생략 시 전체."}
+{"offset": "0x5d5fa", "text": "urls"}
+{"offset": "0x5d5ff", "text": "type"}
+{"offset": "0x5d608", "text": "time"}
+{"offset": "0x5d60d", "text": "text"}
+{"offset": "0x5d618", "text": "__test__"}
+{"offset": "0x5d628", "text": "__spec__"}
+{"offset": "0x5d631", "text": "soup"}
+{"offset": "0x5d640", "text": "예상치 못한 경로 구조 → skip: "}
+{"offset": "0x5d66a", "text": "send"}
+{"offset": "0x5d66f", "text": "seen"}
+{"offset": "0x5d674", "text": "rows"}
+{"offset": "0x5d679", "text": "rate"}
+{"offset": "0x5d67e", "text": "open"}
+{"offset": "0x5d683", "text": "name"}
+{"offset": "0x5d688", "text": "meta"}
+{"offset": "0x5d690", "text": "__main__"}
+{"offset": "0x5d699", "text": "line"}
+{"offset": "0x5d69e", "text": "json"}
+{"offset": "0x5d6a3", "text": "inst"}
+{"offset": "0x5d6a8", "text": "info"}
+{"offset": "0x5d6ad", "text": "http"}
+{"offset": "0x5d6b2", "text": "html"}
+{"offset": "0x5d6b7", "text": "href"}
+{"offset": "0x5d6bc", "text": "home"}
+{"offset": "0x5d6c1", "text": "help"}
+{"offset": "0x5d6c6", "text": "gate"}
+{"offset": "0x5d6d0", "text": "__file__"}
+{"offset": "0x5d6e0", "text": "__exit__"}
+{"offset": "0x5d6e9", "text": "dict"}
+{"offset": "0x5d6ee", "text": "core"}
+{"offset": "0x5d6f3", "text": "bool"}
+{"offset": "0x5d6f8", "text": "base"}
+{"offset": "0x5d6fd", "text": "args"}
+{"offset": "0x5d704", "text": "Path"}
+{"offset": "0x5d709", "text": "None"}
+{"offset": "0x5d70e", "text": "INFO"}
+{"offset": "0x5d717", "text": "tel:"}
+{"offset": "0x5d780", "text": "============================================================"}
+{"offset": "0x5d7c0", "text": "  |  ❌실패(미등록 포함): "}
+{"offset": "0x5d7e8", "text": "성공: "}
+{"offset": "0x5d800", "text": "\n============================================================"}
+{"offset": "0x5d840", "text": "이미지 회수 패스 예외 (파이프라인 계속): "}
+{"offset": "0x5d880", "text": "개 실행"}
+{"offset": "0x5d890", "text": "개 레코드 발견"}
+{"offset": "0x5d8a5", "text": "  총 "}
+{"offset": "0x5d8b0", "text": "개 레코드"}
+{"offset": "0x5d8e0", "text": "이미지 회수 원장 기록 실패 (무시): "}
+{"offset": "0x5d920", "text": "장 → 원장 "}
+{"offset": "0x5d930", "text": "장 회수, 잔여 "}
+{"offset": "0x5d950", "text": "이미지 회수 완료: "}
+{"offset": "0x5d980", "text": "이미지 회수 백필 실행 실패 (재파싱은 계속): "}
+{"offset": "0x5d9c0", "text": " (재파싱은 계속): "}
+{"offset": "0x5d9e0", "text": "개 — 백필(서브프로세스) 후 재파싱"}
+{"offset": "0x5da20", "text": "장 / 영향 레코드 "}
+{"offset": "0x5da40", "text": "이미지 회수 패스: 실패 "}
+{"offset": "0x5da70", "text": "파싱 워커 예외 ["}
+{"offset": "0x5daa0", "text": "병렬 파싱 시작 — 워커 "}
+{"offset": "0x5dad0", "text": "파싱 예외 ["}
+{"offset": "0x5daf0", "text": "분 · 잔여예상 "}
+{"offset": "0x5db08", "text": " | 경과 "}
+{"offset": "0x5db13", "text": "  ❌ "}
+{"offset": "0x5db20", "text": "%) | ✅ "}
+{"offset": "0x5db40", "text": "  ⚠️  파서 미등록 또는 결과 없음: "}
+{"offset": "0x5db80", "text": "개 필드 → "}
+{"offset": "0x5db90", "text": "  ✅ "}
+{"offset": "0x5dbd0", "text": "이미지 회수 백필 RC="}
+{"offset": "0x5dc20", "text": "이미지 회수 패스: 실패 이미지 0 — 생략"}
