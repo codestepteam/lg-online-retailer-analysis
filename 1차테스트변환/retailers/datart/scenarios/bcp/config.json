@@ -1,0 +1,64 @@
+{
+  "retailer": "datart",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "datart",
+    "page_type": "brand-category",
+    "evidence": {
+      "notes": "Nastavení soukromí 쿠키 창에서 선택 쿠키를 거부하고 전체 스크롤한다. Načíst další는 page=2로 이동하는 링크이므로 현재 BCP 본문을 보존하기 위해 클릭하지 않는다.",
+      "forbidden_text": []
+    },
+    "request": {
+      "url": "https://www.datart.cz/lednice-lg.html",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "geolocation": "CZ",
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-02.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-03.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-05.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        }
+      ]
+    }
+  }
+}

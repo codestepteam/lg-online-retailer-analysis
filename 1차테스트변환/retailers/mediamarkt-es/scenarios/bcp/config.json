@@ -1,0 +1,71 @@
+{
+  "retailer": "mediamarkt-es",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "mediamarkt-es",
+    "page_type": "brand-category",
+    "evidence": {
+      "notes": "CAPTCHA/점검 문구가 남으면 실패로 처리한다. 정상 본문이면 쿠키 창을 닫고 전체 스크롤한 뒤 Mostrar N productos más를 최대 3회 누르고 관찰된 FAQ 질문 2개를 펼친다.",
+      "forbidden_text": [
+        "Pero no se preocupe, mientras tanto, aún puede visitarnos y contactarnos en nuestros canales de redes sociales",
+        "completa el captcha"
+      ]
+    },
+    "request": {
+      "url": "https://www.mediamarkt.es/es/brand/lg-electronics/frigorificos",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "geolocation": "ES",
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-02.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-03.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-05.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-09.js"
+        }
+      ]
+    }
+  }
+}

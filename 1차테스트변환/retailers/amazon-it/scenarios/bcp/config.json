@@ -1,0 +1,88 @@
+{
+  "retailer": "amazon-it",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "amazon-it",
+    "page_type": "brand-category",
+    "evidence": {
+      "notes": "Amazon 홈을 먼저 연 뒤 냉장고 BCP로 이동하고, 선택 쿠키 창과 Mostra altro가 있을 때 처리한 다음 전체 스크롤한다.",
+      "url_contains": [
+        "5DE174FF-7426-4856-9BA8-3EF64DA9BCC5"
+      ],
+      "forbidden_text": []
+    },
+    "request": {
+      "url": "https://www.amazon.it/",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "geolocation": "IT",
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "goto",
+          "url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5",
+          "options": {
+            "waitUntil": "load",
+            "timeout": 25
+          }
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 2
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-09.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-10.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-11.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-12.js"
+        }
+      ]
+    },
+    "target_url": "https://www.amazon.it/stores/page/5DE174FF-7426-4856-9BA8-3EF64DA9BCC5"
+  }
+}

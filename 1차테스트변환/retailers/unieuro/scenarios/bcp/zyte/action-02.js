@@ -1,0 +1,1 @@
+window.__lgConfig = {"ready": "h1", "required": ["h1"], "scroll_selector": ".inner-scroll.scroll-y", "steps": [], "after_scroll": [], "panels": [], "scroll_steps": 24, "evidence": "Live LG filter URL rendered Frigoriferi active category and 37 results.", "retailer": "unieuro", "page_type": "brand-category", "cookie_checks": [{"selector": "#onetrust-accept-btn-handler"}]};

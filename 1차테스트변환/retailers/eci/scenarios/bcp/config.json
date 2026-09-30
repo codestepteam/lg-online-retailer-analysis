@@ -1,0 +1,66 @@
+{
+  "retailer": "eci",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "eci",
+    "page_type": "brand-category",
+    "evidence": {
+      "notes": "Original manifest duplicated brand. This override is the actual LG refrigerator category anchor preserved in the captured LG brand page. Verify refrigerator title and category product cards after capture.",
+      "url_contains": [
+        "/lg/electrodomesticos/frigorificos-y-neveras/"
+      ]
+    },
+    "request": {
+      "url": "https://www.elcorteingles.es/lg/electrodomesticos/frigorificos-y-neveras/",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "geolocation": "ES",
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-02.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-03.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-05.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        }
+      ]
+    }
+  }
+}

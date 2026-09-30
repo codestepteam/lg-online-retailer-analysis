@@ -1,0 +1,82 @@
+{
+  "schema_version": "lg-bcp-scenario-draft-v1",
+  "retailer": "rtv-euro-agd",
+  "page_type": "bcp",
+  "assessment_ids": [
+    "8",
+    "9",
+    "10",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23"
+  ],
+  "score_set": "scoring/bcp/v1",
+  "parser_present": true,
+  "action_files": [
+    {
+      "name": "action-00.js",
+      "bytes": 838,
+      "sha256": "156d924040ee1c39557750b87d80c388c328d34964071444e29812c1e20167ff"
+    },
+    {
+      "name": "action-02.js",
+      "bytes": 669,
+      "sha256": "6369270db38b0a4ad195311946227827cc9ff3d4ae5e42e43044e2b8515de2d7"
+    },
+    {
+      "name": "action-03.js",
+      "bytes": 803,
+      "sha256": "2950ba4c682394fcbcfb5fec0b294a06109eae3e70dc5694144188ee1d0a8418"
+    },
+    {
+      "name": "action-04.js",
+      "bytes": 5803,
+      "sha256": "cf191ad599e02a15d69bfdc925ee9ff8869d52c22985d46eb5c59d53155b8983"
+    },
+    {
+      "name": "action-05.js",
+      "bytes": 5949,
+      "sha256": "a0916ffc72b62a700d6a3434ae5913fc9cd4021c062be9110128b201636d15ae"
+    },
+    {
+      "name": "action-06.js",
+      "bytes": 5802,
+      "sha256": "06969d81265350ef5719e7522cf6fdb0eb5776ef536473d142a17b926ba44908"
+    },
+    {
+      "name": "action-07.js",
+      "bytes": 2204,
+      "sha256": "076184c1b8dba13f963ea2dffa757254e0beeb6120b800a7410668b34484ea87"
+    },
+    {
+      "name": "action-08.js",
+      "bytes": 1245,
+      "sha256": "1c30d07819a1bd87077f5e967cf84539e455cd0e09ea86450fe27750b8633ac4"
+    }
+  ],
+  "parser_files": [
+    {
+      "name": "bcp.py",
+      "bytes": 6197,
+      "sha256": "e40ab11d103f586c536135fbb6b3126b5f6e85a8e35b46c2336eee886c98010d"
+    },
+    {
+      "name": "legacy_bcp_evidence.py",
+      "bytes": 25868,
+      "sha256": "9bb4359e71c1da1f1caced65f772e1855ad66e320581bfdd40a7c0c6ab9f2943"
+    }
+  ],
+  "observation_files": [
+    {
+      "name": "lg-diagnostic-observation-v1.schema.json",
+      "bytes": 1123,
+      "sha256": "1d47afb2b7e5118ea4f825dc3d7b48c2b7b4151c026756c08d4bb838c0b1431a"
+    }
+  ],
+  "capture_template_sha256": "a79d0cd00eb607373dc976a47594a9fff357c8ed66cb66f22bf7d70476d92eeb",
+  "source_recipe": "1차 테스트/bcp-zyte-poc/capture/recipes/rtv-euro-agd/brand-category.json",
+  "source_recipe_sha256": "43e4eb9d8b2da2ed473cf77345ee131db6159316b3b7b96709ba5202ad85409f"
+}

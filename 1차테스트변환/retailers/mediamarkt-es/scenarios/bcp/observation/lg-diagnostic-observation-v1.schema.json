@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lg-diagnostic-observation-v1.schema.json",
+  "title": "lg-diagnostic-observation-v1",
+  "description": "Diagnostic observation contract checked by pipeline.two_stage.validate_observation. The serialized document must be at most 2 MiB.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "target", "facts", "completeness", "evidence"],
+  "properties": {
+    "schema_version": {
+      "const": "lg-diagnostic-observation-v1"
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["url", "retailer", "page_type"],
+      "properties": {
+        "url": {"type": "string", "minLength": 1},
+        "retailer": {"type": "string", "minLength": 1},
+        "page_type": {"type": "string", "minLength": 1}
+      }
+    },
+    "facts": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "completeness": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {"type": "string"}
+    }
+  }
+}
