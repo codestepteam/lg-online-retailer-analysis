@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from assess_full_population import source_conflicts, redirected_brand_issues, metadata_checks, sidebar_nav_check
+from assess_full_population import source_conflicts, redirected_brand_issues, metadata_checks, sidebar_nav_check, id21_click_check, product_check
 from capture_bcp_population import selected_records, prepared_recipe
 
 
@@ -33,6 +33,7 @@ class FullPopulationTests(unittest.TestCase):
 
     def test_elgiganten_editorial_page_keeps_missing_h1_as_assessment_issue(self):
         record = {"sourceRow": 149, "retailerSlug": "elgiganten", "pageType": "Brand Category Page", "brand": "BOSCH",
+                  "subcategory": "Dryer", "categoryCode": "DRYER",
                   "url": "https://www.elgiganten.se/brand/bosch/bosch-vitvaror/bosch-torktumlare"}
         recipe, _ = prepared_recipe(record)
         config_source = next(action["source"] for action in recipe["request"]["actions"]
@@ -100,6 +101,55 @@ class FullPopulationTests(unittest.TestCase):
             }))
             result = sidebar_nav_check(batch, {"pageKey": key, "brand": "LG"}, "saved-page-hash")
             self.assertEqual(result["status"], "REVIEW")
+            self.assertIn("카드 클릭이 아닌", result["reason"])
+
+    def test_id21_uses_clicked_lineup_and_complete_coverage_not_h1(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            batch = Path(tmp)
+            folder = batch / "navigator-click-check" / "row-0038-datart"
+            folder.mkdir(parents=True)
+            record = {"sourceRow": 38, "pageKey": "row-0038-datart", "brand": "LG",
+                      "url": "https://www.datart.cz/lednice-lg.html"}
+            check = {"sourceWorkbookRow": 38, "sourceUrl": record["url"],
+                     "sourceRawHtmlSha256": "saved-page-hash", "expectedCardCount": 2,
+                     "checkedCardCount": 2, "verificationMethod": "zyte_browser_click_then_jev_semantic_review",
+                     "results": [{"card": {"label": "S připojením na vodu", "url": "https://datart.cz/water"}, "captureValid": True,
+                                  "landing": {"h1": []}, "jevChoice": "matching_lineup"},
+                                 {"card": {"label": "No frost", "url": "https://datart.cz/no-frost"}, "captureValid": True,
+                                  "landing": {"h1": []}, "jevChoice": "matching_lineup"}]}
+            path = folder / "id21-click-review.json"
+            path.write_text(json.dumps(check))
+            self.assertEqual(id21_click_check(batch, record, "saved-page-hash")["status"], "Y")
+            check["results"][1]["jevChoice"] = "different_lineup"
+            path.write_text(json.dumps(check))
+            self.assertEqual(id21_click_check(batch, record, "saved-page-hash")["status"], "N")
+            check["results"] = check["results"][:1]
+            check["checkedCardCount"] = 1
+            path.write_text(json.dumps(check))
+            self.assertEqual(id21_click_check(batch, record, "saved-page-hash")["status"], "REVIEW")
+
+    def test_later_live_product_check_is_separate_and_source_url_locked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            batch = Path(tmp)
+            folder = batch / "product-link-check-live"
+            folder.mkdir()
+            record = {"pageKey": "row-0152-elgiganten", "sourceRow": 152, "brand": "ELECTROLUX",
+                      "url": "https://www.elgiganten.se/brand/electrolux/electrolux-tvatt-och-tork"}
+            check = {"pageKey": record["pageKey"], "sourceWorkbookRow": 152, "sourceUrl": record["url"],
+                     "verificationMethod": "manual_browser_click", "observedDateKST": "2026-09-29",
+                     "checkedCards": [
+                         {"cardLabel": f"Electrolux washer M{i}", "landingTitle": f"Electrolux washer M{i}",
+                          "modelCode": f"M{i}", "clicked": True,
+                          "productUrl": f"https://www.elgiganten.se/product/washer/{i}"}
+                         for i in (1, 2)]}
+            path = folder / "row-0152-elgiganten.json"
+            path.write_text(json.dumps(check), encoding="utf-8")
+            result = product_check(batch, record)
+            self.assertEqual(result["status"], "Y")
+            self.assertTrue(result["evidence"]["originalCaptureNotReplaced"])
+            check["sourceUrl"] = "https://www.elgiganten.se/other-page"
+            path.write_text(json.dumps(check), encoding="utf-8")
+            self.assertEqual(product_check(batch, record)["status"], "REVIEW")
 
 
 if __name__ == "__main__":

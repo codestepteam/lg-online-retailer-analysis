@@ -3,7 +3,8 @@
 
 This script never converts unreviewed content candidates or collection failures
 to Y/N. It can reuse the independently reviewed LG BCP decisions only when the
-saved capture bytes are identical to the reviewed batch.
+saved capture bytes are identical to the reviewed batch. A dated, URL-locked
+manual browser check can resolve an ID22 REVIEW without changing that capture.
 """
 
 from __future__ import annotations
@@ -161,6 +162,39 @@ def metadata_checks(record: dict, page: Path) -> tuple[dict, dict]:
 def product_check(batch: Path, record: dict) -> dict:
     """Assess the checked first two same-brand product cards, not every card."""
     key = str(record["pageKey"])
+    # A later browser check is separate from the original Zyte capture. It may
+    # resolve a collection-limited REVIEW, but must never be presented as data
+    # that was present in the saved HTML.
+    live_path = batch / "product-link-check-live" / f"{key}.json"
+    if live_path.is_file():
+        live = read_json(live_path)
+        checks = live.get("checkedCards", [])
+        if (live.get("pageKey") == key and live.get("sourceWorkbookRow") == int(record["sourceRow"])
+                and live.get("sourceUrl") == record["url"]
+                and live.get("verificationMethod") == "manual_browser_click"
+                and live.get("observedDateKST") and len(checks) >= 2
+                and len({item.get("productUrl") for item in checks}) == len(checks)
+                and all(item.get("clicked") is True
+                        and item.get("cardLabel") and item.get("landingTitle")
+                        and item.get("modelCode")
+                        and str(item["modelCode"]).casefold() in str(item["cardLabel"]).casefold()
+                        and str(item["modelCode"]).casefold() in str(item["landingTitle"]).casefold()
+                        and re.search(r"(?<![A-Za-z])" + re.escape(str(record["brand"])) + r"(?![A-Za-z])",
+                                      str(item["landingTitle"]), re.I)
+                        and urlsplit(str(item["productUrl"])).netloc == urlsplit(str(record["url"])).netloc
+                        and "/product/" in urlsplit(str(item["productUrl"])).path.casefold()
+                        for item in checks)):
+            return verdict("Y", f"{live['observedDateKST']} 실제 브라우저에서 상품 카드 {len(checks)}개를 눌러 동일 브랜드·모델의 상품 상세 페이지로 이동 확인", {
+                "verificationFile": str(live_path.relative_to(batch)),
+                "verificationMethod": live["verificationMethod"],
+                "observedDateKST": live["observedDateKST"],
+                "checkedCards": checks,
+                "originalCheckFile": f"product-link-check/{key}.json",
+                "originalExtraRetryFile": f"{key}-extra-retry.json",
+                "originalCaptureNotReplaced": True,
+            })
+        return verdict("REVIEW", "별도 브라우저 확인 기록이 현재 URL 또는 상세 페이지 확인 조건과 일치하지 않음", {
+            "verificationFile": str(live_path.relative_to(batch))})
     path = batch / "product-link-check" / f"{key}.json"
     if not path.is_file():
         return verdict("REVIEW", "제품 카드 도착 페이지 검사 자료가 없음")
@@ -205,7 +239,7 @@ def product_check(batch: Path, record: dict) -> dict:
 
 
 def sidebar_nav_check(batch: Path, record: dict, raw_sha: str) -> dict | None:
-    """Read the source-locked category-sidebar link checks when available."""
+    """Keep legacy direct-URL visits as context, never as proof of a card click."""
     path = batch / "navigator-sidebar-check" / f"{record['pageKey']}.json"
     if not path.is_file():
         return None
@@ -214,23 +248,34 @@ def sidebar_nav_check(batch: Path, record: dict, raw_sha: str) -> dict | None:
         return verdict("REVIEW", "제품군 탐색 검사와 현재 저장 HTML의 버전이 다름")
     targets, results = data.get("targets", []), data.get("results", [])
     evidence = {"checkFile": str(path.relative_to(batch)), "targets": targets, "results": results}
-    if not targets:
-        return verdict("N", "상단 브랜드 제품군 탐색 영역에 하위 제품군 링크가 없음", evidence)
-    if len(results) != len(targets):
-        return verdict("REVIEW", "제품군 탐색 링크 일부가 검사되지 않음", evidence)
-    if any(item.get("status") == 200 and (
-               not (str(item.get("title") or "").strip() or str(item.get("h1") or "").strip())
-               or re.search(r"captcha|verify you are human|confirm you are human", str(item.get("title") or ""), re.I))
-           for item in results):
-        return verdict("REVIEW", "도착 URL은 열렸지만 일부 페이지의 제목과 화면 주제 문구(H1)가 비어 있어 제품군을 확인할 수 없음", evidence)
-    for item in results:
-        title = str(item.get("title") or "")
-        h1 = str(item.get("h1") or "")
-        if item.get("status") == 200 and not re.search(r"(?<![A-Za-z])" + re.escape(str(record["brand"])) + r"(?![A-Za-z])", title + " " + h1, re.I):
-            return verdict("N", "하위 제품군 링크가 다른 브랜드 또는 일반 목록으로 이동함", evidence)
-    if any(item.get("status") != 200 for item in results):
-        return verdict("REVIEW", "하위 제품군 링크의 도착 페이지 확인이 차단되거나 실패함", evidence)
-    return verdict("Y", f"상단 제품군 탐색 링크 {len(targets)}개 모두 동일 브랜드 제품군 페이지로 열림", evidence)
+    return verdict("REVIEW", "기존 검사는 카드 클릭이 아닌 도착 주소의 별도 접속이므로 ID21 정상 작동을 입증하지 못함", evidence)
+
+
+def id21_click_check(batch: Path, record: dict, raw_sha: str) -> dict | None:
+    """Use only source-locked, successful browser clicks and landing-lineup reviews."""
+    path = batch / "navigator-click-check" / record["pageKey"] / "id21-click-review.json"
+    if not path.is_file():
+        return None
+    data = read_json(path)
+    evidence = {"checkFile": str(path.relative_to(batch)), "results": data.get("results", []),
+                "verificationMethod": data.get("verificationMethod")}
+    if (data.get("sourceWorkbookRow") != int(record["sourceRow"])
+            or data.get("sourceUrl") != record["url"]
+            or data.get("sourceRawHtmlSha256") != raw_sha
+            or data.get("verificationMethod") != "zyte_browser_click_then_jev_semantic_review"):
+        return verdict("REVIEW", "ID21 클릭 검사 기록이 현재 URL 또는 저장 HTML과 일치하지 않음", evidence)
+    results = data.get("results", [])
+    if not isinstance(results, list) or not results:
+        return verdict("REVIEW", "제품군 탐색 카드의 클릭 검사가 없음", evidence)
+    if any(item.get("captureValid") is True and item.get("jevChoice") == "different_lineup" for item in results):
+        return verdict("N", "클릭된 탐색 카드 중 도착한 제품군이 다른 카드가 있음", evidence)
+    urls = [item.get("card", {}).get("url") for item in results]
+    if (len(results) != data.get("expectedCardCount") or data.get("checkedCardCount") != len(results)
+            or not all(urls) or len(set(urls)) != len(urls)):
+        return verdict("REVIEW", "제품군 탐색 카드 중 클릭·도착 확인을 마치지 않은 것이 있음", evidence)
+    if all(item.get("captureValid") is True and item.get("jevChoice") == "matching_lineup" for item in results):
+        return verdict("Y", f"제품군 탐색 카드 {len(results)}개를 모두 실제 클릭해 해당 제품군 목록 도착을 확인함", evidence)
+    return verdict("REVIEW", "일부 카드의 클릭·상품 목록 수집 또는 도착 제품군 판단 근거가 부족함", evidence)
 
 
 def assess(batch: Path, lg_prior: Path | None) -> tuple[list[dict], list[dict]]:
@@ -303,6 +348,10 @@ def assess(batch: Path, lg_prior: Path | None) -> tuple[list[dict], list[dict]]:
                     nav = sidebar_nav_check(batch, record, sha256(page / "raw.html"))
                     if nav:
                         results["ID21"] = nav
+                if page_type == "brand-category":
+                    clicked = id21_click_check(batch, record, sha256(page / "raw.html"))
+                    if clicked:
+                        results["ID21"] = clicked
             except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
                 for metric in METRICS:
                     results[metric] = verdict("COLLECTION_ERROR", f"저장본 검사 실패: {exc}")
@@ -337,7 +386,7 @@ def main() -> None:
     details, rows = assess(batch, args.lg_reviewed.resolve() if args.lg_reviewed else None)
     (batch / "전체_URL_판정_진행상태_상세.json").write_text(json.dumps(details, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     with (batch / "전체_URL_판정_진행상태.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=FIELDS)
+        writer = csv.DictWriter(handle, fieldnames=FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     counts = {metric: Counter(item["results"][metric]["status"] for item in details) for metric in METRICS}

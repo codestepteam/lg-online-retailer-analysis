@@ -24,6 +24,14 @@ for path in files:
     actions = request['actions']
     assert actions[-1]['source'] == (ROOT/'capture/prepare.js').read_text()
     assert actions[-2]['source'] == (ROOT/'capture/evidence.js').read_text()
+    hero = [i for i, action in enumerate(actions) if 'id18-candidates-v1' in action.get('source', '')]
+    if path.stem == 'brand-category':
+        load = next(i for i, action in enumerate(actions) if 'window.__lgCapture = log' in action.get('source', ''))
+        assert len(hero) == 2 and hero[0] < load < hero[1] < len(actions) - 2
+        assert 'const phase = "before_scroll"' in actions[hero[0]]['source']
+        assert 'const phase = "after_scroll"' in actions[hero[1]]['source']
+    else:
+        assert not hero, 'ID18 evidence belongs to Brand Category Pages only'
     assert any('window.__lgConfig =' in a.get('source','') for a in actions)
     assert all(len(a.get('source','')) <= 6000 for a in actions)
     assert not any('const cfg = CONFIG;' in a.get('source','') for a in actions)

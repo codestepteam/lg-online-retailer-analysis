@@ -1,0 +1,19 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "ID21_lineup_match": {
+      "type": "choice",
+      "choice": "matching_lineup",
+      "confidence": 0.98,
+      "probabilities": {
+        "insufficient_evidence": 0.01,
+        "matching_lineup": 0.99,
+        "different_lineup": 0.0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2383,
+    "output_tokens": 55
+  }
+}

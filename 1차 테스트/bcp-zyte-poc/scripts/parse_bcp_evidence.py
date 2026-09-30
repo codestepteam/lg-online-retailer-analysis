@@ -432,7 +432,8 @@ def parse_page(page: Path, output_root: Path) -> tuple[dict[str, object], dict[s
         "ID18": metric("ID18", {
             "attributeCandidates": hero_candidates,
             "largeVisibleImages": top_rendered[:10],
-        }, ["배너 형태와 첫 화면 위치의 인정 기준은 아직 미확정"]),
+            "renderedCandidateSnapshots": state.get("heroEvidence", {}).get("snapshots", {}),
+        }, ["화면 위치·크기는 새 수집본에서만 제공되며, 상단 범위와 영상 인정 기준은 아직 미확정"]),
         "ID19": metric("ID19", {"headingOrAttributeCandidates": why_candidates}, ["Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"]),
         "ID20": metric("ID20", {"headingOrAttributeCandidates": usp_candidates}, ["검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"]),
         "ID21": metric("ID21", {

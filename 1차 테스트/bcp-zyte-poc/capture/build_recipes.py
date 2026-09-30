@@ -12,6 +12,7 @@ def build():
     entries = json.loads((ROOT.parent/'output/_poc_zyte/url-manifest.json').read_text())['entries']
     load = (ROOT/'load.js').read_text().replace('const cfg = CONFIG;', 'const cfg = window.__lgConfig;')
     evidence = (ROOT/'evidence.js').read_text()
+    hero = (ROOT/'hero-evidence.js').read_text()
     count = 0
     for entry in entries:
         retailer, page_type = entry['retailer_slug'], entry['page_type']
@@ -28,11 +29,15 @@ def build():
         initial_metadata_actions = [{'action':'evaluate','source':(ROOT/'initial-metadata.js').read_text()}] if page_type == 'brand-category' else []
         faq_actions = ([{'action':'evaluate','source':(ROOT/'faq_expand.js').read_text()}]
                        if retailer == 'mediamarkt-es' and page_type == 'brand-category' else [])
+        hero_before = ([{'action':'evaluate','source':hero.replace('HERO_PHASE', '"before_scroll"')}]
+                       if page_type == 'brand-category' else [])
+        hero_after = ([{'action':'evaluate','source':hero.replace('HERO_PHASE', '"after_scroll"')}]
+                      if page_type == 'brand-category' else [])
         actions = cookie_actions + [
             {'action':'evaluate','source':'window.__lgConfig = '+json.dumps(config,ensure_ascii=False)+';'},
-        ] + initial_metadata_actions + [
+        ] + initial_metadata_actions + hero_before + [
             {'action':'evaluate','source':load},
-        ] + faq_actions + [
+        ] + faq_actions + hero_after + [
             {'action':'evaluate','source':evidence},
             {'action':'evaluate','source':(ROOT/'prepare.js').read_text()},
         ]

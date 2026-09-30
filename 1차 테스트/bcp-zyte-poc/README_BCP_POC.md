@@ -45,6 +45,8 @@ python3 "1차 테스트/bcp-zyte-poc/scripts/zyte_capture.py" \
 - `screenshot.jpg`: 전체 페이지 화면
 - `capture-state.json`: 액션 수행 상태와 9개 항목 판정에 사용할 구조화 근거
 
+2026-09-29부터 새로 수집한 Brand Category Page의 `capture-state.json`에는 `heroEvidence.snapshots.before_scroll`과 `after_scroll`도 있다. 두 시점의 URL·화면 크기, ID18 배너 후보의 화면 위치·너비·높이, 이미지/영상/CSS 배경 종류, 주변 제목·문구를 기록한다. 후보의 `documentTop`은 페이지 맨 위에서부터의 픽셀 위치다. 기존 9월 28일 수집본에는 이 값이 없으며, 후보가 있다고 자동으로 ID18 Y가 되는 것은 아니다. 새 수집 예시는 [Alza LG 냉장고](results_population/20260929-id18-pilot/pages/row-0014-alza/brand-category/capture-state.json)와 [Elgiganten Bosch 건조기 영상](results_population/20260929-id18-video-pilot/pages/row-0149-elgiganten/brand-category/capture-state.json)이다. 같은 정보가 파서의 `bcp-evidence.json → metrics → ID18 → evidence → renderedCandidateSnapshots`에도 복사된다.
+
 성공한 9개 수집본을 실행 시각별 결과 묶음으로 보존하는 명령은 다음과 같다.
 
 ```bash
@@ -110,6 +112,6 @@ python3 "1차 테스트/bcp-zyte-poc/scripts/assess_full_population.py" \
 - `전체_URL_판정_진행상태.md`: 항목별 개수와 확정하지 못한 URL의 이유
 - `전체_URL_판정_진행상태_상세.json`: 항목별 판단 이유와 원본 HTML·화면·검사 링크 근거
 
-ID18·19·20·23은 저장된 화면·HTML에 대한 AI의 1차 검토다. ID21은 선정한 제품군 탐색 링크의 도착 페이지를 검사했다. ID22는 각 페이지에서 선정한 동일 브랜드 상품 카드 최대 2개의 도착 페이지를 확인한 것이므로 페이지의 모든 상품 카드 링크를 전수 검사했다는 뜻은 아니다. 기존 Concentrix 판정과 동일한 공식 결과로 보아서는 안 된다.
+ID18·19·20·23은 저장된 화면·HTML에 대한 AI의 1차 검토다. ID21은 종전에 선정한 제품군 탐색 링크의 주소를 **별도로 접속**해 제목/H1을 비교했으나 실제 카드 클릭 검사가 아니었다. 2026-09-29부터 [Datart 38행 클릭·Jev 시험](README_ID21_CLICK_CHECK.md)을 분리해 기록하며, 종전 별도 접속 결과를 클릭 성공의 최종 증거로 쓰지 않는다. ID22는 각 페이지에서 선정한 동일 브랜드 상품 카드 최대 2개의 도착 페이지를 확인한 것이므로 페이지의 모든 상품 카드 링크를 전수 검사했다는 뜻은 아니다. 기존 Concentrix 판정과 동일한 공식 결과로 보아서는 안 된다.
 
-2026-09-28 재검토에서는 LG 브랜드 카테고리 페이지 24개를 `scripts/review_lg_population.py`로 다시 검토하고, `scripts/check_lg_navigators.py`로 제품군 탐색 링크의 도착 페이지 48개를 확인했다. 검토 기록은 `본문_항목_AI검수.json`과 `ID8_전체검수.json`, 이동 검사 기록은 `navigator-sidebar-check/` 및 `product-link-check/`에 보관한다. 그 결과 159개 URL 판정표에서 `REVIEW`는 6개 항목이다. URL 목록의 38행은 빈 제목·본문 주제 문구를 돌려준 Datart 제품군 링크, 43·44행은 Datart 일반 브랜드 페이지의 미표시 이미지, 149·150행은 영상 배너 인정 기준이 미정인 Bosch 페이지, 152행은 상품 목록 수집이 실패한 Electrolux 페이지다. 접속 상태가 200이어도 제목과 본문 주제 문구가 비어 있으면 이동 성공으로 판정하지 않는다.
+2026-09-28 재검토에서는 LG 브랜드 카테고리 페이지 24개를 `scripts/review_lg_population.py`로 다시 검토하고, `scripts/check_lg_navigators.py`로 제품군 탐색 링크의 **직접 접속** 48개를 검사했다. 검토 기록은 `본문_항목_AI검수.json`과 `ID8_전체검수.json`, 당시 주소 검사는 `navigator-sidebar-check/` 및 `product-link-check/`에 보관한다. 당시 38행을 빈 제목·H1 때문에 REVIEW로 남긴 해석은 ID21 원문보다 엄격했다. 직접 접속에서 빈 H1을 받은 사실은 수집 품질 문제일 수 있으며, 해당 카드를 눌렀을 때 제품군을 탐색할 수 없는 것으로 단정할 수 없다. 새 클릭 방식의 수집 오류는 별도 REVIEW로 기록한다.

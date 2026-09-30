@@ -1,0 +1,51 @@
+{
+  "captureValid": false,
+  "jevChoice": null,
+  "errors": [
+    "landing is a CAPTCHA or access challenge, not a product page"
+  ],
+  "landingUrl": "https://www.datart.cz/lednice-lg-s-davkovacem-vody.html",
+  "statusCode": 200,
+  "landing": {
+    "title": "",
+    "h1": [],
+    "breadcrumbs": [],
+    "productCount": 0,
+    "products": [],
+    "visibleTextExcerpt": " Audio is not supported in your browser. Opište kód z obrázku: Opíšte kód z obrázku: submit ID pro komunikaci s podporou: ID pre komunikáciu s podporou: 15300801857401515679 Zákaznické centrum Datart.cz V případě jakýchkoliv jiných dotazů se na nás neváhejte obrátit. Po–pá – 8:00 až 21:00 So–ne – 9:00 až 21:00 Zavolat na tel. +420 225 991 000 Kontakt Neviete si dať rady? Zavolajte nám po–pia – 8:00 až 20:00 víkendy,sviatky – 9:00 až 20:00 Zavolajte na +421 2 44 555 444 ",
+    "htmlBytes": 57357
+  },
+  "actions": [
+    {
+      "action": "evaluate",
+      "elapsedTime": 1.46,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 1.499,
+      "status": "success"
+    },
+    {
+      "action": "waitForSelector",
+      "elapsedTime": 0.01,
+      "status": "success"
+    },
+    {
+      "action": "click",
+      "elapsedTime": 3.301,
+      "status": "success"
+    },
+    {
+      "action": "waitForTimeout",
+      "elapsedTime": 3,
+      "status": "success"
+    }
+  ],
+  "landingHtmlSha256": "0255277ae491a1a81905bda3095584122a4027d17083a37ca7de900aac4b5eec",
+  "previousErrors": [
+    "no rendered product records were found on the landing page"
+  ],
+  "reclassifiedAtUtc": "2026-09-29T11:03:20.641565+00:00",
+  "reclassificationReason": "saved landing.html contains Czech CAPTCHA code-entry prompt"
+}

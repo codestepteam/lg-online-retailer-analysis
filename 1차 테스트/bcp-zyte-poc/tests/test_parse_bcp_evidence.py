@@ -1,5 +1,7 @@
 import importlib.util
+import json
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -48,6 +50,27 @@ class ParserTests(unittest.TestCase):
         value = MODULE.metric("ID10", {"canonical": ["https://example.com/"]})
         self.assertEqual(value["assessment"]["status"], "not_assessed")
         self.assertIsNone(value["assessment"]["value"])
+
+    def test_id18_keeps_browser_positions_without_assigning_a_verdict(self):
+        with tempfile.TemporaryDirectory() as directory:
+            batch = Path(directory) / "batch"
+            page = batch / "pages" / "row-0014-alza" / "brand-category"
+            page.mkdir(parents=True)
+            (page / "raw.html").write_text("<html><body><main><h1>LG</h1></main></body></html>")
+            snapshots = {"before_scroll": {"url": "https://example.com/lg", "candidates": [
+                {"kind": "image", "documentTop": 149, "width": 1084, "height": 363}
+            ]}}
+            (page / "capture-state.json").write_text(json.dumps({
+                "url": "https://example.com/lg", "metadata": {}, "images": [],
+                "heroEvidence": {"version": "id18-candidates-v1", "snapshots": snapshots},
+            }))
+            (page / "response.json").write_text(json.dumps({
+                "ok": True, "requested_url": "https://example.com/lg", "final_url": "https://example.com/lg",
+            }))
+            detail, _ = MODULE.parse_page(page, batch / "parsed")
+            id18 = detail["metrics"]["ID18"]
+            self.assertEqual(id18["evidence"]["renderedCandidateSnapshots"], snapshots)
+            self.assertEqual(id18["assessment"]["status"], "not_assessed")
 
 
 if __name__ == "__main__":

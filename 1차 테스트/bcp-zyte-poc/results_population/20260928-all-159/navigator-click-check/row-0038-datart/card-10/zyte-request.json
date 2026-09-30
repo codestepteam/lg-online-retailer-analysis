@@ -1,0 +1,34 @@
+{
+  "url": "https://www.datart.cz/lednice-lg.html",
+  "browserHtml": true,
+  "screenshot": false,
+  "actions": [
+    {
+      "action": "evaluate",
+      "source": "// Consent can arrive after hydration, and accepting it can reload the document.\n(async () => {\n  const steps = [{\"selector\": \"#c-t-bn\", \"text\": \"Odmítnout volitelné cookies\"}];\n  const deadline = Date.now() + 5000;\n  while (Date.now() < deadline) {\n    const roots = [document];\n    for (let i=0;i<roots.length;i++) for (const el of roots[i].querySelectorAll('*')) if (el.shadowRoot) roots.push(el.shadowRoot);\n    for (const step of steps) {\n      const el = roots.flatMap(r=>Array.from(r.querySelectorAll(step.selector))).find(e=>e.getClientRects().length && (!step.text || (e.innerText || e.textContent || e.value || '').trim()===step.text));\n      if (el) { setTimeout(()=>el.click(),100); return; }\n    }\n    await new Promise(resolve=>setTimeout(resolve,250));\n  }\n})();\n"
+    },
+    {
+      "action": "waitForTimeout",
+      "timeout": 1.5
+    },
+    {
+      "action": "waitForSelector",
+      "selector": {
+        "type": "xpath",
+        "value": "//a[@href=\"/velke-lednice-lg.html\"]"
+      }
+    },
+    {
+      "action": "click",
+      "selector": {
+        "type": "xpath",
+        "value": "//a[@href=\"/velke-lednice-lg.html\"]"
+      },
+      "waitForNavigationTimeout": 20
+    },
+    {
+      "action": "waitForTimeout",
+      "timeout": 3
+    }
+  ]
+}

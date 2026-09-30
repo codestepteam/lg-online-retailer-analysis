@@ -70,6 +70,18 @@ def prepared_recipe(record: dict[str, object]) -> tuple[dict[str, object], dict[
             "(async()=>{const until=Date.now()+18000;while(Date.now()<until){"
             "if(document.querySelector('a[href*=\"/product/\"]'))return;"
             "await new Promise(r=>setTimeout(r,500));}})();"})
+    if page_type == "brand-category":
+        for action in recipe["request"]["actions"]:
+            source = action.get("source", "") if isinstance(action, dict) else ""
+            if not isinstance(source, str) or not source.startswith("window.__lgConfig = "):
+                continue
+            config = json.loads(source.removeprefix("window.__lgConfig = ").rstrip(";"))
+            config.update(target_brand=record["brand"], target_category=record["subcategory"],
+                          target_category_code=record["categoryCode"])
+            action["source"] = "window.__lgConfig = " + json.dumps(config, ensure_ascii=False) + ";"
+            break
+        else:
+            raise ValueError(f"BCP config is missing for {page_key(record)}")
     request = zyte._recipe_request(recipe, ROOT)
     for action in request.get("actions", []):
         if isinstance(action, dict) and len(str(action.get("source") or "").encode("utf-8")) > 6000:

@@ -1,0 +1,3128 @@
+{
+  "schemaVersion": "bcp-evidence-v1",
+  "page": {
+    "retailer": "row-0014-alza",
+    "pageType": "brand-category",
+    "requestedUrl": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+    "finalUrl": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+    "capturedAt": "2026-09-29T22:16:35.287267+09:00",
+    "collectionOk": true,
+    "title": "Lednice LG | Alza.cz"
+  },
+  "sources": {
+    "rawHtml": {
+      "path": "20260929-id18-pilot/pages/row-0014-alza/brand-category/raw.html",
+      "sha256": "006e3220c83328d54e3365084272d2d335849b3efb243bdf5e8606fe1437dbc4"
+    },
+    "captureState": {
+      "path": "20260929-id18-pilot/pages/row-0014-alza/brand-category/capture-state.json",
+      "sha256": "c6ad61b45e39c1c91da978486dee83e60bf94391bae51d2784bc7640338a6eb0"
+    },
+    "response": {
+      "path": "20260929-id18-pilot/pages/row-0014-alza/brand-category/response.json",
+      "sha256": "d2a190229875eaff50e9490cdf50aee72786edaf49b86cdcee432170082fd66c"
+    },
+    "screenshotRole": "페이지 상태를 사람이 참고하는 보조자료"
+  },
+  "parser": {
+    "assessmentPerformed": false,
+    "candidateRules": {
+      "contentTerms": {
+        "why_lg": [
+          "why lg",
+          "why choose lg",
+          "pourquoi lg",
+          "waarom lg",
+          "perche lg",
+          "por que lg",
+          "varfor lg",
+          "proč lg",
+          "proc lg",
+          "dlaczego lg"
+        ],
+        "faq": [
+          "faq",
+          "frequently asked",
+          "questions frequentes",
+          "veelgestelde vragen",
+          "domande frequenti",
+          "preguntas frecuentes",
+          "vanliga fragor",
+          "nejcastejsi dotazy",
+          "casto kladene otazky"
+        ],
+        "usp": [
+          "technology",
+          "technologies",
+          "technologie",
+          "tecnologia",
+          "tecnologias",
+          "innovazione",
+          "innovation",
+          "innovacion",
+          "advantages",
+          "benefits",
+          "avantages",
+          "vantaggi",
+          "voordelen",
+          "fordelar",
+          "vyhody",
+          "doorcooling",
+          "instaview",
+          "fresh balancer",
+          "freshconverter",
+          "thinq"
+        ]
+      },
+      "attributeTerms": {
+        "hero": [
+          "hero",
+          "brand-banner",
+          "brand_banner",
+          "brandbanner"
+        ],
+        "why_lg": [
+          "why-lg",
+          "why_lg",
+          "whylg"
+        ],
+        "usp": [
+          "usp",
+          "feature",
+          "benefit",
+          "technology",
+          "technologie"
+        ],
+        "faq": [
+          "faq",
+          "frequently-asked",
+          "accordion"
+        ],
+        "navigator": [
+          "category-nav",
+          "category_nav",
+          "categorynav",
+          "navigator",
+          "category-tile"
+        ],
+        "product_list": [
+          "product-list",
+          "product_list",
+          "productlist",
+          "product-grid",
+          "product_grid"
+        ]
+      },
+      "productUrlTerms": [
+        "/product/",
+        "/products/",
+        "/produkt/",
+        "/produit/",
+        "/prodotto/",
+        "/p/",
+        "/dp/",
+        "productdetail",
+        "product-detail"
+      ]
+    }
+  },
+  "documentOutline": {
+    "headings": [
+      {
+        "tag": "h2",
+        "path": "div#categoryAnotationBlock > div#categoryUpperDescription > div > div#brandpage > section.brandpage-intro > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lednice LG: Inovace v kuchyni",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Kombinované lednice LG",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div > div#brandpage > section.brandpage-stuff > div.brandpage-category > div.brandpage-category-content.lazy-left > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Americké chladničky LG – co nejdelší čerstvost",
+        "attributes": {}
+      },
+      {
+        "tag": "h2",
+        "path": "div#brandpage > section.brandpage-stuff > div.brandpage-stuff-grey > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "LG InstaView Door-in-Door™ – když jdete s dobou",
+        "attributes": {}
+      },
+      {
+        "tag": "h1",
+        "path": "div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div#categoryAnotationBlock > div#h1cc > div#h1c > h1",
+        "matchedBy": [
+          "heading"
+        ],
+        "text": "Lednice LG",
+        "attributes": {}
+      }
+    ]
+  },
+  "metrics": {
+    "ID8": {
+      "metricId": "ID8",
+      "metricName": "Alt text 적용 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "imageSelection": "원시 후보: visible=true와 loaded=true인 전체 이미지를 화면 표시 면적(renderedArea) 순으로 최대 10개 정렬. ID8 최종 대상은 별도 이미지 범위 검토에서 선정",
+        "eligibleImageCount": 136,
+        "top10ByRenderedArea": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG%20lednice%20BP.jpg",
+            "alt": "Lednice LG na Alza.cz",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-americka-lednice.jpg",
+            "alt": "Americká lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-InstaView-Door-in-Door.jpg",
+            "alt": "InstaView Door-in-Door dvířka amerických ledniček LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/BP%20lednice_Door%20cooling.png",
+            "alt": "Kombinovaná lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 286.25,
+            "renderedArea": 122501.58203125,
+            "naturalWidth": 1196,
+            "naturalHeight": 800,
+            "naturalArea": 956800,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/36e30ac3-6f3b-469e-90a0-3f7647a00ae3.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 155,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 44,
+            "src": "https://image.alza.cz/products/LGCHL176/LGCHL176.jpg?width=230&height=230",
+            "alt": "LG GBBS323BPY - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 69,
+            "naturalHeight": 229,
+            "naturalArea": 15801,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/LGCHL134/LGCHL134.jpg?width=230&height=230",
+            "alt": "LG GSLE91MBAC - Americká lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 124,
+            "naturalHeight": 230,
+            "naturalArea": 28520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/LGCHL168/LGCHL168.jpg?width=230&height=230",
+            "alt": "LG GBBSJ1CCPY - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 74,
+            "naturalHeight": 230,
+            "naturalArea": 17020,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "comparisonOnlyTop10ByNaturalArea": [
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/BP%20lednice_Door%20cooling.png",
+            "alt": "Kombinovaná lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 286.25,
+            "renderedArea": 122501.58203125,
+            "naturalWidth": 1196,
+            "naturalHeight": 800,
+            "naturalArea": 956800,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG%20lednice%20BP.jpg",
+            "alt": "Lednice LG na Alza.cz",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-americka-lednice.jpg",
+            "alt": "Americká lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-InstaView-Door-in-Door.jpg",
+            "alt": "InstaView Door-in-Door dvířka amerických ledniček LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/36e30ac3-6f3b-469e-90a0-3f7647a00ae3.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 155,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 165,
+            "src": "https://image.alza.cz/Images/icons/footer/logo/kristalova-lupa.png",
+            "alt": "Křišťálová lupa",
+            "renderedWidth": 89.28125,
+            "renderedHeight": 50,
+            "renderedArea": 4464.0625,
+            "naturalWidth": 300,
+            "naturalHeight": 168,
+            "naturalArea": 50400,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/LGCHL134/LGCHL134.jpg?width=230&height=230",
+            "alt": "LG GSLE91MBAC - Americká lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 124,
+            "naturalHeight": 230,
+            "naturalArea": 28520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 130,
+            "src": "https://image.alza.cz/products/LGCHL158/LGCHL158.jpg?width=230&height=230",
+            "alt": "LG GSLE91MBAB - Americká lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 123,
+            "naturalHeight": 230,
+            "naturalArea": 28290,
+            "loaded": true,
+            "visible": true
+          }
+        ]
+      },
+      "notes": [
+        "D017~D019: 화면 표시 면적 순위, 본문 및 제품 카드 포함, CSS 배경·순수 장식 제외. 이 단계의 전체 이미지 상위 10개는 ID8 최종 대상이 아님"
+      ]
+    },
+    "ID9": {
+      "metricId": "ID9",
+      "metricName": "메타데이터 최적화",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "title": [
+          "Lednice LG | Alza.cz"
+        ],
+        "metaDescription": [
+          "Lednice LG přehledně na jednom místě. ✅ Široká nabídka. ✅ Produkty skladem. ✅ Doručíme do 24 hodin. ✅ Pravidelné akce a slevy na Lednice LG. ✅"
+        ],
+        "h1": [
+          "Lednice LG"
+        ],
+        "robots": [
+          "index, follow"
+        ]
+      },
+      "notes": []
+    },
+    "ID10": {
+      "metricId": "ID10",
+      "metricName": "Canonical URL",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "canonical": [
+          "https://www.alza.cz/lednicky/lg/18852759-v1357.htm"
+        ]
+      },
+      "notes": []
+    },
+    "ID18": {
+      "metricId": "ID18",
+      "metricName": "Hero Banner 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "largeVisibleImages": [
+          {
+            "index": 28,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG%20lednice%20BP.jpg",
+            "alt": "Lednice LG na Alza.cz",
+            "renderedWidth": 1083.96875,
+            "renderedHeight": 362.65625,
+            "renderedArea": 393108.0419921875,
+            "naturalWidth": 1085,
+            "naturalHeight": 363,
+            "naturalArea": 393855,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 30,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-americka-lednice.jpg",
+            "alt": "Americká lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 31,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-InstaView-Door-in-Door.jpg",
+            "alt": "InstaView Door-in-Door dvířka amerických ledniček LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 298.5625,
+            "renderedArea": 127770.7548828125,
+            "naturalWidth": 430,
+            "naturalHeight": 300,
+            "naturalArea": 129000,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 29,
+            "src": "https://cdn.alza.cz/Foto/ImgGalery/Image/BP%20lednice_Door%20cooling.png",
+            "alt": "Kombinovaná lednice LG",
+            "renderedWidth": 427.953125,
+            "renderedHeight": 286.25,
+            "renderedArea": 122501.58203125,
+            "naturalWidth": 1196,
+            "naturalHeight": 800,
+            "naturalArea": 956800,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 2,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/b3b60f44-38b6-4e4a-b3c0-a1f88a2f2762.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 3,
+            "src": "https://image.alza.cz/Foto/ImgGalery/bannery/v2/36e30ac3-6f3b-469e-90a0-3f7647a00ae3.png?width=150",
+            "alt": "",
+            "renderedWidth": 150,
+            "renderedHeight": 625,
+            "renderedArea": 93750,
+            "naturalWidth": 150,
+            "naturalHeight": 625,
+            "naturalArea": 93750,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 155,
+            "src": "https://image.alza.cz/images/icons/footer/appBanner/alza-app-cs.png?width=289",
+            "alt": "alzak",
+            "renderedWidth": 289,
+            "renderedHeight": 288,
+            "renderedArea": 83232,
+            "naturalWidth": 289,
+            "naturalHeight": 288,
+            "naturalArea": 83232,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 44,
+            "src": "https://image.alza.cz/products/LGCHL176/LGCHL176.jpg?width=230&height=230",
+            "alt": "LG GBBS323BPY - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 69,
+            "naturalHeight": 229,
+            "naturalArea": 15801,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 48,
+            "src": "https://image.alza.cz/products/LGCHL134/LGCHL134.jpg?width=230&height=230",
+            "alt": "LG GSLE91MBAC - Americká lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 124,
+            "naturalHeight": 230,
+            "naturalArea": 28520,
+            "loaded": true,
+            "visible": true
+          },
+          {
+            "index": 52,
+            "src": "https://image.alza.cz/products/LGCHL168/LGCHL168.jpg?width=230&height=230",
+            "alt": "LG GBBSJ1CCPY - Lednice",
+            "renderedWidth": 210,
+            "renderedHeight": 210,
+            "renderedArea": 44100,
+            "naturalWidth": 74,
+            "naturalHeight": 230,
+            "naturalArea": 17020,
+            "loaded": true,
+            "visible": true
+          }
+        ],
+        "renderedCandidateSnapshots": {
+          "before_scroll": {
+            "url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+            "capturedAt": "2026-09-29T13:16:26.126Z",
+            "viewport": {
+              "width": 1920,
+              "height": 945
+            },
+            "scrollY": 0,
+            "rootPath": "div:nth-of-type(2)",
+            "rootTop": 105,
+            "observationLimitFromMain": 2835,
+            "pageH1": "Lednice LG",
+            "targetBrand": "LG",
+            "targetCategory": "냉장고",
+            "targetCategoryCode": "REF",
+            "backgroundNodesScanned": 314,
+            "candidateCount": 78,
+            "retainedCount": 78,
+            "truncated": false,
+            "candidates": [
+              {
+                "kind": "image",
+                "elementPath": "div#brandpage > figure:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#brandpage > figure:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG%20lednice%20BP.jpg",
+                "alt": "Lednice LG na Alza.cz",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 149,
+                "topFromMain": 44,
+                "x": 524,
+                "width": 1084,
+                "height": 363,
+                "area": 393108,
+                "containerTop": 149,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/category/icon/e568e1ad-5a05-47ef-b65d-334d137a6a63.png",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "AlzaPlus+ slevy",
+                "documentTop": 1002,
+                "topFromMain": 897,
+                "x": 566,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 993,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(3)",
+                "source": "https://image.alza.cz/Foto/category/40/18852762_1.png",
+                "alt": "Lednice s mrazákem LG",
+                "heading": "",
+                "nearbyText": "S mrazákem",
+                "documentTop": 1002,
+                "topFromMain": 897,
+                "x": 771,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 993,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(4) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(4)",
+                "source": "https://image.alza.cz/Foto/category/40/18852760_1.png",
+                "alt": "Lednice bez mrazáku LG",
+                "heading": "",
+                "nearbyText": "Bez mrazáku",
+                "documentTop": 1002,
+                "topFromMain": 897,
+                "x": 977,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 993,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(5) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(5)",
+                "source": "https://image.alza.cz/Foto/category/40/18852763_1.png",
+                "alt": "Americké lednice LG",
+                "heading": "",
+                "nearbyText": "Americké",
+                "documentTop": 1002,
+                "topFromMain": 897,
+                "x": 1182,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 993,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(6) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(6)",
+                "source": "https://image.alza.cz/Foto/category/40/18853614_2.png",
+                "alt": "Vestavné lednice LG",
+                "heading": "",
+                "nearbyText": "Vestavné",
+                "documentTop": 1002,
+                "topFromMain": 897,
+                "x": 1388,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 993,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(7) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(7)",
+                "source": "https://image.alza.cz/Foto/category/40/18865775_1.png",
+                "alt": "Lednice NO FROST LG",
+                "heading": "",
+                "nearbyText": "No Frost",
+                "documentTop": 1060,
+                "topFromMain": 955,
+                "x": 566,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1051,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(8) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(8)",
+                "source": "https://image.alza.cz/Foto/category/40/18862889_1.png",
+                "alt": "Chytré lednice LG",
+                "heading": "",
+                "nearbyText": "Smart",
+                "documentTop": 1060,
+                "topFromMain": 955,
+                "x": 771,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1051,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(9) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(9)",
+                "source": "https://image.alza.cz/Foto/category/40/18886790.png",
+                "alt": "Lednice dle vlastností LG",
+                "heading": "",
+                "nearbyText": "Dle vlastností",
+                "documentTop": 1060,
+                "topFromMain": 955,
+                "x": 977,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1051,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(10) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(10)",
+                "source": "https://image.alza.cz/Foto/category/40/18886826_1.png",
+                "alt": "Lednice dle energetické třídy LG",
+                "heading": "",
+                "nearbyText": "Energetická třída",
+                "documentTop": 1060,
+                "topFromMain": 955,
+                "x": 1182,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1051,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(11) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(11)",
+                "source": "https://image.alza.cz/Foto/category/40/18853305_1.png",
+                "alt": "Příslušenství k ledničkám LG",
+                "heading": "",
+                "nearbyText": "Příslušenství k lednicím",
+                "documentTop": 1060,
+                "topFromMain": 955,
+                "x": 1388,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1051,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(12) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(12)",
+                "source": "https://www.alza.cz/Styles/images/svg/icons-f-student.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Jak vybrat ledničku",
+                "documentTop": 1118,
+                "topFromMain": 1013,
+                "x": 566,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1109,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(13) > img:nth-of-type(1)",
+                "containerPath": "div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(13)",
+                "source": "https://www.alza.cz/Styles/images/svg/icons-f-student.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Vyneseme. Namontujeme. Vyber si čas.",
+                "documentTop": 1118,
+                "topFromMain": 1013,
+                "x": 771,
+                "width": 32,
+                "height": 32,
+                "area": 1024,
+                "containerTop": 1109,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191827",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL176/LGCHL176.jpg?width=230&height=230",
+                "alt": "LG GBBS323BPY - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 554,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img12316100",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL134/LGCHL134.jpg?width=230&height=230",
+                "alt": "LG GSLE91MBAC - Americká lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 825,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13121338",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL168/LGCHL168.jpg?width=230&height=230",
+                "alt": "LG GBBSJ1CCPY - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 1096,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191818",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL180/LGCHL180.jpg?width=230&height=230",
+                "alt": "LG GBBS322APY - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 1367,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://webapi.alza.cz/api/catalog/icons/dynamicIcon?path=https%3a%2f%2fcdn.alza.cz%2fFoto%2fCommodityIcons%2ftop-rating3.svg&value=TOP%202",
+                "alt": "Pořadí mezi nejprodávanějšími v kategorii",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 539,
+                "width": 40,
+                "height": 121,
+                "area": 4840,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://webapi.alza.cz/api/catalog/icons/dynamicIcon?path=https%3a%2f%2fcdn.alza.cz%2fFoto%2fCommodityIcons%2ftop-rating3.svg&value=TOP%203",
+                "alt": "Pořadí mezi nejprodávanějšími v kategorii",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 1081,
+                "width": 40,
+                "height": 121,
+                "area": 4840,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://webapi.alza.cz/api/catalog/icons/dynamicIcon?path=https%3a%2f%2fcdn.alza.cz%2fFoto%2fCommodityIcons%2ftop-rating3.svg&value=TOP%206",
+                "alt": "Pořadí mezi nejprodávanějšími v kategorii",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 1352,
+                "width": 40,
+                "height": 121,
+                "area": 4840,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/c.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1349,
+                "topFromMain": 1244,
+                "x": 810,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 1349,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/icon-cashback.svg",
+                "alt": "CashBack",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1381,
+                "topFromMain": 1276,
+                "x": 810,
+                "width": 40,
+                "height": 33,
+                "area": 1308,
+                "containerTop": 1381,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/b.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1475,
+                "topFromMain": 1370,
+                "x": 539,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 1475,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/c.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1475,
+                "topFromMain": 1370,
+                "x": 1081,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 1475,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/a.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1475,
+                "topFromMain": 1370,
+                "x": 1352,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 1475,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/exclusivity-cz.svg",
+                "alt": "ExclusiveCommodity",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1507,
+                "topFromMain": 1402,
+                "x": 539,
+                "width": 40,
+                "height": 40,
+                "area": 1600,
+                "containerTop": 1507,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/exclusivity-cz.svg",
+                "alt": "ExclusiveCommodity",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1507,
+                "topFromMain": 1402,
+                "x": 1352,
+                "width": 40,
+                "height": 40,
+                "area": 1600,
+                "containerTop": 1507,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/icon-cashback.svg",
+                "alt": "CashBack",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1558,
+                "topFromMain": 1453,
+                "x": 1352,
+                "width": 40,
+                "height": 33,
+                "area": 1308,
+                "containerTop": 1558,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 539,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 810,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 1081,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 1352,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 1352,
+                "width": 74,
+                "height": 15,
+                "area": 1103,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 810,
+                "width": 72,
+                "height": 15,
+                "area": 1080,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 1081,
+                "width": 71,
+                "height": 15,
+                "area": 1058,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 1631,
+                "topFromMain": 1526,
+                "x": 539,
+                "width": 69,
+                "height": 15,
+                "area": 1035,
+                "containerTop": 1631,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_2_imgCouponIcon_2",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/alzaplus.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Přidat AlzaPlus+ a koupit hned levněji",
+                "documentTop": 1892,
+                "topFromMain": 1787,
+                "x": 1090,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 1892,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_3_imgCouponIcon_3",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/alzaplus.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Přidat AlzaPlus+ a koupit hned levněji",
+                "documentTop": 1892,
+                "topFromMain": 1787,
+                "x": 1361,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 1892,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_1_imgCouponIcon_1",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/cashback.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Cena s Cashback",
+                "documentTop": 1908,
+                "topFromMain": 1803,
+                "x": 819,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 1908,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 1969,
+                "topFromMain": 1864,
+                "x": 673,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 1969,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 1969,
+                "topFromMain": 1864,
+                "x": 944,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 1969,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 1969,
+                "topFromMain": 1864,
+                "x": 1215,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 1969,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 1969,
+                "topFromMain": 1864,
+                "x": 1487,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 1969,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13431102",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL194/LGCHL194.jpg?width=230&height=230",
+                "alt": "LG GBBS323CPY - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 554,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img7951209",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL123/LGCHL123.jpg?width=230&height=230",
+                "alt": "LG GSGV80PYLD - Americká lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 825,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191826",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL174/LGCHL174.jpg?width=230&height=230",
+                "alt": "LG GBBS312AEV - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 1096,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191824",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL172/LGCHL172.jpg?width=230&height=230",
+                "alt": "LG GBBSJ2CCEP - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 1367,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://webapi.alza.cz/api/catalog/icons/dynamicIcon?path=https%3a%2f%2fcdn.alza.cz%2fFoto%2fCommodityIcons%2ftop-rating3.svg&value=TOP%201",
+                "alt": "Pořadí mezi nejprodávanějšími v kategorii",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 1081,
+                "width": 40,
+                "height": 121,
+                "area": 4840,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://webapi.alza.cz/api/catalog/icons/dynamicIcon?path=https%3a%2f%2fcdn.alza.cz%2fFoto%2fCommodityIcons%2ftop-rating3.svg&value=TOP%204",
+                "alt": "Pořadí mezi nejprodávanějšími v kategorii",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 1352,
+                "width": 40,
+                "height": 121,
+                "area": 4840,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/c.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 539,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/d.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2129,
+                "topFromMain": 2024,
+                "x": 810,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2129,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/icon-cashback.svg",
+                "alt": "CashBack",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2161,
+                "topFromMain": 2056,
+                "x": 810,
+                "width": 40,
+                "height": 33,
+                "area": 1308,
+                "containerTop": 2161,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/a.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2255,
+                "topFromMain": 2150,
+                "x": 1081,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2255,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/c.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2255,
+                "topFromMain": 2150,
+                "x": 1352,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2255,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/exclusivity-cz.svg",
+                "alt": "ExclusiveCommodity",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2287,
+                "topFromMain": 2182,
+                "x": 1081,
+                "width": 40,
+                "height": 40,
+                "area": 1600,
+                "containerTop": 2287,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/icon-cashback.svg",
+                "alt": "CashBack",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2338,
+                "topFromMain": 2233,
+                "x": 1081,
+                "width": 40,
+                "height": 33,
+                "area": 1308,
+                "containerTop": 2338,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 539,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 539,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 810,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 810,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 1081,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-unified-empty.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 1352,
+                "width": 75,
+                "height": 15,
+                "area": 1125,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 1352,
+                "width": 74,
+                "height": 15,
+                "area": 1103,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/images/svg/star-full.svg\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2411,
+                "topFromMain": 2306,
+                "x": 1081,
+                "width": 71,
+                "height": 15,
+                "area": 1058,
+                "containerTop": 2411,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_4_imgCouponIcon_4",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/alzaplus.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Přidat AlzaPlus+ a koupit hned levněji",
+                "documentTop": 2672,
+                "topFromMain": 2567,
+                "x": 548,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 2672,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_5_imgCouponIcon_5",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/cashback.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Cena s Cashback",
+                "documentTop": 2688,
+                "topFromMain": 2583,
+                "x": 819,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 2688,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#cpcm_cpc_boxList_rpt_box_6_imgCouponIcon_6",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+                "source": "https://image.alza.cz/Foto/CommodityIcons/discount/cashback.svg",
+                "alt": "",
+                "heading": "",
+                "nearbyText": "Cena s Cashback",
+                "documentTop": 2688,
+                "topFromMain": 2583,
+                "x": 1090,
+                "width": 20,
+                "height": 20,
+                "area": 400,
+                "containerTop": 2688,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 2749,
+                "topFromMain": 2644,
+                "x": 673,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 2749,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 2749,
+                "topFromMain": 2644,
+                "x": 944,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 2749,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 2749,
+                "topFromMain": 2644,
+                "x": 1215,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 2749,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "css-background::before",
+                "elementPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(8) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "url(\"https://cdn.alza.cz/Styles/full/images/bt-kos.png\")",
+                "alt": null,
+                "heading": "",
+                "nearbyText": "Do košíku",
+                "documentTop": 2749,
+                "topFromMain": 2644,
+                "x": 1487,
+                "width": 105,
+                "height": 33,
+                "area": 3472,
+                "containerTop": 2749,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": null
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img12379812",
+                "containerPath": "div#boxes > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL136/LGCHL136.jpg?width=230&height=230",
+                "alt": "LG GMG860EPBE - Americká lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2909,
+                "topFromMain": 2804,
+                "x": 554,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2909,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191830",
+                "containerPath": "div#boxes > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL175/LGCHL175.jpg?width=230&height=230",
+                "alt": "LG GBBS322CPY - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2909,
+                "topFromMain": 2804,
+                "x": 825,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2909,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191825",
+                "containerPath": "div#boxes > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL173/LGCHL173.jpg?width=230&height=230",
+                "alt": "LG GBBS312ASW - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2909,
+                "topFromMain": 2804,
+                "x": 1096,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2909,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "img#img13191821",
+                "containerPath": "div#boxes > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+                "source": "https://image.alza.cz/products/LGCHL183/LGCHL183.jpg?width=230&height=230",
+                "alt": "LG GBBS322ASW - Lednice",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2909,
+                "topFromMain": 2804,
+                "x": 1367,
+                "width": 210,
+                "height": 210,
+                "area": 44100,
+                "containerTop": 2909,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/a.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2909,
+                "topFromMain": 2804,
+                "x": 1352,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2909,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/c.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2935,
+                "topFromMain": 2830,
+                "x": 810,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2935,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#boxes > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > img:nth-of-type(1)",
+                "containerPath": "div#boxes > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/CommodityIcons/energyLabel/a.svg",
+                "alt": "Energetická třída",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 2935,
+                "topFromMain": 2830,
+                "x": 1081,
+                "width": 40,
+                "height": 22,
+                "area": 872,
+                "containerTop": 2935,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": false
+              }
+            ]
+          },
+          "after_scroll": {
+            "url": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+            "capturedAt": "2026-09-29T13:16:30.969Z",
+            "viewport": {
+              "width": 1920,
+              "height": 945
+            },
+            "scrollY": 0,
+            "rootPath": "div:nth-of-type(2)",
+            "rootTop": 105,
+            "observationLimitFromMain": 2835,
+            "pageH1": "Lednice LG",
+            "targetBrand": "LG",
+            "targetCategory": "냉장고",
+            "targetCategoryCode": "REF",
+            "backgroundNodesScanned": 46,
+            "candidateCount": 4,
+            "retainedCount": 4,
+            "truncated": false,
+            "candidates": [
+              {
+                "kind": "image",
+                "elementPath": "div#brandpage > figure:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#brandpage > figure:nth-of-type(1) > div:nth-of-type(1)",
+                "source": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG%20lednice%20BP.jpg",
+                "alt": "Lednice LG na Alza.cz",
+                "heading": "",
+                "nearbyText": "",
+                "documentTop": 149,
+                "topFromMain": 44,
+                "x": 524,
+                "width": 1084,
+                "height": 363,
+                "area": 393108,
+                "containerTop": 149,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#brandpage > section:nth-of-type(2) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#brandpage > section:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/ImgGalery/Image/BP%20lednice_Door%20cooling.png",
+                "alt": "Kombinovaná lednice LG",
+                "heading": "Kombinované lednice LG",
+                "nearbyText": "Kombinované lednice LG Lednice s mrazákem LG jsou kromě svého designu jedinečné také svými funkcemi. Díky technologii Total No Frost již nemusíte lednici rozmrazovat, protože nikdy nezamrzne. LG invertorový lineární kompresor je velmi tichý, úsporný, odolný a LG na něj poskytuje 10letou záruku. Kombinované ledničky LG ",
+                "documentTop": 843,
+                "topFromMain": 738,
+                "x": 556,
+                "width": 428,
+                "height": 286,
+                "area": 122502,
+                "containerTop": 834,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#brandpage > section:nth-of-type(2) > div:nth-of-type(2) > figure:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#brandpage > section:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-americka-lednice.jpg",
+                "alt": "Americká lednice LG",
+                "heading": "Kombinované lednice LG",
+                "nearbyText": "Kombinované lednice LG Lednice s mrazákem LG jsou kromě svého designu jedinečné také svými funkcemi. Díky technologii Total No Frost již nemusíte lednici rozmrazovat, protože nikdy nezamrzne. LG invertorový lineární kompresor je velmi tichý, úsporný, odolný a LG na něj poskytuje 10letou záruku. Kombinované ledničky LG ",
+                "documentTop": 1246,
+                "topFromMain": 1141,
+                "x": 1147,
+                "width": 428,
+                "height": 299,
+                "area": 127771,
+                "containerTop": 834,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              },
+              {
+                "kind": "image",
+                "elementPath": "div#brandpage > section:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+                "containerPath": "div#brandpage > section:nth-of-type(2)",
+                "source": "https://cdn.alza.cz/Foto/ImgGalery/Image/LG-InstaView-Door-in-Door.jpg",
+                "alt": "InstaView Door-in-Door dvířka amerických ledniček LG",
+                "heading": "Kombinované lednice LG",
+                "nearbyText": "Kombinované lednice LG Lednice s mrazákem LG jsou kromě svého designu jedinečné také svými funkcemi. Díky technologii Total No Frost již nemusíte lednici rozmrazovat, protože nikdy nezamrzne. LG invertorový lineární kompresor je velmi tichý, úsporný, odolný a LG na něj poskytuje 10letou záruku. Kombinované ledničky LG ",
+                "documentTop": 1765,
+                "topFromMain": 1660,
+                "x": 556,
+                "width": 428,
+                "height": 299,
+                "area": 127771,
+                "containerTop": 834,
+                "inCommonUi": false,
+                "productCardHint": false,
+                "loaded": true
+              }
+            ]
+          }
+        }
+      },
+      "notes": [
+        "화면 위치·크기는 새 수집본에서만 제공되며, 상단 범위와 영상 인정 기준은 아직 미확정"
+      ]
+    },
+    "ID19": {
+      "metricId": "ID19",
+      "metricName": "Why LG 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": []
+      },
+      "notes": [
+        "Why LG 인정 문구와 USP 중복 처리 기준은 아직 미확정"
+      ]
+    },
+    "ID20": {
+      "metricId": "ID20",
+      "metricName": "USP 블록 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [
+          {
+            "tag": "h2",
+            "path": "div#brandpage > section.brandpage-stuff > div.brandpage-stuff-grey > div.brandpage-category > div.brandpage-category-content.lazy-right > h2",
+            "matchedBy": [
+              "heading"
+            ],
+            "text": "LG InstaView Door-in-Door™ – když jdete s dobou",
+            "attributes": {},
+            "matchedTerms": [
+              "instaview"
+            ]
+          },
+          {
+            "tag": "div",
+            "path": "div#content0 > div.categoryPage.js-category-page.withLeftParametrization > div.mainContent > div.blockFilter > div#blockFilterNoEmpty > div.component.alzaPlusPromoForApplications",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "component alzaPlusPromoForApplications",
+              "data-testid": "component-alzaPlusPromoForApplications"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div#footerc > div.component.footer > div.MuiScopedCssBaseline-root.footer-1ym4w4j > div > footer.footer-alz-8reqr6-1 > div.footer-alz-l8x0jw-16.footer-alz-q5z8sn-2",
+            "matchedBy": [
+              "usp"
+            ],
+            "text": "Nejspolehlivější internetový obchod v ČR Zboží doručíme již v den objednání Nonstop dostupná zákaznická podpora Doručení zdarma na cokoliv s AlzaPlus+ Prodejny a odběrná místa po celé ČR",
+            "attributes": {
+              "class": "footer-alz-l8x0jw-16 footer-alz-q5z8sn-2",
+              "data-testid": "footerUspList"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "검색어 일치 후보이며 승인된 USP 기준자료와 대조하지 않음"
+      ]
+    },
+    "ID21": {
+      "metricId": "ID21",
+      "metricName": "Category Navigator 존재 및 탐색 가능 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [
+          {
+            "tag": "div",
+            "path": "div#leftParametrizationContainer > div.component.categoryNavigation > div.MuiScopedCssBaseline-root.category-navigation-1ym4w4j > div.MuiBox-root.category-navigation-1cytd0c > button > div.MuiBox-root.category-navigation-1easgqs",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Zobrazit katalog",
+            "attributes": {
+              "class": "MuiBox-root category-navigation-1easgqs"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemAvatar-root.category-navigation-1plwxek",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiListItemAvatar-root category-navigation-1plwxek"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > span.MuiTouchRipple-root.category-navigation-w0pj6f",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "",
+            "attributes": {
+              "class": "MuiTouchRipple-root category-navigation-w0pj6f"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "AlzaPlus+ slevy",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "LEGO® days",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "LEGO® days",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "LEGO® days",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "LEGO® days",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Apple novinky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Mobily, chytré hodinky, tablety",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Počítače a notebooky",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Gaming, hry a zábava",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "TV, foto, audio-video",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Velké spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Domácí a osobní spotřebiče",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Kuchyňské a domácí potřeby",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          },
+          {
+            "tag": "li",
+            "path": "div.MuiCollapse-wrapper.MuiCollapse-vertical.category-navigation-hboir5 > div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Hračky, pro děti a miminka",
+            "attributes": {
+              "class": "MuiListItem-root category-navigation-z0uzf5",
+              "data-testid": "left-nav-floor-item"
+            }
+          },
+          {
+            "tag": "span",
+            "path": "nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x > span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiTypography-root MuiTypography-body1 MuiListItemText-primary category-navigation-yb0lig"
+            }
+          },
+          {
+            "tag": "div",
+            "path": "div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters > div.MuiListItemText-root.category-navigation-xmpo5x",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiListItemText-root category-navigation-xmpo5x"
+            }
+          },
+          {
+            "tag": "a",
+            "path": "div.MuiCollapse-wrapperInner.MuiCollapse-vertical.category-navigation-8atqhb > div.MuiBox-root.category-navigation-mr64kw > nav > ul.MuiList-root.MuiList-padding.category-navigation-xxysox > li.MuiListItem-root.category-navigation-z0uzf5 > a.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters",
+            "matchedBy": [
+              "navigator"
+            ],
+            "text": "Dům, dílna a zahrada",
+            "attributes": {
+              "class": "MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters category-navigation-hwe5ej"
+            }
+          }
+        ],
+        "linkCandidates": [
+          {
+            "text": "Lednice",
+            "href": "https://www.alza.cz/lednicky/lg/18852759-v1357.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Lednice s mrazákem",
+            "href": "https://www.alza.cz/kombinovane-lednicky/lg/18852762-v1357.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          },
+          {
+            "text": "Americké lednice",
+            "href": "https://www.alza.cz/americke-lednice-side-by-side/lg/18852763-v1357.htm",
+            "signals": [
+              "페이지 주제어와 일치: lednice"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "후보 링크의 실제 도착 페이지와 작동 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID22": {
+      "metricId": "ID22",
+      "metricName": "Product List와 PDP 이동 수단 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "attributeCandidates": [],
+        "productLinkCandidates": [
+          {
+            "text": "LG GBBS323BPY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs323bpy-d13191827.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLE91MBAC + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gsle91mbac-d12316100.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ1CCPY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbsj1ccpy-d13121338.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322APY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs322apy-d13191818.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS323CPY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs323cpy-d13431102.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSGV80PYLD + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gsgv80pyld-d7951209.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS312AEV + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs312aev-d13191826.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ2CCEP + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbsj2ccep-d13191824.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMG860EPBE + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gmg860epbe-d12379812.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322CPY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs322cpy-d13191830.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS312ASW + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs312asw-d13191825.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322ASW + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs322asw-d13191821.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW322AEV + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbw322aev-d13313633.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ1CCSW + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbsj1ccsw-d13121337.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GTFN256SER + instalace zdarma",
+            "href": "https://www.alza.cz/lg-gtfn256ser-d13087186.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GMG960EVEE + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/americka-lednice-lg-gmg960evee-d9910674.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBSJ2CCSW + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbsj2ccsw-d13121339.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS312BPY + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs312bpy-d13349338.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS322BSW + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs322bsw-d13191822.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLV71MCTD + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gslv71mctd-d7917928.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GLT51PZGSZ + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-glt51pzgsz-d6566647.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBS727AEV + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbs727aev-d13217257.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GSLE91MBAB + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gsle91mbab-d12928301.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          },
+          {
+            "text": "LG GBBW726AEV + 10 let záruka na kompresor",
+            "href": "https://www.alza.cz/lg-gbbw726aev-d13191819.htm",
+            "signals": [
+              "LG와 모델명 형태의 문구"
+            ]
+          }
+        ]
+      },
+      "notes": [
+        "제품 상세 페이지 도착 여부는 아직 검사하지 않음"
+      ]
+    },
+    "ID23": {
+      "metricId": "ID23",
+      "metricName": "FAQ 존재 여부",
+      "extractionStatus": "evidence_extracted",
+      "assessment": {
+        "status": "not_assessed",
+        "value": null,
+        "reason": "판정 규칙 적용 전"
+      },
+      "evidence": {
+        "headingOrAttributeCandidates": [],
+        "detailsElements": [],
+        "faqPageJsonLd": []
+      },
+      "notes": [
+        "브랜드·제품군 관련 질문답변인지와 실제 화면 표시 여부는 아직 판정하지 않음"
+      ]
+    }
+  }
+}
