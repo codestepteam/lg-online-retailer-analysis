@@ -1,0 +1,61 @@
+{
+  "retailer": "media-expert",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "media-expert",
+    "page_type": "brand-category",
+    "evidence": "Pralki LG (20) rendered with filter disclosure buttons.",
+    "request": {
+      "url": "https://www.mediaexpert.pl/agd/pralki-i-suszarki/pralki/lg",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "geolocation": "PL",
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-02.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-03.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-05.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        }
+      ]
+    }
+  }
+}

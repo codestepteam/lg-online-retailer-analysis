@@ -1,0 +1,23 @@
+{
+  "source_batch": "bcp-local-retry-20260929T172142Z",
+  "criterion": "archived_image_file_bytes",
+  "rows": [
+    {
+      "url_id": "row-0013",
+      "retailer": "alza",
+      "url": "https://www.alza.cz/mrazaky/hisense/18852764-v6822.htm",
+      "previous_state": "completed",
+      "previous_value": true,
+      "previous_reason": null,
+      "source_batch": "bcp-local-retry-20260929T172142Z",
+      "visible_loaded_images": 64,
+      "measured_images": 64,
+      "missing_image_bytes": 0,
+      "missing_examples": [],
+      "status": "REVIEW_ERROR",
+      "source_sha256": "91d51ebca53007a0b51df7b59a3e1260e06c4d127d4de7c64e7cfcd43a3f1c90",
+      "error_type": "ValueError",
+      "error_detail": "immutable AI review content changed"
+    }
+  ]
+}

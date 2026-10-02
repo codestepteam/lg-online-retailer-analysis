@@ -1,0 +1,63 @@
+{
+  "retailer": "elgiganten",
+  "page_type": "bcp",
+  "recipe": {
+    "retailer": "elgiganten",
+    "page_type": "brand-category",
+    "evidence": {
+      "notes": "선택 쿠키 창이 있을 때 닫고 전체 스크롤한다. Energiklass 필터는 9개 진단 근거를 펼치는 동작이 아니므로 클릭하지 않는다.",
+      "forbidden_text": []
+    },
+    "request": {
+      "url": "https://www.elgiganten.se/brand/lg/kylskap-lg",
+      "browserHtml": true,
+      "screenshot": true,
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "screenshotOptions": {
+        "fullPage": true,
+        "format": "jpeg"
+      },
+      "actions": [
+        {
+          "action": "evaluate",
+          "source_file": "action-00.js"
+        },
+        {
+          "action": "waitForTimeout",
+          "timeout": 1.5
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-02.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-03.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-04.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-05.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-06.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-07.js"
+        },
+        {
+          "action": "evaluate",
+          "source_file": "action-08.js"
+        }
+      ]
+    }
+  }
+}

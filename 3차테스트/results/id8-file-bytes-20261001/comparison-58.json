@@ -1,0 +1,36 @@
+{
+  "source_batch": "bcp-local-retry-20260929T172142Z",
+  "criterion": "archived_image_file_bytes",
+  "rows": [
+    {
+      "url_id": "row-0058",
+      "retailer": "amazon-it",
+      "url": "https://www.amazon.it/stores/page/936956BE-50D6-4D2F-A13D-145D8B1AA873?lp_context_asin=B0CPYNWHVS",
+      "previous_state": "completed",
+      "previous_value": true,
+      "previous_reason": null,
+      "source_batch": "bcp-local-retry-20260929T172142Z",
+      "visible_loaded_images": 11,
+      "measured_images": 11,
+      "missing_image_bytes": 0,
+      "missing_examples": [],
+      "status": "REVIEWED",
+      "source_sha256": "929d42836b8c0ddc417a4548b5993ad54f0539c8229e4509826a2879a100ede1",
+      "third_state": "completed",
+      "third_value": false,
+      "third_reason": "상품 콘텐츠인 냉동고 히어로 이미지와 상품 카드 이미지는 설명형 alt가 있습니다. 다만 노출된 프로모션 배너(index 2)는 alt가 “PBDD26”뿐이어서 이미지 자체를 의미 있게 설명하지 않습니다.",
+      "selected_indices": [
+        3,
+        2,
+        11,
+        8,
+        9,
+        10,
+        6
+      ],
+      "review_uri": "file:///Users/codestepseunghee/codestep/lg-online-retailer-analysis/3%EC%B0%A8%ED%85%8C%EC%8A%A4%ED%8A%B8/results/id8-file-bytes-20261001/runs/bcp-ai/8/c1ed11ae6132502f39128c6fb42373c9d5ab9066c0e9dba0861788c111891130.json",
+      "prompt_version": "bcp-id8-file-bytes-20261001-v1",
+      "changed": true
+    }
+  ]
+}
