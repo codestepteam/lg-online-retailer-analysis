@@ -1,5 +1,7 @@
 # BCP 1차 테스트의 로컬 변환본
 
+> 2026-10-12 주의: 이 폴더가 연결된 `lg-crawling`의 Temporal 실행 경로는 팀에서 더 이상 운영하지 않는다(2026-10-06 VPS Worker 중지, 2026-10-07 `lg-pipeline`에서 Temporal 삭제). 이 회차 결과는 2026-10-06에 `lg-pipeline`의 운영 회차 `op-20261003-01`로 연결됐다. [동기화 메모](../PROJECT_CONTEXT.md#2026-10-12-팀-저장소-현황-동기화)
+
 이 폴더는 `1차 테스트/bcp-zyte-poc`의 **Brand Category Page(BCP)** 수집·근거 추출·판정을 동료 `lg-crawling`의 리테일러별 시나리오 형태로 옮기기 위한 로컬 작업본이다. D028에서 이 변환본을 로컬 [`lg-crawling/bcp/README.md`](../../lg-crawling/bcp/README.md)의 발행·Temporal 실행 경로에 연결했고, D029에서 14개 시나리오를 GCS에 발행했다. 아래의 미연결 설명은 최초 변환 당시 상태를 기록한 것이다.
 
 ## 들어 있는 것
