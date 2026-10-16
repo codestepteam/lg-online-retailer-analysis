@@ -1,0 +1,33 @@
+1015 대시보드와 레포트 관련 회의
+
+1015목 회의 결정사항
+
+# 대시보드
+
+- CCR의 평균은 5개 지표의 평균으로 고정
+- search SOV, search top rank 은 OSM 에서 가져온 것으로 교체해야함. 1016 기준 아직 osm이 열리지 않았으므로 현 상태 유지.
+- competitor analysis의 rank table 에 lg는 무조건 보이게 하고, 10위까지 보이도록.
+- Conversion Compliance Rate Comparison는 절대적인 지표가 나오고 비교가 잘 될 수 있도록
+- competitor analysis의 primary competitor analysis의 conversion compliance rate comparison(오각형 모양의 그래프)와 conversion trend 위치 바꾸도록.
+
+# 레포트
+
+- montly report
+- 국가별로. 예를들어 프랑스 레포트면 프랑스에 해당하는 리테일러와 제품군 보여주면 됨
+- 직급별로 메일보내기. 내용은 동일함
+- 레포트 메일 수신 대상자 관리 할 수 있는 시스템을 만들어야한다. 간단하게라도. 이 사항은 아직 불분명함.
+- file:///Users/codestepseunghee/Downloads/FR_2026-08_EN.html 기준 overview 아래에 있는 "
+
+  | Refrigerator Conversion Compliance Rate rose while Visibility SOV fell; Washing Machine showed the opposite trend. Key Conversion KPI changes were Darty Refrigerator Reviews (Q’ty) +8.3%p (SKUs with at least 5 reviews: 7→8) and Darty Washing Machine Reviews (Rating) -19.0%p (all 5 NPIs rated below 3) |
+  | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+  " 글 너무 ai 티 안나게 너무 뻔한 내용이 들어가지 않도록 알찬 내용을 구성하도록 해야함.
+- | **03  Competitor Analysis** |   |
+  | --------------------------- | - |
+
+  | **Dashboard →** |
+  | --------------- |
+
+처럼 dashboard 버튼있으면 해당하는 파라미터 동일하게 대시보드 해당 부분으로 리다이렉트 되어야한다.
+- 첨부한 이미지를 보면 primary competitor by product 부분의 행 순서를 Gap vs SS를 기준으로 한다. 올바른 순서는 Warranty - Reviews (Q’ty) - Category SOV - Reviews (Rating) - Search SOV - Dimension - Video 가 되어야한다. 위에서 아래로 즉, 고쳐야하는게 제일 위에 오도록. 동률일 경우는 알파벳 순서로. 그리고 +, - 가 아닌 ↑, ↓ 를 사용한다.
+- Persistent·2mo 시 2mo 말고 2m으로 표기
