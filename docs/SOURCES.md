@@ -1,6 +1,6 @@
 # 원본 자료와 AI용 추출본 안내
 
-정리일: 2026-09-25. 제공 원본 문서 8개, 후속 전달된 Zyte 코드 가이드와 운영 Docker v1.9.28 배포 자료를 보존하면서 검색용 Markdown을 관리한다.
+최신 연결 자료 점검: 2026-10-22. 최초 원본 정리는 2026-09-25. 제공 원본 문서 8개, 후속 전달된 Zyte 코드 가이드와 운영 Docker v1.9.28 배포 자료를 보존하면서 검색용 Markdown을 관리한다.
 파일명 날짜는 문서 식별에 사용하며 승인일이나 현재 운영 상태를 보증하지 않는다.
 
 ## 원본별 역할
@@ -47,6 +47,25 @@
 ## S13 초기 대시보드용 소급 반영 진단 자료
 
 2026-10-19 사용자는 `★EY_LGE_Clinic_Assessment Summary_Improvement Tracker_V0.2_20260825 (업데이트).xlsx`가 10월 15일 회의에서 말한 소급 반영 자료임을 확인했다(D041). 원본은 Downloads에 있으며 변경하지 않았다. [원본 링크·해시·날짜 표기 확인](sources/S13-revised-assessment-tracker.md)에 파일 식별과 필요한 셀만 기록했다. 초기 조회 월은 회의에서 8월로 정리했지만, 원본의 Date 열에는 7·8·9·10월 표기가 섞여 있다. 날짜 필드의 생성 과정과 실제 조사일은 미확인이므로 파일명·조회 월을 조사 월과 동일시하지 않는다. S05의 V0.1 전달본을 대체하거나 과거 계산 검증을 이번 파일에 자동 적용하지 않는다.
+
+2026-10-22 후속 연결: `lg-pipeline`의 [선언문 ‘업데이트된 8월 엑셀 이관’ LGOP-058](../../lg-pipeline/knowledge/statements.md)은 이 파일을 `기존 8월(REV)`(`op-20261019-01`)로 이관하고, ID8·ID12는 10월 파이프라인 값으로 교체해 8월 판정으로 쓴다고 기록한다. 보고용 대시보드는 D043의 엑셀 집계 기준을 적용하며 [8월 전용 집계 코드](../../lge-hs-clinic-dashboard/backend/app/data/first_report.py)에 같은 원본 해시가 들어 있다. 회차 이름·보고 월과 개별 수집일은 계속 구분한다. 원본은 저장소 외부 Downloads에 있으므로 이 Git 저장소만으로 파일 자체가 재배포되지는 않는다.
+
+## 연결 저장소에서 관리하는 후속 자료
+
+2026-10-22 로컬 확인. 아래 자료를 이 저장소의 원본 S01~S13과 같은 추출본으로 간주하거나 번호를 바꿔 덮어쓰지 않는다. 자료 위치·역할을 연결하고 구체적 기준은 [저장소 동기화 점검](REPOSITORY_SYNC.md)의 확인 커밋과 함께 읽는다.
+
+| 실제 문서와 위치 | 역할·찾을 항목 | 이번 확인의 한계 |
+| --- | --- | --- |
+| [lg-pipeline 단어집](../../lg-pipeline/knowledge/glossary.md)·[선언문](../../lg-pipeline/knowledge/statements.md) | 평가 불가·미판정·분모 제외, ‘PDP URL 모수 확정’, ‘BCP 세 영역 검사’, ‘Alt 존재 여부’, ‘8월 엑셀 이관’, 치수 정보 통합 | 과거 결정과 후속 대체 문장이 함께 있다. 해당 코드와 적용 회차까지 확인해야 함 |
+| [BCP 실행 기록](../../lg-pipeline/docs/bcp-local-runtime.md)·[PLP 판정·집계](../../lg-pipeline/docs/plp/scoring.md)·[회차 운영](../../lg-pipeline/docs/operations.md) | 10월 14일 BCP 반영 경로, PLP 순위·월 입력·홈 탐색 클릭 수(ID7) | 명령 존재를 실제 실행 완료로 바꾸지 않음 |
+| [보고용 단어집](../../lge-hs-clinic-dashboard/knowledge/glossary.md)·[선언문](../../lge-hs-clinic-dashboard/knowledge/statements.md)·[지표 명세](../../lge-hs-clinic-dashboard/spec/metrics.md) | 콘텐츠 기준 준수율(CCR), 노출 점유율, 8월 엑셀 집계와 모니터링 계산의 차이, 관리자 공개 정책 | 보고용 선언문에도 과거 주소·삭제된 코드 링크가 남아 있음 |
+| [정기모니터링_지표 정의서_v1.0_260921.pptx](<../../lge-hs-clinic-dashboard/knowledge/관련문서/보고용 대시보드 지표 정의서/정기모니터링_지표 정의서_v1.0_260921.pptx>) | 보고용 지표 정의 원본. 보고용 선언문은 1~7장에 두 분석 축·노출, 7~12장에 콘텐츠 기준 준수율을 연결 | 이번에는 원본 파일 존재와 연결 문서를 확인했으며 슬라이드를 새로 추출·검증하지 않음 |
+| [LGE HS Clinic 정기 모니터링_checklist_v6.0_260928.xlsx](<../../lge-hs-clinic-dashboard/knowledge/관련문서/보고용 대시보드 체크리스트/LGE HS Clinic 정기 모니터링_checklist_v6.0_260928.xlsx>) | 보고용 선언문이 연결하는 `00_Scope`, `01_Glossary`, `02_Checklist_All`, `참고_Decision_Log` | 이번에는 원본 파일 존재·문서 연결만 확인. Done 표기를 현재 구현 완료 근거로 쓰지 않음 |
+| [프랑스 국문 HTML 예시](<../../lge-hs-clinic-dashboard/knowledge/관련문서/보고용 레포트 예시/FR_2026-08.html>)·[영문 예시](<../../lge-hs-clinic-dashboard/knowledge/관련문서/보고용 레포트 예시/FR_2026-08_EN.html>) | 인수받은 월간 메일 보고서 예시. [인수 안내](../../lge-hs-clinic-dashboard/docs/reporting/handover/01_README.md)·[템플릿 항목 및 작성 규칙](<../../lge-hs-clinic-dashboard/docs/reporting/handover/02_템플릿 항목 및 작성 규칙.md>)과 연결 | 현재 새 보고서 생성 코드와 원본 예시의 생성 소스를 구분. 이번에 HTML 화면을 재확인하지 않음 |
+| [관리자·HTML 생성 구현 문서](../../lge-hs-clinic-dashboard/docs/reporting/admin-console.md)·[새 생성 코드](../../lge-hs-clinic-dashboard/backend/app/reporting/) | 국가·월·자료 선택, 국·영 설명 검토·HTML 다운로드, 10월 22일 노출 설정 탭 비활성 상태 | 개발 상태와 운영 공개를 구분 |
+| [8월 엑셀 일치 검증](../../lge-hs-clinic-dashboard/docs/verification/admin-august-excel-20261019.md)·[운영 기본 주소 공개 검증](../../lge-hs-clinic-dashboard/docs/verification/public-august-release-20261020.md) | 엑셀 기대값 대조, 기본 주소 8월 공개, 관리자 404, 9·10월 자료 보관 기록 | 해당 날짜의 기록이며 이번에 운영 API·DB·브라우저 검증을 반복하지 않음 |
+
+이 링크들은 형제 저장소를 함께 둔 로컬 환경을 기준으로 한다. 이 저장소만 단독으로 복제하면 연결 저장소 문서가 열리지 않을 수 있다. 확인한 저장소와 커밋은 [점검 기록](REPOSITORY_SYNC.md)에 남겼다.
 
 ## 2026-10-12 진단 대상 목록에 맞춘 OSM URL 파생 파일
 
