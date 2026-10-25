@@ -1,5 +1,9 @@
 # 프로젝트 작업 안내
 
+## LG 공통 문서 반영
+
+이 저장소를 포함한 LG 네 저장소에서 새로 확인한 결정·업무 사실·자료 출처·구현/배포/검증 상태는 이 연구 저장소에도 반영한다. 조사만 한 턴도 검토한다. [공통 반영 절차](docs/LG_DOCUMENTATION_WORKFLOW.md)를 읽고, 훅의 턴키로 메모 보관·중앙 문서 병합 잠금·반영 기록을 남긴다. 새 지식이 없으면 구체적 이유를 기록한다. 다른 저장소의 기존 지식 관리도 유지하며, 문서 갱신 자체는 유료 실행·배포·외부 게시·자동 커밋/푸시 지시가 아니다(2026-10-22 사용자 요청 D045).
+
 이 프로젝트의 사용자 확인 목표는 **LG전자 HS 온라인 리테일 진단 결과를 보는 대시보드·보고서**다.
 프로젝트 목적과 맥락의 마스터 문서는 [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md)다.
 
@@ -45,4 +49,4 @@
 - 사용자가 내린 결정은 `docs/DECISIONS.md`에 날짜와 함께 기록한다. AI 제안을 사용자 결정으로 승격하지 않는다.
 - 새 원본이 들어오면 `docs/SOURCES.md`와 관련 추출본을 갱신하고, 영향받은 규칙을 재확인한다.
 - Zyte 단일 리테일러 PoC 진입 파일은 `scripts/run_zyte_poc.py`다. 실제 호출 전 `python3 scripts/run_zyte_poc.py --dry-run`으로 선택 URL과 요청 본문을 검사한다. 실제 호출은 프로젝트 루트 `.env`에 `ZYTE_API_KEY`가 있거나 같은 이름의 환경변수가 설정된 상태에서 `python3 scripts/run_zyte_poc.py`로 실행한다.
-- 프로젝트 결정 메모리 훅은 `.codex/hooks.json`에 있다. 훅은 누락을 감지하는 보조 장치이며 문맥 판단을 대신하지 않는다.
+- LG 공통 문서 반영 훅 설정은 사용자 `~/.codex/hooks.json`, 코드는 이 저장소 `.codex/hooks/lg_research_memory.py`에 있다. 로컬 `.codex/hooks.json`의 이전 결정 훅은 이중 검사를 피하기 위해 비워 두었다. [공통 절차](docs/LG_DOCUMENTATION_WORKFLOW.md)를 따르며, 훅은 의미 판단을 대신하지 않는다.

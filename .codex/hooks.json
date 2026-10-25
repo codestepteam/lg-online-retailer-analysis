@@ -1,30 +1,4 @@
 {
-  "description": "Keep project context documents synchronized with confirmed decisions.",
-  "hooks": {
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/usr/bin/python3 \"/Users/codestepseunghee/codestep/lg-online-retailer-analysis/.codex/hooks/project_decision_memory.py\" prompt",
-            "timeout": 5,
-            "statusMessage": "Checking for a project decision",
-            "additionalContextLimit": 1200
-          }
-        ]
-      }
-    ],
-    "Stop": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/usr/bin/python3 \"/Users/codestepseunghee/codestep/lg-online-retailer-analysis/.codex/hooks/project_decision_memory.py\" stop",
-            "timeout": 5,
-            "statusMessage": "Checking project memory updates"
-          }
-        ]
-      }
-    ]
-  }
+  "description": "Legacy decision hook replaced by the LG-scoped common hooks in ~/.codex/hooks.json (2026-10-22). See docs/LG_DOCUMENTATION_WORKFLOW.md.",
+  "hooks": {}
 }

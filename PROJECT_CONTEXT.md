@@ -17,7 +17,7 @@
 - **국가별 한·영 HTML 보고서 구현이 추가됐다.** [보고서 생성 코드](../lge-hs-clinic-dashboard/backend/app/reporting/)와 [관리자 구현 문서](../lge-hs-clinic-dashboard/docs/reporting/admin-console.md)가 있다. 10월 22일 문서상 노출 설정 탭은 ‘개발 중’으로 막혀 있고 월 마감 잠금·실제 Outlook 발송 검증도 남아 있다. 로컬 기능의 존재를 운영 관리자 공개나 전체 요구사항 완료로 해석하지 않는다.
 - **수집·판정 기준은 계속 변했다.** BCP(브랜드·브랜드 카테고리 페이지) 이미지 설명은 대표 배너·카테고리 탐색·USP(제품의 차별적 장점) 세 영역을 대상으로 설명 유무를 판정하는 후속 기록이 있다. PDP(상품 상세 페이지) 갤러리 설명은 설명 유무와 AI 의미 검토를 분리하며 검사 이미지 10장 제한도 없어졌다. 치수 진단은 ID47로 통합됐다. [후속 기준](docs/BUSINESS_RULES.md#2026-10-22-연결-저장소에서-확인한-후속-기준)과 [파이프라인 선언문](../lg-pipeline/knowledge/statements.md)을 확인한다. 아래 시험 결과와 S04의 34개 원문 지표는 당시 기록으로 보존한다.
 
-다른 저장소의 변경을 이 문서에 자동으로 가져오는 장치는 없다. [결정 메모리 훅의 범위](docs/HOOKS.md#저장소를-넘나드는-작업의-한계)를 참고한다.
+2026-10-22 후속 D045: LG 네 저장소에서 Codex 작업 후 이 연구 문서 반영을 확인하는 **사용자 공통 훅과 지침을 설치**했다. [공통 문서 반영 절차](docs/LG_DOCUMENTATION_WORKFLOW.md)에 채팅별 메모·병합 잠금·반영 확인 기록을 설명했다. 오프라인 시험 17개와 Codex CLI `/hooks`의 두 훅 신뢰·Active 표시 확인을 완료했다. 이미 열린 앱 채팅의 설정 재로딩과 다음 실제 작업에서의 자동 호출은 별도 확인 대상이다. 다른 팀원·다른 컴퓨터의 Git 변경을 자동으로 가져오는 감시 프로그램은 아니다. [적용 범위와 한계](docs/HOOKS.md#저장소를-넘나드는-작업의-한계)를 참고한다.
 
 ## 왜 이 프로젝트를 하는가
 
@@ -175,6 +175,7 @@ S08 CSV는 7,107행·41열이며 전 행의 `page_type`은 `pdp`다. 수집 환�
 | [DECISIONS.md](docs/DECISIONS.md) | 사용자 결정과 미결 사항 | 설계 변경 |
 | [HOOKS.md](docs/HOOKS.md) | 결정 감지·문서 동기화 훅의 동작과 운영법 | 훅 검토·변경 |
 | [REPOSITORY_SYNC.md](docs/REPOSITORY_SYNC.md) | 다른 저장소의 변경·근거·점검 시점·남은 문서 차이 | 저장소를 넘나든 작업의 맥락 확인 |
+| [LG_DOCUMENTATION_WORKFLOW.md](docs/LG_DOCUMENTATION_WORKFLOW.md) | 네 LG 저장소의 공통 훅·메모·중앙 문서 병합·반영 기록 | 다른 저장소 작업을 연구 문서에 반영할 때 |
 | `docs/sources/` | 슬라이드·문단·시트 단위 검색용 추출본 | 필요한 부분만 |
 | `관련문서/` | PPTX·DOCX·XLSX·CSV 원본 | 그림·수식·데이터 검증 |
 | [meeting-notes/](meeting-notes/README.md) | 회의일별 전사 원문·출처 서비스 요약·별도 회의 정리 | 회의 합의·후속 할 일·미확정 사항 확인 |
