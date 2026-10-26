@@ -20,6 +20,7 @@
 - 검색어는 v2.2의 `Search Term` 시트에 있다.
 - 10-23 변경 검색어는 `Search Term` 시트 O열(상세 설명)에 적혀 있다. [확인] 두레이 #121
 - 대상 브랜드는 v2.2의 `경쟁브랜드` 시트에 있다.
+- 리/리/부 판별 키워드는 v2.2의 `제외키워드(리리부)` 시트에 있다.
 - 대상 국가·리테일러와 OSM 보유 여부는 `대상 국가,리테일러` 시트에 있다.
 - OSM 보유 여부는 2026년 7월 기준이다.
 - `OSM_미보유_..._20261006.xlsx`는 v2.0 기반 옛 가공본이라 지웠다. 쓰지 않는다.
@@ -91,6 +92,39 @@
 - 제외한 URL은 지우지 않고 제외 사유와 함께 남긴다. [확인] `lg-pipeline` LGOP-053
 - 10-14 기준 팀 파이프라인 모수 단계에는 리/리/부 제외가 없었다. [확인] LGOP-053
 
+### `제외키워드(리리부)` 시트
+
+- 이 시트는 리/리/부 판별 키워드의 공식 목록이다. [확인]
+- 업데이트일은 2026-09-17이다. [확인]
+- 왼쪽 표는 기존 7개국 목록이다. 오른쪽 표는 25개국 목록이다. [확인]
+- 25개국 목록은 기존 7개국 키워드를 포함한다. [확인] 시트 제목
+- 키워드는 국가별 현지어와 영어를 함께 담는다. [확인]
+- 각 키워드는 리퍼비시·리셀·부품 중 하나로 분류돼 있다. [확인]
+- 25개국 모두 `outlet`이 리셀 키워드로 들어 있다. [확인]
+- 국가별 키워드 수는 4~17개다. [확인]
+- 일부 키워드는 어간 형태다(예: `repasovan`, `odnowion`). [확인]
+- 그래서 부분 일치로 쓰는 것으로 보인다. [추정]
+- 상품명과 URL 중 어디에 적용하는지는 시트에 없다. [미정]
+- 08/14 점검에서 체코·네덜란드·폴란드·스웨덴은 현지어 키워드로 걸린 상품이 0건이었다. [확인] 시트 하단
+- 같은 점검에서 프랑스 103건, 이탈리아 18건, 스페인 241건이 걸렸다. [확인] 시트 하단
+
+OSM 미보유 리테일러가 있는 국가의 키워드 (오른쪽 25개국 표 기준):
+
+| 국가 | 키워드 |
+| --- | --- |
+| 체코 | repasovan, rozbalen, použit, příslušenství, náhradní díl, refurbished, outlet |
+| 네덜란드 | tweedekans, tweede kans, reconditionné, onderdelen, refurbished, outlet |
+| 폴란드 | odnowion, powystawow, używan, akcesoria, część zamienna, części zamienne, refurbished, outlet |
+| 헝가리 | felújított, refurbished, használt, used, pre-owned, open-box, outlet, tartozék, tartozékok, alkatrész, accessory, accessories, spare part, spare parts |
+| 포르투갈 | recondicionado, refurbished, usado, used, pre-owned, open-box, outlet, acessório, acessórios, peça, peças, accessory, accessories, spare part, spare parts |
+| 페루 | reacondicionado, refurbished, usado, used, pre-owned, open-box, outlet, accesorio, accesorios, repuesto, repuestos, accessory, accessories, spare part, spare parts |
+| 이집트·UAE | مجدد, معاد تأهيله, refurbished, مستعمل, أوتلت, used, pre-owned, open-box, outlet, ملحق, ملحقات, قطعة غيار, قطع غيار, accessory, accessories, spare part, spare parts |
+| 모로코 | reconditionné, مجدد, refurbished, occasion, مستعمل, used, pre-owned, open-box, outlet, accessoire, accessoires, pièce, pièces, accessory, accessories, spare part, spare parts |
+| 호주 | refurbished, used, pre-owned, open-box, outlet, accessory, accessories, spare part, spare parts |
+
+- 네덜란드 목록의 `reconditionné`는 부품으로 분류돼 있다. 원문 그대로 옮겼다. [확인]
+- 네덜란드·체코·폴란드는 왼쪽 7개국 표와 오른쪽 표의 키워드가 같다. [확인]
+
 ## 7. 리테일러별 제외 규칙
 
 ### 스웨덴 Elgiganten
@@ -114,6 +148,8 @@
 - sleva·levne가 개봉·포장 훼손 할인품인지는 확인하지 못했다. [미정]
 - 이 세 단어를 일반 규칙으로 써도 되는지는 확인이 필요하다. [미정]
 - 체코 Datart의 제외 URL은 받은 것이 없다. [확인]
+- `제외키워드(리리부)` 체코 목록에는 bazar·sleva·levne가 없다. [확인]
+- 그래서 시트 키워드만으로는 Alza 25개가 걸러지지 않는다. [확인]
 
 ### 스페인 MediaMarkt
 
