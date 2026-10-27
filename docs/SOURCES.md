@@ -50,6 +50,14 @@
 
 2026-10-22 후속 연결: `lg-pipeline`의 [선언문 ‘업데이트된 8월 엑셀 이관’ LGOP-058](../../lg-pipeline/knowledge/statements.md)은 이 파일을 `기존 8월(REV)`(`op-20261019-01`)로 이관하고, ID8·ID12는 10월 파이프라인 값으로 교체해 8월 판정으로 쓴다고 기록한다. 보고용 대시보드는 D043의 엑셀 집계 기준을 적용하며 [8월 전용 집계 코드](../../lge-hs-clinic-dashboard/backend/app/data/first_report.py)에 같은 원본 해시가 들어 있다. 회차 이름·보고 월과 개별 수집일은 계속 구분한다. 원본은 저장소 외부 Downloads에 있으므로 이 Git 저장소만으로 파일 자체가 재배포되지는 않는다.
 
+2026-10-26 이력 추적: `lg-pipeline`의 `jaehue` 커밋 `62086190`은 업데이트본의 ID8·ID12 머리글·별칭 대응, `458e91c8`은 비교 기준 회차 지정 시 스키마 변경을 명시 옵션으로 분리한 수정, `e6686f30`은 v0.2 별도 회차 이관 기록이다. 마지막 커밋과 [운영 문서의 엑셀 이관 항목](../../lg-pipeline/docs/operations.md)은 URL 6,954개·PDP 대표값 67,241개·원문 145,249행 및 당시 `verify --full` 성공을 기록한다. 보고용 연결·집계는 별도 저장소 `lge-hs-clinic-dashboard`의 `867d869`·`11270ee`에서 구현했다. 이는 Git 이력·코드 조사이며 이번에 운영 DB를 다시 대조한 결과는 아니다. [v0.3 교체 시 코드 제약 조사](updates/2026-10-26/6e8a3daf355e399e91004d5f3fcc60d4.md)에서 확인 범위를 구분했다.
+
+## S14 EY Tracker V0.3 — Sweden Outlet 제외 검토
+
+2026-10-26 사용자 첨부 V0.2와 V0.3을 비교했다. [원본 해시·탭별 제외행·집계 대조](sources/S14-outlet-tracker-v03-comparison.md)에 확인 범위를 기록했다. Sweden Elgiganten LG 세탁 제품군의 ID12 13행, ID42·43 각 16행에 제외 표식이 있으며 URL 합집합은 16개다. 경쟁사 Outlet은 유지 상태로 남아 전체 브랜드·지표의 일괄 제외가 아니다. France·Italy 요약 수치, Sweden Flixmedia 입력·수식, 임시 탭 제거 등 추가 차이도 있다. 이번 요청은 파일 검토이며 S13 또는 D043의 운영 기준 자료를 교체하는 결정이 아니다.
+
+2026-10-26 후속 D049로 v0.3 반영 준비를 시작했다. 기존 v0.2 운영 스냅샷에 고정된 대응표를 실행 VM에서 읽고 파일 SHA만 바꿔 기존 이관 코드로 로컬 변환했다. v0.3은 URL 6,941개·PDP 대표값 67,539개·원문 144,075행으로 유도됐다. 사용자는 메일의 Sweden Outlet 제외 설명 밖 France·Italy 차이도 포함해 **v0.3 전체 내용을 우선 반영**하도록 결정했다. 중복 URL 로컬 보완 후 원본 수식으로 독립 추출한 v0.3 대표 값 12개와 v0.2 기존 기대값 772개의 HTTP 대조가 일치했다. 운영 기준 파일은 아직 교체하지 않았다. [코드 경로·표본·SQL·검증 명령·운영 실행 미리 보기](../../lge-hs-clinic-dashboard/docs/verification/august-v03-20261026.md), [최초 준비 메모](updates/2026-10-26/b813fc761cbca6a3f84aacbc62e83600.md), [전체 적용 결정과 후속 보완](updates/2026-10-26/1710af35cd6e12f9f194c78a484ea348.md)을 참고한다.
+
 ## 진단 항목 엑셀 v2.2 송부본 (2026-10-23)
 
 2026-10-25 사용자가 Downloads에서 `관련문서/`로 복사를 요청한 진단 항목 최신본이다. 원본은 수정하지 않았다. `관련문서/`는 Git 추적 대상이 아니므로 파일 자체는 저장소에 올라가지 않는다.
@@ -172,3 +180,7 @@ python3 scripts/extract_context.py
 
 Codex는 작업 시작 시 AGENTS.md를 읽어 지시를 구성한다. [공식 문서](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
 모든 AI 도구가 같은 파일명을 자동 인식한다고 보장하지 않는다. 다른 환경에서는 `AGENTS.md`와 `PROJECT_CONTEXT.md`를 직접 전달하거나 해당 도구의 프로젝트 지시에서 이 문서를 읽도록 연결한다. 목적·핵심 로직의 본문은 모델과 무관하게 읽을 수 있는 Markdown으로 유지한다.
+
+## 2026-10-26 후속 로컬 검증·공유 자료
+
+8월 v0.3의 회차비교 로컬 실동작까지 확인했다. 비교용 데이터는 두 원본을 기존 이관 코드로 넣은 로컬 PostgreSQL이며, GCS 전송은 로컬 파일 모사 서버로 대체했다. 다운로드된 엑셀은 v0.3 원본 SHA와 같다. 운영 자료는 미교체다. [검증 범위·명령·표·화면](../../lge-hs-clinic-dashboard/docs/verification/august-v03-20261026.md)을 따른다.
