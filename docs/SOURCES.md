@@ -186,3 +186,11 @@ Codex는 작업 시작 시 AGENTS.md를 읽어 지시를 구성한다. [공식 �
 8월 v0.3의 회차비교 로컬 실동작까지 확인했다. 비교용 데이터는 두 원본을 기존 이관 코드로 넣은 로컬 PostgreSQL이며, GCS 전송은 로컬 파일 모사 서버로 대체했다. 다운로드된 엑셀은 v0.3 원본 SHA와 같다. 운영 자료는 미교체다. [검증 범위·명령·표·화면](../../lge-hs-clinic-dashboard/docs/verification/august-v03-20261026.md)을 따른다.
 
 별도 작업의 병합 대기 메모 [Search Term 9유형 공유 문서 기록](updates/2026-10-26/2222da6eb24134e082368b5497e006d5.md)을 반영했다. 해당 작업은 Obsidian `lg/osm 미보유 리테일러 pdp 모수 선정을 위해 search term 점검 중 확인된 문제.md`에 유형별 사례와 CSV 126행 중 문제 78행의 원문·주소 링크를 정리하고 대조했다고 기록한다. Falabella ELECTROLUX ERS45F2P5EB 상품명과 Sharaf DG 카드의 저장된 PDP 주소도 추가했다. 이 턴에서 원본을 새로 재검증한 결과가 아니라 해당 작업 기록의 문서화 상태다. 현재 노출 재접속 확인이나 모수 포함·제외 정책의 새 확정은 아니다.
+
+## 2026-10-27 Costco Canada 언어 구조의 실시간 웹 관찰
+
+[불어 홈](https://www.costco.ca/?langId=-25)의 공식 언어 메뉴와 LG 냉장고 `LF18CO000V`의 [영어 상세](https://www.costco.ca/p/-/lg-30-in-18-cu-ft-counter-depth-french-door-refrigerator-with-pocket-handle/4000416185?langId=-24)·[불어 상세](https://www.costco.ca/p/-/lg-30-in-18-cu-ft-counter-depth-french-door-refrigerator-with-pocket-handle/4000416185?langId=-25)를 내부 브라우저에서 직접 비교했다. 문서 언어·언어 링크·검색엔진용 대표 주소와 화면 상품번호를 확인했다. 웹 읽기 도구에서도 불어 콘텐츠를 확인했지만 불어 상세의 조회 결과는 6일 전 캐시로 표시돼, 당일 실동작 근거는 내부 브라우저 관찰로 구분했다.
+
+[의무 연구 메모](updates/2026-10-27/4929665c6d0a6a40d3a0d8aa9a20c952.md)와 같은 폴더의 `4929665c6d0a6a40d3a0d8aa9a20c952-assets/`에 영어·불어 화면, 접근성 텍스트, 문서 언어·대표 주소 JSON을 보존했다. [수집 관찰](CRAWLING.md#2026-10-27-costco-canada-영어불어-페이지-구조-관찰)을 따른다. 공식 내부 설계 문서를 확보한 것이 아니며 OSM 등록·전체 언어별 상품 구성·번역 생성 방식은 미확인이다.
+
+2026-10-27 설명 정정: 위 영어·불어 주소는 같은 상품 경로를 쓰지만 `langId`를 포함한 전체 URL은 다르다. 따라서 언어별 페이지가 제공된다고 설명하며, 내부 번역 제작·저장 방식의 미확인과 구별한다. [질문·답변과 정정 기록](updates/2026-10-27/621aec0a1eff1f0a59b6e306274ac174.md).
