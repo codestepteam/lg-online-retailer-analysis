@@ -320,3 +320,7 @@ ID22는 제품 목록과 상세 페이지 이동 수단의 존재를 확인하�
 - recipe 생성: [`capture/build_recipes.py`](../retailer-zyte-actions-api-guide/capture/build_recipes.py)
 - 요청 실행·검증: [`scripts/zyte_capture.py`](../retailer-zyte-actions-api-guide/scripts/zyte_capture.py)
 - 상호작용·DOM 보존: [`capture/load.js`](../retailer-zyte-actions-api-guide/capture/load.js), [`capture/prepare.js`](../retailer-zyte-actions-api-guide/capture/prepare.js)
+
+### 2026-10-29 Magalu 수동 브라우저 수집
+
+Magalu 697개 상품의 HTML·판매자 수집에서 사용자가 여러 내부 브라우저 탭의 동시 수집을 허용했다. 탭별 요청 간격과 로봇 확인 시 대기는 유지하며, 운영 파이프라인의 동시 실행 정책을 바꾸는 결정은 아니다. [결정 기록](DECISIONS.md#2026-10-29-magalu-내부-브라우저-수집의-동시-실행-허용).
