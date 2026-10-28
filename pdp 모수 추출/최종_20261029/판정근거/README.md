@@ -1,0 +1,28 @@
+# 판정근거 (2026-10-29)
+
+`../PDP모수_전체판정_A판·B판` 두 표를 만든 스크립트와 중간 자료다. 규칙은 `pdp 모수 추출/README.md`와 `docs/DECISIONS.md` D064~D069에 있다.
+
+## 처리 순서
+
+| 순서 | 스크립트 | 하는 일 | 결과 |
+| --- | --- | --- | --- |
+| 1 | `스크립트/step1_filter.py` | ①브랜드 ②제품군 ③리/리/부 상품명 단어로 거른다 | `step1_프랑스A/B.csv` (여기엔 없음, 최종 표에 같은 열이 들어 있음) |
+| 2 | `스크립트/zyte_run.py` | 1단계에서 남은 주소를 Zyte HTML 방식으로 연다 | `페이지확인/results.jsonl` |
+| 3 | `스크립트/zyte_run_browser.py` | HTML 방식이 막히거나 껍데기 화면인 주소를 Zyte 브라우저 방식으로 다시 연다 | `페이지확인/results_browser.jsonl` |
+| 4 | `스크립트/page_check.py` | 2·3과 Codex Magalu 결과를 합쳐 주소마다 페이지 상태(정상/없음/영구품절)를 정한다 | `페이지확인/pages_best.jsonl` |
+| 5 | `스크립트/seller_g1~g4.py` | 리테일러 묶음별로 저장 HTML에서 본 상품의 판매자를 읽는다 | `판매자판정/seller_g1~g4.csv` |
+| 6 | `스크립트/step2_page_seller.py` | 페이지 상태·판매자를 1단계 표에 합치고 같은 상품을 하나로 정리한다 | 최종 표 2개 |
+
+## 스크립트가 없는 판매자 판정표
+
+아래 3개는 대화 중에 짧은 명령으로 만들었고 별도 스크립트로 남기지 않았다.
+
+- `판매자판정/seller_lazada.csv`: 저장 HTML의 `sellerId`를 `코덱스수집/audit_codex_lazada_sellers.csv`의 판매자 이름과 잇는다. LazMall 표시와 브랜드 이름 판매자는 브랜드 공식점, 나머지는 외부 판매자다.
+- `판매자판정/seller_magalu.csv`: `코덱스수집/results_codex_magalu.jsonl`의 "Vendido por …" 문구를 읽는다. 판매자가 magalu면 직판이다.
+- `판매자판정/seller_appliance_online.csv`: 판매자 표시가 없어 282개 모두 직판(추정)으로 적었다.
+
+## 다시 돌릴 때 주의
+
+- 스크립트는 임시 작업 폴더 경로를 인자로 받도록 짜여 있다. 이 폴더 배치와 맞지 않으니 경로를 고쳐서 돌린다.
+- 저장 HTML 원본(약 3GB)은 크기 때문에 넣지 않았다. 판매자를 다시 읽으려면 2·3단계를 다시 돌려야 한다(Zyte 유료 호출).
+- Zyte 키는 저장소 루트 `.env`의 `ZYTE_API_KEY`에서 읽는다. 키 값은 어느 파일에도 저장하지 않는다.
