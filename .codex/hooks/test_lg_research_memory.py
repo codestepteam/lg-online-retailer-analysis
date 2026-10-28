@@ -48,10 +48,10 @@ class MemoryTests(unittest.TestCase):
     def start(self):
         return self.memory.prompt(self.event)
 
-    def test_only_exact_four_roots_and_descendants(self):
+    def test_only_exact_three_roots_and_descendants(self):
         for name in module.REPO_NAMES:
             self.assertEqual(self.memory.scope(str(self.base / name / "nested")), self.base / name)
-        for name in ("imagehub-root", "lg-pipeline-backup", "lg", ""):
+        for name in ("imagehub-root", "lg-pipeline-backup", "lg-crawling", "lg", ""):
             self.assertIsNone(self.memory.scope(str(self.base / name)))
         self.assertIsNone(self.memory.scope("relative/path"))
 

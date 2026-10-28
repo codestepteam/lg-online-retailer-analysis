@@ -175,7 +175,7 @@ S08 CSV는 7,107행·41열이며 전 행의 `page_type`은 `pdp`다. 수집 환�
 | [DECISIONS.md](docs/DECISIONS.md) | 사용자 결정과 미결 사항 | 설계 변경 |
 | [HOOKS.md](docs/HOOKS.md) | 결정 감지·문서 동기화 훅의 동작과 운영법 | 훅 검토·변경 |
 | [REPOSITORY_SYNC.md](docs/REPOSITORY_SYNC.md) | 다른 저장소의 변경·근거·점검 시점·남은 문서 차이 | 저장소를 넘나든 작업의 맥락 확인 |
-| [LG_DOCUMENTATION_WORKFLOW.md](docs/LG_DOCUMENTATION_WORKFLOW.md) | 네 LG 저장소의 공통 훅·메모·중앙 문서 병합·반영 기록 | 다른 저장소 작업을 연구 문서에 반영할 때 |
+| [LG_DOCUMENTATION_WORKFLOW.md](docs/LG_DOCUMENTATION_WORKFLOW.md) | 세 LG 저장소의 공통 훅·메모·중앙 문서 병합·반영 기록 | 다른 저장소 작업을 연구 문서에 반영할 때 |
 | `docs/sources/` | 슬라이드·문단·시트 단위 검색용 추출본 | 필요한 부분만 |
 | `관련문서/` | PPTX·DOCX·XLSX·CSV 원본 | 그림·수식·데이터 검증 |
 | [meeting-notes/](meeting-notes/README.md) | 회의일별 전사 원문·출처 서비스 요약·별도 회의 정리 | 회의 합의·후속 할 일·미확정 사항 확인 |
