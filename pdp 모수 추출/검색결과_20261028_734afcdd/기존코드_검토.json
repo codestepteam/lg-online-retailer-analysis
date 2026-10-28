@@ -1,0 +1,54 @@
+{
+  "repo": "/Users/codestepseunghee/codestep/lg-pipeline",
+  "commit": "b749368a3d92959c60e6e6cc1ef371f1e2ddfdbe",
+  "finding": "기존 진단용 실행 경로는 전체 페이지 수집에 그대로 사용 불가. 카드 경계와 광고 표식 파싱 규칙은 재사용 후보.",
+  "common": [
+    {
+      "path": "pipeline/plp/plp_unified.py",
+      "lines": "160-184",
+      "fact": "list_observation이 search_lists.product_rows와 build_observation을 호출한다."
+    },
+    {
+      "path": "pipeline/plp/search_lists.py",
+      "lines": "12,93-110",
+      "fact": "TOP=20이고 search_results에서 products[:TOP]으로 보존 깊이를 제한한다."
+    },
+    {
+      "path": "pipeline/plp/search_capture.py",
+      "lines": "47-59,517",
+      "fact": "LIST_LOAD의 want가 10 또는 20이며 해당 개수까지 스크롤한다. 끝 페이지 순회가 아니다."
+    }
+  ],
+  "retailers": [
+    {
+      "retailer": "mediamarkt_nl",
+      "parser": "pipeline/retailers/mediamarkt_nl/scenarios/plp/parser/list.py",
+      "reuse": "목록 경계와 광고 표식 규칙",
+      "limits": "SHOWN=10, EVIDENCE_DEPTH=20; 공통 저장 경로에서 상위20 제한"
+    },
+    {
+      "retailer": "media_expert",
+      "parser": "pipeline/retailers/media_expert/scenarios/plp/parser/list.py",
+      "reuse": "목록 경계와 광고 표식 규칙",
+      "limits": "TOP=20, JUDGED=10; 미로딩 슬롯 뒤는 순위 확정 중단"
+    },
+    {
+      "retailer": "rtv_euro_agd",
+      "parser": "pipeline/retailers/rtv_euro_agd/scenarios/plp/parser/list.py",
+      "reuse": "목록 경계와 광고 표식 규칙",
+      "limits": "TOP=20, 페이지당20; 끝페이지 순회 별도 필요"
+    },
+    {
+      "retailer": "datart",
+      "parser": "pipeline/retailers/datart/scenarios/plp/parser/list.py",
+      "reuse": "목록 경계와 광고 표식 규칙",
+      "limits": "TOP=20, rank<=TOP로 카드 보존"
+    },
+    {
+      "retailer": "alza",
+      "parser": "pipeline/retailers/alza/scenarios/plp/parser/list.py",
+      "reuse": "목록 경계와 광고 표식 규칙",
+      "limits": "TOP=20, rank<=TOP로 카드 보존"
+    }
+  ]
+}
