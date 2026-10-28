@@ -1,0 +1,124 @@
+-- 독일·영국 5곳 PDP 모수 재추출 (두레이 LGE-HS-온라인-리테일-마케팅/110 브랜드, D062)
+-- osm_target_extract_global9.sql 구조를 그대로 쓰고 아래만 바꿨다.
+--   1) retailer_map: 독일 Amazon·MediaMarkt·영국 AO·Currys는 10-26, 독일 Otto는 10-19 (D058·D059)
+--   2) brand_map: /110 표 전체. 기존 추출본과 겹치는 행은 대조용, 새로 나오는 행이 빠졌던 브랜드다.
+--   3) 캐나다 전용 열(CRAWL_URL·LANG_FLAG)은 빼고, 출력 열을 유럽 13곳 CSV 27열과 같게 맞췄다.
+-- 식기세척기는 D061에 따라 뽑지 않는다. 리퍼·리셀·부품 제외는 이 SQL에서 하지 않는다.
+WITH
+
+retailer_map AS (
+  SELECT * FROM UNNEST([
+    STRUCT('Germany' AS CNTRY, 'AMAZON' AS RTLR_NAME, DATE '2026-10-26' AS TARGET_DATE),
+    STRUCT('Germany', 'MEDIAMARKT', DATE '2026-10-26'),
+    STRUCT('Germany', 'OTTO', DATE '2026-10-19'),
+    STRUCT('UK', 'AO', DATE '2026-10-26'),
+    STRUCT('UK', 'CURRYS', DATE '2026-10-26')
+  ])
+),
+
+-- 출처: 두레이 LGE-HS-온라인-리테일-마케팅/110 (W/M 목록은 건조기에도 쓴다)
+brand_map AS (
+  SELECT m.CNTRY, m.DIV, BRAND
+  FROM UNNEST([
+    STRUCT('Germany' AS CNTRY, 'W/M' AS DIV, ['LG', 'SAMSUNG', 'BOSCH', 'SIEMENS'] AS BRANDS),
+    STRUCT('Germany', 'REF', ['LG', 'SAMSUNG', 'BOSCH', 'LIEBHERR']),
+    STRUCT('UK', 'W/M', ['LG', 'SAMSUNG', 'BOSCH', 'HISENSE']),
+    STRUCT('UK', 'REF', ['LG', 'SAMSUNG', 'BOSCH', 'HISENSE'])
+  ]) AS m,
+  UNNEST(m.BRANDS) AS BRAND
+),
+
+raw_union AS (
+  SELECT
+    t.DATE AS RPT_DATE, t.CNTRY, t.ONLINE_STR, t.BRAND, t.CAT, t.RPC, t.MPC, t.URL,
+    t.PRODUCT_DESC, t.RK,
+    t.AVLBL_STAT, t.OBSRV_LIST_PRICE, t.OBSRV_DC_PRICE, t.CURRENCY_CODE,
+    t.IMG_COUNT, t.VIDEO_COUNT, t.SALE_AMT, t.SALE_QTY, t.SEARCH_TERM,
+    NULL AS PRODUCT_IMG_URL, NULL AS PRICE, NULL AS DC_PRICE, NULL AS CURRENCY,
+    'SALE_RK' AS SOURCE_TYPE, 1 AS SOURCE_PRIORITY
+  FROM `pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_SALE_RK_D` t
+  WHERE t.DATE IN (DATE '2026-10-19', DATE '2026-10-26')
+
+  UNION ALL
+
+  SELECT
+    t.DATE, t.CNTRY, t.ONLINE_STR, t.BRAND, t.CAT, t.RPC, t.MPC, t.URL,
+    t.PRODUCT_DESC, t.RK,
+    NULL, NULL, NULL, NULL,
+    NULL, NULL, NULL, NULL, NULL,
+    t.PRODUCT_IMG_URL, t.PRICE, t.DC_PRICE, t.CURRENCY,
+    'BANR_VSBLT', 2
+  FROM `pjt-lge-oned.L2_ONED.VSMRKT_DAILY_OSM_BANR_VSBLT_D` t
+  WHERE t.DATE IN (DATE '2026-10-19', DATE '2026-10-26')
+),
+
+base AS (
+  SELECT
+    u.RPT_DATE,
+    TRIM(u.CNTRY) AS CNTRY,
+    TRIM(u.ONLINE_STR) AS RTLR_NAME,
+    TRIM(u.BRAND) AS BRAND,
+    CASE UPPER(TRIM(u.CAT))
+      WHEN 'WASHING MACHINE_HA' THEN 'W/M'
+      WHEN 'REFRIGERATOR_HA' THEN 'REF'
+      WHEN 'DRYER_HA' THEN 'DRY'
+    END AS DIV,
+    TRIM(IFNULL(u.RPC, '')) AS RPC,
+    TRIM(IFNULL(u.MPC, '')) AS MPC,
+    TRIM(u.URL) AS RAW_URL,
+    REGEXP_REPLACE(TRIM(u.URL), r'[\?#].*$', '') AS CAT_URL_ADDR,
+    COALESCE(
+      NULLIF(UPPER(TRIM(u.MPC)), ''),
+      NULLIF(UPPER(TRIM(u.RPC)), ''),
+      UPPER(REGEXP_REPLACE(TRIM(u.URL), r'[\?#].*$', ''))
+    ) AS MODEL_DEDUP_KEY,
+    u.* EXCEPT (RPT_DATE, CNTRY, ONLINE_STR, BRAND, RPC, MPC, URL)
+  FROM raw_union u
+  JOIN retailer_map r
+    ON  REGEXP_REPLACE(UPPER(TRIM(u.CNTRY)), r'\s', '') = REGEXP_REPLACE(UPPER(r.CNTRY), r'\s', '')
+    AND UPPER(TRIM(u.ONLINE_STR)) = UPPER(r.RTLR_NAME)
+    AND u.RPT_DATE = r.TARGET_DATE
+  WHERE LENGTH(TRIM(IFNULL(u.URL, ''))) > 0
+    -- 국가 공통: 도메인 루트(홈페이지)는 상품 상세 후보에서 제외
+    AND NOT REGEXP_CONTAINS(TRIM(u.URL), r'(?i)^https?://[^/?#]+/?([?#].*)?$')
+    AND UPPER(TRIM(u.CAT)) IN ('WASHING MACHINE_HA', 'REFRIGERATOR_HA', 'DRYER_HA')
+),
+
+brand_filtered AS (
+  SELECT s.*
+  FROM base s
+  JOIN brand_map b
+    ON  REGEXP_REPLACE(UPPER(s.CNTRY), r'\s', '') = REGEXP_REPLACE(UPPER(b.CNTRY), r'\s', '')
+    -- 건조기(DRY)는 세탁기(W/M) 브랜드 목록으로 거른다
+    AND IF(s.DIV = 'DRY', 'W/M', s.DIV) = b.DIV
+    AND UPPER(s.BRAND) = b.BRAND
+),
+
+deduped AS (
+  SELECT *
+  FROM brand_filtered
+  QUALIFY ROW_NUMBER() OVER (
+    PARTITION BY UPPER(CNTRY), UPPER(RTLR_NAME), DIV, UPPER(BRAND), UPPER(CAT_URL_ADDR)
+    ORDER BY SOURCE_PRIORITY ASC, RPT_DATE DESC, RK ASC,
+             LENGTH(CAT_URL_ADDR) ASC, CAT_URL_ADDR ASC, RAW_URL ASC
+  ) = 1
+),
+
+final_capped AS (
+  SELECT *
+  FROM deduped
+  QUALIFY ROW_NUMBER() OVER (
+    PARTITION BY UPPER(CNTRY), DIV, UPPER(RTLR_NAME)
+    ORDER BY RPT_DATE DESC, RK ASC, MODEL_DEDUP_KEY ASC, CAT_URL_ADDR ASC
+  ) <= 2000
+)
+
+SELECT
+  RPT_DATE, CNTRY, RTLR_NAME, BRAND, DIV, RPC, MPC,
+  CAT_URL_ADDR, RAW_URL, MODEL_DEDUP_KEY, PRODUCT_DESC,
+  AVLBL_STAT, OBSRV_LIST_PRICE, OBSRV_DC_PRICE, CURRENCY_CODE,
+  RK, CAT, IMG_COUNT, VIDEO_COUNT, SALE_AMT, SALE_QTY, SEARCH_TERM,
+  PRODUCT_IMG_URL, PRICE, DC_PRICE, CURRENCY,
+  SOURCE_TYPE
+FROM final_capped
+ORDER BY CNTRY, DIV, RTLR_NAME, BRAND, RK, MODEL_DEDUP_KEY;
