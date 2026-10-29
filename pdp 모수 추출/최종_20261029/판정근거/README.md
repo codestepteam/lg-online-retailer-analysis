@@ -13,11 +13,11 @@
 | 5 | `스크립트/seller_g1~g4.py` | 리테일러 묶음별로 저장 HTML에서 본 상품의 판매자를 읽는다 | `판매자판정/seller_g1~g4.csv` |
 | 6 | `스크립트/step2_page_seller.py` | 페이지 상태·판매자를 1단계 표에 합치고 같은 상품을 하나로 정리한다 | 최종 표 2개 |
 
-## 스크립트가 없는 판매자 판정표
+## 판매자 보완표와 재생성 주의
 
-아래 3개는 대화 중에 짧은 명령으로 만들었고 별도 스크립트로 남기지 않았다.
+아래 3개는 처음에는 대화 중 짧은 명령으로 만들었다. Lazada의 후속 정정 스크립트는 아래에 연결했다.
 
-- `판매자판정/seller_lazada.csv`: 저장 HTML의 `sellerId`를 `코덱스수집/audit_codex_lazada_sellers.csv`의 판매자 이름과 잇는다. LazMall 표시와 브랜드 이름 판매자는 브랜드 공식점, 나머지는 외부 판매자다.
+- `판매자판정/seller_lazada.csv`: 당시에는 저장 HTML의 `sellerId`를 대표 페이지의 판매자 이름과 연결했다. 서로 다른 LG·Samsung 매장이 같은 번호를 공유해 LG 30주소가 Samsung으로 잘못 기재됐다. 재생성 시 이 번호 연결을 반복하지 않는다. 상품별 화면 근거를 쓰는 `스크립트/repair_lazada_sellers.py`로 사용자 승인 후 CSV 5개 각 30주소의 판매자 관련 셀을 정정했다. 원본 백업과 전 행·열 대조 및 재적용 시 변경 0건을 확인했다([적용 검증](<../../재점검_20261029_lazada_a1d5af54/적용_3eac9d79/적용검증.json>)).
 - `판매자판정/seller_magalu.csv`: `코덱스수집/results_codex_magalu.jsonl`의 "Vendido por …" 문구를 읽는다. 판매자가 magalu면 직판이다.
 - `판매자판정/seller_appliance_online.csv`: 판매자 표시가 없어 282개 모두 직판(추정)으로 적었다.
 

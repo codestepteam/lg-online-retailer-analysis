@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "seller_regression_tests": 8,
+  "workbook_scanner_synthetic_cases": 4,
+  "archived_page_parser_synthetic_cases": 2,
+  "no_product_screen_synthetic_cases": 3,
+  "products_reviewed": 625,
+  "sellers_confirmed": 622,
+  "current_browser_confirmed": 564,
+  "archived_exact_product_confirmed": 58,
+  "no_product_screens": 3,
+  "archived_html_files_preserved": 58,
+  "original_workbooks_unchanged": 59,
+  "target_csv_files_unchanged": 5,
+  "proposed_changed_rows_per_file": 30,
+  "proposed_changed_cells_total": 420,
+  "row_order_and_unrelated_fields": "preview transform independently reparsed and compared every field",
+  "apply_executed": false,
+  "commands": [
+    "python3 -m unittest discover -s \"pdp 모수 추출/최종_20261029/판정근거/스크립트\" -p test_repair_lazada_sellers.py -v",
+    "python3 \"pdp 모수 추출/최종_20261029/판정근거/스크립트/repair_lazada_sellers.py\" --evidence \"pdp 모수 추출/재점검_20261029_lazada_a1d5af54/product_evidence.jsonl\" --report-dir \"pdp 모수 추출/재점검_20261029_lazada_a1d5af54\"",
+    "python3 \"pdp 모수 추출/재점검_20261029_lazada_a1d5af54/refresh_coverage.py\"",
+    "python3 \"pdp 모수 추출/재점검_20261029_lazada_a1d5af54/scan_workbooks.py\"",
+    "python3 \"pdp 모수 추출/재점검_20261029_lazada_a1d5af54/validate_review.py\"",
+    "git diff --check"
+  ]
+}

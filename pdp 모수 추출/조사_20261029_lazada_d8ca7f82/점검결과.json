@@ -1,0 +1,58 @@
+{
+  "점검일": "2026-10-29",
+  "검증방식": "Python 표준 라이브러리로 저장 HTML primaryKey·seller_sub_id와 기존 판매자 CSV·최종 CSV 대조",
+  "가짜입력검증": "추천 상품 번호 배제·같은 sellerId의 다른 sub 값 식별 3개 assertion 통과",
+  "정상페이지URL행수": 885,
+  "국가별": {
+    "Singapore": 430,
+    "Thailand": 455
+  },
+  "국가와sellerId묶음수": 89,
+  "유효번호묶음수": 88,
+  "빈번호묶음수": 1,
+  "본상품번호추출성공": 884,
+  "본상품번호추출실패": [
+    {
+      "요청URL": "https://www.lazada.co.th/products/pdp-i5757484351.html___{compress->eJyNVNtunDAQ/ZVqJXhqKmPDApX8AGnUpGqlSNnHlZAxA1gYm9gm1abqv1eY3agXquTJ8jlnZs6ML7sfx93jDOZknRGqO+4+HnetrVhNcTgZweFajxMzQO0w3zUBKXCcEJRGOE1JQEqrZ8MhIIVkz6xhVxaY4f3Vk555D2YRqIAUDAFuENSE13XL2qwlKK8j4KyumxiyOiClNqIT6n6pGJAiyvN9ilBAykbYSbLTv4Swnw07BaRombSwVBKqk3Bv9Kid0MqbzRFCKIoRIkmG8+hFddBaXutmyTgZPZ6zl2fbfnsv504s5pdiToxgHRunxUKa4zzPUxyjGIechoY5oTrLtQGafEBhawBsL6ZJqI5G4Toiuk4m5D1TCuTX6cs8ToXpLA3b2ULVWhqukiWESaA4WQ+A+p5DA08CvtM0lJqzpUF6z1w/jwFGh54pEVqn+UCjUDLVUVChgccZrKtEQ1+bf8il4MPBMD7cqVZTfyECnJAiwAlObpBfytwvGfoDzFYw3gALsgGW6VbObCv801ah9K3KvNgCr7eq51s+8ZYyemv1Itkyv9VmuShJqUTjJ56kSRpnMUkiD1vDPfzVv69vTKgHM3nGKE+8+ra8FjqhV73r17zD/Fe56nDrGX/pPOcvnse4FKCcBxuwg9OrBTtPkxRgqrP3CCEc5Xi/jyO8CsBaodWF91gtnqvzt7FgfVIJ5cAoJtcQqddCe7+dndRdVc98AHdJE6don63GmOUVZw46bU4vLqIMrcHCwVj9Z67DfGF+/9E81evpwhGyTxDOPO5gnCRzsDyRc7tpluHqZjlGchVVBan89SLH3fvjzgoHDyDlrbD+V8XJO6tlc9z93P0CnTyK/g==}",
+      "원인": "본 상품 primaryKey 없음",
+      "제목": "ค้นหาหน้าไม่พบ"
+    }
+  ],
+  "처음찾은번호와본상품번호불일치": 0,
+  "별도번호존재행수": 46,
+  "여러별도번호가섞인묶음": [
+    {
+      "국가": "Thailand",
+      "sellerId": "100088963",
+      "URL행수": 46,
+      "별도번호별": [
+        {
+          "seller_sub_id": "1000001003",
+          "URL행수": 16,
+          "상품ID수": 10
+        },
+        {
+          "seller_sub_id": "1000007717",
+          "URL행수": 30,
+          "상품ID수": 16
+        }
+      ]
+    }
+  ],
+  "문제묶음기존판매자": {
+    "Samsung": 46
+  },
+  "최종표문제번호행수": 46,
+  "최종표문제번호브랜드별": {
+    "LG": 30,
+    "SAMSUNG": 16
+  },
+  "한계": [
+    "상품별 실시간 화면은 LG 4371575857과 Samsung 160586162 두 개만 확인했다.",
+    "LG쪽 별도번호의 나머지 15개 상품 ID는 화면 판매자 미확인이다.",
+    "seller_sub_id는 46행에만 있으며 839행에는 없다. 이것만으로 전체 오류를 탐지할 수 없다. 기존 정상 분류 중 페이지 없음 1행은 본 상품 번호도 없다.",
+    "sellerId와 seller_sub_id의 Lazada 공식 업무상 정의는 확인하지 못했다.",
+    "이 스크립트는 기존 최종표·판매자 CSV를 수정하지 않는다."
+  ],
+  "검증결과": "PASS"
+}
