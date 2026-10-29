@@ -1,0 +1,248 @@
+{
+  "확인일": "2026-10-29 Asia/Seoul",
+  "접속": "Proton VPN 프랑스 FR#683, Codex 내부 브라우저",
+  "조사범위": "공유용 CSV의 ofmp 포함 URL 및 포함 판정 8행. 최종 판정 CSV 수정 없음. 유료 호출 없음.",
+  "입력": {
+    "path": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/pdp 모수 추출/최종_20261029/PDP모수_공유용_25개국_35개리테일러_전체판정_55997행_20261029.csv",
+    "sha256": "2f6bab40e319909c077e06d99188d1acbecc72b63447f21b12ee64153b51d117",
+    "전체행수": 55997
+  },
+  "수량대조": {
+    "DARTY_ofmp_URL": 215,
+    "ofmp_메모": 214,
+    "메모없는행": [
+      {
+        "행번호": "340",
+        "상품명": "Haier B_A_HTW7720ENMB - Reconditionné",
+        "판정": "제외"
+      }
+    ],
+    "판정별": {
+      "제외": 198,
+      "검토 필요": 9,
+      "포함": 8
+    },
+    "포함8행_현재화면": {
+      "외부판매자": 4,
+      "직판": 3,
+      "판매종료": 1
+    }
+  },
+  "결론": [
+    "ofmp는 특정 판매 제안을 선택하는 주소 매개변수로 작동한다. LG F34X76BSTA에서 원본 ofmp URL은 Electro Store 1541.83 EUR, ofmp 없는 URL은 DARTY 1399 EUR로 직접 확인했다. 약어의 공식 풀이는 확인하지 못했다.",
+    "원본 포함 8행은 7행이 저장 수집 시 ofmp 없는 일반 상품 주소로 이동해 DARTY 메타를 읽었고, 1행은 가격 0 및 판매종료 페이지의 DARTY 메타를 읽었다.",
+    "현재 원본 URL로 연 화면은 외부 판매자 4행, 직판 3행, 판매종료 1행이다. 현재의 판매자이며 OSM 기준일 10월26일 당시 판매자였다고 소급 확정하지 않는다.",
+    "ofmp 유무만으로 모두 외부 판매자로 제외할 수 없다. 원래 판매 제안이 더 이상 선택되지 않은 이유는 확인하지 못했다."
+  ],
+  "공식근거": {
+    "title": "Informations sur les offres de la Marketplace Darty",
+    "url": "https://www.darty.com/achat/informations/informations_offres_marketplace.html",
+    "항목": "Fonctionnement de la Marketplace darty.com et pro.darty.com",
+    "내용": "같은 상품 페이지에서 DARTY와 파트너 판매자의 여러 판매 제안을 선택할 수 있다고 설명한다."
+  },
+  "코드근거": [
+    {
+      "path": "pdp 모수 추출/최종_20261029/판정근거/스크립트/seller_g1.py",
+      "lines": "48-72",
+      "내용": "판매자 블록이 없으면 첫 itemprop seller를 사용하고 DARTY이면 직판 분류"
+    },
+    {
+      "path": "pdp 모수 추출/최종_20261029/판정근거/스크립트/step2_page_seller.py",
+      "lines": "49-76",
+      "내용": "정상 페이지 및 직판 판매자 결과는 남김 판정 유지. 일반 상품으로 이동한 원본 ofmp 판매 제안 보존 여부와 Darty hors catalogue 문구를 별도 검증하지 않음"
+    }
+  ],
+  "8행_대조": [
+    {
+      "행번호": "321",
+      "상품명": "Haier HFW7918EIMB Gris bleu",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur/refrigerateur_multi-portes/haier_hfw7918eimb.html?ofmp=1507537928",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / OnlineOnly",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur/refrigerateur_multi-portes/haier_hfw7918eimb.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/72d6c18e8e7b8308.html.gz",
+      "저장_HTML_SHA256": "ef3bbd75a746a767907461563740a785f58fd5a11487e825612d8a8ef39e23ce",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "3499"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "DARTY",
+      "실시간_화면_상태": "직판",
+      "실시간_화면_가격_EUR": "3499",
+      "화면_근거": "Vendu et installé par  Darty",
+      "기존_D067_D068에_따른_정정의견": "현재 화면 직판; 원래 ofmp 판매 제안의 유효성은 확인하지 못함",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "337",
+      "상품명": "Haier HTW5618DNPT",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur-congelateur-refrigerateur-cong/refrigerateur-congelateur_bas/haier_htw5618dnpt.html?ofmp=1103569999",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur-congelateur-refrigerateur-cong/refrigerateur-congelateur_bas/haier_htw5618dnpt.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/159173137a22252f.html.gz",
+      "저장_HTML_SHA256": "80994b22bcbfedfadf0ac33d1656f27b820df33c838d9d83f237ee8f0fa86ecb",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "799.99"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "Electro Store",
+      "실시간_화면_상태": "외부 판매자",
+      "실시간_화면_가격_EUR": "824.11",
+      "화면_근거": "Vendu et expédié par Electro Store",
+      "기존_D067_D068에_따른_정정의견": "외부 판매자로 제외",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "381",
+      "상품명": "Hisense RB3K330SAIC FreshFit",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur-refrigerateur-cong/refrigerateur_congelateur_bas/hisense_rb3k330saic.html?ofmp=1343219257",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur-refrigerateur-cong/refrigerateur_congelateur_bas/hisense_rb3k330saic.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/63836f632d0852f4.html.gz",
+      "저장_HTML_SHA256": "94f56627ee8e77760e8500364b1a9c8b563a492825e1a0c66c06172d1d524d89",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "799.99"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "DARTY",
+      "실시간_화면_상태": "직판",
+      "실시간_화면_가격_EUR": "799.99",
+      "화면_근거": "Vendu et installé par  Darty",
+      "기존_D067_D068에_따른_정정의견": "현재 화면 직판; 원래 ofmp 판매 제안의 유효성은 확인하지 못함",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "508",
+      "상품명": "Siemens KG39NVIDG",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur-refrigerateur-cong/refrigerateur_congelateur_bas/siemens_kg39nvidg.html?ofmp=1512705145",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur-refrigerateur-cong/refrigerateur_congelateur_bas/siemens_kg39nvidg.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/ca6d57b327019efc.html.gz",
+      "저장_HTML_SHA256": "e8bc6a5a91386423e8d728db9321f5af8f34cafb4d2dc6a1d841a3ce7c63fce5",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "999.99"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "Electro Store",
+      "실시간_화면_상태": "외부 판매자",
+      "실시간_화면_가격_EUR": "1056.33",
+      "화면_근거": "Vendu et expédié par Electro Store",
+      "기존_D067_D068에_따른_정정의견": "외부 판매자로 제외",
+      "추가관찰": "OSM브랜드 SAMSUNG인데 상품명과 페이지 제목은 Siemens. 원본 브랜드 불일치."
+    },
+    {
+      "행번호": "519",
+      "상품명": "Samsung RF65A967FSR",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur/refrigerateur_multi-portes/samsung_rf65a967fsr.html?ofmp=1564185259",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / OutOfStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/refrigerateur_congelateur/refrigerateur_multi-portes/samsung_rf65a967fsr.html?ofmp=1564185259",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/047d05148cbf34af.html.gz",
+      "저장_HTML_SHA256": "34e36160dd6e7dfc2a21ca7c6b44c835a8fe6251572140e632a84834b36e327b",
+      "저장_HTML_판매자": [
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "0"
+      ],
+      "저장_HTML_판매종료_문구": true,
+      "실시간_화면_판매자": "",
+      "실시간_화면_상태": "판매 종료",
+      "실시간_화면_가격_EUR": "",
+      "화면_근거": "plus commercialisé",
+      "기존_D067_D068에_따른_정정의견": "영구품절로 제외",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "915",
+      "상품명": "Bosch WAN2827FFR",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/lave-linge/lave_linge_hublot/bosch_wan2827ffr_serie_4.html?ofmp=1323194505",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/lave-linge/lave_linge_hublot/bosch_wan2827ffr_serie_4.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/5a3afb60b9c085eb.html.gz",
+      "저장_HTML_SHA256": "6ddaaa440aa197c6541e560bf1accd5c3ea7712a3bdf48fe469955e03d734e27",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "599.99"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "Electro Store",
+      "실시간_화면_상태": "외부 판매자",
+      "실시간_화면_가격_EUR": "637.31",
+      "화면_근거": "Vendu et expédié par Electro Store",
+      "기존_D067_D068에_따른_정정의견": "외부 판매자로 제외",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "968",
+      "상품명": "Lg F34X76BSTA",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/lave-linge/lave_linge_hublot/lg_f34x76bsta.html?ofmp=1412331080",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/lave-linge/lave_linge_hublot/lg_f34x76bsta.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/58d023a6fd942898.html.gz",
+      "저장_HTML_SHA256": "21d6fa96f72fd7c1f3398ee63b5e458146960b8584f3cbbf1ac1b3510421bfc8",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "1399"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "Electro Store",
+      "실시간_화면_상태": "외부 판매자",
+      "실시간_화면_가격_EUR": "1541.83",
+      "화면_근거": "Vendu et expédié par Electro Store",
+      "기존_D067_D068에_따른_정정의견": "외부 판매자로 제외",
+      "추가관찰": ""
+    },
+    {
+      "행번호": "984",
+      "상품명": "Lg F964R33WRS",
+      "원본_URL": "https://www.darty.com/nav/achat/gros_electromenager/lavage_sechage/lave-linge_sechant/lg_f964r33wrs.html?ofmp=1568455213",
+      "원본_판정": "포함",
+      "원본_판매자근거": "메타 itemprop=seller \"DARTY\" / 상태 NewCondition / InStock",
+      "저장_접속후_URL": "https://www.darty.com/nav/achat/gros_electromenager/lavage_sechage/lave-linge_sechant/lg_f964r33wrs.html",
+      "저장_HTML_경로": "/private/tmp/claude-501/-Users-codestepseunghee-codestep-lg-online-retailer-analysis/253f8734-8060-4ddc-8899-4a7f6bf91733/scratchpad/zyte_full/html/ec28ea41dd52ba6e.html.gz",
+      "저장_HTML_SHA256": "e4bd1726eff7ef8313d9c2688899ad8ac1a6d35710e31adc7e0f3cd1b3be4cd6",
+      "저장_HTML_판매자": [
+        "DARTY",
+        "DARTY"
+      ],
+      "저장_HTML_가격": [
+        "549.99"
+      ],
+      "저장_HTML_판매종료_문구": false,
+      "실시간_화면_판매자": "DARTY",
+      "실시간_화면_상태": "직판",
+      "실시간_화면_가격_EUR": "549.99",
+      "화면_근거": "Vendu et installé par  Darty",
+      "기존_D067_D068에_따른_정정의견": "현재 화면 직판; 원래 ofmp 판매 제안의 유효성은 확인하지 못함",
+      "추가관찰": ""
+    }
+  ]
+}
