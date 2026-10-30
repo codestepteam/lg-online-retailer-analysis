@@ -1,0 +1,59 @@
+{
+  "source": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/pdp 모수 추출/최종_20261029/PDP모수_공유용_25개국_35개리테일러_전체판정_55997행_20261029.csv",
+  "output": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/outputs/pdp-share-wording-20261030-ae7bd3ac/PDP모수_공유용_25개국_35개리테일러_전체판정_55997행_20261029.csv",
+  "backup": "/tmp/pdp-share-wording-ae7bd3ac/original.csv",
+  "inputSha256": "4f51b4f7d749b94e3d8119c0ff8524b39e3aea972a46ecded863969c25095373",
+  "outputSha256": "e201798b48c8da455163ed00e62522a05fc23a35288add239279d9e5c54cfeb6",
+  "records": 55997,
+  "columns": 24,
+  "changedCells": 1663,
+  "changedRows": 1655,
+  "replacements": {
+    "Codex 내부 브라우저": 4,
+    "Codex 화면": 1551,
+    "Codex에서 상품을 열지 못함": 1,
+    "부품 의심 단어(시트 밖, AI 추가)": 107
+  },
+  "unchangedColumns": [
+    "﻿행번호",
+    "흐름",
+    "국가",
+    "리테일러",
+    "제품군",
+    "OSM브랜드",
+    "상품명",
+    "확인 요청 URL",
+    "원본 상품 URL",
+    "기준일",
+    "검색어",
+    "엑셀행번호",
+    "광고여부",
+    "출처파일",
+    "모수 포함 여부",
+    "제외단계",
+    "제외사유",
+    "페이지확인규칙",
+    "페이지 접속 확인 결과",
+    "접속 후 URL",
+    "판매자",
+    "판매자구분"
+  ],
+  "finalTarget": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/pdp 모수 추출/최종_20261029/PDP모수_공유용_25개국_35개리테일러_전체판정_55997행_20261029.csv",
+  "appliedToRequestedFile": true,
+  "verification": "passed",
+  "changedColumns": {
+    "판매자근거": 1556,
+    "메모": 107
+  },
+  "allOriginalValuesCompared": 1343928,
+  "remainingToolNameCells": 0,
+  "remainingAiWorkNoteCells": 0,
+  "judgementsUnchanged": {
+    "포함": 9758,
+    "제외": 46003,
+    "검토 필요": 236
+  },
+  "bomAndLineEndingsPreserved": true,
+  "syntheticExamplesChecked": 5,
+  "legitimateProductAiNamesPreserved": 2855
+}
