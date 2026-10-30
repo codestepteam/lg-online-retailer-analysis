@@ -150,3 +150,27 @@ cd outputs/pdp-share-v2-20261030-94e9c3b7
 - 빼지 않고 기록만 한 것: Cairo Sales에서 `제품군`이 REF인데 세탁기인 11행, W/M인데 냉장고인 2행. Falabella 41018(대형 냉장고인데 사이트 분류가 소형 냉장고), 49819(건조기인데 사이트 분류가 탈수기). 모두 본품이다.
 - 바뀐 건수: 포함 9,758 → 9,717, 제외 46,003 → 46,044. 브랜드=LG 포함은 21374(LG DH1N 적층 키트)가 빠져 2,206 → 2,205.
 
+
+## 8. 앞으로의 버전 규칙과 #130 판매 종료·품절 11개 URL (2026-10-30, D085)
+
+**버전 규칙(사용자 결정):** 앞으로 정정이 생기면 이 폴더의 기존 CSV(v1·v2·공유용·공유용 v2)는 고치지 않는다. 바뀐 내용은 공유용의 다음 버전(공유용 v3, v4 …)을 새 파일로 만들어 거기에만 반영하고, 이 문서에 절을 추가해 무엇이 바뀌었는지 적는다.
+
+**#130 결과:** 두레이 `LGE-HS-온라인-리테일-마케팅/130`에서 EY가 10-30 15:24 댓글로 아래 11개 URL을 모수에서 빼 달라고 요청했다. 공유용 v2에서 이 11행은 **이미 모두 `제외`(`④영구품절`, 제외사유 "영구 품절(단종) 표시")** 상태다. 바꿀 판정이 없으므로 사용자 결정에 따라 공유용 v3는 만들지 않았고, 기존 CSV도 고치지 않았다. 따라서 포함 9,717개는 그대로다.
+
+| 행번호 | 국가 | 리테일러 | 브랜드 | 제품코드 | 저장된 페이지의 근거 |
+| ---: | --- | --- | --- | --- | --- |
+| 519 | France | DARTY | SAMSUNG | RF65A967FSR | "Ce produit n'est plus commercialisé sur Darty.com" (판매 종료 명시) |
+| 3401 | Spain | ELCORTEINGLES_ELECTRONICA | BEKO | BDFN26453X | `AGOTADO`(품절) 표시. 영구 품절인지는 이 근거만으로 확정 못 함 |
+| 5718 | Germany | MEDIAMARKT | LG | GMG960EVEE | 사이트 내부 판매 상태 값 `PERMANENTLY_NOT_AVAILABLE` |
+| 5806 | Germany | MEDIAMARKT | SAMSUNG | RF59C701EB1/EG | 〃 |
+| 6182 | Germany | MEDIAMARKT | BOSCH | WGB256A41 | 〃 |
+| 6185 | Germany | MEDIAMARKT | BOSCH | WGH244A40 | 〃 |
+| 6209 | Germany | MEDIAMARKT | LG | W4WB3095Y | 〃 |
+| 12244 | Netherlands | MEDIAMARKT | LG | GBG5160CEV | 〃 |
+| 13132 | Netherlands | MEDIAMARKT | AEG | TR728D4Z | 〃 |
+| 13133 | Netherlands | MEDIAMARKT | AEG | TR739G4B | 〃 |
+| 33614 | Hungary | Mediamarkt | HAIER | HW100-BD14397U1S | 〃 |
+
+- `PERMANENTLY_NOT_AVAILABLE`는 온라인에서 영구히 살 수 없다는 사이트 분류이며, 제조사 단종까지 뜻하지는 않는다.
+- 남은 차이: CSV의 제외사유는 "영구 품절(단종) 표시"로 되어 있어 위 근거(단종 아님·품절만 확인)와 표현이 다르다. 사용자 결정으로 이번에는 고치지 않았다.
+- 근거 자료: [11개 URL의 저장 페이지 근거](../../outputs/pdp-stock-status-evidence-20261030-b3100b69/evidence.json), [상품 본문 남아 있음 확인](../../outputs/pdp-stock-status-evidence-20261030-b3100b69/content-check-20261030-f16c7b35.json).
