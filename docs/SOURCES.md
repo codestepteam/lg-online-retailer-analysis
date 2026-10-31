@@ -79,6 +79,60 @@ v2.1 대비 셀 값을 비교해 직접 확인한 차이(해석은 하지 않음
 
 `History Log` 시트에는 v2.0·v2.1·v2.2 변경 내역이 적혀 있지 않다(마지막 기록 v1.9_0814). S04 추출본은 계속 v1.95 기준이며, 추출기 매핑을 v2.2로 바꾸지 않았다.
 
+## PDP 모수 공유용 v2 — EY 검토본 (2026-10-30)
+
+2026-10-31 사용자가 Downloads에서 `관련문서/`로 추가를 요청한 EY 검수 회신 파일이다. 우리가 보낸 공유용 v2(25개국 35개 리테일러, 55,997행)에 EY가 검토 열을 채운 것이다. 원본은 수정하지 않았고, 복사본과 Downloads 원본의 SHA-256이 같음을 확인했다. `관련문서/`는 Git 추적 대상이 아니다.
+
+- 원본: [PDP모수_공유용_v2_25개국_35개리테일러_전체판정_55997행_20261030_EY 검토.xlsx](<../관련문서/PDP모수_공유용_v2_25개국_35개리테일러_전체판정_55997행_20261030_EY 검토.xlsx>)
+- 크기: 6,610,401바이트. 시트 3개: `1. Pivot`, `2. 검토 내용`, `3. PDP모수`(머리글 포함 55,998행 × 28열).
+- SHA-256: `37226fee2144ea117a5e3f9469de902dea9e6b1a2d4ffbbb5b1cb8ca7499a0da`
+- 출처: [두레이 #130 댓글](https://codestep.dooray.com/task/4424097923196640208/4454187670240051821). 작성자 최하은. 이번에 두레이 연결이 끊겨 있어 댓글 화면은 직접 열어 보지 않았고, 아래 본문은 사용자가 붙여 넣은 내용이다.
+
+> @이승희 님
+>
+> 25개국 진단 모수 관련 EY 검수 내용 공유드립니다.
+>
+> 우선 LG 모수를 기준으로 검수하였으며, 국가/리테일러별로 공통 적용이 필요한 사항은 '2. 검토 내용' 탭에 정리해두었습니다.
+>
+> 해당 내용 중 경쟁사 모수에도 동일하게 반영이 필요한 사항은 함께 적용해주시고, 적용 여부 공유 부탁드립니다.
+>
+> PDP별 세부 검토 내용은 '3. PDP모수' 탭 내 '모수 포함 여부_EY 검토(R열)', '비고_EY(S열)'에 기재해두었으니 참고 부탁드립니다.
+
+요청 사항: ① `2. 검토 내용`의 국가·리테일러별 공통 규칙을 경쟁사 모수에도 적용할 것이 있으면 적용 ② 적용 여부를 회신. 이번에는 파일 보존과 아래 내용 확인만 했고 반영은 하지 않았다.
+
+`2. 검토 내용` 탭(35개 국가·리테일러, 담당자 이예진·하민주·최하은)에서 `-`가 아닌 검토 결과는 아래 15곳이다. 원문 요약이며 해석은 하지 않았다.
+
+| 국가 | 리테일러 | EY 검토 결과 |
+| --- | --- | --- |
+| United Kingdom | Currys | PDP 아닌 페이지 제외 |
+| Germany | Amazon | 판매자 확인 불가 건 포함. 단, 현재 구매 불가 건은 제외 |
+| Czech | Datart | 리퍼 제품 제외, 정상 제품 포함 |
+| France | Boulanger | PDP 아닌 페이지 제외 |
+| France | Darty | 1. Marketplace, "Vendu et installe par Darty" 미포함 2. OOS(품절) |
+| Italy | Amazon | 판매자 확인 불가 건 포함. 단, 현재 구매 불가 건은 제외 |
+| Italy | Unieuro | 판매자 확인 불가 건 포함. 단, 상품 페이지 내용 없음은 제외 |
+| Spain | MediaMarkt | 1. PDP 아닌 페이지 제외 2. OOS 제외 |
+| Chile | FALABELLA | 외부 판매자 (TOTTUS), 외부 판매자 (SODIMAC) 포함. Falabella·Tottus·Sodimac 판매자별로 같은 상품이 여러 개 있음 |
+| Mexico | Liverpool | 브랜드 공식점(LG Store Mx) 추가 |
+| Peru | FALABELLA | Chile와 같은 TOTTUS·SODIMAC 포함 + 외부 판매자 (LG TIENDA OFICIAL) 브랜드 공식점 포함 |
+| Brazil | Magazine Luiza (MAGALU) | 외부 판매자 (LG, Samsung 등) 추가 |
+| Egypt | Cairo Sales | 상품명에 아랍어 ال(LG)이 있으면 포함. 현재는 대상 브랜드 이름 없음으로 제외되고 있음 |
+| Singapore | Lazada | 브랜드 공식점(외부 판매자) (LG) 포함 |
+| Thailand | Lazada | 브랜드 공식점(외부 판매자) (LG), (LG ELECTRONICS) 포함 |
+
+`3. PDP모수` 탭의 R열(`모수 포함 여부_EY 검토`)은 6,131행에만 채워져 있다(브랜드 LG 6,108, SAMSUNG 15, BOSCH 5, HISENSE 2, HAIER 1). 우리 판정 Q열(`모수 포함 여부`)과 비교한 결과:
+
+| 우리 판정(Q) → EY 검토(R) | 행 수 |
+| --- | ---: |
+| 제외 → 제외 | 4,201 |
+| 포함 → 포함 | 1,680 |
+| 제외 → 포함 | 177 (Thailand Lazada 56, Singapore Lazada 40, Chile FALABELLA 38, Peru FALABELLA 34, Mexico Liverpool 6, Egypt Cairo Sales 3) |
+| 검토 필요 → 제외 | 48 (Darty 14, Boulanger 10, Germany Amazon 7, Datart 4, Spain MediaMarkt 4, Currys 4, Italy Amazon 3, Unieuro 1, Thailand Lazada 1) |
+| 검토 필요 → 포함 | 24 (Italy Amazon 14, Germany Amazon 9, Datart 1) |
+| 검토 필요 → 검토 필요 | 1 |
+
+S열(`비고_EY`)은 43행에 값이 있다: `PDP 아님` 16, `OOS` 12, `Marketplace, "Vendu et installé par Darty" 미포함 시 제외` 4, `확인 필요` 4, `리퍼 제품` 4, `상품명에 LG(ال) 포함` 3. Brazil MAGALU는 `2. 검토 내용`에 추가 요청이 있지만 R열에서 Q와 다른 행은 없었다.
+
 ## 연결 저장소에서 관리하는 후속 자료
 
 2026-10-22 로컬 확인. 아래 자료를 이 저장소의 원본 S01~S13과 같은 추출본으로 간주하거나 번호를 바꿔 덮어쓰지 않는다. 자료 위치·역할을 연결하고 구체적 기준은 [저장소 동기화 점검](REPOSITORY_SYNC.md)의 확인 커밋과 함께 읽는다.
