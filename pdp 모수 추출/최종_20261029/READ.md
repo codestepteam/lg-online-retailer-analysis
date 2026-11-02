@@ -198,5 +198,10 @@ EY가 공유용 v2를 검토해 돌려준 판정(D086)과 사용자 결정(D087)
 
 - 검토 필요 → 제외: EY 판정 48행(LG 25·경쟁사 23), Amazon 경쟁사 ‘현재 구매 불가’ 26행, Datart 경쟁사 `/bazar/` 2행, Mediaworld 2054·Costco 8138(TV).
 - 제외 단계는 기존 이름을 썼다. 상품 페이지 아님·빈 페이지·열지 못함 → `④페이지없음`, 품절·현재 구매 불가 → `④영구품절`, 리퍼·외부 판매자 → `③리리부`, TV → `②제품군`. ‘현재 구매 불가’는 영구 품절이 확정된 것은 아니다.
-- 그대로 둔 것: Chile 브랜드 판매자(`LG ELECTRONICS INC CHILE LIMITADA` 46행 등), Egypt 아랍어 표기 경쟁사 ZANUSSI, MAGALU의 브랜드 이름이 아닌 외부 판매자 411행(EY에 범위 확인 예정), Amazon FBA 1,640행.
+- 그대로 둔 것: Chile 브랜드 판매자(`LG ELECTRONICS INC CHILE LIMITADA` 46행 등), Egypt 아랍어 표기 경쟁사 ZANUSSI, MAGALU의 브랜드 이름이 아닌 외부 판매자 411행(일반 판매점 44곳; 2026-11-02 사용자 전달 두레이 #130 답변으로 제외 확정, D088), Amazon FBA 1,640행.
 - 포함 행끼리 같은 (국가, 리테일러, 주소)인 경우는 Egypt 1건 외에 없었다.
+
+## 10. MAGALU 판매자 범위 답변 기록 (2026-11-02, D088)
+
+사용자가 전달한 두레이 #130 답변에 따라 LG·Samsung·Electrolux·Brastemp·Midea Store 5곳은 포함하고, Webcontinental·Fast Shop 등 일반 판매점 44곳은 제외한다. 9절의 ‘EY에 범위 확인 예정’을 해소했다.
+이번 요청은 기준 기록으로 처리했으며 CSV 수정이나 새 버전 생성은 하지 않았다. [결정과 출처](../../docs/DECISIONS.md#2026-11-02-brazil-magalu-브랜드-판매자-포함-범위-확정).
