@@ -1,0 +1,180 @@
+{
+  "collection_method": "public server HTML JSON-LD, not browser-rendered result",
+  "browser_pilot": "2026-11-03 same-page in-app browser comparison: 冰箱 pages 3 and 84, 乾衣機 and 洗衣機 page 1; each had 12/12 matching card names, URLs, and order between visible screen and JSON-LD. An earlier different-request comparison was invalid because ads can change between requests.",
+  "source": "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/관련문서/EY_LGE HS 온라인 리테일 클리닉 진단 항목_v2.2_20261023(송부본).xlsx",
+  "keywords": [
+    {
+      "source_row": 294,
+      "category": "Dryer",
+      "j_keyword": "LG 乾衣機",
+      "search_keyword": "乾衣機",
+      "review_flag": "2. 브랜드명(LG) 포함",
+      "review_proposal": "乾衣機",
+      "pages_fetched": 53,
+      "cards": 631,
+      "reported_max_page": 53,
+      "error": null,
+      "source_file": "source-294.jsonl"
+    },
+    {
+      "source_row": 298,
+      "category": "Dryer",
+      "j_keyword": "熱泵乾衣機",
+      "search_keyword": "熱泵乾衣機",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 12,
+      "cards": 144,
+      "reported_max_page": 12,
+      "error": null,
+      "source_file": "source-298.jsonl"
+    },
+    {
+      "source_row": 300,
+      "category": "Refrigerator",
+      "j_keyword": "對開冰箱",
+      "search_keyword": "對開冰箱",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 17,
+      "cards": 204,
+      "reported_max_page": 17,
+      "error": null,
+      "source_file": "source-300.jsonl"
+    },
+    {
+      "source_row": 301,
+      "category": "Refrigerator",
+      "j_keyword": "冰箱",
+      "search_keyword": "冰箱",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 84,
+      "cards": 1000,
+      "reported_max_page": 421,
+      "error": null,
+      "source_file": "source-301.jsonl"
+    },
+    {
+      "source_row": 302,
+      "category": "Refrigerator",
+      "j_keyword": "雙門冰箱",
+      "search_keyword": "雙門冰箱",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 84,
+      "cards": 1000,
+      "reported_max_page": 89,
+      "error": null,
+      "source_file": "source-302.jsonl"
+    },
+    {
+      "source_row": 303,
+      "category": "Washing Machine",
+      "j_keyword": "滾筒洗衣機",
+      "search_keyword": "滾筒洗衣機",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 76,
+      "cards": 912,
+      "reported_max_page": 76,
+      "error": null,
+      "source_file": "source-303.jsonl"
+    },
+    {
+      "source_row": 304,
+      "category": "Washing Machine",
+      "j_keyword": "洗衣機",
+      "search_keyword": "洗衣機",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 84,
+      "cards": 1000,
+      "reported_max_page": 331,
+      "error": null,
+      "source_file": "source-304.jsonl"
+    },
+    {
+      "source_row": 305,
+      "category": "Washing Machine",
+      "j_keyword": "洗脫烘",
+      "search_keyword": "洗脫烘",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 41,
+      "cards": 490,
+      "reported_max_page": 41,
+      "error": null,
+      "source_file": "source-305.jsonl"
+    },
+    {
+      "source_row": 306,
+      "category": "Washing Machine",
+      "j_keyword": "直立式洗衣機",
+      "search_keyword": "直立式洗衣機",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 84,
+      "cards": 1000,
+      "reported_max_page": 113,
+      "error": null,
+      "source_file": "source-306.jsonl"
+    },
+    {
+      "source_row": 307,
+      "category": "Refrigerator",
+      "j_keyword": "上下門冰箱",
+      "search_keyword": "上下門冰箱",
+      "review_flag": "영문 번역 오류(F열)",
+      "review_proposal": "영문 번역 F열 수정: Top Freezer Refrigerator",
+      "pages_fetched": 2,
+      "cards": 23,
+      "reported_max_page": 2,
+      "error": null,
+      "source_file": "source-307.jsonl"
+    },
+    {
+      "source_row": 308,
+      "category": "Refrigerator",
+      "j_keyword": "多門冰箱",
+      "search_keyword": "多門冰箱",
+      "review_flag": null,
+      "review_proposal": null,
+      "pages_fetched": 1,
+      "cards": 3,
+      "reported_max_page": 1,
+      "error": null,
+      "source_file": "source-308.jsonl"
+    }
+  ],
+  "excluded_source_rows": [
+    {
+      "source_row": 295,
+      "j_keyword": "LG熱泵",
+      "reason": "2. 브랜드명(LG) 포함"
+    },
+    {
+      "source_row": 296,
+      "j_keyword": "雙逆變器",
+      "reason": "3. 고유명사∙마케팅문구"
+    },
+    {
+      "source_row": 297,
+      "j_keyword": "熱泵",
+      "reason": "5. 대표성 오류"
+    },
+    {
+      "source_row": 299,
+      "j_keyword": "終極洗衣",
+      "reason": "3. 고유명사∙마케팅문구"
+    }
+  ],
+  "total_cards": 6407,
+  "unique_numeric_product_ids": 1061,
+  "unique_pdp_candidates": 2677,
+  "unique_momo_goods": 1061,
+  "unique_TP_shop": 1616,
+  "blank_numeric_product_ids": 1849,
+  "duplicate_numeric_product_id_occurrences": 3497,
+  "failed_keywords": []
+}
