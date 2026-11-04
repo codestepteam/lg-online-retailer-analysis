@@ -235,6 +235,7 @@ ID34 프랑스 LG 126행 중 저장 표식과 본인 URL의 목록 포함 여부
 EY 회신: 진단 항목 v2.2 엑셀의 `Flixmedia 현황` 탭에서 `연동 상태(26/10/23)=O`를 연동 대상으로 삼는다(`상태=Exist` 기준이 아님).
 스페인 MediaMarkt는 **8월 포함 ID42·43 진단 비대상**이며, 데이터 다운로드 엑셀에는 **ID42만 포함 요청**이다. 팝업 연동 가능성은 회신자의 관찰·추정이며 구현·배포 반영은 미확인이다.
 근거: [두레이 137](https://codestep.dooray.com/task/4424097923196640208/4456251918484549445)의 EY 11월 1일 21:04·11월 2일 10:46 댓글; [상세·이미지 저장 기록](updates/2026-11-02/abe1dab229c987e3acbcf35ebcff31e3.md). 위 8월 엑셀 처리 이력과 구분하는 후속 업무 기준이다.
+2026-11-04 사용자 선택: 스페인 MediaMarkt LG 상품의 ID42 원본값을 Raw Table URL별 CSV 다운로드의 기존 `Flixmedia Integration` 열에 `No Flixmedia (ID42 원본: 1/0)` 형식으로 표시하고 결측은 `No Flixmedia`로 둔다. 화면·집계는 계속 제외하며 ID43은 변경하지 않는다([대시보드 출력 코드](../../lge-hs-clinic-dashboard/frontend/src/flix.js)). 대시보드 `dev`·`main` 커밋 `662eab5` 푸시와 개발 사이트 URL별 CSV 확인을 마쳤다. LG GCP `release` 배포 상태와 운영 화면 미확인 범위는 [D096](DECISIONS.md#2026-11-04-스페인-mediamarkt-id42-다운로드-시안-원복)에 기록했다.
 
 ## 대시보드 설계에 적용할 제안
 

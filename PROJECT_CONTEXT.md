@@ -19,6 +19,10 @@
 
 2026-10-22 후속 D045: LG 네 저장소에서 Codex 작업 후 이 연구 문서 반영을 확인하는 **사용자 공통 훅과 지침을 설치**했다. [공통 문서 반영 절차](docs/LG_DOCUMENTATION_WORKFLOW.md)에 채팅별 메모·병합 잠금·반영 확인 기록을 설명했다. 오프라인 시험 17개와 Codex CLI `/hooks`의 두 훅 신뢰·Active 표시 확인을 완료했다. 이미 열린 앱 채팅의 설정 재로딩과 다음 실제 작업에서의 자동 호출은 별도 확인 대상이다. 다른 팀원·다른 컴퓨터의 Git 변경을 자동으로 가져오는 감시 프로그램은 아니다. [적용 범위와 한계](docs/HOOKS.md#저장소를-넘나드는-작업의-한계)를 참고한다.
 
+2026-11-04 확인: `lg-pipeline` 로컬 작업 폴더에 LG GCP 운영용 [lg-console-ops](../lg-pipeline/.agents/skills/lg-console-ops/SKILL.md)와 읽기 전용 조회용 [lg-console-insight](../lg-pipeline/.agents/skills/lg-console-insight/SKILL.md)를 원격 `main`에서 가져왔다. `lgops jobs`와 `lg-console-insight`의 회차 조회가 동작했다. 로컬 파일 반영이며 운영 변경·원격 push는 하지 않았다.
+
+2026-11-04 보고용 대시보드: `main`의 4개 커밋을 `release`에 병합한 `8820d26`을 LG GCP VM 73에 배포했다. [이미지 빌드](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/41778504127)와 `lgops` 배포 작업 `job-20261104-052018-dac0c8`이 성공했고 healthz는 새 커밋으로 HTTP 200을 반환했다. 내부 브라우저의 사내망 화면 접속은 시간 초과로 직접 확인하지 못했다.
+
 ## 왜 이 프로젝트를 하는가
 
 LG전자 HS 제품이 외부 리테일러에서도 LG.com과 일관된 제품 정보와 구매 경험을 제공하도록, 온라인 콘텐츠를 진단하고 개선 결과를 지속적으로 확인하는 업무를 지원한다. 진단 결과가 개선 과제 선정·실행·모니터링으로 이어지는 것이 배경 과제의 목적이다. [S01, 슬라이드 2–3](docs/sources/S01-project-overview.md#slide-2)
