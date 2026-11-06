@@ -32,9 +32,15 @@
 
 ## 2026-11-05 EY PDP 판매자·판매 가능성 제외 요청 (적용 전 조사)
 
-EY는 [두레이 #157](https://codestep.dooray.com/task/4424097923196640208/4458435808136916155)에서 Sharaf DG **외부 판매자**, [#158](https://codestep.dooray.com/task/4424097923196640208/4458444103756496724)에서 eXtra **품절**, [#159](https://codestep.dooray.com/task/4424097923196640208/4458451404584174345)에서 DIENMAYXANH **판매 중단 상품**의 제외 로직 확인·적용을 요청했다. 요청을 적용 완료나 사용자 확정 규칙으로 기록하지 않는다.
+EY는 [두레이 #157](https://codestep.dooray.com/task/4424097923196640208/4458435808136916155)에서 Sharaf DG **외부 판매자**, [#158](https://codestep.dooray.com/task/4424097923196640208/4458444103756496724)에서 eXtra **품절**, [#159](https://codestep.dooray.com/task/4424097923196640208/4458451404584174345)에서 DIENMAYXANH **판매 중단 상품**의 제외 로직 확인·적용을 요청했다. 11월 5일에는 조사 요청이었고, 11월 6일 사용자가 차기 월간 모수 수집의 규칙으로 확정했다(D100).
 v3 생성 코드는 OSM 재고값을 판정에 전달하지 않고 HTTP 200의 품절·판매 중단 표시를 검사하지 않았다. 현재 Sharaf 정확한 25 PDP 중 외부 판매자 9개도 HTML 첫 판매자값이 `Sharaf DG`라 기존 첫값 파서와 본 상품 판매자가 불일치한다. 10월 상태와 현재 화면은 구분한다([Sharaf 조사](../outputs/sharaf-157-20261105/README.md), [eXtra 272개 조사](../outputs/extra-158-20261105/README.md), [DIENMAYXANH 114개 조사](../outputs/dienmayxanh-closed-business-20261105-vpn-20261105-091740/README.md)).
 두레이 #158의 **이번 재검증 기준(D097)**은 eXtra 상품 화면에 `هذا المنتج حاليًا`와 `غير متوفر حاليًا`가 함께 보이는지 직접 확인하는 것이다. OSM 재고값·HTML 상품 JSON은 그 화면 판정을 대신하지 않는다([화면 확인 272건 및 변경 후보 129건](../outputs/extra-158-20261105/README.md#상품-화면-문구-직접-확인-결과-11월-5일-추가-검증)).
+
+## 2026-11-06 차기 월간 PDP 모수 수집의 세 리테일러 제외 규칙 (D100)
+
+- **UAE Sharaf DG:** 정확한 상품 제안의 `Sold by` 판매자가 Sharaf DG 이외면 제외한다. `Sold by` 문구의 존재만으로 제외하지 않고, 배송 주체(`Fulfilled by`)나 HTML의 첫 `seller_name`으로 본 상품 판매자를 대신하지 않는다([25개 화면·9개 외부 판매자](../outputs/sharaf-157-20261105/README.md)).
+- **Saudi Arabia eXtra:** 본 상품 판매 영역에 `هذا المنتج حاليًا`와 `غير متوفر حاليًا`가 함께 표시되면 품절로 제외한다. 배송 불가 문구만 보이는 경우와 HTML 전역 설정의 같은 문구, OSM 재고코드만으로는 판정하지 않는다([272개 화면·129개 두 문구](../outputs/extra-158-20261105/README.md)).
+- **Vietnam DIENMAYXANH:** 본 상품 판매 영역에 `NGƯNG KINH DOANH`가 표시되면 판매 중단으로 제외한다. OSM `AVLBL_STAT=\N`은 값 없음이며 제외 근거가 아니다([453개 HTML·183개 문구](../outputs/dienmayxanh-v3-all-included-closed-20261105-20261105-112819/README.md)). 이 규칙의 문서화는 차기 수집 코드 반영·검증 완료를 뜻하지 않는다.
 
 ## 지표별 계산의 의미
 
