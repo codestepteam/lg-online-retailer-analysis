@@ -14,7 +14,7 @@
 | --- | --- |
 | `v3_included_25_audit.csv` | v3 포함 25행, 정확한 URL, 당시 판매자 근거, 오늘 HTTP 상태, 기본 상품 URL 색인 관찰 |
 | `search_terms_9_counts.csv` | EY `Search Term` 157~165행의 검색어별 저장 카드 건수 |
-| `http_responses/*.html` | 정확한 25개 URL의 403 응답 원문. PDP HTML이 아니며 판매자 판정 근거로 사용하면 안 됨. 로컬 조사 흔적으로 두고 이번 커밋에서는 제외 |
+| `http_responses/*.html` | 정확한 25개 URL의 403 응답 원문은 상품 페이지가 아니어서 판매자 판정 근거로 쓰지 않았다. 커밋에서 제외한 뒤 2026-11-06 사용자 요청으로 로컬 파일도 삭제했다. 조사 CSV의 해당 경로는 당시 수집 기록이며 지금은 파일을 열 수 없다. |
 | `summary.json` | 건수 검증 결과 |
 | `build_audit.py` | 저장소 원본과 오늘 무료 HTTP 접속을 대조해 위 파일을 재생성하는 스크립트 |
 | `v3_included_25_saudivpn_내부브라우저재확인_20261105.csv` | 사우디 VPN 상태에서 내부 브라우저 탭 5개로 정확한 25개 `?promo=` URL을 다시 확인한 결과 |
