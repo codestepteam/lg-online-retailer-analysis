@@ -42,6 +42,11 @@ v3 생성 코드는 OSM 재고값을 판정에 전달하지 않고 HTTP 200의 �
 - **Saudi Arabia eXtra:** 본 상품 판매 영역에 `هذا المنتج حاليًا`와 `غير متوفر حاليًا`가 함께 표시되면 품절로 제외한다. 배송 불가 문구만 보이는 경우와 HTML 전역 설정의 같은 문구, OSM 재고코드만으로는 판정하지 않는다([272개 화면·129개 두 문구](../outputs/extra-158-20261105/README.md)).
 - **Vietnam DIENMAYXANH:** 본 상품 판매 영역에 `NGƯNG KINH DOANH`가 표시되면 판매 중단으로 제외한다. OSM `AVLBL_STAT=\N`은 값 없음이며 제외 근거가 아니다([453개 HTML·183개 문구](../outputs/dienmayxanh-v3-all-included-closed-20261105-20261105-112819/README.md)). 이 규칙의 문서화는 차기 수집 코드 반영·검증 완료를 뜻하지 않는다.
 
+## 2026-11-06 독일 MediaMarkt PDP 모수 제외 규칙 (D103)
+
+OSM 후보라도 본 상품 화면의 `Verkauf und Versand durch`(판매 및 배송: …) 뒤 판매자가 외부 업체면 제외한다. 문구만 있거나 추천·다른 판매자 목록에만 있으면 제외하지 않는다.
+본 상품 제목에 `Generalüberholt`(재정비품)·`Wiederaufbereitet`(재생품)·`Refurbished`(리퍼비시품)·`Gebraucht`(중고품)가 있으면 제외한다. 자세한 판정 위치·확인 불가 처리는 [PDP 모수 추출 규칙](<../pdp 모수 추출/README.md#독일-mediamarkt>)에 적고, v4의 별도 재조사는 v4 원본 변경과 구분한다.
+
 ## 지표별 계산의 의미
 
 | 항목 | 문서에서 확인한 규칙 | 주의 및 출처 |

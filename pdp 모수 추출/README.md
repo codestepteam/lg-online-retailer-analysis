@@ -204,6 +204,12 @@ OSM 미보유 리테일러가 있는 국가의 키워드 (오른쪽 25개국 표
 - "Vendido y enviado por" 문구가 있으면 마켓플레이스라 제외한다. [확인] 두레이 #74
 - 이 문구가 없으면 직판이라 진단 대상이다. [확인] 두레이 #74
 
+### 독일 MediaMarkt
+
+- OSM 출처의 PDP 후보도 본 상품 화면을 확인한다. `Verkauf und Versand durch`(판매 및 배송: …) 뒤에 **본 상품의 외부 판매자**(예: `JB-Vertrieb-GmbH`)가 확인되면 리셀로 제외한다. 문구 자체, 추천 상품이나 다른 판매자 목록의 표시는 제외 근거로 삼지 않는다. 판매자 이름을 알 수 없더라도 본 상품의 마켓플레이스 표시가 확인되면 제외하고(D070), 판매 주체를 확인할 수 없으면 `확인 필요`로 둔다. [확인] 2026-11-06 사용자 결정·D067·D070
+- PDP 본 상품 제목에 `Generalüberholt`(재정비품), `Wiederaufbereitet`(재생품), `Refurbished`(리퍼비시품), `Gebraucht`(중고품)가 있으면 리퍼·중고로 제외한다. 대소문자는 구분하지 않는다. `Geprüft`(검사된) 단어만으로는 리퍼·중고라고 단정하지 않으며, `MediaMarktSaturn geprüft`(MediaMarktSaturn 검수품) 같은 본 상품의 리퍼 판매자·상태 표시는 별도로 확인한다. [확인] 2026-11-06 사용자 결정·D067, [MediaMarkt의 리퍼비시 설명](https://www.mediamarkt.de/de/specials/refurbished_products)
+- 과거 OSM 상품명이나 과거 페이지의 직판 기록만으로 현재 화면의 판매자·상태가 같다고 보지 않는다. [적용 주의] 이번 규칙을 v4의 포함 행에 다시 적용하려면 해당 상품의 현재 본 상품 화면을 확인해야 한다.
+
 ### 스페인 ECI(El Corte Inglés)
 
 - 상품명에 "Reacondicionado"가 있으면 제외한다. [확인] 두레이 #94
