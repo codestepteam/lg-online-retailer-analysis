@@ -251,6 +251,8 @@ v5는 v4의 **55,997행·26열·행 순서**를 유지하며, 13행만 `포함�
 | 네덜란드 MediaMarkt | 278 | 4 | 274 |
 | 전체 | 10,215 | 4 | 10,211 |
 
+후속 헝가리 검증 정정(2026-11-10): 위 0개는 제목·판매자 조건으로 추가 제외한 건수다. 별도 판매 상태 검사에서 본 상품 온라인 영구 구매 불가인 포함 2행(33530 LG F4A10S7NWK·33611 GORENJE WNHPI94BS)을 확인했다. 기존 D068·D085 기준에 따른 정정 대상이지만 v6·v7 CSV는 아직 수정하지 않았다([원문·정정 대상 2건·검증](../../outputs/mediamarkt-hu-nl-v6-20261110/README.md#후속-독립-검증-헝가리-영구품절-2건-정정-필요)).
+
 추가 제외는 네덜란드의 본 상품 판매자 문구가 확인된 4행이다: 12136 LG GSLE81PYBD(You Get), 12222 LG GBBS322APY(DoppenbergKeukens), 12243 BOSCH KGN39VXAU(Art & Craft) 외부판매자 3개, 12765 AEG LR9586BN4(Media Markt Alkmaar) 리퍼·중고 1개. 마지막 상품은 본 상품 판매 영역에 `Refurbished: Zeer goed`(리퍼비시: 매우 좋음)가 표시된다. 두 나라 모두 제목 단어로 추가 제외된 상품은 0개다. [전체 재검사·변경 4행·본 상품 근거](../../outputs/mediamarkt-hu-nl-v6-20261110/README.md).
 
 v6는 v5의 **55,997행·26열·행 순서**를 보존하고 4행만 포함→제외로 바꿨다. 기존 `상품명`·`기준일`을 유지하고 해당 행의 제외 사유·현재 판매자·현재 접속 후 URL·메모에 11월 10일 근거를 기록했다. 나머지 55,993행의 26열 값과 v5 원본 파일 해시는 그대로다. [생성 코드](../../outputs/mediamarkt-hu-nl-v6-20261110/review_v6.py)와 [독립 대조 결과](../../outputs/mediamarkt-hu-nl-v6-20261110/independent_verification.json)를 확인했다.

@@ -51,6 +51,7 @@ OSM 후보라도 본 상품 화면의 `Verkauf und Versand durch`(판매 및 배
 
 두 나라 모두 목록명이 아닌 PDP 본 상품 제목의 현지어·영어 리퍼·중고 단어를 검사하고, 본 상품의 판매 및 배송 문구 뒤 외부 판매자를 확인하면 제외한다. 문구 존재만·추천·다른 상품 판매자는 제외 근거가 아니다.
 다음 수집의 MediaMarkt 4곳(스페인·독일·헝가리·네덜란드)은 OSM 여부와 무관하게 앞 단계 미제외 PDP를 직접 검사한다. 승인된 v5 포함 546주소 수집·v6 생성의 진행 상태·단어·검증·시점 한계는 [상세 기록](../outputs/mediamarkt-hu-nl-v6-20261110/README.md)에 둔다.
+후속 품절 검증: 헝가리의 제목·판매자 추가 제외 0개와 전체 상태 무변경을 구분한다. 본 상품 `PERMANENTLY_NOT_AVAILABLE`(온라인 영구 구매 불가)인 포함 2행은 기존 D068·D085에 따른 정정 대상이며, v6·v7에는 아직 반영하지 않았다([원문 대조](../outputs/mediamarkt-hu-nl-v6-20261110/hungary_independent_stock_audit.json)).
 
 ## 2026-11-10 Sharaf DG 직판 토글 필수 수집 (D127)
 
