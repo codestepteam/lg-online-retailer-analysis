@@ -1,0 +1,546 @@
+{
+ "_source": {
+  "excel": "관련문서/EY_LGE HS 온라인 리테일 클리닉 진단 항목_v2.2_20261023(송부본).xlsx",
+  "sha256": "7e11dfb812449df094102ef99065ebd7f3d94454b18e8719fed189a20bd8dd69"
+ },
+ "targets": [
+  {
+   "country": "Canada",
+   "retailer": "COSTCO",
+   "sheet_retailer": "Costco",
+   "region": "N.America",
+   "subsidiary": "LGECI",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "CA"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Chile",
+   "retailer": "FALABELLA",
+   "sheet_retailer": "FALABELLA",
+   "region": "LATAM",
+   "subsidiary": "LGECL",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "CL"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Mexico",
+   "retailer": "LIVERPOOL",
+   "sheet_retailer": "Liverpool",
+   "region": "LATAM",
+   "subsidiary": "LGEMS",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "MX"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Peru",
+   "retailer": "FALABELLA",
+   "sheet_retailer": "FALABELLA",
+   "region": "LATAM",
+   "subsidiary": "LGEPR",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "PE",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Brazil",
+   "retailer": "MAGAZINELUIZA",
+   "sheet_retailer": "Magazine Luiza (MAGALU)",
+   "region": "LATAM",
+   "subsidiary": "LGESP",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "BR"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Netherlands",
+   "retailer": "COOLBLUE",
+   "sheet_retailer": "COOLBLUE",
+   "region": "Europe",
+   "subsidiary": "LGEBN",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "NL"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Netherlands",
+   "retailer": "MEDIAMARKT",
+   "sheet_retailer": "MediaMarkt",
+   "region": "Europe",
+   "subsidiary": "LGEBN",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "NL",
+   "zyte_geolocation_group": "standard",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Poland",
+   "retailer": "MEDIAEXPERT",
+   "sheet_retailer": "Media Expert",
+   "region": "Europe",
+   "subsidiary": "LGECE",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "PL",
+   "zyte_geolocation_group": "standard",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Poland",
+   "retailer": "RTV_EURO_AGD",
+   "sheet_retailer": "RTV EURO AGD",
+   "region": "Europe",
+   "subsidiary": "LGECE",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "PL",
+   "zyte_geolocation_group": "standard",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Czech Republic",
+   "retailer": "DATART",
+   "sheet_retailer": "Datart",
+   "region": "Europe",
+   "subsidiary": "LGECK",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "CZ",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Czech Republic",
+   "retailer": "ALZA",
+   "sheet_retailer": "Alza",
+   "region": "Europe",
+   "subsidiary": "LGECK",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "CZ",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Hungary",
+   "retailer": "Mediamarkt",
+   "sheet_retailer": "MediaMarkt",
+   "region": "Europe",
+   "subsidiary": "LGECS",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "HU",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Germany",
+   "retailer": "MEDIAMARKT",
+   "sheet_retailer": "MediaMarkt",
+   "region": "Europe",
+   "subsidiary": "LGEDG (LGEWE)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "DE"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Germany",
+   "retailer": "AMAZON",
+   "sheet_retailer": "Amazon",
+   "region": "Europe",
+   "subsidiary": "LGEDG (LGEWE)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "DE"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Germany",
+   "retailer": "OTTO",
+   "sheet_retailer": "Otto",
+   "region": "Europe",
+   "subsidiary": "LGEDG (LGEWE)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "DE"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Spain",
+   "retailer": "ELCORTEINGLES_ELECTRONICA",
+   "sheet_retailer": "ELCORTEINGLES (ECI)",
+   "region": "Europe",
+   "subsidiary": "LGEES (LGEIB)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "ES"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Spain",
+   "retailer": "MEDIAMARKT",
+   "sheet_retailer": "MediaMarkt",
+   "region": "Europe",
+   "subsidiary": "LGEES (LGEIB)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "ES"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "France",
+   "retailer": "BOULANGER",
+   "sheet_retailer": "BOULANGER",
+   "region": "Europe",
+   "subsidiary": "LGEFS",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "FR"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "France",
+   "retailer": "DARTY",
+   "sheet_retailer": "DARTY",
+   "region": "Europe",
+   "subsidiary": "LGEFS",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "FR"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Italy",
+   "retailer": "MEDIAWORLD",
+   "sheet_retailer": "MediaWorld",
+   "region": "Europe",
+   "subsidiary": "LGEIS (LGEIH)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "IT"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Italy",
+   "retailer": "UNIEURO",
+   "sheet_retailer": "UNIEURO",
+   "region": "Europe",
+   "subsidiary": "LGEIS (LGEIH)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "IT"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Italy",
+   "retailer": "AMAZON",
+   "sheet_retailer": "Amazon",
+   "region": "Europe",
+   "subsidiary": "LGEIS (LGEIH)",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "IT"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Portugal",
+   "retailer": "Worten",
+   "sheet_retailer": "Worten",
+   "region": "Europe",
+   "subsidiary": "LGEPT",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "PT",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Sweden",
+   "retailer": "ELGIGANTEN",
+   "sheet_retailer": "ELGIGANTEN",
+   "region": "Europe",
+   "subsidiary": "LGESW",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "SE"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "United Kingdom",
+   "retailer": "AO",
+   "sheet_retailer": "AO",
+   "region": "Europe",
+   "subsidiary": "LGEUK",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "UK",
+    "GB"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "United Kingdom",
+   "retailer": "CURRYS",
+   "sheet_retailer": "Currys",
+   "region": "Europe",
+   "subsidiary": "LGEUK",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "UK",
+    "GB"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Egypt",
+   "retailer": "Cairo Sales",
+   "sheet_retailer": "Cairo Sales",
+   "region": "MEA",
+   "subsidiary": "LGEEG",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "EG",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "UAE",
+   "retailer": "Sharaf DG",
+   "sheet_retailer": "Sharaf DG",
+   "region": "MEA",
+   "subsidiary": "LGEGF",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "AE",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Morocco",
+   "retailer": "Electroplanet",
+   "sheet_retailer": "electroplanet",
+   "region": "MEA",
+   "subsidiary": "LGEMG",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "MA",
+   "zyte_geolocation_group": "extended",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Saudi Arabia",
+   "retailer": "EXTRA",
+   "sheet_retailer": "eXtra",
+   "region": "MEA",
+   "subsidiary": "LGESJ",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "SA"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Australia",
+   "retailer": "Appliance Online",
+   "sheet_retailer": "Appliance Online",
+   "region": "Asia",
+   "subsidiary": "LGEAP",
+   "osm": false,
+   "flow": "검색",
+   "console_country_codes": null,
+   "zyte_geolocation": "AU",
+   "zyte_geolocation_group": "standard",
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Singapore",
+   "retailer": "LAZADA",
+   "sheet_retailer": "Lazada",
+   "region": "Asia",
+   "subsidiary": "LGESL",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "SG"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Thailand",
+   "retailer": "LAZADA",
+   "sheet_retailer": "Lazada",
+   "region": "Asia",
+   "subsidiary": "LGETH",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "TH"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Taiwan",
+   "retailer": "MOMOSHOP",
+   "sheet_retailer": "Momoshop",
+   "region": "Asia",
+   "subsidiary": "LGETT",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "TW"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  },
+  {
+   "country": "Vietnam",
+   "retailer": "DIENMAYXANH",
+   "sheet_retailer": "DIENMAYXANH",
+   "region": "Asia",
+   "subsidiary": "LGEVH",
+   "osm": true,
+   "flow": "OSM",
+   "console_country_codes": [
+    "VN"
+   ],
+   "zyte_geolocation": null,
+   "zyte_geolocation_group": null,
+   "zyte_tier": null,
+   "search_method": null
+  }
+ ]
+}

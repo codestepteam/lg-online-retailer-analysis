@@ -1,0 +1,7 @@
+# 회차별 저장 HTML은 수 GB가 될 수 있어 커밋하지 않는다(내 컴퓨터에는 남는다).
+runs/*/html/
+
+# 대량 후보 원본과 일반 실행 로그는 로컬에 보관한다. 설정·SQL·검증 보고서는 추적한다.
+runs/*/candidates/osm_audit.jsonl
+runs/*/candidates/osm_candidates.csv
+runs/*/logs/*.log

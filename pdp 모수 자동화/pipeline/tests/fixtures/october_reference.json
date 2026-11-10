@@ -1,0 +1,44 @@
+{
+  "_설명": "10월 비교 자료 경로·해시 고정값. 10월 폴더는 읽기 전용이며 해시가 바뀌면 테스트가 실패한다. 경로는 저장소 루트 기준.",
+  "config_month": "2026-11",
+  "v5_share": {
+    "path": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v5_독일MediaMarkt13건제외반영_25개국_35개리테일러_전체판정_55997행_20261106.csv",
+    "sha256": "3d495f74f99f92218e8b47de30cfd71976bd90f9eabd7b98e8bb098b72c5e6b1",
+    "rows": 55997,
+    "columns": 26,
+    "included": 10215,
+    "excluded": 45782
+  },
+  "v2_internal": {
+    "path": "pdp 모수 추출/최종_20261029/PDP모수_25개국_35개리테일러_전체판정_55997행_20261029_v2.csv",
+    "sha256": "ab31f11401857afc8944a51bb0ea84e81a16d2e69799b355bef7e0e954e37195",
+    "rows": 55997,
+    "columns": 26
+  },
+  "share_v2": {
+    "path": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v2_25개국_35개리테일러_전체판정_55997행_20261030.csv",
+    "sha256": "adcbb01ec4e0249b57f219fd4717c83902cf4be0de30272a74aabc24fdb92749",
+    "rows": 55997,
+    "columns": 26
+  },
+  "osm_europe13": {
+    "path": "pdp 모수 추출/OSM_유럽13개리테일러_PDP후보_8160건_20261026.csv",
+    "sha256": "fad7301c2d34db9c0bb98951c32773dcae14f914295adf563022d4f68f8b5a22",
+    "rows": 8160
+  },
+  "osm_de_uk5": {
+    "path": "pdp 모수 추출/OSM_독일영국5개리테일러_PDP후보_1889건_20261029.csv",
+    "sha256": "a36d61025e7d93ce1c8579a597bd8d1078959db35bf62fe526909d3882793eec",
+    "rows": 1889
+  },
+  "osm_additional9": {
+    "path": "pdp 모수 추출/OSM_추가9개리테일러_PDP후보_4942건_20261028.csv",
+    "sha256": "17aab0d9f787de8ea9394a1c746dc0d88df07bbcda50dc60121c1f12b50ed0e9",
+    "rows": 4942
+  },
+  "search_cards": {
+    "path": "pdp 모수 추출/검색결과_20261028_734afcdd/상품카드.csv",
+    "sha256": "3f1140a7ae2654e1619e70b8d64b11f1244501da42e5c71925ec6059150d3f64",
+    "rows": 43871
+  }
+}

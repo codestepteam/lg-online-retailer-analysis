@@ -1,0 +1,21 @@
+{
+  "_설명": "S1a OSM 쿼리 설정(사람 유지). 콘솔 04 쿼리를 audit(전체 행+판정 표시)·제외 필터 끔으로 만든다.",
+  "params": {"pdp_view": "audit", "pdp_filter_mode": false},
+  "console_python": "~/.local/share/uv/tools/lg-bq-console/bin/python",
+  "lgops": "lgops",
+  "max_sql_chars": 20000,
+  "div_to_brand_category": {"REF": "REF", "W/M": "W/M", "D/W": "DW"},
+  "add_missing_divs": {"DRY": "W/M"},
+  "_제품군 추가": "콘솔 대상에 건조기(DRY)가 없는 리테일러에 세탁기 브랜드로 건조기를 더한다(10월 osm_target_extract_global9.sql과 같음). 건조기 수집량이 적은 곳이 기준일을 못 찾지 않도록, 더한 제품군은 기준일 선정에 쓰지 않는다.",
+  "_브랜드": "콘솔 쿼리의 brand_map 조건은 필터를 꺼도 항상 적용되므로, 기존 콘솔 브랜드에 EY 시트·#110 브랜드를 더해 넘긴다. 제품군(DIV) 목록은 콘솔 그대로 둔다. 브랜드 거르기는 S2에서 EY 기준으로 한다.",
+  "candidates": {
+    "_설명": "audit 결과를 osm_candidates.csv로 바꾸는 값. 첫 화면 제외와 캐나다 영어 주소는 10월 osm_target_extract_global9.sql과 같다.",
+    "keep_status": "포함",
+    "home_url_pattern": "(?i)^https?://[^/?#]+/?([?#].*)?$",
+    "crawl_url_rules": [
+      {"country": "Canada", "retailer": "COSTCO", "strip_pattern": "[?#].*$", "append": "?langId=-24"}
+    ],
+    "columns": ["CNTRY", "RTLR_NAME", "DIV", "BRAND", "PRODUCT_DESC", "CRAWL_URL", "RAW_URL", "RPT_DATE", "RK", "SOURCE_TYPE", "MPC", "RPC", "MODEL_DEDUP_KEY", "AVLBL_STAT", "SLLR_NAME", "INV_STAT_INFO", "MISSING_MODEL", "PAGE_NOT_FOUND", "MARKETPLACE", "OUT_OF_STOCK", "USED_PRODUCT", "ACCESSORY", "OUTLET", "SELLER_UNKNOWN", "STOCK_UNKNOWN", "TITLE_UNKNOWN", "JUDGMENT_UNKNOWN", "UNKNOWN_REASONS"],
+    "needs_check_prefix": "확인 필요"
+  }
+}

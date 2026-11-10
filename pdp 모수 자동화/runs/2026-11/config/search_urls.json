@@ -1,0 +1,743 @@
+{
+  "_설명": "S1b 검색 수집용 후보 설정(사람 유지). 10월 페이지넘김_조사.csv·검색어별_건수대조.csv에서 뽑았다. search_method는 WP1-1 실험 뒤 채운다. october_arrivals는 엑셀행번호별 10월 최종 도착 주소이며, 많은 검색어가 카테고리 화면으로 넘어가므로 페이지 번호는 시작 주소가 아니라 도착 주소에 붙인다(applies_to).",
+  "_zyte_tier": "null은 모른다는 뜻. 사이트별 묶음은 첫 호출 뒤 대시보드에서 확인",
+  "card_limit": 1000,
+  "retailers": {
+    "Netherlands|MEDIAMARKT": {
+      "country": "Netherlands",
+      "retailer": "MEDIAMARKT",
+      "zyte_geolocation": "NL",
+      "zyte_geolocation_group": "standard",
+      "zyte_tier": null,
+      "start_url_template": "https://www.mediamarkt.nl/nl/search.html?query={percent}&marketplace=MediaMarkt",
+      "query_encoding": "percent",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url",
+        "per_page": 12
+      },
+      "october_next_control": "Toon 12 meer producten",
+      "october_total_location": "h1 옆 (N artikelen), 목록 아래 M van N",
+      "october_end_condition": "더 보기 없음·누적 카드=표시 전체 수",
+      "october_status": "끝 페이지 확인",
+      "search_method": "zyte_html",
+      "october_arrivals": {
+        "98": "https://www.mediamarkt.nl/nl/category/amerikaanse-koelkasten-621.html?query=Amerikaanse%20koelkasten&marketplace=MediaMarkt&page=4",
+        "99": "https://www.mediamarkt.nl/nl/search.html?query=Koel-%20vriescombinaties&marketplace=MediaMarkt&page=16",
+        "100": "https://www.mediamarkt.nl/nl/category/koelkasten-1304.html?marketplace=MediaMarkt&page=26",
+        "101": "https://www.mediamarkt.nl/nl/category/was-droogcombinaties-634.html?query=Was-droogcombinaties&marketplace=MediaMarkt&page=3",
+        "102": "https://www.mediamarkt.nl/nl/category/wasmachines-1283.html?marketplace=MediaMarkt&page=15",
+        "103": "https://www.mediamarkt.nl/nl/search.html?query=wasmachine%20/%20Voorlader&marketplace=MediaMarkt&page=14",
+        "104": "https://www.mediamarkt.nl/nl/category/warmtepompdrogers-627.html?query=Warmtepompdrogers&marketplace=MediaMarkt&page=9",
+        "105": "https://www.mediamarkt.nl/nl/category/drogers-1280.html?marketplace=MediaMarkt&page=10"
+      },
+      "parser": {
+        "cards": "#mms-search-productlist [data-test=\"mms-cofr-product-card\"]",
+        "name": [
+          "[data-test^=\"product-list-item-link\"]"
+        ],
+        "link": [
+          "a[data-test=\"mms-router-link\"]"
+        ],
+        "ad": {
+          "text": "Gesponsord|Sponsored"
+        },
+        "total": [
+          {
+            "css": "#mms-search-productlist",
+            "parent": true,
+            "regex": "[\\d.]+\\s+van\\s+([\\d.]+)"
+          },
+          {
+            "css": "h1",
+            "parent": true,
+            "regex": "\\(([\\d.]+) artikelen\\)"
+          },
+          {
+            "css": "h1",
+            "regex": "^([\\d.]+) Zoekresultaten"
+          }
+        ],
+        "next": {
+          "css": "button:not([disabled])",
+          "text": "Toon \\d+ meer producten"
+        }
+      },
+      "start_from_arrival": true
+    },
+    "Czech Republic|DATART": {
+      "country": "Czech Republic",
+      "retailer": "DATART",
+      "zyte_geolocation": "CZ",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.datart.cz/vyhledavani?q={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url"
+      },
+      "october_next_control": "a.js-pagination-show-next (Načíst další)",
+      "october_total_location": ".search-page__total-hits (67), 카테고리 .product-count",
+      "october_end_condition": "Načíst další·next-page 없음 및 전체 수 대조",
+      "october_status": "넘김 조사; 마지막 페이지는 전체 수집 때 검증",
+      "search_method": "zyte_html",
+      "october_arrivals": {
+        "118": "https://www.datart.cz/vyhledavani?q=multi+door+lednice&page=3",
+        "119": "https://www.datart.cz/lednicky.html?page=56",
+        "120": "https://www.datart.cz/americke-chladnicky.html?page=9",
+        "121": "https://www.datart.cz/kombinovane-lednice.html?page=27",
+        "122": "https://www.datart.cz/kombinovane-lednice.html?page=27",
+        "123": "https://www.datart.cz/pracky.html?page=31",
+        "124": "https://www.datart.cz/pracky-se-susickou.html?page=7",
+        "125": "https://www.datart.cz/pracky-s-prednim-plnenim.html?page=19",
+        "126": "https://www.datart.cz/susicky-38648.html?page=9"
+      },
+      "parser": {
+        "cards": "#snippet--productBoxList .product-box[data-product-match]",
+        "name": [
+          ".item-title a"
+        ],
+        "link": [
+          ".item-title a"
+        ],
+        "ad": {
+          "text": "Sponzorováno|Sponzorované"
+        },
+        "total": [
+          {
+            "css": ".search-page__total-hits,.product-count",
+            "regex": "([\\d\\s]+)"
+          }
+        ],
+        "next": {
+          "css": "a.next-page:not(.disabled), a.js-pagination-show-next"
+        }
+      },
+      "start_from_arrival": true
+    },
+    "Czech Republic|ALZA": {
+      "country": "Czech Republic",
+      "retailer": "ALZA",
+      "zyte_geolocation": "CZ",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.alza.cz/search.htm?exps={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "path_suffix",
+        "pattern": "-p{page}.htm",
+        "applies_to": "arrival_url",
+        "per_page": 24
+      },
+      "october_next_control": "a[aria-label=\"Další stránka\"]의 실제 href",
+      "october_total_location": "#lblNumberItem0 (N položek)",
+      "october_end_condition": "다음 페이지 링크 없음; 표시 전체 수와 실제 수 비교. 1,000개 상한 먼저 도달하면 중단",
+      "october_status": "9개 수집·끝 페이지 및 상한 확인",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "127": "https://www.alza.cz/search-p2.htm?exps=multi+door+lednice",
+        "128": "https://www.alza.cz/lednicky/18852759-p42.htm",
+        "129": "https://www.alza.cz/americke-lednice-side-by-side/18852763-p9.htm",
+        "130": "https://www.alza.cz/kombinovane-lednicky/18852762-p33.htm",
+        "131": "https://www.alza.cz/kombinovane-lednicky/18852762-p33.htm",
+        "132": "https://www.alza.cz/pracky/18852774-p26.htm",
+        "133": "https://www.alza.cz/pracky-se-susickou/18852778-p6.htm",
+        "134": "https://www.alza.cz/pracky-s-prednim-plnenim/18852776-p24.htm",
+        "135": "https://www.alza.cz/search-p13.htm?exps=Su%c5%a1i%c4%8dka"
+      },
+      "parser": {
+        "cards": "#boxes > .box",
+        "name": [
+          "a.name"
+        ],
+        "link": [
+          "a.name"
+        ],
+        "ad": {
+          "text": "Sponzorováno"
+        },
+        "total": [
+          {
+            "css": "#lblNumberItem0",
+            "regex": "([\\d\\s]+)"
+          },
+          {
+            "css": "#lblNumberItem",
+            "regex": "([\\d\\s]+)"
+          }
+        ],
+        "next": {
+          "css": "a[aria-label=\"Další stránka\"]"
+        }
+      }
+    },
+    "Poland|MEDIAEXPERT": {
+      "country": "Poland",
+      "retailer": "MEDIAEXPERT",
+      "zyte_geolocation": "PL",
+      "zyte_geolocation_group": "standard",
+      "zyte_tier": null,
+      "start_url_template": "https://www.mediaexpert.pl/search?query[menu_item]=&query[querystring]={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url"
+      },
+      "october_next_control": "화면에 보이는 a[aria-label=\"Następna strona\"]",
+      "october_total_location": "h1 주변 괄호 전체 수",
+      "october_end_condition": "다음 링크가 화면에 없음(숨은 링크 제외) 또는 누적 상위 1,000개",
+      "october_status": "재시도 수집 및 종료조건 확인",
+      "search_method": "zyte_html",
+      "october_arrivals": {
+        "136": "https://www.mediaexpert.pl/agd/lodowki-i-zamrazarki/lodowki?r=1&page=34",
+        "137": "",
+        "138": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=lod%C3%B3wka+side+by+side&page=9",
+        "139": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=lod%C3%B3wka+z+kostkark%C4%85&page=4",
+        "140": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=lod%C3%B3wka+70+cm&page=12",
+        "141": "https://www.mediaexpert.pl/agd/pralki-i-suszarki/pralki?r=1&page=21",
+        "142": "https://www.mediaexpert.pl/agd/pralki-i-suszarki/pralko-suszarki?r=1&page=4",
+        "143": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=zestaw+pralka+i+suszarka&page=4",
+        "144": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=suszarka&page=34",
+        "145": "https://www.mediaexpert.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D=suszarka+slim+&page=3"
+      },
+      "parser": {
+        "cards": "div[data-cy=\"offersList\"] .offer-box:is([data-product-sku], .product-list-offer-box-tile):not(.selected-for-you *, .listing-banner-zone *), div[data-cy=\"offersTile\"] .offer-box:is([data-product-sku], .product-list-offer-box-tile):not(.selected-for-you *, .listing-banner-zone *)",
+        "name": [
+          "h3 a"
+        ],
+        "name_attr": "aria-label",
+        "link": [
+          "h3 a",
+          "a.picture-link"
+        ],
+        "ad": {
+          "text": "Sponsorowan[ey]|Sponsorowany"
+        },
+        "total": [
+          {
+            "css": "h1",
+            "parent": true,
+            "regex": "\\(([\\d\\s]+)\\)"
+          }
+        ],
+        "next": {
+          "css": "a[aria-label=\"Następna strona\"]"
+        },
+        "loading": "div[data-cy=\"offersList\"] > .skeleton, div[data-cy=\"offersTile\"] > .skeleton"
+      }
+    },
+    "Poland|RTV_EURO_AGD": {
+      "country": "Poland",
+      "retailer": "RTV_EURO_AGD",
+      "zyte_geolocation": "PL",
+      "zyte_geolocation_group": "standard",
+      "zyte_tier": null,
+      "start_url_template": "https://www.euro.com.pl/search2.bhtml?keyword={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "url_template",
+        "pattern": "https://www.euro.com.pl/search2,strona-{page}.bhtml?keyword={plus}",
+        "applies_to": "start_url"
+      },
+      "october_next_control": "Pokaż więcej produktów",
+      "october_total_location": "검색 제목 옆 (127), 목록 위 127 produktów, 하단 Wyświetlono 20 z 127 produktów",
+      "october_end_condition": "더 보기 없음 및 표시 누적 수=전체 수",
+      "october_status": "넘김 확인; 마지막 페이지는 전체 수집 때 검증",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "146": "https://www.euro.com.pl/search2,strona-52.bhtml?keyword=lod%C3%B3wka",
+        "147": "https://www.euro.com.pl/search2,strona-12.bhtml?keyword=lod%C3%B3wka%20side%20by%20side",
+        "148": "https://www.euro.com.pl/search2,strona-7.bhtml?keyword=lod%C3%B3wka%20z%20kostkark%C4%85",
+        "149": "https://www.euro.com.pl/search2,strona-11.bhtml?keyword=lod%C3%B3wka+70+cm",
+        "150": "https://www.euro.com.pl/search2,strona-43.bhtml?keyword=lod%C3%B3wka+No+Frost",
+        "151": "https://www.euro.com.pl/search2,strona-31.bhtml?keyword=pralka",
+        "152": "https://www.euro.com.pl/search2,strona-3.bhtml?keyword=pralka%20%C5%82adowana%20od%20przodu",
+        "153": "https://www.euro.com.pl/search2,strona-47.bhtml?keyword=suszarka",
+        "154": "https://www.euro.com.pl/search2,strona-10.bhtml?keyword=pralko-suszarka",
+        "155": "https://www.euro.com.pl/search2,strona-7.bhtml?keyword=pralko-suszarka%20slim",
+        "156": "https://www.euro.com.pl/search2,strona-17.bhtml?keyword=zestaw%20pralka%20i%20suszarka"
+      },
+      "parser": {
+        "cards": "div.product-list-results > [data-automation-id=\"product-card\"]",
+        "name": [
+          "h2 a"
+        ],
+        "link": [
+          "h2 a"
+        ],
+        "ad": {
+          "text": "Sponsorowan[ey]|Sponsorowany"
+        },
+        "total": [
+          {
+            "css": "[data-automation-id=\"item-count\"]",
+            "regex": "([\\d\\s]+)\\s*produkt"
+          }
+        ],
+        "next": {
+          "css": "a[data-automation-id=\"load-more\"]"
+        }
+      }
+    },
+    "UAE|Sharaf DG": {
+      "country": "UAE",
+      "retailer": "Sharaf DG",
+      "zyte_geolocation": "AE",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://uae.sharafdg.com/?q={percent}&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "required_query_params": {
+        "dFR[promotion_offer_json.seller_code][0]": "sdg",
+        "dFR[promotion_offer_json.seller_code][1]": "sdg_online_excl"
+      },
+      "_수집규칙": "D127: Sold By Sharaf DG(Sharaf DG 직판) 토글 ON과 같은 조건을 모든 검색어·페이지에 유지한다. october_arrivals는 무필터 과거 기록으로 보존한다. PDP 카드 링크의 promo는 그대로 수집하고 본 상품 Sold by(판매자)를 재확인한다.",
+      "query_encoding": "percent",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page_number",
+        "applies_to": "arrival_url"
+      },
+      "october_next_control": "#hits-pagination .go-to-page[data-page=N]",
+      "october_total_location": "검색 결과 제목 검색어(N); Product Spotlight 제목은 제외",
+      "october_end_condition": "다음 페이지 번호·다음 화살표 없음; 본 목록 실제 카드 수와 전체 수 일치 확인",
+      "october_status": "9개 검색어 끝 페이지·수 일치",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "157": "https://uae.sharafdg.com/?q=bottom%20freezer%20refrigerator&post_type=product&page_number=2",
+        "158": "https://uae.sharafdg.com/?q=french%20door%20refrigerator&post_type=product",
+        "159": "https://uae.sharafdg.com/?q=refrigerator&post_type=product&page_number=18",
+        "160": "https://uae.sharafdg.com/?q=side%20by%20side%20fridge&post_type=product&page_number=3",
+        "161": "https://uae.sharafdg.com/?q=top%20freezer%20refrigerator&post_type=product&page_number=7",
+        "162": "https://uae.sharafdg.com/?q=front%20load%20washer&post_type=product&page_number=8",
+        "163": "https://uae.sharafdg.com/?q=top%20load%20washer&post_type=product&page_number=5",
+        "164": "https://uae.sharafdg.com/?q=washer%20dryer&post_type=product&page_number=6",
+        "165": "https://uae.sharafdg.com/?q=washing%20machine&post_type=product&page_number=13"
+      },
+      "parser": {
+        "cards": "#hits > .algolia-item",
+        "name": [
+          "h4.name"
+        ],
+        "link": [
+          "a.product-link"
+        ],
+        "ad": {
+          "text": "Sponsored|Promoted|إعلان"
+        },
+        "total": [
+          {
+            "css": "main h3",
+            "regex": "\\(([\\d,]+)\\)\\s*$"
+          }
+        ],
+        "next": {
+          "css": "#hits-pagination li:not(.disabled) .go-to-page[data-page=\"{next}\"]"
+        }
+      }
+    },
+    "Hungary|Mediamarkt": {
+      "country": "Hungary",
+      "retailer": "Mediamarkt",
+      "zyte_geolocation": "HU",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.mediamarkt.hu/hu/search.html?query={percent}",
+      "query_encoding": "percent",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url",
+        "per_page": 12
+      },
+      "october_next_control": "Következő 12 termék megjelenítése",
+      "october_total_location": "h1 N találat; 목록 아래 누적/전체 termék. 마지막에는 범위 표시가 사라지기도 함",
+      "october_end_condition": "로딩 자리 없음·더 보기 없음 확인 후 실제 카드 수와 대조. 231·240행은30회차에서 넘김이 사라져 표시 수만큼 확인 못 함",
+      "october_status": "13개 점검·수 불일치7개",
+      "search_method": "zyte_html",
+      "october_arrivals": {
+        "228": "https://www.mediamarkt.hu/hu/search.html?query=alulfagyaszt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny&page=15",
+        "229": "https://www.mediamarkt.hu/hu/search.html?query=egyajt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny&page=13",
+        "230": "https://www.mediamarkt.hu/hu/search.html?query=fel%C3%BClfagyaszt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny&page=4",
+        "231": "https://www.mediamarkt.hu/hu/search.html?query=h%C5%B1t%C5%91szekr%C3%A9ny&page=30",
+        "232": "https://www.mediamarkt.hu/hu/search.html?query=multi-door%20h%C5%B1t%C5%91szekr%C3%A9ny",
+        "233": "https://www.mediamarkt.hu/hu/search.html?query=side%20by%20side%20h%C5%B1t%C5%91szekr%C3%A9nyek&page=9",
+        "234": "https://www.mediamarkt.hu/hu/search.html?query=t%C3%B6bbajt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny",
+        "235": "https://www.mediamarkt.hu/hu/search.html?query=el%C3%B6lt%C3%B6lt%C5%91s%20mos%C3%B3g%C3%A9p&page=26",
+        "236": "https://www.mediamarkt.hu/hu/search.html?query=g%C5%91z%20mos%C3%B3-sz%C3%A1r%C3%ADt%C3%B3g%C3%A9p",
+        "237": "https://www.mediamarkt.hu/hu/search.html?query=g%C5%91zmos%C3%B3g%C3%A9p&page=7",
+        "238": "https://www.mediamarkt.hu/hu/search.html?query=keskeny%20mos%C3%B3g%C3%A9p&page=5",
+        "239": "https://www.mediamarkt.hu/hu/search.html?query=mos%C3%B3%20sz%C3%A1r%C3%ADt%C3%B3g%C3%A9p&page=6",
+        "240": "https://www.mediamarkt.hu/hu/search.html?query=mos%C3%B3g%C3%A9p&page=30"
+      },
+      "parser": {
+        "cards": "#mms-search-productlist [data-test=\"mms-cofr-product-card\"]",
+        "name": [
+          "[data-test^=\"product-list-item-link\"]"
+        ],
+        "link": [
+          "a[data-test=\"mms-router-link\"]"
+        ],
+        "ad": {
+          "text": "Szponzorált"
+        },
+        "total": [
+          {
+            "css": "#mms-search-productlist",
+            "parent": true,
+            "regex": "[\\d.]+\\s*/\\s*([\\d.]+)\\s+termék"
+          },
+          {
+            "css": "h1",
+            "regex": "([\\d.]+) találat"
+          },
+          {
+            "css": "h1",
+            "parent": true,
+            "regex": "\\(([\\d.]+) termék\\)"
+          }
+        ],
+        "next": {
+          "css": "button:not([disabled])",
+          "text": "Következő \\d+ termék megjelenítése"
+        }
+      }
+    },
+    "Portugal|Worten": {
+      "country": "Portugal",
+      "retailer": "Worten",
+      "zyte_geolocation": "PT",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.worten.pt/search?query={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url"
+      },
+      "october_next_control": "Paginação 숫자 링크; Página seguinte",
+      "october_total_location": "목록 위 N produtos, 아래 시작 - 끝 de N produtos; 넓은 검색1000+",
+      "october_end_condition": "다음 버튼 disabled; 단 표시 수 불일치 별도 확인",
+      "october_status": "끝 페이지 및 수 불일치 확인",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "261": "https://www.worten.pt/search?query=frigor%C3%ADfico&page=21",
+        "262": "https://www.worten.pt/search?query=frigorifico+americano&page=21",
+        "263": "https://www.worten.pt/search?query=frigorifico+com+congelador+inferior&page=6",
+        "264": "https://www.worten.pt/search?query=frigorifico+com+congelador+superior&page=5",
+        "265": "https://www.worten.pt/search?query=frigorifico+multidoor&page=3",
+        "266": "https://www.worten.pt/search?query=frigorifico+side+by+side&page=3",
+        "267": "https://www.worten.pt/search?query=m%C3%A1quina+de+lavar+de+carga+frontal&page=3",
+        "268": "https://www.worten.pt/search?query=m%C3%A1quina+de+lavar&page=21",
+        "269": "https://www.worten.pt/search?query=m%C3%A1quina+de+lavar+e+secar&page=21"
+      },
+      "parser": {
+        "cards": "ul.listing-content__list > li article.product-card",
+        "name": [
+          ".product-card__name"
+        ],
+        "link": [
+          "a[data-sku]"
+        ],
+        "ad": {
+          "text": "Patrocinado"
+        },
+        "total": [
+          {
+            "css": "body",
+            "regex": "\\d+\\s*-\\s*\\d+ de ([\\d+]+) produtos"
+          }
+        ],
+        "next": {
+          "css": "nav[aria-label=\"Paginação\"] button[aria-label=\"Página seguinte\"]:not([disabled])"
+        }
+      }
+    },
+    "Australia|Appliance Online": {
+      "country": "Australia",
+      "retailer": "Appliance Online",
+      "zyte_geolocation": "AU",
+      "zyte_geolocation_group": "standard",
+      "zyte_tier": null,
+      "start_url_template": "https://www.appliancesonline.com.au/search/{lower_plus}/?currentpage=1&sortkey=highestrated",
+      "query_encoding": "lower_plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "currentpage",
+        "applies_to": "arrival_url",
+        "first_page_explicit": true
+      },
+      "october_next_control": "pagination-template a 숫자",
+      "october_total_location": "목록 위·아래 128 filtered Products",
+      "october_end_condition": "마지막 활성 페이지 번호 + 다음 번호 없음; 전체 수와 대조",
+      "october_status": "넘김 확인; 마지막 페이지는 전체 수집 때 검증",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "345": "https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/front-loading/?currentpage=6&sortkey=highestrated",
+        "346": "https://www.appliancesonline.com.au/search/top+load+washing+machines/?currentpage=3&sortkey=highestrated",
+        "347": "https://www.appliancesonline.com.au/search/washer+dryer+combos/?currentpage=2&sortkey=highestrated",
+        "348": "https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/?currentpage=8&sortkey=highestrated",
+        "349": "https://www.appliancesonline.com.au/filter/washers-and-dryers/combo/?currentpage=2&sortkey=highestrated",
+        "350": "https://www.appliancesonline.com.au/filter/washers-and-dryers/washing-machines/?currentpage=8&sortkey=highestrated",
+        "351": "https://www.appliancesonline.com.au/search/bottom+mount+fridges/?currentpage=3&sortkey=highestrated",
+        "352": "https://www.appliancesonline.com.au/search/french+door+fridges/?currentpage=3&sortkey=highestrated",
+        "353": "https://www.appliancesonline.com.au/filter/refrigeration/fridges/?currentpage=21&sortkey=highestrated",
+        "354": "https://www.appliancesonline.com.au/search/refrigerator/?currentpage=3&sortkey=highestrated",
+        "355": "https://www.appliancesonline.com.au/search/side+by+side+fridges/?currentpage=2&sortkey=highestrated",
+        "356": "https://www.appliancesonline.com.au/search/top+mount+fridges/?currentpage=3&sortkey=highestrated",
+        "357": "https://www.appliancesonline.com.au/filter/refrigeration/fridges/?currentpage=21&sortkey=highestrated",
+        "358": "https://www.appliancesonline.com.au/filter/washers-and-dryers/dryers/?currentpage=6&sortkey=highestrated",
+        "359": "https://www.appliancesonline.com.au/filter/washers-and-dryers/dryers/heat-pump/?currentpage=4&sortkey=highestrated"
+      },
+      "parser": {
+        "cards": "aol-product-listing-grid .grid-container-flex > aol-product-tile[trackinglistname=\"grid\"]",
+        "name": [
+          "a.body-link"
+        ],
+        "link": [
+          "a.body-link"
+        ],
+        "ad": {
+          "text": "\\bsponsored\\b"
+        },
+        "total": [
+          {
+            "css": "body",
+            "regex": "([\\d,]+)\\s+filtered\\s+Products"
+          }
+        ],
+        "next": {
+          "css": "pagination-template a",
+          "text": "{next}"
+        }
+      },
+      "start_from_arrival": true
+    },
+    "Peru|FALABELLA": {
+      "country": "Peru",
+      "retailer": "FALABELLA",
+      "zyte_geolocation": "PE",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.falabella.com.pe/falabella-pe/search?Ntt={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "page",
+        "applies_to": "arrival_url"
+      },
+      "october_next_control": "#testId-pagination-top-arrow-right",
+      "october_total_location": "목록 하단 N - M de T Resultados",
+      "october_end_condition": "오른쪽 다음 화살표 disabled 또는 마지막 페이지에서 범위 끝=전체 수",
+      "october_status": "넘김 확인; 마지막 페이지는 전체 수집 때 검증",
+      "search_method": "zyte_browser",
+      "october_arrivals": {
+        "361": "https://www.falabella.com.pe/falabella-pe/category/CATG19032/Refrigeracion?page=21",
+        "362": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+bottom+freezer&page=7",
+        "363": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+french+door",
+        "364": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+Side+by+Side&page=21",
+        "365": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+top+freezer&page=21",
+        "366": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+Top+Mount&page=21",
+        "367": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+Side+by+Side&page=21",
+        "368": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Lavadora+frontal&page=5",
+        "369": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Lavadora+carga+frontal&page=3",
+        "370": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Lavadora+carga+superior&page=21",
+        "371": "https://www.falabella.com.pe/falabella-pe/category/cat7180470/Lavadora-Secadora?page=4",
+        "372": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Lavadora&page=21",
+        "373": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Secadora&page=21",
+        "374": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Secadora+Con+Bomba+de+calor&page=21"
+      },
+      "parser": {
+        "cards": "#testId-searchResults-products a[data-pod]",
+        "name": [
+          "b.pod-subTitle"
+        ],
+        "link": [
+          "self"
+        ],
+        "ad": {
+          "attr": "data-sponsored",
+          "yes": "true",
+          "no": "false"
+        },
+        "total": [
+          {
+            "css": "body",
+            "regex": "[\\d,.]+\\s*-\\s*[\\d,.]+\\s+de\\s+([\\d,.]+)\\s+Resultados"
+          }
+        ],
+        "next": {
+          "css": "#testId-pagination-top-arrow-right:not([disabled])"
+        }
+      },
+      "start_from_arrival": true
+    },
+    "Egypt|Cairo Sales": {
+      "country": "Egypt",
+      "retailer": "Cairo Sales",
+      "zyte_geolocation": "EG",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://cairosales.com/ar/find?search_query={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "query_param",
+        "param": "p",
+        "applies_to": "arrival_url",
+        "per_page": 12
+      },
+      "october_next_control": "#center_column .pagination_next a",
+      "october_total_location": "h1 결과 수, 위·아래 عرض 시작 - 끝 من 전체 منتجات",
+      "october_end_condition": "다음 링크 없음·범위 끝=전체 수; 화면 active.current로 페이지 번호 확인",
+      "october_status": "끝 페이지 및 상한 확인",
+      "search_method": "zyte_html",
+      "october_arrivals": {
+        "376": "",
+        "377": "https://cairosales.com/ar/find?search_query=%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA+Side+by+Side",
+        "378": "https://cairosales.com/ar/find?search_query=%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA+French+Door",
+        "379": "https://cairosales.com/ar/find?search_query=%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA+2+%D8%A8%D8%A7%D8%A8",
+        "380": "https://cairosales.com/ar/find?search_query=%D8%AB%D9%84%D8%A7%D8%AC%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D9%88%D8%A3%D9%85+1+%D8%A8%D8%A7%D8%A8",
+        "381": "https://cairosales.com/ar/find?search_query=%D9%81%D8%B1%D9%8A%D8%B2%D8%B1+%D8%B3%D9%81%D9%84%D9%8A&p=5",
+        "382": "https://cairosales.com/ar/find?search_query=%D8%BA%D8%B3%D8%A7%D9%84%D8%A7%D8%AA+%D8%A7%D9%84%D9%85%D9%84%D8%A7%D8%A8%D8%B3",
+        "384": "https://cairosales.com/ar/find?search_query=%D8%BA%D8%B3%D8%A7%D9%84%D8%A7%D8%AA+%D9%85%D9%84%D8%A7%D8%A8%D8%B3+%D8%A8%D8%A7%D8%A8+%D8%A3%D9%85%D8%A7%D9%85%D9%8A",
+        "385": "https://cairosales.com/ar/find?search_query=%D8%BA%D8%B3%D8%A7%D9%84%D8%A7%D8%AA+%D9%85%D9%84%D8%A7%D8%A8%D8%B3+%D9%81%D9%88%D9%82+%D8%A3%D9%88%D8%AA%D9%88%D9%85%D8%A7%D8%AA%D9%8A%D9%83&p=7",
+        "386": "https://cairosales.com/ar/find?search_query=%D9%85%D8%AC%D9%81%D9%81%D8%A7%D8%AA"
+      },
+      "parser": {
+        "cards": "#center_column ul.product_list > li",
+        "name": [
+          "a.product-name"
+        ],
+        "link": [
+          "a.product-name"
+        ],
+        "ad": {
+          "text": "sponsored|إعلان|برعاية"
+        },
+        "total": [
+          {
+            "css": "#center_column",
+            "regex": "عرض\\s+\\d+\\s*-\\s*\\d+\\s+من\\s+(\\d+)\\s+منتجات"
+          }
+        ],
+        "next": {
+          "css": "#center_column .pagination_next:not(.disabled) a"
+        },
+        "zero": {
+          "css": "#center_column",
+          "regex": "لم يتم العثور|لم يتم إيجاد|No results|0\\s+عدد المنتجات"
+        }
+      }
+    },
+    "Morocco|Electroplanet": {
+      "country": "Morocco",
+      "retailer": "Electroplanet",
+      "zyte_geolocation": "MA",
+      "zyte_geolocation_group": "extended",
+      "zyte_tier": null,
+      "start_url_template": "https://www.electroplanet.ma/#ada2/fullscreen/m=and&q={plus}",
+      "query_encoding": "plus",
+      "pagination": {
+        "kind": "infinite_scroll",
+        "applies_to": "browser_only"
+      },
+      "october_next_control": "전체화면 검색 결과 오른쪽 상품 목록을 아래로 스크롤해 추가 카드 로딩",
+      "october_total_location": "전체화면 검색 상단 N results found; WashTower는 No results found",
+      "october_end_condition": "최종 누적 본 목록 카드 수가 표시 전체 수와 일치. 0건에서는 추천 구역 제외",
+      "october_status": "9행 재점검·8행 수집 끝 도달·1행 실제0건",
+      "search_method": "zyte_browser_scroll",
+      "october_arrivals": {
+        "387": "https://www.electroplanet.ma/#ada2/fullscreen/m=f&p=6&q=R%C3%A9frig%C3%A9rateurs",
+        "388": "https://www.electroplanet.ma/#ada2/fullscreen/m=or&p=2&q=R%C3%A9frig%C3%A9rateurs+Multi-portes",
+        "389": "https://www.electroplanet.ma/#ada2/fullscreen/m=f&p=7&q=R%C3%A9frig%C3%A9rateurs+Combin%C3%A9s",
+        "390": "https://www.electroplanet.ma/#ada2/fullscreen/m=or&p=2&q=R%C3%A9frig%C3%A9rateurs+Deux+portes",
+        "391": "https://www.electroplanet.ma/#ada2/fullscreen/m=or&p=2&q=R%C3%A9frig%C3%A9rateurs+Side+by+side",
+        "392": "https://www.electroplanet.ma/#ada2/fullscreen/m=and&q=Lave-linge",
+        "393": "https://www.electroplanet.ma/#ada2/fullscreen/m=or&p=35&q=Lave-linge+%C3%A0+chargement+frontal",
+        "394": "https://www.electroplanet.ma/#ada2/fullscreen/m=f&q=WashTower",
+        "396": "https://www.electroplanet.ma/#ada2/fullscreen/m=and&q=s%C3%A8che-linge"
+      },
+      "parser": {
+        "cards": ".dfd-results .dfd-card, .dfd-results-grid .dfd-card",
+        "name": [
+          ".dfd-card-title"
+        ],
+        "link": [
+          "a.dfd-card-link",
+          "a"
+        ],
+        "ad": {
+          "text": "Sponsored"
+        },
+        "total": [
+          {
+            "css": "[role=\"status\"]",
+            "regex": "([\\d,]+) results? found"
+          }
+        ],
+        "next": {
+          "css": "#none"
+        },
+        "zero": {
+          "css": "[role=\"status\"]",
+          "regex": "No results found"
+        }
+      }
+    }
+  },
+  "probe": {
+    "_설명": "WP1-1 실험 설정(사람 유지). 방식은 04 문서 3-1, 차단 문구는 10월 page_check.py BLOCK과 같은 크기 기준.",
+    "api_url": "https://api.zyte.com/v1/extract",
+    "timeout_seconds": 180,
+    "max_requests": 36,
+    "modes": {
+      "H": {
+        "httpResponseBody": true
+      },
+      "B0": {
+        "browserHtml": true
+      },
+      "B1": {
+        "browserHtml": true,
+        "actions": [
+          {
+            "action": "scrollBottom"
+          }
+        ]
+      }
+    },
+    "block_max_size": 60000,
+    "block_pattern": "sec-if-cpt|window\\[\"bobcmn\"\\]|captcha|cf-chl|Just a moment|Access Denied|Não é possível acessar|px-captcha|Pardon Our Interruption|Request unsuccessful",
+    "october_reconcile": "pdp 모수 추출/검색결과_20261028_734afcdd/검색어별_건수대조.csv",
+    "october_cards": "pdp 모수 추출/검색결과_20261028_734afcdd/상품카드.csv"
+  },
+  "collection": {
+    "_설명": "S1b 본 수집 설정(사람 유지). retries는 04 문서 3-4의 '3회 재시도'. methods는 search_method 값별 Zyte 요청 방식. search_method는 WP1-1 실험과 저장 HTML 대조로 정했고, 시험 수집(--sample) 결과로 manual로 바뀔 수 있다.",
+    "retries": 3,
+    "max_pages_per_term": 120,
+    "workers": 8,
+    "workers_per_retailer": 2,
+    "sample_pages": 2,
+    "total_tolerance": 0.1,
+    "methods": {
+      "zyte_html": {
+        "httpResponseBody": true
+      },
+      "zyte_browser": {
+        "browserHtml": true
+      },
+      "zyte_browser_scroll": {
+        "browserHtml": true,
+        "actions": [
+          {
+            "action": "scrollBottom"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+ "_설명": "검색 행 제품군 판별(사람 유지). 10월 step1_filter.py에서 그대로 읽음(AI 제안 규칙 포함, 03 문서 3장)",
+ "search_category_map": {
+  "refrig": "REF",
+  "wash": "W/M",
+  "dryer": "DRY"
+ },
+ "head_words": 4,
+ "negative": [
+  {
+   "name": "식기세척기",
+   "pattern": "dishwasher|vaatwas|myčk|zmywar|mosogatógép|lavar loiça|lavavajilla|lave[\\s-]?vaisselle|^lv |غسالة (?:ال)?(?:اطباق|أطباق|صحون)"
+  },
+  {
+   "name": "헤어드라이어",
+   "pattern": "hair ?dryer|secador(?:a)? de (?:cabello|pelo)|vysoušeč vlasů|suszarka do włosów|hajszárító|سشوار|مجفف شعر|sèche[\\s-]?cheveux|secador profesional|secador ionico"
+  },
+  {
+   "name": "빨래건조대",
+   "pattern": "wieszak|sušák|suszarka na (?:pranie|ubrania)|tendedero|secador de ropa plegable|ruhaszárító állvány|stendibiancheria"
+  },
+  {
+   "name": "스타일러",
+   "pattern": "styler"
+  },
+  {
+   "name": "기타 가전",
+   "pattern": "televis|\\btv\\b|microwave|mikrovln|mikrofal|micro[\\s-]?ondas|hob\\b|plaque|varná deska|płyta|expresso|espresso|kávovar|écouteur|earbuds|vacuum|vysavač|odkurzacz|aspirador|klimatizace|klimatyzac|air condition|cooker hood|okap|digestoř|oven\\b|trouba|piekarnik"
+  }
+ ],
+ "positive": {
+  "REF": "fridge|refrigerat|réfrigérat|refrigerador|koelkast|koel[\\s-]?vries|chladni|lednic|lodówk|hűtő|frigor|frigo\\b|ثلاج|side by side|french door|top mount|bottom mount|\\bcomb\\b|\\bref\\b|americain|américain|multi[\\s-]?portes|\\bsbs\\b|mini ?bar|cooler",
+  "W/M": "washer|washing|wasmachine|wasautomaat|pračk|pralk|mosógép|mosó-szárító|máquina de lavar(?! loiça)|lavadora|lavasecadora|غسال|lave[\\s-]?linge|machine à laver|\\bmal\\b|twin tub|semiautom",
+  "DRY": "dryer|droger|sušičk|suszark|szárító|máquina de secar|secadora|secarropa|نشاف|مجفف|sèche[\\s-]?linge|\\bsl\\b|\\bsech"
+ },
+ "freezer_head": "^(?:\\S+\\s+){0,2}(?:freezer|vriezer|mrazák|mraznička|zamrażarka|fagyasztószekrény|fagyasztóláda|congelador|congélateur|congelateur|chest freezer|upright freezer|deep freezer|ديب فريزر|فريزر)",
+ "freezer_combo_search": "combi|kombin|s mrazák|s mrazničk|z zamraż|fagyasztós|réfrigérateur|refrigera|lodówk|chladni|hűtő|geladeira|ثلاج|fridge|koel|frigor",
+ "freezer_combo_osm": "combi|kombin|frigo|réfrigérateur|refrigera|lodówk|chladni|hűtő|fridge|kühl|koel|kyl|ثلاج|geladeira|冰箱|tủ lạnh",
+ "freezer_note": "단독 냉동고(냉장고에 포함, 10-29 사용자 결정)",
+ "no_category_note": "제품군 단어 없음(검색어 제품군 따름)",
+ "part_suspect": "filtr|filter|tampa|cover|hose|wąż|hadice|tömlő|mangueira|manguera|bracket|soporte|podstav|podest|pedestal|stacking|łącznik|spojovac|gasket|uszczelk|těsnění|półk|polic|shelf|tray|cleaner|limpeza|odkamieniacz|odvápň|tablet|kapsuł|capsul|deterg|proszek|płyn|liquid|líquido|sacos?|worki|bag|remote|pilot|cable|kabel|replacement|náhradn|zamienn|alkatrész|repuesto|peça|diodo|lâmpada|bulb|kit(?!\\w)|adapter|adaptér|adapte|organizer|cesto|gaveta|basket|kosz|koš|ice maker|kostkarka|water ?filter|حامل|فلتر|قاعدة",
+ "part_suspect_memo": "부품 의심 단어(시트 밖, AI 추가)"
+}

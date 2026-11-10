@@ -1,0 +1,223 @@
+"""S2 1차 거르기: 상품명·주소만으로 브랜드 → 제품군 → 리리부 → 같은 요청 URL 중복 순서로 판정한다.
+
+페이지를 열어야 아는 판단(판매자, 실제 도착 주소)은 S3 이후에 한다. 규칙 값은 회차 폴더의 config에서 읽는다.
+"""
+import re
+from collections import Counter
+from urllib.parse import urlparse
+
+from common import ConfigError, RunPaths, get_logger, load_config, load_output_spec, new_parser, outputs_ready, read_csv, write_csv
+
+BRAND_STAGE, CATEGORY_STAGE, KEYWORD_STAGE, DUPLICATE_STAGE = "①브랜드", "②제품군", "③리리부", "④중복"
+KEEP, EXCLUDE, CHECK = "남김", "제외", "확인 필요"
+OSM_FLOW, SEARCH_FLOW = "OSM", "검색"
+SUMMARY_COLUMNS = ["흐름", "국가", "리테일러", "전체", BRAND_STAGE, CATEGORY_STAGE, KEYWORD_STAGE, DUPLICATE_STAGE, KEEP, CHECK]
+JUDGED_ELSEWHERE = ("브랜드", "제품코드", "페이지상태", "실제URL", "판매자", "판매자구분", "판매자근거")
+
+
+def brand_regex(brand):
+    parts = [re.escape(part) for part in brand.lower().replace("&", " ").split()]
+    return re.compile(r"(?<![a-z0-9])" + r"[\s\-_&+]*".join(parts) + r"(?![a-z0-9])")
+
+
+def url_words(url):
+    return urlparse(url).path.replace("/", " ").replace("-", " ").replace("_", " ")
+
+
+class Rules:
+    """설정 파일을 판정에 바로 쓸 수 있는 형태로 묶는다."""
+
+    def __init__(self, brands, keywords, categories, retailer_rules, s0_input):
+        self.brands, self.category_fallback, self.alias = brands["brands"], s0_input["category_fallback"], s0_input["country_alias"]
+        self.categories, self.retailer_rules = categories, retailer_rules
+        self.common = retailer_rules["common"]
+        self.keywords = {country: [(item["type"], item["keyword"], re.compile(r"(?<![\w])" + re.escape(item["keyword"]))) for item in items]
+                         for country, items in keywords["keywords"].items()}
+        self.brand_regexes = {}
+        self.page_rule_text = {(rule["country"], rule["retailer"]): rule["text"] for rule in retailer_rules["page_rule_text"]}
+
+    def country(self, name):
+        name = (name or "").strip()
+        return self.alias.get(name, name)
+
+    def target_brands(self, country, div):
+        category = {"D/W": "DW"}.get(div) or self.category_fallback.get(div, div)
+        return self.brands.get(country, {}).get(category, [])
+
+    def brands_in(self, text, targets):
+        lowered = text.lower()
+        found = []
+        for brand in targets:
+            regex = self.brand_regexes.setdefault(brand, brand_regex(brand))
+            arabic = self.common["arabic_brand_patterns"].get(brand.lower())
+            if regex.search(lowered) or (arabic and re.search(arabic, " ".join(lowered.split()[:3]))):
+                found.append(brand)
+        return found
+
+    def head(self, name):
+        return " ".join(re.split(r"\s+", name.strip().lower())[:self.categories["head_words"]])
+
+    def search_category(self, value):
+        lowered = value.lower()
+        return next((div for word, div in self.categories["search_category_map"].items() if word in lowered), "?")
+
+    def check_search_category(self, text):
+        """(결과, 이름). 결과는 제외·냉동고·통과·단어없음 중 하나다."""
+        lowered = text.lower()
+        for item in self.categories["negative"]:
+            if re.search(item["pattern"], lowered):
+                return "제외", item["name"]
+        if re.search(self.categories["freezer_head"], self.head(lowered)) and not re.search(self.categories["freezer_combo_search"], lowered):
+            return "냉동고", ""
+        if any(re.search(pattern, lowered) for pattern in self.categories["positive"].values()):
+            return "통과", ""
+        return "단어없음", ""
+
+    def keyword_hit(self, country, name):
+        lowered = name.lower()
+        return next(((kind, word) for kind, word, regex in self.keywords.get(country, []) if regex.search(lowered)), None)
+
+    def url_exclusion(self, row):
+        for rule in self.retailer_rules["url_exclusions"]:
+            if rule["country"] != row["국가"] or rule.get("retailer", row["리테일러"]) != row["리테일러"]:
+                continue
+            url = row["URL"].lower() if rule["ignore_case"] else row["URL"]
+            hit = next((word for word in rule["contains"] if word in url), None)
+            if hit:
+                return rule["reason"].format(hit=hit)
+        return None
+
+
+def osm_rows(path, source_name, rules, keep=lambda row: True):
+    _, rows = read_csv(path)
+    for row in rows:
+        if not keep(row):
+            continue
+        crawl = row.get("CRAWL_URL")
+        yield {"흐름": OSM_FLOW, "출처파일": source_name, "국가": rules.country(row["CNTRY"]), "리테일러": row["RTLR_NAME"].strip(), "제품군": row["DIV"],
+               "OSM브랜드": row["BRAND"], "상품명": row["PRODUCT_DESC"], "URL": crawl if crawl not in (None, "", "\\N") else row["RAW_URL"],
+               "원본URL": row["RAW_URL"], "기준일": row["RPT_DATE"], "검색어": "", "엑셀행번호": "", "광고여부": "", "OSM_RK": row["RK"], "OSM_SOURCE_TYPE": row["SOURCE_TYPE"]}
+
+
+def search_rows(path, source_name, rules):
+    _, rows = read_csv(path)
+    for row in rows:
+        yield {"흐름": SEARCH_FLOW, "출처파일": source_name, "국가": rules.country(row["국가"]), "리테일러": row["리테일러"].strip(), "제품군": rules.search_category(row["F열제품군"]),
+               "OSM브랜드": "", "상품명": row["상품명"], "URL": row["카드PDP링크"], "원본URL": row["카드PDP링크"], "기준일": row["수집시각"][:10],
+               "검색어": row["J열검색어"], "엑셀행번호": row["엑셀행번호"], "광고여부": row["광고여부"], "OSM_RK": "", "OSM_SOURCE_TYPE": ""}
+
+
+def judge(row, rules):
+    """(판정, 제외단계, 제외사유, 메모)를 돌려준다."""
+    country, div, name, url = row["국가"], row["제품군"], row["상품명"] or "", row["URL"]
+    memo, notes = [], []
+    common = rules.common
+    is_search = row["흐름"] == SEARCH_FLOW
+    dishwasher_outside = div == common["dishwasher_div"] and country not in common["dishwasher_countries"]
+    targets = rules.target_brands(country, div)
+    if is_search:
+        if div == "?":
+            return CHECK, CATEGORY_STAGE, "검색어 제품군 해석 불가", ""
+        found = rules.brands_in(f"{name} {url_words(url)}", targets)
+        if not found:
+            return EXCLUDE, BRAND_STAGE, "대상 브랜드 이름 없음(상품명·주소)", ""
+        if len(found) > 1:
+            memo.append("대상 브랜드 여러 개: " + ",".join(found))
+    elif not dishwasher_outside:
+        brand = (row["OSM브랜드"] or "").strip().upper()
+        if not targets:
+            return CHECK, BRAND_STAGE, f"경쟁브랜드 목록 없음({country} {div})", ""
+        if brand not in targets:
+            return EXCLUDE, BRAND_STAGE, f"대상 브랜드 아님({brand})", ""
+    if dishwasher_outside:
+        return EXCLUDE, CATEGORY_STAGE, common["dishwasher_reason"], ""
+    categories = rules.categories
+    if is_search:
+        result, category_name = rules.check_search_category(f"{name} {url_words(url)}")
+        if result == "제외":
+            return EXCLUDE, CATEGORY_STAGE, f"대상 제품군 아님({category_name})", ""
+        if result == "냉동고":
+            notes.append(categories["freezer_note"])
+        elif result == "단어없음":
+            notes.append(categories["no_category_note"])
+    elif re.search(categories["freezer_head"], rules.head(name)) and not re.search(categories["freezer_combo_osm"], name.lower()):
+        notes.append(categories["freezer_note"])
+    hit = rules.keyword_hit(country, name)
+    if hit:
+        return EXCLUDE, KEYWORD_STAGE, f'{hit[0]} 단어 "{hit[1]}"(제외키워드 시트)', ""
+    excluded = rules.url_exclusion(row)
+    if excluded:
+        return EXCLUDE, KEYWORD_STAGE, excluded, ""
+    if re.search(r"(?<![\w])(?:" + categories["part_suspect"] + ")", rules.head(name)):
+        memo.append(categories["part_suspect_memo"])
+    notes += [item["note"] for item in rules.retailer_rules["url_notes"] if item["retailer"] == row["리테일러"] and item["contains"] in url]
+    return (CHECK if memo else KEEP), "", "", "; ".join(memo + notes)
+
+
+def judge_all(rows, rules, columns):
+    """모든 행을 판정하고 내부판 열로 채운다. 제외되지 않은 행끼리 같은 국가·리테일러·요청 URL이면 뒤 행을 중복으로 뺀다."""
+    judged, first = [], {}
+    for number, row in enumerate(rows, start=1):
+        status, stage, reason, memo = judge(row, rules)
+        if status != EXCLUDE:
+            key = (row["국가"], row["리테일러"], row["URL"])
+            if key in first:
+                status, stage, reason = EXCLUDE, DUPLICATE_STAGE, f"같은 주소(대표 행 {first[key]})"
+            else:
+                first[key] = number
+        judged.append({**row, "행번호": str(number), "판정": status, "제외단계": stage, "제외사유": reason, "메모": memo,
+                       "페이지확인규칙": rules.page_rule_text.get((row["국가"], row["리테일러"]), ""), **{name: "" for name in JUDGED_ELSEWHERE}})
+    extra = set(judged[0]) ^ set(columns) if judged else set()
+    if extra:
+        raise ConfigError(f"S2 행의 열이 output.json과 다릅니다: {sorted(extra)}")
+    return judged
+
+
+def summarize(judged):
+    counts = {}
+    for row in judged:
+        key = (row["흐름"], row["국가"], row["리테일러"])
+        counter = counts.setdefault(key, Counter())
+        counter["전체"] += 1
+        counter[row["제외단계"] if row["판정"] == EXCLUDE else row["판정"]] += 1
+    return [{"흐름": flow, "국가": country, "리테일러": retailer, **{name: str(counter[name]) for name in SUMMARY_COLUMNS[3:]}}
+            for (flow, country, retailer), counter in sorted(counts.items())]
+
+
+def load_rules(run, data_run=None):
+    """data_run을 주면 브랜드·키워드만 그 회차 값을 쓴다(10월 대조용)."""
+    source = data_run or run
+    return Rules(load_config(source, "brands"), load_config(source, "keywords"), load_config(run, "categories"), load_config(run, "retailer_rules"), load_config(run, "s0_input"))
+
+
+def input_rows(run, rules):
+    folder = run.sub("candidates")
+    required = [folder / "osm_candidates.csv", folder / "search_cards.csv"]
+    missing = [path for path in required if not path.exists()]
+    if missing:
+        raise ConfigError("S2 입력이 없습니다: " + ", ".join(map(str, missing)))
+    rows = list(osm_rows(required[0], required[0].name, rules))
+    for path in (required[1], folder / "search_cards_manual.csv"):
+        if path.exists():
+            rows += search_rows(path, path.name, rules)
+    return rows
+
+
+def main(argv):
+    args = new_parser("S2 1차 거르기: 브랜드·제품군·리리부·요청 URL 중복").parse_args(argv)
+    run = RunPaths(args.month).create()
+    logger = get_logger(run, "s2")
+    folder = run.sub("judgments")
+    outputs = [folder / "step1.csv", folder / "step1_summary.csv"]
+    if outputs_ready(outputs, args.force):
+        logger.info("출력이 이미 있어 건너뜁니다(다시 하려면 --force)")
+        return 0
+    spec = load_output_spec(run)
+    if not {BRAND_STAGE, CATEGORY_STAGE, KEYWORD_STAGE, DUPLICATE_STAGE} <= set(spec.exclusion_stages):
+        raise ConfigError("output.json의 제외단계 값이 S2와 다릅니다")
+    rules = load_rules(run)
+    judged = judge_all(input_rows(run, rules), rules, spec.internal_columns)
+    write_csv(outputs[0], list(spec.internal_columns), judged, overwrite=args.force)
+    write_csv(outputs[1], SUMMARY_COLUMNS, summarize(judged), overwrite=args.force)
+    logger.info("S2 끝: %d행, 판정 %s", len(judged), dict(Counter(row["판정"] for row in judged)))
+    return 0
