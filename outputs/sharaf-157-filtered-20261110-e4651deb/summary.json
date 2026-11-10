@@ -1,0 +1,49 @@
+{
+  "raw_rows": 1239,
+  "states": {
+    "제외": 1123,
+    "포함": 116
+  },
+  "exclusion_stages": {
+    "①브랜드": 958,
+    "④중복": 165
+  },
+  "old_included": 16,
+  "overlap": 12,
+  "additional": 104,
+  "old_not_found": 4,
+  "pdp_reused": 82,
+  "pdp_new": 34,
+  "temporary_out_of_stock_kept": 0,
+  "per_brand": [
+    {
+      "brand": "LG",
+      "REF": 20,
+      "W/M": 20,
+      "additional": 36
+    },
+    {
+      "brand": "SAMSUNG",
+      "REF": 11,
+      "W/M": 13,
+      "additional": 24
+    },
+    {
+      "brand": "BOSCH",
+      "REF": 8,
+      "W/M": 11,
+      "additional": 13
+    },
+    {
+      "brand": "HISENSE",
+      "REF": 23,
+      "W/M": 10,
+      "additional": 31
+    }
+  ],
+  "validation": "All 1239 original rows and 14 original columns unchanged; unique included request/actual URLs; main seller and evidence present; five policy fixtures passed",
+  "source_raw_sha256": "249f7daac1071a0962bff8ce93cc3d38d00a17acba98823c1d07cd8fba740d8f",
+  "source_old_file": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v5_독일MediaMarkt13건제외반영_25개국_35개리테일러_전체판정_55997행_20261106.csv",
+  "failures": [],
+  "unresolved": []
+}

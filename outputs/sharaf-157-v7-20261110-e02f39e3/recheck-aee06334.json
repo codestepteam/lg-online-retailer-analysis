@@ -1,0 +1,82 @@
+{
+  "counts": [
+    {
+      "version": "v5",
+      "total": 55997,
+      "included": 10215,
+      "excluded": 45782,
+      "columns": 26,
+      "sharaf_total": 2793,
+      "sharaf_states": {
+        "제외": 2777,
+        "포함": 16
+      }
+    },
+    {
+      "version": "v6",
+      "total": 55997,
+      "included": 10211,
+      "excluded": 45786,
+      "columns": 26,
+      "sharaf_total": 2793,
+      "sharaf_states": {
+        "제외": 2777,
+        "포함": 16
+      }
+    },
+    {
+      "version": "v7",
+      "total": 54443,
+      "included": 10311,
+      "excluded": 44132,
+      "columns": 26,
+      "sharaf_total": 1239,
+      "sharaf_states": {
+        "제외": 1123,
+        "포함": 116
+      }
+    }
+  ],
+  "non_sharaf_changes_v5_to_v7": [
+    {
+      "row": "12136",
+      "country": "Netherlands",
+      "retailer": "MEDIAMARKT",
+      "before": "포함",
+      "after": "제외"
+    },
+    {
+      "row": "12222",
+      "country": "Netherlands",
+      "retailer": "MEDIAMARKT",
+      "before": "포함",
+      "after": "제외"
+    },
+    {
+      "row": "12243",
+      "country": "Netherlands",
+      "retailer": "MEDIAMARKT",
+      "before": "포함",
+      "after": "제외"
+    },
+    {
+      "row": "12765",
+      "country": "Netherlands",
+      "retailer": "MEDIAMARKT",
+      "before": "포함",
+      "after": "제외"
+    }
+  ],
+  "unchanged_other_rows_v6_to_v7": 53204,
+  "sharaf_overlap": 12,
+  "sharaf_additional": 104,
+  "sharaf_old_missing": 4,
+  "download_copy_identical": true,
+  "arithmetic": {
+    "v5_to_v7_included": "10215 - 4 + 100 = 10311 (+96)",
+    "v6_to_v7_included": "10211 + 100 = 10311",
+    "rows": "55997 - 2793 + 1239 = 54443"
+  },
+  "errors": [],
+  "checked_v7_sha256": "731aaa3c9e7e0d91bbbc00df458a0be29928c1e4e68a6bf1c10c8c0a380b581e"
+}

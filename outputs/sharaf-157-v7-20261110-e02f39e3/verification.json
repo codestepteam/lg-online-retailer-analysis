@@ -1,0 +1,47 @@
+{
+  "rows": 54443,
+  "columns": 26,
+  "v6": {
+    "포함": 10211,
+    "제외": 45786
+  },
+  "v7": {
+    "포함": 10311,
+    "제외": 44132
+  },
+  "included_increase": 100,
+  "other_rows_unchanged": 53204,
+  "sharaf": {
+    "rows": 1239,
+    "included": 116,
+    "excluded": 1123,
+    "overlap": 12,
+    "additional": 104,
+    "old_not_found": 4
+  },
+  "brand_included": {
+    "LG": 40,
+    "BOSCH": 19,
+    "SAMSUNG": 24,
+    "HISENSE": 33
+  },
+  "countries": 25,
+  "retailer_country_pairs": 35,
+  "new_row_id_range": [
+    55998,
+    57236
+  ],
+  "all_original_source_hashes_unchanged": true,
+  "copies_identical": true,
+  "v7_sha256": "731aaa3c9e7e0d91bbbc00df458a0be29928c1e4e68a6bf1c10c8c0a380b581e",
+  "csv_failures": [],
+  "commands": [
+    "python3 build_v7.py",
+    "node export_v7.mjs",
+    "python3 build_v7.py --verify"
+  ],
+  "output_paths": [
+    "/Users/codestepseunghee/codestep/lg-online-retailer-analysis/pdp 모수 추출/최종_20261029/PDP모수_공유용_v7_SharafDG직판재조사교체_25개국_35개리테일러_전체판정_54443행_20261110.csv",
+    "/Users/codestepseunghee/Downloads/PDP모수_공유용_v7_SharafDG직판재조사교체_25개국_35개리테일러_전체판정_54443행_20261110.csv"
+  ]
+}

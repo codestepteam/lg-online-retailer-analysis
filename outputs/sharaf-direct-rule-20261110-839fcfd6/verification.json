@@ -1,0 +1,109 @@
+{
+  "scope": "로컬 PDP 모수 자동화, runs/2026-11 설정",
+  "terms": [
+    {
+      "excel_row": 157,
+      "keyword": "bottom freezer refrigerator",
+      "first_page": "https://uae.sharafdg.com/?q=bottom%20freezer%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=bottom%20freezer%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 158,
+      "keyword": "french door refrigerator",
+      "first_page": "https://uae.sharafdg.com/?q=french%20door%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=french%20door%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 159,
+      "keyword": "refrigerator",
+      "first_page": "https://uae.sharafdg.com/?q=refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 160,
+      "keyword": "side by side fridge",
+      "first_page": "https://uae.sharafdg.com/?q=side%20by%20side%20fridge&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=side%20by%20side%20fridge&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 161,
+      "keyword": "top freezer refrigerator",
+      "first_page": "https://uae.sharafdg.com/?q=top%20freezer%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=top%20freezer%20refrigerator&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 162,
+      "keyword": "front load washer",
+      "first_page": "https://uae.sharafdg.com/?q=front%20load%20washer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=front%20load%20washer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 163,
+      "keyword": "top load washer",
+      "first_page": "https://uae.sharafdg.com/?q=top%20load%20washer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=top%20load%20washer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 164,
+      "keyword": "washer dryer",
+      "first_page": "https://uae.sharafdg.com/?q=washer%20dryer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=washer%20dryer&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    },
+    {
+      "excel_row": 165,
+      "keyword": "washing machine",
+      "first_page": "https://uae.sharafdg.com/?q=washing%20machine&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product",
+      "second_page": "https://uae.sharafdg.com/?q=washing%20machine&dFR[promotion_offer_json.seller_code][0]=sdg&dFR[promotion_offer_json.seller_code][1]=sdg_online_excl&post_type=product&page_number=2"
+    }
+  ],
+  "before_after": [
+    {
+      "item": "PDP 모수 검색 시작",
+      "before": "검색어·post_type만 지정(직판 조건 없음)",
+      "after": "직판 판매자 조건 sdg 및 sdg_online_excl 지정"
+    },
+    {
+      "item": "페이지 이동",
+      "before": "응답 도착 주소 그대로 사용",
+      "after": "필수 직판 조건 유지·누락 시 요청에서 복원"
+    },
+    {
+      "item": "응답에서 직판 조건 유실",
+      "before": "일반 결과로 처리 가능",
+      "after": "수집 실패로 기록"
+    },
+    {
+      "item": "과거 무필터 이어받기",
+      "before": "같은 검색어·페이지 키로 재사용 가능",
+      "after": "필수조건 포함 시작 URL로 캐시 구분; 기존 무필터 CSV는 완료로 건너뛰지 않음"
+    },
+    {
+      "item": "PDP promo URL",
+      "before": "카드 링크 보존",
+      "after": "기존 동작 유지·회귀 시험에 보존 조건 추가"
+    }
+  ],
+  "tests": {
+    "targeted": {
+      "command": "python -B -m unittest discover -s tests -p test_s1b_search.py -v",
+      "count": 65,
+      "result": "OK"
+    },
+    "regression": {
+      "command": "python -B -m unittest discover -s tests -q",
+      "count": 317,
+      "result": "OK",
+      "seconds": 14.493
+    },
+    "new_sharaf_cases": 8
+  },
+  "paid_calls": 0,
+  "live_zyte_collection": "실행하지 않음",
+  "failures": [],
+  "file_hashes": {
+    "pdp 모수 자동화/pipeline/s1b_search.py": "bf5ba951bd61dc582901f1109809cf12984f7ad2391e5a9b69d966074b2c3b75",
+    "pdp 모수 자동화/pipeline/tests/test_s1b_search.py": "c0e6d5cb501b5749f459b33182da22aa7520efcabb29012552d59f06fd07cd1d",
+    "pdp 모수 자동화/runs/2026-11/config/search_urls.json": "7c21f26957964c0cd0f5b577136a558e10e56fd233aaf7f7e406d41d99c01adf",
+    "pdp 모수 자동화/runs/2026-11/config/retailer_rules.json": "c04374d18a138f4b397d07c6642342e19096d296827dfd166d6f5518770fd7e9"
+  }
+}
