@@ -1,0 +1,82 @@
+{
+  "archive": "/Users/codestepseunghee/.codex/local-archives/lg-online-retailer-analysis/20261110-96d5463e",
+  "moved_files": 11,
+  "bytes": 122795936,
+  "deleted_files": 0,
+  "restore": "archive 아래 상대 경로를 저장소의 같은 위치로 복사한다. 기존 파일이 있으면 덮어쓰지 않고 먼저 비교한다.",
+  "files": [
+    {
+      "original_path": "outputs/sharaf-157-v7-20261110-e02f39e3/prepared.json",
+      "size": 36469962,
+      "sha256": "437b21be2c530c7da7f81d2ca17c131309e52f81adf770ba209a3afb1f5fb15a"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/candidates/osm_audit.jsonl",
+      "size": 75154433,
+      "sha256": "0a50344a6750bcb838215b8c752242b24e567ee083e8f8423c52f4aea52e6932"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/candidates/osm_candidates.csv",
+      "size": 10409847,
+      "sha256": "1c7a71556c9786ffbc1600689ef6f2263eb4fcb93a03da2253666d24bc2593c0"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/logs/s0.log",
+      "size": 658,
+      "sha256": "4ba24bfe73fb8aaee6ee85f7bbac4d2741821e944cd84f20d6f4ca9972aae8f5"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/logs/s1a.log",
+      "size": 3676,
+      "sha256": "515455a6a563b5d94e3176710727e128d9d49ba45fe3e5aa8a3d175fa42fbabc"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/logs/s1b.log",
+      "size": 3703,
+      "sha256": "d6988c22076366de52acfb78ec62b50d494ca1065703bc0f3c34d69a67842138"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/logs/s2.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_path": "pdp 모수 자동화/runs/2026-11/logs/s3.log",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_path": "outputs/sharaf-157-raw-toggle-20261110-267a8cbc/progress.json",
+      "size": 339,
+      "sha256": "2af5d31624d3830e4101cd2669883861ef49b1cd732565e668c2c610fdb07d31"
+    },
+    {
+      "original_path": "outputs/sharaf-157-october-filter-20261110/pdp-progress.json",
+      "size": 751006,
+      "sha256": "314a4b50aa6b6a43be4a1d9ab65ef52e43b4be36f592104fb3651755a5a59762"
+    },
+    {
+      "original_path": "outputs/sharaf-157-v6-preview-20261110-c268dd76/preview.json",
+      "size": 2312,
+      "sha256": "180b088883f5672abadb01aa280952af089e946faa4abe1d80827e96c72761b3"
+    }
+  ],
+  "validation": {
+    "pipeline_unittest": 317,
+    "research_hook_unittest": 17,
+    "v6_scope_unittest": 5,
+    "v6_rows": 55997,
+    "v6_included": 10211,
+    "v7_rows": 54443,
+    "v7_included": 10311,
+    "unchanged_other_retailer_rows": 53204,
+    "fake_ignore_paths": 7,
+    "fake_retained_paths": 4,
+    "python_syntax_files": 53,
+    "javascript_syntax_files": 2,
+    "json_syntax_files": 60,
+    "local_links_checked": 393,
+    "new_broken_local_links": 0,
+    "preexisting_broken_links": 2
+  }
+}

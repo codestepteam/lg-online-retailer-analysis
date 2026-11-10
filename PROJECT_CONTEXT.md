@@ -21,7 +21,7 @@
 
 2026-11-04 확인: `lg-pipeline` 로컬 작업 폴더에 LG GCP 운영용 [lg-console-ops](../lg-pipeline/.agents/skills/lg-console-ops/SKILL.md)와 읽기 전용 조회용 [lg-console-insight](../lg-pipeline/.agents/skills/lg-console-insight/SKILL.md)를 원격 `main`에서 가져왔다. `lgops jobs`와 `lg-console-insight`의 회차 조회가 동작했다. 로컬 파일 반영이며 운영 변경·원격 push는 하지 않았다.
 
-2026-11-04 보고용 대시보드: `main`의 4개 커밋을 `release`에 병합한 `8820d26`을 LG GCP VM 73에 배포했다. [이미지 빌드](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/41778504127)와 `lgops` 배포 작업 `job-20261104-052018-dac0c8`이 성공했고 healthz는 새 커밋으로 HTTP 200을 반환했다. 내부 브라우저의 사내망 화면 접속은 시간 초과로 직접 확인하지 못했다.
+2026-11-09 보고용 대시보드: `main`의 `9af9296`을 포함한 `release` 병합 커밋 `e161b88`을 LG GCP VM 73에 배포했다. [이미지 빌드](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/42601634636)와 `lgops` 작업 `job-20261109-103447-9e75ed`이 성공했고 실행기 HEAD·healthz HTTP 200의 release가 일치했다. 내부 브라우저의 사내망 화면 접속은 시간 초과로 직접 확인하지 못했다.
 
 ## 왜 이 프로젝트를 하는가
 
@@ -48,6 +48,10 @@ LG전자 HS 제품이 외부 리테일러에서도 LG.com과 일관된 제품 �
 - 실행 장소는 GCP 실행 서버 `lg-pipeline-runner`(europe-west1)다. 쓸 때만 켜고 다 쓰면 끈다. [lg-pipeline 실행 서버 안내](../lg-pipeline/deploy/gcp/runner/README.md)
 - 파일(HTML·이미지·Observation)은 GCS `gs://lg-content-capture-20260909-assets/blobs/` 아래에 내용 해시 이름으로 저장한다. 어떤 결과가 현재 값인지는 Cloud SQL이 정하고, 바뀌기 전 값은 이력 표에 남긴다. 대시보드는 Cloud SQL에서 결과를 읽고, 근거 파일은 GCS에서 읽는다.
 - PLP(ID 1·2·3·4·11) 매일 수집은 2026-10-11까지 `lg-crawling`(맥)에서 돌았고, 그 뒤로 `lg-pipeline`의 `python -m pipeline.plp`로 옮겨 GCP 실행 서버에서 돈다. [lg-pipeline PLP 매일 수집](../lg-pipeline/docs/plp-daily.md)
+
+- **PLP 일일 복구 반영(2026-11-09):** 수집·파서·복구 검증 수정 `0e71866e8`을 main과 VM 복구 작업자·09시 예약 bootstrap에 반영했다.
+  당일 미해결 8페이지는 r1 게시·11월 회차 revision 61 및 원본 대조·보관 검증까지 완료했다. 다음 예약의 실제 자동 완료는 아직 미확인이다.
+  근거: [복구·배포 메모](docs/updates/2026-11-09/0309e7ab0854bf2bb0eea300bbe9d836.md).
 
 ### BCP에 직접 관련된 변화
 
