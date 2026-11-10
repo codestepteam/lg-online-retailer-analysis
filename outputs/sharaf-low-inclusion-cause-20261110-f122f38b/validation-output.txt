@@ -1,0 +1,57 @@
+new fields ['엑셀행번호', '국가', '리테일러', 'F열제품군', 'J열검색어', '최종검색결과URL', '페이지번호', '카드순번', '상품명', '카드PDP링크', '광고여부', '표시된전체수', '수집시각', '접속국가', '원본행번호', '브랜드', '판정제품군', '모수 포함 여부', '제외단계', '판정사유', '메모', '대표원본행번호', '판매자', '실제도착URL', '상세확인시각', '상세확인근거', '재고참고', '기존16개비교', '기존행번호', '기존URL', '기존상품URL변경']
+{
+  "old_decision_stages": {
+    "①브랜드": 2188,
+    "③리리부": 250,
+    "포함": 16,
+    "④중복": 336,
+    "②제품군": 3
+  },
+  "historical_parsed_sellers": {
+    "외부판매자": 241,
+    "직판": 25
+  },
+  "new_included_vs_old": {
+    "기존 포함": 12,
+    "기존 외부 판매자 제외": 93,
+    "기존 원본에 상품 경로 없음": 11
+  },
+  "same_day_search_pairs": [
+    {
+      "title": "Bosch Bottom Freezer 687 Litres KGD86AI31M",
+      "sku": "S400909166",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-687-litres-kgd86ai31m/?promo=3439136",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-687-litres-kgd86ai31m/?promo=3412808",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29748"
+      ]
+    },
+    {
+      "title": "Samsung Bottom Freezer 505 Litres RB50DG632ES9AE",
+      "sku": "S400885597",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/samsung-bottom-freezer-505-litres-rb50dg632es9ae/?promo=3299341",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/samsung-bottom-freezer-505-litres-rb50dg632es9ae/?promo=4022888",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29753"
+      ]
+    },
+    {
+      "title": "Bosch Bottom Freezer 682 Litres KGN86AI31M",
+      "sku": "S300843100",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-682-litres-kgn86ai31m/?promo=3439103",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-682-litres-kgn86ai31m/?promo=2960676",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29758"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "source_v6": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v6_헝가리네덜란드MediaMarkt규칙반영_25개국_35개리테일러_전체판정_55997행_20261110.csv",
+  "source_v6_sha256": "17cdc73bb68a4bcb84a8f983104f4223f9e233f6aa2a8de7dac127923a8f96e7",
+  "old_raw_pages": 63,
+  "old_raw_rows": 2793,
+  "old_decision_stages": {
+    "①브랜드": 2188,
+    "③리리부": 250,
+    "포함": 16,
+    "④중복": 336,
+    "②제품군": 3
+  },
+  "historical_unique_pdp_checks": 266,
+  "historical_request_vs_actual_url_differences": 0,
+  "historical_parsed_sellers": {
+    "외부판매자": 241,
+    "직판": 25
+  },
+  "original_direct25_later_removed": 9,
+  "new_included_vs_old": {
+    "기존 포함": 12,
+    "기존 외부 판매자 제외": 93,
+    "기존 원본에 상품 경로 없음": 11
+  },
+  "same_day_search_pairs": [
+    {
+      "title": "Bosch Bottom Freezer 687 Litres KGD86AI31M",
+      "sku": "S400909166",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-687-litres-kgd86ai31m/?promo=3439136",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-687-litres-kgd86ai31m/?promo=3412808",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29748"
+      ]
+    },
+    {
+      "title": "Samsung Bottom Freezer 505 Litres RB50DG632ES9AE",
+      "sku": "S400885597",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/samsung-bottom-freezer-505-litres-rb50dg632es9ae/?promo=3299341",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/samsung-bottom-freezer-505-litres-rb50dg632es9ae/?promo=4022888",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29753"
+      ]
+    },
+    {
+      "title": "Bosch Bottom Freezer 682 Litres KGN86AI31M",
+      "sku": "S300843100",
+      "off_seller": "Digital Empire",
+      "off_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-682-litres-kgn86ai31m/?promo=3439103",
+      "on_seller": "Sharaf DG",
+      "on_url": "https://uae.sharafdg.com/product/bosch-bottom-freezer-682-litres-kgn86ai31m/?promo=2960676",
+      "same_external_url_found_in_october_exclusions": true,
+      "old_rows": [
+        "29758"
+      ]
+    }
+  ],
+  "observed_off_at": "2026-11-10T06:17:53.693Z",
+  "observed_on_at": "2026-11-10T06:18:33.423Z",
+  "interpretation": "기존 코드는 목록의 대표 판매 제안 URL만 수집하고 외부 판매자 제외 뒤 같은 제품의 직판 URL을 추가로 찾지 않는다. 93개 제품의 기존 제외와 현재 직판 포함을 대조했다.",
+  "limits": [
+    "당시 상세 페이지 HTML을 현재 확인할 수 없어 기존 첫 seller_name 파서의 외부 판매자 241건 판정 전체를 재검증할 수 없다.",
+    "10월 28일에 현재 직판 판매 제안이 존재했는지, 93건 모두 토글만으로 바뀐 것인지는 확정하지 않았다.",
+    "동일 시점 토글 비교는 검색어 1개의 첫 48개 카드이며 전체 9개 검색어 비교가 아니다."
+  ]
+}
