@@ -1,0 +1,21 @@
+{
+  "reason": "추천 영역을 제외한 뒤 보조 파서가 페이지 전체 판매자 문구를 다시 읽는 오탐을 가짜 입력으로 재현해 차단. 스페인도 본 상품 영역 검사에 연결. 유료 수집 URL·방식·546회·재시도0·HU/NL 규칙 단어는 변경 없음.",
+  "previous_code_sha256": "05a8ca5dccc3573d4ef1dbfc9f8f47519e43341a939564c69f1ca03c3a49868f",
+  "code_sha256": "877d949ea2d36948c0bf3d2a60964a8d96d049b239949efe8af45294d8a424cc",
+  "paid_scope_changed": false,
+  "initial_plan": "plan_initial.json",
+  "initial_parser": "parser_initial/",
+  "followup": {
+    "reason": "제외 후보12765의 본 상품 영역에 Refurbished: Zeer goed(리퍼비시: 매우 좋음)가 직접 표시됨. 이미 제외되는 판매 제안의 사유를 외부판매자에서 리퍼·중고로 구분하며 추가 제외 조건·유료 호출은 늘리지 않음.",
+    "previous_code_sha256": "877d949ea2d36948c0bf3d2a60964a8d96d049b239949efe8af45294d8a424cc",
+    "code_sha256": "adb86eb2c87478cd17115abbf82eb8a3b760f622414189286da99826b4dcfd05",
+    "previous_rules_sha256": "b15daeb66040f37de46b899eca9ebe6d529739054c1a5f696157c6ff11059a38",
+    "rules_sha256": "1d99204a469a50a303c4e6f684f1222fe4f186b138ed2612b182cf72cd7518f5",
+    "initial_rules": "rules_snapshot_initial.json"
+  },
+  "missing_heading_guard": {
+    "reason": "PDP 본 상품 h1 제목이 없으면 내부 직판 값만으로 직판 확정하지 않음. 본 상품 마켓플레이스 확정 제외(D070)는 유지. v6 실행기는 원래부터 제목 없음 시 생성 차단.",
+    "previous_code_sha256": "adb86eb2c87478cd17115abbf82eb8a3b760f622414189286da99826b4dcfd05",
+    "code_sha256": "e06732867aa24b1f3edaf7dc0c8ffbfefe470384ae2dc68069950ff72b6a75aa"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "audited_at": "2026-11-10 Asia/Seoul",
+  "original_sql": "pdp 모수 추출/osm_target_extract_deuk_110.sql",
+  "original_git_commit": "12d6de5",
+  "sql_unchanged_since_commit": true,
+  "original_sql_sha256": "63c850c2bcafe8c45daa691b7c22a648bfc9c5aff803864575b418bd73892891",
+  "saved_rows": 370,
+  "replay_rows": 370,
+  "key_diff_count": 0,
+  "selected_field_diff_count": 0,
+  "compared_fields": [
+    "RPT_DATE",
+    "CNTRY",
+    "RTLR_NAME",
+    "BRAND",
+    "DIV",
+    "RPC",
+    "MPC",
+    "CAT_URL_ADDR",
+    "RAW_URL",
+    "MODEL_DEDUP_KEY",
+    "SOURCE_TYPE"
+  ],
+  "all_brand_by_group": {
+    "DRY": 40,
+    "REF": 190,
+    "W/M": 140
+  },
+  "lg_count": 116,
+  "lg_by_group": {
+    "DRY": 8,
+    "REF": 64,
+    "W/M": 44
+  },
+  "cap": 2000,
+  "cap_activated_for_mediamarkt_de": false,
+  "lg_url_normalization_changed_count": 0,
+  "lg_l2_exact_profiles": [
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": null,
+      "row_count": 1,
+      "distinct_raw_urls": 1,
+      "distinct_clean_urls": 1
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Bluetooth Speaker_AV",
+      "row_count": 6,
+      "distinct_raw_urls": 5,
+      "distinct_clean_urls": 5
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Dryer_HA",
+      "row_count": 9,
+      "distinct_raw_urls": 8,
+      "distinct_clean_urls": 8
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Monitor_IT",
+      "row_count": 57,
+      "distinct_raw_urls": 34,
+      "distinct_clean_urls": 34
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Refrigerator_HA",
+      "row_count": 85,
+      "distinct_raw_urls": 52,
+      "distinct_clean_urls": 52
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Soundbar_AV",
+      "row_count": 37,
+      "distinct_raw_urls": 29,
+      "distinct_clean_urls": 29
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "TV_HE",
+      "row_count": 478,
+      "distinct_raw_urls": 65,
+      "distinct_clean_urls": 65
+    },
+    {
+      "source": "BANR_VSBLT",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Washing Machine_HA",
+      "row_count": 45,
+      "distinct_raw_urls": 31,
+      "distinct_clean_urls": 31
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Bluetooth Speaker_AV",
+      "row_count": 5,
+      "distinct_raw_urls": 2,
+      "distinct_clean_urls": 2
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Monitor_IT",
+      "row_count": 205,
+      "distinct_raw_urls": 71,
+      "distinct_clean_urls": 71
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Refrigerator_HA",
+      "row_count": 109,
+      "distinct_raw_urls": 61,
+      "distinct_clean_urls": 61
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Soundbar_AV",
+      "row_count": 76,
+      "distinct_raw_urls": 18,
+      "distinct_clean_urls": 18
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "TV_HE",
+      "row_count": 234,
+      "distinct_raw_urls": 69,
+      "distinct_clean_urls": 69
+    },
+    {
+      "source": "SALE_RK",
+      "data_date": "2026-10-26",
+      "country": "Germany",
+      "retailer": "MEDIAMARKT",
+      "brand": "LG",
+      "category": "Washing Machine_HA",
+      "row_count": 78,
+      "distinct_raw_urls": 40,
+      "distinct_clean_urls": 40
+    }
+  ],
+  "shared_versions": {
+    "v4": {
+      "source_file": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v4_두레이157-159제외반영_25개국_35개리테일러_전체판정_55997행_20261106.csv",
+      "candidate_count": 116,
+      "included": 73,
+      "excluded": 43,
+      "included_by_group": {
+        "DRY": 7,
+        "REF": 38,
+        "W/M": 28
+      }
+    },
+    "v5": {
+      "source_file": "pdp 모수 추출/최종_20261029/PDP모수_공유용_v5_독일MediaMarkt13건제외반영_25개국_35개리테일러_전체판정_55997행_20261106.csv",
+      "candidate_count": 116,
+      "included": 67,
+      "excluded": 49,
+      "included_by_group": {
+        "DRY": 5,
+        "REF": 35,
+        "W/M": 27
+      }
+    }
+  },
+  "saved_date_comparison": {
+    "2026-10-26": {
+      "count": 116,
+      "by_group": {
+        "DRY": 8,
+        "REF": 64,
+        "W/M": 44
+      }
+    },
+    "2026-10-27": {
+      "count": 129,
+      "by_group": {
+        "DRY": 10,
+        "REF": 70,
+        "W/M": 49
+      }
+    }
+  },
+  "saved_27_only_urls": [
+    "https://www.mediamarkt.de/de/product/_lg-electronics-f0wvt202-waschmaschine-20-kg-b-145727262.html",
+    "https://www.mediamarkt.de/de/product/_lg-electronics-gbbw726cpy-kuhl-gefrierkombination-c-203-cm-hoch-silber-161653711.html",
+    "https://www.mediamarkt.de/de/product/_lg-f-11-wm-17-ts2abwqvdg-waschmaschine-17-kg-1060-umin-e-107250950.html",
+    "https://www.mediamarkt.de/de/product/_lg-f-6-wv-710-p-2-sablqpdg-serie-7-waschmaschine-105-kg-1560-umin-a-107250312.html",
+    "https://www.mediamarkt.de/de/product/_lg-f4wb309y-waschmaschine-9-kg-1310-umin-a-2964073.html",
+    "https://www.mediamarkt.de/de/product/_lg-gbb-92-mbb3pambqedg-serie-9-kuhlgefrierkombination-a-88-kwh-2030-mm-hoch-metal-sorbet-152439410.html",
+    "https://www.mediamarkt.de/de/product/_lg-gbg5160cev-instaviewr-kuhlgefrierkombination-c-349-l-1860-mm-hoch-essence-black-steel--2974518.html",
+    "https://www.mediamarkt.de/de/product/_lg-gbv-7280-aevaevqeur-2923677.html",
+    "https://www.mediamarkt.de/de/product/_lg-gbv5140amb-total-no-frost-kuhlgefrierkombination-a-344-l-1860-mm-hoch-prime-silver-2989330.html",
+    "https://www.mediamarkt.de/de/product/_lg-gml861pype-side-by-side-e-1787-cm-hoch-silver-154601242.html",
+    "https://www.mediamarkt.de/de/product/_lg-gsle-91-evacaevqedg-l-serie-side-by-side-c-1790-mm-hoch-essence-black-steel-166266035.html",
+    "https://www.mediamarkt.de/de/product/_lg-gsle91mbab-side-by-side-kuhlkombinationen-b-179-cm-hoch-edelstahl-166034243.html",
+    "https://www.mediamarkt.de/de/product/_lg-rt10x7-warmepumpentrockner-x7-10-kg-essence-white-3047841.html",
+    "https://www.mediamarkt.de/de/product/_lg-rt10x7b-warmepumpentrockner-x7-10-kg-mattblack-3047844.html",
+    "https://www.mediamarkt.de/de/product/_lg-rt90x8c-warmepumpentrockner-serie-x8-9-kg-essence-white-3069691.html",
+    "https://www.mediamarkt.de/de/product/_lg-v-7-wd-96-h1a-waschtrockner-9-kg-6-kg-1360-umin-145193218.html",
+    "https://www.mediamarkt.de/de/product/_lg-w4wr70e6yb-serie-7-waschtrockner-11-kg-6-kg-1360-umin-2886367.html"
+  ],
+  "saved_26_only_urls": [
+    "https://www.mediamarkt.de/de/product/_lg-gmg-960-eveeaevqeur-instaviewr-multi-door-mit-craft-ice-french-door-e-1792-mm-hoch-essence-black-steel-146843098.html",
+    "https://www.mediamarkt.de/de/product/_lg-instaview-gmv860epde-instaview-side-by-side-kuhlkombinationen-e-1787-cm-hoch-schwarz-152006384.html",
+    "https://www.mediamarkt.de/de/product/_lg-rt-10-x-7-b-warmepumpentrockner-10-kg-179209922.html",
+    "https://www.mediamarkt.de/de/product/_lg-v5wd906-waschtrockner-9-kg-6-kg-1360-umin-177611618.html"
+  ],
+  "queries_and_results": {
+    "source_profiles.sql": "source_profiles.jsonl",
+    "replay_old_query.sql": "replay_old_query.jsonl"
+  },
+  "limits": [
+    "Replay reads the current stored 2026-10-26 partitions, not a time-travel snapshot of 2026-10-29 execution.",
+    "L1 detail table was profiled but its URL set was not compared with L2 candidates.",
+    "The 99 live URLs in Dooray #175 were not supplied as a full URL list and were not compared individually."
+  ]
+}
