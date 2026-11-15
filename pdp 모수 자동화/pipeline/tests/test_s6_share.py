@@ -16,7 +16,7 @@ import s6_share as s6
 RUN = common.RunPaths("2026-11")
 SPEC = common.load_output_spec(RUN)
 OCTOBER = common.REPO_ROOT / "pdp 모수 추출" / "최종_20261029"
-V5 = common.REPO_ROOT / common.load_config(RUN, "output")["previous_share"]
+V5 = common.REPO_ROOT / common.load_config(RUN, "output")["october_reference_share"]
 
 
 def october_file(name):

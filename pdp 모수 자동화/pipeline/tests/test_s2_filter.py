@@ -79,6 +79,8 @@ class Judge(unittest.TestCase):
 
     def test_arabic_brand_is_found(self):
         self.assertEqual(self.rules.brands_in("ثلاجة ال جي 300 لتر", ["LG"]), ["LG"])
+        self.assertEqual(self.rules.brands_in("ال جى غسالة ملابس 8 كيلو", ["LG"]), ["LG"])  # 끝 글자가 ى인 표기(Cairo Sales 10월 3행)
+        self.assertEqual(self.rules.brands_in("غسالة الجيل الجديد 8 كيلو", ["LG"]), [])  # 다른 단어의 앞부분은 LG로 보지 않는다
 
     def test_unknown_search_category_needs_check(self):
         self.assertEqual(s2.judge(search(제품군="?"), self.rules)[:2], (s2.CHECK, s2.CATEGORY_STAGE))
@@ -183,11 +185,11 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7346, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "행별 사람 결정(EY·사용자)": 30}))
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7346, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "행별 사람 결정(EY·사용자)": 27}))  # 27 = Electroplanet 23 + RTV_EURO_AGD 3 + COSTCO 1(모두 10월에 사람이 ②제품군으로 뺀 행). Cairo Sales `ال جى` 3행은 2026-11-14 무늬 수정으로 v5와 같아짐
 
     def test_duplicate_representatives_match(self):
         pairs = [(new["제외사유"], old["제외사유"]) for new, old in zip(self.new, self.old) if new["제외단계"] == s2.DUPLICATE_STAGE]
-        self.assertEqual(len(pairs), 6895)
+        self.assertEqual(len(pairs), 6897)  # Cairo Sales `ال جى` 2행이 v5처럼 같은 주소 중복으로 잡힘(2026-11-14)
         self.assertTrue(all(new == old for new, old in pairs))
 
 

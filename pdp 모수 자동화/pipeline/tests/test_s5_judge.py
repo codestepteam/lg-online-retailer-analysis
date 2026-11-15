@@ -219,7 +219,7 @@ def v5_path():
 
 
 def load_previous():
-    return common.load_config(RUN, "output")["previous_share"]
+    return common.load_config(RUN, "output")["october_reference_share"]  # 10월 대조 기준은 v5 고정(D124). 전월 비교용 previous_share와 따로 둔다
 
 
 @unittest.skipUnless((common.REPO_ROOT / load_previous()).exists(), "10월 v5 파일이 없습니다")
