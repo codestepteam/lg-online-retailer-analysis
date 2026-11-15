@@ -308,6 +308,8 @@ ID9·10은 D018에서 변경하지 않았다. 이후 D019에 따른 ID8 이미�
 
 2026-11-09 D120: Overview를 경영자용 문제 우선 요약으로 바꿔 리테일러명·제품군·취약 항목부터 제시하고 미달 지속·범위·경쟁격차를 함께 판단한다. 백분율·증감3개 이내와 마지막 경영진 대응 영역을 지시하며 로컬 dev57e4a60에 구현해 Opus 한영 생성·표/다른 문구 보존과 백엔드316개 검사를 확인했다. 후속 변경과 함께 dev 푸시는 완료했고 동일 버전을 main에도 푸시해 운영 배포를 완료했다. [프롬프트 변경·검증](../../lge-hs-clinic-dashboard/docs/verification/report-overview-issues-20261109.md).
 
+2026-11-11 D130: 로컬에서 공통 금지·근거 규칙을 한 번 보내고 문구별 지시를 요청에 맞춰 붙인다. Overview는 문제 우선 4~5문장을 유지하며 필요한 수치를 선별하도록 문장 순서와 수치 3개 제한을 해제한다. [현행 문구 규칙](../../lge-hs-clinic-dashboard/docs/reporting/admin-console.md#문구와-데이터-분리).
+
 2026-11-09 D121: 보고서의 리테일러별 성과·검색 순위·Samsung 비교에 경영자용 진단 지시와 동일 저장 버전의 산술 기여 근거를 추가했다. 로컬 실제 Opus 한영 생성·표 보존·백엔드326개·분석값232개 대조를 확인해0fba1aa로 커밋·dev 푸시했으며 동일 버전을 main에도 푸시해 운영 배포를 완료했다. [변경과 근거](../../lge-hs-clinic-dashboard/docs/verification/report-executive-diagnostics-20261109.md).
 
 2026-11-09 D123: 두 표의 최대 증감 설명 문구를 출력·AI 생성·편집에서 제외했다. 이전 저장본의 완료 상태는 유지하며 로컬 기존 보고서에서 설명 자리0개·수치 보존·한영 회귀313개·두 표 화면을 확인해9af9296으로 커밋했다. 기존6개와 기여 분석 커밋을 합친8개를 승인 후 origin/dev에 푸시했고 원격·로컬 HEAD 일치와 깨끗한 작업 트리를 확인했다. [현행 관리자 문구 정책](../../lge-hs-clinic-dashboard/docs/reporting/admin-console.md).
@@ -315,3 +317,5 @@ ID9·10은 D018에서 변경하지 않았다. 이후 D019에 따른 ID8 이미�
 2026-11-09 보고서 개선 배포 완료: 승인된8개 커밋을 main에 fast-forward 푸시해 dev·main·운영 `/healthz` release가9af9296으로 일치한다. [Actions42600909037](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/42600909037) 성공과 내부 브라우저의 운영 스페인10월 편집·미리보기 및 최대 증감 설명 제거를 확인했다. 기존 저장 문구의 재생성·운영 보고서 데이터 변경은 하지 않았다.
 
 2026-11-09 LG GCP 대시보드 배포: `lg-console-ops`로 main9af9296을 release e161b88에 병합·푸시하고 [빌드42601634636](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/42601634636) 후 .73에 배포했다. 작업 job-20261109-103447-9e75ed 성공·실행기 HEAD·healthz200 release 일치, LG 설정 포함 백엔드315개·프런트7개 성공을 확인했다. 사내망 화면 직접 접속은 시간 초과로 미확인이고 .92 회차·엑셀·DB 변경은 하지 않았다.
+
+2026-11-11 월간 레포트의 삼성 대비 격차는 대시보드 Overview Performance 기준을 따른다(D131). 정확히 중간인 −1.25%p는 −1.2%p로 표시한다. 원격 `dev`의 `4538ba1`에 반영했다. [변경 근거](updates/2026-11-11/6e4f18d0c252177a577f1d5b69d19a94.md)

@@ -21,7 +21,20 @@
 
 2026-11-04 확인: `lg-pipeline` 로컬 작업 폴더에 LG GCP 운영용 [lg-console-ops](../lg-pipeline/.agents/skills/lg-console-ops/SKILL.md)와 읽기 전용 조회용 [lg-console-insight](../lg-pipeline/.agents/skills/lg-console-insight/SKILL.md)를 원격 `main`에서 가져왔다. `lgops jobs`와 `lg-console-insight`의 회차 조회가 동작했다. 로컬 파일 반영이며 운영 변경·원격 push는 하지 않았다.
 
-2026-11-09 보고용 대시보드: `main`의 `9af9296`을 포함한 `release` 병합 커밋 `e161b88`을 LG GCP VM 73에 배포했다. [이미지 빌드](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/42601634636)와 `lgops` 작업 `job-20261109-103447-9e75ed`이 성공했고 실행기 HEAD·healthz HTTP 200의 release가 일치했다. 내부 브라우저의 사내망 화면 접속은 시간 초과로 직접 확인하지 못했다.
+2026-11-12 보고용 대시보드의 `main` `1efc5cd`를 포함한 `release` `0f315f6`을 LG GCP VM 73에 배포했다. 관리자 리비전 상세 표 수정, 영국·독일 조회·월간 보고서, 보고서 AI 문구 변경이 포함된다. 실행기와 상태 확인 응답(HTTP 200)의 커밋이 일치한다. [이미지 빌드](https://github.com/codestepteam/lge-hs-clinic-dashboard/actions/runs/43223761752) · [배포 확인 기록](docs/updates/2026-11-12/f3e655c5c02cdebd7b49490fb1656603.md).
+
+2026-11-11 EY 최하은은 `[LGE] Dashboard Design Guide_261110.pptx`를 전달하며 현재 대시보드에 적용을 요청했다. 워크숍 준비는 기존 설계에 가이드를 적용한 안과 CodeStep이 새로 설계한 안이 중심이며 11월 23~24일은 제안 일정이다. [메일 원문](https://codestep.dooray.com/mail/systems/inbox/4463206556762037995) · [확인 기록](docs/updates/2026-11-11/82f6c8470d9c2ce064e2f92dc447fe07.md).
+1920px 데스크톱 기준, 공통 레이아웃·요소와 색상·글자·숫자·간격 규칙은 [디자인 가이드 정리](docs/DASHBOARD_DESIGN_GUIDE.md)에 있다.
+2026-11-12 EY 가이드 24장을 검토해 적용 기준 19장을 네 조회 탭에 로컬 반영했다. 대시보드 `dev`에 4장(`1d6d9aa`), 5장(`0eec94c`), 6장(`ff0707c`)을 로컬 커밋했고 7~24장 구현은 작업 트리에 있다. [장별 적용 보고서](outputs/ey-design-guide-report/index.html) · [대시보드 디자인 기준](../lge-hs-clinic-dashboard/design.md).
+
+2026-11-14 EY 가이드 17장에 맞춰 Search SOV 순위 차트·표 툴팁에 흰 배경, 검정 글자, 브랜드별 테두리를 로컬 적용했다. [장별 적용 보고서](outputs/ey-design-guide-report/index.html).
+
+2026-11-11 보고용 대시보드의 리비전 상세 표 넘침을 수정한 `5b6e903`이 `origin/dev`, `origin/main`과 `lg-dashboard.codestep.co.kr`에 반영됐다. 운영 `/healthz`가 같은 커밋으로 HTTP 200을 응답했다. [관리자 구현 문서](../lge-hs-clinic-dashboard/docs/reporting/admin-console.md#대시보드-노출-설정-4단계-2026-10-21) · [배포 기록](docs/updates/2026-11-11/d41136172f1fb170c5deb2667b578b59.md).
+
+2026-11-11 보고용 주소의 조회 대상은 기존 7개국과 영국·독일을 포함한 9개국이다. 두 나라의 냉장고·세탁기 조회 설정을 적용해 로컬 미리보기에서 9개국과 두 나라의 10월 지표를 확인했다. 운영 공개는 대기 중이다. [작업 기록](docs/updates/2026-11-11/cd76ffd48c9ce0edeb6f5239b7042611.md).
+
+2026-11-11 대시보드 Overview와 월간 한·영 레포트의 Video 삼성 대비 격차를 합성 자료로 대조하는 검사를 원격 `dev`의 `fd6917b`에 반영했다.
+`dev` 코드 푸시와 `main` 배포 전 실행으로 구성했다. 원격 `main` 반영 및 GitHub Actions 실행 결과 확인은 남아 있다. [검사 실행 조건](../lge-hs-clinic-dashboard/docs/git-workflow.md#주의) · [푸시 기록](docs/updates/2026-11-11/5f3018b40425284ee9a812ffc485dcaa.md).
 
 ## 왜 이 프로젝트를 하는가
 
