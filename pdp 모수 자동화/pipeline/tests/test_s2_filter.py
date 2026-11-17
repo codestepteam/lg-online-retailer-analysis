@@ -108,6 +108,17 @@ class Judge(unittest.TestCase):
         bundle = osm(OSM브랜드="LG", 상품명="LG Double Door Refrigerator Silver + Smart TV 32 HD Ready")
         self.assertEqual(s2.judge(bundle, self.rules)[0], s2.KEEP)
 
+    def test_momoshop_rules(self):
+        def judged(name, brand="LG"):
+            return s2.judge(osm(국가="Taiwan", 리테일러="MOMOSHOP", 제품군="W/M", OSM브랜드=brand, 상품명=name, URL="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=1"), self.rules)[:3]
+        self.assertEqual(judged("【LG 樂金】13公斤滾筒洗衣機", "【LG 樂金】")[0], s2.KEEP)  # 브랜드 표기 앞부분(D142·D144)
+        self.assertEqual(judged("SANLUX 6.5公斤洗衣機", "SANLUX 台灣三洋")[0], s2.KEEP)
+        self.assertEqual(judged("【Opure 臻淨】LG壓縮機雙槽雙溫控車/家兩用露營冰箱"), (s2.EXCLUDE, s2.BRAND_STAGE, "상품명 맨 앞 브랜드가 대상 아님(OPURE)"))
+        self.assertEqual(judged("【LG 樂金】家電快配WiFi Styler 蒸氣電子衣櫥-奢華鏡面款(E523MR)")[:2], (s2.EXCLUDE, s2.CATEGORY_STAGE))
+        self.assertEqual(judged("【LG 樂金】1310洗衣塔×第二代電子衣櫥〔1+1超值組〕")[0], s2.KEEP)
+        self.assertEqual(judged("【Whirlpool 惠而浦】家電快配福利品17公斤洗衣機", "WHIRLPOOL")[1], s2.KEYWORD_STAGE)  # 한자 문장 중간의 福利品
+        self.assertEqual(s2.judge(osm(OSM브랜드="LG 樂金"), self.rules)[1], s2.BRAND_STAGE)  # 다른 리테일러는 글자 그대로 비교
+
     def test_unknown_search_category_needs_check(self):
         self.assertEqual(s2.judge(search(제품군="?"), self.rules)[:2], (s2.CHECK, s2.CATEGORY_STAGE))
 
@@ -213,9 +224,10 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7316, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31}))
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7306, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31}))
         # D143 전에는 "행별 사람 결정" 27행(Electroplanet 23 + RTV 3 + COSTCO 1)이 남았는데, 이제 규칙이 같은 단계로 뺀다.
         # 7346 → 7316: RTV 부품 29행과 Electroplanet 정수기 필터 1행을 S5 대신 S2가 뺀다.
+        # 7316 → 7306(D144): MomoShop 상품명 중간의 福利品 10행을 S2 키워드가 잡는다(v5도 ③리리부로 제외).
         # D143 31행: v5가 ④중복(26)·④페이지없음(4)·②제품군(1, RTV 후드 부속)으로 뺀 행을 새 규칙이 먼저 뺀다. Cairo Sales `ال جى` 3행은 2026-11-14 무늬 수정으로 v5와 같아짐
 
     def test_new_rules_never_drop_an_included_row(self):

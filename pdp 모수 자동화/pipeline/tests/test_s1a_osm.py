@@ -24,6 +24,20 @@ def audit_row(**changes):
     return {**row, **changes}
 
 
+class BrandPrefix(unittest.TestCase):
+    SQL = "x CASE WHEN UPPER(TRIM(BRAND)) ='LG ELECTRONICS' THEN 'LG' ELSE REGEXP_REPLACE(UPPER(TRIM(BRAND)),r'\\s+','') END BRAND_KEY y"
+
+    def test_momoshop_brand_key_uses_leading_word(self):
+        prefix = common.load_config(RUN, "retailer_rules")["common"]["osm_brand_prefix"]
+        sql = s1a.prefix_brand_key(self.SQL, prefix)
+        self.assertIn("WHEN UPPER(RTLR_NAME) IN ('MOMOSHOP') AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+)') THEN REGEXP_EXTRACT(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+)') ELSE", sql)
+        self.assertEqual(s1a.prefix_brand_key(self.SQL, None), self.SQL)
+
+    def test_changed_console_query_stops(self):
+        with self.assertRaises(common.ConfigError):
+            s1a.prefix_brand_key("no brand key here", {"retailers": ["MOMOSHOP"], "pattern": "x"})
+
+
 class Conversion(unittest.TestCase):
     settings = common.load_config(RUN, "osm_query")["candidates"]
 

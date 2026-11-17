@@ -65,6 +65,21 @@ def exclude_from_date_choice(sql, added):
     return sql
 
 
+BRAND_KEY_ANCHOR = "CASE WHEN UPPER(TRIM(BRAND)) ='LG ELECTRONICS' THEN 'LG' ELSE"
+
+
+def prefix_brand_key(sql, prefix):
+    """osm_brand_prefix 리테일러는 BRAND_KEY를 맨 앞 영문 단어로 만든다(D142·D144: 'LG 樂金' → LG). 콘솔 쿼리는 공백만 지운 전체 이름을 비교해 이런 표기를 후보에서 뺀다."""
+    retailers = (prefix or {}).get("retailers", [])
+    if not retailers:
+        return sql
+    if sql.count(BRAND_KEY_ANCHOR) != 1:
+        raise ConfigError(f"콘솔 쿼리 구조가 달라져 브랜드 비교를 고칠 수 없습니다: {BRAND_KEY_ANCHOR}")
+    names = ",".join(f"'{name.upper()}'" for name in retailers)
+    case = f"WHEN UPPER(RTLR_NAME) IN ({names}) AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'{prefix['pattern']}') THEN REGEXP_EXTRACT(UPPER(TRIM(BRAND)),r'{prefix['pattern']}')"
+    return sql.replace(BRAND_KEY_ANCHOR, f"CASE WHEN UPPER(TRIM(BRAND)) ='LG ELECTRONICS' THEN 'LG' {case} ELSE")
+
+
 def merge_brands(targets, ey_brands, category_fallback, query, country_alias):
     """제품군 목록은 그대로 두고 브랜드만 콘솔 ∪ EY로 넓힌다. (넘길 대상, 보고 행)을 돌려준다."""
     merged, report = [], []
@@ -142,6 +157,7 @@ def build(run, end_date):
     query["render_params"] = {**query["params"], "end_date": end_date}
     countries = list(dict.fromkeys(t["country"] for t in targets))
     sql = exclude_from_date_choice(render_sql(query, countries, targets), added_divs)
+    sql = prefix_brand_key(sql, load_config(run, "retailer_rules")["common"].get("osm_brand_prefix"))
     if len(sql) > query["max_sql_chars"]:
         raise ConfigError(f"SQL이 {len(sql)}자로 한도를 넘습니다")
     return query, targets, report, added_divs, sql

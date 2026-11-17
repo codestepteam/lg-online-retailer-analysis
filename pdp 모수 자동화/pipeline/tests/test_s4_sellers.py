@@ -201,6 +201,11 @@ class ContextFunctions(unittest.TestCase):
         self.assertEqual(rows[0]["판매자"], "Shop M")
         self.assertIn("추정", rows[0]["근거"])
 
+    def test_momo_store_address_is_external_even_without_shop_name(self):
+        pages = {"https://m/TP/TP0009/goodsDetail/TP00090001": "<html></html>"}
+        rows, _ = s4.judge_all([item("Taiwan", "MOMOSHOP", url=url) for url in pages], lambda entry: pages[entry["url"]], RULES)
+        self.assertEqual((rows[0]["판매자"], rows[0]["판매자구분"]), ("입점 상점 TP0009", "외부판매자"))
+
 
 class Pipeline(unittest.TestCase):
     def setUp(self):

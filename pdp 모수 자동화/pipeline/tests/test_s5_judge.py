@@ -171,6 +171,14 @@ class Duplicates(unittest.TestCase):
         self.assertEqual(costco[1]["제외사유"], "같은 상품(주소의 상품 번호 같음, 대표 행 1, #119)")
         self.assertIn("상품 번호", falabella[1]["제외사유"])
 
+    def test_momoshop_product_number(self):
+        rows = self.run_rows("MOMOSHOP", ["https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041707&kw=a",
+                                          "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041707&kw=b",
+                                          "https://www.momoshop.com.tw/product/10041707?Area=search",
+                                          "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041708&kw=a"])
+        self.assertEqual([r["제외단계"] for r in rows], ["", "④중복", "④중복", ""])
+        self.assertIn("상품 번호", rows[2]["제외사유"])
+
     def test_excluded_rows_are_not_representatives(self):
         rows = [row("1", retailer="AO", 실제URL="https://a/p", status=s2.EXCLUDE, 제외단계="③리리부"), row("2", retailer="AO", 실제URL="https://a/p")]
         s5.remove_duplicates(rows, SETTINGS["dedupe"])
@@ -192,6 +200,15 @@ class Codes(unittest.TestCase):
             columns = ["RAW_URL", "BRAND", "MPC", "MODEL_DEDUP_KEY"]
             common.write_csv(path, columns, [dict(zip(columns, values)) for values in (("u1", " lg ", " a1 ", "K1"), ("u2", "LG", "\\N", "k2"), ("u3", "LG", "", "\\N"))])
             self.assertEqual(s5.osm_codes(path), [("u1", "LG", "A1"), ("u2", "LG", "K2"), ("u3", "LG", "")])
+
+    def test_momoshop_brand_uses_leading_word(self):
+        prefix = common.load_config(RUN, "retailer_rules")["common"]["osm_brand_prefix"]
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "o.csv"
+            columns = ["RAW_URL", "RTLR_NAME", "BRAND", "MPC", "MODEL_DEDUP_KEY"]
+            values = (("u1", "MOMOSHOP", "【LG 樂金】", "A1", ""), ("u2", "MOMOSHOP", "SANLUX 台灣三洋", "", "K2"), ("u3", "OTTO", "LG ELECTRONICS", "A3", ""))
+            common.write_csv(path, columns, [dict(zip(columns, v)) for v in values])
+            self.assertEqual(s5.osm_codes(path, prefix), [("u1", "LG", "A1"), ("u2", "SANLUX", "K2"), ("u3", "LG ELECTRONICS", "A3")])
 
     def test_search_row_takes_extracted_values_in_upper_case(self):
         rows = [row("1"), row("2", url="https://x/2")]

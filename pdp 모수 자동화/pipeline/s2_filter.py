@@ -22,6 +22,24 @@ def brand_regex(brand):
     return re.compile(r"(?<![a-z0-9])" + r"[\s\-_&+]*".join(parts) + r"(?![a-z0-9])")
 
 
+CJK = re.compile(r"[\u2e80-\u9fff\uf900-\ufaff\uff00-\uffef]")
+
+
+def keyword_regex(word):
+    """제외 키워드 정규식. 한자·가나로 시작하는 단어는 띄어쓰기가 없어 앞 글자 경계를 보지 않는다(D144: 福利品이 문장 중간에 붙어도 잡는다)."""
+    return re.compile(("" if CJK.match(word) else r"(?<![\w])") + re.escape(word))
+
+
+def brand_prefix(brand, retailer, prefix):
+    """osm_brand_prefix 리테일러면 대문자 브랜드의 맨 앞 영문 단어만 돌려준다(D142·D144). 아니면 대문자 브랜드 그대로."""
+    brand = (brand or "").strip().upper()
+    if prefix and retailer in prefix.get("retailers", []):
+        found = re.match(prefix["pattern"], brand)
+        if found:
+            return found.group(1)
+    return brand
+
+
 def url_words(url):
     return urlparse(url).path.replace("/", " ").replace("-", " ").replace("_", " ")
 
@@ -33,11 +51,11 @@ class Rules:
         self.brands, self.category_fallback, self.alias = brands["brands"], s0_input["category_fallback"], s0_input["country_alias"]
         self.categories, self.retailer_rules = categories, retailer_rules
         self.common = retailer_rules["common"]
-        self.keywords = {country: [(item["type"], item["keyword"], re.compile(r"(?<![\w])" + re.escape(item["keyword"]))) for item in items]
+        self.keywords = {country: [(item["type"], item["keyword"], keyword_regex(item["keyword"])) for item in items]
                          for country, items in keywords["keywords"].items()}
         self.brand_regexes = {}
         self.page_rule_text = {(rule["country"], rule["retailer"]): rule["text"] for rule in retailer_rules["page_rule_text"]}
-        self.name_codes = {retailer: [(item["name"], item["stage"], re.compile(item["pattern"])) for item in items]
+        self.name_codes = {retailer: [(item["name"], item["stage"], re.compile(item["pattern"]), re.compile(item["unless"]) if item.get("unless") else None) for item in items]
                            for retailer, items in categories.get("retailer_name_codes", {}).items() if not retailer.startswith("_")}
         self.url_categories = [{**rule, "allow": re.compile(rule["allow"]), "parts": re.compile(rule["parts"])} for rule in retailer_rules.get("url_categories", [])]
         osm_names = set(categories.get("osm_negative", {}).get("names", []))
@@ -88,10 +106,16 @@ class Rules:
     def name_code(self, row):
         """상품명 맨 앞 종류 약어로 조사 제품군 밖 상품이면 (제외단계, 제외사유). 아니면 None."""
         lowered = " ".join((row["상품명"] or "").lower().split())
-        for name, stage, regex in self.name_codes.get(row["리테일러"], []):
-            if regex.search(lowered):
+        for name, stage, regex, unless in self.name_codes.get(row["리테일러"], []):
+            if regex.search(lowered) and not (unless and unless.search(lowered)):
                 return stage, (f"부품({name}, 상품명 약어)" if stage == KEYWORD_STAGE else f"대상 제품군 아님({name}, 상품명 약어)")
         return None
+
+    def lead_brand(self, row):
+        """상품명이 【브랜드 …】로 시작하는 리테일러(name_lead_brand)면 그 맨 앞 브랜드(대문자). 아니면 None."""
+        pattern = self.common.get("name_lead_brand", {}).get(row["리테일러"])
+        found = re.match(pattern, (row["상품명"] or "").strip()) if pattern else None
+        return found.group(1).upper() if found else None
 
     def url_category(self, row):
         """주소 경로 첫 칸(리테일러 상품 분류)으로 판정한다. 대상 분류면 None, 아니면 (제외단계, 제외사유)."""
@@ -161,11 +185,14 @@ def judge(row, rules):
         if len(found) > 1:
             memo.append("대상 브랜드 여러 개: " + ",".join(found))
     elif not dishwasher_outside:
-        brand = (row["OSM브랜드"] or "").strip().upper()
+        brand = brand_prefix(row["OSM브랜드"], row["리테일러"], rules.common.get("osm_brand_prefix"))
         if not targets:
             return CHECK, BRAND_STAGE, f"경쟁브랜드 목록 없음({country} {div})", ""
         if brand not in targets:
             return EXCLUDE, BRAND_STAGE, f"대상 브랜드 아님({brand})", ""
+    lead = rules.lead_brand(row)
+    if lead and targets and lead not in targets:
+        return EXCLUDE, BRAND_STAGE, f"상품명 맨 앞 브랜드가 대상 아님({lead})", ""
     if dishwasher_outside:
         return EXCLUDE, CATEGORY_STAGE, common["dishwasher_reason"], ""
     for found in (rules.name_code(row), rules.url_category(row)):

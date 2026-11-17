@@ -11,7 +11,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from common import REPO_ROOT, ConfigError, RunPaths, get_logger, load_config, load_output_spec, new_parser, outputs_ready, read_csv, write_csv
 from rules import codes
-from s2_filter import CHECK, DUPLICATE_STAGE, EXCLUDE, KEEP, OSM_FLOW
+from s2_filter import CHECK, DUPLICATE_STAGE, EXCLUDE, KEEP, OSM_FLOW, brand_prefix
 from s4_sellers import NORMAL_PAGE, html_reader
 
 UNKNOWN_KIND = "확인불가"
@@ -170,10 +170,10 @@ def remove_duplicates(rows, dedupe):
             first[scope] = (row["행번호"], raw)
 
 
-def osm_codes(path):
-    """OSM 후보 순서대로 (원본 주소, 브랜드, 제품코드). 제품코드는 MPC, 없으면 MODEL_DEDUP_KEY(D082)."""
+def osm_codes(path, prefix=None):
+    """OSM 후보 순서대로 (원본 주소, 브랜드, 제품코드). 제품코드는 MPC, 없으면 MODEL_DEDUP_KEY(D082). 브랜드는 osm_brand_prefix 리테일러면 맨 앞 영문 단어(D144)."""
     _, rows = read_csv(path)
-    return [(row["RAW_URL"], row["BRAND"].strip().upper(), next((row[name].strip().upper() for name in ("MPC", "MODEL_DEDUP_KEY") if row[name] not in NULL_VALUES), "")) for row in rows]
+    return [(row["RAW_URL"], brand_prefix(row["BRAND"], row.get("RTLR_NAME", "").strip(), prefix), next((row[name].strip().upper() for name in ("MPC", "MODEL_DEDUP_KEY") if row[name] not in NULL_VALUES), "")) for row in rows]
 
 
 def page_text_reader(run, pages):
@@ -285,7 +285,7 @@ def main(argv):
     sellers = {row["요청URL"]: row for row in seller_rows}
     judge_all(rows, pages, sellers, load_config(run, "retailer_rules")["final"])
     found = search_codes(rows, page_text_reader(run, pages), load_config(run, "product_codes"))
-    fill_codes(rows, osm_codes(needed[3]), found)
+    fill_codes(rows, osm_codes(needed[3], load_config(run, "retailer_rules")["common"].get("osm_brand_prefix")), found)
     write_csv(judgments / CODE_EVIDENCE_NAME, CODE_EVIDENCE_COLUMNS, code_evidence(rows, found), overwrite=True)
     write_csv(internal, list(spec.internal_columns), rows, overwrite=args.force)
     summary_columns, summary_rows = summarize(rows, spec.exclusion_stages)

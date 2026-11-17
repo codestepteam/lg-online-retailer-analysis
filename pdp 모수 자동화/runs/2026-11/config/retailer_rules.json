@@ -1,6 +1,17 @@
 {
   "_설명": "리테일러별 규칙(사람 유지). 지금은 S2 부분만 있고, 페이지·판매자 규칙은 WP5·WP6에서 더한다.",
   "common": {
+    "osm_brand_prefix": {
+      "_설명": "D142(MomoShop 브랜드는 OSM 표기의 앞부분으로 고른다)의 구현(D144). OSM BRAND가 '【LG 樂金】', 'SANLUX 台灣三洋'처럼 중국어가 붙은 리테일러는 대문자로 바꾼 뒤 맨 앞 영문 단어만 브랜드로 본다. S1a 쿼리의 BRAND_KEY, S2 브랜드 비교, S5 브랜드 열에 같이 쓴다. 10월 수정 쿼리(momo_pid.sql)의 REGEXP_REPLACE(UPPER(BRAND), r'^【?\\s*([A-Z]+).*$', r'\\1')와 같다.",
+      "retailers": [
+        "MOMOSHOP"
+      ],
+      "pattern": "^【?\\s*([A-Z]+)"
+    },
+    "name_lead_brand": {
+      "_설명": "상품명이 【브랜드 …】로 시작하는 리테일러에서, 그 맨 앞 브랜드가 대상 브랜드가 아니면 ①브랜드로 뺀다(v8의 '상품명 선두에 대만 대상 브랜드가 없음' 규칙, D144). 예: 【Opure 臻淨】LG壓縮機… 캠핑 냉장고(OSM 브랜드는 LG). v8 MomoShop 1,936행 중 이 1행만 걸린다.",
+      "MOMOSHOP": "^【\\s*([A-Za-z]+)"
+    },
     "arabic_brand_patterns": {
       "lg": "(?:^|\\s)[اإ]ل ?ج[يى](?:\\s|$)",
       "samsung": "سامسون[جغ]",
@@ -589,6 +600,7 @@
         ]
       },
       "product_number": {
+        "MOMOSHOP": "(?:[?&]i_code=|/product/|/goodsdetail/)(\\w+)",
         "COSTCO": "(?:/p/-/[^/?]+/|\\.product\\.)(\\d+)",
         "FALABELLA": "/product/(\\d+)"
       },

@@ -121,7 +121,7 @@ def momo(item, html, rules, context):
         name = context.get("momo_shops", {}).get(code)
         if name:
             return name, EXTERNAL, f'[추정] 페이지가 빈 껍데기; 주소 입점사코드 {code}가 다른 페이지에서 "{name}"로 확인됨'
-        return "", UNKNOWN, f"페이지가 빈 껍데기, 입점사코드 {code}의 이름을 모름"
+        return f"입점 상점 {code}", EXTERNAL, f"[추정] 페이지가 빈 껍데기; 주소가 /TP/{code}/goodsDetail/ 꼴이라 mo店+ 입점 상점 상품(v8 /TP/ 규칙, D142·D144). 상점 이름은 모름"
     if "GoodsDetail.jsp" in item["url"]:
         evidence = f'[추정] 옛 형식 주소(GoodsDetail.jsp), shop(입점 상점) 블록 없음, 공급사코드 {first(r"\"entpCode\":\"(\w*)\"", data)}'
         return rules["names"][item["retailer"]], REFURB if refurb else DIRECT, evidence + ("; 제목에 福利品" if refurb else "")

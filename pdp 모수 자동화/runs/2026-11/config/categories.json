@@ -49,6 +49,9 @@
    {"name": "에어컨", "pattern": "^clim\\b", "stage": "②제품군"},
    {"name": "전자레인지", "pattern": "^mo\\b", "stage": "②제품군"},
    {"name": "정수기 필터", "pattern": "^membrane\\b", "stage": "③리리부"}
+  ],
+  "MOMOSHOP": [
+   {"name": "의류관리기 단독", "pattern": "styler|電子衣櫥", "unless": "洗|冰箱|乾衣|烘", "stage": "②제품군", "_설명": "v8 '전자 의류관리기만 있는 상품' 규칙(D144). 洗衣塔×電子衣櫥(세탁타워 + 스타일러) 같은 묶음은 unless에 걸려 남는다"}
   ]
  },
  "osm_negative": {
