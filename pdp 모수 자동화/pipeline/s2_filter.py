@@ -1,5 +1,7 @@
 """S2 1차 거르기: 상품명·주소만으로 브랜드 → 제품군 → 리리부 → 같은 요청 URL 중복 순서로 판정한다.
 
+제품군 단계에는 리테일러별 상품명 약어(Electroplanet), 주소 분류(RTV), OSM 상품명의 제외 단어 검사가 들어 있다(D143).
+
 페이지를 열어야 아는 판단(판매자, 실제 도착 주소)은 S3 이후에 한다. 규칙 값은 회차 폴더의 config에서 읽는다.
 """
 import re
@@ -35,6 +37,12 @@ class Rules:
                          for country, items in keywords["keywords"].items()}
         self.brand_regexes = {}
         self.page_rule_text = {(rule["country"], rule["retailer"]): rule["text"] for rule in retailer_rules["page_rule_text"]}
+        self.name_codes = {retailer: [(item["name"], item["stage"], re.compile(item["pattern"])) for item in items]
+                           for retailer, items in categories.get("retailer_name_codes", {}).items() if not retailer.startswith("_")}
+        self.url_categories = [{**rule, "allow": re.compile(rule["allow"]), "parts": re.compile(rule["parts"])} for rule in retailer_rules.get("url_categories", [])]
+        osm_names = set(categories.get("osm_negative", {}).get("names", []))
+        self.osm_negative = [(item["name"], re.compile(item["pattern"])) for item in categories["negative"] if item["name"] in osm_names]
+        self.positive = [re.compile(pattern) for pattern in categories["positive"].values()]
 
     def country(self, name):
         name = (name or "").strip()
@@ -76,6 +84,35 @@ class Rules:
     def keyword_hit(self, country, name):
         lowered = name.lower()
         return next(((kind, word) for kind, word, regex in self.keywords.get(country, []) if regex.search(lowered)), None)
+
+    def name_code(self, row):
+        """상품명 맨 앞 종류 약어로 조사 제품군 밖 상품이면 (제외단계, 제외사유). 아니면 None."""
+        lowered = " ".join((row["상품명"] or "").lower().split())
+        for name, stage, regex in self.name_codes.get(row["리테일러"], []):
+            if regex.search(lowered):
+                return stage, (f"부품({name}, 상품명 약어)" if stage == KEYWORD_STAGE else f"대상 제품군 아님({name}, 상품명 약어)")
+        return None
+
+    def url_category(self, row):
+        """주소 경로 첫 칸(리테일러 상품 분류)으로 판정한다. 대상 분류면 None, 아니면 (제외단계, 제외사유)."""
+        for rule in self.url_categories:
+            if rule["country"] != row["국가"] or rule["retailer"] != row["리테일러"]:
+                continue
+            segment = (urlparse(row["URL"]).path.strip("/").split("/") or [""])[0].lower()
+            if rule["parts"].search(segment):
+                return KEYWORD_STAGE, rule["parts_reason"].format(segment=segment)
+            if rule["allow"].search(segment):
+                return None
+            return CATEGORY_STAGE, rule["other_reason"].format(segment=segment)
+        return None
+
+    def osm_negative_hit(self, name):
+        """OSM 상품명에 제외 단어(osm_negative 이름만)가 있고 대상 제품군 단어가 없으면 그 이름. 아니면 None."""
+        lowered = name.lower()
+        hit = next((label for label, regex in self.osm_negative if regex.search(lowered)), None)
+        if hit and not any(regex.search(lowered) for regex in self.positive):
+            return hit
+        return None
 
     def url_exclusion(self, row):
         for rule in self.retailer_rules["url_exclusions"]:
@@ -131,6 +168,13 @@ def judge(row, rules):
             return EXCLUDE, BRAND_STAGE, f"대상 브랜드 아님({brand})", ""
     if dishwasher_outside:
         return EXCLUDE, CATEGORY_STAGE, common["dishwasher_reason"], ""
+    for found in (rules.name_code(row), rules.url_category(row)):
+        if found:
+            return EXCLUDE, found[0], found[1], ""
+    if not is_search:
+        negative = rules.osm_negative_hit(name)
+        if negative:
+            return EXCLUDE, CATEGORY_STAGE, f"대상 제품군 아님({negative}, OSM 상품명에 대상 제품군 단어 없음)", ""
     categories = rules.categories
     if is_search:
         result, category_name = rules.check_search_category(f"{name} {url_words(url)}")

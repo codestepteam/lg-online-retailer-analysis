@@ -85,6 +85,17 @@ def apply_seller(row, seller, settings):
     return True
 
 
+def category_exclusion(row, path, rules):
+    """페이지 분류 경로가 조사 제품군 밖이면 (제외단계, 제외사유). 아니면 None."""
+    for rule in rules:
+        if rule["retailer"] != row["리테일러"] or not path:
+            continue
+        found = re.search(rule["pattern"], path)
+        if found:
+            return rule["stage"], rule["reason"].format(hit=found.group(0))
+    return None
+
+
 def exclude_for_page(row, outcome, status, page, settings):
     exclude(row, outcome["stage"], outcome["reason"].format(status=status, title=page.get("title", "")[:settings["title_chars"]]))
 
@@ -110,6 +121,10 @@ def judge_row(row, page, seller, settings):
     word = settings["accessory_category"].get(row["리테일러"])
     if word and word in page.get("category_path", ""):
         exclude(row, "③리리부", settings["accessory_reason"])
+        return
+    hit = category_exclusion(row, page.get("category_path", ""), settings.get("category_exclusions", []))
+    if hit:
+        exclude(row, *hit)
         return
     if apply_seller(row, seller, settings):
         return

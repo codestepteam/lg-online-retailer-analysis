@@ -19,6 +19,7 @@ CARDS = "검색결과_20261028_734afcdd/상품카드.csv"
 LATER_STEP = re.compile(r"외부 판매자|리퍼·중고|부품|브랜드 공식점")
 PERSON_DECISION = re.compile(r"D0\d\d|D1\d\d|EY 검토|사용자 확인|재확인|EY 판정")
 ALZA_WORDS = ("-bazar-", "-sleva-", "-levne-")
+NEW_RULE = re.compile(r"상품명 약어|주소 분류|OSM 상품명")  # D143: Electroplanet 상품명 약어, RTV 주소 분류, OSM 상품명 제외 단어
 S2_STAGES = (s2.BRAND_STAGE, s2.CATEGORY_STAGE, s2.KEYWORD_STAGE, s2.DUPLICATE_STAGE)
 
 
@@ -81,6 +82,31 @@ class Judge(unittest.TestCase):
         self.assertEqual(self.rules.brands_in("ثلاجة ال جي 300 لتر", ["LG"]), ["LG"])
         self.assertEqual(self.rules.brands_in("ال جى غسالة ملابس 8 كيلو", ["LG"]), ["LG"])  # 끝 글자가 ى인 표기(Cairo Sales 10월 3행)
         self.assertEqual(self.rules.brands_in("غسالة الجيل الجديد 8 كيلو", ["LG"]), [])  # 다른 단어의 앞부분은 LG로 보지 않는다
+
+    def test_electroplanet_name_codes(self):
+        def judged(name, url="https://www.electroplanet.ma/p1-whirlpool.html"):
+            return s2.judge(search(국가="Morocco", 리테일러="Electroplanet", 제품군="REF", 상품명=name, URL=url), self.rules)[:3]
+        self.assertEqual(judged("TC GOWL 928/NB 90CM GAZ VERRE 5F MULTI LEVEL WHP"), (s2.EXCLUDE, s2.CATEGORY_STAGE, "대상 제품군 아님(가스레인지, 상품명 약어)"))
+        self.assertEqual(judged("LAV WFO3T1236PX/3T133 P 6.5 X 14C 11P IX WHIRLPOOL")[1], s2.CATEGORY_STAGE)
+        self.assertEqual(judged("MAV IX DW60M5070FS/MA FH 14CV 7P A+SAMSUNG")[2], "대상 제품군 아님(식기세척기, 상품명 약어)")
+        self.assertEqual(judged("MEMBRANE KUNO 80 GPD (BY LG CHEM) AQUABO")[:2], (s2.EXCLUDE, s2.KEYWORD_STAGE))
+        self.assertEqual(judged("REF GR-B402PLGB 335L LG", "https://www.electroplanet.ma/p1.html")[0], s2.KEEP)
+        self.assertEqual(judged("LAV SECH WD90T654DBN/MF 9/6KG 1400T INOX SAMSUNG", "https://www.electroplanet.ma/p1.html")[0], s2.KEEP)
+        self.assertEqual(s2.judge(search(상품명="TC Whirlpool"), self.rules)[1], "")  # 다른 리테일러에는 적용 안 함
+
+    def test_rtv_address_category(self):
+        def judged(path):
+            return s2.judge(search(리테일러="RTV_EURO_AGD", 제품군="W/M", 상품명="Bosch WGG", URL=f"https://www.euro.com.pl/{path}/bosch-x.bhtml"), self.rules)[:3]
+        self.assertEqual(judged("pralki")[0], s2.KEEP)
+        self.assertEqual(judged("lodowki-do-zabudowy")[0], s2.KEEP)
+        self.assertEqual(judged("srubokrety-i-wkretaki"), (s2.EXCLUDE, s2.CATEGORY_STAGE, "대상 제품군 아님(주소 분류 srubokrety-i-wkretaki)"))
+        self.assertEqual(judged("laczniki-do-pralek-i-suszarek"), (s2.EXCLUDE, s2.KEYWORD_STAGE, "부품(주소 분류 laczniki-do-pralek-i-suszarek)"))
+
+    def test_osm_name_with_only_other_appliance_word(self):
+        tv = osm(국가="Canada", 리테일러="COSTCO", OSM브랜드="SAMSUNG", 상품명='Samsung 65" Class - M70H Series - 4K Mini LED TV')
+        self.assertEqual(s2.judge(tv, self.rules)[:2], (s2.EXCLUDE, s2.CATEGORY_STAGE))
+        bundle = osm(OSM브랜드="LG", 상품명="LG Double Door Refrigerator Silver + Smart TV 32 HD Ready")
+        self.assertEqual(s2.judge(bundle, self.rules)[0], s2.KEEP)
 
     def test_unknown_search_category_needs_check(self):
         self.assertEqual(s2.judge(search(제품군="?"), self.rules)[:2], (s2.CHECK, s2.CATEGORY_STAGE))
@@ -157,6 +183,8 @@ def reason_for_difference(new, old):
         return "S2 뒤 단계에서 제외(실제 도착 주소 중복)"
     if PERSON_DECISION.search(old["메모"]) or PERSON_DECISION.search(old["제외사유"]):
         return "행별 사람 결정(EY·사용자)"
+    if NEW_RULE.search(new["제외사유"]) and old["모수 포함 여부"] == "제외":
+        return "D143 규칙이 먼저 제외(v5도 제외)"
     return None
 
 
@@ -185,11 +213,18 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7346, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "행별 사람 결정(EY·사용자)": 27}))  # 27 = Electroplanet 23 + RTV_EURO_AGD 3 + COSTCO 1(모두 10월에 사람이 ②제품군으로 뺀 행). Cairo Sales `ال جى` 3행은 2026-11-14 무늬 수정으로 v5와 같아짐
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7316, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31}))
+        # D143 전에는 "행별 사람 결정" 27행(Electroplanet 23 + RTV 3 + COSTCO 1)이 남았는데, 이제 규칙이 같은 단계로 뺀다.
+        # 7346 → 7316: RTV 부품 29행과 Electroplanet 정수기 필터 1행을 S5 대신 S2가 뺀다.
+        # D143 31행: v5가 ④중복(26)·④페이지없음(4)·②제품군(1, RTV 후드 부속)으로 뺀 행을 새 규칙이 먼저 뺀다. Cairo Sales `ال جى` 3행은 2026-11-14 무늬 수정으로 v5와 같아짐
+
+    def test_new_rules_never_drop_an_included_row(self):
+        hits = Counter((new["리테일러"], old["모수 포함 여부"]) for new, old in zip(self.new, self.old) if NEW_RULE.search(new["제외사유"]))
+        self.assertEqual(hits, Counter({("RTV_EURO_AGD", "제외"): 67, ("Electroplanet", "제외"): 41, ("COSTCO", "제외"): 1}))
 
     def test_duplicate_representatives_match(self):
         pairs = [(new["제외사유"], old["제외사유"]) for new, old in zip(self.new, self.old) if new["제외단계"] == s2.DUPLICATE_STAGE]
-        self.assertEqual(len(pairs), 6897)  # Cairo Sales `ال جى` 2행이 v5처럼 같은 주소 중복으로 잡힘(2026-11-14)
+        self.assertEqual(len(pairs), 6871)  # Cairo Sales `ال جى` 2행이 v5처럼 같은 주소 중복으로 잡힘(2026-11-14). D143 규칙이 RTV 18·Electroplanet 8개 중복 행을 먼저 뺀다(6897 → 6871)
         self.assertTrue(all(new == old for new, old in pairs))
 
 

@@ -82,6 +82,18 @@ class PageAndSeller(unittest.TestCase):
         result = judged(row(retailer="DATART", url="https://x/bazar/a"), page(url="https://x/bazar/a"), seller("", "확인불가", "ld+json Product 없음, 본문이 빈 껍데기 페이지"))
         self.assertEqual(result[:3], (s2.EXCLUDE, "③리리부", "리퍼·중고(주소 /bazar/)"))
 
+    def test_other_appliance_category_is_excluded(self):
+        item = row(retailer="Electroplanet", country="Morocco")
+        result = judged(item, page(category_path="Accueil > Cuisson > Tables de cuisson"), seller("Electroplanet", "직판"))
+        self.assertEqual(result[:3], (s2.EXCLUDE, "②제품군", "대상 제품군 아님(페이지 분류 Cuisson)"))
+        kept = judged(row(retailer="Electroplanet", country="Morocco"), page(category_path="Accueil > Froid > Réfrigérateurs"), seller("Electroplanet", "직판"))
+        self.assertEqual(kept[0], s2.KEEP)
+        self.assertEqual(judged(row(), page(category_path="Cuisson"), seller("Alza", "직판"))[0], s2.KEEP)  # 다른 리테일러에는 적용 안 함
+
+    def test_momoshop_unavailable_notice_is_missing_page(self):
+        result = judged(row(retailer="MOMOSHOP", country="Taiwan"), page("없음(商品目前無展售)"), None)
+        self.assertEqual(result[:2], (s2.EXCLUDE, "④페이지없음"))
+
     def test_accessory_category_is_excluded(self):
         result = judged(row(retailer="ALZA"), page(category_path="Domácí spotřebiče > Příslušenství"), seller("Alza", "직판"))
         self.assertEqual(result[:2], (s2.EXCLUDE, "③리리부"))

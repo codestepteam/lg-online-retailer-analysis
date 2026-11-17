@@ -101,6 +101,11 @@ class Status(unittest.TestCase):
         self.assertEqual(self.status(GOOD + "NGƯNG KINH DOANH", retailer="DIENMAYXANH"), "판매중단")
         self.assertEqual(self.status(GOOD + "NGƯNG KINH DOANH"), s3.NORMAL)
 
+    def test_momoshop_unavailable_notice(self):
+        notice = '<html><title>momo購物網 -- Mobile管理訊息</title><p>很抱歉！網頁無法顯示。可能的原因是：</p><ul><li>商品目前無展售</li><li>網頁不存在</li></ul></html>'
+        self.assertEqual(self.status(notice, retailer="MOMOSHOP"), "없음(商品目前無展售)")
+        self.assertEqual(self.status(GOOD, retailer="MOMOSHOP"), s3.NORMAL)
+
     def test_extra_stock_code(self):
         page = GOOD + 'var pdpDetails = {"stock":{"stockLevelStatus":{"code":"%s"}}};'
         self.assertEqual(self.status(page % "outOfStock", retailer="EXTRA"), "품절")

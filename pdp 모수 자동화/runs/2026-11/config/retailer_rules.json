@@ -60,6 +60,13 @@
             "text": "NGƯNG KINH DOANH",
             "status": "판매중단"
           }
+        ],
+        "MOMOSHOP": [
+          {
+            "_설명": "momo는 판매하지 않는 상품도 정상 응답(200)으로 '很抱歉！網頁無法顯示'(페이지를 표시할 수 없음) 안내 화면을 준다. v8에서 사람이 ④페이지없음으로 뺀 화면(D142, 11-16). 저장 HTML 847개 중 이 문구가 있는 14개는 모두 안내 화면이고 정상 상품 833개에는 없다(2026-11-17 D143).",
+            "text": "商品目前無展售",
+            "status": "없음(商品目前無展售)"
+          }
         ]
       }
     },
@@ -119,6 +126,17 @@
       ],
       "ignore_case": true,
       "reason": "URL에 리셀 단어 {hit}(두레이 #60, 2026-11-06 결정)"
+    }
+  ],
+  "url_categories": [
+    {
+      "_설명": "주소 경로 첫 칸이 리테일러의 상품 분류인 곳. parts에 맞으면 ③리리부 부품, allow에 맞으면 통과, 둘 다 아니면 ②제품군으로 뺀다. RTV: v8 1차 통과 510행에서 포함 478행은 모두 allow 분류, 사람이 뺀 32행(부품 29·공구 2·휴대폰 보호유리 1, D083)은 모두 다른 분류였다(2026-11-17 D143).",
+      "country": "Poland",
+      "retailer": "RTV_EURO_AGD",
+      "allow": "^(?:lodowki|pralki|suszarki|pralko-suszarki|zestawy-pralka-i-suszarka|chlodziarki-do-wina|zamrazarki)(?:-|$)",
+      "parts": "^(?:laczniki-|wyposazenie-|produkty-|weze-|akcesoria|filtry)",
+      "parts_reason": "부품(주소 분류 {segment})",
+      "other_reason": "대상 제품군 아님(주소 분류 {segment})"
     }
   ],
   "url_notes": [
@@ -586,6 +604,15 @@
       "Worten": "Acessórios"
     },
     "accessory_reason": "부품(리테일러 카테고리가 액세서리, 저장 페이지 확인)",
+    "category_exclusions": [
+      {
+        "_설명": "페이지 분류 경로(S3가 JSON-LD BreadcrumbList에서 읽음)가 조사 제품군이 아닌 가전이면 ②제품군으로 뺀다(D083을 규칙으로, D143). Electroplanet 분류 단어는 사이트의 프랑스어 분류 이름으로 넣었고 실제 페이지로는 아직 확인하지 못했다(10월 HTML 없음, 이 환경에서 사이트 차단). 첫 실제 수집에서 분류 경로가 비었는지·단어가 맞는지 확인한다(07 미결 4-4). 상품명 약어 규칙(categories.retailer_name_codes)이 먼저 같은 행을 잡는다.",
+        "retailer": "Electroplanet",
+        "pattern": "(?i)cuisson|cuisini[eè]re|plaques?\\b|lave[\\s-]?vaisselle|\\bfours?\\b|micro[\\s-]?ondes|climatis|hottes?\\b",
+        "stage": "②제품군",
+        "reason": "대상 제품군 아님(페이지 분류 {hit})"
+      }
+    ],
     "block_as_missing_methods": [
       "manual"
     ]
