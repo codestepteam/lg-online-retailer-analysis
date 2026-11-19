@@ -4,6 +4,10 @@
   "console_python": "~/.local/share/uv/tools/lg-bq-console/bin/python",
   "lgops": "lgops",
   "max_sql_chars": 20000,
+  "fixed_dates": {
+    "_설명": "이번 회차만 사람이 기준일을 정한 리테일러(국가|리테일러). 규칙 대신 이 날을 쓰고, 기준일 보고에 '사람 지정 기준일'로 적는다. 다음 달에는 비운다.",
+    "Canada|COSTCO": {"date": "2026-11-15", "reason": "11-16은 배너 노출 표가 비어 건조기 0행(사용자 결정 11-18)"}
+  },
   "div_to_brand_category": {"REF": "REF", "W/M": "W/M", "D/W": "DW"},
   "add_missing_divs": {"DRY": "W/M"},
   "_제품군 추가": "콘솔 대상에 건조기(DRY)가 없는 리테일러에 세탁기 브랜드로 건조기를 더한다(10월 osm_target_extract_global9.sql과 같음). 건조기 수집량이 적은 곳이 기준일을 못 찾지 않도록, 더한 제품군은 기준일 선정에 쓰지 않는다.",

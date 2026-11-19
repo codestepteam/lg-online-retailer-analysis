@@ -130,6 +130,14 @@ class Extract(unittest.TestCase):
     def test_no_breadcrumb(self):
         self.assertEqual(s3.category_path_of('<script type="application/ld+json">{broken</script>'), "")
 
+    def test_visible_breadcrumbs_when_structured_path_has_only_the_product(self):
+        data = {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": {"name": "MAL WW90 SAMSUNG"}, "position": 1}]}
+        html = (f'<script type="application/ld+json">{json.dumps(data)}</script>'
+                '<div class="breadcrumbs"><ul class="items"><li class="item home"><a href="/">Accueil</a></li>'
+                '<li class="item"><a href="/g">Gros electrom&eacute;nager</a></li><li class="item"><strong>Machine à laver</strong></li></ul></div>')
+        self.assertEqual(s3.category_path_of(html), "Accueil > Gros electroménager > Machine à laver")
+        self.assertEqual(s3.visible_path_of('<ol class="breadcrumbs"><li>Strona główna ›</li><li>›</li><li>AGD /</li></ol>'), "Strona główna > AGD")
+
     def test_canonical_and_title(self):
         html = '<title>  A\n B </title><link rel="canonical" href="https://x/c">'
         self.assertEqual((s3.title_of(html), s3.canonical_of(html)), ("A B", "https://x/c"))
@@ -320,3 +328,55 @@ class SavedHtml(unittest.TestCase):
         counts, wrong = self.compare("extra-158-20261105", "eXtra_v3포함272_상품화면_품절문구_전수확인_20261105.csv", "EXTRA", expected)
         self.assertEqual(wrong, [])
         self.assertEqual(counts, Counter({"품절": 129, "없음(404)": 3, s3.NORMAL: 140}))
+
+
+class Scheduling(unittest.TestCase):
+    def test_slow_retailer_does_not_hold_back_others(self):
+        """느린 곳은 자기 동시 수 안에서만 돌고, 다른 곳 주소는 그 사이에 모두 끝난다."""
+        import threading, time
+        slow_started, release = threading.Event(), threading.Event()
+        finished = []
+
+        def fake_check(entry, *args):
+            if entry["retailer"] == "SLOW":
+                slow_started.set()
+                release.wait(5)
+            else:
+                finished.append(entry["url"])
+            return {"url": entry["url"], "ok": True, "status": s3.NORMAL}
+
+        planned = [{**item(), "retailer": "SLOW", "url": f"https://s/{i}"} for i in range(4)] + [{**item(), "retailer": "FAST", "url": f"https://f/{i}"} for i in range(6)]
+        fetch = {**FETCH, "workers": 3, "workers_per_retailer": 1, "log_every": 100}
+        with tempfile.TemporaryDirectory() as name, mock.patch.object(s3, "check_url", side_effect=fake_check):
+            runner = threading.Thread(target=s3.run_checks, args=(planned, RULES, fetch, common.ResumeLog(Path(name) / "log.jsonl", "url"), FAKE_KEY, Path(name), logging.getLogger("t")))
+            runner.start()
+            slow_started.wait(5)
+            deadline = time.time() + 5
+            while len(finished) < 6 and time.time() < deadline:
+                time.sleep(0.01)
+            self.assertEqual(len(finished), 6)  # 느린 곳 첫 주소가 붙잡힌 동안 빠른 곳 6개가 다 끝남
+            release.set()
+            runner.join(5)
+
+    def test_every_retailer_gets_a_turn_while_others_are_busy(self):
+        """앞 곳 주소가 많아도 뒤 곳 주소가 처음부터 함께 돈다."""
+        import threading
+        started, gate = [], threading.Event()
+
+        def fake_check(entry, *args):
+            started.append(entry["retailer"])
+            gate.wait(5)
+            return {"url": entry["url"], "ok": True, "status": s3.NORMAL}
+
+        planned = [{**item(), "retailer": "A", "url": f"https://a/{i}"} for i in range(5)] + [{**item(), "retailer": "B", "url": f"https://b/{i}"} for i in range(5)] + [{**item(), "retailer": "C", "url": "https://c/0"}]
+        fetch = {**FETCH, "workers": 3, "workers_per_retailer": 3, "log_every": 100}
+        with tempfile.TemporaryDirectory() as name, mock.patch.object(s3, "check_url", side_effect=fake_check):
+            runner = threading.Thread(target=s3.run_checks, args=(planned, RULES, fetch, common.ResumeLog(Path(name) / "log.jsonl", "url"), FAKE_KEY, Path(name), logging.getLogger("t")))
+            runner.start()
+            import time
+            deadline = time.time() + 5
+            while len(started) < 3 and time.time() < deadline:
+                time.sleep(0.01)
+            self.assertEqual(sorted(started[:3]), ["A", "B", "C"])
+            gate.set()
+            runner.join(5)

@@ -1,4 +1,4 @@
-"""S6 공유용 변환: 내부판을 26열 공유용 v1으로 바꾸고 검증 기록과 READ.md 절 초안을 남긴다."""
+"""S6 공유용 변환: 내부판을 공유용 v1(기본 26열 + output.json share_extra_columns)으로 바꾸고 검증 기록과 READ.md 절 초안을 남긴다."""
 import glob
 import json
 from collections import Counter
@@ -25,6 +25,11 @@ def to_share(rows, spec):
             for old, new in spec.share_wording.items():
                 value = value.replace(old, new)
             converted[spec.share_renames.get(column, column)] = value
+        for name, rule in spec.share_extra.items():
+            source = converted[rule["from"]]
+            if source not in rule["map"]:
+                raise ConfigError(f"행 {converted['행번호']}: {rule['from']} 값 {source!r}을 {name}로 바꿀 규칙이 없습니다")
+            converted[name] = rule["map"][source]
         shared.append(converted)
     return shared
 
@@ -36,8 +41,9 @@ def share_name(spec, version, summary, rows, day):
 def check_rows(columns, rows, spec):
     """공유용 파일 약속을 검사해 문제 목록을 돌려준다."""
     problems = []
-    if tuple(columns) != spec.share_columns:
+    if tuple(columns) != spec.all_share_columns:
         problems.append("열 이름·순서가 output.json과 다름")
+        return problems
     if [row["행번호"] for row in rows] != [str(number) for number in range(1, len(rows) + 1)]:
         problems.append("행번호가 1부터 순서대로가 아님")
     for row in rows:
@@ -50,6 +56,9 @@ def check_rows(columns, rows, spec):
             problems.append(f"행 {number}: 포함 행에 제외단계·사유가 있음")
         if row[SELLER_KIND_COLUMN] and row[SELLER_KIND_COLUMN] not in spec.seller_types:
             problems.append(f"행 {number}: 판매자구분 값 {row[SELLER_KIND_COLUMN]}")
+        for name, rule in spec.share_extra.items():
+            if row[name] != rule["map"].get(row[rule["from"]]):
+                problems.append(f"행 {number}: {name} 값 {row[name]}이 {rule['from']} 값 {row[rule['from']]}과 맞지 않음")
         if any(old in value for old in spec.share_wording for value in row.values()):
             problems.append(f"행 {number}: 공유용에 쓰면 안 되는 표현이 남음")
     return problems
@@ -83,7 +92,7 @@ def latest_internal(final):
 
 
 def main(argv):
-    parser = new_parser("S6 공유용 변환: 내부판 → 26열 공유용 v1")
+    parser = new_parser("S6 공유용 변환: 내부판 → 공유용 v1")
     parser.add_argument("--summary", required=True, help="파일명의 변경요지")
     parser.add_argument("--date", default=date.today().strftime("%Y%m%d"), help="파일명에 쓸 날짜(YYYYMMDD)")
     args = parser.parse_args(argv)
@@ -99,8 +108,8 @@ def main(argv):
         logger.info("출력이 이미 있어 건너뜁니다(다시 하려면 --force)")
         return 0
     shared = to_share(rows, spec)
-    write_csv(output, list(spec.share_columns), shared, overwrite=args.force)
-    record = verification(output, spec.share_columns, shared, spec)
+    write_csv(output, list(spec.all_share_columns), shared, overwrite=args.force)
+    record = verification(output, spec.all_share_columns, shared, spec)
     save_verification(final / VERIFY_NAME, 1, record)
     (final / READ_NAME).write_text(read_section(record, 1, args.month, "새 달 첫 결과"), encoding="utf-8")
     logger.info("S6 끝: %s, 문제 %d건", output.name, record["problem_count"])

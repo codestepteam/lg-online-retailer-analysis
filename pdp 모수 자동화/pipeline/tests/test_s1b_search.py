@@ -420,9 +420,27 @@ class Fetch(unittest.TestCase):
         self.assertFalse(record["ok"])
         self.assertIn("카드 없음", record["problem"])
 
-    def test_later_empty_page_is_a_normal_end(self):
-        record, post = self.fetch([self.body("<html></html>")], page=2)
-        self.assertEqual((record["ok"], post.call_count), (True, 1))
+    def test_later_empty_page_is_a_normal_end_after_retries(self):
+        record, post = self.fetch([self.body("<html></html>")] * 4, page=2)
+        self.assertEqual((record["ok"], record["cards"], post.call_count), (True, [], 4))
+
+    def test_later_empty_page_is_fetched_again(self):
+        record, post = self.fetch([self.body("<html></html>"), self.body(self.good)], page=2)
+        self.assertEqual((record["ok"], len(record["cards"]), post.call_count), (True, 1, 2))
+
+    def test_page_with_loading_slots_is_fetched_again(self):
+        retailer = shop("Poland|MEDIAEXPERT")
+        card = '<div class="offer-box" data-product-sku="1"><h3><a href="/p/{0}" aria-label="n{0}">n</a></h3></div>'
+        partial = '<div data-cy="offersList">' + card.format(1) + '<div class="skeleton"></div></div>'
+        full = '<div data-cy="offersList">' + card.format(1) + card.format(2) + '</div>'
+        with mock.patch("builtins.print"):
+            post = mock.Mock(side_effect=[self.body(partial), self.body(full)])
+            record = s1b.fetch_page("https://x/s", retailer, 1, SETTINGS, "k", post)
+        self.assertEqual((record["ok"], len(record["cards"]), post.call_count), (True, 2, 2))
+        with mock.patch("builtins.print"):
+            post = mock.Mock(side_effect=[self.body(partial)] * 4)
+            record = s1b.fetch_page("https://x/s", retailer, 1, SETTINGS, "k", post)
+        self.assertEqual((record["ok"], len(record["cards"]), record["loading"], post.call_count), (True, 1, 1, 4))
 
     def test_site_says_zero(self):
         record, post = self.fetch([self.body('<div id="center_column">لم يتم العثور</div>')])
@@ -503,3 +521,11 @@ class CollectionRun(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class InterleavedOrder(unittest.TestCase):
+    def test_retailers_take_turns_and_every_item_once(self):
+        planned = [{"retailer": {"retailer": name}} for name in ["A", "A", "A", "B", "C", "C"]]
+        order = s1b.interleaved_order(planned)
+        self.assertEqual(order, [0, 3, 4, 1, 5, 2])
+        self.assertEqual(sorted(order), list(range(len(planned))))

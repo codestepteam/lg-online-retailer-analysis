@@ -289,7 +289,7 @@ def fetch_page(url, retailer, page, settings, key, post=None):
     collection, probe = settings["collection"], settings["probe"]
     url = apply_query_filters(url, retailer)
     payload = payload_for(url, retailer["zyte_geolocation"], collection["methods"][retailer["search_method"]])
-    problem = ""
+    problem, empty_later, partial = "", None, None
     for attempt in range(1, collection["retries"] + 2):
         status, body = post(payload, key, probe["api_url"], probe["timeout_seconds"])
         html = page_html(body)
@@ -300,9 +300,25 @@ def fetch_page(url, retailer, page, settings, key, post=None):
                 problem = "응답 도착 URL에서 필수 직판 검색 조건이 사라짐"
                 continue
             parsed = parse_page(html, retailer["parser"], final_url, page)
-            if parsed["cards"] or parsed["zero"] or page > 1:
+            if parsed["cards"] and parsed.get("loading"):
+                # 로딩 자리(아직 안 그려진 카드 칸)가 남은 화면은 다시 받는다(11-18 MEDIAEXPERT: 같은 주소가 카드 2장+로딩 28칸 또는 30장).
+                # 끝내 남으면 카드가 가장 많았던 화면을 쓴다.
+                record = {"ok": True, "url": url, "final_url": final_url, "attempts": attempt, "problem": "", "collected_at": now_text(), **parsed}
+                if partial is None or len(parsed["cards"]) > len(partial["cards"]):
+                    partial = record
+                problem = f"로딩 자리 {parsed['loading']}개"
+                continue
+            if parsed["cards"] or parsed["zero"]:
                 return {"ok": True, "url": url, "final_url": final_url, "attempts": attempt, "problem": "", "collected_at": now_text(), **parsed}
+            # 2페이지 이후 빈 화면은 덜 그려진 화면일 수 있어 다시 받는다(11-18 RTV: 같은 2페이지가 0장, 다시 받으니 20장).
+            # 끝내 비면 예전처럼 목록 끝으로 본다.
+            if page > 1:
+                empty_later = {"ok": True, "url": url, "final_url": final_url, "attempts": attempt, "problem": "", "collected_at": now_text(), **parsed}
             problem = f"카드 없음(화면 표시 전체 수 {parsed['total_display'] or '없음'})"
+    if partial:
+        return {**partial, "attempts": collection["retries"] + 1}
+    if empty_later:
+        return empty_later
     return {"ok": False, "url": url, "final_url": "", "attempts": collection["retries"] + 1, "problem": problem, "collected_at": now_text(), "cards": [], "total_display": "", "total": None, "has_next": False, "zero": False, "loading": 0}
 
 
@@ -496,7 +512,19 @@ def run_collection(planned, settings, log, key, logger, max_pages=None):
         return outcome
 
     with ThreadPoolExecutor(max_workers=collection["workers"]) as pool:
-        return list(pool.map(work, planned))
+        futures = {index: pool.submit(work, planned[index]) for index in interleaved_order(planned)}
+        return [futures[index].result() for index in range(len(planned))]
+
+
+def interleaved_order(planned):
+    """검색어를 곳별로 번갈아 넣을 순서(계획 위치 목록). 계획 순서대로 넣으면 앞 곳의 동시 수 제한에 작업자가 모두 묶여 다른 곳이 놀았다(11-18 실행)."""
+    queues = defaultdict(list)
+    for index, item in enumerate(planned):
+        queues[item["retailer"]["retailer"]].append(index)
+    order, lists = [], list(queues.values())
+    for round_ in range(max((len(x) for x in lists), default=0)):
+        order += [indexes[round_] for indexes in lists if round_ < len(indexes)]
+    return order
 
 
 def render_sample(outcomes, settings):

@@ -65,18 +65,37 @@ def exclude_from_date_choice(sql, added):
     return sql
 
 
+def fix_selected_dates(sql, fixed):
+    """사람이 정한 리테일러만 기준일을 고정한다(osm_query.fixed_dates). 나머지는 규칙대로 고른다.
+    예: 2026-11 COSTCO는 규칙이 고른 11-16에 배너 노출 표가 비어 건조기가 0행이라 11-15로 고정했다."""
+    if not fixed:
+        return sql
+    whens = " ".join(f"WHEN CONCAT(r.CNTRY,'|',r.RTLR_NAME)='{key}' THEN DATE '{value['date']}'" for key, value in fixed.items())
+    reasons = " ".join(f"WHEN CONCAT(CNTRY,'|',RTLR_NAME)='{key}' THEN '사람 지정 기준일 · {value['reason']}'" for key, value in fixed.items())
+    replacements = {
+        "SELECT r.CNTRY,r.RTLR_NAME,MAX(e.RPT_DATE) SELECTED_DATE": f"SELECT r.CNTRY,r.RTLR_NAME,CASE {whens} ELSE MAX(e.RPT_DATE) END SELECTED_DATE",
+        "CASE WHEN SELECTED_DATE IS NULL THEN": f"CASE {reasons} WHEN SELECTED_DATE IS NULL THEN",
+    }
+    for anchor, replacement in replacements.items():
+        if sql.count(anchor) != 1:
+            raise ConfigError(f"콘솔 쿼리 구조가 달라져 지정 기준일을 넣을 수 없습니다: {anchor}")
+        sql = sql.replace(anchor, replacement)
+    return sql
+
+
 BRAND_KEY_ANCHOR = "CASE WHEN UPPER(TRIM(BRAND)) ='LG ELECTRONICS' THEN 'LG' ELSE"
 
 
 def prefix_brand_key(sql, prefix):
-    """osm_brand_prefix 리테일러는 BRAND_KEY를 맨 앞 영문 단어로 만든다(D142·D144: 'LG 樂金' → LG). 콘솔 쿼리는 공백만 지운 전체 이름을 비교해 이런 표기를 후보에서 뺀다."""
+    """osm_brand_prefix 리테일러는 BRAND_KEY를 맨 앞 영문 단어로 만든다(D142·D144: 'LG 樂金' → LG). 콘솔 쿼리는 공백만 지운 전체 이름을 비교해 이런 표기를 후보에서 뺀다.
+    lgops 서버는 REGEXP_EXTRACT를 받지 않아(11-18 실호출 HTTP 400) 10월 momo_pid.sql처럼 REGEXP_REPLACE로 앞 단어만 남긴다."""
     retailers = (prefix or {}).get("retailers", [])
     if not retailers:
         return sql
     if sql.count(BRAND_KEY_ANCHOR) != 1:
         raise ConfigError(f"콘솔 쿼리 구조가 달라져 브랜드 비교를 고칠 수 없습니다: {BRAND_KEY_ANCHOR}")
     names = ",".join(f"'{name.upper()}'" for name in retailers)
-    case = f"WHEN UPPER(RTLR_NAME) IN ({names}) AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'{prefix['pattern']}') THEN REGEXP_EXTRACT(UPPER(TRIM(BRAND)),r'{prefix['pattern']}')"
+    case = f"WHEN UPPER(RTLR_NAME) IN ({names}) AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'{prefix['pattern']}') THEN REGEXP_REPLACE(UPPER(TRIM(BRAND)),r'{prefix['pattern']}.*$',r'\\1')"
     return sql.replace(BRAND_KEY_ANCHOR, f"CASE WHEN UPPER(TRIM(BRAND)) ='LG ELECTRONICS' THEN 'LG' {case} ELSE")
 
 
@@ -158,6 +177,7 @@ def build(run, end_date):
     countries = list(dict.fromkeys(t["country"] for t in targets))
     sql = exclude_from_date_choice(render_sql(query, countries, targets), added_divs)
     sql = prefix_brand_key(sql, load_config(run, "retailer_rules")["common"].get("osm_brand_prefix"))
+    sql = fix_selected_dates(sql, {key: value for key, value in query.get("fixed_dates", {}).items() if not key.startswith("_")})
     if len(sql) > query["max_sql_chars"]:
         raise ConfigError(f"SQL이 {len(sql)}자로 한도를 넘습니다")
     return query, targets, report, added_divs, sql

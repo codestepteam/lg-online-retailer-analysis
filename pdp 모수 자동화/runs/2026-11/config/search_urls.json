@@ -639,7 +639,8 @@
       "zyte_geolocation": "MA",
       "zyte_geolocation_group": "extended",
       "zyte_tier": null,
-      "start_url_template": "https://www.electroplanet.ma/#ada2/fullscreen/m=and&q={plus}",
+      "start_url_template": "https://www.electroplanet.ma/#ada2/fullscreen/m=and&p=50&q={plus}",
+      "_p50": "주소의 p=N은 N번째 묶음(20개씩)까지 한 번에 불러온다. 11-18 시험: p=50으로 393행 649/649, 내리기 없이. p=51 이상은 사이트가 No results found(결과 없음)를 내므로 50이 상한이다(50×20=1,000장, card_limit과 같음). 창을 맨 아래로 내리는 방식은 전체화면 검색 상자 안 목록이 안 움직여 검색어마다 20개에서 멈췄다(11-18 실행).",
       "query_encoding": "plus",
       "pagination": {
         "kind": "infinite_scroll",
@@ -733,9 +734,8 @@
       "zyte_browser_scroll": {
         "browserHtml": true,
         "actions": [
-          {
-            "action": "scrollBottom"
-          }
+          {"action": "waitForSelector", "selector": {"type": "css", "value": ".dfd-card"}, "timeout": 15},
+          {"action": "waitForTimeout", "timeout": 5}
         ]
       }
     }

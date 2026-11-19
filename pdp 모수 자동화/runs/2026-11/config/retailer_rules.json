@@ -94,8 +94,9 @@
         521
       ],
       "backoff_seconds": 5,
-      "workers": 30,
-      "workers_per_retailer": 10,
+      "workers": 60,
+      "workers_per_retailer": 15,
+      "_동시수": "11-18 실제 회차에서 30·10 → 60·15로 올림. 남은 곳이 적어지면 곳별 10자리 제한 때문에 OTTO·FALABELLA가 1분에 2~10건으로 느렸다.",
       "log_every": 200,
       "methods": {
         "zyte_html": {
@@ -344,7 +345,8 @@
     "momo_refurb_title": "refurb|reconditionn|renewed|open.?box|pre-?owned|\\bused\\b|福利品|整新|展示品|二手|trưng bày|مجدد|مستعمل|reacondicion|seminuev|usado|มือสอง",
     "dienmayxanh_site": "dienmayxanh.com/#organization",
     "falabella_direct": "FALABELLA",
-    "magalu_sold_by": "Vendido por\\s+(.+?)\\s+e entregue por\\s+\\S+(?:\\s\\S+)?",
+    "magalu_sold_by": "Vendido(?: e entregue)? por\\s+(.+?)\\s+(?:e entregue por\\s+\\S+(?:\\s\\S+)?|R\\$)",
+    "_magalu_sold_by": "11-18 실제 화면은 판매자와 배송자가 같으면 'Vendido e entregue por Electrolux R$ 3.259,90'처럼 한 문구로 쓴다. 예전 정규식은 'Vendido por X e entregue por Y'만 읽어 이런 페이지를 확인불가로 냈다.",
     "magalu_direct": "magalu",
     "mediamarkt_screen": {
       "Hungary": {

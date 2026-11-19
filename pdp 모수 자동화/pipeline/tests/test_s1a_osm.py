@@ -30,12 +30,34 @@ class BrandPrefix(unittest.TestCase):
     def test_momoshop_brand_key_uses_leading_word(self):
         prefix = common.load_config(RUN, "retailer_rules")["common"]["osm_brand_prefix"]
         sql = s1a.prefix_brand_key(self.SQL, prefix)
-        self.assertIn("WHEN UPPER(RTLR_NAME) IN ('MOMOSHOP') AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+)') THEN REGEXP_EXTRACT(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+)') ELSE", sql)
+        self.assertIn("WHEN UPPER(RTLR_NAME) IN ('MOMOSHOP') AND REGEXP_CONTAINS(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+)') THEN REGEXP_REPLACE(UPPER(TRIM(BRAND)),r'^【?\\s*([A-Z]+).*$',r'\\1') ELSE", sql)
+        self.assertNotIn("REGEXP_EXTRACT", sql)  # lgops 서버가 받지 않는 함수
         self.assertEqual(s1a.prefix_brand_key(self.SQL, None), self.SQL)
 
     def test_changed_console_query_stops(self):
         with self.assertRaises(common.ConfigError):
             s1a.prefix_brand_key("no brand key here", {"retailers": ["MOMOSHOP"], "pattern": "x"})
+
+
+class FixedDates(unittest.TestCase):
+    SQL = ("chosen_dates AS (\n SELECT r.CNTRY,r.RTLR_NAME,MAX(e.RPT_DATE) SELECTED_DATE\n FROM retailer_map r GROUP BY 1,2\n), "
+           "date_decisions AS (\n SELECT *,\n CASE WHEN SELECTED_DATE IS NULL THEN 'x' END")
+
+    def test_fixed_retailer_gets_given_date_and_reason(self):
+        sql = s1a.fix_selected_dates(self.SQL, {"Canada|COSTCO": {"date": "2026-11-15", "reason": "배너 표 없음"}})
+        self.assertIn("CASE WHEN CONCAT(r.CNTRY,'|',r.RTLR_NAME)='Canada|COSTCO' THEN DATE '2026-11-15' ELSE MAX(e.RPT_DATE) END SELECTED_DATE", sql)
+        self.assertIn("CASE WHEN CONCAT(CNTRY,'|',RTLR_NAME)='Canada|COSTCO' THEN '사람 지정 기준일 · 배너 표 없음' WHEN SELECTED_DATE IS NULL THEN", sql)
+
+    def test_empty_keeps_sql_and_changed_template_stops(self):
+        self.assertEqual(s1a.fix_selected_dates(self.SQL, {}), self.SQL)
+        with self.assertRaises(common.ConfigError):
+            s1a.fix_selected_dates("no anchors", {"Canada|COSTCO": {"date": "2026-11-15", "reason": "x"}})
+
+    def test_real_query_applies_the_month_setting(self):
+        _, _, _, _, sql = s1a.build(RUN, END_DATE)
+        for key, value in common.load_config(RUN, "osm_query").get("fixed_dates", {}).items():
+            if not key.startswith("_"):
+                self.assertIn(f"='{key}' THEN DATE '{value['date']}'", sql)
 
 
 class Conversion(unittest.TestCase):
@@ -141,7 +163,7 @@ class RunMode(unittest.TestCase):
         self.folder = tempfile.TemporaryDirectory()
         self.addCleanup(self.folder.cleanup)
         self.run_paths = common.RunPaths("2026-11", Path(self.folder.name)).create()
-        for name in ("osm_query", "s0_input", "brands"):
+        for name in ("osm_query", "s0_input", "brands", "retailer_rules"):
             shutil.copy(RUN.sub("config") / f"{name}.json", self.run_paths.sub("config") / f"{name}.json")
         logger_patch = mock.patch.object(s1a, "get_logger", return_value=mock.Mock())
         logger_patch.start()

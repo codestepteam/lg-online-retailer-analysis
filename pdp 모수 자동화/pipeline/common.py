@@ -11,6 +11,7 @@ import os
 import re
 import sys
 import tempfile
+import dataclasses
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -75,6 +76,12 @@ class OutputSpec:
     exclusion_stages: tuple
     seller_types: tuple
     share_filename: str
+    share_extra: dict = dataclasses.field(default_factory=dict)
+
+    @property
+    def all_share_columns(self):
+        """공유용 기본 열 뒤에 다른 열에서 정해지는 열(share_extra_columns)을 붙인 전체 열."""
+        return self.share_columns + tuple(self.share_extra)
 
 
 def load_output_spec(run):
@@ -84,12 +91,16 @@ def load_output_spec(run):
             tuple(raw["internal_columns"]), tuple(raw["share_columns"]), raw["share_renames"],
             tuple(raw["share_dropped"]), raw["share_status_map"], raw["share_wording"],
             tuple(raw["exclusion_stages"]), tuple(raw["seller_types"]), raw["share_filename"],
+            raw.get("share_extra_columns", {}),
         )
     except KeyError as error:
         raise ConfigError(f"output.json에 항목이 없습니다: {error}") from error
     derived = tuple(spec.share_renames.get(c, c) for c in spec.internal_columns if c not in spec.share_dropped)
     if derived != spec.share_columns:
         raise ConfigError(f"내부판에서 변환한 열이 공유용 열과 다릅니다: {derived}")
+    for name, rule in spec.share_extra.items():
+        if rule.get("from") not in spec.share_columns or not isinstance(rule.get("map"), dict):
+            raise ConfigError(f"share_extra_columns의 {name} 규칙이 잘못됐습니다")
     return spec
 
 

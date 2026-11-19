@@ -5,12 +5,13 @@
 """
 import gzip
 import json
+from html import unescape
 import random
 import re
 import threading
 import time
 from collections import Counter, defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 
 from common import ConfigError, RunPaths, call_preview, get_logger, html_filename, load_config, new_parser, read_csv, read_secret, ResumeLog, write_csv
 from s1b_search import now_text, page_html, zyte_post
@@ -102,7 +103,25 @@ def _nodes(data):
 
 
 def category_path_of(html):
-    """구조화 데이터(JSON-LD)의 BreadcrumbList 이름을 ' > '로 잇는다. 없으면 빈칸."""
+    """구조화 데이터(JSON-LD)의 BreadcrumbList 이름을 ' > '로 잇는다. 그 경로가 한 칸 이하이고 화면의 분류 경로(class="breadcrumbs" 목록)가
+    더 길면 화면 경로를 쓴다(11-18 Electroplanet: JSON-LD에는 상품명 한 칸만, 화면에는 Accueil > Gros electroménager > Machine à laver). 없으면 빈칸."""
+    structured = structured_path_of(html)
+    if structured.count(" > ") >= 1:
+        return structured
+    visible = visible_path_of(html)
+    return visible if visible.count(" > ") > structured.count(" > ") else structured
+
+
+def visible_path_of(html):
+    match = re.search(r'<(ul|ol|div|nav)[^>]*class="[^"]*\bbreadcrumbs?\b[^"]*"[^>]*>(.*?)</\1>', html, re.I | re.S)
+    if not match:
+        return ""
+    names = [re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", item))).strip() for item in re.findall(r"<li[^>]*>(.*?)</li>", match.group(2), re.I | re.S)]
+    names = [name.strip(" ›>/|»").strip() for name in names]  # 화면 경로의 구분 기호(›, /)는 이름이 아니다
+    return " > ".join(name for name in names if name)
+
+
+def structured_path_of(html):
     for match in re.finditer(r"<script[^>]*ld\+json[^>]*>(.*?)</script>", html, re.I | re.S):
         try:
             data = json.loads(match.group(1).strip())
@@ -209,22 +228,38 @@ def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None):
 def run_checks(planned, rules, fetch, log, key, html_folder, logger, post=None, sleep=None):
     """곳별 동시 수를 제한하며 받는다. 끝난 주소는 다시 부르지 않는다."""
     todo = [item for item in planned if not log.done(item["url"])]
-    random.Random(1).shuffle(todo)  # 한 곳이 앞에 몰려 작업 줄을 막지 않게 섞는다
-    gates = {retailer: threading.Semaphore(fetch["workers_per_retailer"]) for retailer in {item["retailer"] for item in todo}}
+    random.Random(1).shuffle(todo)
+    # 곳별 줄을 따로 두고, 그 곳의 동시 수에 자리가 있을 때만 작업자에게 넘긴다. 섞은 한 줄을 그대로 넘기면 차단돼 느린 곳(11-18 Magalu)의
+    # 자리를 기다리는 작업자가 쌓여 전체가 그 곳 속도로 떨어졌다.
+    queues = defaultdict(list)
+    for item in todo:
+        queues[item["retailer"]].append(item)
+    running = Counter()
     write_lock = threading.Lock()
-    finished = [0]
+    finished = 0
 
     def work(item):
-        with gates[item["retailer"]]:
-            record = check_url(item, rules, fetch, key, html_folder, post, sleep)
+        record = check_url(item, rules, fetch, key, html_folder, post, sleep)
         with write_lock:
             log.append(record)
-            finished[0] += 1
-            if finished[0] % fetch["log_every"] == 0 or finished[0] == len(todo):
-                logger.info("%d/%d 끝", finished[0], len(todo))
+        return item
 
     with ThreadPoolExecutor(max_workers=fetch["workers"]) as pool:
-        list(pool.map(work, todo))
+        pending = set()
+        while pending or any(queues.values()):
+            while len(pending) < fetch["workers"]:
+                ready = [name for name in queues if queues[name] and running[name] < fetch["workers_per_retailer"]]
+                if not ready:
+                    break
+                retailer = min(ready, key=lambda name: running[name])  # 지금 덜 돌고 있는 곳부터. 앞 곳이 자리를 독차지하지 않게(11-18)
+                pending.add(pool.submit(work, queues[retailer].pop()))
+                running[retailer] += 1
+            done, pending = wait(pending, return_when=FIRST_COMPLETED)
+            for future in done:
+                running[future.result()["retailer"]] -= 1
+                finished += 1
+                if finished % fetch["log_every"] == 0 or finished == len(todo):
+                    logger.info("%d/%d 끝", finished, len(todo))
 
 
 def apply_manual(pages, manual):

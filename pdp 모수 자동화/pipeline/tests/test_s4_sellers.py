@@ -154,6 +154,9 @@ class OtherRetailers(unittest.TestCase):
     def test_magalu_screen_text(self):
         self.assertEqual(judged("Brazil", "MAGAZINELUIZA", "<p>Vendido por LG Store e entregue por Magalu</p>")[:2], ("LG Store", "외부판매자"))
         self.assertEqual(judged("Brazil", "MAGAZINELUIZA", "<p>Vendido por Magalu e entregue por Magalu</p>")[1], "직판")
+        # 11-18 실제 화면: 판매와 배송이 같은 곳이면 한 문구로 쓰고 바로 뒤에 가격이 온다
+        self.assertEqual(judged("Brazil", "MAGAZINELUIZA", "<p>Vendido e entregue por</p><p>Electrolux</p><p>R$ 3.259,90</p>")[:2], ("Electrolux", "외부판매자"))
+        self.assertEqual(judged("Brazil", "MAGAZINELUIZA", "<p>Vendido e entregue por</p><p>Magalu</p><p>R$ 3.899,00</p>")[:2], ("Magalu", "직판"))
 
     def test_appliance_online_shell_is_unknown(self):
         html = '<link id="canonicalLink" rel="canonical" href="https://www.appliancesonline.com.au/">'
