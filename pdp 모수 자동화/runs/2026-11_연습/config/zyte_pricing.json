@@ -1,0 +1,58 @@
+{
+  "_설명": "Zyte API 종량제 공개 단가(사람 유지). 성공 응답만 과금. 사이트+요청 방식 조합별로 묶음(tier)이 자동 배정되며 사이트별 묶음은 공개돼 있지 않다.",
+  "checked_on": "2026-11-09",
+  "sources": [
+    "https://www.zyte.com/pricing/",
+    "https://docs.zyte.com/zyte-api/pricing.html",
+    "https://docs.zyte.com/zyte-api/usage/reference.html"
+  ],
+  "currency": "USD",
+  "unit": "per_1000_successful_requests",
+  "tiers": {
+    "1": {
+      "http": 0.13,
+      "browser": 1.01
+    },
+    "2": {
+      "http": 0.23,
+      "browser": 2.01
+    },
+    "3": {
+      "http": 0.44,
+      "browser": 4.02
+    },
+    "4": {
+      "http": 0.7,
+      "browser": 8.04
+    },
+    "5": {
+      "http": 1.27,
+      "browser": 16.08
+    }
+  },
+  "standard_geolocations": [
+    "AU",
+    "BE",
+    "BR",
+    "CA",
+    "CN",
+    "DE",
+    "ES",
+    "FR",
+    "GB",
+    "IN",
+    "IT",
+    "JP",
+    "KR",
+    "MX",
+    "NL",
+    "PL",
+    "RU",
+    "TR",
+    "US",
+    "ZA"
+  ],
+  "extended_geolocation_price": null,
+  "actions_price": null,
+  "_미확인": "확장 지역(geolocation 명시)과 actions 사용 시 추가 금액은 공개 문서에 금액이 없다(모름). 대시보드·문의로 확인 필요. 그래서 미리보기 비용은 이 금액을 뺀 하한이다."
+}

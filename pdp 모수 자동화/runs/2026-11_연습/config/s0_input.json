@@ -1,0 +1,94 @@
+{
+  "_설명": "S0가 EY 엑셀을 읽을 때 쓰는 사람 유지 설정. 시트 머리글이 여기 적힌 값과 다르면 S0는 멈춘다. 경로는 저장소 루트 기준.",
+  "excel_glob": "관련문서/*v2.2*.xlsx",
+  "console_fixed_targets": "~/.local/share/uv/tools/lg-bq-console/lib/python3.12/site-packages/bqconsole/queries/fixed-targets.json",
+  "country_alias": {"SaudiArabia": "Saudi Arabia", "UK": "United Kingdom", "Czech": "Czech Republic"},
+  "console_country_codes": {
+    "Spain": ["ES"], "France": ["FR"], "Italy": ["IT"], "Netherlands": ["NL"], "Sweden": ["SE"], "Germany": ["DE"],
+    "United Kingdom": ["UK", "GB"], "Canada": ["CA"], "Chile": ["CL"], "Mexico": ["MX"], "Brazil": ["BR"],
+    "Saudi Arabia": ["SA"], "Singapore": ["SG"], "Thailand": ["TH"], "Taiwan": ["TW"], "Vietnam": ["VN"]
+  },
+  "brand_overrides": {
+    "_근거": "두레이 #110, D062. 시트의 값을 통째로 대체한다.",
+    "Germany": {"W/M": ["LG", "SAMSUNG", "BOSCH", "SIEMENS"], "REF": ["LG", "SAMSUNG", "BOSCH", "LIEBHERR"]},
+    "United Kingdom": {"W/M": ["LG", "SAMSUNG", "BOSCH", "HISENSE"], "REF": ["LG", "SAMSUNG", "BOSCH", "HISENSE"]}
+  },
+  "category_fallback": {"DRY": "W/M"},
+  "retailer_names": {
+    "Canada|Costco": "COSTCO",
+    "Chile|FALABELLA": "FALABELLA",
+    "Mexico|Liverpool": "LIVERPOOL",
+    "Peru|FALABELLA": "FALABELLA",
+    "Brazil|Magazine Luiza (MAGALU)": "MAGAZINELUIZA",
+    "Netherlands|COOLBLUE": "COOLBLUE",
+    "Netherlands|MediaMarkt": "MEDIAMARKT",
+    "Poland|Media Expert": "MEDIAEXPERT",
+    "Poland|RTV EURO AGD": "RTV_EURO_AGD",
+    "Czech Republic|Datart": "DATART",
+    "Czech Republic|Alza": "ALZA",
+    "Hungary|MediaMarkt": "Mediamarkt",
+    "Germany|MediaMarkt": "MEDIAMARKT",
+    "Germany|Amazon": "AMAZON",
+    "Germany|Otto": "OTTO",
+    "Spain|ELCORTEINGLES (ECI)": "ELCORTEINGLES_ELECTRONICA",
+    "Spain|MediaMarkt": "MEDIAMARKT",
+    "France|BOULANGER": "BOULANGER",
+    "France|DARTY": "DARTY",
+    "Italy|MediaWorld": "MEDIAWORLD",
+    "Italy|UNIEURO": "UNIEURO",
+    "Italy|Amazon": "AMAZON",
+    "Portugal|Worten": "Worten",
+    "Sweden|ELGIGANTEN": "ELGIGANTEN",
+    "United Kingdom|AO": "AO",
+    "United Kingdom|Currys": "CURRYS",
+    "Egypt|Cairo Sales": "Cairo Sales",
+    "UAE|Sharaf DG": "Sharaf DG",
+    "Morocco|electroplanet": "Electroplanet",
+    "Saudi Arabia|eXtra": "EXTRA",
+    "Australia|Appliance Online": "Appliance Online",
+    "Singapore|Lazada": "LAZADA",
+    "Thailand|Lazada": "LAZADA",
+    "Taiwan|Momoshop": "MOMOSHOP",
+    "Vietnam|DIENMAYXANH": "DIENMAYXANH"
+  },
+  "sheets": {
+    "targets": {
+      "name": "대상 국가,리테일러",
+      "header_row": 4,
+      "columns": {
+        "region": [12, "Region"],
+        "subsidiary": [13, "Subsidiary"],
+        "country": [14, "Country"],
+        "retailer": [15, "리테일러"],
+        "osm": [19, "진단대상 리테일러 - 해영본OSM 데이터 보유여부(`26.07)"]
+      },
+      "total_marker": "합계"
+    },
+    "brands": {
+      "name": "경쟁브랜드",
+      "header_row": 4,
+      "columns": {"region": [1, "Region"], "country": [2, "Country"], "category": [3, "Category"], "brand": [4, "Brand"]}
+    },
+    "search_terms": {
+      "name": "Search Term",
+      "header_row": 8,
+      "columns": {
+        "country": [2, "Country"],
+        "retailer": [3, "Retailer"],
+        "osm": [4, "OSM 데이터 보유 여부(09/15)"],
+        "category": [5, "SRCH_KYWD_CAT_NAME"],
+        "english": [6, "ENG_SRCH_KYWD_INFO"],
+        "keyword": [9, "LOC_SRCH_KYWD_INFO (수정)"],
+        "ey_proposal": [12, "EY 제안"],
+        "source_note": [14, "상세 설명"]
+      },
+      "use_osm_value": "X",
+      "excluded_keyword_marker": "제외"
+    },
+    "keywords": {
+      "name": "제외키워드(리리부)",
+      "header_row": 6,
+      "columns": {"country": [8, "CNTRY"], "type": [9, "CATEGORY_SRCH_KYWD"], "keyword": [10, "LOC_SRCH_KYWD"]}
+    }
+  }
+}

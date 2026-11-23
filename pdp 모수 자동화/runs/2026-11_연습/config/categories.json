@@ -1,0 +1,61 @@
+{
+ "_설명": "검색 행 제품군 판별(사람 유지). 10월 step1_filter.py에서 그대로 읽음(AI 제안 규칙 포함, 03 문서 3장)",
+ "search_category_map": {
+  "refrig": "REF",
+  "wash": "W/M",
+  "dryer": "DRY"
+ },
+ "head_words": 4,
+ "negative": [
+  {
+   "name": "식기세척기",
+   "pattern": "dishwasher|vaatwas|myčk|zmywar|mosogatógép|lavar loiça|lavavajilla|lave[\\s-]?vaisselle|^lv |غسالة (?:ال)?(?:اطباق|أطباق|صحون)"
+  },
+  {
+   "name": "헤어드라이어",
+   "pattern": "hair ?dryer|secador(?:a)? de (?:cabello|pelo)|vysoušeč vlasů|suszarka do włosów|hajszárító|سشوار|مجفف شعر|sèche[\\s-]?cheveux|secador profesional|secador ionico"
+  },
+  {
+   "name": "빨래건조대",
+   "pattern": "wieszak|sušák|suszarka na (?:pranie|ubrania)|tendedero|secador de ropa plegable|ruhaszárító állvány|stendibiancheria"
+  },
+  {
+   "name": "스타일러",
+   "pattern": "styler"
+  },
+  {
+   "name": "기타 가전",
+   "pattern": "televis|\\btv\\b|microwave|mikrovln|mikrofal|micro[\\s-]?ondas|hob\\b|plaque|varná deska|płyta|expresso|espresso|kávovar|écouteur|earbuds|vacuum|vysavač|odkurzacz|aspirador|klimatizace|klimatyzac|air condition|cooker hood|okap|digestoř|oven\\b|trouba|piekarnik"
+  }
+ ],
+ "positive": {
+  "REF": "fridge|refrigerat|réfrigérat|refrigerador|koelkast|koel[\\s-]?vries|chladni|lednic|lodówk|hűtő|frigor|frigo\\b|ثلاج|side by side|french door|top mount|bottom mount|\\bcomb\\b|\\bref\\b|americain|américain|multi[\\s-]?portes|\\bsbs\\b|mini ?bar|cooler",
+  "W/M": "washer|washing|wasmachine|wasautomaat|pračk|pralk|mosógép|mosó-szárító|máquina de lavar(?! loiça)|lavadora|lavasecadora|غسال|lave[\\s-]?linge|machine à laver|\\bmal\\b|twin tub|semiautom",
+  "DRY": "dryer|droger|sušičk|suszark|szárító|máquina de secar|secadora|secarropa|نشاف|مجفف|sèche[\\s-]?linge|\\bsl\\b|\\bsech"
+ },
+ "freezer_head": "^(?:\\S+\\s+){0,2}(?:freezer|vriezer|mrazák|mraznička|zamrażarka|fagyasztószekrény|fagyasztóláda|congelador|congélateur|congelateur|chest freezer|upright freezer|deep freezer|ديب فريزر|فريزر)",
+ "freezer_combo_search": "combi|kombin|s mrazák|s mrazničk|z zamraż|fagyasztós|réfrigérateur|refrigera|lodówk|chladni|hűtő|geladeira|ثلاج|fridge|koel|frigor",
+ "freezer_combo_osm": "combi|kombin|frigo|réfrigérateur|refrigera|lodówk|chladni|hűtő|fridge|kühl|koel|kyl|ثلاج|geladeira|冰箱|tủ lạnh",
+ "freezer_note": "단독 냉동고(냉장고에 포함, 10-29 사용자 결정)",
+ "no_category_note": "제품군 단어 없음(검색어 제품군 따름)",
+ "part_suspect": "filtr|filter|tampa|cover|hose|wąż|hadice|tömlő|mangueira|manguera|bracket|soporte|podstav|podest|pedestal|stacking|łącznik|spojovac|gasket|uszczelk|těsnění|półk|polic|shelf|tray|cleaner|limpeza|odkamieniacz|odvápň|tablet|kapsuł|capsul|deterg|proszek|płyn|liquid|líquido|sacos?|worki|bag|remote|pilot|cable|kabel|replacement|náhradn|zamienn|alkatrész|repuesto|peça|diodo|lâmpada|bulb|kit(?!\\w)|adapter|adaptér|adapte|organizer|cesto|gaveta|basket|kosz|koš|ice maker|kostkarka|water ?filter|حامل|فلتر|قاعدة",
+ "part_suspect_memo": "부품 의심 단어(시트 밖, AI 추가)",
+ "retailer_name_codes": {
+  "_설명": "상품명 맨 앞 종류 약어로 조사 제품군 밖 가전을 빼는 리테일러별 규칙(D083을 규칙으로, D143). Electroplanet은 상품명이 'TC … GAZ'(가스레인지), 'MAV …'(식기세척기)처럼 약어로 시작하고 제품군 단어가 없다. v8에서 사람이 뺀 24행은 모두 걸리고 포함 67행은 하나도 걸리지 않는다(2026-11-17 확인). 식기세척기의 '14C 11P'는 식기 14인분·11개 프로그램 표기다.",
+  "Electroplanet": [
+   {"name": "가스레인지", "pattern": "^tc\\b", "stage": "②제품군"},
+   {"name": "식기세척기", "pattern": "^mav\\b|^lave vaiss|\\b\\d{1,2}cv?\\s+\\d{1,2}p\\b", "stage": "②제품군"},
+   {"name": "오븐", "pattern": "^four\\b", "stage": "②제품군"},
+   {"name": "에어컨", "pattern": "^clim\\b", "stage": "②제품군"},
+   {"name": "전자레인지", "pattern": "^mo\\b", "stage": "②제품군"},
+   {"name": "정수기 필터", "pattern": "^membrane\\b", "stage": "③리리부"}
+  ],
+  "MOMOSHOP": [
+   {"name": "의류관리기 단독", "pattern": "styler|電子衣櫥", "unless": "洗|冰箱|乾衣|烘", "stage": "②제품군", "_설명": "v8 '전자 의류관리기만 있는 상품' 규칙(D144). 洗衣塔×電子衣櫥(세탁타워 + 스타일러) 같은 묶음은 unless에 걸려 남는다"}
+  ]
+ },
+ "osm_negative": {
+  "_설명": "OSM 행은 제품군을 OSM 값(DIV)으로 믿지만, 상품명에 아래 이름의 제외 단어가 있고 대상 제품군 단어(positive)가 하나도 없으면 ②제품군으로 뺀다(D143). 식기세척기·스타일러는 나라·리테일러별 결정이 있어 넣지 않는다. v8 OSM 12,812행 중 COSTCO 삼성 TV 1행(D087)만 걸리고, '냉장고 + Smart TV' 묶음 같은 포함 행은 대상 제품군 단어가 있어 걸리지 않는다(2026-11-17 확인).",
+  "names": ["기타 가전"]
+ }
+}
