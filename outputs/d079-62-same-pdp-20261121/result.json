@@ -1,0 +1,32 @@
+{
+ "tally": {
+  "같음": 60,
+  "확인 못 함": 2
+ },
+ "by_retailer": {
+  "COSTCO|같음": 41,
+  "COSTCO|확인 못 함": 2,
+  "FALABELLA|같음": 19
+ },
+ "need": [],
+ "not_same": [
+  {
+   "pair": 10,
+   "retailer": "COSTCO",
+   "rep": "7986",
+   "dup": "8010",
+   "verdict": "확인 못 함",
+   "diff": [],
+   "reason": "행 7986: 상품 화면이 열리지 않음 (화면에 나온 글: Product not available! (상품을 볼 수 없음)); 행 8010: 상품 화면이 열리지 않음 (화면에 나온 글: Product not available! (상품을 볼 수 없음)); 배송지 우편번호를 V6B 1A1, T2P 1J9(으)로 바꿔 두 주소를 다시 열어도 같은 안내"
+  },
+  {
+   "pair": 18,
+   "retailer": "COSTCO",
+   "rep": "8051",
+   "dup": "8102",
+   "verdict": "확인 못 함",
+   "diff": [],
+   "reason": "행 8051: 상품 화면이 열리지 않음 (화면에 나온 글: Product not available! (상품을 볼 수 없음)); 행 8102: 상품 화면이 열리지 않음 (화면에 나온 글: Product not available! (상품을 볼 수 없음)); 배송지 우편번호를 V6B 1A1, T2P 1J9(으)로 바꿔 두 주소를 다시 열어도 같은 안내"
+  }
+ ]
+}
