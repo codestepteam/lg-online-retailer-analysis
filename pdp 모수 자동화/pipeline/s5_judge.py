@@ -212,10 +212,22 @@ def code_evidence(rows, found):
              "브랜드 찾은곳": found[row["행번호"]][2], "제품코드 찾은곳": found[row["행번호"]][3]} for row in rows if row["흐름"] != OSM_FLOW]
 
 
+def page_for(row, pages, sellers):
+    """(페이지 기록, 판매자 행, 메모). 꼬리 주소 행이고 S3가 그 꼬리 주소를 다시 열었으면(일반 주소가 페이지 없음, D158) 그 결과를 쓴다.
+    일반 주소 행은 일반 주소 결과 그대로다(일반 주소가 페이지 없음이면 ④페이지없음)."""
+    raw = row.get("원본URL") or row["URL"]
+    tail = pages.get(raw) if raw != row["URL"] else None
+    if tail and tail.get("fallback_from_status"):
+        return tail, sellers.get(raw), f"일반 주소 {tail['fallback_from_status']}, 꼬리 주소로 다시 엶"
+    return pages.get(row["URL"]), sellers.get(row["URL"]), ""
+
+
 def judge_all(rows, pages, sellers, settings):
     for row in rows:
         if row["판정"] != EXCLUDE:
-            judge_row(row, pages.get(row["URL"]), sellers.get(row["URL"]), settings)
+            page, seller, memo = page_for(row, pages, sellers)
+            add_memo(row, memo)
+            judge_row(row, page, seller, settings)
     remove_duplicates(rows, settings["dedupe"])
     return rows
 

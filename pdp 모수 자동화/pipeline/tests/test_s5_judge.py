@@ -105,6 +105,27 @@ class PageAndSeller(unittest.TestCase):
         self.assertEqual((item["페이지상태"], item["실제URL"], item["판매자"], len(item["판매자근거"])), ("정상", "https://x/final", "Alza", 200))
 
 
+class TailReopen(unittest.TestCase):
+    """D158: 일반 주소가 페이지 없음이라 S3가 꼬리 주소를 다시 열었을 때. 일반 주소 행은 일반 주소 결과, 꼬리 주소 행은 자기 꼬리 주소 결과로 판정한다."""
+    PLAIN, TAIL1, TAIL2 = "https://www.amazon.it/dp/B00799JTJI", "https://www.amazon.it/dp/B00799JTJI?smid=A1", "https://www.amazon.it/dp/B00799JTJI?smid=A2"
+
+    def rows(self):
+        return [row(str(number), "AMAZON", "Italy", self.PLAIN, 원본URL=raw) for number, raw in enumerate((self.PLAIN, self.TAIL1, self.TAIL2), 1)]
+
+    def test_plain_row_missing_and_tail_rows_use_their_own_page(self):
+        pages = {self.PLAIN: page("없음(404)", self.PLAIN), self.TAIL1: page(url=self.TAIL1, fallback_url=self.TAIL1, fallback_from_status="없음(404)"),
+                 self.TAIL2: page(url=self.TAIL2, fallback_url=self.TAIL2, fallback_from_status="없음(404)")}
+        sellers = {self.TAIL1: seller("Amazon", "직판"), self.TAIL2: seller("Shop", "외부판매자")}
+        rows = s5.judge_all(self.rows(), pages, sellers, SETTINGS)
+        memo = "일반 주소 없음(404), 꼬리 주소로 다시 엶"
+        self.assertEqual([(r["판정"], r["제외단계"], r["메모"]) for r in rows], [(s2.EXCLUDE, "④페이지없음", ""), (s2.KEEP, "", memo), (s2.EXCLUDE, "③리리부", memo)])
+        self.assertEqual([r["실제URL"] for r in rows], [self.PLAIN, self.TAIL1, self.TAIL2])
+
+    def test_found_plain_page_is_used_for_every_row(self):
+        pages = {self.PLAIN: page(url=self.PLAIN)}
+        rows = s5.judge_all(self.rows(), pages, {self.PLAIN: seller("Amazon", "직판")}, SETTINGS)
+        self.assertEqual([(r["판정"], r["제외단계"], r["메모"]) for r in rows], [(s2.KEEP, "", ""), (s2.EXCLUDE, "④중복", ""), (s2.EXCLUDE, "④중복", "")])
+
 class Exceptions(unittest.TestCase):
     def status(self, retailer, country, name, kind):
         return judged(row(retailer=retailer, country=country), page(), seller(name, kind))[:2]

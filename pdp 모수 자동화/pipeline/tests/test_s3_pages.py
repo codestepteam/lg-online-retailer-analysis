@@ -149,6 +149,25 @@ class Plan(unittest.TestCase):
         rows = [{"판정": s2.EXCLUDE, "URL": "a", "국가": "Germany", "리테일러": "OTTO"}, {"판정": s2.KEEP, "URL": "b", "국가": "Germany", "리테일러": "OTTO"}, {"판정": s2.CHECK, "URL": "b", "국가": "Germany", "리테일러": "OTTO"}]
         self.assertEqual([entry["url"] for entry in s3.plan_pages(rows, targets, RULES, FETCH)], ["b"])
 
+    def test_tail_urls_are_attached_only_where_reopening_is_set(self):
+        """D158: 같은 일반 주소 행들의 꼬리 주소를 모두 중복 없이 붙인다. 설정에 없는 곳, 제외된 행, 원본URL이 같은 행은 붙이지 않는다."""
+        targets = [{"country": "France", "retailer": "DARTY", "zyte_geolocation": None, "console_country_codes": ["FR"]},
+                   {"country": "Germany", "retailer": "OTTO", "zyte_geolocation": None, "console_country_codes": ["DE"]}]
+        row = lambda url, raw, retailer="DARTY", country="France", verdict=s2.KEEP: {"판정": verdict, "URL": url, "원본URL": raw, "국가": country, "리테일러": retailer}
+        rows = [row("d1", "d1"), row("d1", "d1?ofmp=1"), row("d1", "d1?ofmp=2"), row("d1", "d1?ofmp=1"), row("d2", "d2?ofmp=9", verdict=s2.EXCLUDE), row("d2", "d2"),
+                row("o1", "o1?x=1", "OTTO", "Germany")]
+        planned = {entry["url"]: entry for entry in s3.plan_pages(rows, targets, RULES, FETCH, {("France", "DARTY")})}
+        self.assertEqual(list(planned), ["d1", "d2", "o1"])
+        self.assertEqual(planned["d1"]["fallback_urls"], ["d1?ofmp=1", "d1?ofmp=2"])
+        self.assertNotIn("fallback_urls", planned["d2"])
+        self.assertNotIn("fallback_urls", planned["o1"])
+
+    def test_reopening_is_set_for_darty_and_two_amazons_only(self):
+        shops = s3.fallback_shops(common.load_config(RUN, "osm_query"))
+        self.assertEqual(shops, {("France", "DARTY"), ("Germany", "AMAZON"), ("Italy", "AMAZON")})
+        names = {(target["country"], target["retailer"]) for target in common.load_config(RUN, "targets")["targets"]}
+        self.assertLessEqual(shops, names)
+
     def test_unknown_retailer_stops(self):
         with self.assertRaises(common.ConfigError):
             s3.plan_pages([{"판정": s2.KEEP, "URL": "b", "국가": "X", "리테일러": "Y"}], [], RULES, FETCH)
@@ -227,6 +246,50 @@ class Fetch(unittest.TestCase):
         record = self.check(fake_post(http_body(GOOD, 404)))
         self.assertEqual(record["status"], "없음(404)")
 
+    TAILS = ["https://a/dp/B1?smid=S1", "https://a/dp/B1?smid=S2"]
+
+    def tail_item(self):
+        return {**item("AMAZON"), "url": "https://a/dp/B1", "fallback_urls": list(self.TAILS)}
+
+    def check_item(self, post, entry=None, done=None):
+        return s3.check_item(entry or self.tail_item(), RULES, FETCH, FAKE_KEY, self.path, done, post, self.sleeps.append)
+
+    def test_missing_plain_page_opens_every_tail_url_separately(self):
+        """D158: 일반 주소가 페이지 없음이면 꼬리 주소를 모두 하나씩 열어 각자 기록한다. 일반 주소 기록은 페이지 없음 그대로다."""
+        post = fake_post(http_body(GOOD, 404, url="https://a/dp/B1"), http_body(GOOD, url=self.TAILS[0]), http_body(GOOD, 410, url=self.TAILS[1]))
+        plain, first, second = self.check_item(post)
+        self.assertEqual([call["url"] for call in post.calls], ["https://a/dp/B1", *self.TAILS])
+        self.assertEqual((plain["url"], plain["status"]), ("https://a/dp/B1", "없음(404)"))
+        self.assertNotIn("fallback_from_status", plain)
+        self.assertEqual((first["url"], first["status"], first["final_url"], first["fallback_url"], first["fallback_from_status"]), (self.TAILS[0], s3.NORMAL, self.TAILS[0], self.TAILS[0], "없음(404)"))
+        self.assertEqual(first["html_file"], common.html_filename(self.TAILS[0]))
+        self.assertEqual((second["url"], second["status"]), (self.TAILS[1], "없음(410)"))
+
+    def test_found_or_blocked_plain_page_is_not_reopened(self):
+        """외부 판매자 화면이어도 일반 주소가 열렸으면 다시 열지 않는다(06 문서 2-7a). 차단도 페이지 없음이 아니므로 다시 열지 않는다."""
+        for responses, status in (((http_body(GOOD),), s3.NORMAL), ((http_body(BLOCK), browser_body(BLOCK)), s3.BLOCKED)):
+            post = fake_post(*responses)
+            records = self.check_item(post)
+            self.assertEqual([record["status"] for record in records], [status])
+            self.assertEqual(len(post.calls), len(responses))
+
+    def test_missing_without_tail_url_is_not_reopened(self):
+        post = fake_post(http_body(GOOD, 404))
+        self.assertEqual(([record["status"] for record in self.check_item(post, item())], len(post.calls)), (["없음(404)"], 1))
+
+    def test_blocked_or_failed_tail_stays_for_manual_check(self):
+        """꼬리 주소가 차단이나 수집실패면 그 결과를 그대로 남긴다(일반 주소의 페이지 없음으로 되돌리지 않는다)."""
+        post = fake_post(http_body(GOOD, 404), http_body(BLOCK), browser_body(BLOCK), (400, {"title": "bad"}), (400, {"title": "bad"}))
+        _, blocked, failed = self.check_item(post)
+        self.assertEqual((blocked["status"], blocked["fallback_from_status"]), (s3.BLOCKED, "없음(404)"))
+        self.assertEqual((failed["status"], failed["ok"], failed["fallback_url"]), (s3.FAILED, False, self.TAILS[1]))
+
+    def test_finished_urls_are_not_called_again(self):
+        plain = {"url": "https://a/dp/B1", "ok": True, "status": "없음(404)"}
+        post = fake_post(http_body(GOOD))
+        records = self.check_item(post, done={plain["url"]: plain, self.TAILS[0]: {"url": self.TAILS[0], "ok": True, "status": s3.NORMAL}})
+        self.assertEqual(([call["url"] for call in post.calls], [record["url"] for record in records]), ([self.TAILS[1]], [self.TAILS[1]]))
+
     def test_key_never_in_record(self):
         record = self.check(fake_post((520, {"title": "ban"}), *[(520, {})] * 7))
         self.assertNotIn(FAKE_KEY, json.dumps(record))
@@ -249,6 +312,24 @@ class Resume(unittest.TestCase):
             self.assertEqual(again.records[failed["url"]]["status"], s3.NORMAL)
 
 
+    def test_only_failed_tail_is_called_again(self):
+        """D158: 일반 주소가 페이지 없음으로 끝났고 꼬리 주소 하나만 실패했으면, 다시 실행할 때 그 꼬리 주소만 부른다."""
+        with tempfile.TemporaryDirectory() as name:
+            folder = Path(name)
+            log = common.ResumeLog(folder / "log.jsonl", "url")
+            entry = {**item("AMAZON"), "url": "https://a/dp/B1", "fallback_urls": ["https://a/dp/B1?smid=S1", "https://a/dp/B1?smid=S2"]}
+            log.append({"url": entry["url"], "ok": True, "status": "없음(404)"})
+            log.append({"url": "https://a/dp/B1?smid=S1", "ok": True, "status": s3.NORMAL})
+            log.append({"url": "https://a/dp/B1?smid=S2", "ok": False, "status": s3.FAILED})
+            post = fake_post(http_body(GOOD))
+            s3.run_checks([entry], RULES, FETCH, common.ResumeLog(folder / "log.jsonl", "url"), FAKE_KEY, folder, logging.getLogger("t"), post, lambda _: None)
+            self.assertEqual([call["url"] for call in post.calls], ["https://a/dp/B1?smid=S2"])
+            again = common.ResumeLog(folder / "log.jsonl", "url")
+            self.assertEqual((again.records["https://a/dp/B1?smid=S2"]["status"], again.records["https://a/dp/B1?smid=S2"]["fallback_from_status"]), (s3.NORMAL, "없음(404)"))
+            post = fake_post()
+            s3.run_checks([entry], RULES, FETCH, again, FAKE_KEY, folder, logging.getLogger("t"), post, lambda _: None)
+            self.assertEqual(post.calls, [])
+
 class Pages(unittest.TestCase):
     def page(self, url="a", status=s3.NORMAL, method=s3.METHOD_HTML):
         return {"url": url, "country": "C", "retailer": "R", "status": status, "method": method, "problem": "", "note": "", "final_url": "", "title": "", "html_file": "", "ok": True}
@@ -270,6 +351,22 @@ class Pages(unittest.TestCase):
             self.assertEqual([row["요청URL"] for row in pending], ["b", "c"])
             self.assertEqual(len((run.sub("judgments") / s3.PAGES_NAME).read_text(encoding="utf-8").splitlines()), 4)
 
+    def test_report_lists_reopened_pages(self):
+        reopened = {**self.page("https://a/dp/B1?smid=S"), "fallback_url": "https://a/dp/B1?smid=S", "fallback_from_status": "없음(404)"}
+        text = s3.render_report([self.page("https://a/dp/B1", "없음(404)"), reopened])
+        self.assertIn("원래 꼬리 주소로 다시 연 페이지 1건", text)
+        self.assertIn("| C | R | https://a/dp/B1?smid=S | 없음(404) | 정상 |", text)
+        self.assertNotIn("다시 연 페이지", s3.render_report([self.page()]))
+
+    def test_reopened_tail_records_follow_their_plain_record(self):
+        planned = [{"url": "a", "fallback_urls": ["a?t=1", "a?t=2"]}, {"url": "b", "fallback_urls": ["b?t=1"]}]
+        log = mock.Mock(records={"a": {"url": "a", "status": "없음(404)", "tries": []}, "a?t=1": {"url": "a?t=1", "status": s3.NORMAL}, "a?t=2": {"url": "a?t=2", "status": s3.BLOCKED},
+                                 "b": {"url": "b", "status": s3.NORMAL}})
+        self.assertEqual([page["url"] for page in s3.build_pages(planned, log)], ["a", "a?t=1", "a?t=2", "b"])
+        del log.records["a?t=2"]
+        with self.assertRaises(common.ConfigError):
+            s3.build_pages(planned, log)
+
     def test_tries_are_left_out_of_pages(self):
         log = mock.Mock(records={"a": {"url": "a", "tries": [1], "status": s3.NORMAL}})
         self.assertNotIn("tries", s3.build_pages([{"url": "a"}], log)[0])
@@ -284,16 +381,19 @@ class DryRun(unittest.TestCase):
         columns = list(common.load_output_spec(RUN).internal_columns)
         with tempfile.TemporaryDirectory() as name:
             run = common.RunPaths("2026-11", root=Path(name)).create()
-            for config in ("retailer_rules", "targets", "zyte_pricing"):
+            for config in ("retailer_rules", "targets", "zyte_pricing", "osm_query"):
                 source = RUN.sub("config") / f"{config}.json"
                 (run.sub("config") / source.name).write_bytes(source.read_bytes())
-            rows = [{**dict.fromkeys(columns, ""), "판정": s2.KEEP, "URL": "https://x/1", "국가": "Peru", "리테일러": "FALABELLA"}, {**dict.fromkeys(columns, ""), "판정": s2.KEEP, "URL": "https://x/2", "국가": "Germany", "리테일러": "OTTO"}]
+            rows = [{**dict.fromkeys(columns, ""), "판정": s2.KEEP, "URL": "https://x/1", "국가": "Peru", "리테일러": "FALABELLA"}, {**dict.fromkeys(columns, ""), "판정": s2.KEEP, "URL": "https://x/2", "국가": "Germany", "리테일러": "OTTO"},
+                    {**dict.fromkeys(columns, ""), "판정": s2.KEEP, "URL": "https://a/dp/B1", "원본URL": "https://a/dp/B1?smid=S", "국가": "Italy", "리테일러": "AMAZON"}]
             common.write_csv(run.sub("judgments") / "step1.csv", columns, rows)
             output = io.StringIO()
             with mock.patch.object(s3, "RunPaths", return_value=run), mock.patch.object(s3, "zyte_post", side_effect=AssertionError("호출됨")), mock.patch.object(s3, "read_secret", side_effect=AssertionError("키를 읽음")), contextlib.redirect_stdout(output):
                 self.assertEqual(s3.main(["--month", "2026-11"]), 0)
             text = output.getvalue()
-            self.assertIn("주소 2개(HTML 시작 1, 브라우저 시작 1)", text)
+            self.assertIn("주소 3개(HTML 시작 2, 브라우저 시작 1)", text)
+            self.assertIn("꼬리 주소로 다시 여는 건 최대 1건 추가", text)
+            self.assertIn("대상 꼬리 주소 1개(D158)", text)
             self.assertIn("| Peru | FALABELLA | 1 | 브라우저만 | PE |", text)
             self.assertIn("| Germany | OTTO | 1 | HTML → 막히면 브라우저 | DE |", text)
 

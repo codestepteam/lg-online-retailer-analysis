@@ -76,6 +76,20 @@ class Conversion(unittest.TestCase):
         for url in ("https://www.costco.ca/", "https://ao.com", "https://ao.com/?a=1"):
             self.assertEqual(self.convert(audit_row(RAW_URL=url)), ([], 1), url)
 
+    def test_darty_and_amazon_open_plain_url_and_keep_tail_url(self):
+        """D158: Darty ?ofmp=, Amazon 독일, 이탈리아 ?smid= 꼬리를 떼고 열며, 원래 주소는 RAW_URL에 남긴다."""
+        cases = [("France", "DARTY", "https://www.darty.com/nav/achat/a/b.html?ofmp=1278759328", "https://www.darty.com/nav/achat/a/b.html"),
+                 ("Germany", "AMAZON", "https://www.amazon.de/dp/B0ABCDEFGH?smid=A3JWKAKR8XB7XF", "https://www.amazon.de/dp/B0ABCDEFGH"),
+                 ("Italy", "AMAZON", "https://www.amazon.it/dp/B00799JTJI?smid=A3OFX94WGEI2FY", "https://www.amazon.it/dp/B00799JTJI"),
+                 ("Italy", "AMAZON", "https://www.amazon.it/dp/B00799JTJI", "https://www.amazon.it/dp/B00799JTJI")]
+        for country, retailer, raw, plain in cases:
+            candidate = self.convert(audit_row(CNTRY=country, RTLR_NAME=retailer, RAW_URL=raw, CAT_URL_ADDR=raw))[0][0]
+            self.assertEqual((candidate["CRAWL_URL"], candidate["RAW_URL"]), (plain, raw), raw)
+
+    def test_other_amazon_keeps_tail(self):
+        raw = "https://www.amazon.co.uk/dp/B0ABCDEFGH?smid=A1"
+        self.assertEqual(self.convert(audit_row(CNTRY="UK", RTLR_NAME="AMAZON", RAW_URL=raw, CAT_URL_ADDR=raw))[0][0]["CRAWL_URL"], raw)
+
     def test_canada_costco_asks_for_english(self):
         row = audit_row(CNTRY="Canada", RTLR_NAME="COSTCO", RAW_URL="https://www.costco.ca/p/-/a/1?x=1", CAT_URL_ADDR="https://www.costco.ca/p/-/a/1?x=1")
         self.assertEqual(self.convert(row)[0][0]["CRAWL_URL"], "https://www.costco.ca/p/-/a/1?langId=-24")

@@ -1,6 +1,8 @@
 """S3 페이지 확인: S2를 통과한 주소를 Zyte로 열어 HTML을 저장하고 페이지 상태를 정한다.
 
 순서: HTML 방식 → 차단·껍데기면 브라우저 방식(국가 지정). 설정상 브라우저 필수인 곳은 처음부터 브라우저 방식.
+꼬리를 뗀 일반 주소로 여는 곳(osm_query.json crawl_url_rules의 fallback_to_raw, D158)은 일반 주소가 페이지 없음(없음…)일 때만 그 일반 주소로 묶인
+원래 꼬리 주소를 모두 하나씩 다시 열어 따로 기록한다. 일반 주소 기록은 페이지 없음 그대로 둔다. 어느 행이 어느 기록으로 판정되는지는 S5가 정한다.
 기본 실행은 호출 없이 건수·비용만 보여 준다(--run일 때만 호출). 규칙 값은 retailer_rules.json의 common.page_status·page_fetch에서 읽는다.
 """
 import gzip
@@ -26,6 +28,7 @@ MANUAL_LIST_NAME = "pages_manual_list.csv"
 MANUAL_LIST_COLUMNS = ["요청URL", "국가", "리테일러", "상태", "방식", "문제"]
 METHOD_HTML, METHOD_BROWSER, METHOD_MANUAL = "zyte_html", "zyte_browser", "manual"
 NORMAL, BLOCKED, FAILED = "정상", "차단화면", "수집실패"
+MISSING_PREFIX = "없음"  # 페이지 없음 상태: 없음(404), 없음(제목) 등. 이때만 꼬리 주소로 다시 연다(D158)
 
 
 def geolocation_of(target, settings):
@@ -36,19 +39,28 @@ def geolocation_of(target, settings):
     return settings["geolocation_alias"].get(code, code)
 
 
-def plan_pages(rows, targets, status_rules, fetch):
-    """제외되지 않은 행의 주소를 중복 없이 모은다."""
+def fallback_shops(osm_query):
+    """일반 주소가 페이지 없음일 때 원래 꼬리 주소로 다시 열 (국가, 리테일러). osm_query.json crawl_url_rules의 fallback_to_raw(D158)."""
+    return {(rule["country"], rule["retailer"]) for rule in osm_query["candidates"]["crawl_url_rules"] if rule.get("fallback_to_raw")}
+
+
+def plan_pages(rows, targets, status_rules, fetch, fallbacks=frozenset()):
+    """제외되지 않은 행의 주소를 중복 없이 모은다. fallbacks에 든 곳은 같은 주소 행들의 원본URL 가운데 주소와 다른 것(꼬리 주소)을 모두, 중복 없이 행 순서대로 붙인다."""
     shops = {(target["country"], target["retailer"]): target for target in targets}
-    planned, seen = [], set()
+    planned, by_url = [], {}
     for row in rows:
-        if row["판정"] == EXCLUDE or row["URL"] in seen:
+        if row["판정"] == EXCLUDE:
             continue
-        seen.add(row["URL"])
         shop = (row["국가"], row["리테일러"])
-        if shop not in shops:
-            raise ConfigError(f"targets.json에 없는 리테일러입니다: {shop}")
-        planned.append({"url": row["URL"], "country": row["국가"], "retailer": row["리테일러"], "geolocation": geolocation_of(shops[shop], fetch),
-                        "browser_first": row["리테일러"] in status_rules["browser_required"]})
+        if row["URL"] not in by_url:
+            if shop not in shops:
+                raise ConfigError(f"targets.json에 없는 리테일러입니다: {shop}")
+            by_url[row["URL"]] = {"url": row["URL"], "country": row["국가"], "retailer": row["리테일러"], "geolocation": geolocation_of(shops[shop], fetch),
+                                  "browser_first": row["리테일러"] in status_rules["browser_required"]}
+            planned.append(by_url[row["URL"]])
+        entry, raw = by_url[row["URL"]], row.get("원본URL") or ""
+        if shop in fallbacks and raw and raw != row["URL"] and raw not in entry.setdefault("fallback_urls", []):
+            entry["fallback_urls"].append(raw)
     return planned
 
 
@@ -64,12 +76,15 @@ def estimate_pages(planned, pricing):
 
 def render_preview(month, planned, status_rules, fetch, pricing):
     http, browser, low, high, retry_low, retry_high = estimate_pages(planned, pricing)
+    reopen = sum(len(item.get("fallback_urls", [])) for item in planned)
     extended = sorted({item["geolocation"] for item in planned} - set(pricing["standard_geolocations"]))
     sends = [("url", "S2를 통과한 상품 상세 페이지 주소(중복 없이)"), ("httpResponseBody", "true → HTML만 받는 싼 방식"),
-             ("browserHtml", "true → 브라우저로 여는 방식. 브라우저 필수인 곳이거나 HTML 방식이 차단·껍데기일 때만"), ("geolocation", "두 방식 모두 리테일러 나라 코드(2026-11-23부터. 그전 HTML 방식은 지정 없음)"),
+             ("browserHtml", "true → 브라우저로 여는 방식. 브라우저 필수인 곳이거나 HTML 방식이 차단·껍데기일 때만"),
+             ("다시 여는 url", f"꼬리를 뗀 일반 주소가 페이지 없음(없음…)일 때만 그 주소로 묶인 원래 꼬리 주소(원본URL)를 모두 한 번씩 더 엶. 대상 꼬리 주소 {reopen}개(D158)"), ("geolocation", "두 방식 모두 리테일러 나라 코드(2026-11-23부터. 그전 HTML 방식은 지정 없음)"),
              ("보내지 않는 값", "리테일러 로그인 정보·개인정보 없음. Zyte 키는 인증 머리글로만 쓰고 파일·로그에 남기지 않음")]
     scale = (f"주소 {len(planned)}개(HTML 시작 {http}, 브라우저 시작 {browser}). 공개 단가 최소치 ${low:.2f}~${high:.2f}(사이트 묶음을 몰라 1~5묶음 범위). "
-             f"HTML이 막혀 브라우저로 다시 여는 건 100건마다 ${retry_low:.2f}~${retry_high:.2f} 추가. 성공 응답만 과금. "
+             f"HTML이 막혀 브라우저로 다시 여는 건 100건마다 ${retry_low:.2f}~${retry_high:.2f} 추가. "
+             f"일반 주소가 페이지 없음이라 꼬리 주소로 다시 여는 건 최대 {reopen}건 추가(건수는 열어 봐야 앎). 성공 응답만 과금. "
              f"확장 지역({', '.join(extended) or '없음'})의 추가 금액은 공개 문서에 없어 포함하지 못함")
     text = call_preview("Zyte (페이지 확인 S3)", "상품 페이지가 살아 있는지·품절인지와 판매자 판정에 쓸 HTML을 얻는다", sends, scale, [COMMAND.format(month=month)])
     groups = defaultdict(list)
@@ -200,8 +215,9 @@ def fetch_mode(item, method, fetch, key, post=None, sleep=None):
     return {"html": None, "final_url": "", "http_status": None, "attempts": attempt, "problem": problem}
 
 
-def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None):
-    """주소 하나를 확인해 기록 한 줄을 만든다. 차단이 아닌 결과가 나오면 바로 멈춰 돈을 아낀다."""
+def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None, fallback_from_status=""):
+    """주소 하나를 확인해 기록 한 줄을 만든다. 차단이 아닌 결과가 나오면 바로 멈춰 돈을 아낀다.
+    꼬리 주소를 다시 여는 경우(D158) fallback_from_status에 일반 주소 상태를 받아, 기록의 fallback_url(이 꼬리 주소)과 fallback_from_status에 남긴다."""
     methods = [METHOD_BROWSER] if item["browser_first"] else [METHOD_HTML, METHOD_BROWSER]
     tries, best = [], None
     for method in methods:
@@ -215,6 +231,8 @@ def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None):
         if got["status"] != BLOCKED:
             break
     base = {"url": item["url"], "country": item["country"], "retailer": item["retailer"], "geolocation": item["geolocation"], "tries": tries, "fetched_at": now_text()}
+    if fallback_from_status:
+        base.update(fallback_url=item["url"], fallback_from_status=fallback_from_status)
     if best is None:
         return {**base, "ok": False, "status": FAILED, "final_url": "", "title": "", "canonical": "", "html_file": "", "category_path": "", "method": "", "http_status": None, "note": "", "problem": tries[-1]["problem"]}
     name = html_filename(item["url"])
@@ -224,9 +242,31 @@ def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None):
             "category_path": category_path_of(html), "method": best["method"], "http_status": best["http_status"], "note": best["note"], "problem": ""}
 
 
+def is_missing(record):
+    return bool(record) and record.get("ok", True) and record["status"].startswith(MISSING_PREFIX)
+
+
+def tails_to_open(item, plain):
+    """일반 주소 기록이 페이지 없음일 때만 다시 열 꼬리 주소 목록. 외부 판매자, 차단, 품절이면 열지 않는다(06 문서 2-7a: 일반 주소 기준)."""
+    return item.get("fallback_urls", []) if is_missing(plain) else []
+
+
+def check_item(item, rules, fetch, key, html_folder, done=None, post=None, sleep=None):
+    """계획 한 건을 확인해 새로 만든 기록들을 돌려준다. done(이미 끝난 기록)에 있는 주소는 다시 부르지 않는다.
+    일반 주소가 페이지 없음이면 꼬리 주소를 모두 하나씩 열어 각자 기록한다(D158). 꼬리 주소가 차단이나 수집실패여도 그대로 남겨 사람 확인 목록으로 보낸다."""
+    done = done or {}
+    plain = done.get(item["url"]) or check_url(item, rules, fetch, key, html_folder, post, sleep)
+    records = [] if item["url"] in done else [plain]
+    for tail in tails_to_open(item, plain):
+        if tail not in done:
+            records.append(check_url({**item, "url": tail}, rules, fetch, key, html_folder, post, sleep, fallback_from_status=plain["status"]))
+    return records
+
+
 def run_checks(planned, rules, fetch, log, key, html_folder, logger, post=None, sleep=None):
     """곳별 동시 수를 제한하며 받는다. 끝난 주소는 다시 부르지 않는다."""
-    todo = [item for item in planned if not log.done(item["url"])]
+    finished_records = lambda item: {url: log.records[url] for url in [item["url"], *item.get("fallback_urls", [])] if log.done(url)}
+    todo = [item for item in planned if not log.done(item["url"]) or any(not log.done(tail) for tail in tails_to_open(item, log.records[item["url"]]))]
     random.Random(1).shuffle(todo)
     # 곳별 줄을 따로 두고, 그 곳의 동시 수에 자리가 있을 때만 작업자에게 넘긴다. 섞은 한 줄을 그대로 넘기면 차단돼 느린 곳(11-18 Magalu)의
     # 자리를 기다리는 작업자가 쌓여 전체가 그 곳 속도로 떨어졌다.
@@ -238,9 +278,10 @@ def run_checks(planned, rules, fetch, log, key, html_folder, logger, post=None, 
     finished = 0
 
     def work(item):
-        record = check_url(item, rules, fetch, key, html_folder, post, sleep)
+        records = check_item(item, rules, fetch, key, html_folder, finished_records(item), post, sleep)
         with write_lock:
-            log.append(record)
+            for record in records:
+                log.append(record)
         return item
 
     with ThreadPoolExecutor(max_workers=fetch["workers"]) as pool:
@@ -272,13 +313,15 @@ def apply_manual(pages, manual):
 
 
 def build_pages(planned, log):
-    """이어받기 기록에서 계획 순서대로 최종 기록을 만든다. 내부 시도 기록은 뺀다."""
+    """이어받기 기록에서 계획 순서대로 최종 기록을 만든다. 다시 연 꼬리 주소 기록은 그 일반 주소 기록 바로 뒤에 둔다. 내부 시도 기록은 뺀다."""
     pages = []
     for item in planned:
-        record = log.records.get(item["url"])
-        if record is None:
-            raise ConfigError(f"받지 못한 주소가 있습니다: {item['url']}")
-        pages.append({name: value for name, value in record.items() if name != "tries"})
+        plain = log.records.get(item["url"])
+        for url in [item["url"], *tails_to_open(item, plain)]:
+            record = log.records.get(url)
+            if record is None:
+                raise ConfigError(f"받지 못한 주소가 있습니다: {url}")
+            pages.append({name: value for name, value in record.items() if name != "tries"})
     return pages
 
 
@@ -294,6 +337,11 @@ def render_report(pages):
     noted = [page for page in pages if page.get("note")]
     if noted:
         lines += ["", f"확인이 필요한 페이지 {len(noted)}건: {dict(Counter(page['note'] for page in noted))}"]
+    reopened = [page for page in pages if page.get("fallback_from_status")]
+    if reopened:
+        lines += ["", f"일반 주소가 페이지 없음이라 원래 꼬리 주소로 다시 연 페이지 {len(reopened)}건(D158). 위 표에도 들어 있다. 다시 연 뒤 상태: {dict(Counter(page['status'] for page in reopened))}", "",
+                  "| 국가 | 리테일러 | 다시 연 꼬리 주소 | 일반 주소 상태 | 다시 연 뒤 상태 |", "| --- | --- | --- | --- | --- |"]
+        lines += [f"| {page['country']} | {page['retailer']} | {page['fallback_url']} | {page['fallback_from_status']} | {page['status']} |" for page in reopened]
     return "\n".join(lines) + "\n"
 
 
@@ -319,7 +367,7 @@ def main(argv):
         raise ConfigError(f"S3 입력이 없습니다: {step1}")
     common_rules = load_config(run, "retailer_rules")["common"]
     rules, fetch = common_rules["page_status"], common_rules["page_fetch"]
-    planned = plan_pages(read_csv(step1)[1], load_config(run, "targets")["targets"], rules, fetch)
+    planned = plan_pages(read_csv(step1)[1], load_config(run, "targets")["targets"], rules, fetch, fallback_shops(load_config(run, "osm_query")))
     preview = render_preview(args.month, planned, rules, fetch, load_config(run, "zyte_pricing"))
     if not args.live:
         print(preview)
