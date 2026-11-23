@@ -95,12 +95,12 @@ def lazada_item_id(url):
 
 
 def lazada(item, html, rules):
-    """판매자 번호로 이름을 잇지 않는다(서로 다른 매장이 번호를 공유, K2). 국가+상품 번호가 표에 있을 때만 쓴다."""
+    """판매자 번호로 이름을 잇지 않는다(서로 다른 매장이 번호를 공유, K2). 국가+페이지 id(주소의 -i숫자)가 표에 있을 때만 쓴다."""
     known = rules["lazada_items"].get(f"{item['country']}|{lazada_item_id(item['url'])}")
     if known:
         return known["seller"], known["kind"], f"10월 상품별 화면 확인값(11월 화면 아님): {known['evidence']}"
     seller_id = first(r'"sellerId":"(\d+)"', html)
-    return f"sellerId={seller_id}" if seller_id else "", UNKNOWN, f"판매자 이름은 HTML에 없음; sellerId={seller_id}만 있음, 상품 번호가 연결표에 없음"
+    return f"sellerId={seller_id}" if seller_id else "", UNKNOWN, f"판매자 이름은 HTML에 없음; sellerId={seller_id}만 있음, 페이지 id가 연결표에 없음"
 
 
 def momo_collect(item, html, rules, context):

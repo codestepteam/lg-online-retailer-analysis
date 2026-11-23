@@ -145,12 +145,12 @@ def norm(url, dedupe):
 
 
 def duplicate_keys(url, retailer, dedupe):
-    """(비교 키, 정규화한 원래 주소, 비교 방식). 방식은 number(상품 번호)·tail(꼬리표 제거)·url 중 하나다."""
+    """(비교 키, 정규화한 원래 주소, 비교 방식). 방식은 page_id(주소 속 리테일러 내 제품 페이지 식별자, D150)·tail(꼬리표 제거)·url 중 하나다."""
     raw = norm(url, dedupe)
-    pattern = dedupe["product_number"].get(retailer)
+    pattern = dedupe["page_id"].get(retailer)
     found = re.search(pattern, raw) if pattern else None
     if found:
-        return f"number:{found.group(1)}", raw, "number"
+        return f"page_id:{found.group(1)}", raw, "page_id"
     names = dedupe["drop_params"].get(retailer)
     return (norm(drop_params(url, names), dedupe), raw, "tail") if names else (raw, raw, "url")
 

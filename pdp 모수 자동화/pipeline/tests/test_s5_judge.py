@@ -165,19 +165,19 @@ class Duplicates(unittest.TestCase):
         rows = self.run_rows("ALZA", ["https://www.alza.cz/a-d1.htm", "https://www.alza.cz/a-d1.htm?o=1"])
         self.assertEqual(rows[1]["제외사유"], "같은 상품(주소 꼬리표만 다름, 대표 행 1, #119)")
 
-    def test_costco_and_falabella_number(self):
+    def test_costco_and_falabella_page_id(self):
         costco = self.run_rows("COSTCO", ["https://www.costco.ca/p/-/old-name/4000123", "https://www.costco.ca/p/-/new-name/4000123"])
         falabella = self.run_rows("FALABELLA", ["https://f/falabella-pe/product/111/a/222", "https://f/falabella-pe/product/111/b/222"])
-        self.assertEqual(costco[1]["제외사유"], "같은 상품(주소의 상품 번호 같음, 대표 행 1, #119)")
-        self.assertIn("상품 번호", falabella[1]["제외사유"])
+        self.assertEqual(costco[1]["제외사유"], "같은 페이지(주소의 페이지 id 같음, 대표 행 1, #119)")
+        self.assertIn("페이지 id", falabella[1]["제외사유"])
 
-    def test_momoshop_product_number(self):
+    def test_momoshop_page_id(self):
         rows = self.run_rows("MOMOSHOP", ["https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041707&kw=a",
                                           "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041707&kw=b",
                                           "https://www.momoshop.com.tw/product/10041707?Area=search",
                                           "https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041708&kw=a"])
         self.assertEqual([r["제외단계"] for r in rows], ["", "④중복", "④중복", ""])
-        self.assertIn("상품 번호", rows[2]["제외사유"])
+        self.assertIn("페이지 id", rows[2]["제외사유"])
 
     def test_excluded_rows_are_not_representatives(self):
         rows = [row("1", retailer="AO", 실제URL="https://a/p", status=s2.EXCLUDE, 제외단계="③리리부"), row("2", retailer="AO", 실제URL="https://a/p")]

@@ -601,14 +601,14 @@
           "o"
         ]
       },
-      "product_number": {
+      "page_id": {
         "MOMOSHOP": "(?:[?&]i_code=|/product/|/goodsdetail/)(\\w+)",
         "COSTCO": "(?:/p/-/[^/?]+/|\\.product\\.)(\\d+)",
         "FALABELLA": "/product/(\\d+)"
       },
       "reasons": {
         "url": "같은 상품(실제 도착 주소 같음, 대표 행 {first})",
-        "number": "같은 상품(주소의 상품 번호 같음, 대표 행 {first}, #119)",
+        "page_id": "같은 페이지(주소의 페이지 id 같음, 대표 행 {first}, #119)",
         "tail": "같은 상품(주소 꼬리표만 다름, 대표 행 {first}, #119)"
       }
     },
