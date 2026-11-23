@@ -119,6 +119,23 @@ class Judge(unittest.TestCase):
         self.assertEqual(judged("【Whirlpool 惠而浦】家電快配福利品17公斤洗衣機", "WHIRLPOOL")[1], s2.KEYWORD_STAGE)  # 한자 문장 중간의 福利品
         self.assertEqual(s2.judge(osm(OSM브랜드="LG 樂金"), self.rules)[1], s2.BRAND_STAGE)  # 다른 리테일러는 글자 그대로 비교
 
+    def test_bundle_with_target_product_is_kept(self):
+        """D052: 묶음에 대상 제품이 하나라도 있으면 유지. 11월 페루 FALABELLA 실제 상품명(2026-11-23)."""
+        peru = lambda name, div="W/M": s2.judge(search(국가="Peru", 리테일러="FALABELLA", 제품군=div, 상품명=name, URL="https://www.falabella.com.pe/x"), self.rules)
+        for name in ("Lavadora WT19BVTB 19 Kg Turbodrum Carga Superior Negro + Tendedero LG",
+                     "Lavadora Automática WT13BVTB Carga Superior 13 Kg LG + Aspiradora Samsung"):
+            status, stage, _, memo = peru(name)
+            self.assertEqual(stage, "", name)  # 두 번째는 대상 브랜드가 둘(LG·SAMSUNG)이라 '확인 필요'로 남는다
+            self.assertNotEqual(status, s2.EXCLUDE, name)
+            self.assertIn("묶음 상품", memo)
+        self.assertEqual(peru("Refrigeradora 246L Croma RI-389DI INDURAMA + Microondas 20L", "REF")[0], s2.KEEP)
+        # 대상 제품이 없으면 그대로 제외. 'dishwasher' 안의 'washer'는 대상 단어로 치지 않는다.
+        self.assertEqual(peru("Tendedero de ropa plegable LG")[:2], (s2.EXCLUDE, s2.CATEGORY_STAGE))
+        self.assertEqual(s2.judge(search(상품명="LG Dishwasher DF325FPS", 제품군="W/M"), self.rules)[:2], (s2.EXCLUDE, s2.CATEGORY_STAGE))
+        # 단품 설명 뒤쪽 기능 목록의 '건조'는 묶음이 아니다(10월 MEDIAEXPERT 실제 상품명).
+        microwave = "Kuchenka mikrofalowa HISENSE H28SO1 Speed Oven 7w1 Air Fry Grill Pizza Toster Suszarka Wolnowar"
+        self.assertEqual(s2.judge(search(상품명=microwave, 제품군="DRY"), self.rules)[:2], (s2.EXCLUDE, s2.CATEGORY_STAGE))
+
     def test_unknown_search_category_needs_check(self):
         self.assertEqual(s2.judge(search(제품군="?"), self.rules)[:2], (s2.CHECK, s2.CATEGORY_STAGE))
 
@@ -196,6 +213,8 @@ def reason_for_difference(new, old):
         return "행별 사람 결정(EY·사용자)"
     if NEW_RULE.search(new["제외사유"]) and old["모수 포함 여부"] == "제외":
         return "D143 규칙이 먼저 제외(v5도 제외)"
+    if not new_stage and old_stage == s2.CATEGORY_STAGE and "묶음 상품" in new["메모"]:
+        return "묶음 상품 유지(D052 구현, 2026-11-23)"
     return None
 
 

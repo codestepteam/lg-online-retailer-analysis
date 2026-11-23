@@ -12,6 +12,14 @@ from common import ConfigError, RunPaths, get_logger, load_config, load_output_s
 
 BRAND_STAGE, CATEGORY_STAGE, KEYWORD_STAGE, DUPLICATE_STAGE = "①브랜드", "②제품군", "③리리부", "④중복"
 KEEP, EXCLUDE, CHECK = "남김", "제외", "확인 필요"
+# 묶음 상품 판정(D052)에서 대상 제품군 단어를 찾는 상품명 앞부분 단어 수. AI가 정한 값이다(사용자·EY 결정 아님, 2026-11-23).
+# 왜 전체가 아니라 앞부분만 보나: 전체에서 찾으면 단품 설명의 기능 목록 단어가 대상 단어로 맞아 단품이 묶음으로 남는다.
+#   실제 사례(10월 폴란드 MEDIAEXPERT): 'Kuchenka mikrofalowa HISENSE H28SO1 Speed Oven 7w1 Air Fry Grill Pizza Toster Suszarka …'
+#   (Hisense 전자레인지 단품). 12번째 단어 Suszarka(여기서는 '식품 건조 기능')가 건조기 단어 suszark에 맞아, 전체에서 찾으면 남는다.
+# 왜 8인가: 묶음은 본 상품을 상품명 맨 앞에 쓰고 끼워 주는 물건을 '+' 뒤에 붙인다. 확인한 진짜 묶음 92행(11월 연습 68 + 10월 24)은
+#   대상 단어가 모두 1~6번째 단어에 있었다(가장 뒤: Sharaf DG 'Samsung Series 8 Front Load Washing Machine'의 Washing, 6번째).
+#   12 이상으로 늘리면 위 전자레인지가 다시 묶음으로 남는다.
+BUNDLE_HEAD_WORDS = 8
 OSM_FLOW, SEARCH_FLOW = "OSM", "검색"
 SUMMARY_COLUMNS = ["흐름", "국가", "리테일러", "전체", BRAND_STAGE, CATEGORY_STAGE, KEYWORD_STAGE, DUPLICATE_STAGE, KEEP, CHECK]
 JUDGED_ELSEWHERE = ("브랜드", "제품코드", "페이지상태", "실제URL", "판매자", "판매자구분", "판매자근거")
@@ -88,11 +96,24 @@ class Rules:
         return next((div for word, div in self.categories["search_category_map"].items() if word in lowered), "?")
 
     def check_search_category(self, text):
-        """(결과, 이름). 결과는 제외·냉동고·통과·단어없음 중 하나다."""
+        """(결과, 이름). 결과는 제외·묶음·냉동고·통과·단어없음 중 하나다.
+
+        제외 단어가 있어도, 그 단어를 지운 나머지에 대상 제품군 단어가 있으면 묶음 상품으로 보고 남긴다(D052: 대상 제품이 하나라도 들어
+        있으면 유지). 예: 'Lavadora WT19BVTB + Tendedero'(세탁기 + 빨래 건조대). 지우고 보는 이유는 'dishwasher' 안의 'washer'처럼
+        제외 단어 속 글자가 대상 단어로 잘못 맞지 않게 하려는 것이다(2026-11-23).
+        대상 단어는 앞 8단어 안에서만 찾는다. 묶음은 본 상품이 상품명 앞에 오고, 'Kuchenka mikrofalowa … grill pizza toster suszarka'
+        (전자레인지 기능 목록의 '건조')처럼 단품 설명 뒤쪽에 나오는 단어는 묶음이 아니다(10월 MEDIAEXPERT 실제 상품명).
+        """
         lowered = text.lower()
+        hit, rest = None, " ".join(lowered.split()[:BUNDLE_HEAD_WORDS])
         for item in self.categories["negative"]:
             if re.search(item["pattern"], lowered):
-                return "제외", item["name"]
+                hit = hit or item["name"]
+                rest = re.sub(item["pattern"], " ", rest)
+        if hit:
+            if any(re.search(pattern, rest) for pattern in self.categories["positive"].values()):
+                return "묶음", hit
+            return "제외", hit
         if re.search(self.categories["freezer_head"], self.head(lowered)) and not re.search(self.categories["freezer_combo_search"], lowered):
             return "냉동고", ""
         if any(re.search(pattern, lowered) for pattern in self.categories["positive"].values()):
@@ -207,7 +228,9 @@ def judge(row, rules):
         result, category_name = rules.check_search_category(f"{name} {url_words(url)}")
         if result == "제외":
             return EXCLUDE, CATEGORY_STAGE, f"대상 제품군 아님({category_name})", ""
-        if result == "냉동고":
+        if result == "묶음":
+            notes.append(f"묶음 상품({category_name} 함께 판매, 대상 제품이 있어 유지, D052)")
+        elif result == "냉동고":
             notes.append(categories["freezer_note"])
         elif result == "단어없음":
             notes.append(categories["no_category_note"])
