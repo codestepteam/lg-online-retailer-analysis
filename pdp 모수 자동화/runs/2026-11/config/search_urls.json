@@ -345,7 +345,11 @@
       "zyte_geolocation": "HU",
       "zyte_geolocation_group": "extended",
       "zyte_tier": null,
-      "start_url_template": "https://www.mediamarkt.hu/hu/search.html?query={percent}",
+      "start_url_template": "https://www.mediamarkt.hu/hu/search.html?query={percent}&marketplace=MediaMarkt",
+      "required_query_params": {
+        "marketplace": "MediaMarkt"
+      },
+      "_수집규칙": "D149(2026-11-23): 네덜란드와 같이 MediaMarkt 직판 필터(marketplace=MediaMarkt)를 모든 검색어와 페이지에 붙인다. 사용자가 사이트에서 필터 주소를 확인함. october_arrivals는 필터 없는 10월 기록이다. 상품 페이지 판매자 검사(D124)는 그대로 둔다.",
       "query_encoding": "percent",
       "pagination": {
         "kind": "query_param",
