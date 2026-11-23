@@ -77,11 +77,18 @@ class OutputSpec:
     seller_types: tuple
     share_filename: str
     share_extra: dict = dataclasses.field(default_factory=dict)
+    share_columns_xlsx: tuple = ()
 
     @property
     def all_share_columns(self):
-        """공유용 기본 열 뒤에 다른 열에서 정해지는 열(share_extra_columns)을 붙인 전체 열."""
+        """공유용 기본 열 뒤에 다른 열에서 정해지는 열(share_extra_columns)을 붙인 전체 열. CSV 공유본의 열 순서다."""
         return self.share_columns + tuple(self.share_extra)
+
+    def columns_for(self, file_format):
+        """공유본 형식별 열 순서. xlsx는 share_columns_xlsx(없으면 CSV와 같은 순서)."""
+        if file_format == "xlsx" and self.share_columns_xlsx:
+            return self.share_columns_xlsx
+        return self.all_share_columns
 
 
 def load_output_spec(run):
@@ -91,7 +98,7 @@ def load_output_spec(run):
             tuple(raw["internal_columns"]), tuple(raw["share_columns"]), raw["share_renames"],
             tuple(raw["share_dropped"]), raw["share_status_map"], raw["share_wording"],
             tuple(raw["exclusion_stages"]), tuple(raw["seller_types"]), raw["share_filename"],
-            raw.get("share_extra_columns", {}),
+            raw.get("share_extra_columns", {}), tuple(raw.get("share_columns_xlsx", ())),
         )
     except KeyError as error:
         raise ConfigError(f"output.json에 항목이 없습니다: {error}") from error
@@ -101,6 +108,8 @@ def load_output_spec(run):
     for name, rule in spec.share_extra.items():
         if rule.get("from") not in spec.share_columns or not isinstance(rule.get("map"), dict):
             raise ConfigError(f"share_extra_columns의 {name} 규칙이 잘못됐습니다")
+    if spec.share_columns_xlsx and sorted(spec.share_columns_xlsx) != sorted(spec.all_share_columns):
+        raise ConfigError("share_columns_xlsx는 공유용 열을 빠짐없이, 한 번씩만 담아야 합니다")
     return spec
 
 
@@ -114,6 +123,25 @@ def read_csv(path):
         if None in row or None in row.values():
             raise ValueError(f"{path}: {number}번째 줄의 칸 수가 머리글과 다릅니다")
     return columns, rows
+
+
+def read_xlsx(path):
+    """첫 시트를 (열 목록, 행 목록)으로 읽는다. 빈 칸은 ""로, 값은 모두 글자로 돌려준다."""
+    from openpyxl import load_workbook
+
+    book = load_workbook(path, read_only=True)
+    try:
+        lines = book.worksheets[0].iter_rows(values_only=True)
+        columns = [str(value) for value in next(lines)]
+        rows = [{column: "" if value is None else str(value) for column, value in zip(columns, line)} for line in lines]
+    finally:
+        book.close()
+    return columns, rows
+
+
+def read_table(path):
+    """확장자를 보고 CSV나 xlsx를 읽는다."""
+    return read_xlsx(path) if Path(path).suffix.lower() == ".xlsx" else read_csv(path)
 
 
 def write_csv(path, columns, rows, overwrite=False):

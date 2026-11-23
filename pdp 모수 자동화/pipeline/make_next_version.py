@@ -2,13 +2,14 @@
 
 변경 대상 CSV는 공유용 26열 + 변경요청_모수 포함 여부 + 확인상태 + 메모추가. 그 밖에 변경_{열이름} 열을 두면 그 칸을 새 값으로 바꾼다.
 26열 값이 현재 파일과 하나라도 다르면(오래된 대상 파일) 멈춘다.
+현재 공유본이 xlsx면 다음 버전도 같은 열 순서의 xlsx로, CSV면 CSV로 만든다(D163). 변경 대상 파일은 CSV나 xlsx 모두 읽는다.
 """
 import re
 from collections import Counter
 from datetime import date
 
-from common import ConfigError, RunPaths, get_logger, load_output_spec, new_parser, read_csv, write_csv
-from s6_share import EXCLUDED, INCLUDED, READ_NAME, REASON_COLUMN, STAGE_COLUMN, STATUS_COLUMN, VERIFY_NAME, read_section, save_verification, share_name, verification
+from common import ConfigError, RunPaths, get_logger, load_output_spec, new_parser, read_table
+from s6_share import EXCLUDED, INCLUDED, READ_NAME, REASON_COLUMN, STAGE_COLUMN, STATUS_COLUMN, VERIFY_NAME, read_section, file_format, save_verification, share_name, verification, write_share
 
 REQUEST_COLUMN, CONFIRM_COLUMN, MEMO_COLUMN, CHANGE_PREFIX = "변경요청_모수 포함 여부", "확인상태", "메모추가", "변경_"
 VERSION_PATTERN = re.compile(r"PDP모수_공유용_v(\d+)_")
@@ -16,7 +17,7 @@ VERSION_PATTERN = re.compile(r"PDP모수_공유용_v(\d+)_")
 
 def latest_version(final):
     """(버전 번호, 경로) 중 가장 높은 버전."""
-    found = [(int(match.group(1)), path) for path in final.glob("PDP모수_공유용_v*.csv") if (match := VERSION_PATTERN.match(path.name))]
+    found = [(int(match.group(1)), path) for path in final.glob("PDP모수_공유용_v*") if path.suffix.lower() in (".csv", ".xlsx") if (match := VERSION_PATTERN.match(path.name))]
     if not found:
         raise ConfigError("공유용 파일이 없습니다. S6를 먼저 실행하세요")
     return max(found, key=lambda item: item[0])
@@ -72,14 +73,14 @@ def main(argv):
     spec = load_output_spec(run)
     final = run.sub("final")
     version, current = latest_version(final)
-    columns, rows = read_csv(current)
+    columns, rows = read_table(current)
     changes_path = run.sub("changes") / args.changes
     if not changes_path.exists():
         raise ConfigError(f"변경 대상 CSV가 없습니다: {changes_path}")
-    change_columns, changes = read_csv(changes_path)
+    change_columns, changes = read_table(changes_path)
     updated = apply_changes(columns, rows, change_columns, changes, spec)
-    output = final / share_name(spec, version + 1, args.summary, len(updated), args.date)
-    write_csv(output, list(columns), updated)
+    output = final / share_name(spec, version + 1, args.summary, len(updated), args.date, file_format(current))
+    write_share(output, list(columns), updated)
     record = verification(output, columns, updated, spec)
     save_verification(final / VERIFY_NAME, version + 1, record)
     with open(final / READ_NAME, "a", encoding="utf-8") as stream:

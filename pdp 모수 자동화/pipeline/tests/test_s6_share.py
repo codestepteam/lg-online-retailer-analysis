@@ -204,5 +204,101 @@ class NextVersion(unittest.TestCase):
         self.assertEqual(self.output().read_bytes(), existing)
 
 
+class Xlsx(unittest.TestCase):
+    """D163: 11월부터 공유본은 꾸민 xlsx, --format csv면 예전 CSV."""
+
+    def setUp(self):
+        folder = tempfile.TemporaryDirectory()
+        self.addCleanup(folder.cleanup)
+        self.folder = Path(folder.name)
+        self.rows = [shared(1, 제품코드="0123", **{"확인 요청 URL": "https://a/1", "접속 후 URL": "https://a/1b"}), shared(2, "제외", 제외단계="④중복", 제외사유="같음", 제품코드="12345678901234", **{"확인 요청 URL": "https://a/2"})]
+
+    def test_xlsx_order_holds_every_column_once(self):
+        order = SPEC.columns_for("xlsx")
+        self.assertEqual(sorted(order), sorted(SPEC.all_share_columns))
+        self.assertNotEqual(order, SPEC.all_share_columns)
+        self.assertEqual(order[:11], ("행번호", "국가", "리테일러", "제품군", "브랜드", "제품코드", "상품명", "모수 포함 여부", "제외사유", "확인 요청 URL", "접속 후 URL"))
+        self.assertEqual(SPEC.columns_for("csv"), SPEC.all_share_columns)
+
+    def test_bad_xlsx_order_stops(self):
+        raw = common.load_config(RUN, "output")
+        raw["share_columns_xlsx"] = raw["share_columns_xlsx"][:-1]
+        run = common.RunPaths("2026-11", self.folder).create()
+        (run.sub("config") / "output.json").write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+        with self.assertRaises(common.ConfigError):
+            common.load_output_spec(run)
+
+    def test_name_follows_format(self):
+        self.assertTrue(s6.share_name(SPEC, 1, "11월", 5, "20261130", "xlsx").endswith("_5행_20261130.xlsx"))
+
+    def test_round_trip_keeps_text_and_decorates(self):
+        from openpyxl import load_workbook
+        columns = list(SPEC.columns_for("xlsx"))
+        path = self.folder / "a.xlsx"
+        links = s6.write_share(path, columns, self.rows)
+        self.assertEqual(links, ["확인 요청 URL", "접속 후 URL"])
+        read_columns, read_rows = common.read_table(path)
+        self.assertEqual(read_columns, columns)
+        self.assertEqual(read_rows, self.rows)
+        self.assertEqual(s6.check_rows(read_columns, read_rows, SPEC, "xlsx"), [])
+        sheet = load_workbook(path).active
+        self.assertEqual((sheet.auto_filter.ref, sheet.freeze_panes), ("A1:AA3", "H2"))
+        code = sheet.cell(2, columns.index("제품코드") + 1)
+        self.assertEqual((code.value, code.data_type), ("0123", "s"))
+        self.assertEqual(sheet.cell(2, columns.index("확인 요청 URL") + 1).hyperlink.target, "https://a/1")
+        self.assertIsNone(sheet.cell(3, columns.index("접속 후 URL") + 1).hyperlink)
+        self.assertTrue(sheet.cell(1, 1).font.bold)
+        self.assertEqual(len(sheet.conditional_formatting), 1)
+
+    def test_links_stop_at_excel_limit(self):
+        with mock.patch.object(s6, "MAX_LINKS", 2):
+            self.assertEqual(s6.link_columns(list(SPEC.columns_for("xlsx")), self.rows), ["확인 요청 URL"])
+        with mock.patch.object(s6, "MAX_LINKS", 1):
+            self.assertEqual(s6.link_columns(list(SPEC.columns_for("xlsx")), self.rows), [])
+
+    def test_csv_order_fails_xlsx_check(self):
+        self.assertTrue(s6.check_rows(list(SPEC.all_share_columns), self.rows, SPEC, "xlsx"))
+
+    def test_never_overwrites(self):
+        path = self.folder / "a.xlsx"
+        s6.write_share(path, list(SPEC.columns_for("xlsx")), self.rows)
+        with self.assertRaises(FileExistsError):
+            s6.write_share(path, list(SPEC.columns_for("xlsx")), self.rows)
+
+    def run_s6(self, *extra):
+        run = common.RunPaths("2026-11", self.folder).create()
+        (run.sub("config") / "output.json").write_text((RUN.sub("config") / "output.json").read_text(encoding="utf-8"), encoding="utf-8")
+        common.write_csv(run.sub("final") / "전체판정_내부_2행_20261130.csv", list(SPEC.internal_columns),
+                         [internal("1", 판매자구분="직판"), internal("2", "제외", 제외단계="④중복", 제외사유="같음")])
+        with mock.patch.object(s6, "RunPaths", return_value=run), mock.patch.object(s6, "get_logger", return_value=mock.Mock()):
+            self.assertEqual(s6.main(["--month", "2026-11", "--summary", "첫", "--date", "20261130", *extra]), 0)
+        return run.sub("final")
+
+    def test_main_default_is_xlsx(self):
+        final = self.run_s6()
+        path = final / s6.share_name(SPEC, 1, "첫", 2, "20261130", "xlsx")
+        columns, rows = common.read_table(path)
+        self.assertEqual(tuple(columns), SPEC.columns_for("xlsx"))
+        self.assertEqual(rows[0]["판매구분(1P/3P)"], "1P(직판)")
+        self.assertTrue(json.loads((final / s6.VERIFY_NAME).read_text(encoding="utf-8"))["v1"]["passed"])
+
+    def test_main_csv_keeps_old_format(self):
+        final = self.run_s6("--format", "csv")
+        columns, _ = common.read_csv(final / s6.share_name(SPEC, 1, "첫", 2, "20261130"))
+        self.assertEqual(tuple(columns), SPEC.all_share_columns)
+
+    def test_next_version_from_xlsx_stays_xlsx(self):
+        final = self.run_s6()
+        run = common.RunPaths("2026-11", self.folder)
+        columns, rows = common.read_table(final / s6.share_name(SPEC, 1, "첫", 2, "20261130", "xlsx"))
+        change = {**rows[0], nv.REQUEST_COLUMN: "제외", nv.CONFIRM_COLUMN: "제외", nv.MEMO_COLUMN: "EY", "변경_제외단계": "③리리부", "변경_제외사유": "EY 지적"}
+        common.write_csv(run.sub("changes") / "c.csv", [*columns, nv.REQUEST_COLUMN, nv.CONFIRM_COLUMN, nv.MEMO_COLUMN, "변경_제외단계", "변경_제외사유"], [change])
+        with mock.patch.object(nv, "RunPaths", return_value=run), mock.patch.object(nv, "get_logger", return_value=mock.Mock()):
+            self.assertEqual(nv.main(["--month", "2026-11", "--changes", "c.csv", "--summary", "EY", "--date", "20261201"]), 0)
+        columns2, rows2 = common.read_table(final / s6.share_name(SPEC, 2, "EY", 2, "20261201", "xlsx"))
+        self.assertEqual(columns2, columns)
+        self.assertEqual(rows2[0]["모수 포함 여부"], "제외")
+
+
 if __name__ == "__main__":
     unittest.main()
