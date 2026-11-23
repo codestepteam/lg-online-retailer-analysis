@@ -111,6 +111,28 @@ class Sharaf(unittest.TestCase):
         self.assertEqual(judged("UAE", "Sharaf DG", "<h1>x</h1><div>You may also like</div><p>Sold by Other</p>")[1], "확인불가")
 
 
+class MediaExpert(unittest.TestCase):
+    def test_old_and_new_seller_markup(self):
+        """11-18 화면은 <span class="seller-name">, 11-24 화면은 링크 안 <span class="product-seller-name">에 판매자가 있다."""
+        old = '<h1>Lodówka</h1><span class="seller-label" data-v-1>Sprzedawca: </span> <span class="seller-name is-regular" data-v-1>Media Expert</span>'
+        new = ('<h1>Lodówka</h1><span class="seller-label" data-v-1>Sprzedawca: </span> <a class="product-seller global-ui-text-link" aria-label="Sprzedawca: Media Expert" href="#" data-v-2>'
+               '<!--[--><span class="product-seller-name" data-v-1>Media Expert</span>')
+        for html in (old, new):
+            self.assertEqual(judged("Poland", "MEDIAEXPERT", html)[:2], ("Media Expert", "직판"))
+        partner = new.replace("Media Expert</span>", "Sklep AGD</span>")
+        self.assertEqual(judged("Poland", "MEDIAEXPERT", partner)[1], "외부판매자")
+
+
+class BoulangerNewMarkup(unittest.TestCase):
+    def test_merchant_header_block(self):
+        """11-24 일부 화면: id="product-merchant__condition" 대신 <p class="merchant__header"> 안에 상태와 판매자(span 또는 링크)가 있다."""
+        direct = '<p class="merchant__header" q:key="1"><span><span class="merchant__condition">Produit neuf</span> vendu et expédié par <span class="merchant__name"><!--t=2i-->Boulanger<!----></span></span></p>'
+        partner = ('<p class="merchant__header" q:key="1"><span><span class="merchant__condition">Produit neuf</span> vendu et expédié par '
+                   '<a aria-label="Ouvrir la page du marchand Icoza" href="/partenaire/icoza" class="merchant__name merchant__name--link"><!--t=24-->Icoza<!----></a></span></p>')
+        self.assertEqual(judged("France", "BOULANGER", direct)[:2], ("Boulanger", "직판"))
+        self.assertEqual(judged("France", "BOULANGER", partner)[:2], ("Icoza", "외부판매자"))
+
+
 class Darty(unittest.TestCase):
     def test_marketplace_url_with_only_darty_meta_is_not_called_direct(self):
         html = '<meta itemprop="seller" content="Darty">'

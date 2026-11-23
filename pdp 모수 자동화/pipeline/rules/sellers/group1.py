@@ -8,11 +8,13 @@ from .base import DIRECT, EXTERNAL, BRAND, REFURB, UNKNOWN, clean
 
 def boulanger(item, html, rules):
     found = re.search(r'id="product-merchant__condition">(.*?)</p>', html, re.S)
+    # 11-24 화면 일부: <p class="merchant__header"><span class="merchant__condition">Produit neuf</span> vendu et expédié par <span class="merchant__name">Boulanger</span>
+    found = found or re.search(r'<p class="merchant__header"[^>]*>(.*?)</p>', html, re.S)
     if not found:
         return "", UNKNOWN, "판매자 문구 블록(product-merchant__condition) 없음 - 상품 페이지가 아닌 목록 페이지로 보임"
     block = found.group(1)
-    title = re.search(r'title="([^"]*)"', block)
-    name = H.unescape(title.group(1)).strip() if title else clean(block)
+    title = re.search(r'title="([^"]*)"', block) or re.search(r'class="merchant__name[^"]*"[^>]*>(.*?)</(?:span|a)>', block, re.S)
+    name = clean(title.group(1)) if title else clean(block)
     condition = clean(re.split(r"(?i)vendu", clean(block))[0])
     evidence = f"{condition} / vendu & expédié par {name}"
     settings = rules["boulanger"]

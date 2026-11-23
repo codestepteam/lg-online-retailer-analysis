@@ -32,7 +32,10 @@ def datart(item, html, rules):
 
 def media_expert(item, html, rules):
     start = html.find("<h1")
-    found = re.search(r'seller-label[^>]*>\s*Sprzedawca:\s*</span>\s*<span class="seller-name[^"]*"[^>]*>(.*?)</span>', html[start:] if start >= 0 else html, re.S)
+    body = html[start:] if start >= 0 else html
+    found = re.search(r'seller-label[^>]*>\s*Sprzedawca:\s*</span>\s*<span class="seller-name[^"]*"[^>]*>(.*?)</span>', body, re.S)
+    # 11-24 화면 구조: 판매자가 링크 안 <span class="product-seller-name">으로 바뀌었다(11-18 연습 회차까지는 위 seller-name 칸).
+    found = found or re.search(r'seller-label[^>]*>\s*Sprzedawca:\s*</span>\s*<a [^>]*class="product-seller[^"]*"[^>]*>.*?<span class="product-seller-name[^"]*"[^>]*>(.*?)</span>', body, re.S)
     if not found:
         return "", UNKNOWN, "Sprzedawca 표시 없음"
     seller = H.unescape(found.group(1)).strip()
