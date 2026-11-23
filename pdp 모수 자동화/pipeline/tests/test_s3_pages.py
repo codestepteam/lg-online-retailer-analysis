@@ -175,11 +175,11 @@ class Fetch(unittest.TestCase):
     def check(self, post, entry=None):
         return s3.check_url(entry or item(), RULES, FETCH, FAKE_KEY, self.path, post, self.sleeps.append)
 
-    def test_good_html_uses_html_only_and_no_country(self):
+    def test_good_html_uses_html_only_with_country(self):
         post = fake_post(http_body(GOOD))
         record = self.check(post)
         self.assertEqual((record["status"], record["method"], len(post.calls)), (s3.NORMAL, s3.METHOD_HTML, 1))
-        self.assertNotIn("geolocation", post.calls[0])
+        self.assertEqual((post.calls[0]["geolocation"], record["geolocation"]), ("DE", "DE"))
         self.assertEqual(gzip.decompress((self.path / record["html_file"]).read_bytes()).decode(), GOOD)
 
     def test_blocked_html_moves_to_browser_with_country(self):

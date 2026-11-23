@@ -65,8 +65,8 @@ def estimate_pages(planned, pricing):
 def render_preview(month, planned, status_rules, fetch, pricing):
     http, browser, low, high, retry_low, retry_high = estimate_pages(planned, pricing)
     extended = sorted({item["geolocation"] for item in planned} - set(pricing["standard_geolocations"]))
-    sends = [("url", "S2를 통과한 상품 상세 페이지 주소(중복 없이)"), ("httpResponseBody", "true → HTML만 받는 싼 방식(지역 지정 없음, 10월과 같음)"),
-             ("browserHtml", "true → 브라우저로 여는 방식. 브라우저 필수인 곳이거나 HTML 방식이 차단·껍데기일 때만"), ("geolocation", "브라우저 방식일 때만 그 나라 코드"),
+    sends = [("url", "S2를 통과한 상품 상세 페이지 주소(중복 없이)"), ("httpResponseBody", "true → HTML만 받는 싼 방식"),
+             ("browserHtml", "true → 브라우저로 여는 방식. 브라우저 필수인 곳이거나 HTML 방식이 차단·껍데기일 때만"), ("geolocation", "두 방식 모두 리테일러 나라 코드(2026-11-23부터. 그전 HTML 방식은 지정 없음)"),
              ("보내지 않는 값", "리테일러 로그인 정보·개인정보 없음. Zyte 키는 인증 머리글로만 쓰고 파일·로그에 남기지 않음")]
     scale = (f"주소 {len(planned)}개(HTML 시작 {http}, 브라우저 시작 {browser}). 공개 단가 최소치 ${low:.2f}~${high:.2f}(사이트 묶음을 몰라 1~5묶음 범위). "
              f"HTML이 막혀 브라우저로 다시 여는 건 100건마다 ${retry_low:.2f}~${retry_high:.2f} 추가. 성공 응답만 과금. "
@@ -184,9 +184,8 @@ def judge_status(html, code, retailer, rules):
 def fetch_mode(item, method, fetch, key, post=None, sleep=None):
     """한 방식으로 받는다. 일시 오류는 설정 횟수만큼 다시 시도한다. 끝내 안 되면 html=None."""
     post, sleep = post or zyte_post, sleep or time.sleep
-    payload = {"url": item["url"], **fetch["methods"][method]}
-    if method == METHOD_BROWSER:
-        payload["geolocation"] = item["geolocation"]
+    # 2026-11-23 사용자 결정: HTML 방식도 브라우저 방식처럼 리테일러 나라에서 접속한다(10월~11월 연습 회차는 HTML 방식에 나라 지정 없음).
+    payload = {"url": item["url"], **fetch["methods"][method], "geolocation": item["geolocation"]}
     problem = ""
     for attempt in range(1, fetch["retries"] + 2):
         status, body = post(payload, key, fetch["api_url"], fetch["timeout_seconds"])
@@ -215,7 +214,7 @@ def check_url(item, rules, fetch, key, html_folder, post=None, sleep=None):
         best = got
         if got["status"] != BLOCKED:
             break
-    base = {"url": item["url"], "country": item["country"], "retailer": item["retailer"], "tries": tries, "fetched_at": now_text()}
+    base = {"url": item["url"], "country": item["country"], "retailer": item["retailer"], "geolocation": item["geolocation"], "tries": tries, "fetched_at": now_text()}
     if best is None:
         return {**base, "ok": False, "status": FAILED, "final_url": "", "title": "", "canonical": "", "html_file": "", "category_path": "", "method": "", "http_status": None, "note": "", "problem": tries[-1]["problem"]}
     name = html_filename(item["url"])

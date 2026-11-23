@@ -3,6 +3,7 @@ import base64
 import shutil
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 from unittest import mock
 from urllib.parse import parse_qs, urlsplit
@@ -125,7 +126,8 @@ class Check(unittest.TestCase):
 
 SETTINGS = common.load_config(RUN, "search_urls")
 TERMS = common.load_config(RUN, "search_terms")["terms"]
-HTML_FOLDER = RUN.sub("html") / s1b.HTML_FOLDER
+# 11-18 방식 실험(--probe)에서 받은 검색 1페이지 36개. 11월 연습 회차를 옮긴 폴더에 있다(2026-11-23). 카드 규칙 회귀 검사용.
+HTML_FOLDER = common.RUNS_ROOT / "2026-11_연습" / "html" / s1b.HTML_FOLDER
 LIMIT = SETTINGS["card_limit"]
 
 
@@ -509,6 +511,35 @@ class CollectionRun(unittest.TestCase):
         self.assertEqual(code, 1)
         self.assertEqual((tuple(columns), len(rows), {row["완료구분"] for row in rows}), (s1b.RECONCILE_COLUMNS, 126, {"수집 실패"}))
         self.assertEqual(post.call_count, 126 * 4)
+
+    def test_one_retailer_preview_lists_only_that_retailer(self):
+        post, shown, _ = self.main("--retailer", "Netherlands|MEDIAMARKT")
+        post.assert_not_called()
+        text = shown.call_args[0][0]
+        self.assertIn("--retailer 'Netherlands|MEDIAMARKT'", text)
+        self.assertIn("| Netherlands | MEDIAMARKT | 8 |", text)
+        self.assertNotIn("| Czech Republic |", text)
+
+    def test_retailer_name_alone_must_be_unique(self):
+        self.assertEqual(s1b.retailer_key("alza", SETTINGS), "Czech Republic|ALZA")
+        with self.assertRaises(common.ConfigError):
+            s1b.retailer_key("MEDIAMARKT", SETTINGS)  # 네덜란드와 헝가리 두 곳
+        with self.assertRaises(common.ConfigError):
+            s1b.main(["--month", "2026-11", "--retailer", "ALZA", "--sample"])
+
+    def test_one_retailer_run_replaces_only_its_rows(self):
+        _, _, code = self.main("--retailer", "Czech Republic|ALZA", "--run")
+        self.assertEqual(code, 1)
+        _, _, _ = self.main("--retailer", "Czech Republic|DATART", "--run")
+        folder = self.run_paths.sub("candidates")
+        _, rows = common.read_csv(folder / s1b.RECONCILE_NAME)
+        self.assertEqual(Counter(row["리테일러"] for row in rows), Counter({"ALZA": 9, "DATART": 9}))
+        post, _, code = self.main("--retailer", "Czech Republic|ALZA", "--run")
+        self.assertEqual((post.call_count, code), (0, 0))  # 이미 있으면 다시 부르지 않음
+        post, _, _ = self.main("--retailer", "Czech Republic|ALZA", "--run", "--force")
+        self.assertEqual(post.call_count, 9 * 4)
+        _, rows = common.read_csv(folder / s1b.RECONCILE_NAME)
+        self.assertEqual(Counter(row["리테일러"] for row in rows), Counter({"ALZA": 9, "DATART": 9}))
 
     def test_sample_makes_no_candidate_files_and_leaves_no_key(self):
         self.main("--sample", "--run")

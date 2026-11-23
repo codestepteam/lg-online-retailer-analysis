@@ -2,6 +2,7 @@
 
 세 가지 실행이 있다. 모두 --dry-run이 기본이고 --run을 줘야 Zyte를 부른다.
 - 인자 없음: 본 수집. candidates/search_cards.csv(14열), search_reconcile.csv(27열)를 만든다.
+- --retailer '국가|리테일러': 본 수집을 한 곳만 한다. 두 후보 파일에서 그 곳 행만 새로 바꾸고 다른 곳 행은 둔다(2026-11-23 사용자 요청).
 - --sample: 시험 수집. 곳마다 검색어 1개 × 앞 2페이지만 받아 10월과 비교한다. 후보 파일은 만들지 않는다.
 - --probe: WP1-1 방식 실험(12곳 × 3방식 × 1페이지, 재시도 없음).
 """
@@ -472,17 +473,18 @@ def sample_terms(terms, settings):
     return chosen
 
 
-def render_collection_preview(month, planned, manual, settings, pricing, sample):
+def render_collection_preview(month, planned, manual, settings, pricing, sample, key=None):
     collection = settings["collection"]
     expanded = [{"payload": collection["methods"][item["retailer"]["search_method"]]} for item in planned for _ in range(item["pages"])]
     http, browser, low, high = estimate(expanded, pricing)
     methods = "; ".join(f"{name} = {json.dumps(mode, ensure_ascii=False)}" for name, mode in collection["methods"].items())
     purpose = ("곳마다 검색어 1개·앞 2페이지만 받아, 고친 시작 주소·카드 규칙·페이지 넘김이 실제로 되는지 10월과 비교한다" if sample
+               else f"{key}의 검색 결과 카드를 검색어별 상위 1,000개까지 모아 11월 후보로 쓴다(D056). 후보 파일에서 이 곳 행만 바꾼다" if key
                else "OSM에 없는 12곳의 검색 결과 카드를 검색어별 상위 1,000개까지 모아 11월 후보로 쓴다(D056)")
     sends = [("주소(url)", "검색어별 검색 결과 주소. 아래 표에 곳별 첫 주소 예시"), ("지역(geolocation)", "리테일러 국가 코드"), ("방식", methods), ("인증", "`.env`의 Zyte 키를 인증 머리글로만 보냄. 파일·로그에는 안 남김")]
     scale = (f"예상 {len(expanded):,}요청(HTML {http:,}, 브라우저 {browser:,}). 요청 수는 10월 페이지 수 기준 예상이며 실제는 달라질 수 있음. 페이지마다 최대 {collection['retries']}회 재시도. 공개 단가로 약 ${low:.2f} ~ ${high:.2f}. 묶음은 사이트별로 정해져 모름. "
              "확장 지역·브라우저 동작의 추가 금액은 공개 문서에 없어 이 금액은 최소치. 성공 응답만 과금")
-    flag = " --sample" if sample else ""
+    flag = " --sample" if sample else f" --retailer '{key}'" if key else ""
     text = call_preview("Zyte (검색 " + ("시험 수집" if sample else "본 수집") + ", WP1-3)", purpose, sends, scale, [COLLECT_COMMAND.format(month=month, flag=flag)])
     rows = ["", "| 국가 | 리테일러 | 검색어 수 | 예상 페이지 | 방식 | 지역 | 첫 주소 예시 |", "| --- | --- | --- | --- | --- | --- | --- |"]
     grouped = defaultdict(list)
@@ -605,13 +607,52 @@ def probe_main(args, run, logger, settings, pricing):
     return 0
 
 
+def retailer_key(name, settings):
+    """--retailer 값을 search_urls.json의 '국가|리테일러' 키로 바꾼다. 리테일러 이름만 줘도 한 곳으로 정해지면 받는다(대소문자 무시)."""
+    keys = list(settings["retailers"])
+    if name in keys:
+        return name
+    matches = [key for key in keys if key.split("|", 1)[1].lower() == name.lower()]
+    if len(matches) != 1:
+        raise ConfigError(f"--retailer는 다음 중 하나여야 합니다('국가|리테일러'): {', '.join(keys)}")
+    return matches[0]
+
+
+def terms_of(terms, key):
+    country, retailer = key.split("|", 1)
+    chosen = [term for term in terms if (term["country"], term["retailer"]) == (country, retailer)]
+    if not chosen:
+        raise ConfigError(f"검색어가 없는 리테일러입니다: {key}")
+    return chosen
+
+
+def merge_rows(path, columns, new_rows, key, overwrite):
+    """한 곳만 수집했을 때: 기존 파일에서 그 곳 행만 새 행으로 바꾸고 다른 곳 행은 그대로 둔다."""
+    country, retailer = key.split("|", 1)
+    old = read_csv(path)[1] if path.exists() else []
+    if any((row["국가"], row["리테일러"]) == (country, retailer) for row in old) and not overwrite:
+        raise FileExistsError(f"{path}에 이미 {key} 행이 있습니다. 다시 받으려면 --force")
+    kept = [row for row in old if (row["국가"], row["리테일러"]) != (country, retailer)]
+    write_csv(path, columns, kept + new_rows, overwrite=True)
+
+
+def retailer_done(path, key):
+    if not path.exists():
+        return False
+    country, retailer = key.split("|", 1)
+    return any((row["국가"], row["리테일러"]) == (country, retailer) for row in read_csv(path)[1])
+
+
 def main(argv):
     parser = new_parser("S1b 검색 수집", paid=True)
     parser.add_argument("--probe", action="store_true", help="WP1-1 방식 실험(12곳 × 3방식)")
     parser.add_argument("--sample", action="store_true", help="곳마다 검색어 1개 × 앞 2페이지 시험 수집(후보 파일은 만들지 않음)")
+    parser.add_argument("--retailer", help="본 수집을 한 곳만 한다. '국가|리테일러'(예: 'Netherlands|MEDIAMARKT') 또는 한 곳으로 정해지는 리테일러 이름. 결과는 후보 파일의 그 곳 행만 바꾼다")
     args = parser.parse_args(argv)
     if args.probe and args.sample:
         raise ConfigError("--probe와 --sample은 함께 쓸 수 없습니다")
+    if args.retailer and (args.probe or args.sample):
+        raise ConfigError("--retailer는 본 수집에만 씁니다(--probe, --sample과 함께 쓸 수 없음)")
     run = RunPaths(args.month).create()
     logger = get_logger(run, "s1b")
     settings = load_config(run, "search_urls")
@@ -619,15 +660,20 @@ def main(argv):
     if args.probe:
         return probe_main(args, run, logger, settings, pricing)
     terms = load_config(run, "search_terms")["terms"]
-    selected = sample_terms(terms, settings) if args.sample else terms
+    key = retailer_key(args.retailer, settings) if args.retailer else None
+    selected = sample_terms(terms, settings) if args.sample else terms_of(terms, key) if key else terms
     planned, manual = plan_collection(selected, settings, args.sample)
-    preview = render_collection_preview(args.month, planned, manual, settings, pricing, args.sample)
+    preview = render_collection_preview(args.month, planned, manual, settings, pricing, args.sample, key)
     if not args.live:
         print(preview)
         return 0
     folder = run.sub("candidates")
     outputs = [folder / CARDS_NAME, folder / RECONCILE_NAME]
-    if not args.sample and outputs_ready(outputs, args.force):
+    if key and not args.force and retailer_done(outputs[1], key):
+        validate_existing_cards(outputs[0], settings)
+        logger.info("이미 있어 건너뜁니다: %s (%s)", key, outputs[1])
+        return 0
+    if not key and not args.sample and outputs_ready(outputs, args.force):
         validate_existing_cards(outputs[0], settings)
         logger.info("이미 있어 건너뜁니다: %s", ", ".join(map(str, outputs)))
         return 0
@@ -639,9 +685,14 @@ def main(argv):
         print(report)
         return 0
     limit = settings["card_limit"]
-    write_csv(outputs[0], list(CARD_COLUMNS), [row for outcome in outcomes for row in card_rows(outcome)], overwrite=args.force)
+    cards = [row for outcome in outcomes for row in card_rows(outcome)]
     reconcile = [reconcile_row(outcome, limit) for outcome in outcomes]
-    write_csv(outputs[1], list(RECONCILE_COLUMNS), reconcile, overwrite=args.force)
+    if key:
+        merge_rows(outputs[0], list(CARD_COLUMNS), cards, key, args.force)
+        merge_rows(outputs[1], list(RECONCILE_COLUMNS), reconcile, key, args.force)
+    else:
+        write_csv(outputs[0], list(CARD_COLUMNS), cards, overwrite=args.force)
+        write_csv(outputs[1], list(RECONCILE_COLUMNS), reconcile, overwrite=args.force)
     finished = Counter(row["완료구분"] for row in reconcile)
     logger.info("본 수집 끝: 검색어 %d개, 카드 %d장, 완료구분 %s", len(reconcile), sum(int(row["최종저장카드수"]) for row in reconcile), dict(finished))
     failed = [row for row in reconcile if row["완료구분"] == "수집 실패"]
