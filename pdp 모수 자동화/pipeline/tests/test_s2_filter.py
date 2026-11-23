@@ -147,10 +147,10 @@ class Duplicates(unittest.TestCase):
         fields = {"출처파일": "a", "원본URL": "u", "기준일": "2026-11-01", "검색어": "", "엑셀행번호": "", "광고여부": "", "OSM_RK": "", "OSM_SOURCE_TYPE": ""}
         return {**fields, **osm(**changes)}
 
-    def test_first_kept_row_is_representative(self):
+    def test_same_request_url_is_kept_for_s5(self):
+        # 요청 URL이 같아도 S2는 빼지 않는다(2026-11-23). 중복은 S5가 접속 후 URL로 판정한다.
         judged = s2.judge_all([self.base(), self.base()], rules(), self.columns)
-        self.assertEqual([r["제외단계"] for r in judged], ["", s2.DUPLICATE_STAGE])
-        self.assertEqual(judged[1]["제외사유"], "같은 주소(대표 행 1)")
+        self.assertEqual([r["제외단계"] for r in judged], ["", ""])
 
     def test_excluded_row_cannot_be_representative(self):
         judged = s2.judge_all([self.base(OSM브랜드="NONAME"), self.base()], rules(), self.columns)
@@ -209,6 +209,8 @@ def reason_for_difference(new, old):
         return "S2 뒤 단계에서 제외(판매자·리퍼·부품)"
     if not new_stage and old_stage == s2.DUPLICATE_STAGE and old["제외사유"].startswith("같은 상품"):
         return "S2 뒤 단계에서 제외(실제 도착 주소 중복)"
+    if not new_stage and old_stage == s2.DUPLICATE_STAGE and old["제외사유"].startswith("같은 주소"):
+        return "S5로 옮긴 같은 요청 URL 중복(2026-11-23)"
     if PERSON_DECISION.search(old["메모"]) or PERSON_DECISION.search(old["제외사유"]):
         return "행별 사람 결정(EY·사용자)"
     if NEW_RULE.search(new["제외사유"]) and old["모수 포함 여부"] == "제외":
@@ -243,7 +245,9 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7306, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394, "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31}))
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7306, "S5로 옮긴 같은 요청 URL 중복(2026-11-23)": 6871, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394,
+                                          "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31, "묶음 상품 유지(D052 구현, 2026-11-23)": 24}))
+        # 2026-11-23: S2는 같은 요청 URL을 중복으로 빼지 않는다(커밋 57dd5dc). v5가 "같은 주소(대표 행 …)"로 뺀 6,871행은 S5가 접속 후 URL로 다시 본다.
         # D143 전에는 "행별 사람 결정" 27행(Electroplanet 23 + RTV 3 + COSTCO 1)이 남았는데, 이제 규칙이 같은 단계로 뺀다.
         # 7346 → 7316: RTV 부품 29행과 Electroplanet 정수기 필터 1행을 S5 대신 S2가 뺀다.
         # 7316 → 7306(D144): MomoShop 상품명 중간의 福利品 10행을 S2 키워드가 잡는다(v5도 ③리리부로 제외).
@@ -253,10 +257,9 @@ class OctoberComparison(unittest.TestCase):
         hits = Counter((new["리테일러"], old["모수 포함 여부"]) for new, old in zip(self.new, self.old) if NEW_RULE.search(new["제외사유"]))
         self.assertEqual(hits, Counter({("RTV_EURO_AGD", "제외"): 67, ("Electroplanet", "제외"): 41, ("COSTCO", "제외"): 1}))
 
-    def test_duplicate_representatives_match(self):
-        pairs = [(new["제외사유"], old["제외사유"]) for new, old in zip(self.new, self.old) if new["제외단계"] == s2.DUPLICATE_STAGE]
-        self.assertEqual(len(pairs), 6871)  # Cairo Sales `ال جى` 2행이 v5처럼 같은 주소 중복으로 잡힘(2026-11-14). D143 규칙이 RTV 18·Electroplanet 8개 중복 행을 먼저 뺀다(6897 → 6871)
-        self.assertTrue(all(new == old for new, old in pairs))
+    def test_s2_leaves_duplicates_to_s5(self):
+        # 2026-11-23부터 중복은 S5가 접속 후 URL로만 판정한다. S2 결과에는 ④중복이 하나도 없어야 한다.
+        self.assertEqual(sum(new["제외단계"] == s2.DUPLICATE_STAGE for new in self.new), 0)
 
 
 if __name__ == "__main__":

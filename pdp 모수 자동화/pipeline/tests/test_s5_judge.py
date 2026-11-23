@@ -320,7 +320,10 @@ class ReplayV5(unittest.TestCase):
         theirs = {row_["행번호"]: row_["제외사유"] for row_ in self.v5 if row_["제외단계"] == "④중복"}
         self.assertEqual(len(ours.keys() & theirs.keys()), 7589)
         self.assertEqual(len(theirs.keys() - ours.keys()), 2)
-        self.assertEqual({key: value for key, value in ours.items() if key in theirs and re.sub(r", #119", "", value) != re.sub(r", #119", "", theirs[key])}, {})
+        # D150: v5의 "같은 상품(주소의 상품 번호 같음, …)"은 이제 "같은 페이지(주소의 페이지 id 같음, …)"로 적는다. 대표 행은 그대로 비교한다.
+        def same(text):
+            return re.sub(r", #119", "", text).replace("같은 상품(주소의 상품 번호 같음", "같은 페이지(주소의 페이지 id 같음")
+        self.assertEqual({key: value for key, value in ours.items() if key in theirs and same(value) != same(theirs[key])}, {})
 
 
 if __name__ == "__main__":
