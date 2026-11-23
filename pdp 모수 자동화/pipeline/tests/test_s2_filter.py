@@ -60,7 +60,8 @@ class Judge(unittest.TestCase):
         """11월 Worten, FALABELLA 페루에서 브랜드가 모델 번호나 단어에 붙어 ①브랜드로 빠졌다."""
         for country, retailer, div, name in (("Portugal", "Worten", "W/M", "Maquina de Lavar e Secar Roupa LGW4X7516TBB (11/6 kg - 1400 rpm - Preto)"),
                                              ("Portugal", "Worten", "W/M", "Máquina de Lavar Roupa D5BOSCH WGH244A0ES (9 kg - 1400 rpm - Branco)"),
-                                             ("Peru", "FALABELLA", "REF", "Refrigeradora HisenseTop Mount 205L BCD-205")):
+                                             ("Peru", "FALABELLA", "REF", "Refrigeradora HisenseTop Mount 205L BCD-205"),
+                                             ("Peru", "FALABELLA", "W/M", "Lavadora Hisense10 Kg Carga Superior Automática Negro Claro")):
             row = search(국가=country, 리테일러=retailer, 제품군=div, 상품명=name, URL="https://example.com/p")
             self.assertNotEqual(s2.judge(row, self.rules)[1], s2.BRAND_STAGE, name)
 
@@ -80,6 +81,23 @@ class Judge(unittest.TestCase):
             self.assertEqual(s2.judge(row, self.rules)[:2], (s2.EXCLUDE, s2.KEYWORD_STAGE), name)
         row = search(국가="Portugal", 리테일러="Worten", 상품명="Hisense Rt488n4dc2 Geladeira E Freezer Independente 381 L Prata", URL="https://www.worten.pt/produtos/b")
         self.assertEqual(s2.judge(row, self.rules)[0], s2.KEEP)
+
+    def test_language_part_words_apply_only_in_that_country(self):
+        """D162: 폴란드어 worki(자루)가 싱가포르 Lazada '[Ships in 1-2 working days]'의 working에 걸려 세탁기가 확인 필요가 됐다. 폴란드에서는 그대로 걸린다."""
+        name = "[Ships in 1-2 working days] Midea 8.5 KG Front Load Washer MF200W85BT"
+        row = osm(국가="Singapore", 리테일러="LAZADA", 제품군="W/M", OSM브랜드="MIDEA", 상품명=name, URL="https://www.lazada.sg/products/pdp-i1.html")
+        self.assertEqual(s2.judge(row, self.rules)[0], s2.KEEP)
+        row = search(국가="Poland", 리테일러="MEDIAEXPERT", 제품군="W/M", 상품명="Worki do prania pralka LG", URL="https://www.mediaexpert.pl/a")
+        self.assertEqual(s2.judge(row, self.rules)[0], s2.CHECK)
+
+    def test_accessories_found_in_november_are_parts(self):
+        """D162: 남김이던 세탁기 덮개(페루 FALABELLA), 건조기 관리 세트(ALZA), 배수 호스(Worten). 덮개와 필터 묶음도 대상 가전이 없어 뺀다."""
+        for country, retailer, name in (("Peru", "FALABELLA", "Funda Para Lavadora Samsung Eco Bubble Carga Superior"),
+                                        ("Peru", "FALABELLA", "Funda para Lavadora 16-22 Kg Aleatorio +Filtro LG"),
+                                        ("Czech Republic", "ALZA", "BOSCH 00312111 Ošetřující set pro sušičky s tepelným čerpadlem"),
+                                        ("Portugal", "Worten", "Tubo de drenagem para máquina de lavar Bosch, máquina de lavar louça De Dietrich")):
+            row = search(국가=country, 리테일러=retailer, 제품군="W/M", 상품명=name, URL="https://example.com/p")
+            self.assertEqual(s2.judge(row, self.rules)[:2], (s2.EXCLUDE, s2.KEYWORD_STAGE), name)
 
     def test_dishwasher_is_only_for_spain(self):
         self.assertEqual(s2.judge(osm(제품군="D/W"), self.rules)[:3], (s2.EXCLUDE, s2.CATEGORY_STAGE, "식기세척기는 스페인만(D061)"))
@@ -251,6 +269,8 @@ def reason_for_difference(new, old):
         return "Worten 냉장고 부품 규칙이 먼저 제외(v5도 제외)"
     if not new_stage and old_stage == s2.BRAND_STAGE and s2.glued_brand("bosch", new["상품명"].lower()):
         return "붙은 브랜드 찾음(D5BOSCH, 2026-11-23)"
+    if not new_stage and old_stage == s2.BRAND_STAGE and s2.glued_brand("hisense", new["상품명"].lower()):
+        return "붙은 브랜드 찾음(Hisense10, 2026-11-24)"
     return None
 
 
@@ -279,9 +299,10 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7214, "S5로 옮긴 같은 요청 URL 중복(2026-11-23)": 6870, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394,
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7212, "S5로 옮긴 같은 요청 URL 중복(2026-11-23)": 6870, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394,
                                           "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31, "묶음 상품 유지(D052 구현, 2026-11-23)": 24,
                                           "붙은 브랜드 찾음(D5BOSCH, 2026-11-23)": 1,
+                                          "붙은 브랜드 찾음(Hisense10, 2026-11-24)": 1,
                                           "Worten 냉장고 부품 규칙이 먼저 제외(v5도 제외)": 2}))
         # 7306 → 7226(2026-11-23): Worten Prateleira(선반), Gaveta(서랍) 80행은 v5가 외부 판매자(Worten Peças 등)로 뺐고, 이제 S2가 같은 ③리리부로 먼저 빼서 차이에서 사라진다. v5 ④중복(같은 주소) 1행은 같은 규칙으로 먼저 빠져 6871 → 6870.
         # 7226 → 7214(2026-11-24): Worten 부품 맨 앞 단어(Dobradiça, Porta, Módulo, Trilho, Braço, Borracha)를 더해 v5가 뒤 단계 ③리리부로 뺀 12행이 차이에서 사라진다.
@@ -292,6 +313,7 @@ class OctoberComparison(unittest.TestCase):
         # 7346 → 7316: RTV 부품 29행과 Electroplanet 정수기 필터 1행을 S5 대신 S2가 뺀다.
         # 7316 → 7306(D144): MomoShop 상품명 중간의 福利品 10행을 S2 키워드가 잡는다(v5도 ③리리부로 제외).
         # D143 31행: v5가 ④중복(26)·④페이지없음(4)·②제품군(1, RTV 후드 부속)으로 뺀 행을 새 규칙이 먼저 뺀다. Cairo Sales `ال جى` 3행은 2026-11-14 무늬 수정으로 v5와 같아짐
+        # 7214 → 7212(2026-11-24, D162): ALZA 'Ošetřující set'(v5는 저장 페이지로 부품), Worten 'Tubo de Drenagem'(v5는 외부 판매자)을 S2가 ③리리부로 먼저 뺀다. 페루 'Lavadora Hisense10 Kg'는 v5가 ①브랜드로 잘못 뺀 행이라 이제 남는다.
 
     def test_new_rules_never_drop_an_included_row(self):
         hits = Counter((new["리테일러"], old["모수 포함 여부"]) for new, old in zip(self.new, self.old) if NEW_RULE.search(new["제외사유"]))

@@ -38,7 +38,17 @@
  "freezer_combo_osm": "combi|kombin|frigo|réfrigérateur|refrigera|lodówk|chladni|hűtő|fridge|kühl|koel|kyl|ثلاج|geladeira|冰箱|tủ lạnh",
  "freezer_note": "단독 냉동고(냉장고에 포함, 10-29 사용자 결정)",
  "no_category_note": "제품군 단어 없음(검색어 제품군 따름)",
- "part_suspect": "filtr|filter|tampa|cover|hose|wąż|hadice|tömlő|mangueira|manguera|bracket|soporte|podstav|podest|pedestal|stacking|łącznik|spojovac|gasket|uszczelk|těsnění|półk|polic|shelf|tray|cleaner|limpeza|odkamieniacz|odvápň|tablet|kapsuł|capsul|deterg|proszek|płyn|liquid|líquido|sacos?|worki|bag|remote|pilot|cable|kabel|replacement|náhradn|zamienn|alkatrész|repuesto|peça|diodo|lâmpada|bulb|kit(?!\\w)|adapter|adaptér|adapte|organizer|cesto|gaveta|basket|kosz|koš|ice maker|kostkarka|water ?filter|حامل|فلتر|قاعدة",
+ "part_suspect": "filtr|filter|cover|hose|bracket|pedestal|stacking|gasket|shelf|tray|cleaner|tablet|capsul|deterg|liquid|bag|remote|pilot|cable|kabel|replacement|diodo|bulb|kit(?!\\w)|adapter|adapte|organizer|basket|ice maker|water ?filter",
+ "part_suspect_by_language": {
+  "_설명": "2026-11-24 사용자 결정(D162): 한 나라 말 부품 단어는 그 말을 쓰는 나라에만 적용한다. 전에는 모든 나라에 적용해 폴란드어 worki(자루)가 싱가포르 Lazada 상품명 '[Ships in 1-2 working days]'의 working에 걸려 세탁기 32행이 확인 필요가 됐다. 영어 단어와 여러 나라에서 같은 꼴로 쓰는 단어(filtr, kabel, pilot, diodo 등)는 위 part_suspect에 남겨 모든 나라에 적용한다. 단어 자체는 바꾸지 않고 적용 나라만 나눴다.",
+  "폴란드어": {"countries": ["Poland"], "words": "wąż|łącznik|uszczelk|półk|odkamieniacz|kapsuł|proszek|płyn|worki|zamienn|kosz|kostkarka|podest"},
+  "체코어": {"countries": ["Czech Republic"], "words": "hadice|podstav|spojovac|těsnění|polic|odvápň|náhradn|koš|adaptér"},
+  "헝가리어": {"countries": ["Hungary"], "words": "tömlő|alkatrész"},
+  "포르투갈어": {"countries": ["Portugal", "Brazil"], "words": "tampa|mangueira|limpeza|líquido|sacos?|peça|lâmpada|cesto|gaveta"},
+  "스페인어": {"countries": ["Spain", "Peru", "Chile", "Mexico"], "words": "manguera|soporte|líquido|sacos?|repuesto|gaveta"},
+  "독일어": {"countries": ["Germany"], "words": "podest"},
+  "아랍어": {"countries": ["Egypt", "UAE", "Saudi Arabia", "Morocco"], "words": "حامل|فلتر|قاعدة"}
+ },
  "part_suspect_memo": "부품 의심 단어(시트 밖, AI 추가)",
  "retailer_name_codes": {
   "_설명": "상품명 맨 앞 종류 약어로 조사 제품군 밖 가전을 빼는 리테일러별 규칙(D083을 규칙으로, D143). Electroplanet은 상품명이 'TC … GAZ'(가스레인지), 'MAV …'(식기세척기)처럼 약어로 시작하고 제품군 단어가 없다. v8에서 사람이 뺀 24행은 모두 걸리고 포함 67행은 하나도 걸리지 않는다(2026-11-17 확인). 식기세척기의 '14C 11P'는 식기 14인분·11개 프로그램 표기다.",
@@ -58,7 +68,14 @@
    {"name": "표시 모듈", "pattern": "^m[óo]dulo\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
    {"name": "레일", "pattern": "^trilho\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
    {"name": "식기세척기 팔", "pattern": "^bra[çc]o\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
-   {"name": "고무 패킹", "pattern": "^borracha\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"}
+   {"name": "고무 패킹", "pattern": "^borracha\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "배수 호스", "pattern": "^tubo\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어", "_설명": "2026-11-24 사용자 결정(D162): 'Tubo de drenagem para máquina de lavar Bosch…'(세탁기 배수 호스)가 남김이었다"}
+  ],
+  "FALABELLA": [
+   {"name": "세탁기 덮개", "pattern": "^funda\\b", "stage": "③리리부", "how": "상품명 맨 앞 단어", "_설명": "2026-11-24 사용자 결정(D162): 페루 'Funda Para Lavadora Samsung Eco Bubble'(세탁기 덮개)가 남김이었다. 'Funda … +Filtro LG'(덮개와 보풀 필터)도 대상 가전이 없는 부품 묶음이라 + 예외를 두지 않는다"}
+  ],
+  "ALZA": [
+   {"name": "건조기 관리 세트", "pattern": "ošetřující set", "unless": "\\+", "stage": "③리리부", "how": "상품명 단어", "_설명": "2026-11-24 사용자 결정(D162): 'BOSCH 00312111 Ošetřující set pro sušičky s tepelným čerpadlem'(히트펌프 건조기 관리 세트)가 남김이었다"}
   ],
   "MOMOSHOP": [
    {"name": "의류관리기 단독", "pattern": "styler|電子衣櫥", "unless": "洗|冰箱|乾衣|烘", "stage": "②제품군", "_설명": "v8 '전자 의류관리기만 있는 상품' 규칙(D144). 洗衣塔×電子衣櫥(세탁타워 + 스타일러) 같은 묶음은 unless에 걸려 남는다"}

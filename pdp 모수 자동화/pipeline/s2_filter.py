@@ -33,13 +33,14 @@ def brand_regex(brand):
 GLUED_MODEL = re.compile(r"[a-z]{0,2}\d[a-z0-9]{2,}")
 GLUED_PREFIX = re.compile(r"[a-z]?\d{1,2}")
 GLUED_WORD_MIN = 6
+GLUED_NUMBER = re.compile(r"\d{1,3}")  # 6글자 이상 브랜드 뒤 짧은 숫자: 페루 FALABELLA 'Lavadora Hisense10 Kg'(D162)
 
 
 def glued_brand(brand, lowered):
     """브랜드가 띄어쓰기 없이 붙은 단어를 찾는다(2026-11-23, 11월 S2 조사).
     - 브랜드 바로 뒤에 모델 번호: Worten 'LGW4X7516TBB'(LG W4X7516TBB, 10월 Elgiganten에서 LG 모델로 확인)
     - 브랜드 바로 앞에 짧은 번호: Worten 'D5BOSCH WGH244A0ES'
-    - 6글자 이상 브랜드 뒤에 다른 단어: 페루 FALABELLA 'HisenseTop Mount'
+    - 6글자 이상 브랜드 뒤에 다른 단어나 세 자리 이하 숫자: 페루 FALABELLA 'HisenseTop Mount', 'Hisense10 Kg'
     'electrolux' 속 'lg'처럼 일반 단어 속 글자는 잡지 않도록 붙은 나머지가 모델 번호 모양일 때만 본다."""
     key = brand.lower()
     if not key.isalpha():
@@ -47,7 +48,8 @@ def glued_brand(brand, lowered):
     for word in re.findall(r"[a-z0-9]+", lowered):
         if word == key:
             continue
-        if word.startswith(key) and (GLUED_MODEL.fullmatch(word[len(key):]) or (len(key) >= GLUED_WORD_MIN and word[len(key):].isalpha())):
+        rest = word[len(key):]
+        if word.startswith(key) and (GLUED_MODEL.fullmatch(rest) or (len(key) >= GLUED_WORD_MIN and (rest.isalpha() or GLUED_NUMBER.fullmatch(rest)))):
             return True
         if word.endswith(key) and GLUED_PREFIX.fullmatch(word[:-len(key)]):
             return True
@@ -95,6 +97,15 @@ class Rules:
         osm_names = set(categories.get("osm_negative", {}).get("names", []))
         self.osm_negative = [(item["name"], re.compile(item["pattern"])) for item in categories["negative"] if item["name"] in osm_names]
         self.positive = [re.compile(pattern) for pattern in categories["positive"].values()]
+        self.part_suspect_regexes = {}
+
+    def part_suspect(self, country):
+        """부품 의심 단어 정규식. 공통 단어에 그 나라 말 단어(part_suspect_by_language)만 더한다(D162: 폴란드어 worki가 싱가포르 'working days'에 걸렸음)."""
+        if country not in self.part_suspect_regexes:
+            words = [self.categories["part_suspect"]] + [group["words"] for name, group in self.categories.get("part_suspect_by_language", {}).items()
+                                                         if not name.startswith("_") and country in group["countries"]]
+            self.part_suspect_regexes[country] = re.compile(r"(?<![\w])(?:" + "|".join(words) + ")")
+        return self.part_suspect_regexes[country]
 
     def country(self, name):
         name = (name or "").strip()
@@ -268,7 +279,7 @@ def judge(row, rules):
     excluded = rules.url_exclusion(row)
     if excluded:
         return EXCLUDE, KEYWORD_STAGE, excluded, ""
-    if re.search(r"(?<![\w])(?:" + categories["part_suspect"] + ")", rules.head(name)):
+    if rules.part_suspect(country).search(rules.head(name)):
         memo.append(categories["part_suspect_memo"])
     notes += [item["note"] for item in rules.retailer_rules["url_notes"] if item["retailer"] == row["리테일러"] and item["contains"] in url]
     return (CHECK if memo else KEEP), "", "", "; ".join(memo + notes)
