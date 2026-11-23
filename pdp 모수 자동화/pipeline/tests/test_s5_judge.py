@@ -229,7 +229,7 @@ class Codes(unittest.TestCase):
             columns = ["RAW_URL", "RTLR_NAME", "BRAND", "MPC", "MODEL_DEDUP_KEY"]
             values = (("u1", "MOMOSHOP", "【LG 樂金】", "A1", ""), ("u2", "MOMOSHOP", "SANLUX 台灣三洋", "", "K2"), ("u3", "OTTO", "LG ELECTRONICS", "A3", ""))
             common.write_csv(path, columns, [dict(zip(columns, v)) for v in values])
-            self.assertEqual(s5.osm_codes(path, prefix), [("u1", "LG", "A1"), ("u2", "SANLUX", "K2"), ("u3", "LG ELECTRONICS", "A3")])
+            self.assertEqual(s5.osm_codes(path, prefix), [("u1", "LG", "A1"), ("u2", "SANLUX", "K2"), ("u3", "LG", "A3")])  # LG ELECTRONICS는 LG로 본다(D160)
 
     def test_search_row_takes_extracted_values_in_upper_case(self):
         rows = [row("1"), row("2", url="https://x/2")]
