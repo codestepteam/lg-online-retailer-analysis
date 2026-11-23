@@ -1,4 +1,4 @@
-"""S2 1차 거르기: 상품명·주소만으로 브랜드 → 제품군 → 리리부 → 같은 요청 URL 중복 순서로 판정한다.
+"""S2 1차 거르기: 상품명·주소만으로 브랜드 → 제품군 → 리리부 순서로 판정한다. 중복은 여기서 빼지 않고 S5가 접속 후 URL로 본다(2026-11-23).
 
 제품군 단계에는 리테일러별 상품명 약어(Electroplanet), 주소 분류(RTV), OSM 상품명의 제외 단어 검사가 들어 있다(D143).
 
@@ -226,16 +226,14 @@ def judge(row, rules):
 
 
 def judge_all(rows, rules, columns):
-    """모든 행을 판정하고 내부판 열로 채운다. 제외되지 않은 행끼리 같은 국가·리테일러·요청 URL이면 뒤 행을 중복으로 뺀다."""
-    judged, first = [], {}
+    """모든 행을 판정하고 내부판 열로 채운다.
+
+    요청 URL이 같아도 여기서는 중복으로 빼지 않는다(2026-11-23 사용자 결정). 중복은 S5가 접속 후 URL로만 판정한다.
+    S3는 겹치지 않는 요청 URL만 한 번씩 열므로 Zyte 호출 수는 늘지 않는다.
+    """
+    judged = []
     for number, row in enumerate(rows, start=1):
         status, stage, reason, memo = judge(row, rules)
-        if status != EXCLUDE:
-            key = (row["국가"], row["리테일러"], row["URL"])
-            if key in first:
-                status, stage, reason = EXCLUDE, DUPLICATE_STAGE, f"같은 주소(대표 행 {first[key]})"
-            else:
-                first[key] = number
         judged.append({**row, "행번호": str(number), "판정": status, "제외단계": stage, "제외사유": reason, "메모": memo,
                        "페이지확인규칙": rules.page_rule_text.get((row["국가"], row["리테일러"]), ""), **{name: "" for name in JUDGED_ELSEWHERE}})
     extra = set(judged[0]) ^ set(columns) if judged else set()
@@ -275,7 +273,7 @@ def input_rows(run, rules):
 
 
 def main(argv):
-    args = new_parser("S2 1차 거르기: 브랜드·제품군·리리부·요청 URL 중복").parse_args(argv)
+    args = new_parser("S2 1차 거르기: 브랜드·제품군·리리부(중복은 S5에서)").parse_args(argv)
     run = RunPaths(args.month).create()
     logger = get_logger(run, "s2")
     folder = run.sub("judgments")
