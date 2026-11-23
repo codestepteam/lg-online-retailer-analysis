@@ -360,6 +360,38 @@ class Collect(unittest.TestCase):
         outcome = self.run_pages([page_record([card(1)], has_next=False, total=5)])
         self.assertEqual((s1b.judge_outcome(outcome, LIMIT)[0], len(self.calls)), ("수 불일치", 1))
 
+    def continue_shop(self):
+        """D153: 헝가리 MediaMarkt처럼 다음 단추가 일찍 사라지는 곳(쪽당 2장으로 줄여 시험)."""
+        shop_copy = {**self.retailer, "pagination": {**self.retailer["pagination"], "per_page": 2, "continue_to_total": True}}
+        self.addCleanup(setattr, self, "retailer", self.retailer)
+        self.retailer = shop_copy
+
+    def test_missing_next_continues_until_total_pages(self):
+        self.continue_shop()
+        pages = [page_record([card(1), card(2)], has_next=False, total=6), page_record([card(3), card(4)], has_next=False, total=6),
+                 page_record([card(5), card(6)], has_next=False, total=6), page_record([card(7), card(8)], total=6)]
+        outcome = self.run_pages(pages)
+        self.assertEqual((outcome["stop"], len(outcome["cards"]), len(self.calls)), ("end", 6, 3))
+        self.assertEqual(s1b.judge_outcome(outcome, LIMIT)[0], "끝 도달")
+        self.assertIn("다음 단추가 없는 쪽 2개", s1b.reconcile_row(outcome, LIMIT)["비고"])
+
+    def test_missing_next_still_stops_on_empty_page(self):
+        self.continue_shop()
+        outcome = self.run_pages([page_record([card(1), card(2)], has_next=False, total=10), page_record([], has_next=False, total=10)])
+        self.assertEqual((outcome["stop"], len(outcome["cards"]), len(self.calls)), ("end", 2, 2))
+
+    def test_total_without_ads_matches_only_when_set(self):
+        """D154: FALABELLA처럼 표시 수에 광고가 빠지는 곳만 광고를 빼고 대조한다(ALZA는 광고가 표시 수에 들어간다)."""
+        pages = [page_record([{**card(1), "ad": "예"}, card(2), card(3)], has_next=False, total=2)]
+        self.assertEqual(s1b.judge_outcome(self.run_pages(pages), LIMIT)[0], "수 불일치")
+        self.retailer = {**self.retailer, "total_excludes_ads": True}
+        self.addCleanup(setattr, self, "retailer", shop("Portugal|Worten"))
+        self.assertEqual(s1b.judge_outcome(self.run_pages(pages), LIMIT), ("끝 도달", "광고 카드를 뺀 수가 표시 수와 일치"))
+
+    def test_missing_next_without_setting_stops(self):
+        outcome = self.run_pages([page_record([card(1)], has_next=False, total=5), page_record([card(2)])])
+        self.assertEqual(len(self.calls), 1)
+
     def test_page_guard(self):
         outcome = self.run_pages([page_record([card(index)]) for index in range(5)], max_pages=2)
         self.assertEqual((outcome["stop"], len(self.calls)), ("max_pages", 2))

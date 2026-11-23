@@ -15,7 +15,9 @@
         "kind": "query_param",
         "param": "page",
         "applies_to": "arrival_url",
-        "per_page": 12
+        "per_page": 12,
+        "continue_to_total": true,
+        "_continue_to_total": "D153(2026-11-23): 헝가리와 같은 MediaMarkt 구조. Warmtepompdrogers(히트펌프 건조기)가 9쪽(108장)에서 다음 단추 없이 멈췄으나 표시 수는 109라 10쪽까지 이어 받는다"
       },
       "october_next_control": "Toon 12 meer producten",
       "october_total_location": "h1 옆 (N artikelen), 목록 아래 M van N",
@@ -355,13 +357,16 @@
         "kind": "query_param",
         "param": "page",
         "applies_to": "arrival_url",
-        "per_page": 12
+        "per_page": 12,
+        "continue_to_total": true,
+        "_continue_to_total": "D153(2026-11-23): Zyte로 받은 화면에서 다음 단추가 일찍 사라져도(hűtőszekrény(냉장고) 9쪽, mosógép(세탁기) 30쪽) 화면 표시 전체 수에 닿는 쪽까지 이어 받는다. 크롬에서 hűtőszekrény(냉장고) 10쪽에 상품 12개와 다음 단추가 있음을 확인함"
       },
       "october_next_control": "Következő 12 termék megjelenítése",
       "october_total_location": "h1 N találat; 목록 아래 누적/전체 termék. 마지막에는 범위 표시가 사라지기도 함",
       "october_end_condition": "로딩 자리 없음·더 보기 없음 확인 후 실제 카드 수와 대조. 231·240행은30회차에서 넘김이 사라져 표시 수만큼 확인 못 함",
       "october_status": "13개 점검·수 불일치7개",
       "search_method": "zyte_html",
+      "_browser_pages": "D155(2026-11-23): alulfagyasztós hűtőszekrény(아래 냉동실 냉장고) 5쪽, hűtőszekrény(냉장고) 21쪽, elöltöltős mosógép(드럼 세탁기) 14, 15, 22쪽, mosó szárítógép(세탁 건조기) 3쪽, mosógép(세탁기) 10, 14, 21, 26, 27쪽은 화면 원본(zyte_html)에서 상품 칸 일부가 자바스크립트로만 채워져 카드가 빠졌다. 이 11쪽만 zyte_browser로 다시 받았다(두 번 연속 화면 원본에서 같은 쪽이 짧게 옴)",
       "october_arrivals": {
         "228": "https://www.mediamarkt.hu/hu/search.html?query=alulfagyaszt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny&page=15",
         "229": "https://www.mediamarkt.hu/hu/search.html?query=egyajt%C3%B3s%20h%C5%B1t%C5%91szekr%C3%A9ny&page=13",
@@ -539,6 +544,8 @@
       "october_end_condition": "오른쪽 다음 화살표 disabled 또는 마지막 페이지에서 범위 끝=전체 수",
       "october_status": "넘김 확인; 마지막 페이지는 전체 수집 때 검증",
       "search_method": "zyte_browser",
+      "total_excludes_ads": true,
+      "_total_excludes_ads": "D154(2026-11-23): 화면 표시 전체 수에 광고(data-sponsored) 카드가 빠진다. 11월 Refrigeradora bottom freezer, Lavadora frontal, Lavadora carga frontal, Lavaseca 4개는 광고를 뺀 수가 표시 수와 정확히 같음",
       "october_arrivals": {
         "361": "https://www.falabella.com.pe/falabella-pe/category/CATG19032/Refrigeracion?page=21",
         "362": "https://www.falabella.com.pe/falabella-pe/search?Ntt=Refrigeradora+bottom+freezer&page=7",

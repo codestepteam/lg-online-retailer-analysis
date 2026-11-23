@@ -367,10 +367,22 @@ def collect_term(retailer, term, settings, fetch, log, max_pages=None, write_loc
         if record["zero"]:
             stop = "zero"
             break
-        if not record["cards"] or not fresh or not record["has_next"]:
+        if not record["cards"] or not fresh or not (record["has_next"] or continue_to_total(retailer, record, page)):
             stop = "end"
             break
     return {"term": term, "retailer": retailer, "cards": saved, "pages": pages, "stop": stop, "raw_count": raw_count}
+
+
+def continue_to_total(retailer, record, page):
+    """다음 단추가 없어도 화면 표시 전체 수에 닿는 쪽까지는 이어 받는다(D153, 헝가리 MediaMarkt처럼 설정한 곳만).
+
+    헝가리 MediaMarkt는 Zyte로 받은 화면에서 다음 단추가 일찍 사라지지만, 실제 사이트는 그 뒤 쪽에도 상품이 있었다(2026-11-23 크롬 확인).
+    빈 쪽, 같은 쪽 반복, 상한, 페이지 안전 한도에서는 다른 끝 조건이 그대로 멈춘다.
+    """
+    pagination = retailer["pagination"]
+    if not pagination.get("continue_to_total") or record["total"] is None:
+        return False
+    return page < -(-record["total"] // pagination["per_page"])
 
 
 def judge_outcome(outcome, limit):
@@ -389,6 +401,9 @@ def judge_outcome(outcome, limit):
         return "끝 도달", "표시 전체 수가 정확한 숫자가 아니어서 대조하지 않음"
     if total == saved:
         return "끝 도달", "표시 수와 실제 카드 수 일치"
+    if outcome["retailer"].get("total_excludes_ads") and total == sum(1 for card in outcome["cards"] if card["ad"] != "예"):
+        # D154(2026-11-23): FALABELLA는 화면 표시 수에 광고 카드가 빠진다. ALZA처럼 광고가 표시 수에 들어가는 곳은 이 설정을 켜지 않는다.
+        return "끝 도달", "광고 카드를 뺀 수가 표시 수와 일치"
     return "수 불일치", "화면 표시 전체 수와 실제 카드 수 불일치"
 
 
@@ -410,6 +425,9 @@ def reconcile_row(outcome, limit):
     loading = sum(page["loading"] for page in good)
     if loading:
         note.append(f"로딩 자리 {loading}개가 남은 화면 있음")
+    passed = sum(1 for page in good[:-1] if not page["has_next"])
+    if passed:
+        note.append(f"다음 단추가 없는 쪽 {passed}개를 지나 표시 수까지 이어 받음(D153)")
     ads = Counter(card["ad"] for card in cards)
     row = {column: "" for column in RECONCILE_COLUMNS}
     row.update({"엑셀행번호": term["excel_row"], "국가": term["country"], "리테일러": term["retailer"], "F열제품군": term["category"], "J열검색어": term["keyword"], "최초표시전체수": shown[0] if shown else "", "최종표시전체수": shown[-1] if shown else "",
