@@ -8,6 +8,7 @@
 """
 import base64
 import hashlib
+import http.client
 import json
 import math
 import re
@@ -152,7 +153,8 @@ def zyte_post(payload, key, api_url, timeout):
             return error.code, json.loads(error.read())
         except ValueError:
             return error.code, {}
-    except (urllib.error.URLError, TimeoutError) as error:
+    except (urllib.error.URLError, TimeoutError, http.client.HTTPException, ConnectionError) as error:
+        # 응답이 중간에 끊긴 경우(http.client.IncompleteRead)도 일시 오류로 보고 다시 시도한다. 11-24 S3에서 7,400건쯤 이 오류로 전체가 멈췄다.
         return 0, {"title": type(error).__name__}
 
 

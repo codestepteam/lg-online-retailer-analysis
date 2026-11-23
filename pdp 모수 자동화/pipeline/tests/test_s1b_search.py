@@ -424,6 +424,14 @@ class Collect(unittest.TestCase):
         self.assertLessEqual({"국가", "리테일러", "F열제품군", "상품명", "카드PDP링크", "수집시각", "J열검색어", "엑셀행번호", "광고여부"}, set(s1b.CARD_COLUMNS))
 
 
+class ZytePost(unittest.TestCase):
+    def test_cut_off_response_is_a_retryable_error(self):
+        """11-24 S3: 응답이 중간에 끊겨(IncompleteRead) 예외가 나 전체 수집이 멈췄다. 상태 0으로 돌려줘 다시 시도하게 한다."""
+        import http.client
+        with mock.patch.object(s1b.urllib.request, "urlopen", side_effect=http.client.IncompleteRead(b"abc")):
+            self.assertEqual(s1b.zyte_post({"url": "u"}, "k", "https://api", 1), (0, {"title": "IncompleteRead"}))
+
+
 class Fetch(unittest.TestCase):
     retailer = shop("Egypt|Cairo Sales")
     good = '<div id="center_column"><ul class="product_list"><li><a class="product-name" href="/p/1">a</a></li></ul></div>'
