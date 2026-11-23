@@ -29,8 +29,8 @@
   }
  ],
  "positive": {
-  "REF": "fridge|refrigerat|réfrigérat|refrigerador|koelkast|koel[\\s-]?vries|chladni|lednic|lodówk|hűtő|frigor|frigo\\b|ثلاج|side by side|french door|top mount|bottom mount|\\bcomb\\b|\\bref\\b|americain|américain|multi[\\s-]?portes|\\bsbs\\b|mini ?bar|cooler",
-  "W/M": "washer|washing|wasmachine|wasautomaat|pračk|pralk|mosógép|mosó-szárító|máquina de lavar(?! loiça)|lavadora|lavasecadora|غسال|lave[\\s-]?linge|machine à laver|\\bmal\\b|twin tub|semiautom",
+  "REF": "fridge|refrigerat|réfrigérat|refrigerador|koelkast|koel[\\s-]?vries|chladni|lednic|lodówk|hűtő|frigor|frigo\\b|ثلاج|side by side|french door|top mount|bottom mount|\\bcomb\\b|\\bref\\b|americain|américain|multi[\\s-]?portes|\\bsbs\\b|mini ?bar|cooler|geladeira",
+  "W/M": "washer|washing|wasmachine|wasautomaat|pračk|pralk|mosógép|mosó-szárító|máquina de lavar(?! loiça)|lavadora|lavasecadora|غسال|lave[\\s-]?linge|machine à laver|\\bmal\\b|twin tub|semiautom|lava[\\s-]e[\\s-]seca|lava[\\s-]roupas",
   "DRY": "dryer|droger|sušičk|suszark|szárító|máquina de secar|secadora|secarropa|نشاف|مجفف|sèche[\\s-]?linge|\\bsl\\b|\\bsech"
  },
  "freezer_head": "^(?:\\S+\\s+){0,2}(?:freezer|vriezer|mrazák|mraznička|zamrażarka|fagyasztószekrény|fagyasztóláda|congelador|congélateur|congelateur|chest freezer|upright freezer|deep freezer|ديب فريزر|فريزر)",
@@ -49,6 +49,16 @@
    {"name": "에어컨", "pattern": "^clim\\b", "stage": "②제품군"},
    {"name": "전자레인지", "pattern": "^mo\\b", "stage": "②제품군"},
    {"name": "정수기 필터", "pattern": "^membrane\\b", "stage": "③리리부"}
+  ],
+  "Worten": [
+   {"name": "냉장고 선반", "pattern": "^prateleira\\b", "stage": "③리리부", "how": "상품명 맨 앞 단어", "_설명": "2026-11-23 사용자 결정(D160). 검색어 frigorifico com congelador inferior/superior(아래/위 냉동실 냉장고)에 Prateleira(선반) 부품이 섞여 S2를 통과했다. 10월 v8에서 Prateleira, Gaveta로 시작하는 Worten 209행은 모두 제외(①브랜드 128, 외부 판매자 Worten Peças 등 80, 중복 1)"},
+   {"name": "냉장고 서랍", "pattern": "^gaveta\\b", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "경첩", "pattern": "^dobradi[çc]a\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어", "_설명": "2026-11-24 사용자 결정: 11월 S2에서 냉장고 검색어에 남은 Worten 부품 10행(Dobradiça 경첩 4, Porta 문 2, Módulo 표시 모듈 1, Trilho 레일 1, Braço 식기세척기 팔 1, Borracha 고무 패킹 1)을 묶음 상품이 아니면 뺀다. 상품명에 +가 있으면 묶음으로 보고 이 규칙을 건너뛴다. 11월 자료에서 이 6단어로 시작하는 남김 행은 이 10행뿐이다"},
+   {"name": "냉장고 문", "pattern": "^porta\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "표시 모듈", "pattern": "^m[óo]dulo\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "레일", "pattern": "^trilho\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "식기세척기 팔", "pattern": "^bra[çc]o\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"},
+   {"name": "고무 패킹", "pattern": "^borracha\\b", "unless": "\\+", "stage": "③리리부", "how": "상품명 맨 앞 단어"}
   ],
   "MOMOSHOP": [
    {"name": "의류관리기 단독", "pattern": "styler|電子衣櫥", "unless": "洗|冰箱|乾衣|烘", "stage": "②제품군", "_설명": "v8 '전자 의류관리기만 있는 상품' 규칙(D144). 洗衣塔×電子衣櫥(세탁타워 + 스타일러) 같은 묶음은 unless에 걸려 남는다"}

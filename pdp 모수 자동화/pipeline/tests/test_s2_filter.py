@@ -51,6 +51,36 @@ class Judge(unittest.TestCase):
     def test_osm_brand_outside_list(self):
         self.assertEqual(s2.judge(osm(OSM브랜드="NONAME"), self.rules)[1], s2.BRAND_STAGE)
 
+    def test_osm_lg_electronics_is_lg(self):
+        """11월 Darty 'Refrigerateur americain GSJC41PYPE'가 OSM 브랜드 LG ELECTRONICS라서 ①브랜드로 빠졌다."""
+        row = osm(국가="France", 리테일러="DARTY", OSM브랜드="LG ELECTRONICS", 상품명="Refrigerateur americain GSJC41PYPE 420.0 gris statique", URL="https://www.darty.com/a")
+        self.assertNotEqual(s2.judge(row, self.rules)[1], s2.BRAND_STAGE)
+
+    def test_glued_brand_is_found(self):
+        """11월 Worten, FALABELLA 페루에서 브랜드가 모델 번호나 단어에 붙어 ①브랜드로 빠졌다."""
+        for country, retailer, div, name in (("Portugal", "Worten", "W/M", "Maquina de Lavar e Secar Roupa LGW4X7516TBB (11/6 kg - 1400 rpm - Preto)"),
+                                             ("Portugal", "Worten", "W/M", "Máquina de Lavar Roupa D5BOSCH WGH244A0ES (9 kg - 1400 rpm - Branco)"),
+                                             ("Peru", "FALABELLA", "REF", "Refrigeradora HisenseTop Mount 205L BCD-205")):
+            row = search(국가=country, 리테일러=retailer, 제품군=div, 상품명=name, URL="https://example.com/p")
+            self.assertNotEqual(s2.judge(row, self.rules)[1], s2.BRAND_STAGE, name)
+
+    def test_brand_letters_inside_other_word_are_not_brand(self):
+        for name in ("Lodówka Electrolux LNT5ME32W1 Pełny No Frost", "ASKO Style+ 9.5kg Front Load Washing Machine Black W7956XLG"):
+            self.assertEqual(s2.judge(search(상품명=name, URL="https://example.com/p"), self.rules)[1], s2.BRAND_STAGE, name)
+
+    def test_brazil_washer_dryer_bundle_with_tv_is_kept(self):
+        row = osm(국가="Brazil", 리테일러="MAGAZINELUIZA", 제품군="W/M", OSM브랜드="SAMSUNG", 상품명='Lava e Seca WD11M 220V + Smart TV AI 70" Crystal UHD 4K - Samsung', URL="https://www.magazineluiza.com.br/p")
+        self.assertNotEqual(s2.judge(row, self.rules)[1], s2.CATEGORY_STAGE)
+
+    def test_worten_fridge_shelf_and_drawer_are_parts(self):
+        """11월 Worten 냉장고 검색어에 선반(Prateleira), 서랍(Gaveta) 부품이 섞였다. 실제 냉장고(Hisense … Geladeira)는 남는다."""
+        for name in ("Prateleira Inferior Das Garrafas Frigorífico LG Man64890001", "Gaveta Superior Congelador LG Ajp74894705",
+                     "Gaveta + Frontal Inferior Dos Vegetais Para Frigorífico Samsung Da97-19213d"):
+            row = search(국가="Portugal", 리테일러="Worten", 상품명=name, URL="https://www.worten.pt/produtos/a")
+            self.assertEqual(s2.judge(row, self.rules)[:2], (s2.EXCLUDE, s2.KEYWORD_STAGE), name)
+        row = search(국가="Portugal", 리테일러="Worten", 상품명="Hisense Rt488n4dc2 Geladeira E Freezer Independente 381 L Prata", URL="https://www.worten.pt/produtos/b")
+        self.assertEqual(s2.judge(row, self.rules)[0], s2.KEEP)
+
     def test_dishwasher_is_only_for_spain(self):
         self.assertEqual(s2.judge(osm(제품군="D/W"), self.rules)[:3], (s2.EXCLUDE, s2.CATEGORY_STAGE, "식기세척기는 스페인만(D061)"))
 
@@ -217,6 +247,10 @@ def reason_for_difference(new, old):
         return "D143 규칙이 먼저 제외(v5도 제외)"
     if not new_stage and old_stage == s2.CATEGORY_STAGE and "묶음 상품" in new["메모"]:
         return "묶음 상품 유지(D052 구현, 2026-11-23)"
+    if "상품명 맨 앞 단어" in new["제외사유"] and old["모수 포함 여부"] == "제외":
+        return "Worten 냉장고 부품 규칙이 먼저 제외(v5도 제외)"
+    if not new_stage and old_stage == s2.BRAND_STAGE and s2.glued_brand("bosch", new["상품명"].lower()):
+        return "붙은 브랜드 찾음(D5BOSCH, 2026-11-23)"
     return None
 
 
@@ -245,8 +279,14 @@ class OctoberComparison(unittest.TestCase):
 
     def test_reason_counts(self):
         counts = Counter(reason_for_difference(new, old) for new, old in self.differences())
-        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7306, "S5로 옮긴 같은 요청 URL 중복(2026-11-23)": 6871, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394,
-                                          "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31, "묶음 상품 유지(D052 구현, 2026-11-23)": 24}))
+        self.assertEqual(counts, Counter({"S2 뒤 단계에서 제외(판매자·리퍼·부품)": 7214, "S5로 옮긴 같은 요청 URL 중복(2026-11-23)": 6870, "S2 뒤 단계에서 제외(실제 도착 주소 중복)": 394,
+                                          "Alza 세 단어(새 규칙)": 300, "D143 규칙이 먼저 제외(v5도 제외)": 31, "묶음 상품 유지(D052 구현, 2026-11-23)": 24,
+                                          "붙은 브랜드 찾음(D5BOSCH, 2026-11-23)": 1,
+                                          "Worten 냉장고 부품 규칙이 먼저 제외(v5도 제외)": 2}))
+        # 7306 → 7226(2026-11-23): Worten Prateleira(선반), Gaveta(서랍) 80행은 v5가 외부 판매자(Worten Peças 등)로 뺐고, 이제 S2가 같은 ③리리부로 먼저 빼서 차이에서 사라진다. v5 ④중복(같은 주소) 1행은 같은 규칙으로 먼저 빠져 6871 → 6870.
+        # 7226 → 7214(2026-11-24): Worten 부품 맨 앞 단어(Dobradiça, Porta, Módulo, Trilho, Braço, Borracha)를 더해 v5가 뒤 단계 ③리리부로 뺀 12행이 차이에서 사라진다.
+        # 'Worten 냉장고 부품 규칙' 1 → 2: 'Porta de Máquina de Lavar Loiça BOSCH'(식기세척기 문)는 v5가 ②제품군으로 뺐고 이제 ③리리부로 뺀다(둘 다 제외).
+        # 2026-11-23: Worten 'D5BOSCH WGH244A0ES' 1행은 v5가 ①브랜드로 뺐지만 붙은 브랜드 규칙으로 남는다(BOSCH는 포르투갈 대상 브랜드).
         # 2026-11-23: S2는 같은 요청 URL을 중복으로 빼지 않는다(커밋 57dd5dc). v5가 "같은 주소(대표 행 …)"로 뺀 6,871행은 S5가 접속 후 URL로 다시 본다.
         # D143 전에는 "행별 사람 결정" 27행(Electroplanet 23 + RTV 3 + COSTCO 1)이 남았는데, 이제 규칙이 같은 단계로 뺀다.
         # 7346 → 7316: RTV 부품 29행과 Electroplanet 정수기 필터 1행을 S5 대신 S2가 뺀다.

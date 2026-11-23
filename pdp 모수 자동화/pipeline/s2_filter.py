@@ -30,6 +30,30 @@ def brand_regex(brand):
     return re.compile(r"(?<![a-z0-9])" + r"[\s\-_&+]*".join(parts) + r"(?![a-z0-9])")
 
 
+GLUED_MODEL = re.compile(r"[a-z]{0,2}\d[a-z0-9]{2,}")
+GLUED_PREFIX = re.compile(r"[a-z]?\d{1,2}")
+GLUED_WORD_MIN = 6
+
+
+def glued_brand(brand, lowered):
+    """브랜드가 띄어쓰기 없이 붙은 단어를 찾는다(2026-11-23, 11월 S2 조사).
+    - 브랜드 바로 뒤에 모델 번호: Worten 'LGW4X7516TBB'(LG W4X7516TBB, 10월 Elgiganten에서 LG 모델로 확인)
+    - 브랜드 바로 앞에 짧은 번호: Worten 'D5BOSCH WGH244A0ES'
+    - 6글자 이상 브랜드 뒤에 다른 단어: 페루 FALABELLA 'HisenseTop Mount'
+    'electrolux' 속 'lg'처럼 일반 단어 속 글자는 잡지 않도록 붙은 나머지가 모델 번호 모양일 때만 본다."""
+    key = brand.lower()
+    if not key.isalpha():
+        return False
+    for word in re.findall(r"[a-z0-9]+", lowered):
+        if word == key:
+            continue
+        if word.startswith(key) and (GLUED_MODEL.fullmatch(word[len(key):]) or (len(key) >= GLUED_WORD_MIN and word[len(key):].isalpha())):
+            return True
+        if word.endswith(key) and GLUED_PREFIX.fullmatch(word[:-len(key)]):
+            return True
+    return False
+
+
 CJK = re.compile(r"[\u2e80-\u9fff\uf900-\ufaff\uff00-\uffef]")
 
 
@@ -41,6 +65,8 @@ def keyword_regex(word):
 def brand_prefix(brand, retailer, prefix):
     """osm_brand_prefix 리테일러면 대문자 브랜드의 맨 앞 영문 단어만 돌려준다(D142·D144). 아니면 대문자 브랜드 그대로."""
     brand = (brand or "").strip().upper()
+    if brand == "LG ELECTRONICS":  # S1a 콘솔 쿼리 BRAND_KEY와 같게 LG로 본다(11월 Darty 4행, Amazon 1행이 브랜드로 잘못 빠졌음)
+        return "LG"
     if prefix and retailer in prefix.get("retailers", []):
         found = re.match(prefix["pattern"], brand)
         if found:
@@ -63,7 +89,7 @@ class Rules:
                          for country, items in keywords["keywords"].items()}
         self.brand_regexes = {}
         self.page_rule_text = {(rule["country"], rule["retailer"]): rule["text"] for rule in retailer_rules["page_rule_text"]}
-        self.name_codes = {retailer: [(item["name"], item["stage"], re.compile(item["pattern"]), re.compile(item["unless"]) if item.get("unless") else None) for item in items]
+        self.name_codes = {retailer: [(item["name"], item["stage"], re.compile(item["pattern"]), re.compile(item["unless"]) if item.get("unless") else None, item.get("how", "상품명 약어")) for item in items]
                            for retailer, items in categories.get("retailer_name_codes", {}).items() if not retailer.startswith("_")}
         self.url_categories = [{**rule, "allow": re.compile(rule["allow"]), "parts": re.compile(rule["parts"])} for rule in retailer_rules.get("url_categories", [])]
         osm_names = set(categories.get("osm_negative", {}).get("names", []))
@@ -84,7 +110,7 @@ class Rules:
         for brand in targets:
             regex = self.brand_regexes.setdefault(brand, brand_regex(brand))
             arabic = self.common["arabic_brand_patterns"].get(brand.lower())
-            if regex.search(lowered) or (arabic and re.search(arabic, " ".join(lowered.split()[:3]))):
+            if regex.search(lowered) or (arabic and re.search(arabic, " ".join(lowered.split()[:3]))) or glued_brand(brand, lowered):
                 found.append(brand)
         return found
 
@@ -127,9 +153,9 @@ class Rules:
     def name_code(self, row):
         """상품명 맨 앞 종류 약어로 조사 제품군 밖 상품이면 (제외단계, 제외사유). 아니면 None."""
         lowered = " ".join((row["상품명"] or "").lower().split())
-        for name, stage, regex, unless in self.name_codes.get(row["리테일러"], []):
+        for name, stage, regex, unless, how in self.name_codes.get(row["리테일러"], []):
             if regex.search(lowered) and not (unless and unless.search(lowered)):
-                return stage, (f"부품({name}, 상품명 약어)" if stage == KEYWORD_STAGE else f"대상 제품군 아님({name}, 상품명 약어)")
+                return stage, (f"부품({name}, {how})" if stage == KEYWORD_STAGE else f"대상 제품군 아님({name}, {how})")
         return None
 
     def lead_brand(self, row):
