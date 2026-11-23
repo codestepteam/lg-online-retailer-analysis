@@ -105,6 +105,7 @@ class PageAndSeller(unittest.TestCase):
         self.assertEqual((item["페이지상태"], item["실제URL"], item["판매자"], len(item["판매자근거"])), ("정상", "https://x/final", "Alza", 200))
 
 
+
 class TailReopen(unittest.TestCase):
     """D158: 일반 주소가 페이지 없음이라 S3가 꼬리 주소를 다시 열었을 때. 일반 주소 행은 일반 주소 결과, 꼬리 주소 행은 자기 꼬리 주소 결과로 판정한다."""
     PLAIN, TAIL1, TAIL2 = "https://www.amazon.it/dp/B00799JTJI", "https://www.amazon.it/dp/B00799JTJI?smid=A1", "https://www.amazon.it/dp/B00799JTJI?smid=A2"
@@ -191,6 +192,13 @@ class Duplicates(unittest.TestCase):
         falabella = self.run_rows("FALABELLA", ["https://f/falabella-pe/product/111/a/222", "https://f/falabella-pe/product/111/b/222"])
         self.assertEqual(costco[1]["제외사유"], "같은 페이지(주소의 페이지 id 같음, 대표 행 1, #119)")
         self.assertIn("페이지 id", falabella[1]["제외사유"])
+
+    def test_lazada_compress_tail_row_is_dropped(self):
+        tail = "https://www.lazada.sg/products/pdp-i13732955093.html___{compress-%3EeJyFU9Fq3DAQ}"
+        plain = "https://www.lazada.sg/products/pdp-i13732955093.html"
+        rows = self.run_rows("LAZADA", [tail, plain, "https://www.lazada.sg/products/pdp-i999.html___%7Bcompress-%3Eabc"])
+        self.assertEqual([r["제외단계"] for r in rows], ["④중복", "", ""])
+        self.assertEqual(rows[0]["제외사유"], "같은 상품(주소 꼬리표만 다름, 대표 행 2, #119)")
 
     def test_momoshop_page_id(self):
         rows = self.run_rows("MOMOSHOP", ["https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=10041707&kw=a",
@@ -311,6 +319,7 @@ class ReplayV5(unittest.TestCase):
             ("DATART", "③리리부", ""): 1,  # EY 행별 판단(주소에 /bazar/ 없음)
             ("DARTY", "③리리부", "④영구품절"): 4,  # 근거 문구가 같아 품절과 구분 불가
             ("FALABELLA", "", "④중복"): 4,  # v5가 놓친 같은 상품
+            ("LAZADA", "", "④중복"): 99,  # D151: ___{compress…} 꼬리 주소 행(싱가포르 43, 태국 56). EY 답변 2026-11-23
             ("MEDIAMARKT", "④중복", ""): 1,  # 대표 행 5710이 v5(D103)에서 제외됨
             ("CURRYS", "④중복", "④페이지없음"): 1,  # 판정 순서상 상품 페이지 아님이 먼저
         }))

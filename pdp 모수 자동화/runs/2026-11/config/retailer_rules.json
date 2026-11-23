@@ -601,6 +601,10 @@
           "o"
         ]
       },
+      "tail_pattern": {
+        "_설명": "주소에서 이 글자부터 끝까지 떼고 비교한다. 떼기 전과 같은 주소가 있으면 꼬리 있는 행을 뺀다(D151, EY 답변 2026-11-23).",
+        "LAZADA": "___(?:\\{|%7b)compress.*$"
+      },
       "page_id": {
         "MOMOSHOP": "(?:[?&]i_code=|/product/|/goodsdetail/)(\\w+)",
         "COSTCO": "(?:/p/-/[^/?]+/|\\.product\\.)(\\d+)",

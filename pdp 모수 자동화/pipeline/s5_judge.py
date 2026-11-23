@@ -147,6 +147,9 @@ def norm(url, dedupe):
 def duplicate_keys(url, retailer, dedupe):
     """(비교 키, 정규화한 원래 주소, 비교 방식). 방식은 page_id(주소 속 리테일러 내 제품 페이지 식별자, D150)·tail(꼬리표 제거)·url 중 하나다."""
     raw = norm(url, dedupe)
+    tail = dedupe.get("tail_pattern", {}).get(retailer)
+    if tail and re.search(tail, url, re.I):  # Lazada ___{compress…} 꼬리(D151): 떼고 비교한다
+        return norm(re.sub(tail, "", url, flags=re.I), dedupe), raw, "tail"
     pattern = dedupe["page_id"].get(retailer)
     found = re.search(pattern, raw) if pattern else None
     if found:
@@ -156,9 +159,15 @@ def duplicate_keys(url, retailer, dedupe):
 
 
 def remove_duplicates(rows, dedupe):
-    """제외되지 않은 행끼리 같은 국가·리테일러 안에서 실제 도착 주소가 같으면 앞 행만 남긴다. 대표 주소(canonical)는 쓰지 않는다."""
+    """제외되지 않은 행끼리 같은 국가·리테일러 안에서 실제 도착 주소가 같으면 앞 행만 남긴다. 대표 주소(canonical)는 쓰지 않는다.
+    꼬리 주소(설정 tail_pattern, D151) 행은 꼬리 없는 행보다 뒤에 본다. 그래서 둘 다 있으면 꼬리 주소 행이 빠진다."""
     first = {}
-    for row in rows:
+
+    def has_tail(row):
+        tail = dedupe.get("tail_pattern", {}).get(row["리테일러"])
+        return bool(tail and re.search(tail, row["실제URL"] or row["URL"], re.I))
+
+    for row in sorted(rows, key=has_tail):  # 정렬은 안정적이라 꼬리 없는 행끼리, 꼬리 행끼리는 원래 순서를 지킨다
         if row["판정"] == EXCLUDE:
             continue
         key, raw, how = duplicate_keys(row["실제URL"] or row["URL"], row["리테일러"], dedupe)
